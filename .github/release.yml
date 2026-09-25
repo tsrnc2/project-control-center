@@ -1,0 +1,25 @@
+changelog:
+  exclude:
+    labels:
+      - documentation
+    authors:
+      - github-actions[bot]
+  categories:
+    - title: Breaking changes
+      labels:
+        - breaking-change
+    - title: Website
+      labels:
+        - area:site
+    - title: Protocol and coordination
+      labels:
+        - area:protocol
+    - title: Schema and API
+      labels:
+        - area:schema
+    - title: Automation
+      labels:
+        - area:automation
+    - title: Other changes
+      labels:
+        - "*"

@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "repository": "https://github.com/tsrnc2/project-control-center",
+  "endpoints": {
+    "live_state": "https://raw.githubusercontent.com/tsrnc2/project-control-center/live/state.json",
+    "projects": "https://raw.githubusercontent.com/tsrnc2/project-control-center/main/projects.json",
+    "issues": "https://api.github.com/repos/tsrnc2/project-control-center/issues",
+    "locks_directory": "https://api.github.com/repos/tsrnc2/project-control-center/contents/locks?ref=live",
+    "releases": "https://api.github.com/repos/tsrnc2/project-control-center/releases"
+  }
+}

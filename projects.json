@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-09-25T14:55:00-07:00",
+  "projects": [
+    {
+      "id": "kitt",
+      "name": "KITT",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY"
+    },
+    {
+      "id": "llm-reasoning-project",
+      "name": "LLM Reasoning Project",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY"
+    },
+    {
+      "id": "cryptokingpin",
+      "name": "CryptoKingpin",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY"
+    },
+    {
+      "id": "microkernel",
+      "name": "Microkernel",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY"
+    },
+    {
+      "id": "pity-please",
+      "name": "Pity Please",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY"
+    },
+    {
+      "id": "librem5-home-automation",
+      "name": "Librem 5 Home Automation Stack",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY"
+    },
+    {
+      "id": "librem5-arch",
+      "name": "Librem 5 Arch Linux",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY"
+    },
+    {
+      "id": "spotdl-native-android",
+      "name": "spotDL Native Android",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY"
+    },
+    {
+      "id": "project-warehouse",
+      "name": "Project Warehouse",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY"
+    },
+    {
+      "id": "gamecompare",
+      "name": "GameCompare",
+      "lifecycle": "MAINTENANCE",
+      "class": "PRIMARY"
+    },
+    {
+      "id": "crypto-bot",
+      "name": "Crypto Trading Prototype / crypto-bot",
+      "lifecycle": "TRACKED",
+      "class": "TRACKED"
+    },
+    {
+      "id": "project-infinity",
+      "name": "Project Infinity",
+      "lifecycle": "NEEDS-MAPPING",
+      "class": "TRACKED"
+    },
+    {
+      "id": "solclockproject",
+      "name": "SolClockProject",
+      "lifecycle": "NEEDS-MAPPING",
+      "class": "TRACKED"
+    },
+    {
+      "id": "market-system-optimizer",
+      "name": "Market System Optimizer",
+      "lifecycle": "NEEDS-MAPPING",
+      "class": "TRACKED"
+    },
+    {
+      "id": "codex-termux-skills",
+      "name": "Codex Termux Skills",
+      "lifecycle": "MAINTENANCE",
+      "class": "TRACKED"
+    },
+    {
+      "id": "audited-html-builder",
+      "name": "Reusable Audited HTML Builder / Try Canary",
+      "lifecycle": "ACTIVE-CHILD",
+      "class": "SHARED-COMPONENT",
+      "parent_project_id": "cryptokingpin"
+    },
+    {
+      "id": "improved-v2",
+      "name": "Improved / Improved V2",
+      "lifecycle": "SUPERSEDED",
+      "class": "HISTORY",
+      "parent_project_id": "kitt"
+    },
+    {
+      "id": "cryptokingpin-service-rewrite",
+      "name": "cryptokingpin-service-rewrite",
+      "lifecycle": "SUPERSEDED",
+      "class": "HISTORY",
+      "parent_project_id": "cryptokingpin"
+    },
+    {
+      "id": "traveler",
+      "name": "Traveler",
+      "lifecycle": "HISTORICAL",
+      "class": "HISTORICAL"
+    },
+    {
+      "id": "asvas",
+      "name": "ASVAS",
+      "lifecycle": "HISTORICAL",
+      "class": "HISTORICAL"
+    },
+    {
+      "id": "cellular-automaton",
+      "name": "CelluarAutomaton",
+      "lifecycle": "HISTORICAL",
+      "class": "HISTORICAL"
+    },
+    {
+      "id": "level1downloader",
+      "name": "Level1Downloader",
+      "lifecycle": "HISTORICAL",
+      "class": "HISTORICAL"
+    }
+  ]
+}

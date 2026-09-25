@@ -1,0 +1,60 @@
+name: Audit coordination locks
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout control scripts
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          path: source
+      - name: Checkout live coordination branch
+        uses: actions/checkout@v6
+        with:
+          ref: live
+          path: live
+      - name: Audit locks
+        id: audit
+        shell: bash
+        run: |
+          set +e
+          python source/scripts/audit_locks.py live/locks > /tmp/lock-audit.md
+          code=$?
+          set -e
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+      - name: Open or update audit issue
+        if: steps.audit.outputs.code == '2'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          title='[AUDIT] Expired execution locks'
+          number="$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -n1)"
+          if [ -z "$number" ]; then
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body-file /tmp/lock-audit.md
+          else
+            gh issue comment "$number" --repo "$GITHUB_REPOSITORY" --body-file /tmp/lock-audit.md
+          fi
+      - name: Close resolved audit issue
+        if: steps.audit.outputs.code == '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          title='[AUDIT] Expired execution locks'
+          number="$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -n1)"
+          if [ -n "$number" ]; then
+            gh issue close "$number" --repo "$GITHUB_REPOSITORY" --comment 'No expired execution locks remain in the current live branch.'
+          fi

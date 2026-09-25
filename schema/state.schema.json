@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "state.schema.json",
+  "title": "Public Project Control Center live state",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "tracker",
+    "projects",
+    "tasks",
+    "blockers",
+    "activity"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "tracker": {
+      "type": "object",
+      "required": [
+        "name",
+        "repo",
+        "data_branch",
+        "generated_at"
+      ]
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "lifecycle"
+        ]
+      }
+    },
+    "tasks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "project_id",
+          "title",
+          "state",
+          "updated_at"
+        ]
+      }
+    },
+    "blockers": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "activity": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  },
+  "additionalProperties": true
+}

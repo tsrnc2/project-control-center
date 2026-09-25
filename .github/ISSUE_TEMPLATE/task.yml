@@ -1,0 +1,66 @@
+name: Task
+description: Create a trackable work item for a human or agent.
+title: "[TASK] "
+labels:
+  - "type:task"
+  - "state:ready"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Public coordination metadata only. Put private implementation evidence in the project repository.
+  - type: input
+    id: project
+    attributes:
+      label: Project ID
+      description: Canonical ID from projects.json.
+      placeholder: kitt
+    validations:
+      required: true
+  - type: input
+    id: task
+    attributes:
+      label: Task ID
+      description: Use the project's native work ID when possible; otherwise use a stable descriptive ID.
+      placeholder: KITT-123
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - P0
+        - P1
+        - P2
+        - P3
+      default: 2
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Smallest bounded unit of work.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance
+      description: Observable completion conditions.
+      placeholder: |
+        - Condition one
+        - Condition two
+    validations:
+      required: true
+  - type: input
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: Task IDs or external conditions, if any.
+  - type: textarea
+    id: next
+    attributes:
+      label: Next action
+      description: Exact first executable action, if known.

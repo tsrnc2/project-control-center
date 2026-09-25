@@ -1,0 +1,177 @@
+{
+  "schema_version": "1.1",
+  "tracker": {
+    "name": "Project Control Center",
+    "repo": "tsrnc2/project-control-center",
+    "visibility": "public",
+    "data_branch": "live",
+    "generated_at": "2026-09-25T14:55:00-07:00",
+    "refresh_hint_seconds": 120,
+    "source_note": "Sanitized coordination state only. Human task/blocker threads are GitHub Issues; execution locks are files on the live branch."
+  },
+  "projects": [
+    {
+      "id": "kitt",
+      "name": "KITT",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY"
+    },
+    {
+      "id": "llm-reasoning-project",
+      "name": "LLM Reasoning Project",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY"
+    },
+    {
+      "id": "cryptokingpin",
+      "name": "CryptoKingpin",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY"
+    },
+    {
+      "id": "microkernel",
+      "name": "Microkernel",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY"
+    },
+    {
+      "id": "pity-please",
+      "name": "Pity Please",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY"
+    },
+    {
+      "id": "librem5-home-automation",
+      "name": "Librem 5 Home Automation Stack",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY"
+    },
+    {
+      "id": "librem5-arch",
+      "name": "Librem 5 Arch Linux",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY"
+    },
+    {
+      "id": "spotdl-native-android",
+      "name": "spotDL Native Android",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY"
+    },
+    {
+      "id": "project-warehouse",
+      "name": "Project Warehouse",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY"
+    },
+    {
+      "id": "gamecompare",
+      "name": "GameCompare",
+      "lifecycle": "MAINTENANCE",
+      "class": "PRIMARY"
+    },
+    {
+      "id": "crypto-bot",
+      "name": "Crypto Trading Prototype / crypto-bot",
+      "lifecycle": "TRACKED",
+      "class": "TRACKED"
+    },
+    {
+      "id": "project-infinity",
+      "name": "Project Infinity",
+      "lifecycle": "NEEDS-MAPPING",
+      "class": "TRACKED"
+    },
+    {
+      "id": "solclockproject",
+      "name": "SolClockProject",
+      "lifecycle": "NEEDS-MAPPING",
+      "class": "TRACKED"
+    },
+    {
+      "id": "market-system-optimizer",
+      "name": "Market System Optimizer",
+      "lifecycle": "NEEDS-MAPPING",
+      "class": "TRACKED"
+    },
+    {
+      "id": "codex-termux-skills",
+      "name": "Codex Termux Skills",
+      "lifecycle": "MAINTENANCE",
+      "class": "TRACKED"
+    },
+    {
+      "id": "audited-html-builder",
+      "name": "Reusable Audited HTML Builder / Try Canary",
+      "lifecycle": "ACTIVE-CHILD",
+      "class": "SHARED-COMPONENT",
+      "parent_project_id": "cryptokingpin"
+    },
+    {
+      "id": "improved-v2",
+      "name": "Improved / Improved V2",
+      "lifecycle": "SUPERSEDED",
+      "class": "HISTORY",
+      "parent_project_id": "kitt"
+    },
+    {
+      "id": "cryptokingpin-service-rewrite",
+      "name": "cryptokingpin-service-rewrite",
+      "lifecycle": "SUPERSEDED",
+      "class": "HISTORY",
+      "parent_project_id": "cryptokingpin"
+    },
+    {
+      "id": "traveler",
+      "name": "Traveler",
+      "lifecycle": "HISTORICAL",
+      "class": "HISTORICAL"
+    },
+    {
+      "id": "asvas",
+      "name": "ASVAS",
+      "lifecycle": "HISTORICAL",
+      "class": "HISTORICAL"
+    },
+    {
+      "id": "cellular-automaton",
+      "name": "CelluarAutomaton",
+      "lifecycle": "HISTORICAL",
+      "class": "HISTORICAL"
+    },
+    {
+      "id": "level1downloader",
+      "name": "Level1Downloader",
+      "lifecycle": "HISTORICAL",
+      "class": "HISTORICAL"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "kitt-20260925-project-control-center",
+      "project_id": "kitt",
+      "title": "Build Project Control Center tracking website",
+      "state": "RUNNING",
+      "priority": "P1",
+      "claimed_by": "chatgpt-web-builder",
+      "claim_expires_at": "2026-09-26T14:50:00-07:00",
+      "lease": {
+        "state": "ACTIVE",
+        "agent_id": "chatgpt-web-builder",
+        "expires_at": "2026-09-25T16:50:00-07:00"
+      },
+      "updated_at": "2026-09-25T14:55:00-07:00",
+      "next_action": "Create the dedicated public repository, copy this bootstrap to main, create live, enable GitHub Pages/Discussions, and run metadata sync."
+    }
+  ],
+  "blockers": [],
+  "activity": [
+    {
+      "at": "2026-09-25T14:55:00-07:00",
+      "type": "ARCHITECTURE",
+      "project_id": "kitt",
+      "task_id": "kitt-20260925-project-control-center",
+      "summary": "Expanded tracker to GitHub-native main/live branch model with Pages, Issues, Actions, Discussions, PRs, releases, labels, milestones, security policy, and ruleset guidance."
+    }
+  ]
+}

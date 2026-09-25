@@ -1,0 +1,25 @@
+name: Site bug
+description: Report a Project Control Center UI/API problem.
+title: "[SITE] "
+labels:
+  - "type:site-bug"
+  - "area:site"
+  - "state:ready"
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Public-safe context
+      description: Browser, URL, and reproduction details. Do not include credentials or private data.

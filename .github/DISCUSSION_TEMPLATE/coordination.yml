@@ -1,0 +1,20 @@
+title: "[Coordination] "
+labels:
+  - "area:protocol"
+body:
+  - type: input
+    id: projects
+    attributes:
+      label: Project IDs involved
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Coordination question
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Known options or constraints

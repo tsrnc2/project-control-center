@@ -1,0 +1,21 @@
+name: Validate tracker
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Validate tracker model and public-data guardrails
+        run: python scripts/validate_tracker.py
+      - name: Check browser JavaScript syntax
+        run: node --check assets/app.js

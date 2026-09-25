@@ -1,0 +1,220 @@
+{
+  "schema_version": "1.0",
+  "labels": [
+    {
+      "name": "type:task",
+      "color": "1f6feb",
+      "description": "Work item tracked by humans and agents"
+    },
+    {
+      "name": "type:blocker",
+      "color": "b60205",
+      "description": "Blocking condition requiring action or changed evidence"
+    },
+    {
+      "name": "type:project-intake",
+      "color": "8250df",
+      "description": "Proposed canonical project or project mapping change"
+    },
+    {
+      "name": "type:site-bug",
+      "color": "d73a4a",
+      "description": "Project Control Center site defect"
+    },
+    {
+      "name": "state:ready",
+      "color": "d4c5f9",
+      "description": "Ready to be claimed"
+    },
+    {
+      "name": "state:claimed",
+      "color": "a2eeef",
+      "description": "Durably assigned but not currently executing"
+    },
+    {
+      "name": "state:running",
+      "color": "0e8a16",
+      "description": "Execution is active"
+    },
+    {
+      "name": "state:blocked",
+      "color": "b60205",
+      "description": "Cannot proceed under current conditions"
+    },
+    {
+      "name": "state:done",
+      "color": "1d76db",
+      "description": "Completed with required public handoff"
+    },
+    {
+      "name": "state:no-progress",
+      "color": "fbca04",
+      "description": "No useful progress in the latest bounded run"
+    },
+    {
+      "name": "state:cancelled",
+      "color": "6e7781",
+      "description": "Cancelled or intentionally stopped"
+    },
+    {
+      "name": "priority:p0",
+      "color": "b60205",
+      "description": "Critical / immediate"
+    },
+    {
+      "name": "priority:p1",
+      "color": "d93f0b",
+      "description": "High priority"
+    },
+    {
+      "name": "priority:p2",
+      "color": "fbca04",
+      "description": "Normal priority"
+    },
+    {
+      "name": "priority:p3",
+      "color": "c5def5",
+      "description": "Low priority"
+    },
+    {
+      "name": "severity:critical",
+      "color": "8b0000",
+      "description": "Critical blocker severity"
+    },
+    {
+      "name": "severity:high",
+      "color": "b60205",
+      "description": "High blocker severity"
+    },
+    {
+      "name": "severity:medium",
+      "color": "fbca04",
+      "description": "Medium blocker severity"
+    },
+    {
+      "name": "severity:low",
+      "color": "c5def5",
+      "description": "Low blocker severity"
+    },
+    {
+      "name": "area:site",
+      "color": "0969da",
+      "description": "Dashboard UI / Pages"
+    },
+    {
+      "name": "area:protocol",
+      "color": "5319e7",
+      "description": "Agent coordination protocol"
+    },
+    {
+      "name": "area:schema",
+      "color": "0052cc",
+      "description": "Machine-readable schemas / data model"
+    },
+    {
+      "name": "area:automation",
+      "color": "bf3989",
+      "description": "GitHub Actions and automation"
+    },
+    {
+      "name": "documentation",
+      "color": "0075ca",
+      "description": "Documentation change"
+    },
+    {
+      "name": "breaking-change",
+      "color": "d73a4a",
+      "description": "Breaking tracker/protocol change"
+    },
+    {
+      "name": "help wanted",
+      "color": "008672",
+      "description": "Additional contributors/agents useful"
+    },
+    {
+      "name": "good first issue",
+      "color": "7057ff",
+      "description": "Good bounded first contribution"
+    },
+    {
+      "name": "project:kitt",
+      "color": "bfdadc",
+      "description": "Project: KITT"
+    },
+    {
+      "name": "project:llm-reasoning-project",
+      "color": "bfdadc",
+      "description": "Project: LLM Reasoning Project"
+    },
+    {
+      "name": "project:cryptokingpin",
+      "color": "bfdadc",
+      "description": "Project: CryptoKingpin"
+    },
+    {
+      "name": "project:microkernel",
+      "color": "bfdadc",
+      "description": "Project: Microkernel"
+    },
+    {
+      "name": "project:pity-please",
+      "color": "bfdadc",
+      "description": "Project: Pity Please"
+    },
+    {
+      "name": "project:librem5-home-automation",
+      "color": "bfdadc",
+      "description": "Project: Librem 5 Home Automation Stack"
+    },
+    {
+      "name": "project:librem5-arch",
+      "color": "bfdadc",
+      "description": "Project: Librem 5 Arch Linux"
+    },
+    {
+      "name": "project:spotdl-native-android",
+      "color": "bfdadc",
+      "description": "Project: spotDL Native Android"
+    },
+    {
+      "name": "project:project-warehouse",
+      "color": "bfdadc",
+      "description": "Project: Project Warehouse"
+    },
+    {
+      "name": "project:gamecompare",
+      "color": "bfdadc",
+      "description": "Project: GameCompare"
+    },
+    {
+      "name": "project:crypto-bot",
+      "color": "bfdadc",
+      "description": "Project: Crypto Trading Prototype / crypto-bot"
+    },
+    {
+      "name": "project:project-infinity",
+      "color": "bfdadc",
+      "description": "Project: Project Infinity"
+    },
+    {
+      "name": "project:solclockproject",
+      "color": "bfdadc",
+      "description": "Project: SolClockProject"
+    },
+    {
+      "name": "project:market-system-optimizer",
+      "color": "bfdadc",
+      "description": "Project: Market System Optimizer"
+    },
+    {
+      "name": "project:codex-termux-skills",
+      "color": "bfdadc",
+      "description": "Project: Codex Termux Skills"
+    },
+    {
+      "name": "project:audited-html-builder",
+      "color": "bfdadc",
+      "description": "Project: Reusable Audited HTML Builder / Try Canary"
+    }
+  ]
+}

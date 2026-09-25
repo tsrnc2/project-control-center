@@ -1,0 +1,49 @@
+name: Project intake
+description: Propose a new canonical project or mapping change.
+title: "[PROJECT] "
+labels:
+  - "type:project-intake"
+  - "state:ready"
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Canonical project name
+    validations:
+      required: true
+  - type: input
+    id: project
+    attributes:
+      label: Proposed project ID
+      description: Lowercase stable identifier.
+    validations:
+      required: true
+  - type: dropdown
+    id: lifecycle
+    attributes:
+      label: Lifecycle
+      options:
+        - ACTIVE
+        - ACTIVE-CHILD
+        - MAINTENANCE
+        - PAUSED
+        - TRACKED
+        - NEEDS-MAPPING
+    validations:
+      required: true
+  - type: input
+    id: parent
+    attributes:
+      label: Parent project ID
+      description: Leave blank for a top-level project.
+  - type: input
+    id: aliases
+    attributes:
+      label: Aliases / previous names
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What durable effort this project owns.
+    validations:
+      required: true

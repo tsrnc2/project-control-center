@@ -1,0 +1,37 @@
+name: Create coordination snapshot release
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          path: main
+      - name: Checkout live
+        uses: actions/checkout@v6
+        with:
+          ref: live
+          path: live
+      - name: Create immutable snapshot release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="snapshot-$(date -u +%Y%m%dT%H%M%SZ)"
+          gh release create "$tag" \
+            live/state.json \
+            main/projects.json \
+            main/schema/state.schema.json \
+            --repo "$GITHUB_REPOSITORY" \
+            --target main \
+            --title "Coordination snapshot $tag" \
+            --generate-notes

@@ -1,0 +1,63 @@
+name: Blocker
+description: Record a condition that prevents truthful progress.
+title: "[BLOCKER] "
+labels:
+  - "type:blocker"
+  - "state:blocked"
+body:
+  - type: input
+    id: project
+    attributes:
+      label: Project ID
+      placeholder: kitt
+    validations:
+      required: true
+  - type: input
+    id: task
+    attributes:
+      label: Task ID
+      description: Task blocked by this condition.
+    validations:
+      required: true
+  - type: input
+    id: blocker
+    attributes:
+      label: Blocker ID
+      description: Stable blocker ID, if one already exists.
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - CRITICAL
+        - HIGH
+        - MEDIUM
+        - LOW
+      default: 2
+    validations:
+      required: true
+  - type: textarea
+    id: condition
+    attributes:
+      label: Blocking condition
+      description: Exact condition preventing progress.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Safe evidence references
+      description: Public-safe paths, revisions, or IDs only. Do not paste private logs or secrets.
+  - type: textarea
+    id: action
+    attributes:
+      label: Required next action
+      description: Smallest action or changed condition that can unblock the task.
+    validations:
+      required: true
+  - type: checkboxes
+    id: human
+    attributes:
+      label: Human intervention
+      options:
+        - label: This blocker requires a human decision, credential, approval, or external action.

@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "milestones": [
+    {
+      "title": "Project: kitt",
+      "description": "Task progress for KITT",
+      "state": "open"
+    },
+    {
+      "title": "Project: llm-reasoning-project",
+      "description": "Task progress for LLM Reasoning Project",
+      "state": "open"
+    },
+    {
+      "title": "Project: cryptokingpin",
+      "description": "Task progress for CryptoKingpin",
+      "state": "open"
+    },
+    {
+      "title": "Project: microkernel",
+      "description": "Task progress for Microkernel",
+      "state": "open"
+    },
+    {
+      "title": "Project: pity-please",
+      "description": "Task progress for Pity Please",
+      "state": "open"
+    },
+    {
+      "title": "Project: librem5-home-automation",
+      "description": "Task progress for Librem 5 Home Automation Stack",
+      "state": "open"
+    },
+    {
+      "title": "Project: librem5-arch",
+      "description": "Task progress for Librem 5 Arch Linux",
+      "state": "open"
+    },
+    {
+      "title": "Project: spotdl-native-android",
+      "description": "Task progress for spotDL Native Android",
+      "state": "open"
+    },
+    {
+      "title": "Project: project-warehouse",
+      "description": "Task progress for Project Warehouse",
+      "state": "open"
+    },
+    {
+      "title": "Project: gamecompare",
+      "description": "Task progress for GameCompare",
+      "state": "open"
+    },
+    {
+      "title": "Project: crypto-bot",
+      "description": "Task progress for Crypto Trading Prototype / crypto-bot",
+      "state": "open"
+    },
+    {
+      "title": "Project: project-infinity",
+      "description": "Task progress for Project Infinity",
+      "state": "open"
+    },
+    {
+      "title": "Project: solclockproject",
+      "description": "Task progress for SolClockProject",
+      "state": "open"
+    },
+    {
+      "title": "Project: market-system-optimizer",
+      "description": "Task progress for Market System Optimizer",
+      "state": "open"
+    },
+    {
+      "title": "Project: codex-termux-skills",
+      "description": "Task progress for Codex Termux Skills",
+      "state": "open"
+    },
+    {
+      "title": "Project: audited-html-builder",
+      "description": "Task progress for Reusable Audited HTML Builder / Try Canary",
+      "state": "open"
+    }
+  ]
+}

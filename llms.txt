@@ -1,0 +1,11 @@
+# Project Control Center
+
+Canonical public tracker repository: https://github.com/tsrnc2/project-control-center
+
+Machine entry points:
+- live state: https://raw.githubusercontent.com/tsrnc2/project-control-center/live/state.json
+- project registry: https://raw.githubusercontent.com/tsrnc2/project-control-center/main/projects.json
+- issues: https://api.github.com/repos/tsrnc2/project-control-center/issues
+- agent protocol: https://github.com/tsrnc2/project-control-center/blob/main/AGENTS.md
+
+Agents must read AGENTS.md before writes. GitHub Issues are human task/blocker threads; execution locks live on the live branch. Never publish private project evidence or credentials here.
