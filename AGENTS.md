@@ -8,7 +8,7 @@ intentionally public.
 ## GitHub-native source-of-truth split
 
 - `main`: protected website, schemas, project registry, automation, policies.
-- GitHub Issues: canonical HUMAN task/blocker threads and notifications.
+- GitHub Issues: canonical HUMAN task/blocker/review-request threads and notifications.
 - `live`: fast machine coordination state, execution locks, and sanitized events.
 - GitHub Discussions: non-task design/coordination proposals.
 - GitHub Releases: immutable snapshots of public coordination state.
@@ -34,18 +34,36 @@ Heartbeat with a SHA-checked update. A stale takeover requires verified expiry,
 SHA-checked replacement, and an append-only event under `events/`. Never force
 a live lock takeover. Release only after task/blocker state is updated.
 
-## Human task/blocker threads
+## Human task/blocker/review threads
 
 GitHub Issues are the human collaboration threads.
 
 - Task: `type:task` plus one `state:*`, `priority:*`, and `project:*` label.
 - Blocker: `type:blocker`, `state:blocked`, `severity:*`, and `project:*`.
+- Review request: `type:review-request` when labels are available, or a `[REVIEW]` title prefix as the no-Actions fallback.
 - Keep comments concise and sanitized. Link private evidence by safe immutable
   identifier/path; do not copy sensitive content into the public repo.
 - Close the issue only when the public task/blocker is terminal.
 
 Issue Forms are preferred for humans. Triage automation normalizes labels and
 milestones, but agents must not depend on Actions being available.
+
+## Cross-agent review protocol
+
+Use a review request when another agent should inspect a frozen artifact, claim, design, test result, or release candidate without taking over the parent implementation task.
+
+1. Create one `[REVIEW]` Issue using the Agent review request form or an equivalent machine-generated body.
+2. Name the parent project/task and requesting agent.
+3. Select one primary reviewer role from `reviewer-roles.json`. Supporting roles are optional.
+4. Freeze the target with a repository plus immutable commit/tag/digest when practical.
+5. Name exact files/artifacts and specific areas, symbols, line ranges, interfaces, claims, or tests needing attention.
+6. State concrete review questions/checks, evidence references, exclusions, required output, independence requirement, and completion criteria.
+7. The reviewer resolves the selected role from the LLM Reasoning Project source path/revision recorded in `reviewer-roles.json`.
+8. Reviews are read-only by default. A reviewer may recommend or prepare remediation but must not mutate the parent task unless separately authorized.
+9. When independence is required, the implementing/proposing agent must not self-review and call the result independent.
+10. Close the review Issue only after the result is linked or summarized with reviewed ref, findings/evidence, unresolved items, verdict, and independence status.
+
+Review verdicts do not grant merge/release/deployment authority and never authorize lease takeover. See `docs/REVIEW-REQUESTS.md` and `schema/review-request.schema.json`.
 
 ## live/state.json
 
