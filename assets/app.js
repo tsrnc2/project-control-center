@@ -14,6 +14,7 @@
   const esc = (v='') => String(v).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const badge = (s) => `<span class="badge ${esc(String(s).toUpperCase())}">${esc(s)}</span>`;
   const when = (s) => s ? new Date(s).toLocaleString() : '—';
+  const multiline = (v='') => esc(v).replace(/\n/g,'<br>');
   const labels = issue => new Set((issue.labels||[]).map(x => typeof x === 'string' ? x : x.name));
   const labelValue = (set,prefix) => [...set].find(x => x.startsWith(prefix))?.slice(prefix.length) || '';
 
@@ -55,6 +56,42 @@
       summary:(issue.title||'').replace(/^\[BLOCKER\]\s*/i,''),
       required_next_action:field(issue.body,'Required next action') || '',
       issue_number:issue.number, issue_url:issue.html_url, updated_at:issue.updated_at
+    };
+  }
+
+  function issueReview(issue){
+    if(issue.pull_request) return null;
+    const ls=labels(issue);
+    if(!ls.has('type:review-request') && !/^\[REVIEW\]/i.test(issue.title||'')) return null;
+    const labelState=labelValue(ls,'review:');
+    const state=issue.state==='closed' || labelState==='completed'
+      ? 'COMPLETED'
+      : (labelState==='claimed' ? 'CLAIMED' : 'REQUESTED');
+    return {
+      id:field(issue.body,'Review request ID') || `review-issue-${issue.number}`,
+      project_id:labelValue(ls,'project:') || field(issue.body,'Project ID'),
+      task_id:field(issue.body,'Parent task ID'),
+      title:(issue.title||'').replace(/^\[REVIEW\]\s*/i,''),
+      state,
+      requester:field(issue.body,'Requesting agent'),
+      preferred_reviewer:field(issue.body,'Preferred reviewer agent'),
+      role:field(issue.body,'Primary reviewer role'),
+      additional_roles:field(issue.body,'Additional reviewer roles'),
+      source_repo:field(issue.body,'Source repository'),
+      source_ref:field(issue.body,'Source ref / immutable revision'),
+      files:field(issue.body,'Files / artifacts to review'),
+      areas:field(issue.body,'Specific areas needing attention'),
+      objective:field(issue.body,'Review objective / questions'),
+      checks:field(issue.body,'Requested checks'),
+      independence:field(issue.body,'Reviewer independence'),
+      evidence:field(issue.body,'Evidence and context references'),
+      exclusions:field(issue.body,'Explicit exclusions / non-goals'),
+      required_output:field(issue.body,'Required review output'),
+      completion:field(issue.body,'Completion criteria'),
+      issue_number:issue.number,
+      issue_url:issue.html_url,
+      updated_at:issue.updated_at,
+      created_at:issue.created_at
     };
   }
 
@@ -114,16 +151,29 @@
     return [...byKey.values()];
   }
 
+  function mergedReviews(){
+    const byId=new Map();
+    for(const r of (snapshot?.reviews||[])) byId.set(r.id,{...r});
+    for(const issue of githubIssues){
+      const r=issueReview(issue); if(!r) continue;
+      const old=byId.get(r.id)||{};
+      byId.set(r.id,{...old,...r});
+    }
+    return [...byId.values()];
+  }
+
   function render() {
     const projects = snapshot?.projects || [];
     const tasks = mergedTasks();
     const blockers = mergedBlockers().filter(b => b.state !== 'RESOLVED');
+    const reviews = mergedReviews().filter(r => r.state !== 'COMPLETED');
     const active = tasks.filter(t => ['CLAIMED','RUNNING'].includes(t.state));
     const agents = new Set(active.map(t => t.lease?.agent_id || t.claimed_by).filter(Boolean));
 
     $('metric-projects').textContent = projects.length;
     $('metric-running').textContent = active.length;
     $('metric-blockers').textContent = blockers.length;
+    $('metric-reviews').textContent = reviews.length;
     $('metric-agents').textContent = agents.size;
 
     fillSelect('project-filter', [...new Set(projects.map(p => p.lifecycle))].sort());
@@ -134,15 +184,16 @@
     const tf = $('task-filter').value;
     const match = obj => !q || JSON.stringify(obj).toLowerCase().includes(q);
 
-    const taskCounts = new Map(), blockerCounts = new Map();
+    const taskCounts = new Map(), blockerCounts = new Map(), reviewCounts = new Map();
     tasks.forEach(t => taskCounts.set(t.project_id,(taskCounts.get(t.project_id)||0)+1));
     blockers.forEach(b => blockerCounts.set(b.project_id,(blockerCounts.get(b.project_id)||0)+1));
+    reviews.forEach(r => reviewCounts.set(r.project_id,(reviewCounts.get(r.project_id)||0)+1));
 
     $('projects').innerHTML = projects.filter(p => (!pf || p.lifecycle===pf) && match(p)).map(p => `
       <article class="card">
         <div class="row-head"><h3>${esc(p.name)}</h3>${badge(p.lifecycle)}</div>
         <div class="meta small">
-          <span>${taskCounts.get(p.id)||0} tasks</span><span>·</span><span>${blockerCounts.get(p.id)||0} blockers</span>
+          <span>${taskCounts.get(p.id)||0} tasks</span><span>·</span><span>${blockerCounts.get(p.id)||0} blockers</span><span>·</span><span>${reviewCounts.get(p.id)||0} reviews</span>
           ${p.parent_project_id ? `<span>· child of ${esc(p.parent_project_id)}</span>` : ''}
         </div>
       </article>`).join('') || '<p class="muted">No matching projects.</p>';
@@ -166,6 +217,24 @@
         <p class="small">${esc(b.project_id||'unmapped')} · task ${esc(b.task_id||'—')}</p>
         <p>${esc(b.required_next_action||'')}</p>
       </article>`).join('') || '<p class="muted">No open blockers.</p>';
+
+    $('reviews').innerHTML = reviews.filter(match).map(r => `
+      <article class="row">
+        <div class="row-head">
+          <div>
+            <h3>${r.issue_url ? `<a class="issue-link" href="${esc(r.issue_url)}">${esc(r.title||r.id)}</a>` : esc(r.title||r.id)}</h3>
+            <div class="meta">${badge(r.state)} <span class="small">${esc(r.project_id||'unmapped')} · task ${esc(r.task_id||'—')}</span></div>
+          </div>
+          <span class="small muted">${when(r.updated_at)}</span>
+        </div>
+        <p class="small"><strong>Requester:</strong> ${esc(r.requester||'—')} · <strong>Preferred reviewer:</strong> ${esc(r.preferred_reviewer||'any eligible agent')}</p>
+        <p class="small"><strong>Role:</strong> ${esc(r.role||'—')}${r.additional_roles ? ` · supporting: ${esc(r.additional_roles).replace(/\n/g,', ')}` : ''}</p>
+        <p class="small"><strong>Source:</strong> ${esc(r.source_repo||'—')}@${esc(r.source_ref||'—')} · <strong>Independence:</strong> ${esc(r.independence||'—')}</p>
+        ${r.files ? `<p class="small"><strong>Files/artifacts:</strong><br>${multiline(r.files)}</p>` : ''}
+        ${r.areas ? `<p class="small"><strong>Attention areas:</strong><br>${multiline(r.areas)}</p>` : ''}
+        ${r.objective ? `<p class="small"><strong>Questions:</strong><br>${multiline(r.objective)}</p>` : ''}
+        ${r.required_output ? `<p class="small"><strong>Output:</strong> ${esc(r.required_output)}</p>` : ''}
+      </article>`).join('') || '<p class="muted">No open review requests.</p>';
 
     $('activity').innerHTML = (snapshot?.activity||[]).slice().reverse().filter(match).slice(0,50).map(e => `
       <article class="row">
@@ -199,6 +268,7 @@
   $('discussion-card-link').href=repoUrl+'/discussions';
   $('new-task').href=repoUrl+'/issues/new?template=task.yml';
   $('new-blocker').href=repoUrl+'/issues/new?template=blocker.yml';
+  $('new-review').href=repoUrl+'/issues/new?template=review-request.yml';
   $('new-project').href=repoUrl+'/issues/new?template=project-intake.yml';
   $('state-link').href=rawLiveState;
   $('projects-link').href=rawProjects;
