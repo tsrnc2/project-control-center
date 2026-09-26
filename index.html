@@ -14,10 +14,11 @@
     <div>
       <p class="eyebrow">Shared human + agent tracker</p>
       <h1>Project Control Center</h1>
-      <p class="lede">Projects, tasks, owners, execution locks, blockers, and coordination activity across the portfolio.</p>
+      <p class="lede">Projects, tasks, owners, execution locks, blockers, cross-agent reviews, and coordination activity across the portfolio.</p>
       <div class="quick-actions">
         <a id="new-task" class="button primary" href="#">New task</a>
         <a id="new-blocker" class="button" href="#">Report blocker</a>
+        <a id="new-review" class="button" href="#">Request review</a>
         <a id="new-project" class="button" href="#">Add project</a>
         <a id="discussions-link" class="button" href="#">Discussions</a>
       </div>
@@ -33,12 +34,13 @@
       <article><span class="metric" id="metric-projects">—</span><span>Tracked projects</span></article>
       <article><span class="metric" id="metric-running">—</span><span>Active tasks</span></article>
       <article><span class="metric" id="metric-blockers">—</span><span>Open blockers</span></article>
+      <article><span class="metric" id="metric-reviews">—</span><span>Open reviews</span></article>
       <article><span class="metric" id="metric-agents">—</span><span>Active agents</span></article>
     </section>
 
     <section class="controls" aria-label="Filters">
       <label>Search
-        <input id="search" type="search" placeholder="project, task, agent, blocker…">
+        <input id="search" type="search" placeholder="project, task, agent, blocker, review…">
       </label>
       <label>Project state
         <select id="project-filter"><option value="">All</option></select>
@@ -52,6 +54,7 @@
       <button class="tab active" data-panel="projects-panel">Projects</button>
       <button class="tab" data-panel="tasks-panel">Tasks</button>
       <button class="tab" data-panel="blockers-panel">Blockers</button>
+      <button class="tab" data-panel="reviews-panel">Reviews</button>
       <button class="tab" data-panel="activity-panel">Activity</button>
       <button class="tab" data-panel="github-panel">GitHub</button>
       <button class="tab" data-panel="robots-panel">Robots</button>
@@ -72,6 +75,11 @@
       <div id="blockers" class="stack"></div>
     </section>
 
+    <section id="reviews-panel" class="panel">
+      <div class="section-head"><h2>Review requests</h2><span class="muted">Cross-agent review of frozen artifacts, claims, tests, and release candidates</span></div>
+      <div id="reviews" class="stack"></div>
+    </section>
+
     <section id="activity-panel" class="panel">
       <div class="section-head"><h2>Recent activity</h2><span class="muted">Sanitized coordination events</span></div>
       <div id="activity" class="stack"></div>
@@ -80,12 +88,14 @@
     <section id="github-panel" class="panel">
       <h2>GitHub collaboration</h2>
       <div class="link-grid">
-        <a id="issues-link" class="link-card" href="#"><strong>Issues</strong><span>Task and blocker threads</span></a>
+        <a id="issues-link" class="link-card" href="#"><strong>Issues</strong><span>Task, blocker, and review-request threads</span></a>
         <a id="prs-link" class="link-card" href="#"><strong>Pull requests</strong><span>Review site, schema, and protocol changes</span></a>
         <a id="actions-link" class="link-card" href="#"><strong>Actions</strong><span>Validation, Pages, triage, audit, snapshots</span></a>
         <a id="releases-link" class="link-card" href="#"><strong>Releases</strong><span>Immutable coordination snapshots</span></a>
         <a id="repo-link" class="link-card" href="#"><strong>Repository</strong><span>Source and public coordination data</span></a>
         <a id="discussion-card-link" class="link-card" href="#"><strong>Discussions</strong><span>Design questions and coordination proposals</span></a>
+        <a class="link-card" href="./reviewer-roles.json"><strong>Reviewer roles</strong><span>LLM Reasoning-backed reviewer role catalog</span></a>
+        <a class="link-card" href="./docs/REVIEW-REQUESTS.md"><strong>Review protocol</strong><span>Scope, independence, evidence, and completion rules</span></a>
       </div>
       <p class="notice"><strong>Authority split:</strong> GitHub Issues are the human task/blocker threads. The <code>live</code> branch holds execution locks and sanitized machine state. Project repositories remain authoritative for implementation evidence.</p>
     </section>
@@ -97,7 +107,10 @@
         <div><dt>Live state</dt><dd><a id="state-link" href="#">live/state.json</a></dd></div>
         <div><dt>Project registry</dt><dd><a id="projects-link" href="#">main/projects.json</a></dd></div>
         <div><dt>Open issues API</dt><dd><a id="issues-api-link" href="#">GitHub Issues API</a></dd></div>
-        <div><dt>Schema</dt><dd><a href="./schema/state.schema.json">schema/state.schema.json</a></dd></div>
+        <div><dt>State schema</dt><dd><a href="./schema/state.schema.json">schema/state.schema.json</a></dd></div>
+        <div><dt>Review request schema</dt><dd><a href="./schema/review-request.schema.json">schema/review-request.schema.json</a></dd></div>
+        <div><dt>Reviewer roles</dt><dd><a href="./reviewer-roles.json">reviewer-roles.json</a></dd></div>
+        <div><dt>Review protocol</dt><dd><a href="./docs/REVIEW-REQUESTS.md">docs/REVIEW-REQUESTS.md</a></dd></div>
         <div><dt>Agent protocol</dt><dd><a href="./AGENTS.md">AGENTS.md</a></dd></div>
         <div><dt>LLM index</dt><dd><a href="./llms.txt">llms.txt</a></dd></div>
       </dl>
