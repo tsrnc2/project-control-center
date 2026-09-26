@@ -235,6 +235,11 @@
       "name": "project:audited-html-builder",
       "color": "bfdadc",
       "description": "Project: Reusable Audited HTML Builder / Try Canary"
+    },
+    {
+      "name": "project:neovim-developer-environment",
+      "color": "bfdadc",
+      "description": "Project: Neovim Developer Environment"
     }
   ]
 }
