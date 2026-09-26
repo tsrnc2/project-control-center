@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "review-request.schema.json",
+  "title": "Project Control Center agent review request",
+  "type": "object",
+  "required": [
+    "project_id",
+    "parent_task_id",
+    "requesting_agent",
+    "primary_reviewer_role",
+    "source_repository",
+    "source_ref",
+    "artifacts",
+    "attention_areas",
+    "objective",
+    "independence",
+    "completion_criteria"
+  ],
+  "properties": {
+    "review_request_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "project_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "parent_task_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "requesting_agent": {
+      "type": "string",
+      "minLength": 1
+    },
+    "preferred_reviewer_agent": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "primary_reviewer_role": {
+      "type": "string",
+      "minLength": 1
+    },
+    "additional_reviewer_roles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "source_repository": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "artifacts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "attention_areas": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "objective": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "requested_checks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "independence": {
+      "enum": [
+        "required",
+        "preferred",
+        "same_agent_permitted"
+      ]
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "exclusions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "required_output": {
+      "type": "string"
+    },
+    "completion_criteria": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

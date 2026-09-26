@@ -1,0 +1,175 @@
+name: Agent review request
+description: Request a bounded review from another agent using a defined reviewer role.
+title: "[REVIEW] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for read-only or evidence-producing review work. Do not put secrets, private logs, credentials, or sensitive implementation content in this public tracker. Reference private evidence by safe repository/path/ref identifiers.
+
+        Reviewer role IDs are defined in `reviewer-roles.json`. Prefer an immutable source commit for the artifact under review.
+  - type: input
+    id: project
+    attributes:
+      label: Project ID
+      description: Canonical project ID from projects.json.
+      placeholder: kitt
+    validations:
+      required: true
+  - type: input
+    id: task
+    attributes:
+      label: Parent task ID
+      description: Task or work item that produced the artifact. Use "standalone" only when no parent task exists.
+      placeholder: KITT-P002
+    validations:
+      required: true
+  - type: input
+    id: request_id
+    attributes:
+      label: Review request ID
+      description: Stable ID when one already exists; otherwise agents may use the issue number after creation.
+      placeholder: REVIEW-KITT-P002-API-CONTRACT
+  - type: input
+    id: requester
+    attributes:
+      label: Requesting agent
+      description: Agent ID or human requester.
+      placeholder: chatgpt-kitt-priority-runner
+    validations:
+      required: true
+  - type: input
+    id: preferred_reviewer
+    attributes:
+      label: Preferred reviewer agent
+      description: Optional specific agent ID. Leave blank when any eligible independent agent may claim the review.
+  - type: dropdown
+    id: role
+    attributes:
+      label: Primary reviewer role
+      description: Stable role ID from reviewer-roles.json.
+      options:
+        - adversarial-reasoning-reviewer
+        - protocol-security-reviewer
+        - governance-release-reviewer
+        - incident-reviewer
+        - cpp-reviewer
+        - cpp-concurrency-reviewer
+        - verification-test-designer
+        - claim-evidence-reviewer
+    validations:
+      required: true
+  - type: textarea
+    id: additional_roles
+    attributes:
+      label: Additional reviewer roles
+      description: Optional supporting role IDs, one per line. Keep one primary role responsible for the final review result.
+  - type: input
+    id: source_repo
+    attributes:
+      label: Source repository
+      description: Repository containing the artifact under review.
+      placeholder: tsrnc2/kitt
+    validations:
+      required: true
+  - type: input
+    id: source_ref
+    attributes:
+      label: Source ref / immutable revision
+      description: Prefer a full commit SHA, immutable tag, candidate digest, or equivalent frozen revision.
+      placeholder: 40-character commit SHA
+    validations:
+      required: true
+  - type: textarea
+    id: files
+    attributes:
+      label: Files / artifacts to review
+      description: Exact file paths, directories, generated artifacts, PRs, reports, schemas, or binaries. One item per line when practical.
+      placeholder: |
+        src/api/client_contract.h
+        docs/API-V1.md
+        tests/api_contract_test.cpp
+    validations:
+      required: true
+  - type: textarea
+    id: areas
+    attributes:
+      label: Specific areas needing attention
+      description: Functions, symbols, line ranges, interfaces, claims, threat surfaces, test cases, or other bounded hotspots.
+      placeholder: |
+        client_contract.h: API ownership and lifetime rules
+        API-V1.md: error semantics and backward compatibility
+        tests/: negative cases for malformed responses
+    validations:
+      required: true
+  - type: textarea
+    id: objective
+    attributes:
+      label: Review objective / questions
+      description: State what the reviewer must decide, challenge, verify, or falsify.
+      placeholder: |
+        - Are the API v1 error semantics internally consistent?
+        - Are any lifetime or authority assumptions undocumented?
+        - Which acceptance criteria remain unverified?
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Requested checks
+      options:
+        - label: Correctness / internal consistency
+        - label: Requirement and acceptance-criteria coverage
+        - label: Claim-to-evidence support
+        - label: Security / authority / trust boundaries
+        - label: Concurrency / lifetime / shutdown behavior
+        - label: API / ABI / compatibility
+        - label: Tests / negative cases / regression coverage
+        - label: Performance / resource behavior
+        - label: Documentation / operator clarity
+  - type: dropdown
+    id: independence
+    attributes:
+      label: Reviewer independence
+      description: Whether the reviewer must be separate from the implementing/proposing agent.
+      options:
+        - Independent reviewer required
+        - Independent reviewer preferred
+        - Same agent permitted
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and context references
+      description: Safe links/paths to PRs, commits, tests, reports, logs, requirements, prior findings, or decisions. Do not paste private evidence into this public issue.
+  - type: textarea
+    id: exclusions
+    attributes:
+      label: Explicit exclusions / non-goals
+      description: Areas the reviewer should not expand into unless a critical cross-boundary defect requires escalation.
+  - type: dropdown
+    id: output
+    attributes:
+      label: Required review output
+      options:
+        - Findings + evidence + required fixes + verdict
+        - Findings + verification plan only
+        - Threat register + residual-risk decision
+        - Test plan + acceptance evidence requirements
+        - Claim/evidence map + unsupported claims
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: completion
+    attributes:
+      label: Completion criteria
+      description: Observable conditions for closing the review request.
+      placeholder: |
+        - Every requested area has a finding or explicit no-finding statement.
+        - Material findings cite exact files/symbols/evidence.
+        - Reviewer records PASS / PASS-WITH-FIXES / FAIL / UNRESOLVED.
+    validations:
+      required: true

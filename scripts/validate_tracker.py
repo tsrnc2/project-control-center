@@ -12,6 +12,8 @@ JSON_FILES = [
     ROOT / '.github' / 'milestones.json',
     ROOT / 'schema' / 'state.schema.json',
     ROOT / 'api' / 'index.json',
+    ROOT / 'reviewer-roles.json',
+    ROOT / 'schema' / 'review-request.schema.json',
 ]
 TASK_STATES = {'READY','CLAIMED','RUNNING','BLOCKED','DONE','FAILED','NO_PROGRESS','CANCELLED'}
 SECRET_PATTERNS = [
@@ -39,6 +41,8 @@ load(ROOT/'.github'/'labels.json')
 load(ROOT/'.github'/'milestones.json')
 load(ROOT/'schema'/'state.schema.json')
 load(ROOT/'api'/'index.json')
+reviewer_roles=load(ROOT/'reviewer-roles.json')
+load(ROOT/'schema'/'review-request.schema.json')
 
 projects=projects_doc.get('projects',[])
 ids=[p.get('id') for p in projects]
@@ -47,6 +51,18 @@ if any(not x for x in ids):
 if len(ids)!=len(set(ids)):
     errors.append('projects.json contains duplicate project IDs')
 known=set(ids)
+
+role_ids=[r.get('id') for r in reviewer_roles.get('roles',[])]
+if any(not x for x in role_ids):
+    errors.append('reviewer-roles.json contains a role without id')
+if len(role_ids)!=len(set(role_ids)):
+    errors.append('reviewer-roles.json contains duplicate role IDs')
+source_revision=reviewer_roles.get('source',{}).get('revision','')
+if not re.fullmatch(r'[0-9a-f]{40}', source_revision):
+    errors.append('reviewer-roles.json source revision must be a full lowercase commit SHA')
+for role in reviewer_roles.get('roles',[]):
+    if not role.get('source_path'):
+        errors.append(f"reviewer role {role.get('id')}: missing source_path")
 
 state_ids=[p.get('id') for p in state.get('projects',[])]
 if set(state_ids) != known:
@@ -85,6 +101,9 @@ required=[
     ROOT/'index.html', ROOT/'assets'/'app.js', ROOT/'assets'/'style.css',
     ROOT/'AGENTS.md', ROOT/'.github'/'ISSUE_TEMPLATE'/'task.yml',
     ROOT/'.github'/'ISSUE_TEMPLATE'/'blocker.yml',
+    ROOT/'.github'/'ISSUE_TEMPLATE'/'review-request.yml',
+    ROOT/'docs'/'REVIEW-REQUESTS.md', ROOT/'reviewer-roles.json',
+    ROOT/'schema'/'review-request.schema.json',
 ]
 for path in required:
     if not path.exists():

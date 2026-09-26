@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "repository": "tsrnc2/llm_reasoning_project",
+    "revision": "9421e4cf2d0423fb8eaa57ea27ef3970f8fa4614",
+    "note": "Curated reviewer roles backed by existing LLM Reasoning Project skills/agent cards. Resolve the source path at this revision before executing the role."
+  },
+  "roles": [
+    {
+      "id": "adversarial-reasoning-reviewer",
+      "name": "Adversarial Reasoning Reviewer",
+      "purpose": "Challenge claims, assumptions, evidence, alternatives, and overreach before acceptance.",
+      "source_path": "knowledge/extra-skills/reasoning-protocol-lifecycle-skills/skills/002-adversarial-reasoning-protocols/skill_pack/SKILL.md",
+      "skill_id": "RPL-002",
+      "best_for": [
+        "design review",
+        "claim challenge",
+        "counterexamples",
+        "missing evidence",
+        "high-impact decisions"
+      ],
+      "independence_default": "required"
+    },
+    {
+      "id": "protocol-security-reviewer",
+      "name": "Protocol Security Reviewer",
+      "purpose": "Threat-model trust boundaries, authority, tools, credentials, data flows, abuse paths, controls, and residual risk.",
+      "source_path": "knowledge/extra-skills/reasoning-protocol-assurance-skills/skills/006-protocol-security-review-and-threat-modeling/skill_pack/SKILL.md",
+      "skill_id": "RPA-006",
+      "best_for": [
+        "security",
+        "agent/tool authority",
+        "prompt or context injection",
+        "credentials",
+        "supply chain",
+        "resource abuse"
+      ],
+      "independence_default": "required"
+    },
+    {
+      "id": "governance-release-reviewer",
+      "name": "Governance and Release Reviewer",
+      "purpose": "Check release evidence, residual risks, scope, exceptions, monitoring, rollback, and approval conditions.",
+      "source_path": "knowledge/extra-skills/reasoning-protocol-assurance-skills/skills/007-governance-review-and-release-approval/skill_pack/SKILL.md",
+      "skill_id": "RPA-007",
+      "best_for": [
+        "release gate",
+        "production qualification",
+        "scope approval",
+        "residual risk",
+        "rollback readiness"
+      ],
+      "independence_default": "required"
+    },
+    {
+      "id": "incident-reviewer",
+      "name": "Incident Review Reviewer",
+      "purpose": "Perform evidence-preserving causal review of incidents or near-misses and produce verifiable corrective actions.",
+      "source_path": "knowledge/extra-skills/reasoning-protocol-assurance-skills/skills/008-incident-review-and-continuous-improvement/skill_pack/SKILL.md",
+      "skill_id": "RPA-008",
+      "best_for": [
+        "incident review",
+        "near miss",
+        "recurrence",
+        "causal analysis",
+        "corrective actions"
+      ],
+      "independence_default": "preferred"
+    },
+    {
+      "id": "cpp-reviewer",
+      "name": "C++ Reviewer",
+      "purpose": "Review correctness, lifetime, API style, build portability, performance, and tests.",
+      "source_path": "knowledge/docs/extracted_reports/modern_cpp20_future_skill_pack_complete_(1)/modern_cpp20_future_skill_pack_complete/agent_cards/cpp_reviewer.md",
+      "skill_id": null,
+      "best_for": [
+        "C++",
+        "lifetime",
+        "API design",
+        "build portability",
+        "performance",
+        "tests"
+      ],
+      "independence_default": "preferred"
+    },
+    {
+      "id": "cpp-concurrency-reviewer",
+      "name": "C++ Concurrency Reviewer",
+      "purpose": "Review thread ownership, shutdown, races, lock order, atomics, and concurrency failure behavior.",
+      "source_path": "knowledge/docs/extracted_reports/modern_cpp20_future_skill_pack_complete_(1)/modern_cpp20_future_skill_pack_complete/agent_cards/cpp_concurrency_reviewer.md",
+      "skill_id": null,
+      "best_for": [
+        "concurrency",
+        "thread ownership",
+        "shutdown",
+        "races",
+        "lock ordering",
+        "atomics"
+      ],
+      "independence_default": "required"
+    },
+    {
+      "id": "verification-test-designer",
+      "name": "Verification Test Designer",
+      "purpose": "Design repeatable positive, negative, adversarial, regression, runtime, and acceptance tests with evidence requirements.",
+      "source_path": "knowledge/skill-assurance/skills/ASSURANCE-010-skill-verification-test-designer/SKILL.md",
+      "skill_id": "ASSURANCE-010",
+      "best_for": [
+        "test plans",
+        "release evidence",
+        "negative tests",
+        "adversarial tests",
+        "regression gates",
+        "acceptance criteria"
+      ],
+      "independence_default": "preferred"
+    },
+    {
+      "id": "claim-evidence-reviewer",
+      "name": "Claim-Evidence Reviewer",
+      "purpose": "Link each material claim to supporting, contradicting, or missing evidence with stable references.",
+      "source_path": "knowledge/goal_understanding_task_framing_md_report/needed_skills/atomic/verification/claim-evidence-linking/SKILL.md",
+      "skill_id": "verification.claim-evidence-linking",
+      "best_for": [
+        "factual claims",
+        "evidence audits",
+        "research review",
+        "validation reports",
+        "unsupported-claim detection"
+      ],
+      "independence_default": "required"
+    }
+  ]
+}
