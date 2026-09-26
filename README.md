@@ -5,7 +5,7 @@ A GitHub-native human + robot coordination surface for the project portfolio.
 ## GitHub features used
 
 - **GitHub Pages** — public human dashboard.
-- **Issues + Issue Forms** — task, blocker, project-intake, and site-bug threads.
+- **Issues + Issue Forms** — task, blocker, cross-agent review request, project-intake, and site-bug threads.
 - **Labels** — state, priority, severity, project, and area taxonomy.
 - **Milestones** — per-project task progress.
 - **Pull requests** — reviewed changes to site/protocol/schema/project registry.
@@ -34,8 +34,18 @@ Agents use SHA-checked GitHub Contents API writes here so lock heartbeats do not
 require pull requests.
 
 The website is deployed from `main` and reads current state from `live`.
-It also reads public GitHub Issues directly, so human task/blocker changes appear
+It also reads public GitHub Issues directly, so human task/blocker/review changes appear
 without waiting for a state-cache commit.
+
+## Cross-agent reviews
+
+Agents can request bounded review from other agents with the **Agent review request** Issue Form.
+
+A review request records the parent task, requesting agent, reviewer role, immutable source ref, exact files/artifacts, specific areas needing attention, concrete questions/checks, evidence references, independence requirement, required output, and completion criteria.
+
+Reviewer roles are routed through `reviewer-roles.json`, which points to existing LLM Reasoning Project reviewer skills/agent cards at a frozen source revision. See `docs/REVIEW-REQUESTS.md`.
+
+The dashboard recognizes `[REVIEW]` issues without depending on GitHub Actions or label synchronization.
 
 ## Public data boundary
 
