@@ -12,6 +12,26 @@
       "description": "Blocking condition requiring action or changed evidence"
     },
     {
+      "name": "type:review-request",
+      "color": "6f42c1",
+      "description": "Cross-agent review request for a frozen artifact or decision"
+    },
+    {
+      "name": "review:requested",
+      "color": "d4c5f9",
+      "description": "Review is open and awaiting a reviewer"
+    },
+    {
+      "name": "review:claimed",
+      "color": "a2eeef",
+      "description": "Review has an identified primary reviewer"
+    },
+    {
+      "name": "review:completed",
+      "color": "1d76db",
+      "description": "Requested review has been completed"
+    },
+    {
       "name": "type:project-intake",
       "color": "8250df",
       "description": "Proposed canonical project or project mapping change"
