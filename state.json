@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-09-25T17:23:00-07:00",
+    "generated_at": "2026-09-27T15:47:57Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state only. Human task/blocker threads are GitHub Issues; execution locks are files on the live branch."
   },
@@ -21,6 +21,13 @@
       "name": "LLM Reasoning Project",
       "lifecycle": "ACTIVE",
       "class": "PRIMARY"
+    },
+    {
+      "id": "lrp-delegator-model",
+      "name": "LRP Delegator Model",
+      "lifecycle": "ACTIVE-CHILD",
+      "class": "SHARED-COMPONENT",
+      "parent_project_id": "llm-reasoning-project"
     },
     {
       "id": "cryptokingpin",
@@ -157,6 +164,34 @@
       "claim_expires_at": "2026-09-26T14:50:00-07:00",
       "updated_at": "2026-09-25T17:23:00-07:00",
       "next_action": "Resolve GitHub Actions admission failure; workflow runs currently fail before any job steps execute. Then rerun metadata sync and Pages deployment."
+    },
+    {
+      "id": "LRP-20260926-TIER-POLICY",
+      "project_id": "llm-reasoning-project",
+      "title": "Define and test canonical model-tier requirements for roles and task classes",
+      "state": "BLOCKED",
+      "priority": "P1",
+      "claimed_by": "chatgpt-tier-governance",
+      "claim_expires_at": "2026-09-27T22:31:01Z",
+      "updated_at": "2026-09-26T22:31:01Z",
+      "source_ref": "https://github.com/tsrnc2/llm_reasoning_project/pull/111",
+      "policy_version": "1.0.0",
+      "authority_policy_state": "NOT_ACTIVE",
+      "next_action": "Resolve the current-main conflict, independently accept the repaired candidate, qualify the host gate, and add reviewed exact-model/runtime evidence plus trusted model/effort attestation before any policy-keyed human-step waiver can activate."
+    },
+    {
+      "id": "KITT-20260926-TIER-ENFORCEMENT",
+      "project_id": "kitt",
+      "title": "Bind canonical tier policy and enforce managed admission",
+      "state": "BLOCKED",
+      "priority": "P1",
+      "claimed_by": "chatgpt-tier-governance",
+      "claim_expires_at": "2026-09-27T22:50:07Z",
+      "updated_at": "2026-09-26T22:50:07Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/pull/10",
+      "policy_source": "tsrnc2/llm_reasoning_project",
+      "authority_policy_state": "NOT_ACTIVE",
+      "next_action": "Complete repaired-head review, current-main integration, full package/host validation, productive dispatch-path coverage, and reviewed model evidence; keep the consumer fail closed until then."
     }
   ],
   "blockers": [
@@ -169,6 +204,28 @@
       "summary": "GitHub Actions runs fail before workflow steps execute.",
       "required_next_action": "Verify repository/account Actions policy or other pre-runner admission setting, then rerun Validate tracker, Sync repository metadata, Pages deployment, and CodeQL.",
       "updated_at": "2026-09-25T17:23:00-07:00"
+    },
+    {
+      "id": "LRP-TIER-POLICY-INDEPENDENT-ACCEPTANCE",
+      "project_id": "llm-reasoning-project",
+      "task_id": "LRP-20260926-TIER-POLICY",
+      "state": "OPEN",
+      "severity": "HIGH",
+      "summary": "The canonical policy candidate is unmerged and conflicting; its approved-model catalog is empty, so no model-tier human-step waiver is active.",
+      "required_next_action": "Accept and merge the repaired policy, qualify its exact host/runtime evidence and authenticated model-effort attestation, then expose only the named policy decision to consumers.",
+      "issue_url": "https://github.com/tsrnc2/kitt/issues/9",
+      "updated_at": "2026-09-27T00:00:22Z"
+    },
+    {
+      "id": "KITT-TIER-ADMISSION-QUALIFICATION",
+      "project_id": "kitt",
+      "task_id": "KITT-20260926-TIER-ENFORCEMENT",
+      "state": "OPEN",
+      "severity": "HIGH",
+      "summary": "The KITT consumer remains unmerged and fail closed pending current-main integration, host qualification, complete dispatch coverage, and approved model evidence.",
+      "required_next_action": "Resolve PR 10 CI/integration against current main and keep activation blocked until the canonical LLM policy and exact execution identity are qualified.",
+      "issue_url": "https://github.com/tsrnc2/kitt/issues/11",
+      "updated_at": "2026-09-27T00:00:37Z"
     }
   ],
   "activity": [
@@ -185,6 +242,20 @@
       "project_id": "kitt",
       "task_id": "kitt-20260925-project-control-center",
       "summary": "Dedicated tracker repo exists and bootstrap is published. All four bootstrap workflows failed before any step executed; Actions admission is the current blocker."
+    },
+    {
+      "at": "2026-09-27T15:47:57Z",
+      "type": "CONTROL_PLANE_SYNC",
+      "project_id": "llm-reasoning-project",
+      "task_id": "LRP-20260926-TIER-POLICY",
+      "summary": "Synchronized the canonical LLM tier-policy candidate, its open acceptance/model-evidence blocker, and the LRP Delegator Model child project into the master viewport."
+    },
+    {
+      "at": "2026-09-27T15:47:57Z",
+      "type": "POLICY_STATUS",
+      "project_id": "kitt",
+      "task_id": "KITT-20260926-TIER-ENFORCEMENT",
+      "summary": "Synchronized KITT tier-admission consumer status. Threshold-based removal of agent-side human steps remains inactive and fail closed until canonical source, exact model/effort attestation, and external gate qualification are accepted."
     }
   ]
 }
