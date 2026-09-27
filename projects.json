@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-25T14:55:00-07:00",
+  "updated_at": "2026-09-27T15:47:57Z",
   "projects": [
     {
       "id": "kitt",
@@ -13,6 +13,13 @@
       "name": "LLM Reasoning Project",
       "lifecycle": "ACTIVE",
       "class": "PRIMARY"
+    },
+    {
+      "id": "lrp-delegator-model",
+      "name": "LRP Delegator Model",
+      "lifecycle": "ACTIVE-CHILD",
+      "class": "SHARED-COMPONENT",
+      "parent_project_id": "llm-reasoning-project"
     },
     {
       "id": "cryptokingpin",
