@@ -1,0 +1,20 @@
+{
+  "at": "2026-09-28T01:02:00Z",
+  "type": "CANDIDATE_REVIEW_HANDOFF",
+  "project_id": "kitt",
+  "task_id": "PCC-20260927-TIMING-FRESHNESS",
+  "agent_id": "chatgpt-dashboard-upgrade",
+  "state": "BLOCKED",
+  "implementation_state": "IMPLEMENTED_AND_PUBLISHED",
+  "candidate_commit": "45fc7f14a283068e38f5264fa3cac68d916715f0",
+  "pull_request": 14,
+  "task_issue": 13,
+  "review_issue": 15,
+  "blocker_issue": 16,
+  "model_tests_passed": 48,
+  "offline_browser_checks_passed": 50,
+  "independent_acceptance": false,
+  "merged": false,
+  "deployed": false,
+  "summary": "Published bounded public dashboard timing, freshness and mobile upgrade. Author tests passed; distinct exact-candidate review is required. Live HTTP/HTTPS deployment and private adapter remain unverified. Own execution lock is being released; no other ownership changed."
+}
