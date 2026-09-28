@@ -24,8 +24,8 @@ class WebsiteLineupTests(unittest.TestCase):
         self.assertEqual(len(ids), len(set(ids)))
     def test_complete_tiered_lineup(self):
         tasks = [a for t,a in self.page.elements if t=='details']
-        self.assertEqual([f'PCC-WEB-{i:03d}' for i in range(1,23)], [a['id'] for a in tasks])
-        self.assertEqual(['T7','T7','T6','T7','T7','T6','T6','T6','T7','T7','T6','T6','T6','T6','T7','T6','T6','T6','T7','T6','T5','T7'], [a['data-worker-tier'] for a in tasks])
+        self.assertEqual([f'PCC-WEB-{i:03d}' for i in range(1,24)], [a['id'] for a in tasks])
+        self.assertEqual(['T7','T7','T6','T7','T7','T6','T6','T6','T7','T7','T6','T6','T6','T6','T7','T6','T6','T6','T7','T6','T5','T7','T6'], [a['data-worker-tier'] for a in tasks])
         self.assertTrue(all(a['data-reviewer-tier']=='T7' for a in tasks))
     def test_explicit_non_live_status(self):
         for text in ['NOT production ready','pinned planning summary','does not refresh task or lease state','Owner: unassigned. ETA: not estimated.']:
@@ -45,10 +45,16 @@ class WebsiteLineupTests(unittest.TestCase):
                 self.assertNotIn('token=',value)
                 if value.startswith('#'): self.assertIn(value[1:], ids)
     def test_pinned_provenance_and_reuse(self):
-        self.assertIn('/blob/5faf7d241aee37e2365a2764812170ad7ce26b2b/control-plane/assignments/project-control-center.json', self.source)
+        self.assertIn('/blob/48e86826275922f9707389acda66b571391140e4/control-plane/assignments/project-control-center.json', self.source)
         self.assertIn('Existing dashboard PR 14',self.source)
         self.assertIn('LRP PR 111 and KITT PR 10',self.source)
         self.assertIn('Resolve the existing KITT keyword-index work',self.source)
+    def test_duckdns_is_proposed_not_claimed(self):
+        self.assertIn('projectcontrolcenter.duckdns.org', self.source)
+        self.assertIn('Registration is not claimed', self.source)
+        self.assertIn('Blocked: provider auth + approved host', self.source)
+        self.assertNotIn('duckdns.org/update?domains=', self.source)
+
     def test_index_navigation_preserves_existing_panels(self):
         page = Page((ROOT/'index.html').read_text())
         links = [a for t,a in page.elements if t=='a' and a.get('id')=='website-lineup']
@@ -59,7 +65,7 @@ class WebsiteLineupTests(unittest.TestCase):
     def test_accessible_primitives(self):
         self.assertTrue(any(t=='html' and a.get('lang')=='en' for t,a in self.page.elements))
         self.assertTrue(any(t=='a' and a.get('class')=='skip' for t,a in self.page.elements))
-        self.assertEqual(22,sum(t=='summary' for t,_ in self.page.elements))
+        self.assertEqual(23,sum(t=='summary' for t,_ in self.page.elements))
         self.assertEqual(1,sum(t=='h1' for t,_ in self.page.elements))
         self.assertIn(':focus-visible',(ROOT/'assets/website.css').read_text())
 
