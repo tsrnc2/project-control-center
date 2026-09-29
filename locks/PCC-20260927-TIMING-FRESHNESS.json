@@ -1,0 +1,9 @@
+{
+  "task_id": "PCC-20260927-TIMING-FRESHNESS",
+  "project_id": "kitt",
+  "agent_id": "codex-backlog-20260929",
+  "lock_token": "efe6b5f2e79e387c8aaf944d67f8e954",
+  "acquired_at": "2026-09-29T02:39:51.416325+00:00",
+  "expires_at": "2026-09-29T04:39:51.416325+00:00",
+  "run_ref": "local-dashboard-review-20260929"
+}
