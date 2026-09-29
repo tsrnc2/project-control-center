@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-09-27T15:47:57Z",
+    "generated_at": "2026-09-29T02:46:56.421918+00:00",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state only. Human task/blocker threads are GitHub Issues; execution locks are files on the live branch."
   },
@@ -192,6 +192,18 @@
       "policy_source": "tsrnc2/llm_reasoning_project",
       "authority_policy_state": "NOT_ACTIVE",
       "next_action": "Complete repaired-head review, current-main integration, full package/host validation, productive dispatch-path coverage, and reviewed model evidence; keep the consumer fail closed until then."
+    },
+    {
+      "id": "PCC-20260927-TIMING-FRESHNESS",
+      "project_id": "kitt",
+      "title": "Dashboard timing and freshness independent acceptance",
+      "state": "BLOCKED",
+      "priority": "P1",
+      "claimed_by": null,
+      "updated_at": "2026-09-29T02:46:56.421918+00:00",
+      "source_ref": "https://github.com/tsrnc2/project-control-center/issues/13",
+      "next_action": "Conditional forecast defect repaired in a local unpublished candidate; 76 model tests and 51 offline browser checks pass, with distinct narrow repair review. Publish the reviewed candidate through PR, complete qualified full-candidate acceptance, then verify deployment separately.",
+      "candidate_model_sha256": "3f9ac13730d6969d4634a360fede81ac80c67268f153f93587fd2c6c2ffd02b2"
     }
   ],
   "blockers": [
