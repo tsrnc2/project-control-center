@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-25T14:55:00-07:00",
+  "updated_at": "2026-09-29T06:45:00-07:00",
   "projects": [
     {
       "id": "kitt",
@@ -25,6 +25,13 @@
       "name": "Microkernel",
       "lifecycle": "ACTIVE",
       "class": "PRIMARY"
+    },
+    {
+      "id": "linux-reusable-components",
+      "name": "Linux Reusable Components / Kernel Pattern Library",
+      "lifecycle": "ACTIVE-CHILD",
+      "class": "SHARED-COMPONENT",
+      "parent_project_id": "microkernel"
     },
     {
       "id": "pity-please",
