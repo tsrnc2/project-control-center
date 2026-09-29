@@ -1,0 +1,10 @@
+{
+  "task_id": "kitt-llm-model-intake",
+  "project_id": "kitt-llm-model",
+  "agent_id": "chatgpt",
+  "lock_token": "kitt-llm-model-intake-20260929-110000z",
+  "acquired_at": "2026-09-29T11:00:00Z",
+  "heartbeat_at": "2026-09-29T11:00:00Z",
+  "expires_at": "2026-09-29T13:00:00Z",
+  "run_ref": "KITT-LLM-20260929-intake-and-architecture"
+}
