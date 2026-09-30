@@ -1,0 +1,40 @@
+{
+  "task_id": "PCC-20260927-TIMING-FRESHNESS",
+  "status": "CANDIDATE_NOT_DEPLOYED",
+  "base_commit": "0974752b243491cf45f4db5068da2003a4d0e06d",
+  "base_tree": "473f64f398b392a168d9e0a67417675ac019d934",
+  "checked_at": "2026-09-28T00:51:10.779791+00:00",
+  "node_version": "v22.16.0",
+  "chromium_version": "Chromium 144.0.7559.96 built on Debian GNU/Linux 13 (trixie)",
+  "syntax_checks": "PASS: assets/app.js and assets/dashboard-model.js",
+  "unit_tests": {
+    "passed": 48,
+    "failed": 0,
+    "command": "node --test tests/dashboard-model.test.cjs"
+  },
+  "browser_tests": {
+    "passed": 50,
+    "failed": 0,
+    "runtime_errors": 0,
+    "command": "python tests/browser_smoke.py test-output",
+    "mode": "In-memory document + intercepted synthetic GET fixtures; not live HTTP navigation"
+  },
+  "independent_review": "NOT_PERFORMED; author tests and adversarial self-check only",
+  "not_verified": [
+    "Live HTTPS/custom-domain status",
+    "GitHub Pages deployment",
+    "Private KITT adapter",
+    "Repository-wide validator/CI",
+    "Real-device mobile Safari/Android browser behavior"
+  ],
+  "source_sha256": {
+    "index.html": "ba4be591c66596fcd983a5111648c03b45ef35ff763c3e44b8944d554e433ff8",
+    "assets/app.js": "5eb628d8e2976ba05ca8cc9823cf091ea4f6af67ec992312170afba1a7cbefbc",
+    "assets/style.css": "e130722ce878681170ebdb7cfbef7b0f26af0ccad74c363f4444d2c28ab8d562",
+    "assets/dashboard-model.js": "26b1228c5c5cee696a6f657f43ddf58d952d641962e457623841b543cc1981e0",
+    "tests/dashboard-model.test.cjs": "35ff83441993a8effd7fa5dc3a7b403a51d1b9675cb9fbd5bfd8e3c371ee080b",
+    "tests/browser_smoke.py": "a686ea8dd485cde5f5413e06510d408c93c4a8b5c1fa5dab70d9c91c01af6ef9"
+  },
+  "source_bundle_sha256": "010440a4f6322c41315104823c36f9470682380f88ee7ae13cdc404c5c2ad106",
+  "bundle_algorithm": "SHA-256 of sorted relative path + NUL + hex SHA-256 + LF for each source_sha256 entry"
+}
