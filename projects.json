@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-25T14:55:00-07:00",
+  "updated_at": "2026-09-30T14:24:00-07:00",
   "projects": [
     {
       "id": "kitt",
@@ -13,6 +13,15 @@
       "name": "LLM Reasoning Project",
       "lifecycle": "ACTIVE",
       "class": "PRIMARY"
+    },
+    {
+      "id": "llm-reasoning-prenatal-foundations",
+      "name": "Prenatal–12 Month World-Understanding Foundations",
+      "lifecycle": "ACTIVE-CHILD",
+      "class": "TRACKED",
+      "parent_project_id": "llm-reasoning-project",
+      "source_repository": "tsrnc2/llm_reasoning_project",
+      "source_path": "knowledge/planning/foundations/"
     },
     {
       "id": "cryptokingpin",
