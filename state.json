@@ -5,11 +5,17 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-09-29T02:46:56.421918+00:00",
+    "generated_at": "2026-10-01T16:54:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state only. Human task/blocker threads are GitHub Issues; execution locks are files on the live branch."
   },
   "projects": [
+    {
+      "id": "project-merger",
+      "name": "Project Merger",
+      "lifecycle": "ACTIVE",
+      "class": "PORTFOLIO-SERVICE"
+    },
     {
       "id": "kitt",
       "name": "KITT",
@@ -268,6 +274,13 @@
       "project_id": "kitt",
       "task_id": "KITT-20260926-TIER-ENFORCEMENT",
       "summary": "Synchronized KITT tier-admission consumer status. Threshold-based removal of agent-side human steps remains inactive and fail closed until canonical source, exact model/effort attestation, and external gate qualification are accepted."
+    },
+    {
+      "at": "2026-10-01T16:54:00Z",
+      "type": "PROJECT_INTAKE",
+      "project_id": "project-merger",
+      "task_id": "PM-001",
+      "summary": "Project Merger added to the live portfolio view with intake #50, registry/design PR #52, first bounded sweep task #51, and independent review request."
     }
   ]
 }
