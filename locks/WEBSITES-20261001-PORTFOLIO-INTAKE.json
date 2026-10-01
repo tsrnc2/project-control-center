@@ -1,9 +1,0 @@
-{
-  "task_id": "WEBSITES-20261001-PORTFOLIO-INTAKE",
-  "project_id": "websites",
-  "agent_id": "chatgpt-websites-portfolio",
-  "lock_token": "websites-portfolio-intake-20261001",
-  "acquired_at": "2026-10-01T07:24:17Z",
-  "expires_at": "2026-10-01T08:24:17Z",
-  "run_ref": "https://github.com/tsrnc2/project-control-center/issues/32"
-}
