@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-30T15:00:00-07:00",
+  "updated_at": "2026-10-01T09:52:00-07:00",
   "projects": [
     {
       "id": "kitt",
@@ -13,6 +13,12 @@
       "name": "LLM Reasoning Project",
       "lifecycle": "ACTIVE",
       "class": "PRIMARY"
+    },
+    {
+      "id": "project-merger",
+      "name": "Project Merger",
+      "lifecycle": "ACTIVE",
+      "class": "PORTFOLIO-SERVICE"
     },
     {
       "id": "llm-reasoning-parental-skills",
