@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-30T15:00:00-07:00",
+  "updated_at": "2026-10-01T00:24:17-07:00",
   "projects": [
     {
       "id": "kitt",
@@ -143,6 +143,40 @@
       "name": "Level1Downloader",
       "lifecycle": "HISTORICAL",
       "class": "HISTORICAL"
+    },
+    {
+      "id": "websites",
+      "name": "Websites Portfolio",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY"
+    },
+    {
+      "id": "websites-kiss-in-dash",
+      "name": "KISS / Knighted Intelligence In-Dash Launch Site",
+      "lifecycle": "ACTIVE-CHILD",
+      "class": "WEBSITE",
+      "parent_project_id": "websites"
+    },
+    {
+      "id": "websites-project-control-center",
+      "name": "Project Control Center Website",
+      "lifecycle": "ACTIVE-CHILD",
+      "class": "WEBSITE",
+      "parent_project_id": "websites"
+    },
+    {
+      "id": "websites-cryptokingpin",
+      "name": "CryptoKingpin Website",
+      "lifecycle": "ACTIVE-CHILD",
+      "class": "WEBSITE",
+      "parent_project_id": "websites"
+    },
+    {
+      "id": "websites-religion-of-transformation",
+      "name": "Religion of Transformation Website",
+      "lifecycle": "NEEDS-MAPPING",
+      "class": "WEBSITE",
+      "parent_project_id": "websites"
     }
   ]
 }
