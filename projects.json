@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-30T15:00:00-07:00",
+  "updated_at": "2026-10-01T05:54:00-07:00",
   "projects": [
     {
       "id": "kitt",
@@ -30,6 +30,12 @@
     {
       "id": "microkernel",
       "name": "Microkernel",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY"
+    },
+    {
+      "id": "multiview-gitfs",
+      "name": "MultiView GitFS",
       "lifecycle": "ACTIVE",
       "class": "PRIMARY"
     },
