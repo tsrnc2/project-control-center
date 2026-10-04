@@ -1,0 +1,9 @@
+{
+  "task_id": "PM-001",
+  "project_id": "project-merger",
+  "agent_id": "chatgpt-senior-delegator",
+  "lock_token": "pm001-20261004-a",
+  "acquired_at": "2026-10-04T07:16:00Z",
+  "expires_at": "2026-10-04T08:00:00Z",
+  "run_ref": "chat-2026-10-04-project-merger-pm001"
+}
