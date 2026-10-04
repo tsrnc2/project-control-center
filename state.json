@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-01T16:54:00Z",
+    "generated_at": "2026-10-04T07:18:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state only. Human task/blocker threads are GitHub Issues; execution locks are files on the live branch."
   },
@@ -210,6 +210,18 @@
       "source_ref": "https://github.com/tsrnc2/project-control-center/issues/13",
       "next_action": "Conditional forecast defect repaired in a local unpublished candidate; 76 model tests and 51 offline browser checks pass, with distinct narrow repair review. Publish the reviewed candidate through PR, complete qualified full-candidate acceptance, then verify deployment separately.",
       "candidate_model_sha256": "3f9ac13730d6969d4634a360fede81ac80c67268f153f93587fd2c6c2ffd02b2"
+    },
+    {
+      "id": "PM-001",
+      "project_id": "project-merger",
+      "title": "Branch ledger and bounded pilot sweep",
+      "state": "RUNNING",
+      "priority": "P1",
+      "claimed_by": "chatgpt-senior-delegator",
+      "claim_expires_at": "2026-10-04T08:00:00Z",
+      "updated_at": "2026-10-04T07:18:00Z",
+      "source_ref": "https://github.com/tsrnc2/project-control-center/issues/51",
+      "next_action": "Inventory and conservatively classify branches in the first five accessible canonical repositories; keep exact private refs in the private Project Merger Drive workspace."
     }
   ],
   "blockers": [
