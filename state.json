@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-04T07:18:00Z",
+    "generated_at": "2026-10-05T23:06:30Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state only. Human task/blocker threads are GitHub Issues; execution locks are files on the live branch."
   },
@@ -222,6 +222,17 @@
       "updated_at": "2026-10-04T07:18:00Z",
       "source_ref": "https://github.com/tsrnc2/project-control-center/issues/51",
       "next_action": "Inventory and conservatively classify branches in the first five accessible canonical repositories; keep exact private refs in the private Project Merger Drive workspace."
+    },
+    {
+      "id": "GROK-COMMIT-001",
+      "project_id": "kitt",
+      "title": "Enable Grok to publish bounded committed work",
+      "state": "BLOCKED",
+      "priority": "P1",
+      "claimed_by": null,
+      "updated_at": "2026-10-05T23:06:30Z",
+      "source_ref": "https://github.com/tsrnc2/project-control-center/issues/57",
+      "next_action": "Verify Grok integration Contents and Pull requests write access; use PR58 handoff to submit a useful candidate or preserve a base-pinned patch for integrator publication."
     }
   ],
   "blockers": [
@@ -256,6 +267,17 @@
       "required_next_action": "Resolve PR 10 CI/integration against current main and keep activation blocked until the canonical LLM policy and exact execution identity are qualified.",
       "issue_url": "https://github.com/tsrnc2/kitt/issues/11",
       "updated_at": "2026-09-27T00:00:37Z"
+    },
+    {
+      "id": "GROK-PUBLICATION-VERIFICATION",
+      "project_id": "kitt",
+      "task_id": "GROK-COMMIT-001",
+      "state": "OPEN",
+      "severity": "HIGH",
+      "summary": "Grok previously reported branch-create 403; its runtime and publication access cannot be verified from this Codex session.",
+      "required_next_action": "Authorize Grok's repository-scoped publication integration and obtain its own branch/commit/draft PR receipt, or supply a preserved patch for integrator publication.",
+      "issue_url": "https://github.com/tsrnc2/project-control-center/issues/57",
+      "updated_at": "2026-10-05T23:06:30Z"
     }
   ],
   "activity": [
@@ -293,6 +315,13 @@
       "project_id": "project-merger",
       "task_id": "PM-001",
       "summary": "Project Merger added to the live portfolio view with intake #50, registry/design PR #52, first bounded sweep task #51, and independent review request."
+    },
+    {
+      "at": "2026-10-05T23:06:30Z",
+      "type": "SUBMISSION_HANDOFF",
+      "project_id": "kitt",
+      "task_id": "GROK-COMMIT-001",
+      "summary": "Codex published Grok commit/draft PR handoff in PR58; Codex publication succeeded, Grok publication remains unverified."
     }
   ]
 }
