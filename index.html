@@ -56,6 +56,7 @@
       <button class="tab" data-panel="blockers-panel">Blockers</button>
       <button class="tab" data-panel="reviews-panel">Reviews</button>
       <button class="tab" data-panel="activity-panel">Activity</button>
+      <button class="tab" data-panel="prompts-panel">Prompts</button>
       <button class="tab" data-panel="github-panel">GitHub</button>
       <button class="tab" data-panel="robots-panel">Robots</button>
     </nav>
@@ -83,6 +84,12 @@
     <section id="activity-panel" class="panel">
       <div class="section-head"><h2>Recent activity</h2><span class="muted">Sanitized coordination events</span></div>
       <div id="activity" class="stack"></div>
+    </section>
+
+    <section id="prompts-panel" class="panel">
+      <div class="section-head"><h2>Prompt library</h2><span id="prompt-source" class="muted">Loading pinned source…</span></div>
+      <p class="notice"><strong>Canonical source:</strong> prompt files remain owned by KITT. Downloads are pinned to an immutable KITT revision so the files you retrieve cannot change underneath the link.</p>
+      <div id="prompts" class="card-grid"></div>
     </section>
 
     <section id="github-panel" class="panel">
