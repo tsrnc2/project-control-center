@@ -144,6 +144,13 @@
       "name": "Level1Downloader",
       "lifecycle": "HISTORICAL",
       "class": "HISTORICAL"
+    },
+    {
+      "id": "llm-reasoning-parental-skills",
+      "name": "Parental Skills Program",
+      "lifecycle": "ACTIVE-CHILD",
+      "class": "SKILL-PROGRAM",
+      "parent_project_id": "llm-reasoning-project"
     }
   ],
   "tasks": [
