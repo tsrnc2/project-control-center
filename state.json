@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-05T23:06:30Z",
+    "generated_at": "2026-10-08T12:15:09.123Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state only. Human task/blocker threads are GitHub Issues; execution locks are files on the live branch."
   },
@@ -168,8 +168,8 @@
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": "2026-09-26T14:50:00-07:00",
-      "updated_at": "2026-09-25T17:23:00-07:00",
-      "next_action": "Resolve GitHub Actions admission failure; workflow runs currently fail before any job steps execute. Then rerun metadata sync and Pages deployment."
+      "updated_at": "2026-10-08T12:15:09.123Z",
+      "next_action": "Actions and repository provisioning are no longer the blocker. Reconcile main state.json/project registry mismatch (missing parental-skills project), execute exact-candidate validation, obtain required review and verify publication; separate metadata-sync and private intake-consumer verification remain."
     },
     {
       "id": "LRP-20260926-TIER-POLICY",
@@ -242,9 +242,18 @@
       "task_id": "kitt-20260925-project-control-center",
       "state": "OPEN",
       "severity": "HIGH",
-      "summary": "GitHub Actions runs fail before workflow steps execute.",
-      "required_next_action": "Verify repository/account Actions policy or other pre-runner admission setting, then rerun Validate tracker, Sync repository metadata, Pages deployment, and CodeQL.",
-      "updated_at": "2026-09-25T17:23:00-07:00"
+      "summary": "Actions jobs execute; main tracker validation fails and main state.json omits the parental-skills registry entry.",
+      "required_next_action": "Actions and repository provisioning are no longer the blocker. Reconcile main state.json/project registry mismatch (missing parental-skills project), execute exact-candidate validation, obtain required review and verify publication; separate metadata-sync and private intake-consumer verification remain.",
+      "updated_at": "2026-10-08T12:15:09.123Z",
+      "history": [
+        {
+          "at": "2026-10-08T12:15:09.123Z",
+          "task_id": "KITT-20261008-PCC-BLOCKER-RECONCILIATION",
+          "previous_summary": "GitHub Actions runs fail before workflow steps execute.",
+          "previous_required_next_action": "Verify repository/account Actions policy or other pre-runner admission setting, then rerun Validate tracker, Sync repository metadata, Pages deployment, and CodeQL."
+        }
+      ],
+      "category": "TRACKER_VALIDATION_PROJECT_SET_MISMATCH"
     },
     {
       "id": "LRP-TIER-POLICY-INDEPENDENT-ACCEPTANCE",
@@ -322,6 +331,13 @@
       "project_id": "kitt",
       "task_id": "GROK-COMMIT-001",
       "summary": "Codex published Grok commit/draft PR handoff in PR58; Codex publication succeeded, Grok publication remains unverified."
+    },
+    {
+      "at": "2026-10-08T12:15:09.123Z",
+      "type": "BLOCKER_RECONCILIATION",
+      "project_id": "kitt",
+      "task_id": "KITT-20261008-PCC-BLOCKER-RECONCILIATION",
+      "summary": "Removed obsolete repository-provisioning/blanket Actions-admission diagnoses; retained parent BLOCKED for executed tracker validation and exact main project-set mismatch. CodeQL and baseline Pages successes verified; no product acceptance."
     }
   ]
 }
