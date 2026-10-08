@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-08T12:21:00Z",
+  "visibility": "public",
+  "source": {
+    "repository": "tsrnc2/kitt",
+    "revision": "03bcbae32e4ea28c8fa0a87c072b6cbfefb1bc5b",
+    "path": "control-plane/prompts",
+    "task_id": "KITT-20261008-PROMPT-CANONICALIZATION",
+    "pull_request": "https://github.com/tsrnc2/kitt/pull/109",
+    "note": "Immutable source revision. Update this manifest when a newer canonical prompt bundle is accepted."
+  },
+  "prompts": [
+    {
+      "id": "one-task-senior-coder",
+      "name": "Master Project Plane — One-Task Senior Coder Worker",
+      "file": "MASTER_PROJECT_PLANE_ONE_TASK_SR_CODER_WORKER.md",
+      "format": "Markdown",
+      "status": "KITT operational prompt",
+      "purpose": "Select, register, lease, execute, validate, publish, close, and release exactly one bounded coding task.",
+      "download_url": "https://raw.githubusercontent.com/tsrnc2/kitt/03bcbae32e4ea28c8fa0a87c072b6cbfefb1bc5b/control-plane/prompts/MASTER_PROJECT_PLANE_ONE_TASK_SR_CODER_WORKER.md",
+      "source_url": "https://github.com/tsrnc2/kitt/blob/03bcbae32e4ea28c8fa0a87c072b6cbfefb1bc5b/control-plane/prompts/MASTER_PROJECT_PLANE_ONE_TASK_SR_CODER_WORKER.md"
+    },
+    {
+      "id": "google-junior-startup",
+      "name": "Google / Gemini Junior Startup",
+      "file": "GOOGLE_JUNIOR_STARTUP_PROMPT.txt",
+      "format": "Text",
+      "status": "Source-bound recovered prompt",
+      "purpose": "Start a Google/Gemini junior delegator under the established project-plane delegation rules.",
+      "download_url": "https://raw.githubusercontent.com/tsrnc2/kitt/03bcbae32e4ea28c8fa0a87c072b6cbfefb1bc5b/control-plane/prompts/GOOGLE_JUNIOR_STARTUP_PROMPT.txt",
+      "source_url": "https://github.com/tsrnc2/kitt/blob/03bcbae32e4ea28c8fa0a87c072b6cbfefb1bc5b/control-plane/prompts/GOOGLE_JUNIOR_STARTUP_PROMPT.txt"
+    },
+    {
+      "id": "claude-senior-startup",
+      "name": "Claude Senior Startup",
+      "file": "CLAUDE_SR_STARTUP_PROMPT.txt",
+      "format": "Text",
+      "status": "Source-bound recovered prompt",
+      "purpose": "Start a delegated Claude senior worker with the established authority and handoff boundaries.",
+      "download_url": "https://raw.githubusercontent.com/tsrnc2/kitt/03bcbae32e4ea28c8fa0a87c072b6cbfefb1bc5b/control-plane/prompts/CLAUDE_SR_STARTUP_PROMPT.txt",
+      "source_url": "https://github.com/tsrnc2/kitt/blob/03bcbae32e4ea28c8fa0a87c072b6cbfefb1bc5b/control-plane/prompts/CLAUDE_SR_STARTUP_PROMPT.txt"
+    },
+    {
+      "id": "claude-junior-startup",
+      "name": "Claude Junior Startup",
+      "file": "CLAUDE_JR_STARTUP_PROMPT.txt",
+      "format": "Text",
+      "status": "Source-bound recovered prompt",
+      "purpose": "Start a Claude junior delegator/worker with bounded delegation and review requirements.",
+      "download_url": "https://raw.githubusercontent.com/tsrnc2/kitt/03bcbae32e4ea28c8fa0a87c072b6cbfefb1bc5b/control-plane/prompts/CLAUDE_JR_STARTUP_PROMPT.txt",
+      "source_url": "https://github.com/tsrnc2/kitt/blob/03bcbae32e4ea28c8fa0a87c072b6cbfefb1bc5b/control-plane/prompts/CLAUDE_JR_STARTUP_PROMPT.txt"
+    },
+    {
+      "id": "grok-bounded-worker",
+      "name": "Grok Bounded Worker",
+      "file": "GROK_BOUNDED_WORKER_PROMPT.md",
+      "format": "Markdown",
+      "status": "KITT operational entrypoint",
+      "purpose": "Start a Grok/xAI worker for one bounded project-plane task with registration, evidence, and handoff requirements.",
+      "download_url": "https://raw.githubusercontent.com/tsrnc2/kitt/03bcbae32e4ea28c8fa0a87c072b6cbfefb1bc5b/control-plane/prompts/GROK_BOUNDED_WORKER_PROMPT.md",
+      "source_url": "https://github.com/tsrnc2/kitt/blob/03bcbae32e4ea28c8fa0a87c072b6cbfefb1bc5b/control-plane/prompts/GROK_BOUNDED_WORKER_PROMPT.md"
+    },
+    {
+      "id": "upstream-lrp-prompt-index",
+      "name": "Upstream LLM Reasoning Prompt Index",
+      "file": "UPSTREAM_LRP_PROMPTS.md",
+      "format": "Markdown",
+      "status": "Reference index",
+      "purpose": "Locate canonical upstream prompt-bearing role and delegation documents without forking LLM Reasoning policy into KITT.",
+      "download_url": "https://raw.githubusercontent.com/tsrnc2/kitt/03bcbae32e4ea28c8fa0a87c072b6cbfefb1bc5b/control-plane/prompts/UPSTREAM_LRP_PROMPTS.md",
+      "source_url": "https://github.com/tsrnc2/kitt/blob/03bcbae32e4ea28c8fa0a87c072b6cbfefb1bc5b/control-plane/prompts/UPSTREAM_LRP_PROMPTS.md"
+    }
+  ]
+}
