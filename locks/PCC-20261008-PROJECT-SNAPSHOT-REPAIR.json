@@ -1,0 +1,9 @@
+{
+  "task_id": "PCC-20261008-PROJECT-SNAPSHOT-REPAIR",
+  "project_id": "kitt",
+  "agent_id": "codex-pcc-snapshot-repair-20261008",
+  "lock_token": "PCC-20261008-PROJECT-SNAPSHOT-REPAIR-2026-10-08T12:23:01.001Z",
+  "acquired_at": "2026-10-08T12:23:01.001Z",
+  "heartbeat_at": "2026-10-08T12:23:01.001Z",
+  "expires_at": "2026-10-08T14:23:25.172Z"
+}
