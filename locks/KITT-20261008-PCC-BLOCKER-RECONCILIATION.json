@@ -1,9 +1,0 @@
-{
-  "task_id": "KITT-20261008-PCC-BLOCKER-RECONCILIATION",
-  "project_id": "kitt",
-  "agent_id": "codex-pcc-blocker-reconciler-20261008",
-  "lock_token": "KITT-20261008-PCC-BLOCKER-RECONCILIATION-2026-10-08T12:13:16.091Z",
-  "acquired_at": "2026-10-08T12:13:16.091Z",
-  "heartbeat_at": "2026-10-08T12:13:16.091Z",
-  "expires_at": "2026-10-08T14:13:26.079Z"
-}
