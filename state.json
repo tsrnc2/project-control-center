@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-10T09:18:31Z",
+    "generated_at": "2026-10-10T22:15:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state only. Human task/blocker threads are GitHub Issues; execution locks are files on the live branch."
   },
@@ -264,6 +264,17 @@
         "last_completed_target": "project-control-center",
         "last_target_sha": "96eb3efbe8c1f9a8f76da3f353ec9beda91a6741"
       }
+    },
+    {
+      "id": "KITT-20261010-MATRIX-ALL-AGENTS",
+      "project_id": "kitt",
+      "title": "Log in and verify Matrix access for every agent",
+      "state": "BLOCKED",
+      "priority": "P1",
+      "claimed_by": null,
+      "updated_at": "2026-10-10T22:15:00Z",
+      "source_ref": "https://github.com/tsrnc2/project-control-center/issues/68",
+      "next_action": "After chat/task integration is ready, coordinator rechecks private roster and performs independent per-agent login, device/E2EE, reconnect and harmless task/result acceptance. Preparation can proceed independently; no verification claimed."
     }
   ],
   "blockers": [
