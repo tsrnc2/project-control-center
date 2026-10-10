@@ -47,6 +47,10 @@ Reviewer roles are routed through `reviewer-roles.json`, which points to existin
 
 The dashboard recognizes `[REVIEW]` issues without depending on GitHub Actions or label synchronization.
 
+## Prompt downloads
+
+The dashboard includes a **Prompts** tab backed by `prompts.json`. The catalog does not duplicate prompt bodies in this public tracker; it points at an immutable revision of the canonical KITT `control-plane/prompts/` bundle and exposes direct download plus source links. When the canonical prompt bundle changes, update the pinned revision and entries in `prompts.json` by reviewed PR.
+
 ## Public data boundary
 
 This repository is public. Store only coordination metadata intended for public

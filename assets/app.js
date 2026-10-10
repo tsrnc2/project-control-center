@@ -8,6 +8,7 @@
   const refreshMs = 120000;
   let snapshot = null;
   let githubIssues = [];
+  let promptCatalog = null;
   let lastFetch = 0;
 
   const $ = (id) => document.getElementById(id);
@@ -99,6 +100,42 @@
     const r=await fetch(url,{cache:'no-store',headers:{Accept:'application/vnd.github+json'}});
     if(!r.ok) throw new Error(`${r.status} from ${url}`);
     return r.json();
+  }
+
+  function renderPrompts() {
+    const host = $('prompts');
+    if (!host) return;
+    const source = promptCatalog?.source || {};
+    const sourceLabel = $('prompt-source');
+    if (sourceLabel) {
+      sourceLabel.textContent = source.revision
+        ? `Pinned KITT revision ${String(source.revision).slice(0,12)}`
+        : 'Pinned canonical source';
+    }
+    const items = promptCatalog?.prompts || [];
+    host.innerHTML = items.map(p => `
+      <article class="card prompt-card">
+        <div class="row-head">
+          <h3>${esc(p.name)}</h3>
+          <span class="badge">${esc(p.format || 'Text')}</span>
+        </div>
+        <p>${esc(p.purpose || '')}</p>
+        <p class="small muted">${esc(p.status || '')} · <code>${esc(p.file || '')}</code></p>
+        <div class="card-actions">
+          <a class="button primary" href="${esc(p.download_url || '#')}" download>Download</a>
+          <a class="button" href="${esc(p.source_url || '#')}" target="_blank" rel="noopener">View source</a>
+        </div>
+      </article>`).join('') || '<p class="muted">No public prompts are currently published.</p>';
+  }
+
+  async function fetchPrompts() {
+    try {
+      promptCatalog = await getJson('./prompts.json?t=' + Date.now());
+      renderPrompts();
+    } catch (e) {
+      const host = $('prompts');
+      if (host) host.innerHTML = '<p class="error">Prompt catalog unavailable: ' + esc(e.message) + '</p>';
+    }
   }
 
   async function fetchState(force=false) {
@@ -275,5 +312,6 @@
   $('issues-api-link').href=issuesApi;
 
   fetchState(true);
+  fetchPrompts();
   setInterval(()=>fetchState(false),refreshMs);
 })();
