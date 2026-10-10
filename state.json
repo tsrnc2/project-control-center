@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-10T09:08:53Z",
+    "generated_at": "2026-10-10T09:14:59Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state only. Human task/blocker threads are GitHub Issues; execution locks are files on the live branch."
   },
@@ -219,9 +219,9 @@
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-10T09:08:53Z",
+      "updated_at": "2026-10-10T09:14:59Z",
       "source_ref": "https://github.com/tsrnc2/project-control-center/issues/51",
-      "next_action": "PM-001 is complete. Continue with PM-002 canonical repository inventory and private ledger partitions under issue #55."
+      "next_action": "PM-002 completed. Continue with PM-003 canonical branch and PR inventory under issue #66."
     },
     {
       "id": "GROK-COMMIT-001",
@@ -233,6 +233,30 @@
       "updated_at": "2026-10-05T23:06:30Z",
       "source_ref": "https://github.com/tsrnc2/project-control-center/issues/57",
       "next_action": "Verify Grok integration Contents and Pull requests write access; use PR58 handoff to submit a useful candidate or preserve a base-pinned patch for integrator publication."
+    },
+    {
+      "id": "PM-002",
+      "project_id": "project-merger",
+      "title": "Canonical repository inventory and private ledger partitions",
+      "state": "DONE",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-10T09:14:59Z",
+      "source_ref": "https://github.com/tsrnc2/project-control-center/issues/55",
+      "next_action": "PM-003 is READY under issue #66. Private inventory contains 38 project partitions and 27 unique accessible repository targets for read-only branch/PR enumeration."
+    },
+    {
+      "id": "PM-003",
+      "project_id": "project-merger",
+      "title": "Canonical branch and PR inventory",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-10T09:14:59Z",
+      "source_ref": "https://github.com/tsrnc2/project-control-center/issues/66",
+      "next_action": "Acquire the PM-003 live lock and enumerate the 27 unique accessible repository targets read-only, freezing exact target SHAs and storing private branch/PR evidence by canonical project partition."
     }
   ],
   "blockers": [
@@ -352,6 +376,13 @@
       "project_id": "project-merger",
       "task_id": "PM-001",
       "summary": "Reconciled stale live RUNNING state to DONE from closed issue #51 and its completion receipt; stale execution lock was taken over solely for safe release."
+    },
+    {
+      "at": "2026-10-10T09:14:59Z",
+      "type": "TASK_COMPLETION",
+      "project_id": "project-merger",
+      "task_id": "PM-002",
+      "summary": "Built 38 private canonical-project ledger partitions, reconciled repository families, recorded 27 unique accessible PM-003 targets, and routed one machine-registry drift privately."
     }
   ]
 }
