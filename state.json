@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-08T12:27:21.933Z",
+    "generated_at": "2026-10-10T09:08:53Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state only. Human task/blocker threads are GitHub Issues; execution locks are files on the live branch."
   },
@@ -215,13 +215,13 @@
       "id": "PM-001",
       "project_id": "project-merger",
       "title": "Branch ledger and bounded pilot sweep",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P1",
-      "claimed_by": "chatgpt-senior-delegator",
-      "claim_expires_at": "2026-10-04T08:00:00Z",
-      "updated_at": "2026-10-04T07:18:00Z",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-10T09:08:53Z",
       "source_ref": "https://github.com/tsrnc2/project-control-center/issues/51",
-      "next_action": "Inventory and conservatively classify branches in the first five accessible canonical repositories; keep exact private refs in the private Project Merger Drive workspace."
+      "next_action": "PM-001 is complete. Continue with PM-002 canonical repository inventory and private ledger partitions under issue #55."
     },
     {
       "id": "GROK-COMMIT-001",
@@ -345,6 +345,13 @@
       "project_id": "kitt",
       "task_id": "PCC-20261008-PROJECT-SNAPSHOT-REPAIR",
       "summary": "PCC PR63 fixes snapshot project-set mismatch; hosted validate and CodeQL succeed; main unchanged pending required approving review."
+    },
+    {
+      "at": "2026-10-10T09:08:53Z",
+      "type": "TASK_RECONCILIATION",
+      "project_id": "project-merger",
+      "task_id": "PM-001",
+      "summary": "Reconciled stale live RUNNING state to DONE from closed issue #51 and its completion receipt; stale execution lock was taken over solely for safe release."
     }
   ]
 }
