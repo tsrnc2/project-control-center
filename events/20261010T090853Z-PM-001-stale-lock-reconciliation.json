@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "at": "2026-10-10T09:08:53Z",
+  "type": "STALE_LOCK_TAKEOVER",
+  "project_id": "project-merger",
+  "task_id": "PM-001",
+  "previous_owner": "chatgpt-senior-delegator",
+  "previous_lock_token": "pm001-20261004-a",
+  "previous_expires_at": "2026-10-04T08:00:00Z",
+  "new_owner": "chatgpt-control-plane-reconciler",
+  "new_lock_token": "pm001-reconcile-20261010-a",
+  "reason": "Public task issue #51 is closed and records PM-001 complete; live RUNNING state and expired execution lock were stale.",
+  "evidence": [
+    "https://github.com/tsrnc2/project-control-center/issues/51",
+    "https://github.com/tsrnc2/project-control-center/issues/51#issuecomment-5977726839",
+    "https://github.com/tsrnc2/project-control-center/issues/56"
+  ]
+}
