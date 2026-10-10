@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-10T22:15:00Z",
+  "type": "TASK_REGISTERED",
+  "project_id": "kitt",
+  "task_id": "KITT-20261010-MATRIX-ALL-AGENTS",
+  "issue": 68,
+  "state": "BLOCKED",
+  "summary": "Registered follow-on per-agent Matrix login and independent encryption/task verification; private evidence remains private."
+}
