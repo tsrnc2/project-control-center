@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
+# Prevent inherited shell tracing/export-all from exposing credential contents.
+set +ax
 
 readonly expected_domain="projectcontrolcenter"
 readonly domain="${1:-${expected_domain}}"
@@ -9,6 +11,21 @@ if [[ "${domain}" != "${expected_domain}" ]]; then
     exit 64
 fi
 
+# This template qualifies only an explicit IPv4 A-record update.
+# The approved host config is separate from the provider credential.
+readonly ipv4="${PCC_DUCKDNS_IPV4:-}"
+if [[ ! "${ipv4}" =~ ^([0-9]{1,3}\.){3}[0-9]{1,3}$ ]]; then
+    echo "Approved DuckDNS IPv4 address is missing or malformed" >&2
+    exit 64
+fi
+IFS='.' read -r -a octets <<< "${ipv4}"
+for octet in "${octets[@]}"; do
+    if [[ ${#octet} -gt 1 && "${octet:0:1}" == "0" ]] || (( 10#${octet} > 255 )); then
+        echo "Approved DuckDNS IPv4 address is malformed" >&2
+        exit 64
+    fi
+done
+
 : "${CREDENTIALS_DIRECTORY:?systemd credentials directory is required}"
 readonly token_file="${CREDENTIALS_DIRECTORY}/duckdns_token"
 
@@ -17,16 +34,22 @@ if [[ ! -r "${token_file}" ]]; then
     exit 1
 fi
 
-token="$(tr -d '\r\n' < "${token_file}")"
-if [[ -z "${token}" ]]; then
-    echo "DuckDNS credential is empty" >&2
+# Read in the shell; do not export the credential to child processes.
+unset token
+token="$(<"${token_file}")"
+token="${token%$'\r'}"
+if [[ ! "${token}" =~ ^[A-Za-z0-9_-]{1,256}$ ]]; then
+    echo "DuckDNS credential is empty or malformed" >&2
     exit 1
 fi
 
-response="$(curl --fail --silent --show-error --proto '=https' --tlsv1.2 --get \
+# curl reads the token from stdin. Its arguments contain only token@-.
+# --disable must be first to prevent user curl configuration from adding tracing.
+response="$(printf '%s' "${token}" | curl --disable --fail --silent --show-error \
+    --proto '=https' --tlsv1.2 --connect-timeout 10 --max-time 30 --get \
     --data-urlencode "domains=${domain}" \
-    --data-urlencode "token=${token}" \
-    --data-urlencode "ip=" \
+    --data-urlencode 'token@-' \
+    --data-urlencode "ip=${ipv4}" \
     "https://www.duckdns.org/update")"
 unset token
 
