@@ -5,9 +5,9 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-10T22:15:00Z",
+    "generated_at": "2026-10-11T17:49:41.981Z",
     "refresh_hint_seconds": 120,
-    "source_note": "Sanitized coordination state only. Human task/blocker threads are GitHub Issues; execution locks are files on the live branch."
+    "source_note": "Sanitized coordination state only. Human threads are GitHub Issues; locks are live branch files. This refresh mirrors nine reviewed canonical tasks only; unrelated records retain their own observation timestamps."
   },
   "projects": [
     {
@@ -164,12 +164,31 @@
       "id": "kitt-20260925-project-control-center",
       "project_id": "kitt",
       "title": "Build Project Control Center tracking website",
-      "state": "BLOCKED",
+      "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
-      "claim_expires_at": "2026-09-26T14:50:00-07:00",
-      "updated_at": "2026-10-08T12:27:21.933Z",
-      "next_action": "Obtain one authorized approving PR review for PR63 exact head 19b34ad84576ee7d33761710696d515b8f8a8020 (review request PCC issue64). Main-protection ruleset 24026587 requires that approval and validate status; validate run 37776719179 succeeded. Merge without bypass when gates are met, verify main validation/publication, and then reconcile this blocker. Separate metadata-sync and private intake-consumer checks remain."
+      "claim_expires_at": null,
+      "updated_at": "2026-10-11T17:49:41.981Z",
+      "next_action": "Continue remaining separately tracked metadata/intake checks.",
+      "review_status_history": [
+        {
+          "at": "2026-10-11T17:49:41.981Z",
+          "previous_state": "BLOCKED",
+          "previous_next_action": "Obtain one authorized approving PR review for PR63 exact head 19b34ad84576ee7d33761710696d515b8f8a8020 (review request PCC issue64). Main-protection ruleset 24026587 requires that approval and validate status; validate run 37776719179 succeeded. Merge without bypass when gates are met, verify main validation/publication, and then reconcile this blocker. Separate metadata-sync and private intake-consumer checks remain.",
+          "source_task_blob": "324b8bce008c92ab5a31129e9390cdeb3824049a"
+        }
+      ],
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/kitt-20260925-project-control-center.json",
+      "canonical_task_blob": "324b8bce008c92ab5a31129e9390cdeb3824049a",
+      "last_review": {
+        "mode": "OWNER_DIRECTED_INTERIM_T7_MANUAL",
+        "verdict": "RESOLVED_VERIFIED_SUPERSEDING_PUBLICATION",
+        "summary": "RESOLVED: superseding tracker snapshot is merged, exact main validation and publication succeeded.",
+        "evidence_ref": "https://github.com/tsrnc2/kitt/blob/56557e2519b16d941db72fca648c4fbd0b3d5a4d/reports/codex-interim-t7-oldest-20261011/PCC-OLDEST-BLOCKER-CLOSURE.md",
+        "repair_ref": null,
+        "model": "User-declared GPT-6.1/xhigh; no native model admission",
+        "runtime_activation": false
+      }
     },
     {
       "id": "LRP-20260926-TIER-POLICY",
@@ -179,11 +198,29 @@
       "priority": "P1",
       "claimed_by": "chatgpt-tier-governance",
       "claim_expires_at": "2026-09-27T22:31:01Z",
-      "updated_at": "2026-09-26T22:31:01Z",
-      "source_ref": "https://github.com/tsrnc2/llm_reasoning_project/pull/111",
+      "updated_at": "2026-10-11T17:49:41.981Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/llm-reasoning-project/LRP-20260926-TIER-POLICY.json",
       "policy_version": "1.0.0",
       "authority_policy_state": "NOT_ACTIVE",
-      "next_action": "Resolve the current-main conflict, independently accept the repaired candidate, qualify the host gate, and add reviewed exact-model/runtime evidence plus trusted model/effort attestation before any policy-keyed human-step waiver can activate."
+      "next_action": "Obtain distinct acceptance of repair PR259, qualify toolchain/host, explicitly bind consumer version and measured model records.",
+      "review_status_history": [
+        {
+          "at": "2026-10-11T17:49:41.981Z",
+          "previous_state": "BLOCKED",
+          "previous_next_action": "Resolve the current-main conflict, independently accept the repaired candidate, qualify the host gate, and add reviewed exact-model/runtime evidence plus trusted model/effort attestation before any policy-keyed human-step waiver can activate.",
+          "source_task_blob": "44aa567dc13d565bdf8453183a47b3a2e57bf46f"
+        }
+      ],
+      "canonical_task_blob": "44aa567dc13d565bdf8453183a47b3a2e57bf46f",
+      "last_review": {
+        "mode": "OWNER_DIRECTED_INTERIM_T7_MANUAL",
+        "verdict": "REPAIR_PUBLISHED_NOT_INDEPENDENTLY_ACCEPTED",
+        "summary": "Interim T7 source review completed; a tested native parser repair is published separately. Acceptance and host/model qualification remain.",
+        "evidence_ref": "https://github.com/tsrnc2/llm_reasoning_project/pull/259",
+        "repair_ref": null,
+        "model": "User-declared GPT-6.1/xhigh; no native model admission",
+        "runtime_activation": false
+      }
     },
     {
       "id": "KITT-20260926-TIER-ENFORCEMENT",
@@ -193,11 +230,29 @@
       "priority": "P1",
       "claimed_by": "chatgpt-tier-governance",
       "claim_expires_at": "2026-09-27T22:50:07Z",
-      "updated_at": "2026-09-26T22:50:07Z",
-      "source_ref": "https://github.com/tsrnc2/kitt/pull/10",
+      "updated_at": "2026-10-11T17:49:41.981Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-20260926-TIER-ENFORCEMENT.json",
       "policy_source": "tsrnc2/llm_reasoning_project",
       "authority_policy_state": "NOT_ACTIVE",
-      "next_action": "Complete repaired-head review, current-main integration, full package/host validation, productive dispatch-path coverage, and reviewed model evidence; keep the consumer fail closed until then."
+      "next_action": "Accept package repair PR129, reconcile PR10 conflicts/upstream gate binding, complete host/full-path and model qualification.",
+      "review_status_history": [
+        {
+          "at": "2026-10-11T17:49:41.981Z",
+          "previous_state": "BLOCKED",
+          "previous_next_action": "Complete repaired-head review, current-main integration, full package/host validation, productive dispatch-path coverage, and reviewed model evidence; keep the consumer fail closed until then.",
+          "source_task_blob": "bd2be5947d198992bdbc49d140713f650c1228ef"
+        }
+      ],
+      "canonical_task_blob": "bd2be5947d198992bdbc49d140713f650c1228ef",
+      "last_review": {
+        "mode": "OWNER_DIRECTED_INTERIM_T7_MANUAL",
+        "verdict": "SCOPED_REVIEW_COMPLETE_REPAIR_ACCEPTANCE_PENDING",
+        "summary": "Interim T7 consumer source review completed; package repair is published. Integration, independent-family acceptance and productive host qualification remain.",
+        "evidence_ref": "https://github.com/tsrnc2/kitt/pull/129",
+        "repair_ref": null,
+        "model": "User-declared GPT-6.1/xhigh; no native model admission",
+        "runtime_activation": false
+      }
     },
     {
       "id": "PCC-20260927-TIMING-FRESHNESS",
@@ -275,6 +330,198 @@
       "updated_at": "2026-10-10T22:15:00Z",
       "source_ref": "https://github.com/tsrnc2/project-control-center/issues/68",
       "next_action": "After chat/task integration is ready, coordinator rechecks private roster and performs independent per-agent login, device/E2EE, reconnect and harmless task/result acceptance. Preparation can proceed independently; no verification claimed."
+    },
+    {
+      "id": "KITT-CA-01",
+      "project_id": "kitt",
+      "title": "Independent security/concurrency review of coordination authority design",
+      "review_status_history": [
+        {
+          "at": "2026-10-11T17:49:41.981Z",
+          "previous_state": null,
+          "previous_next_action": null,
+          "source_task_blob": "73db9775cafe6db9d83427e1906d54531bd04939"
+        }
+      ],
+      "state": "DONE",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-11T17:49:41.981Z",
+      "next_action": "Carry conditions into existing coordination implementation tasks and independently qualify their runtime.",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-CA-01.json",
+      "canonical_task_blob": "73db9775cafe6db9d83427e1906d54531bd04939",
+      "last_review": {
+        "mode": "OWNER_DIRECTED_INTERIM_T7_MANUAL",
+        "verdict": "PASS_WITH_CONDITIONS_DESIGN_ONLY",
+        "summary": "RESOLVED: owner-authorized interim T7 independent design review accepted with two implementation conditions.",
+        "evidence_ref": "https://github.com/tsrnc2/kitt/pull/131",
+        "repair_ref": null,
+        "model": "User-declared GPT-6.1/xhigh; no native model admission",
+        "runtime_activation": false
+      }
+    },
+    {
+      "id": "ASSURANCE-003-P2-ACCEPTANCE",
+      "project_id": "llm-reasoning-project",
+      "title": "Reconcile ASSURANCE-003 second-pass acceptance before ASSURANCE-004",
+      "review_status_history": [
+        {
+          "at": "2026-10-11T17:49:41.981Z",
+          "previous_state": null,
+          "previous_next_action": null,
+          "source_task_blob": "957c176b6e5043663a36fced1c0dfd0229842531"
+        }
+      ],
+      "state": "BLOCKED",
+      "priority": "P2",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-11T17:49:41.981Z",
+      "next_action": "Run required isolated model/host behavioral evidence and acceptance; do not count synthetic static tests as agent trials.",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/llm-reasoning-project/ASSURANCE-003-P2-ACCEPTANCE.json",
+      "canonical_task_blob": "957c176b6e5043663a36fced1c0dfd0229842531",
+      "last_review": {
+        "mode": "OWNER_DIRECTED_INTERIM_T7_MANUAL",
+        "verdict": "PASS_SCOPED_STATIC_NOT_BEHAVIORAL_ACCEPTANCE",
+        "summary": "Interim T7 static/fidelity review passed its frozen supplied fixture scope. Actual isolated behavioral trials remain unexecuted.",
+        "evidence_ref": "https://github.com/tsrnc2/llm_reasoning_project/pull/260",
+        "repair_ref": null,
+        "model": "User-declared GPT-6.1/xhigh; no native model admission",
+        "runtime_activation": false
+      }
+    },
+    {
+      "id": "LRP-20260927-ROLE-GRADE-ADMISSION",
+      "project_id": "llm-reasoning-project",
+      "title": "Implement draft junior/senior grade admission foundation and rejection tests",
+      "review_status_history": [
+        {
+          "at": "2026-10-11T17:49:41.981Z",
+          "previous_state": null,
+          "previous_next_action": null,
+          "source_task_blob": "81d81f14aa461ca07f2a6f8f6cf8ab299400272b"
+        }
+      ],
+      "state": "BLOCKED",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-11T17:49:41.981Z",
+      "next_action": "Qualify consumer adapter and actual role/model admission. Preserve unverified Clang/leak-enabled/host paths.",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/llm-reasoning-project/LRP-20260927-ROLE-GRADE-ADMISSION.json",
+      "canonical_task_blob": "81d81f14aa461ca07f2a6f8f6cf8ab299400272b",
+      "last_review": {
+        "mode": "OWNER_DIRECTED_INTERIM_T7_MANUAL",
+        "verdict": "PASS_WITH_CONDITIONS_OFFLINE_FOUNDATION",
+        "summary": "Independent interim T7 offline foundation source review completed; consumer adapter and actual role/model qualification remain.",
+        "evidence_ref": "https://github.com/tsrnc2/llm_reasoning_project/pull/261",
+        "repair_ref": null,
+        "model": "User-declared GPT-6.1/xhigh; no native model admission",
+        "runtime_activation": false
+      }
+    },
+    {
+      "id": "KITT-20260927-WEBSITE-PROGRAM",
+      "project_id": "kitt",
+      "title": "Give Project Control Center its own lineup and production-readiness program",
+      "review_status_history": [
+        {
+          "at": "2026-10-11T17:49:41.981Z",
+          "previous_state": null,
+          "previous_next_action": null,
+          "source_task_blob": "8c13e8499c2ea61fedcab7eaa81e586d650eb7b2"
+        }
+      ],
+      "state": "BLOCKED",
+      "priority": "P1",
+      "claimed_by": "chatgpt-website-program",
+      "claim_expires_at": "2026-09-29T22:19:08Z",
+      "updated_at": "2026-10-11T17:49:41.981Z",
+      "next_action": "Independently accept PCC repair PR69 and exact website candidate, reconcile conflicts, then obtain production/DNS/host evidence.",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-20260927-WEBSITE-PROGRAM.json",
+      "canonical_task_blob": "8c13e8499c2ea61fedcab7eaa81e586d650eb7b2",
+      "last_review": {
+        "mode": "OWNER_DIRECTED_INTERIM_T7_MANUAL",
+        "verdict": "REPAIR_ACCEPTANCE_AND_DIFFERENT_FAMILY_REVIEW_PENDING",
+        "summary": "Interim T7 technical review completed REVISE; separate offline DNS-template/document repair is published. Required family acceptance and production gates remain.",
+        "evidence_ref": "https://github.com/tsrnc2/kitt/pull/130",
+        "repair_ref": "https://github.com/tsrnc2/project-control-center/pull/69",
+        "model": "User-declared GPT-6.1/xhigh; no native model admission",
+        "runtime_activation": false
+      }
+    },
+    {
+      "id": "KITT-20260926-service-framework-v1",
+      "project_id": "kitt",
+      "title": "Bootstrap KITT generic service framework v1",
+      "review_status_history": [
+        {
+          "at": "2026-10-11T17:49:41.981Z",
+          "previous_state": null,
+          "previous_next_action": null,
+          "source_task_blob": "d3e4fff5e8520feb8a71edf9e19f7f8912f521e6"
+        }
+      ],
+      "state": "BLOCKED",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-11T17:49:41.981Z",
+      "next_action": "Repair five source findings, retain original nine requirements, qualify supervised process/native/full-project/CI and obtain exact-head acceptance.",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-20260926-service-framework-v1.json",
+      "canonical_task_blob": "d3e4fff5e8520feb8a71edf9e19f7f8912f521e6",
+      "last_review": {
+        "mode": "OWNER_DIRECTED_INTERIM_T7_MANUAL",
+        "verdict": "REVISE",
+        "summary": "Independent interim T7 lifecycle review completed REVISE: five remaining contract/source findings; repeated clean-stop contract decision resolved.",
+        "evidence_ref": "https://github.com/tsrnc2/kitt/pull/132",
+        "repair_ref": null,
+        "model": "User-declared GPT-6.1/xhigh; no native model admission",
+        "runtime_activation": false
+      }
+    },
+    {
+      "id": "LRP-SCITE-U-001",
+      "project_id": "llm-reasoning-project",
+      "title": "Repair four evidenced Scite campaign validator/record-contract defects",
+      "review_status_history": [
+        {
+          "at": "2026-10-11T17:49:41.981Z",
+          "previous_state": null,
+          "previous_next_action": null,
+          "source_task_blob": "04e9c94df43cc3d9a93e08c7a9acaa96b9b0eef1"
+        }
+      ],
+      "state": "BLOCKED",
+      "priority": "P0",
+      "claimed_by": "chatgpt-scite-reviewer",
+      "claim_expires_at": "2026-09-29T17:59:05Z",
+      "updated_at": "2026-10-11T17:49:41.981Z",
+      "next_action": "Correct gaps, finish independent execution when available, and resolve original publication stop through its authorized route.",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/llm-reasoning-project/LRP-SCITE-U-001.json",
+      "canonical_task_blob": "04e9c94df43cc3d9a93e08c7a9acaa96b9b0eef1",
+      "last_review": {
+        "mode": "OWNER_DIRECTED_INTERIM_T7_MANUAL",
+        "verdict": "REVISE_SOURCE_CONSISTENCY",
+        "summary": "Interim T7 source review completed REVISE with two remaining record-contract gaps. Historic repair-publication safety rejection remains.",
+        "evidence_ref": "https://github.com/tsrnc2/llm_reasoning_project/pull/262",
+        "repair_ref": null,
+        "model": "User-declared GPT-6.1/xhigh; no native model admission",
+        "runtime_activation": false
+      }
+    },
+    {
+      "id": "PCC-20261011-OLDEST-T7-REVIEW-MIRROR",
+      "project_id": "kitt",
+      "title": "Mirror verified oldest-first T7 review results into master view",
+      "state": "DONE",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-11T17:49:41.981Z",
+      "next_action": "Remaining source/runtime/family gates retain canonical ownership and evidence.",
+      "result_summary": "Two blockers resolved; seven scoped review dispositions and three separate repair publications mirrored. Other records retained."
     }
   ],
   "blockers": [
@@ -282,20 +529,28 @@
       "id": "project-control-center-actions-admission",
       "project_id": "kitt",
       "task_id": "kitt-20260925-project-control-center",
-      "state": "OPEN",
+      "state": "RESOLVED",
       "severity": "HIGH",
-      "summary": "Snapshot mismatch repaired in PR63; local validator, hosted validate and CodeQL pass. Awaiting required approving review and normal merge.",
-      "required_next_action": "Obtain one authorized approving PR review for PR63 exact head 19b34ad84576ee7d33761710696d515b8f8a8020 (review request PCC issue64). Main-protection ruleset 24026587 requires that approval and validate status; validate run 37776719179 succeeded. Merge without bypass when gates are met, verify main validation/publication, and then reconcile this blocker. Separate metadata-sync and private intake-consumer checks remain.",
-      "updated_at": "2026-10-08T12:27:21.933Z",
+      "summary": "RESOLVED: superseding tracker snapshot is merged, exact main validation and publication succeeded.",
+      "required_next_action": "Continue remaining separately tracked metadata/intake checks.",
+      "updated_at": "2026-10-11T17:49:41.981Z",
       "history": [
         {
           "at": "2026-10-08T12:15:09.123Z",
           "task_id": "KITT-20261008-PCC-BLOCKER-RECONCILIATION",
           "previous_summary": "GitHub Actions runs fail before workflow steps execute.",
           "previous_required_next_action": "Verify repository/account Actions policy or other pre-runner admission setting, then rerun Validate tracker, Sync repository metadata, Pages deployment, and CodeQL."
+        },
+        {
+          "at": "2026-10-11T17:49:41.981Z",
+          "previous_state": "OPEN",
+          "previous_summary": "Snapshot mismatch repaired in PR63; local validator, hosted validate and CodeQL pass. Awaiting required approving review and normal merge.",
+          "previous_required_next_action": "Obtain one authorized approving PR review for PR63 exact head 19b34ad84576ee7d33761710696d515b8f8a8020 (review request PCC issue64). Main-protection ruleset 24026587 requires that approval and validate status; validate run 37776719179 succeeded. Merge without bypass when gates are met, verify main validation/publication, and then reconcile this blocker. Separate metadata-sync and private intake-consumer checks remain.",
+          "source_task_blob": "324b8bce008c92ab5a31129e9390cdeb3824049a"
         }
       ],
-      "category": "TRACKER_REPAIR_REVIEW_AND_MERGE_REQUIRED"
+      "category": "SCOPED_REVIEW_OR_PUBLICATION_RESOLVED",
+      "review_ref": "https://github.com/tsrnc2/kitt/blob/56557e2519b16d941db72fca648c4fbd0b3d5a4d/reports/codex-interim-t7-oldest-20261011/PCC-OLDEST-BLOCKER-CLOSURE.md"
     },
     {
       "id": "LRP-TIER-POLICY-INDEPENDENT-ACCEPTANCE",
@@ -303,10 +558,21 @@
       "task_id": "LRP-20260926-TIER-POLICY",
       "state": "OPEN",
       "severity": "HIGH",
-      "summary": "The canonical policy candidate is unmerged and conflicting; its approved-model catalog is empty, so no model-tier human-step waiver is active.",
-      "required_next_action": "Accept and merge the repaired policy, qualify its exact host/runtime evidence and authenticated model-effort attestation, then expose only the named policy decision to consumers.",
+      "summary": "Interim T7 source review completed; a tested native parser repair is published separately. Acceptance and host/model qualification remain.",
+      "required_next_action": "Obtain distinct acceptance of repair PR259, qualify toolchain/host, explicitly bind consumer version and measured model records.",
       "issue_url": "https://github.com/tsrnc2/kitt/issues/9",
-      "updated_at": "2026-09-27T00:00:22Z"
+      "updated_at": "2026-10-11T17:49:41.981Z",
+      "history": [
+        {
+          "at": "2026-10-11T17:49:41.981Z",
+          "previous_state": "OPEN",
+          "previous_summary": "The canonical policy candidate is unmerged and conflicting; its approved-model catalog is empty, so no model-tier human-step waiver is active.",
+          "previous_required_next_action": "Accept and merge the repaired policy, qualify its exact host/runtime evidence and authenticated model-effort attestation, then expose only the named policy decision to consumers.",
+          "source_task_blob": "44aa567dc13d565bdf8453183a47b3a2e57bf46f"
+        }
+      ],
+      "category": "REVIEW_COMPLETE_REMAINING_ACCEPTANCE_OR_EXECUTION_GATES",
+      "review_ref": "https://github.com/tsrnc2/llm_reasoning_project/pull/259"
     },
     {
       "id": "KITT-TIER-ADMISSION-QUALIFICATION",
@@ -314,10 +580,21 @@
       "task_id": "KITT-20260926-TIER-ENFORCEMENT",
       "state": "OPEN",
       "severity": "HIGH",
-      "summary": "The KITT consumer remains unmerged and fail closed pending current-main integration, host qualification, complete dispatch coverage, and approved model evidence.",
-      "required_next_action": "Resolve PR 10 CI/integration against current main and keep activation blocked until the canonical LLM policy and exact execution identity are qualified.",
+      "summary": "Interim T7 consumer source review completed; package repair is published. Integration, independent-family acceptance and productive host qualification remain.",
+      "required_next_action": "Accept package repair PR129, reconcile PR10 conflicts/upstream gate binding, complete host/full-path and model qualification.",
       "issue_url": "https://github.com/tsrnc2/kitt/issues/11",
-      "updated_at": "2026-09-27T00:00:37Z"
+      "updated_at": "2026-10-11T17:49:41.981Z",
+      "history": [
+        {
+          "at": "2026-10-11T17:49:41.981Z",
+          "previous_state": "OPEN",
+          "previous_summary": "The KITT consumer remains unmerged and fail closed pending current-main integration, host qualification, complete dispatch coverage, and approved model evidence.",
+          "previous_required_next_action": "Resolve PR 10 CI/integration against current main and keep activation blocked until the canonical LLM policy and exact execution identity are qualified.",
+          "source_task_blob": "bd2be5947d198992bdbc49d140713f650c1228ef"
+        }
+      ],
+      "category": "REVIEW_COMPLETE_REMAINING_ACCEPTANCE_OR_EXECUTION_GATES",
+      "review_ref": "https://github.com/tsrnc2/kitt/pull/129"
     },
     {
       "id": "GROK-PUBLICATION-VERIFICATION",
@@ -329,6 +606,132 @@
       "required_next_action": "Authorize Grok's repository-scoped publication integration and obtain its own branch/commit/draft PR receipt, or supply a preserved patch for integrator publication.",
       "issue_url": "https://github.com/tsrnc2/project-control-center/issues/57",
       "updated_at": "2026-10-05T23:06:30Z"
+    },
+    {
+      "id": "review-followup-KITT-CA-01",
+      "project_id": "kitt",
+      "task_id": "KITT-CA-01",
+      "severity": "LOW",
+      "history": [
+        {
+          "at": "2026-10-11T17:49:41.981Z",
+          "previous_state": null,
+          "previous_summary": null,
+          "previous_required_next_action": null,
+          "source_task_blob": "73db9775cafe6db9d83427e1906d54531bd04939"
+        }
+      ],
+      "state": "RESOLVED",
+      "summary": "RESOLVED: owner-authorized interim T7 independent design review accepted with two implementation conditions.",
+      "required_next_action": "Carry conditions into existing coordination implementation tasks and independently qualify their runtime.",
+      "updated_at": "2026-10-11T17:49:41.981Z",
+      "category": "SCOPED_REVIEW_OR_PUBLICATION_RESOLVED",
+      "review_ref": "https://github.com/tsrnc2/kitt/pull/131"
+    },
+    {
+      "id": "review-followup-ASSURANCE-003-P2-ACCEPTANCE",
+      "project_id": "llm-reasoning-project",
+      "task_id": "ASSURANCE-003-P2-ACCEPTANCE",
+      "severity": "HIGH",
+      "history": [
+        {
+          "at": "2026-10-11T17:49:41.981Z",
+          "previous_state": null,
+          "previous_summary": null,
+          "previous_required_next_action": null,
+          "source_task_blob": "957c176b6e5043663a36fced1c0dfd0229842531"
+        }
+      ],
+      "state": "OPEN",
+      "summary": "Interim T7 static/fidelity review passed its frozen supplied fixture scope. Actual isolated behavioral trials remain unexecuted.",
+      "required_next_action": "Run required isolated model/host behavioral evidence and acceptance; do not count synthetic static tests as agent trials.",
+      "updated_at": "2026-10-11T17:49:41.981Z",
+      "category": "REVIEW_COMPLETE_REMAINING_ACCEPTANCE_OR_EXECUTION_GATES",
+      "review_ref": "https://github.com/tsrnc2/llm_reasoning_project/pull/260"
+    },
+    {
+      "id": "review-followup-LRP-20260927-ROLE-GRADE-ADMISSION",
+      "project_id": "llm-reasoning-project",
+      "task_id": "LRP-20260927-ROLE-GRADE-ADMISSION",
+      "severity": "HIGH",
+      "history": [
+        {
+          "at": "2026-10-11T17:49:41.981Z",
+          "previous_state": null,
+          "previous_summary": null,
+          "previous_required_next_action": null,
+          "source_task_blob": "81d81f14aa461ca07f2a6f8f6cf8ab299400272b"
+        }
+      ],
+      "state": "OPEN",
+      "summary": "Independent interim T7 offline foundation source review completed; consumer adapter and actual role/model qualification remain.",
+      "required_next_action": "Qualify consumer adapter and actual role/model admission. Preserve unverified Clang/leak-enabled/host paths.",
+      "updated_at": "2026-10-11T17:49:41.981Z",
+      "category": "REVIEW_COMPLETE_REMAINING_ACCEPTANCE_OR_EXECUTION_GATES",
+      "review_ref": "https://github.com/tsrnc2/llm_reasoning_project/pull/261"
+    },
+    {
+      "id": "review-followup-KITT-20260927-WEBSITE-PROGRAM",
+      "project_id": "kitt",
+      "task_id": "KITT-20260927-WEBSITE-PROGRAM",
+      "severity": "HIGH",
+      "history": [
+        {
+          "at": "2026-10-11T17:49:41.981Z",
+          "previous_state": null,
+          "previous_summary": null,
+          "previous_required_next_action": null,
+          "source_task_blob": "8c13e8499c2ea61fedcab7eaa81e586d650eb7b2"
+        }
+      ],
+      "state": "OPEN",
+      "summary": "Interim T7 technical review completed REVISE; separate offline DNS-template/document repair is published. Required family acceptance and production gates remain.",
+      "required_next_action": "Independently accept PCC repair PR69 and exact website candidate, reconcile conflicts, then obtain production/DNS/host evidence.",
+      "updated_at": "2026-10-11T17:49:41.981Z",
+      "category": "REVIEW_COMPLETE_REMAINING_ACCEPTANCE_OR_EXECUTION_GATES",
+      "review_ref": "https://github.com/tsrnc2/kitt/pull/130"
+    },
+    {
+      "id": "review-followup-KITT-20260926-service-framework-v1",
+      "project_id": "kitt",
+      "task_id": "KITT-20260926-service-framework-v1",
+      "severity": "HIGH",
+      "history": [
+        {
+          "at": "2026-10-11T17:49:41.981Z",
+          "previous_state": null,
+          "previous_summary": null,
+          "previous_required_next_action": null,
+          "source_task_blob": "d3e4fff5e8520feb8a71edf9e19f7f8912f521e6"
+        }
+      ],
+      "state": "OPEN",
+      "summary": "Independent interim T7 lifecycle review completed REVISE: five remaining contract/source findings; repeated clean-stop contract decision resolved.",
+      "required_next_action": "Repair five source findings, retain original nine requirements, qualify supervised process/native/full-project/CI and obtain exact-head acceptance.",
+      "updated_at": "2026-10-11T17:49:41.981Z",
+      "category": "REVIEW_COMPLETE_REMAINING_ACCEPTANCE_OR_EXECUTION_GATES",
+      "review_ref": "https://github.com/tsrnc2/kitt/pull/132"
+    },
+    {
+      "id": "review-followup-LRP-SCITE-U-001",
+      "project_id": "llm-reasoning-project",
+      "task_id": "LRP-SCITE-U-001",
+      "severity": "HIGH",
+      "history": [
+        {
+          "at": "2026-10-11T17:49:41.981Z",
+          "previous_state": null,
+          "previous_summary": null,
+          "previous_required_next_action": null,
+          "source_task_blob": "04e9c94df43cc3d9a93e08c7a9acaa96b9b0eef1"
+        }
+      ],
+      "state": "OPEN",
+      "summary": "Interim T7 source review completed REVISE with two remaining record-contract gaps. Historic repair-publication safety rejection remains.",
+      "required_next_action": "Correct gaps, finish independent execution when available, and resolve original publication stop through its authorized route.",
+      "updated_at": "2026-10-11T17:49:41.981Z",
+      "category": "REVIEW_COMPLETE_REMAINING_ACCEPTANCE_OR_EXECUTION_GATES",
+      "review_ref": "https://github.com/tsrnc2/llm_reasoning_project/pull/262"
     }
   ],
   "activity": [
@@ -408,6 +811,25 @@
       "project_id": "project-merger",
       "task_id": "PM-003",
       "summary": "Completed exact-SHA read-only inventory for the project-control-center repository family: 20 branches and 13 open PR bindings; private receipt stored in its ledger partition. PM-003 remains READY with 26 repository targets remaining."
+    },
+    {
+      "at": "2026-10-11T17:49:41.981Z",
+      "type": "INTERIM_T7_OLDEST_REVIEW_MIRROR",
+      "project_id": "kitt",
+      "task_id": "PCC-20261011-OLDEST-T7-REVIEW-MIRROR",
+      "summary": "Mirrored nine canonical task outcomes: two resolved blockers, seven scoped review dispositions, three separately published repairs. Manual interim T7 authority is owner-directed; no model admission, merge or deployment inferred.",
+      "task_ids": [
+        "kitt-20260925-project-control-center",
+        "KITT-CA-01",
+        "LRP-20260926-TIER-POLICY",
+        "KITT-20260926-TIER-ENFORCEMENT",
+        "ASSURANCE-003-P2-ACCEPTANCE",
+        "LRP-20260927-ROLE-GRADE-ADMISSION",
+        "KITT-20260927-WEBSITE-PROGRAM",
+        "KITT-20260926-service-framework-v1",
+        "LRP-SCITE-U-001"
+      ],
+      "execution_limitation": "Local execution service unavailable after Scite baseline tests; additional native checks pending."
     }
   ]
 }
