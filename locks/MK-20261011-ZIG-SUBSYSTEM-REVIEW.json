@@ -5,5 +5,7 @@
   "lock_token": "zig-review-registration-20261011T201807Z",
   "created_at": "2026-10-11T20:18:07Z",
   "expires_at": "2026-10-11T20:33:07Z",
-  "run_ref": "master-review-registration-only"
+  "run_ref": "registration-cancelled-no-issue-found",
+  "status": "released",
+  "released_at": "2026-10-11T20:19:45Z"
 }
