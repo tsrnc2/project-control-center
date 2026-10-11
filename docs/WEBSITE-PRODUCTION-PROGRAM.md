@@ -6,7 +6,7 @@
 
 The user requested a dedicated website task section and a commercially ready production project/research task-delegation hub. This change establishes the programme and prepares its first bounded presentation. It does NOT claim that the commercial application, authenticated backend or production qualification is complete.
 
-Project Control Center is an ACTIVE-CHILD of KITT, with its own repository and roadmap. Existing project roots and history are preserved. The canonical private planning board is [KITT website assignments](https://github.com/tsrnc2/kitt/blob/5faf7d241aee37e2365a2764812170ad7ce26b2b/control-plane/assignments/project-control-center.json), PCC-WEB-001 through PCC-WEB-023. The human lineup is `tsrnc2/kitt/control-plane/assignments/WEBSITE.md`; an additive index references it without copying the existing portfolio board. Legacy schedulers reading only portfolio.json need separately reviewed index-reader integration.
+Project Control Center is an ACTIVE-CHILD of KITT, with its own repository and roadmap. Existing project roots and history are preserved. The canonical private planning board is [KITT website assignments](https://github.com/tsrnc2/kitt/blob/48e86826275922f9707389acda66b571391140e4/control-plane/assignments/project-control-center.json), PCC-WEB-001 through PCC-WEB-023. The human lineup is `tsrnc2/kitt/control-plane/assignments/WEBSITE.md`; an additive index references it without copying the existing portfolio board. Legacy schedulers reading only portfolio.json need separately reviewed index-reader integration.
 
 `website.html` is a deliberately public, pinned navigation summary, not an editable source of task authority or a live snapshot. Its dates and unknown owner/ETA are labelled. On updates, reconcile with the canonical board and review the public-field selection; never export private task content or credentials to refresh this page. Do not use its static status to claim, take over or execute a task.
 
@@ -58,3 +58,7 @@ No complete repository suite, PR14 regression suite, authenticated backend, real
 ## Review and next action
 
 A separate authorized T7-capable engineering/security reviewer should inspect the exact candidate's public/private boundary, truthful snapshot labeling, task/role/tier consistency, duplication risks, source pinning and mobile/keyboard behavior. Review the canonical programme's dependency and release gates with source-bound findings. Then accept the bounded baseline task, reconcile existing owners and promote one eligible assignment. Do not merge or deploy merely because this author's local checks pass.
+
+## Finding-linked DNS template repair candidate (2026-10-11)
+
+PCC-DNS-001/002 and PCC-SOURCE-003 are addressed in a separate bounded repair candidate: stdin-only credential transfer, explicit approved IPv4 configuration and corrected23-assignment provenance. These are offline template corrections, not DNS registration, host qualification, full programme acceptance or a replacement for an independent review of the new digest. IPv6/AAAA remains separately gated. See the canonical KITT repair task KITT-20261011-PCC-DNS-REPAIR and its evidence PR.

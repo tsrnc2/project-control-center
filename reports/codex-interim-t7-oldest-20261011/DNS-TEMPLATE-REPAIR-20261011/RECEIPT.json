@@ -1,0 +1,96 @@
+{
+  "schema_version": "pcc.finding-linked-repair.v1",
+  "observed_at": "2026-10-11T17:18:46.466Z",
+  "task": "KITT-20261011-PCC-DNS-REPAIR",
+  "author": "codex-interim-t7-oldest-20261011",
+  "owner_authorization": {
+    "source": "Current user explicitly declares GPT-6.1 xhigh interim T7 and authorizes clearing T7 blockers",
+    "declared_model": "GPT-6.1",
+    "declared_reasoning_effort": "xhigh",
+    "immutable_model_release": null,
+    "native_model_admission": false
+  },
+  "review_origin": "https://github.com/tsrnc2/kitt/pull/130",
+  "frozen_review_candidate": "b156efe6d2a700feb76c495c0a136026a3f008c8",
+  "repair_code_commit": "30ebb49be83dda5d9481fa0e31265db40ff2541a",
+  "source_readback_bindings": [
+    {
+      "path": "deploy/project-control-center-duckdns-update.sh",
+      "git_blob": "dbbf4e0f6d59d0c406e0f08ba558439a18494335"
+    },
+    {
+      "path": "deploy/project-control-center-duckdns.service",
+      "git_blob": "6c884c2d49a4358cd1249e1875dec874b8d84c84"
+    },
+    {
+      "path": "docs/DUCKDNS.md",
+      "git_blob": "a37875b6caf5224d1a1fb8d4ef95c227ccb0cde6"
+    },
+    {
+      "path": "docs/WEBSITE-PRODUCTION-PROGRAM.md",
+      "git_blob": "6ccb5c0c7adb67f6104765959cedbaf30362266e"
+    },
+    {
+      "path": "tests/test_duckdns_boundary.py",
+      "git_blob": "116a8cf6a89dabb41423be9ef9bec2c50b16a03b"
+    }
+  ],
+  "finding_status": [
+    {
+      "id": "PCC-DNS-001",
+      "state": "REPAIRED_AND_OFFLINE_REVALIDATED_NOT_INDEPENDENTLY_ACCEPTED",
+      "change": "stdin-only token transfer, shell tracing/export-all disabled, inherited exported token unset, user curl config disabled",
+      "tests": [
+        "success_uses_stdin_without_secret_arguments_or_environment",
+        "inherited_tracing_and_export_all_do_not_expose_secret",
+        "inherited_exported_token_is_not_propagated",
+        "real_curl_stdin_transport_on_loopback_only"
+      ]
+    },
+    {
+      "id": "PCC-DNS-002",
+      "state": "REPAIRED_AND_OFFLINE_REVALIDATED_NOT_INDEPENDENTLY_ACCEPTED",
+      "change": "Explicit canonical IPv4 address from separate approved host config, reject absent/malformed before curl; supported A-only boundary explicitly documented",
+      "tests": [
+        "missing_approved_address_fails_before_curl",
+        "malformed_addresses_fail_before_curl",
+        "ipv4_octet_boundaries_are_preserved",
+        "unit_requires_separate_approved_host_config"
+      ]
+    },
+    {
+      "id": "PCC-SOURCE-003",
+      "state": "REPAIRED_AND_OFFLINE_REVALIDATED_NOT_INDEPENDENTLY_ACCEPTED",
+      "change": "Programme source aligned to23-item48e868pin",
+      "tests": [
+        "programme_and_page_pin_same23_item_source"
+      ]
+    }
+  ],
+  "actual_validation": {
+    "unittest_methods": 26,
+    "new_boundary_methods": 17,
+    "existing_page_methods": 9,
+    "failures": 0,
+    "skips": 0,
+    "real_curl": "8.5.0",
+    "real_curl_transport": "loopback HTTP server only, production remains HTTPS",
+    "real_duckdns_calls": 0,
+    "real_credentials": false,
+    "shell_syntax": "PASS",
+    "systemd_unit_parse": "PASS with only ExecStart substituted to locally existing interpreter/script",
+    "actual_systemd_service_started": false,
+    "host_tls_dns_qualified": false,
+    "full_pcc_suite": false
+  },
+  "remaining": [
+    "Independent review and acceptance of this new repair digest; author cannot supply it",
+    "Parent programme's different-model-family requirement",
+    "Current-main full programme/conflict integration",
+    "Approved host/account, real external DNS/TLS/rollback, separately qualified IPv6/AAAA handling if needed"
+  ],
+  "pr18_source_mutated": false,
+  "merged": false,
+  "activated": false,
+  "production_ready": false
+}
