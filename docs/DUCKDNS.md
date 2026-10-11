@@ -15,10 +15,11 @@ Registration/account ownership is distinct from updating an already-owned subdom
 1. PCC-WEB-004 has selected and approved the production host/IP.
 2. The intended DuckDNS account has authenticated access and has registered `projectcontrolcenter`.
 3. The host has an approved secret file at `/etc/project-control-center/duckdns-token`, mode 0600/root-owned or stronger platform equivalent. Never put this token in Git, chat, logs, unit files, shell history, screenshots, or reports.
-4. The updater script and systemd unit below have been independently reviewed on the exact candidate.
-5. The HTTP service/reverse proxy is configured for `projectcontrolcenter.duckdns.org`.
-6. DNS is externally verified before requesting the TLS certificate.
-7. TLS issuance/renewal and HTTP->HTTPS redirect are verified before public activation.
+4. The approved root-owned `/etc/project-control-center/duckdns-host.env` contains `PCC_DUCKDNS_IPV4=<approved literal IPv4 address>`. The address must come from the separately approved PCC host decision; do not use caller autodetection. This template supports an A-record update only. IPv6/AAAA configuration and stale-record handling require a separate approved adaptation and external verification before activation.
+5. The updater script and systemd unit below have been independently reviewed on the exact candidate.
+6. The HTTP service/reverse proxy is configured for `projectcontrolcenter.duckdns.org`.
+7. DNS is externally verified before requesting the TLS certificate.
+8. TLS issuance/renewal and HTTP->HTTPS redirect are verified before public activation.
 
 ## Prepared host templates
 
@@ -26,7 +27,7 @@ Registration/account ownership is distinct from updating an already-owned subdom
 - `deploy/project-control-center-duckdns.service`
 - `deploy/project-control-center-duckdns.timer`
 
-The service uses systemd `LoadCredential=` so the updater reads the token from `$CREDENTIALS_DIRECTORY/duckdns_token`. The script accepts only the expected `projectcontrolcenter` subname and treats any response other than exactly `OK` as failure.
+The service uses systemd `LoadCredential=` so the updater reads the token from `$CREDENTIALS_DIRECTORY/duckdns_token`. The script accepts only the expected `projectcontrolcenter` subname and a canonical literal approved IPv4 address. Missing/malformed address or credential fails before curl. Token files contain 1–256 ASCII letters, digits, underscores or hyphens, optionally followed by a line ending; multiline/other content is rejected. Credential bytes pass to curl through stdin, never through argv or an exported environment variable. Inherited shell tracing/export-all is disabled before reading the credential, and curl user configuration is disabled. The request uses an explicit `ip` parameter, a 10-second connection budget and a 30-second total budget; the unit bounds execution at45seconds. Any response other than exactly `OK` fails.
 
 The templates are inert repository files. Do not install/enable them until the approved host and DuckDNS registration exist.
 
