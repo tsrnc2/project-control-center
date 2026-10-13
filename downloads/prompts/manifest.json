@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-13T17:55:00Z",
+  "distribution_visibility": "public",
+  "canonical_source": {
+    "repository": "tsrnc2/kitt",
+    "visibility": "private",
+    "revision": "03bcbae32e4ea28c8fa0a87c072b6cbfefb1bc5b",
+    "path": "control-plane/prompts",
+    "task_id": "KITT-20261008-PROMPT-CANONICALIZATION"
+  },
+  "distribution": {
+    "repository": "tsrnc2/project-control-center",
+    "path": "downloads/prompts",
+    "policy": "Public read-only distribution copies; canonical editable ownership remains in KITT."
+  },
+  "files": [
+    {
+      "id": "one-task-senior-coder",
+      "file": "MASTER_PROJECT_PLANE_ONE_TASK_SR_CODER_WORKER.md",
+      "public_path": "downloads/prompts/MASTER_PROJECT_PLANE_ONE_TASK_SR_CODER_WORKER.md",
+      "source_path": "control-plane/prompts/MASTER_PROJECT_PLANE_ONE_TASK_SR_CODER_WORKER.md",
+      "source_git_blob_sha": "bd13928f23961ddb4ac893cfa93c8d92f3ef5240",
+      "sha256": "af4e296679844830875bdc9784afd544a173162eeb6aad3164affd42f7c5b006",
+      "bytes": 7313
+    },
+    {
+      "id": "google-junior-startup",
+      "file": "GOOGLE_JUNIOR_STARTUP_PROMPT.txt",
+      "public_path": "downloads/prompts/GOOGLE_JUNIOR_STARTUP_PROMPT.txt",
+      "source_path": "control-plane/prompts/GOOGLE_JUNIOR_STARTUP_PROMPT.txt",
+      "source_git_blob_sha": "bf77c5bd81ecff2d0b7e7a13b6312b8bdbbdbc0d",
+      "sha256": "97d481ce18787e233e473209000fbad88e829724a4092008531ac0766eefaa0f",
+      "bytes": 3066
+    },
+    {
+      "id": "claude-senior-startup",
+      "file": "CLAUDE_SR_STARTUP_PROMPT.txt",
+      "public_path": "downloads/prompts/CLAUDE_SR_STARTUP_PROMPT.txt",
+      "source_path": "control-plane/prompts/CLAUDE_SR_STARTUP_PROMPT.txt",
+      "source_git_blob_sha": "eb6642f80b43e83033c11fd7bb29f809438b4727",
+      "sha256": "87a1a5d54920d88f1c031234e1ecb053983811ddbb0ebcb4e0e950bc3a27362b",
+      "bytes": 2979
+    },
+    {
+      "id": "claude-junior-startup",
+      "file": "CLAUDE_JR_STARTUP_PROMPT.txt",
+      "public_path": "downloads/prompts/CLAUDE_JR_STARTUP_PROMPT.txt",
+      "source_path": "control-plane/prompts/CLAUDE_JR_STARTUP_PROMPT.txt",
+      "source_git_blob_sha": "dc54d64b7f5454f33e55509fb378f007982a7fc4",
+      "sha256": "7c728a264774998513dabe8f819b1fa708dbef858f9ecda15fa5bec151bbe202",
+      "bytes": 2860
+    },
+    {
+      "id": "grok-bounded-worker",
+      "file": "GROK_BOUNDED_WORKER_PROMPT.md",
+      "public_path": "downloads/prompts/GROK_BOUNDED_WORKER_PROMPT.md",
+      "source_path": "control-plane/prompts/GROK_BOUNDED_WORKER_PROMPT.md",
+      "source_git_blob_sha": "c97a8d6fdb60df7698bd29db2e5f5446c89c8a7c",
+      "sha256": "01a443d683d155199701e7fc0a572240e8ac6100f6c1b465c3a7174d47b40f28",
+      "bytes": 2939
+    },
+    {
+      "id": "upstream-lrp-prompt-index",
+      "file": "UPSTREAM_LRP_PROMPTS.md",
+      "public_path": "downloads/prompts/UPSTREAM_LRP_PROMPTS.md",
+      "source_path": "control-plane/prompts/UPSTREAM_LRP_PROMPTS.md",
+      "source_git_blob_sha": "2daf29eb823b40cda7ea769d1210e0d5b4b54a3c",
+      "sha256": "d1ce78ebe59c826afeefe15d0941687c85d1207c392acef24ee976a53c56f70e",
+      "bytes": 1170
+    }
+  ]
+}
