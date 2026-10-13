@@ -1,10 +1,19 @@
 {
   "task_id": "KITT-20261008-PROMPT-WEBSITE-DOWNLOADS",
   "project_id": "kitt",
-  "agent_id": "chatgpt-sr-coder-20261008-prompt-downloads",
-  "lock_token": "pcc-prompt-downloads-20261008-1215z-chatgpt",
-  "acquired_at": "2026-10-08T12:15:00Z",
-  "heartbeat_at": "2026-10-08T12:15:00Z",
-  "expires_at": "2026-10-08T14:15:00Z",
-  "run_reference": "https://github.com/tsrnc2/project-control-center/issues/60"
+  "agent_id": "chatgpt-sr-coder-20261013-public-prompt-repair",
+  "lock_token": "pcc-public-prompt-repair-20261013T175430Z-a13d7c42",
+  "acquired_at": "2026-10-13T17:54:30Z",
+  "heartbeat_at": "2026-10-13T17:54:30Z",
+  "expires_at": "2026-10-13T19:54:30Z",
+  "run_reference": "https://github.com/tsrnc2/kitt/issues/118",
+  "takeover_of": {
+    "agent_id": "chatgpt-sr-coder-20261008-prompt-downloads",
+    "lock_token": "pcc-prompt-downloads-20261008-1215z-chatgpt",
+    "acquired_at": "2026-10-08T12:15:00Z",
+    "heartbeat_at": "2026-10-08T12:15:00Z",
+    "expires_at": "2026-10-08T14:15:00Z",
+    "observed_blob_sha": "54c8b9134833f3c13eb196c067e5f4f11b049f60",
+    "takeover_reason": "Expired more than five days with no later heartbeat; owner-approved public download repair is now active."
+  }
 }
