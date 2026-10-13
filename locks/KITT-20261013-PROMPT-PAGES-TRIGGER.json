@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "task_id": "KITT-20261013-PROMPT-PAGES-TRIGGER",
+  "project_id": "kitt",
+  "agent_id": "chatgpt-sr-coder-20261013-prompt-pages-trigger",
+  "lock_token": "pcc-pages-trigger-20261013T2021Z-47d8a3c1",
+  "acquired_at": "2026-10-13T20:21:00Z",
+  "heartbeat_at": "2026-10-13T20:21:00Z",
+  "expires_at": "2026-10-13T22:21:00Z",
+  "run_ref": "chatgpt-turn-complete-next-steps-20261013"
+}
