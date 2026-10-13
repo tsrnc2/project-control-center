@@ -1,68 +1,32 @@
-# KITT-20261008-PROMPT-WEBSITE-DOWNLOADS — Public Download Repair
+# KITT Prompt Website Downloads — Public Distribution and Pages Trigger Repair
 
 Date: 2026-10-13  
+Parent task: `KITT-20261008-PROMPT-WEBSITE-DOWNLOADS`  
+Bounded follow-up: `KITT-20261013-PROMPT-PAGES-TRIGGER`  
 Project: KITT / Project Control Center  
-Worker: `chatgpt-sr-coder-20261013-public-prompt-repair`  
+Worker: `chatgpt-sr-coder-20261013-prompt-pages-trigger`  
 Provider/model label: OpenAI / GPT-5.6 Sol Pro  
 Immutable model/runtime revision: unknown  
 Canonical role: coder; senior responsibility assigned by the user, not independently certified
 
-## Bounded objective
+## Objective
 
-Repair the public Project Control Center prompt library so an unauthenticated website visitor can retrieve the six approved prompt artifacts without making the private KITT repository public.
+Make the public Project Control Center website provide usable anonymous downloads for the six approved canonical prompt artifacts while keeping the editable KITT repository private.
 
-Canonical editable ownership remains in `tsrnc2/kitt`. The bounded repair publishes byte-identical, read-only public distribution copies in `tsrnc2/project-control-center/downloads/prompts/`, records exact provenance and integrity metadata, and changes the website catalog to same-origin public URLs.
+The public-distribution candidate already copied the approved six-file subset into `tsrnc2/project-control-center/downloads/prompts/`, bound each copy to immutable KITT provenance and integrity metadata, and changed `prompts.json` to same-origin public URLs.
 
-## Defect reproduced
+During the release-gate pass, a second defect was found: `.github/workflows/pages.yml` deploys only when selected paths change, but its `on.push.paths` filter omitted both `prompts.json` and `downloads/prompts/**`. Merging the candidate without repairing that filter would not trigger a Pages deployment, so the live site could remain on the pre-repair artifact.
 
-The merged site already contained a Prompts tab and a six-entry `prompts.json`, but every `download_url` targeted `raw.githubusercontent.com/tsrnc2/kitt/...`. Live GitHub repository metadata showed:
+## Public/private boundary
 
-- `tsrnc2/project-control-center`: public;
-- `tsrnc2/kitt`: private.
+- Canonical editable source: private `tsrnc2/kitt@03bcbae32e4ea28c8fa0a87c072b6cbfefb1bc5b`, path `control-plane/prompts/`.
+- Public read-only distribution: `tsrnc2/project-control-center`, path `downloads/prompts/`.
+- Public catalog: `prompts.json` with same-origin download and source-view paths.
+- KITT visibility remains private.
+- Project Control Center visibility remains public.
+- No credentials, authentication policy, private logs, or unrelated KITT files are included.
 
-An authenticated connector read of a private source does not establish anonymous browser access. The existing catalog therefore could not satisfy the public-download acceptance criterion.
-
-## Selection and authority
-
-The existing P1 task `KITT-20261008-PROMPT-WEBSITE-DOWNLOADS` was selected because it was the direct user-requested website task, its prior execution ownership had expired, and its only material blocker was the unresolved distribution route.
-
-The owner reaffirmed that the website should provide downloads. The selected public-safe route was recorded on KITT issue #118: keep KITT private and authoritative, publish only a vetted immutable distribution subset in the public site repository, bind each copy to its source blob, and require normal review before merge.
-
-## Control-plane registration
-
-### KITT canonical control plane
-
-- Blocker route resolved: commit `8bb40be9ca7fffcb91c6aff5fa583f885ef41e82`.
-- Task reclaimed: commit `a0094b1d3a9a98f170ff52615342487ba956f257`.
-- Exclusive lease created: commit `5571d238a03df24ee25e3f7abe99273783489a35`.
-- Lease blob: `e7baaa39915e0e9b58d237bc07eb7857b6c3e5ae`.
-- Lock token: `kitt-prompt-public-repair-20261013T1748Z-5f4c2a91`.
-- Task transitioned to RUNNING: commit `c24e2a0b8181aff7ac83d22f67c4848e857c079b`.
-
-### Project Control Center live coordination
-
-A repository-local lock from the original October 8 run was discovered after the repair branch had begun. It had no heartbeat after `2026-10-08T12:15:00Z` and expired at `2026-10-08T14:15:00Z`.
-
-This was a process-order defect: the KITT task and lease were valid, but the public tracker lock should also have been reconciled before branch mutation. Before PR publication, the stale tracker lock was replaced by SHA-checked takeover and an append-only event was recorded:
-
-- prior lock blob: `54c8b9134833f3c13eb196c067e5f4f11b049f60`;
-- takeover commit: `da07e3d9b3bc515e0c2abb41c6c25824f996a733`;
-- current lock blob: `89d63d271e2d4554bf9d75b788c9b0f3a289cb50`;
-- current token: `pcc-public-prompt-repair-20261013T175430Z-a13d7c42`;
-- event commit: `44a3ec689d9dec807aebd8910cbec7b455ac16a4`;
-- event path: `events/20261013T175430Z-prompt-download-repair-lock-takeover.json`.
-
-No unexpired competing owner or later heartbeat was present.
-
-## Frozen inputs
-
-- Public site base: `tsrnc2/project-control-center@a0279d565d48254f3f33af98fdb5bfc2a781d6e8`.
-- Canonical prompt source: `tsrnc2/kitt@03bcbae32e4ea28c8fa0a87c072b6cbfefb1bc5b`.
-- Canonical source path: `control-plane/prompts/`.
-- Repair branch: `machine/chatgpt/public-prompt-download-repair-20261013`.
-- Implementation head before this report: `7e938a3134ce696df2f3e42c79cab3609a9b04c3`.
-
-## Implementation
+## Original public-distribution implementation
 
 Created:
 
@@ -77,22 +41,14 @@ Created:
 
 Updated:
 
-- `prompts.json` to schema 1.1 with same-origin public download URLs, public source-view URLs, canonical source provenance, Git blob identities, and SHA-256 digests;
-- `README.md` to document canonical-private versus public-distribution ownership and synchronization rules.
+- `prompts.json` with six same-origin public download URLs, public source-view URLs, source revision/path, Git blob identities, SHA-256 digests, and byte sizes;
+- `README.md` with the private-canonical/public-distribution contract.
 
-Unchanged:
-
-- `index.html`;
-- `assets/app.js`;
-- `assets/style.css`;
-- repository visibility;
-- Pages/deployment configuration;
-- credentials and authentication policy;
-- all unrelated tracker data and project records.
+The exact pre-trigger-repair candidate was PR #75 head `ba4ba1c0022a9dc977c756cdf90efc5f27fdcd75`.
 
 ## Source-to-public integrity
 
-Each public distribution file was remotely read back from the repair branch. Its public Git blob SHA exactly matched the Git blob SHA fetched from the pinned private KITT source revision.
+Remote source and candidate readback established that every public file had the same Git blob SHA as its pinned KITT source file.
 
 | File | Canonical/public Git blob SHA | SHA-256 | Bytes |
 |---|---|---|---:|
@@ -103,52 +59,75 @@ Each public distribution file was remotely read back from the repair branch. Its
 | `GROK_BOUNDED_WORKER_PROMPT.md` | `c97a8d6fdb60df7698bd29db2e5f5446c89c8a7c` | `01a443d683d155199701e7fc0a572240e8ac6100f6c1b465c3a7174d47b40f28` | 2939 |
 | `UPSTREAM_LRP_PROMPTS.md` | `2daf29eb823b40cda7ea769d1210e0d5b4b54a3c` | `d1ce78ebe59c826afeefe15d0941687c85d1207c392acef24ee976a53c56f70e` | 1170 |
 
-Result: **6/6 public artifacts are byte-identical to their approved canonical source blobs.**
+Result: **6/6 public artifacts were byte-identical to the approved canonical source blobs.**
 
-## Validation actually performed
+## Initial validation
 
-Passed:
+On exact head `ba4ba1c0022a9dc977c756cdf90efc5f27fdcd75`:
 
-1. Recomputed each source Git blob identity from its UTF-8 byte stream and matched all six private source blob SHAs.
-2. Remotely fetched all six public branch files and matched their Git blob SHAs to the canonical source blobs.
-3. Remotely parsed/read back `prompts.json`; it contains six unique entries, six same-origin `./downloads/prompts/...` download URLs, and no private KITT raw download URL.
-4. Remotely parsed/read back `downloads/prompts/manifest.json`; it records all six source paths, source revisions, Git blob SHAs, SHA-256 digests, byte sizes, and public paths.
-5. Confirmed the existing UI implementation already renders the catalog and uses the HTML `download` attribute.
-6. Confirmed site implementation files `index.html`, `assets/app.js`, and `assets/style.css` were not changed by this repair.
-7. Reviewed the approved public subset for obvious credential/private-key patterns represented by the repository validator. No token, access key, private key, credential, or private log was introduced.
+- `Validate tracker` run `38442635686`: completed / success;
+- CodeQL run `38442635813`: completed / success;
+- six unique catalog entries used `./downloads/prompts/...` download paths;
+- no private KITT raw download path remained in the catalog;
+- the prompt UI files `index.html`, `assets/app.js`, and `assets/style.css` were unchanged;
+- all six public prompt blobs matched their canonical KITT source blobs.
 
-Unavailable in the local container:
+These successes validated the distribution candidate but did not establish that a merge would trigger Pages publication.
 
-- A repository clone and direct execution of `scripts/validate_tracker.py` could not run because the isolated container could not resolve `github.com`. This is recorded as an environment limitation, not a passing test.
-- Hosted CI and GitHub Pages verification require the pull-request workflow/merge and are not claimed here.
+## Pages trigger defect and bounded repair
 
-## Publication state
+Pre-repair workflow blob: `d85790c39f3a0d9850bc2b0d95416f8feaffaf82`.
 
-- Candidate repository: `tsrnc2/project-control-center`.
-- Candidate branch: `machine/chatgpt/public-prompt-download-repair-20261013`.
-- Implementation head before report: `7e938a3134ce696df2f3e42c79cab3609a9b04c3`.
-- Pull request: pending creation at report authoring time; the branch is frozen for review except for this report and review metadata.
+The workflow path filter included site assets and tracker files but omitted the new prompt catalog and distribution directory. The bounded repair adds only:
+
+```yaml
+      - 'prompts.json'
+      - 'downloads/prompts/**'
+```
+
+Workflow-repair commit before this report: `35393818d27cffe60b4c3c2fd4f267444e85c6a9`.
+
+No workflow permissions, jobs, actions, deployment environment, concurrency settings, branch target, repository visibility, or authentication settings were changed.
+
+## Follow-up task registration
+
+The defect was handled as one separate bounded child task rather than silently broadening or reopening ownership of the parent implementation.
+
+- READY registration commit: `43f46ff1bcd3a53cb822081f3c400d1dcb64bae6`.
+- CLAIMED transition commit: `dd13ad0f03c55c155b46558adf170ec85fcf630b`.
+- KITT lease creation commit: `16082abd7a0235ceadc45ab073eca9a929e2293a`.
+- KITT lease blob: `e0395f033e8510cb218325c2546dfaaf3fe0d573`.
+- KITT lease token: `kitt-pages-trigger-20261013T2020Z-91c6b2f4`.
+- Public live-lock creation commit: `9c3cc63e2d41b319329fd13eb191318e3dd66a30`.
+- Public lock blob: `d063ab2d3a51de90f2a76b75ea8eb6b3cc38f49e`.
+- Public lock token: `pcc-pages-trigger-20261013T2021Z-47d8a3c1`.
+- RUNNING transition commit: `efb5de179f2f1606d511c6da01c97fdd012221fb`.
+
+Both locks were created after 404 absence checks and remotely read back with the expected task, owner, token, and expiry.
+
+## Review and release status
+
+- Pull request: `tsrnc2/project-control-center#75`.
+- Review request: `tsrnc2/project-control-center#76`.
+- Parent public task: `tsrnc2/project-control-center#60`.
+- KITT coordination/blocker thread: `tsrnc2/kitt#118`.
+- Implementer self-review: advisory only.
+- Independent protocol-security/release review: still required.
 - Merge: not performed.
-- Deployment: not claimed.
+- Pages publication: not performed.
+- Anonymous download verification: not yet possible against the unreleased candidate.
 
-## Review status
+The review request must be rebound to the final resealed PR head and expanded to include `.github/workflows/pages.yml`. A review of the superseded pre-trigger-repair head cannot accept the new candidate.
 
-- Implementer self-review: completed, advisory only.
-- Mechanical source/public identity verification: completed.
-- Independent reviewer: required and not yet completed.
-- Acceptance: pending independent review, required status checks, merge authorization, and post-merge public download verification.
+## Validation required on the resealed head
 
-The independent review should specifically check:
+Before the child task can close:
 
-1. public-safety of the six-file subset;
-2. source/public blob identity and manifest integrity;
-3. absence of private-only URLs in the catalog;
-4. same-origin website download behavior;
-5. unchanged site behavior outside the prompt catalog;
-6. the late tracker-lock reconciliation and whether any additional process remediation is required.
+1. read back the final workflow and verify both exact path entries;
+2. verify the PR changed-file set contains no unrelated additions;
+3. obtain successful hosted `Validate tracker` and CodeQL results on the final exact head;
+4. update review issue #76 to that exact head and include the deployment-trigger change;
+5. record the final head and validation receipts in the child task;
+6. release only the child task's KITT lease and public live lock.
 
-## Current disposition
-
-**CANDIDATE COMPLETE; FINAL ACCEPTANCE PENDING.**
-
-The bounded implementation is published and mechanically verified. The task must not be marked fully accepted, merged, deployed, or live until the independent review and repository gates pass. The canonical KITT lease and Project Control Center live lock remain held only through publication of the PR/review handoff, after which they must be safely released with readback.
+The parent task remains **BLOCKED** after the child repair until an independent review passes, the PR is merged normally, Pages publishes the merged revision, and all six downloads are verified anonymously.
