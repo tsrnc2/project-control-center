@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "event_type": "LOCK_RELEASE",
+  "occurred_at": "2026-10-13T17:59:00Z",
+  "project_id": "kitt",
+  "task_id": "KITT-20261008-PROMPT-WEBSITE-DOWNLOADS",
+  "actor": "chatgpt-sr-coder-20261013-public-prompt-repair",
+  "lock_path": "locks/KITT-20261008-PROMPT-WEBSITE-DOWNLOADS.json",
+  "lock_token": "pcc-public-prompt-repair-20261013T175430Z-a13d7c42",
+  "deleted_blob_sha": "89d63d271e2d4554bf9d75b788c9b0f3a289cb50",
+  "release_commit": "bdb1b35b499a9b90980bca42125e18ffc47b026e",
+  "task_state": "BLOCKED",
+  "task_issue": "https://github.com/tsrnc2/project-control-center/issues/60",
+  "candidate_pr": "https://github.com/tsrnc2/project-control-center/pull/75",
+  "review_request": "https://github.com/tsrnc2/project-control-center/issues/76",
+  "reason": "The candidate and review handoff are durable. No active implementation retry remains; independent review must proceed under its own authority."
+}
