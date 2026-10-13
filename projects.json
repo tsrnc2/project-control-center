@@ -150,6 +150,12 @@
       "name": "Level1Downloader",
       "lifecycle": "HISTORICAL",
       "class": "HISTORICAL"
+    },
+    {
+      "id": "kludge-wagon-haywire",
+      "name": "Kludge Wagon Haywire",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY"
     }
   ]
 }
