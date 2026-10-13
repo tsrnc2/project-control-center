@@ -27,6 +27,22 @@ The site should work equally well for a person reading it in a browser and for a
 
 ---
 
+## Public and private split
+
+This repository is public. It holds the generic architecture, schemas, workflows, and sanitized coordination
+metadata only. Examples in this document use placeholder names (Project Alpha, project-a, owner/alpha-core).
+
+Project-specific detail lives in a designated **private companion repository** and is referenced from here only by
+stable project ID:
+
+- real repository lists, Google Drive locations, and report indexes;
+- task, blocker, claim, and heartbeat records containing project internals;
+- evidence, receipts, logs, and any non-public production data;
+- agent identities and credentials (never stored in Git in plaintext).
+
+Public records may state a project's ID, name, lifecycle state, and class. Anything more specific than that is kept in
+the private repository, and public pages must not embed or mirror it. When in doubt, keep it private.
+
 ## Canonical Project Model
 
 The system should maintain **one canonical parent entry for each durable project**.
@@ -55,11 +71,10 @@ Renames and historical identities should be preserved as aliases.
 For example:
 
 ```text
-KITT
+Project Alpha
 Aliases:
-  Improved V2
-  Improved
-  LLM delegator integration
+  Alpha v2
+  Alpha (original)
 Status:
   Active
 ```
@@ -108,10 +123,9 @@ The existing Google Drive convention should be retained for project reports:
 Examples:
 
 ```text
-kitt/reports/claude/
-cryptokingpin/reports/gemini/
-cryptokingpin/reports/grok/
-microkernel/reports/<agent>/
+project-a/reports/agent-one/
+project-b/reports/agent-two/
+project-b/reports/agent-three/
 ```
 
 The Master Projects Site should link to these locations rather than duplicating report content unnecessarily.
@@ -147,15 +161,14 @@ A useful structure could resemble:
 master-projects/
 ├── README.md
 ├── projects/
-│   ├── kitt/
+│   ├── project-a/
 │   │   ├── project.yaml
 │   │   ├── tasks.yaml
 │   │   ├── blockers.yaml
 │   │   ├── repositories.yaml
 │   │   └── history.md
-│   ├── cryptokingpin/
-│   ├── microkernel/
-│   ├── pityplease/
+│   ├── project-b/
+│   ├── project-c/
 │   └── ...
 ├── agents/
 │   ├── registry.yaml
@@ -184,7 +197,7 @@ The main page should provide a high-level portfolio view.
 A useful project card might show:
 
 ```text
-KITT
+Project Alpha
 ACTIVE
 
 Priority: Critical
@@ -194,10 +207,10 @@ Blocked tasks: 3
 Active agents: 2
 
 Last verified progress:
-Plugin framework architecture added.
+Service interface architecture added.
 
 Next action:
-Complete plugin API contract.
+Complete service API contract.
 
 [Open Project]
 ```
@@ -244,9 +257,9 @@ Example:
 ```text
 Repository                 Role
 ------------------------------------------------
-tsrnc2/kitt                Canonical implementation
-tsrnc2/llm_reasoning...    Imported reasoning framework
-tsrnc2/improved            Historical predecessor
+owner/alpha-core           Canonical implementation
+owner/alpha-reasoning      Imported framework
+owner/alpha-legacy         Historical predecessor
 ```
 
 Historical repositories should remain visible but clearly marked.
@@ -285,25 +298,25 @@ Example:
 BLOCKER-0042
 
 Project:
-Microkernel
+Project Beta
 
 Component:
-K00
+C00
 
 State:
 OPEN
 
 Reason:
-Required QEMU execution surface unavailable.
+Required execution environment unavailable.
 
 Blocked task:
-K00 real boot qualification
+C00 environment qualification
 
 Last checked:
 2026-09-25
 
 Next resolution attempt:
-Obtain authorized QEMU-capable execution environment.
+Obtain an authorized execution environment.
 ```
 
 Repeated failed attempts should not erase the original blocker history.
@@ -367,8 +380,8 @@ Long-running agents should periodically update a small heartbeat record.
 For example:
 
 ```yaml
-agent: kitt-builder-02
-task: KITT-PLUGIN-017
+agent: builder-02
+task: ALPHA-FEATURE-017
 state: validating
 last_heartbeat: 2026-09-25T18:10:00-07:00
 ```
@@ -378,9 +391,9 @@ The web interface could then display:
 ```text
 Agent             Task                 State
 -------------------------------------------------
-builder-01        KITT-PLUGIN-016       working
-builder-02        KITT-PLUGIN-017       validating
-reviewer-01       KITT-PLUGIN-015       reviewing
+builder-01        ALPHA-FEATURE-016       working
+builder-02        ALPHA-FEATURE-017       validating
+reviewer-01       ALPHA-FEATURE-015       reviewing
 ```
 
 This allows humans and other agents to determine whether work is actively progressing.
@@ -430,11 +443,11 @@ Example:
 
 ```text
 2026-09-25
-KITT plugin architecture
+Alpha service architecture
 IMPLEMENTED
 
 2026-09-25
-Plugin schema validation
+Interface schema validation
 PASSED
 
 2026-09-25
@@ -464,14 +477,14 @@ This should describe the next executable task rather than a vague project object
 Poor:
 
 ```text
-Continue working on plugins.
+Continue working on the feature.
 ```
 
 Better:
 
 ```text
-Implement and validate plugin manifest schema v1 against Gmail,
-Google Drive, GitHub, and Notion adapters.
+Implement and validate manifest schema v1 against the
+four supported adapter types.
 ```
 
 This makes agent delegation substantially easier.
@@ -660,11 +673,11 @@ The Master Projects Site should preserve project evolution.
 For example:
 
 ```text
-Improved
+Alpha (original)
     ↓
-Improved V2
+Alpha v2
     ↓
-KITT
+Alpha
 ```
 
 Rather than deleting the previous identities, they should remain recorded as historical relationships.
