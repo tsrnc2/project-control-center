@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-09-25T17:23:00-07:00",
+    "generated_at": "2026-10-14T13:40:00-07:00",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state only. Human task/blocker threads are GitHub Issues; execution locks are files on the live branch."
   },
@@ -180,6 +180,40 @@
       ],
       "portfolio_priority": "P0",
       "portfolio_priority_rank": 1
+    },
+    {
+      "id": "personal-lessons",
+      "name": "Personal Lesson Plan",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY",
+      "summary": "Canonical parent for personal curricula, assessments, progress tracking, and courseware.",
+      "repo": "https://github.com/tsrnc2/PersonalLessons",
+      "repo_visibility": "private",
+      "reports_path": "PersonalLessons/reports/<agent name>/",
+      "aliases": [
+        "PersonalLessons",
+        "Personal Lesson Plan"
+      ]
+    },
+    {
+      "id": "safe-native-tooling-course",
+      "name": "Safe Native Tooling for LLM Agents in Modern C++",
+      "lifecycle": "ACTIVE-CHILD",
+      "class": "COURSEWARE",
+      "parent_project_id": "personal-lessons",
+      "summary": "Fourteen-lesson C++20 course with a default-deny native agent-tool gateway, bounded POSIX execution, SQLite FTS5 retrieval, strict JSON admission, audit evidence, and qualification exercises.",
+      "repo": "https://github.com/tsrnc2/PersonalLessons",
+      "repo_visibility": "private",
+      "repo_path": "curriculum/cpp/safe-native-tooling-for-llm-agents/",
+      "source_dependency": "tsrnc2/llm_reasoning_project@d0db49f52870fd65a2547eb505422202532d7f8f",
+      "reports_path": "PersonalLessons/curriculum/cpp/safe-native-tooling-for-llm-agents/reports/<agent name>/",
+      "drive": null,
+      "aliases": [
+        "Safe Native Tooling course",
+        "agent-toolbox course",
+        "safe-native-tooling-course"
+      ],
+      "status": "v2.3.0 merged to PersonalLessons main; internal formal review rounds 1-2 passed; independent acceptance and hosted CI finalization remain tracked gates"
     }
   ],
   "tasks": [
@@ -221,6 +255,12 @@
       "project_id": "kitt",
       "task_id": "kitt-20260925-project-control-center",
       "summary": "Dedicated tracker repo exists and bootstrap is published. All four bootstrap workflows failed before any step executed; Actions admission is the current blocker."
+    },
+    {
+      "at": "2026-10-14T13:40:00-07:00",
+      "type": "PROJECT_REGISTRY_UPDATE",
+      "project_id": "safe-native-tooling-course",
+      "summary": "Registered Personal Lesson Plan as the canonical education parent and Safe Native Tooling for LLM Agents in Modern C++ v2.3.0 as an active child course; course source is merged to tsrnc2/PersonalLessons main."
     }
   ]
 }
