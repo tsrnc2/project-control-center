@@ -1,9 +1,0 @@
-{
-  "task_id": "KWH-AND-UI-STEER-GPS",
-  "project_id": "kludge-wagon-haywire",
-  "agent_id": "GrokBot",
-  "lock_token": "219b1f298a715a6a",
-  "created_at": "2026-10-14T02:14:18Z",
-  "expires_at": "2026-10-14T03:14:18Z",
-  "run_ref": "steer-gps-fix"
-}
