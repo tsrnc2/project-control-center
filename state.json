@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T02:36:00Z",
+    "generated_at": "2026-10-14T02:35:23Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts."
   },
@@ -2750,12 +2750,12 @@
       "id": "KWH-MKT-LEGAL-CHECK",
       "project_id": "kludge-wagon-haywire",
       "title": "Legal check: no Toyota / Knight Rider references in marketing",
-      "state": "RUNNING",
+      "state": "CLAIMED",
       "priority": "P1",
       "claimed_by": "chatgpt-kwh-legal-audit",
       "claim_expires_at": "2026-10-15T02:34:00Z",
-      "updated_at": "2026-10-14T02:34:00Z",
-      "next_action": "In progress by chatgpt-kwh-legal-audit; canonical KITT task/lease govern execution.",
+      "updated_at": "2026-10-14T02:35:23Z",
+      "next_action": "Durably assigned to chatgpt-kwh-legal-audit. Acquire the canonical KITT execution lease before restarting the audit; no legal clearance or publication is implied.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/146",
@@ -3620,6 +3620,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-14T02:35:23Z",
+      "type": "CONTROL_PLANE_RECONCILIATION",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-MKT-LEGAL-CHECK",
+      "summary": "Reconciled dashboard RUNNING state back to CLAIMED because no canonical KITT execution lease exists; durable ownership preserved."
+    },
     {
       "at": "2026-10-14T02:34:08Z",
       "type": "DONE",
