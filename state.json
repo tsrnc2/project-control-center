@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T05:20:00Z",
+    "generated_at": "2026-10-14T05:25:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-14T03:01:35Z"
@@ -4562,6 +4562,34 @@
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/296"
+    },
+    {
+      "id": "KWH-UI-NO-GODOT-SPLASH",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Boot splash: remove Godot logo; Kludge Motors K / RebelMedia loader",
+      "state": "CLAIMED",
+      "priority": "P1",
+      "claimed_by": "Grok Bot",
+      "claim_expires_at": "2026-10-16T05:25:00Z",
+      "updated_at": "2026-10-14T05:25:00Z",
+      "next_action": "Building on feature/ui-hud-splash; PR for Jobo review",
+      "owner_agent": "Grok Bot",
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/298"
+    },
+    {
+      "id": "KWH-UI-HUD-AMBER",
+      "project_id": "kludge-wagon-haywire",
+      "title": "HUD: polished 80s amber digital dash (speedo/tach/fuel/ECU/mission/GPS)",
+      "state": "CLAIMED",
+      "priority": "P1",
+      "claimed_by": "Grok Bot",
+      "claim_expires_at": "2026-10-16T05:25:00Z",
+      "updated_at": "2026-10-14T05:25:00Z",
+      "next_action": "Building on feature/ui-hud-splash; PR for Jobo review",
+      "owner_agent": "Grok Bot",
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/299"
     }
   ],
   "blockers": [
