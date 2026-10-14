@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T03:02:00Z",
+    "generated_at": "2026-10-14T03:02:45Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-14T03:01:35Z"
@@ -678,17 +678,19 @@
       "id": "KWH-EP2-STEERING",
       "project_id": "kludge-wagon-haywire",
       "title": "Ep2 steering level",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P1",
-      "claimed_by": "chatgpt-kwh-ep2-steering",
-      "claim_expires_at": "2026-10-15T02:24:00Z",
-      "updated_at": "2026-10-14T02:53:28Z",
-      "next_action": "Execution active under canonical KITT lease on branch task/kwh-ep2-steering; preserve ownership and await focused Episode 2 implementation/validation evidence.",
-      "owner_agent": null,
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T03:02:45Z",
+      "next_action": "Steering lesson core merged in fly-by-wire-c PR #252 at 9e80978238628ac508cfc72778b8229c7aab9467. Broader Death Valley environment work remains on issue #21.",
+      "owner_agent": "chatgpt-kwh-ep2-steering",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/21",
-      "claimed_at": "2026-10-14T02:24:00Z",
-      "claim_heartbeat_at": "2026-10-14T02:24:00Z"
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/252",
+      "candidate_commit": "9e80978238628ac508cfc72778b8229c7aab9467"
     },
     {
       "id": "KWH-COLLISION-POLISH",
@@ -4642,6 +4644,13 @@
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-WB-GPL-OFFER",
       "summary": "Mirrored canonical BLOCKED state after source/license inventory; durable KITT blocker routing now exists and the released expired execution lease was removed."
+    },
+    {
+      "at": "2026-10-14T03:02:45Z",
+      "type": "DONE",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-EP2-STEERING",
+      "summary": "Episode 2 steering lesson core merged via fly-by-wire-c PR #252 at 9e80978238628ac508cfc72778b8229c7aab9467; KITT task DONE and execution lease released. Broader Death Valley environment remains tracked on issue #21."
     }
   ]
 }
