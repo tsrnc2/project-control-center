@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T02:32:00Z",
+    "generated_at": "2026-10-14T02:36:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts."
   },
@@ -1906,12 +1906,12 @@
       "id": "KWH-WB-GPL-OFFER",
       "project_id": "kludge-wagon-haywire",
       "title": "Workbench: GPL source offer for gcc/gdb/Linux/Alpine",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P0",
       "claimed_by": "chatgpt-kwh-gpl-docs",
       "claim_expires_at": "2026-10-15T01:31:00Z",
-      "updated_at": "2026-10-14T02:30:00Z",
-      "next_action": "Execution active under canonical KITT lease owned by chatgpt-kwh-gpl-docs through 2026-10-14T04:26:00Z; preserve ownership and await the bounded worker result.",
+      "updated_at": "2026-10-14T02:36:00Z",
+      "next_action": "Resume on an authorized source-write/build surface; bind exact shipped Alpine package versions to corresponding source, publish the reviewable source-offer candidate, validate it, and keep public release fail-closed until that evidence exists.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/105",
@@ -3839,6 +3839,13 @@
         "LRP-SCITE-U-001"
       ],
       "execution_limitation": "Local execution service unavailable after Scite baseline tests; additional native checks pending."
+    },
+    {
+      "at": "2026-10-14T02:36:00Z",
+      "type": "BLOCKER_RECONCILIATION",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-WB-GPL-OFFER",
+      "summary": "Mirrored canonical BLOCKED state after source/license inventory; durable KITT blocker routing now exists and the released expired execution lease was removed."
     }
   ]
 }
