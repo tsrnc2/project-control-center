@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-14T03:02:45Z",
+  "type": "DONE",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-EP2-STEERING",
+  "agent_id": "chatgpt-kwh-ep2-steering",
+  "pull_request": "https://github.com/tsrnc2/fly-by-wire-c/pull/252",
+  "merged_commit": "9e80978238628ac508cfc72778b8229c7aab9467",
+  "note": "KITT authoritative task is DONE and lease released; issue #21 remains open for broader Death Valley environment work."
+}
