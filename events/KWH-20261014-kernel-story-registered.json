@@ -1,0 +1,87 @@
+{
+  "at": "2026-10-14T02:48:55Z",
+  "type": "tasks_registered",
+  "project_id": "kludge-wagon-haywire",
+  "note": "READY: kernel curriculum end-goal + Kitty turn/backdoor story arc; #113 AC updated for turn",
+  "tasks": [
+    {
+      "id": "KWH-KERNEL-ROADMAP",
+      "issue": 227
+    },
+    {
+      "id": "KWH-KERNEL-HAL",
+      "issue": 228
+    },
+    {
+      "id": "KWH-KERNEL-BOOT",
+      "issue": 229
+    },
+    {
+      "id": "KWH-KERNEL-IRQ",
+      "issue": 230
+    },
+    {
+      "id": "KWH-KERNEL-SCHED",
+      "issue": 231
+    },
+    {
+      "id": "KWH-KERNEL-ALLOC",
+      "issue": 232
+    },
+    {
+      "id": "KWH-KERNEL-DRIVERS",
+      "issue": 233
+    },
+    {
+      "id": "KWH-KERNEL-SYSCALLS",
+      "issue": 234
+    },
+    {
+      "id": "KWH-KERNEL-IPC",
+      "issue": 235
+    },
+    {
+      "id": "KWH-KERNEL-FS",
+      "issue": 236
+    },
+    {
+      "id": "KWH-KERNEL-LIBC",
+      "issue": 237
+    },
+    {
+      "id": "KWH-KERNEL-INTEGRATION",
+      "issue": 238
+    },
+    {
+      "id": "KWH-KERNEL-GRADE",
+      "issue": 239
+    },
+    {
+      "id": "KWH-STORY-KITTY-ARC",
+      "issue": 240
+    },
+    {
+      "id": "KWH-STORY-CLUE-TRAIL",
+      "issue": 241
+    },
+    {
+      "id": "KWH-STORY-KITTY-ADVERSARIAL",
+      "issue": 242
+    },
+    {
+      "id": "KWH-STORY-CONFRONTATION",
+      "issue": 243
+    },
+    {
+      "id": "KWH-STORY-BACKDOOR",
+      "issue": 244
+    },
+    {
+      "id": "KWH-STORY-ENDING",
+      "issue": 245
+    }
+  ],
+  "also_updated_issues": [
+    113
+  ]
+}
