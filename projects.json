@@ -1,7 +1,26 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-27T15:47:57Z",
+  "updated_at": "2026-10-14T01:29:00Z",
   "projects": [
+    {
+      "id": "kludge-wagon-haywire",
+      "name": "Fly By Wire C / Kludge Wagon Haywire",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY",
+      "priority": "P0",
+      "priority_rank": 1,
+      "aliases": [
+        "Fly By Wire C",
+        "Fly-by-Wire C",
+        "fly-by-wire-c",
+        "Kludge Wagon Haywire",
+        "KWH"
+      ],
+      "repo": "https://github.com/tsrnc2/fly-by-wire-c",
+      "repo_visibility": "private",
+      "drive": "https://drive.google.com/drive/folders/1JwrX38rNs-ddAIAH9HlQVFlJvOylVHPX",
+      "reports_path": "Kludge Wagon Haywire/reports/<agent name>/"
+    },
     {
       "id": "kitt",
       "name": "KITT",
