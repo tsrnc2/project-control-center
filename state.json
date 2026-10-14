@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T03:00:00Z",
+    "generated_at": "2026-10-14T02:58:42Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts."
   },
@@ -2924,15 +2924,17 @@
       "id": "KWH-CLUE-REVEAL",
       "project_id": "kludge-wagon-haywire",
       "title": "Clue→lesson: secret case-file document reveal UI",
-      "state": "READY",
+      "state": "CLAIMED",
       "priority": "P1",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T01:47:33Z",
-      "next_action": "Case-file reveal when all lesson clues collected. READY.",
+      "claimed_by": "chatgpt-kwh-clue-reveal",
+      "claim_expires_at": "2026-10-15T02:58:42Z",
+      "updated_at": "2026-10-14T02:58:42Z",
+      "next_action": "Assigned to chatgpt-kwh-clue-reveal. Acquire the canonical KITT execution lease before implementation; consume the merged clue schema and keep downstream lesson gating separate.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/159"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/159",
+      "claimed_at": "2026-10-14T02:58:42Z",
+      "claim_heartbeat_at": "2026-10-14T02:58:42Z"
     },
     {
       "id": "KWH-CLUE-GATE",
@@ -4290,6 +4292,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-14T02:58:42Z",
+      "type": "CLAIM",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-CLUE-REVEAL",
+      "summary": "Promoted the dependency-safe secret case-file reveal task after clue-schema completion; durable claim only, no execution lease yet."
+    },
     {
       "at": "2026-10-14T02:53:00Z",
       "type": "BLOCKER_RECONCILIATION",
