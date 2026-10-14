@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T03:09:00Z",
+    "generated_at": "2026-10-14T03:12:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-14T03:01:35Z"
@@ -662,17 +662,17 @@
       "id": "KWH-BROWSER-CLANG-GCC14",
       "project_id": "kludge-wagon-haywire",
       "title": "Newer browser clang matching gcc 14 behavior",
-      "state": "RUNNING",
+      "state": "CLAIMED",
       "priority": "P1",
       "claimed_by": "chatgpt-kwh-browser-toolchain",
       "claim_expires_at": "2026-10-15T01:31:00Z",
-      "updated_at": "2026-10-14T03:12:00Z",
-      "next_action": "PR #254 exact head 91e117ce25773b68a7d80fe8945f31d8ccc2afde received distinct REVISE: diagnostic normalization misses Clang 'undeclared library function'/'implicitly declaring library function' forms, and the focused test regex misses them too. Repair patterns/fixtures while preserving raw diagnostics, then reseal and obtain fresh distinct review plus real shipped-WASM clang execution when available.",
+      "updated_at": "2026-10-14T03:11:00Z",
+      "next_action": "PR #254 repaired and resealed at exact head ddfca9da61d9eb5331d15017bdbf7ad01c8450d2. Distinct tester must run the real shipped-Clang wasm fixtures and ECU regression suite before acceptance; no merge/release yet.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/20",
       "claimed_at": "2026-10-14T01:31:00Z",
-      "claim_heartbeat_at": "2026-10-14T01:31:00Z"
+      "claim_heartbeat_at": "2026-10-14T03:11:00Z"
     },
     {
       "id": "KWH-EP2-STEERING",
@@ -4186,6 +4186,34 @@
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/258"
+    },
+    {
+      "id": "KWH-ANDROID-WEBVIEW-SECURITY",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Harden Android WebView trust boundary on PR #164",
+      "human_owner": "Jobo",
+      "state": "DONE",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T02:45:00Z",
+      "next_action": "Author repair complete on PR #164 head fba2ef1f5c11d377ef0c353e9dc74c0d181d50c0. Distinct technical tester completed source-policy checks; Android SDK/runtime qualification remains separate.",
+      "owner_agent": null,
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/164"
+    },
+    {
+      "id": "KWH-ANDROID-WEBVIEW-SECURITY-TEST",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Test Android WebView hardening on PR #164",
+      "human_owner": "Jobo",
+      "state": "DONE",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T03:26:00Z",
+      "next_action": "Technical source-policy PASS on exact PR #164 hardening head. Android APK build/UI-browser runtime were unavailable on the tester surface, so release/APK qualification remains pending.",
+      "owner_agent": null,
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/164"
     }
   ],
   "blockers": [
@@ -4785,6 +4813,12 @@
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-EP2-DEATH-VALLEY-WORLD",
       "summary": "Registered READY follow-up for the distinct Death Valley Episode 2 environment/transition after the steering lesson core merged in PR #252."
+    },
+    {
+      "at": "2026-10-14T03:12:00Z",
+      "type": "KWH_STATUS_RECONCILIATION",
+      "project_id": "kludge-wagon-haywire",
+      "summary": "Mirrored completed Android WebView hardening/test tasks and repaired PR #254 browser-compiler candidate. Real shipped-Clang execution remains the browser candidate gate; Android APK/runtime qualification remains separate."
     }
   ]
 }
