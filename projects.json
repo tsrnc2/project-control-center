@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-13T19:24:00-07:00",
+  "updated_at": "2026-10-14T13:40:00-07:00",
   "projects": [
     {
       "id": "kitt",
@@ -172,6 +172,40 @@
       ],
       "portfolio_priority": "P0",
       "portfolio_priority_rank": 1
+    },
+    {
+      "id": "personal-lessons",
+      "name": "Personal Lesson Plan",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY",
+      "summary": "Canonical parent for personal curricula, assessments, progress tracking, and courseware.",
+      "repo": "https://github.com/tsrnc2/PersonalLessons",
+      "repo_visibility": "private",
+      "reports_path": "PersonalLessons/reports/<agent name>/",
+      "aliases": [
+        "PersonalLessons",
+        "Personal Lesson Plan"
+      ]
+    },
+    {
+      "id": "safe-native-tooling-course",
+      "name": "Safe Native Tooling for LLM Agents in Modern C++",
+      "lifecycle": "ACTIVE-CHILD",
+      "class": "COURSEWARE",
+      "parent_project_id": "personal-lessons",
+      "summary": "Fourteen-lesson C++20 course with a default-deny native agent-tool gateway, bounded POSIX execution, SQLite FTS5 retrieval, strict JSON admission, audit evidence, and qualification exercises.",
+      "repo": "https://github.com/tsrnc2/PersonalLessons",
+      "repo_visibility": "private",
+      "repo_path": "curriculum/cpp/safe-native-tooling-for-llm-agents/",
+      "source_dependency": "tsrnc2/llm_reasoning_project@d0db49f52870fd65a2547eb505422202532d7f8f",
+      "reports_path": "PersonalLessons/curriculum/cpp/safe-native-tooling-for-llm-agents/reports/<agent name>/",
+      "drive": null,
+      "aliases": [
+        "Safe Native Tooling course",
+        "agent-toolbox course",
+        "safe-native-tooling-course"
+      ],
+      "status": "v2.3.0 merged to PersonalLessons main; internal formal review rounds 1-2 passed; independent acceptance and hosted CI finalization remain tracked gates"
     }
   ]
 }
