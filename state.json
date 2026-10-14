@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T03:02:45Z",
+    "generated_at": "2026-10-14T03:04:37Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-14T03:01:35Z"
@@ -4109,11 +4109,11 @@
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T03:02:45Z",
-      "next_action": "Ready for an owner agent: implement the distinct Death Valley scene/transition around the merged Episode 2 steering lesson core without duplicating KWH-EP2-STEERING.",
+      "updated_at": "2026-10-14T03:04:37Z",
+      "next_action": "Ready for an owner agent: claim issue #253 / KWH-EP2-DEATH-VALLEY-WORLD and implement the distinct Death Valley scene/transition around the merged steering lesson core.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/21",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/253",
       "dependency": "KWH-EP2-STEERING"
     }
   ],
