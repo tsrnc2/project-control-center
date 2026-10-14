@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T02:10:56Z",
+    "generated_at": "2026-10-14T02:11:53Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts."
   },
@@ -3117,6 +3117,90 @@
       "owner_agent": "GrokBot",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/175"
+    },
+    {
+      "id": "KWH-DMG-MODEL",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Damage: per-component health/wear (collisions, terrain, events)",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T02:11:53Z",
+      "next_action": "Design+implement wear model; persist; UI API state. READY for any agent.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/176"
+    },
+    {
+      "id": "KWH-DMG-FUZZ",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Damage: seeded fuzz inputs into player C (ECU worker)",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T02:11:53Z",
+      "next_action": "Adversarial sensor/timing fuzz when DAMAGED; deterministic seeds; tests. READY.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/177"
+    },
+    {
+      "id": "KWH-DMG-TELEMETRY",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Damage: hardening score + status via common UI API (both skins)",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T02:11:53Z",
+      "next_action": "Car Status health/hardening; PC+Android skins. READY.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/178"
+    },
+    {
+      "id": "KWH-DMG-SHOP",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Damage: mechanic shop + replace-via-bug-challenge flow",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T02:11:53Z",
+      "next_action": "Shop location; BROKEN\u2192challenge\u2192replace. Common UI API. READY.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/179"
+    },
+    {
+      "id": "KWH-DMG-MANUAL",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Damage: Car Manual defensive-programming lesson",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T02:11:53Z",
+      "next_action": "Manual page on validate/clamp/NaN; both skins. READY.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/180"
+    },
+    {
+      "id": "KWH-DMG-TEST",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Damage: balance pass + automated tests",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T02:11:53Z",
+      "next_action": "Wear/fuzz/shop/UI tests + balance. READY.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/181"
     }
   ],
   "blockers": [
@@ -3330,6 +3414,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-14T02:11:53Z",
+      "type": "TASK_REGISTERED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-DMG-MODEL",
+      "summary": "Registered READY unclaimed damage system tasks ['KWH-DMG-MODEL', 'KWH-DMG-FUZZ', 'KWH-DMG-TELEMETRY', 'KWH-DMG-SHOP', 'KWH-DMG-MANUAL', 'KWH-DMG-TEST'] \u2192 #176\u2013#181 (fuzz/hardening/mechanic; common UI API)."
+    },
     {
       "at": "2026-10-14T02:10:56Z",
       "type": "DONE",
@@ -3812,26 +3903,6 @@
       "type": "MASTER_PROJECT_ALIGNMENT",
       "project_id": "kludge-wagon-haywire",
       "summary": "Aligned Drive MASTER PROJECT DIRECTORY rev76, KITT projects mirror, Drive report root, aliases, GitHub repository, and owner-designated P0 rank-1 execution priority. T7 remains the highest enabling dependency at execution rank 2."
-    },
-    {
-      "at": "2026-10-14T01:31:00Z",
-      "type": "BACKLOG_ASSIGNMENT_WAVE",
-      "project_id": "kludge-wagon-haywire",
-      "summary": "Assigned five independent backlog tasks to reusable ChatGPT worker identities using durable claims only; no execution locks were pre-acquired.",
-      "task_ids": [
-        "KWH-WB-GPL-OFFER",
-        "KWH-BROWSER-CLANG-GCC14",
-        "KWH-WORLD-PERF",
-        "KWH-GPS-HEADER",
-        "KWH-MKT-STORE-SHORT-DESC"
-      ],
-      "agents": [
-        "chatgpt-kwh-gpl-docs",
-        "chatgpt-kwh-browser-toolchain",
-        "chatgpt-kwh-world-performance",
-        "chatgpt-kwh-gps-api",
-        "chatgpt-kwh-marketing-copy"
-      ]
     }
   ]
 }

@@ -1,0 +1,6 @@
+{
+  "at": "2026-10-14T02:11:53Z",
+  "type": "TASK_REGISTERED",
+  "project_id": "kludge-wagon-haywire",
+  "summary": "READY damage tasks ['KWH-DMG-MODEL', 'KWH-DMG-FUZZ', 'KWH-DMG-TELEMETRY', 'KWH-DMG-SHOP', 'KWH-DMG-MANUAL', 'KWH-DMG-TEST'] \u2192 issues #176\u2013#181. Unclaimed for any agent."
+}
