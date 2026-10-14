@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T05:35:00Z",
+    "generated_at": "2026-10-14T05:40:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-14T03:01:35Z"
@@ -4571,8 +4571,8 @@
       "priority": "P1",
       "claimed_by": "Grok Bot",
       "claim_expires_at": "2026-10-16T05:25:00Z",
-      "updated_at": "2026-10-14T05:35:00Z",
-      "next_action": "PR pending push \u2014 feature/ui-hud-splash",
+      "updated_at": "2026-10-14T05:40:00Z",
+      "next_action": "https://github.com/tsrnc2/fly-by-wire-c/pull/305 \u2014 leave for Jobo review",
       "owner_agent": "Grok Bot",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/298"
@@ -4585,8 +4585,8 @@
       "priority": "P1",
       "claimed_by": "Grok Bot",
       "claim_expires_at": "2026-10-16T05:25:00Z",
-      "updated_at": "2026-10-14T05:35:00Z",
-      "next_action": "PR pending push \u2014 feature/ui-hud-splash",
+      "updated_at": "2026-10-14T05:40:00Z",
+      "next_action": "https://github.com/tsrnc2/fly-by-wire-c/pull/305 \u2014 leave for Jobo review",
       "owner_agent": "Grok Bot",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/299"
