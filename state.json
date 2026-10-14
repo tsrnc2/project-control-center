@@ -8,7 +8,7 @@
     "generated_at": "2026-10-14T16:46:21Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
-    "updated_at": "2026-10-14T16:58:37Z"
+    "updated_at": "2026-10-14T13:49:00-07:00"
   },
   "projects": [
     {
@@ -180,6 +180,39 @@
       "name": "Level1Downloader",
       "lifecycle": "HISTORICAL",
       "class": "HISTORICAL"
+    },
+    {
+      "id": "personal-lessons",
+      "name": "Personal Lesson Plan",
+      "lifecycle": "ACTIVE",
+      "class": "PRIMARY",
+      "summary": "Canonical parent for personal curricula, assessments, progress tracking, and courseware.",
+      "repo": "https://github.com/tsrnc2/PersonalLessons",
+      "repo_visibility": "private",
+      "reports_path": "PersonalLessons/reports/<agent name>/",
+      "aliases": [
+        "PersonalLessons",
+        "Personal Lesson Plan"
+      ]
+    },
+    {
+      "id": "safe-native-tooling-course",
+      "name": "Safe Native Tooling for LLM Agents in Modern C++",
+      "lifecycle": "ACTIVE-CHILD",
+      "class": "COURSEWARE",
+      "parent_project_id": "personal-lessons",
+      "summary": "Fourteen-lesson C++20 course with a default-deny native agent-tool gateway, bounded POSIX execution, SQLite FTS5 retrieval, strict JSON admission, audit evidence, and qualification exercises.",
+      "repo": "https://github.com/tsrnc2/PersonalLessons",
+      "repo_visibility": "private",
+      "repo_path": "curriculum/cpp/safe-native-tooling-for-llm-agents/",
+      "source_dependency": "tsrnc2/llm_reasoning_project@d0db49f52870fd65a2547eb505422202532d7f8f",
+      "reports_path": "PersonalLessons/curriculum/cpp/safe-native-tooling-for-llm-agents/reports/<agent name>/",
+      "aliases": [
+        "Safe Native Tooling course",
+        "agent-toolbox course",
+        "safe-native-tooling-course"
+      ],
+      "status": "v2.3.0 merged to PersonalLessons main; internal formal review rounds 1-2 passed; independent acceptance and hosted CI finalization remain tracked gates"
     }
   ],
   "tasks": [
@@ -5822,6 +5855,12 @@
       "type": "ANDROID_PRERELEASE",
       "project_id": "kludge-wagon-haywire",
       "summary": "Published prerelease https://github.com/tsrnc2/fly-by-wire-c/releases/tag/android-test-2026-10-14-merged (APK 66.9MB lazy packs) from main 111c121. STOP — no new features."
+    },
+    {
+      "at": "2026-10-14T13:49:00-07:00",
+      "type": "PROJECT_REGISTRY_UPDATE",
+      "project_id": "safe-native-tooling-course",
+      "summary": "Safe Native Tooling for LLM Agents in Modern C++ v2.3.0 published to tsrnc2/PersonalLessons main and registered under Personal Lesson Plan; hosted CI runner allocation and independent acceptance remain separately tracked."
     }
   ]
 }
