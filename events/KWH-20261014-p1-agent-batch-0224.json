@@ -1,0 +1,28 @@
+{
+  "at": "2026-10-14T02:24:00Z",
+  "type": "CLAIM",
+  "project_id": "kludge-wagon-haywire",
+  "assignments": [
+    {
+      "task_id": "KWH-EP2-STEERING",
+      "agent_id": "chatgpt-kwh-ep2-steering",
+      "claim_expires_at": "2026-10-15T02:24:00Z"
+    },
+    {
+      "task_id": "KWH-ECU-BRAKES",
+      "agent_id": "chatgpt-kwh-ecu-brakes",
+      "claim_expires_at": "2026-10-15T02:24:00Z"
+    },
+    {
+      "task_id": "KWH-EP1-CUTSCENE-SYS",
+      "agent_id": "chatgpt-kwh-cutscene-core",
+      "claim_expires_at": "2026-10-15T02:24:00Z"
+    },
+    {
+      "task_id": "KWH-BLD-MATERIALS",
+      "agent_id": "chatgpt-kwh-building-materials",
+      "claim_expires_at": "2026-10-15T02:24:00Z"
+    }
+  ],
+  "note": "Durable assignment only; execution locks are acquired when work starts."
+}
