@@ -1,0 +1,28 @@
+{
+  "at": "2026-10-14T03:26:04Z",
+  "type": "tasks_registered",
+  "project_id": "kludge-wagon-haywire",
+  "note": "ASM HUD/stack redo + workbench regview; skippable story; Dual_EC foreshadowing",
+  "tasks": [
+    {
+      "id": "KWH-EP1-ASM-REDO",
+      "issue": 269
+    },
+    {
+      "id": "KWH-DEV-REGVIEW",
+      "issue": 270
+    },
+    {
+      "id": "KWH-STORY-SKIPPABLE",
+      "issue": 271
+    },
+    {
+      "id": "KWH-STORY-DUALEC",
+      "issue": 272
+    },
+    {
+      "id": "KWH-ASM-REG-TESTS",
+      "issue": 273
+    }
+  ]
+}
