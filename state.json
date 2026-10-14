@@ -8,7 +8,7 @@
     "generated_at": "2026-10-14T12:00:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
-    "updated_at": "2026-10-14T12:00:30Z"
+    "updated_at": "2026-10-14T12:01:32Z"
   },
   "projects": [
     {
@@ -1914,13 +1914,13 @@
       "priority": "P0",
       "claimed_by": "chatgpt-kwh-gpl-docs",
       "claim_expires_at": "2026-10-15T01:31:00Z",
-      "updated_at": "2026-10-14T11:56:51Z",
-      "next_action": "PR #199 is merged on fly-by-wire-c main as 1150d086e660411413abd950a4e09f036dd83439. Bounded active retry is executing under the canonical KITT lease: attempt clean Workbench rebuild, freeze exact provenance, assemble/checksum matching source bundle, run check_source_release.sh, then route the exact candidate to independent source/license review. No public-release/source-closure claim.",
+      "updated_at": "2026-10-14T12:01:32Z",
+      "next_action": "PR #199 source-offer/provenance gate is merged on main (merge 1150d086e660411413abd950a4e09f036dd83439). Remaining gate requires an authenticated networked build surface: clean Workbench rebuild, generated provenance, exact installed-package-to-source bundle, check_source_release.sh pass on the frozen VM candidate, then independent source/license review. Current worker surface cannot resolve github.com; no public-release/source-closure claim.",
       "owner_agent": "chatgpt-kwh-gpl-docs",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/105",
       "claimed_at": "2026-10-14T01:31:00Z",
-      "claim_heartbeat_at": "2026-10-14T11:56:51Z"
+      "claim_heartbeat_at": "2026-10-14T12:01:32Z"
     },
     {
       "id": "KWH-WB-64BIT",
