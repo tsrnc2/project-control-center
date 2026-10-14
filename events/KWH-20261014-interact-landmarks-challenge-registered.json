@@ -1,0 +1,44 @@
+{
+  "at": "2026-10-14T04:42:17Z",
+  "type": "tasks_registered",
+  "project_id": "kludge-wagon-haywire",
+  "note": "READY only (no build): interactables, landmarks, challenge system",
+  "tasks": [
+    {
+      "id": "KWH-WORLD-INTERACTABLES",
+      "issue": 282
+    },
+    {
+      "id": "KWH-WORLD-INT-DOORS",
+      "issue": 283
+    },
+    {
+      "id": "KWH-WORLD-INT-BOXES",
+      "issue": 284
+    },
+    {
+      "id": "KWH-WORLD-INT-EP1",
+      "issue": 285
+    },
+    {
+      "id": "KWH-WORLD-INT-TESTS",
+      "issue": 286
+    },
+    {
+      "id": "KWH-LANDMARKS",
+      "issue": 287
+    },
+    {
+      "id": "KWH-LANDMARKS-MUSIC",
+      "issue": 288
+    },
+    {
+      "id": "KWH-CHALLENGE",
+      "issue": 289
+    },
+    {
+      "id": "KWH-CHALLENGE-TESTS",
+      "issue": 290
+    }
+  ]
+}
