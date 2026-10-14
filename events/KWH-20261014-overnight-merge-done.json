@@ -22,7 +22,7 @@
     "KWH-MCU-DESIGN-FREEZE"
   ],
   "agent_id": "Grok Bot",
-  "merged_commit": "a58a23f",
+  "merged_commit": "111c121",
   "pull_requests": [
     "https://github.com/tsrnc2/fly-by-wire-c/pull/291",
     "https://github.com/tsrnc2/fly-by-wire-c/pull/291",
@@ -47,5 +47,7 @@
   "skipped": [
     "#316 ON HOLD multilevel MCU prototype"
   ],
-  "note": "KWH-CAST-MODELS left READY (partial #291: Jacob/gf/Boss only)."
+  "note": "KWH-CAST-MODELS left READY (partial #291: Jacob/gf/Boss only).",
+  "android_prerelease": "https://github.com/tsrnc2/fly-by-wire-c/releases/tag/android-test-2026-10-14-merged",
+  "apk_size_mb": 66.9
 }

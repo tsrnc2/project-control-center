@@ -8,7 +8,7 @@
     "generated_at": "2026-10-14T16:46:21Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
-    "updated_at": "2026-10-14T16:49:04Z"
+    "updated_at": "2026-10-14T16:58:37Z"
   },
   "projects": [
     {
@@ -4288,15 +4288,15 @@
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T16:46:21Z",
-      "next_action": "Done: merged to main via overnight Jobo merge (#322). Main tip a58a23f.",
+      "updated_at": "2026-10-14T16:58:37Z",
+      "next_action": "Done: merged to main via overnight Jobo merge (#322). Main tip 111c121. Post-merge worker/lazy-pack fix on main; APK prerelease android-test-2026-10-14-merged.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/271",
       "claimed_at": null,
       "claim_heartbeat_at": null,
       "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/322",
-      "candidate_commit": "a58a23f"
+      "candidate_commit": "111c121"
     },
     {
       "id": "KWH-STORY-DUALEC",
@@ -4356,7 +4356,7 @@
       "claimed_at": null,
       "claim_heartbeat_at": null,
       "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/291",
-      "candidate_commit": "a58a23f"
+      "candidate_commit": "111c121"
     },
     {
       "id": "KWH-CAST-FACE",
@@ -4366,15 +4366,15 @@
       "priority": "P0",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T16:46:21Z",
-      "next_action": "Done: merged to main via overnight Jobo merge (#291). Main tip a58a23f.",
+      "updated_at": "2026-10-14T16:58:37Z",
+      "next_action": "Done: merged to main via overnight Jobo merge (#291). Main tip 111c121. Post-merge worker/lazy-pack fix on main; APK prerelease android-test-2026-10-14-merged.",
       "owner_agent": "grok-cast-face",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/280",
       "claimed_at": null,
       "claim_heartbeat_at": null,
       "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/291",
-      "candidate_commit": "a58a23f"
+      "candidate_commit": "111c121"
     },
     {
       "id": "KWH-CAST-FACE-TESTS",
@@ -4384,15 +4384,15 @@
       "priority": "P2",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T16:46:21Z",
-      "next_action": "Done: merged to main via overnight Jobo merge (#291). Main tip a58a23f.",
+      "updated_at": "2026-10-14T16:58:37Z",
+      "next_action": "Done: merged to main via overnight Jobo merge (#291). Main tip 111c121. Post-merge worker/lazy-pack fix on main; APK prerelease android-test-2026-10-14-merged.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/281",
       "claimed_at": null,
       "claim_heartbeat_at": null,
       "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/291",
-      "candidate_commit": "a58a23f"
+      "candidate_commit": "111c121"
     },
     {
       "id": "KWH-WORLD-INTERACTABLES",
@@ -4530,13 +4530,13 @@
       "claimed_at": null,
       "claim_heartbeat_at": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T16:46:21Z",
-      "next_action": "Done: merged to main via overnight Jobo merge (#297). Main tip a58a23f.",
+      "updated_at": "2026-10-14T16:58:37Z",
+      "next_action": "Done: merged to main via overnight Jobo merge (#297). Main tip 111c121. Post-merge worker/lazy-pack fix on main; APK prerelease android-test-2026-10-14-merged.",
       "owner_agent": "grok-onboard",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/292",
       "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/297",
-      "candidate_commit": "a58a23f"
+      "candidate_commit": "111c121"
     },
     {
       "id": "KWH-KITTY-CONSOLE",
@@ -4588,15 +4588,15 @@
       "priority": "P2",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T16:46:21Z",
-      "next_action": "Done: merged to main via overnight Jobo merge (#309). Main tip a58a23f.",
+      "updated_at": "2026-10-14T16:58:37Z",
+      "next_action": "Done: merged to main via overnight Jobo merge (#309). Main tip 111c121. Post-merge worker/lazy-pack fix on main; APK prerelease android-test-2026-10-14-merged.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/296",
       "claimed_at": null,
       "claim_heartbeat_at": null,
       "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/309",
-      "candidate_commit": "a58a23f"
+      "candidate_commit": "111c121"
     },
     {
       "id": "KWH-UI-NO-GODOT-SPLASH",
@@ -4606,15 +4606,15 @@
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T16:46:21Z",
-      "next_action": "Done: merged to main via overnight Jobo merge (#305). Main tip a58a23f.",
+      "updated_at": "2026-10-14T16:58:37Z",
+      "next_action": "Done: merged to main via overnight Jobo merge (#305). Main tip 111c121. Post-merge worker/lazy-pack fix on main; APK prerelease android-test-2026-10-14-merged.",
       "owner_agent": "Grok Bot",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/298",
       "claimed_at": null,
       "claim_heartbeat_at": null,
       "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/305",
-      "candidate_commit": "a58a23f"
+      "candidate_commit": "111c121"
     },
     {
       "id": "KWH-UI-HUD-AMBER",
@@ -4624,15 +4624,15 @@
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T16:46:21Z",
-      "next_action": "Done: merged to main via overnight Jobo merge (#305). Main tip a58a23f.",
+      "updated_at": "2026-10-14T16:58:37Z",
+      "next_action": "Done: merged to main via overnight Jobo merge (#305). Main tip 111c121. Post-merge worker/lazy-pack fix on main; APK prerelease android-test-2026-10-14-merged.",
       "owner_agent": "Grok Bot",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/299",
       "claimed_at": null,
       "claim_heartbeat_at": null,
       "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/305",
-      "candidate_commit": "a58a23f"
+      "candidate_commit": "111c121"
     },
     {
       "id": "KWH-ROAD-OBSTACLES",
@@ -4712,15 +4712,15 @@
       "priority": "P0",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T16:46:21Z",
-      "next_action": "Done: merged to main via overnight Jobo merge (#308). Main tip a58a23f.",
+      "updated_at": "2026-10-14T16:58:37Z",
+      "next_action": "Done: merged to main via overnight Jobo merge (#308). Main tip 111c121. Post-merge worker/lazy-pack fix on main; APK prerelease android-test-2026-10-14-merged.",
       "owner_agent": "Grok Bot",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/306",
       "claimed_at": null,
       "claim_heartbeat_at": null,
       "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/308",
-      "candidate_commit": "a58a23f"
+      "candidate_commit": "111c121"
     },
     {
       "id": "KWH-STORY-OPENING-CUTSCENE",
@@ -4730,15 +4730,15 @@
       "priority": "P0",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T16:46:21Z",
-      "next_action": "Done: merged to main via overnight Jobo merge (#308). Main tip a58a23f.",
+      "updated_at": "2026-10-14T16:58:37Z",
+      "next_action": "Done: merged to main via overnight Jobo merge (#308). Main tip 111c121. Post-merge worker/lazy-pack fix on main; APK prerelease android-test-2026-10-14-merged.",
       "owner_agent": "Grok Bot",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/307",
       "claimed_at": null,
       "claim_heartbeat_at": null,
       "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/308",
-      "candidate_commit": "a58a23f"
+      "candidate_commit": "111c121"
     },
     {
       "id": "KWH-PERF-MOBILE-BASELINE",
@@ -4748,15 +4748,15 @@
       "priority": "P0",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T16:46:21Z",
-      "next_action": "Done: merged to main via overnight Jobo merge (#314). Main tip a58a23f.",
+      "updated_at": "2026-10-14T16:58:37Z",
+      "next_action": "Done: merged to main via overnight Jobo merge (#314). Main tip 111c121. Post-merge worker/lazy-pack fix on main; APK prerelease android-test-2026-10-14-merged.",
       "owner_agent": "Grok Bot",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/310",
       "claimed_at": null,
       "claim_heartbeat_at": null,
       "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/314",
-      "candidate_commit": "a58a23f"
+      "candidate_commit": "111c121"
     },
     {
       "id": "KWH-PERF-MOBILE-SIZE",
@@ -4766,15 +4766,15 @@
       "priority": "P0",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T16:46:21Z",
-      "next_action": "Done: merged to main via overnight Jobo merge (#314). Main tip a58a23f.",
+      "updated_at": "2026-10-14T16:58:37Z",
+      "next_action": "Done: merged to main via overnight Jobo merge (#314). Main tip 111c121. Post-merge worker/lazy-pack fix on main; APK prerelease android-test-2026-10-14-merged.",
       "owner_agent": "Grok Bot",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/311",
       "claimed_at": null,
       "claim_heartbeat_at": null,
       "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/314",
-      "candidate_commit": "a58a23f"
+      "candidate_commit": "111c121"
     },
     {
       "id": "KWH-PERF-MOBILE-RENDER",
@@ -4784,15 +4784,15 @@
       "priority": "P0",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T16:46:21Z",
-      "next_action": "Done: merged to main via overnight Jobo merge (#314). Main tip a58a23f.",
+      "updated_at": "2026-10-14T16:58:37Z",
+      "next_action": "Done: merged to main via overnight Jobo merge (#314). Main tip 111c121. Post-merge worker/lazy-pack fix on main; APK prerelease android-test-2026-10-14-merged.",
       "owner_agent": "Grok Bot",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/312",
       "claimed_at": null,
       "claim_heartbeat_at": null,
       "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/314",
-      "candidate_commit": "a58a23f"
+      "candidate_commit": "111c121"
     },
     {
       "id": "KWH-PERF-MOBILE-CPU",
@@ -4802,15 +4802,15 @@
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T16:46:21Z",
-      "next_action": "Done: merged to main via overnight Jobo merge (#314). Main tip a58a23f.",
+      "updated_at": "2026-10-14T16:58:37Z",
+      "next_action": "Done: merged to main via overnight Jobo merge (#314). Main tip 111c121. Post-merge worker/lazy-pack fix on main; APK prerelease android-test-2026-10-14-merged.",
       "owner_agent": "Grok Bot",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/313",
       "claimed_at": null,
       "claim_heartbeat_at": null,
       "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/314",
-      "candidate_commit": "a58a23f"
+      "candidate_commit": "111c121"
     },
     {
       "id": "KWH-BROWSER-CLANG-GCC14-TEST",
@@ -5033,20 +5033,20 @@
       "priority": "P0",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T16:46:21Z",
+      "updated_at": "2026-10-14T16:58:37Z",
       "dependencies": [
         "KWH-MCU-SYSTEM-DESIGN"
       ],
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/317",
       "dispatch_allowed": true,
-      "next_action": "Done: merged to main via overnight Jobo merge (#317). Main tip a58a23f.",
+      "next_action": "Done: merged to main via overnight Jobo merge (#317). Main tip 111c121. Post-merge worker/lazy-pack fix on main; APK prerelease android-test-2026-10-14-merged.",
       "implementation_hold": null,
       "owner_agent": null,
       "human_owner": "Jobo",
       "claimed_at": null,
       "claim_heartbeat_at": null,
       "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/317",
-      "candidate_commit": "a58a23f"
+      "candidate_commit": "111c121"
     },
     {
       "id": "KWH-ART-EP1-STILLS",
@@ -5056,15 +5056,15 @@
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T16:46:21Z",
-      "next_action": "Done: merged to main via overnight Jobo merge (#322). Main tip a58a23f.",
+      "updated_at": "2026-10-14T16:58:37Z",
+      "next_action": "Done: merged to main via overnight Jobo merge (#322). Main tip 111c121. Post-merge worker/lazy-pack fix on main; APK prerelease android-test-2026-10-14-merged.",
       "owner_agent": "Grok Bot",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/318",
       "claimed_at": null,
       "claim_heartbeat_at": null,
       "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/322",
-      "candidate_commit": "a58a23f"
+      "candidate_commit": "111c121"
     },
     {
       "id": "KWH-ART-DIALOGUE-HEADSHOTS",
@@ -5074,15 +5074,15 @@
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T16:46:21Z",
-      "next_action": "Done: merged to main via overnight Jobo merge (#322). Main tip a58a23f.",
+      "updated_at": "2026-10-14T16:58:37Z",
+      "next_action": "Done: merged to main via overnight Jobo merge (#322). Main tip 111c121. Post-merge worker/lazy-pack fix on main; APK prerelease android-test-2026-10-14-merged.",
       "owner_agent": "Grok Bot",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/319",
       "claimed_at": null,
       "claim_heartbeat_at": null,
       "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/322",
-      "candidate_commit": "a58a23f"
+      "candidate_commit": "111c121"
     },
     {
       "id": "KWH-STORY-BOSS-ROLE",
@@ -5092,15 +5092,15 @@
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T16:46:21Z",
-      "next_action": "Done: merged to main via overnight Jobo merge (#322). Main tip a58a23f.",
+      "updated_at": "2026-10-14T16:58:37Z",
+      "next_action": "Done: merged to main via overnight Jobo merge (#322). Main tip 111c121. Post-merge worker/lazy-pack fix on main; APK prerelease android-test-2026-10-14-merged.",
       "owner_agent": "Grok Bot",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/320",
       "claimed_at": null,
       "claim_heartbeat_at": null,
       "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/322",
-      "candidate_commit": "a58a23f"
+      "candidate_commit": "111c121"
     },
     {
       "id": "pity-please-20261014-android-export-helper-alignment",
@@ -5816,6 +5816,12 @@
         "KWH-MCU-DESIGN-FREEZE"
       ],
       "summary": "Jobo overnight merge: PRs #291,#297,#305,#308,#309,#314,#322,#317 on main a58a23f. Skipped #316 ON HOLD. PCC CLAIMED overnight tasks \u2192 DONE; locks released. CAST-MODELS partial\u2192READY."
+    },
+    {
+      "at": "2026-10-14T16:58:37Z",
+      "type": "ANDROID_PRERELEASE",
+      "project_id": "kludge-wagon-haywire",
+      "summary": "Published prerelease https://github.com/tsrnc2/fly-by-wire-c/releases/tag/android-test-2026-10-14-merged (APK 66.9MB lazy packs) from main 111c121. STOP \u2014 no new features."
     }
   ]
 }

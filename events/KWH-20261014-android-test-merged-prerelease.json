@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-14T16:58:37Z",
+  "type": "PRERELEASE",
+  "project_id": "kludge-wagon-haywire",
+  "tag": "android-test-2026-10-14-merged",
+  "url": "https://github.com/tsrnc2/fly-by-wire-c/releases/tag/android-test-2026-10-14-merged",
+  "apk_bytes": 70143341,
+  "apk_mb": 66.9,
+  "commit": "111c121",
+  "summary": "Lazy-pack Android test APK from main after overnight merge; STOP."
+}
