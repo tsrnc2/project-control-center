@@ -677,12 +677,12 @@
       "id": "KWH-EP2-STEERING",
       "project_id": "kludge-wagon-haywire",
       "title": "Ep2 steering level",
-      "state": "CLAIMED",
+      "state": "RUNNING",
       "priority": "P1",
       "claimed_by": "chatgpt-kwh-ep2-steering",
       "claim_expires_at": "2026-10-15T02:24:00Z",
-      "updated_at": "2026-10-14T02:24:00Z",
-      "next_action": "Assigned to chatgpt-kwh-ep2-steering; acquire an execution lock only when the worker starts.",
+      "updated_at": "2026-10-14T02:53:28Z",
+      "next_action": "Execution active under canonical KITT lease on branch task/kwh-ep2-steering; preserve ownership and await focused Episode 2 implementation/validation evidence.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/21",
@@ -3800,17 +3800,17 @@
       "id": "KWH-KERNEL-ROADMAP",
       "project_id": "kludge-wagon-haywire",
       "title": "Kernel curriculum roadmap: player kernel + mini libc end goal",
-      "state": "CLAIMED",
+      "state": "DONE",
       "priority": "P0",
-      "claimed_by": "chatgpt-kwh-kernel-roadmap",
-      "claim_expires_at": "2026-10-15T02:48:55Z",
-      "updated_at": "2026-10-14T02:48:55Z",
-      "next_action": "Assigned to chatgpt-kwh-kernel-roadmap; acquire the canonical KITT execution lease before beginning roadmap mutation.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T02:59:04.142Z",
+      "next_action": "Draft roadmap candidate published as PR #248 at 1198bb8fc7275b8a091d3620d17323b4a9d7628d. Review/accept the roadmap before treating downstream kernel implementation order as approved.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/227",
       "claimed_at": "2026-10-14T02:48:55Z",
-      "claim_heartbeat_at": "2026-10-14T02:48:55Z"
+      "claim_heartbeat_at": null
     },
     {
       "id": "KWH-KERNEL-HAL",
@@ -3984,12 +3984,12 @@
       "id": "KWH-STORY-KITTY-ARC",
       "project_id": "kludge-wagon-haywire",
       "title": "Story: Kitty turn-evil arc (beats, foreshadowing, legally distinct)",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P0",
-      "claimed_by": null,
+      "claimed_by": "chatgpt-kwh-story-kitty-arc",
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T02:48:55Z",
-      "next_action": "Beat sheet + adversarial toolkit design; update #113. READY.",
+      "updated_at": "2026-10-14T02:56:00Z",
+      "next_action": "Execution active under canonical KITT lease; produce the bounded Kitty ally→foreshadow→turn→confrontation→resolution design candidate without gameplay implementation or merge.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/240"
@@ -4290,6 +4290,17 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-14T03:00:00Z",
+      "type": "CONTROL_PLANE_SYNC",
+      "project_id": "kludge-wagon-haywire",
+      "task_ids": [
+        "KWH-EP2-STEERING",
+        "KWH-KERNEL-ROADMAP",
+        "KWH-STORY-KITTY-ARC"
+      ],
+      "summary": "Mirrored canonical KITT execution/completion state for Episode 2 steering, kernel-roadmap planning, and Kitty story-arc lanes; no ownership authority changed."
+    },
     {
       "at": "2026-10-14T02:58:37Z",
       "type": "DONE",
