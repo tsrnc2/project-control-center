@@ -7,7 +7,8 @@
     "data_branch": "live",
     "generated_at": "2026-10-14T02:59:41.387Z",
     "refresh_hint_seconds": 120,
-    "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts."
+    "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
+    "updated_at": "2026-10-14T03:00:00Z"
   },
   "projects": [
     {
@@ -1172,17 +1173,17 @@
       "id": "KWH-GPS-HEADER",
       "project_id": "kludge-wagon-haywire",
       "title": "GPS ECU: header/API in kludge_ecu.h (gps_update inputs/outputs)",
-      "state": "BLOCKED",
+      "state": "RUNNING",
       "priority": "P1",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T02:53:00Z",
-      "next_action": "Reconciliation: gps_update API is already present on current main (42e5eb84bfe41c332fc242148315dbdb06e2fa90). Do not reimplement. Verify the existing header/API with browser clang and GCC 14 against issue #61 acceptance, then mark terminal if the exact main bytes pass.",
-      "owner_agent": null,
+      "claimed_by": "chatgpt-kwh-gps-api",
+      "claim_expires_at": "2026-10-15T02:59:04Z",
+      "updated_at": "2026-10-14T03:00:00Z",
+      "next_action": "Verification-only closure in progress: validate the existing exact-main GPS header/API with browser clang path and GCC 14; do not reimplement downstream GPS/minimap/telemetry/story work.",
+      "owner_agent": "chatgpt-kwh-gps-api",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/61",
       "claimed_at": "2026-10-14T01:31:00Z",
-      "claim_heartbeat_at": "2026-10-14T01:31:00Z"
+      "claim_heartbeat_at": "2026-10-14T03:00:00Z"
     },
     {
       "id": "KWH-GPS-BUGGY",
