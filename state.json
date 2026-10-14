@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T03:16:30Z",
+    "generated_at": "2026-10-14T03:21:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-14T03:01:35Z"
@@ -2531,15 +2531,16 @@
       "id": "KWH-MKT-TRAILER-SCRIPT",
       "project_id": "kludge-wagon-haywire",
       "title": "Steam trailer script + shot list (60-90s)",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T01:15:54Z",
-      "next_action": "Marketing. Acceptance: Script/storyboard; gameplay in first 5s. Unclaimed.",
+      "updated_at": "2026-10-14T03:18:00Z",
+      "next_action": "DONE: 80-second trailer script/shot list published in draft PR #266; capture/edit/audio/publication remain separate.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/130"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/130",
+      "claim_heartbeat_at": null
     },
     {
       "id": "KWH-MKT-TRAILER-EDIT",
@@ -2573,15 +2574,16 @@
       "id": "KWH-MKT-COMING-SOON",
       "project_id": "kludge-wagon-haywire",
       "title": "Coming Soon page plan + wishlist push",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T01:15:54Z",
-      "next_action": "Marketing. Acceptance: Checklist + wishlist CTA copy; timing plan. Unclaimed.",
+      "updated_at": "2026-10-14T03:20:00Z",
+      "next_action": "DONE: fail-closed Coming Soon/wishlist readiness plan published in draft PR #267; verdict remains HOLD until release-facing assets and human/Valve review gates are ready.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/133"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/133",
+      "claim_heartbeat_at": null
     },
     {
       "id": "KWH-MKT-PRESSKIT-PAGE",
@@ -4858,6 +4860,19 @@
         "KWH-MKT-STORE-TAGS"
       ],
       "summary": "Mirrored completion of short store copy, long/BBCode store copy, and ranked tag/category drafts. Draft PRs #260/#262/#264 remain unmerged and unpublished."
+    },
+    {
+      "at": "2026-10-14T03:21:00Z",
+      "type": "KWH_MARKETING_WAVE_ADVANCED",
+      "project_id": "kludge-wagon-haywire",
+      "task_ids": [
+        "KWH-MKT-STORE-SHORT-DESC",
+        "KWH-MKT-STORE-LONG-DESC",
+        "KWH-MKT-STORE-TAGS",
+        "KWH-MKT-TRAILER-SCRIPT",
+        "KWH-MKT-COMING-SOON"
+      ],
+      "summary": "Five bounded marketing planning/copy tasks are DONE as unmerged draft PRs #260/#262/#264/#266/#267. No Steamworks/publication/release action performed."
     }
   ]
 }
