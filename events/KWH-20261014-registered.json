@@ -1,0 +1,6 @@
+{
+  "at": "2026-10-14T00:40:00Z",
+  "type": "TASK_REGISTERED",
+  "project_id": "kludge-wagon-haywire",
+  "summary": "Work paused by human owner; 109 small tasks registered with fly-by-wire-c issue links. Claims follow in a separate commit."
+}
