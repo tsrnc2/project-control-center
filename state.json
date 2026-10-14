@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T00:45:00Z",
+    "generated_at": "2026-10-14T01:14:23Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state only. Human threads are GitHub Issues; locks are live branch files. This refresh mirrors nine reviewed canonical tasks only; unrelated records retain their own observation timestamps."
   },
@@ -2242,6 +2242,90 @@
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/26"
+    },
+    {
+      "id": "KWH-KITTY-DESIGN",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Kitty character design: in-dash avatar, personality guide, amber scanner",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T01:14:23Z",
+      "next_action": "Design Kitty dash face (2003 retro), personality guide (80s talking-car archetype, legally distinct), Jobo-approved amber segmented LED scanner. See issue acceptance criteria.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/113"
+    },
+    {
+      "id": "KWH-KITTY-HINTS",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Kitty contextual tiered hints + compiler-error explainers",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T01:14:23Z",
+      "next_action": "Implement data-driven tiered hints per mission/ECU; plain-language compiler error explainers. Unclaimed.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/114"
+    },
+    {
+      "id": "KWH-KITTY-INTEGRATION",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Kitty Ask Kitty button in Car Manual + Workbench (asm/gdb)",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T01:14:23Z",
+      "next_action": "Wire Ask Kitty into Owner's Manual and Workbench; explain asm/gdb views. Unclaimed.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/115"
+    },
+    {
+      "id": "KWH-KITTY-VOICE",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Kitty distinct voice (free TTS; ElevenLabs if credits allow)",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T01:14:23Z",
+      "next_action": "Ship Kitty bark set distinct from robot car voice; amber LED sync. Unclaimed.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/116"
+    },
+    {
+      "id": "KWH-KITTY-LLM-DOC",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Kitty optional LLM Q&A design doc (offline fallback, privacy/cost)",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T01:14:23Z",
+      "next_action": "Write docs/kitty-llm-qa.md with offline fallback, privacy, cost, safety. Design-only. Unclaimed.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/117"
+    },
+    {
+      "id": "KWH-KITTY-TESTS",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Kitty automated tests (hints, Ask Kitty, personality guard)",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T01:14:23Z",
+      "next_action": "Add node/e2e tests for hints, Ask Kitty, franchise-name guard. Unclaimed.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/118"
     }
   ],
   "blockers": [
@@ -2455,6 +2539,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-14T01:14:23Z",
+      "type": "TASK_REGISTERED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-KITTY-DESIGN",
+      "summary": "Registered 6 READY unclaimed Kitty help-system tasks (KWH-KITTY-*) linked to fly-by-wire-c issues #113\u2013#118. Open for any agent."
+    },
     {
       "at": "2026-09-25T14:55:00-07:00",
       "type": "ARCHITECTURE",
