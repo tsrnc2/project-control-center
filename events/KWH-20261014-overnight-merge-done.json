@@ -1,0 +1,51 @@
+{
+  "at": "2026-10-14T16:46:21Z",
+  "type": "DONE",
+  "project_id": "kludge-wagon-haywire",
+  "task_ids": [
+    "KWH-CAST-FACE",
+    "KWH-CAST-FACE-TESTS",
+    "KWH-ONBOARD-DRIVE-FIRST",
+    "KWH-UI-NO-GODOT-SPLASH",
+    "KWH-UI-HUD-AMBER",
+    "KWH-UI-MAIN-MENU",
+    "KWH-STORY-OPENING-CUTSCENE",
+    "KWH-WEB-CHEATSHEETS",
+    "KWH-PERF-MOBILE-BASELINE",
+    "KWH-PERF-MOBILE-SIZE",
+    "KWH-PERF-MOBILE-RENDER",
+    "KWH-PERF-MOBILE-CPU",
+    "KWH-ART-EP1-STILLS",
+    "KWH-ART-DIALOGUE-HEADSHOTS",
+    "KWH-STORY-BOSS-ROLE",
+    "KWH-STORY-SKIPPABLE",
+    "KWH-MCU-DESIGN-FREEZE"
+  ],
+  "agent_id": "Grok Bot",
+  "merged_commit": "a58a23f",
+  "pull_requests": [
+    "https://github.com/tsrnc2/fly-by-wire-c/pull/291",
+    "https://github.com/tsrnc2/fly-by-wire-c/pull/291",
+    "https://github.com/tsrnc2/fly-by-wire-c/pull/291",
+    "https://github.com/tsrnc2/fly-by-wire-c/pull/297",
+    "https://github.com/tsrnc2/fly-by-wire-c/pull/305",
+    "https://github.com/tsrnc2/fly-by-wire-c/pull/305",
+    "https://github.com/tsrnc2/fly-by-wire-c/pull/308",
+    "https://github.com/tsrnc2/fly-by-wire-c/pull/308",
+    "https://github.com/tsrnc2/fly-by-wire-c/pull/309",
+    "https://github.com/tsrnc2/fly-by-wire-c/pull/314",
+    "https://github.com/tsrnc2/fly-by-wire-c/pull/314",
+    "https://github.com/tsrnc2/fly-by-wire-c/pull/314",
+    "https://github.com/tsrnc2/fly-by-wire-c/pull/314",
+    "https://github.com/tsrnc2/fly-by-wire-c/pull/322",
+    "https://github.com/tsrnc2/fly-by-wire-c/pull/322",
+    "https://github.com/tsrnc2/fly-by-wire-c/pull/322",
+    "https://github.com/tsrnc2/fly-by-wire-c/pull/322",
+    "https://github.com/tsrnc2/fly-by-wire-c/pull/317"
+  ],
+  "summary": "Jobo overnight merge: PRs #291,#297,#305,#308,#309,#314,#322,#317 on main a58a23f. Skipped #316 ON HOLD. PCC CLAIMED overnight tasks \u2192 DONE; locks released.",
+  "skipped": [
+    "#316 ON HOLD multilevel MCU prototype"
+  ],
+  "note": "KWH-CAST-MODELS left READY (partial #291: Jacob/gf/Boss only)."
+}
