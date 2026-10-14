@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T03:05:38.989Z",
+    "generated_at": "2026-10-14T03:06:32Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-14T03:01:35Z"
@@ -1191,13 +1191,13 @@
       "id": "KWH-GPS-BUGGY",
       "project_id": "kludge-wagon-haywire",
       "title": "GPS ECU: buggy starter code (deg/rad mixup, swapped x/y)",
-      "state": "BLOCKED",
+      "state": "RUNNING",
       "priority": "P1",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T03:00:00Z",
-      "next_action": "Reconciliation: current main already contains the shipped buggy web/ecu/src/gps.c and tests/fixed/gps.c reference implementation. Do not reimplement. Verify the exact-main buggy/fixed runtime behavior with the ECU harness; close if acceptance holds.",
-      "owner_agent": null,
+      "claimed_by": "chatgpt-kwh-gps-buggy-verify",
+      "claim_expires_at": "2026-10-15T03:05:22Z",
+      "updated_at": "2026-10-14T03:06:32Z",
+      "next_action": "Verification-only closure is running against exact main 9e80978238628ac508cfc72778b8229c7aab9467; existing starter/fixed GPS sources are being validated, not reimplemented.",
+      "owner_agent": "chatgpt-kwh-gps-buggy-verify",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/62"
     },
@@ -4354,6 +4354,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-14T03:06:32Z",
+      "type": "CONTROL_PLANE_SYNC",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-GPS-BUGGY",
+      "summary": "Promoted stale dashboard BLOCKED GPS starter item into canonical KITT verification-only execution; source already exists on main and no reimplementation is authorized."
+    },
     {
       "at": "2026-10-14T03:03:30Z",
       "type": "TASK_COMPLETION_SYNC",
