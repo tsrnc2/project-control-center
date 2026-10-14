@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T01:32:30Z",
+    "generated_at": "2026-10-14T01:40:11Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts."
   },
@@ -2739,6 +2739,76 @@
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/146"
+    },
+    {
+      "id": "KWH-AND-EVAL",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Android: evaluate WebView-APK vs native Godot+WebView; write decision",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T01:40:11Z",
+      "next_action": "Write docs/android.md decision; recommend practical path. Unclaimed \u2192 claim next.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/148"
+    },
+    {
+      "id": "KWH-AND-SDK",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Android: install JDK 17 + SDK/build-tools + Godot 4.3 Android templates",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T01:40:11Z",
+      "next_action": "Install toolchain on box; document paths in docs/android.md.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/149"
+    },
+    {
+      "id": "KWH-AND-WEBVIEW",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Android: WebView shell APK hosting existing web export",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T01:40:11Z",
+      "next_action": "Package web/ in WebView APK (or Godot WebView host) with Workers/WASM enabled.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/150"
+    },
+    {
+      "id": "KWH-AND-TOUCH",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Android: on-screen steer/throttle/brake + soft-keyboard-friendly IDE",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T01:40:11Z",
+      "next_action": "Touch controls mapping + soft keyboard UX for editor/workbench.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/151"
+    },
+    {
+      "id": "KWH-AND-APK",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Android: build debug APK, emulator smoke-test, screenshots",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T01:40:11Z",
+      "next_action": "Produce debug APK, AVD smoke if feasible, screenshots/android/, limits note.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/152"
     }
   ],
   "blockers": [
@@ -2953,11 +3023,18 @@
   ],
   "activity": [
     {
+      "at": "2026-10-14T01:40:11Z",
+      "type": "TASK_REGISTERED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-AND-EVAL",
+      "summary": "Registered 5 READY Android tasks (KWH-AND-EVAL, KWH-AND-SDK, KWH-AND-WEBVIEW, KWH-AND-TOUCH, KWH-AND-APK) \u2192 issues #148\u2013#152. Open for claim."
+    },
+    {
       "at": "2026-10-14T01:14:23Z",
       "type": "TASK_REGISTERED",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-KITTY-DESIGN",
-      "summary": "Registered 6 READY unclaimed Kitty help-system tasks (KWH-KITTY-*) linked to fly-by-wire-c issues #113–#118. Open for any agent."
+      "summary": "Registered 6 READY unclaimed Kitty help-system tasks (KWH-KITTY-*) linked to fly-by-wire-c issues #113\u2013#118. Open for any agent."
     },
     {
       "at": "2026-09-25T14:55:00-07:00",
