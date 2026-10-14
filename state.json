@@ -3133,16 +3133,18 @@
     {
       "id": "KWH-DMG-MODEL",
       "project_id": "kludge-wagon-haywire",
-      "title": "Damage: per-component health/wear (collisions, terrain, events)",
-      "state": "READY",
+      "title": "Damage: per-component health/wear model (collisions, terrain, events)",
+      "state": "CLAIMED",
       "priority": "P1",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T02:13:37Z",
-      "next_action": "AC updated (#176): terrain wear + massive collisions. See KWH-DMG-TERRAIN/COLLISION. READY.",
+      "claimed_by": "chatgpt-kwh-damage-model",
+      "claim_expires_at": "2026-10-15T03:06:00Z",
+      "updated_at": "2026-10-14T03:06:00Z",
+      "next_action": "Assigned to chatgpt-kwh-damage-model; acquire the canonical KITT execution lease only when work actually starts.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/176"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/176",
+      "claimed_at": "2026-10-14T03:06:00Z",
+      "claim_heartbeat_at": "2026-10-14T03:06:00Z"
     },
     {
       "id": "KWH-DMG-FUZZ",
