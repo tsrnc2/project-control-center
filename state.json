@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T05:40:00Z",
+    "generated_at": "2026-10-14T05:45:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-14T03:01:35Z"
@@ -4660,6 +4660,34 @@
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/304"
+    },
+    {
+      "id": "KWH-UI-MAIN-MENU",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Main menu: amber Kludge Motors (New Game/Continue/Chapters/\u2026)",
+      "state": "CLAIMED",
+      "priority": "P0",
+      "claimed_by": "Grok Bot",
+      "claim_expires_at": "2026-10-16T05:45:00Z",
+      "updated_at": "2026-10-14T05:45:00Z",
+      "next_action": "Building on feature/menu-opening-cutscene (stacked on #305+#297)",
+      "owner_agent": "Grok Bot",
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/306"
+    },
+    {
+      "id": "KWH-STORY-OPENING-CUTSCENE",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Opening cutscene: WHO/WHAT/WHERE/HOW + cutscene framework",
+      "state": "CLAIMED",
+      "priority": "P0",
+      "claimed_by": "Grok Bot",
+      "claim_expires_at": "2026-10-16T05:45:00Z",
+      "updated_at": "2026-10-14T05:45:00Z",
+      "next_action": "Building on feature/menu-opening-cutscene (stacked on #305+#297)",
+      "owner_agent": "Grok Bot",
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/307"
     }
   ],
   "blockers": [
