@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T03:26:04Z",
+    "generated_at": "2026-10-14T03:28:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-14T03:01:35Z"
@@ -1541,12 +1541,12 @@
       "id": "KWH-EP1-M01",
       "project_id": "kludge-wagon-haywire",
       "title": "Ep1 mission 1: chapter 1 cutscene + coding task",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Chapter 1 voice lines all play; original stills in cutscene; coding task with pass check; advances to mission 2",
+      "updated_at": "2026-10-14T03:28:00Z",
+      "next_action": "Done on main via PR #256. Current missions.js/missions.json/missions_test.js and mission-flow screenshots are byte-identical to the tested salvage head that passed all 10 missions and all 112 Episode 1 lines.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/87"
@@ -1555,12 +1555,12 @@
       "id": "KWH-EP1-M02",
       "project_id": "kludge-wagon-haywire",
       "title": "Ep1 mission 2: chapter 2 cutscene + coding task",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Chapter 2 voice lines all play; original stills in cutscene; coding task with pass check; advances to mission 3",
+      "updated_at": "2026-10-14T03:28:00Z",
+      "next_action": "Done on main via PR #256. Current missions.js/missions.json/missions_test.js and mission-flow screenshots are byte-identical to the tested salvage head that passed all 10 missions and all 112 Episode 1 lines.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/88"
@@ -1569,12 +1569,12 @@
       "id": "KWH-EP1-M03",
       "project_id": "kludge-wagon-haywire",
       "title": "Ep1 mission 3: chapter 3 cutscene + coding task",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Chapter 3 voice lines all play; original stills in cutscene; coding task with pass check; advances to mission 4",
+      "updated_at": "2026-10-14T03:28:00Z",
+      "next_action": "Done on main via PR #256. Current missions.js/missions.json/missions_test.js and mission-flow screenshots are byte-identical to the tested salvage head that passed all 10 missions and all 112 Episode 1 lines.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/89"
@@ -1583,12 +1583,12 @@
       "id": "KWH-EP1-M04",
       "project_id": "kludge-wagon-haywire",
       "title": "Ep1 mission 4: chapter 4 cutscene + coding task",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Chapter 4 voice lines all play; original stills in cutscene; coding task with pass check; advances to mission 5",
+      "updated_at": "2026-10-14T03:28:00Z",
+      "next_action": "Done on main via PR #256. Current missions.js/missions.json/missions_test.js and mission-flow screenshots are byte-identical to the tested salvage head that passed all 10 missions and all 112 Episode 1 lines.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/90"
@@ -1597,12 +1597,12 @@
       "id": "KWH-EP1-M05",
       "project_id": "kludge-wagon-haywire",
       "title": "Ep1 mission 5: chapter 5 cutscene + coding task",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Chapter 5 voice lines all play; original stills in cutscene; coding task with pass check; advances to mission 6",
+      "updated_at": "2026-10-14T03:28:00Z",
+      "next_action": "Done on main via PR #256. Current missions.js/missions.json/missions_test.js and mission-flow screenshots are byte-identical to the tested salvage head that passed all 10 missions and all 112 Episode 1 lines.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/91"
@@ -1611,12 +1611,12 @@
       "id": "KWH-EP1-M06",
       "project_id": "kludge-wagon-haywire",
       "title": "Ep1 mission 6: chapter 6 cutscene + coding task",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Chapter 6 voice lines all play; original stills in cutscene; coding task with pass check; advances to mission 7",
+      "updated_at": "2026-10-14T03:28:00Z",
+      "next_action": "Done on main via PR #256. Current missions.js/missions.json/missions_test.js and mission-flow screenshots are byte-identical to the tested salvage head that passed all 10 missions and all 112 Episode 1 lines.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/92"
@@ -1625,12 +1625,12 @@
       "id": "KWH-EP1-M07",
       "project_id": "kludge-wagon-haywire",
       "title": "Ep1 mission 7: chapter 7 cutscene + coding task",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Chapter 7 voice lines all play; original stills in cutscene; coding task with pass check; advances to mission 8",
+      "updated_at": "2026-10-14T03:28:00Z",
+      "next_action": "Done on main via PR #256. Current missions.js/missions.json/missions_test.js and mission-flow screenshots are byte-identical to the tested salvage head that passed all 10 missions and all 112 Episode 1 lines.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/93"
@@ -1639,12 +1639,12 @@
       "id": "KWH-EP1-M08",
       "project_id": "kludge-wagon-haywire",
       "title": "Ep1 mission 8: chapter 8 cutscene + coding task",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Chapter 8 voice lines all play; original stills in cutscene; coding task with pass check; advances to mission 9",
+      "updated_at": "2026-10-14T03:28:00Z",
+      "next_action": "Done on main via PR #256. Current missions.js/missions.json/missions_test.js and mission-flow screenshots are byte-identical to the tested salvage head that passed all 10 missions and all 112 Episode 1 lines.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/94"
@@ -1653,12 +1653,12 @@
       "id": "KWH-EP1-M09",
       "project_id": "kludge-wagon-haywire",
       "title": "Ep1 mission 9: chapter 9 cutscene + coding task",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Chapter 9 voice lines all play; original stills in cutscene; coding task with pass check; advances to mission 10",
+      "updated_at": "2026-10-14T03:28:00Z",
+      "next_action": "Done on main via PR #256. Current missions.js/missions.json/missions_test.js and mission-flow screenshots are byte-identical to the tested salvage head that passed all 10 missions and all 112 Episode 1 lines.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/95"
@@ -1667,12 +1667,12 @@
       "id": "KWH-EP1-M10",
       "project_id": "kludge-wagon-haywire",
       "title": "Ep1 mission 10: chapter 10 cutscene + coding task",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Chapter 10 voice lines all play; original stills in cutscene; coding task with pass check; advances to mission complete",
+      "updated_at": "2026-10-14T03:28:00Z",
+      "next_action": "Done on main via PR #256. Current missions.js/missions.json/missions_test.js and mission-flow screenshots are byte-identical to the tested salvage head that passed all 10 missions and all 112 Episode 1 lines.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/96"
@@ -1681,12 +1681,12 @@
       "id": "KWH-EP1-MISSION-LOG",
       "project_id": "kludge-wagon-haywire",
       "title": "Mission log tab in car window",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Lists missions with state; replay cutscene button",
+      "updated_at": "2026-10-14T03:28:00Z",
+      "next_action": "Done on main via PR #256. Current mission source/test blobs are byte-identical to the tested salvage head; browser run saved 10/10 mission states and captured screenshots/32_mission_log.png.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/97"
@@ -1695,12 +1695,12 @@
       "id": "KWH-EP1-CUTSCENE-SYS",
       "project_id": "kludge-wagon-haywire",
       "title": "Cutscene system (stills + audio + captions)",
-      "state": "CLAIMED",
+      "state": "DONE",
       "priority": "P1",
-      "claimed_by": "chatgpt-kwh-cutscene-core",
-      "claim_expires_at": "2026-10-15T02:24:00Z",
-      "updated_at": "2026-10-14T02:24:00Z",
-      "next_action": "Assigned to chatgpt-kwh-cutscene-core; acquire an execution lock only when the worker starts.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T03:28:00Z",
+      "next_action": "Done on main via PR #256. Current main cutscene source is byte-identical to the tested salvage head: data-driven missions.json playback, explicit Skip scene control, and CAT lines rendered as visible italic captions. The duplicate worker claim was released.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/98",
@@ -1711,12 +1711,12 @@
       "id": "KWH-EP1-MISSIONS-TEST",
       "project_id": "kludge-wagon-haywire",
       "title": "Ep1 missions end-to-end test",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Automated run-through hits all 10 missions; all 110 lines referenced",
+      "updated_at": "2026-10-14T03:28:00Z",
+      "next_action": "Done: tests/missions_test.js on current main is byte-identical to the tested salvage head that passed all 10 missions, verified all 112 Episode 1 lines exactly once/played, and saved 10/10 mission log state. The issue's older 110-line wording is superseded by the actual 112-line corpus.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/99"
@@ -2294,7 +2294,7 @@
       "claimed_by": null,
       "claim_expires_at": null,
       "updated_at": "2026-10-14T02:48:55Z",
-      "next_action": "Design Kitty dash face + personality; AC updated for late-game ally\u2192adversarial turn (#113, see STORY-KITTY-ARC #240). READY unclaimed.",
+      "next_action": "Design Kitty dash face + personality; AC updated for late-game ally→adversarial turn (#113, see STORY-KITTY-ARC #240). READY unclaimed.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/113"
@@ -2892,7 +2892,7 @@
       "claimed_by": null,
       "claim_expires_at": null,
       "updated_at": "2026-10-14T01:44:42Z",
-      "next_action": "ECU + e2e/status hooks for lock\u2192unlock. READY.",
+      "next_action": "ECU + e2e/status hooks for lock→unlock. READY.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/156"
@@ -2900,7 +2900,7 @@
     {
       "id": "KWH-CLUE-SCHEMA",
       "project_id": "kludge-wagon-haywire",
-      "title": "Clue\u2192lesson: schema tying world clues to real ECU bugs",
+      "title": "Clue→lesson: schema tying world clues to real ECU bugs",
       "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
@@ -2914,7 +2914,7 @@
     {
       "id": "KWH-CLUE-WORLD",
       "project_id": "kludge-wagon-haywire",
-      "title": "Clue\u2192lesson: world pickups per mission + top-box storage",
+      "title": "Clue→lesson: world pickups per mission + top-box storage",
       "state": "CLAIMED",
       "priority": "P1",
       "claimed_by": "chatgpt-kwh-clue-world",
@@ -2930,7 +2930,7 @@
     {
       "id": "KWH-CLUE-REVEAL",
       "project_id": "kludge-wagon-haywire",
-      "title": "Clue\u2192lesson: secret case-file document reveal UI",
+      "title": "Clue→lesson: secret case-file document reveal UI",
       "state": "CLAIMED",
       "priority": "P1",
       "claimed_by": "chatgpt-kwh-clue-reveal",
@@ -2946,7 +2946,7 @@
     {
       "id": "KWH-CLUE-GATE",
       "project_id": "kludge-wagon-haywire",
-      "title": "Clue\u2192lesson: gate next lesson in workbench/IDE + Car Manual",
+      "title": "Clue→lesson: gate next lesson in workbench/IDE + Car Manual",
       "state": "READY",
       "priority": "P1",
       "claimed_by": null,
@@ -2960,13 +2960,13 @@
     {
       "id": "KWH-CLUE-EP1",
       "project_id": "kludge-wagon-haywire",
-      "title": "Clue\u2192lesson: author Ep1 clues from actual shipped bugs",
+      "title": "Clue→lesson: author Ep1 clues from actual shipped bugs",
       "state": "READY",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
       "updated_at": "2026-10-14T01:48:50Z",
-      "next_action": "Ep1 clues map to real bug lines; include \u22651 super clue. AC updated on #161. READY.",
+      "next_action": "Ep1 clues map to real bug lines; include ≥1 super clue. AC updated on #161. READY.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/161"
@@ -2974,7 +2974,7 @@
     {
       "id": "KWH-CLUE-TEST",
       "project_id": "kludge-wagon-haywire",
-      "title": "Clue\u2192lesson: tests for collect \u2192 unlock \u2192 gate",
+      "title": "Clue→lesson: tests for collect → unlock → gate",
       "state": "READY",
       "priority": "P2",
       "claimed_by": null,
@@ -2988,7 +2988,7 @@
     {
       "id": "KWH-CLUE-BUGLINES",
       "project_id": "kludge-wagon-haywire",
-      "title": "Clue\u2192lesson: IDE gutter bug-line reveals + super-clue spend UI",
+      "title": "Clue→lesson: IDE gutter bug-line reveals + super-clue spend UI",
       "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
@@ -3002,7 +3002,7 @@
     {
       "id": "KWH-AND-UI-DESIGN",
       "project_id": "kludge-wagon-haywire",
-      "title": "Android UI: Material3\u00d7amber Kludge design tokens + safe-area",
+      "title": "Android UI: Material3×amber Kludge design tokens + safe-area",
       "state": "BLOCKED",
       "priority": "P1",
       "claimed_by": null,
@@ -3086,7 +3086,7 @@
     {
       "id": "KWH-AND-UI-APK",
       "project_id": "kludge-wagon-haywire",
-      "title": "Android UI: rebuild APK + 412\u00d7915 / 915\u00d7412 screenshots",
+      "title": "Android UI: rebuild APK + 412×915 / 915×412 screenshots",
       "state": "BLOCKED",
       "priority": "P1",
       "claimed_by": null,
@@ -3192,7 +3192,7 @@
       "claimed_by": null,
       "claim_expires_at": null,
       "updated_at": "2026-10-14T02:11:53Z",
-      "next_action": "Shop location; BROKEN\u2192challenge\u2192replace. Common UI API. READY.",
+      "next_action": "Shop location; BROKEN→challenge→replace. Common UI API. READY.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/179"
@@ -3314,7 +3314,7 @@
     {
       "id": "KWH-BLD-KIT",
       "project_id": "kludge-wagon-haywire",
-      "title": "Buildings: expandable kit by style (modern\u2192industrial + Bodie western)",
+      "title": "Buildings: expandable kit by style (modern→industrial + Bodie western)",
       "state": "READY",
       "priority": "P1",
       "claimed_by": null,
@@ -3342,7 +3342,7 @@
     {
       "id": "KWH-BLD-TYPES-RES",
       "project_id": "kludge-wagon-haywire",
-      "title": "Buildings: residential types (townhome\u2192apartment)",
+      "title": "Buildings: residential types (townhome→apartment)",
       "state": "READY",
       "priority": "P1",
       "claimed_by": null,
@@ -3356,7 +3356,7 @@
     {
       "id": "KWH-BLD-TYPES-COMM",
       "project_id": "kludge-wagon-haywire",
-      "title": "Buildings: commercial/civic types (shop\u2192warehouse)",
+      "title": "Buildings: commercial/civic types (shop→warehouse)",
       "state": "READY",
       "priority": "P1",
       "claimed_by": null,
@@ -3652,7 +3652,7 @@
     {
       "id": "KWH-MINI-BUG-HUNT",
       "project_id": "kludge-wagon-haywire",
-      "title": "Concept: Bug Hunt (timer + live code/sim) \u2014 draft",
+      "title": "Concept: Bug Hunt (timer + live code/sim) — draft",
       "state": "READY",
       "priority": "P2",
       "claimed_by": null,
@@ -3666,7 +3666,7 @@
     {
       "id": "KWH-MINI-BREAKPOINT",
       "project_id": "kludge-wagon-haywire",
-      "title": "Concept: Breakpoint Trap (gdb/stepper + viz) \u2014 draft",
+      "title": "Concept: Breakpoint Trap (gdb/stepper + viz) — draft",
       "state": "READY",
       "priority": "P2",
       "claimed_by": null,
@@ -3680,7 +3680,7 @@
     {
       "id": "KWH-MINI-LEAK",
       "project_id": "kludge-wagon-haywire",
-      "title": "Concept: Memory Leak Chase (heap block viz) \u2014 draft",
+      "title": "Concept: Memory Leak Chase (heap block viz) — draft",
       "state": "READY",
       "priority": "P2",
       "claimed_by": null,
@@ -3694,7 +3694,7 @@
     {
       "id": "KWH-MINI-RACE",
       "project_id": "kludge-wagon-haywire",
-      "title": "Concept: Race Condition puzzle (scheduler timeline viz) \u2014 draft",
+      "title": "Concept: Race Condition puzzle (scheduler timeline viz) — draft",
       "state": "READY",
       "priority": "P2",
       "claimed_by": null,
@@ -3708,7 +3708,7 @@
     {
       "id": "KWH-MINI-WIRE",
       "project_id": "kludge-wagon-haywire",
-      "title": "Concept: Wire-the-Car (CAN + scheduler deadline viz) \u2014 draft",
+      "title": "Concept: Wire-the-Car (CAN + scheduler deadline viz) — draft",
       "state": "READY",
       "priority": "P2",
       "claimed_by": null,
@@ -3722,7 +3722,7 @@
     {
       "id": "KWH-MINI-LOADBAL",
       "project_id": "kludge-wagon-haywire",
-      "title": "Concept: Load Balancer/queue design viz \u2014 draft",
+      "title": "Concept: Load Balancer/queue design viz — draft",
       "state": "READY",
       "priority": "P2",
       "claimed_by": null,
@@ -3736,7 +3736,7 @@
     {
       "id": "KWH-MINI-POINTER",
       "project_id": "kludge-wagon-haywire",
-      "title": "Concept: Pointer Maze (graph/memory viz) \u2014 draft",
+      "title": "Concept: Pointer Maze (graph/memory viz) — draft",
       "state": "READY",
       "priority": "P2",
       "claimed_by": null,
@@ -3750,7 +3750,7 @@
     {
       "id": "KWH-MINI-STACK",
       "project_id": "kludge-wagon-haywire",
-      "title": "Concept: Stack Overflow Tower (call-stack viz) \u2014 draft",
+      "title": "Concept: Stack Overflow Tower (call-stack viz) — draft",
       "state": "READY",
       "priority": "P2",
       "claimed_by": null,
@@ -3764,7 +3764,7 @@
     {
       "id": "KWH-MINI-BITFLIP",
       "project_id": "kludge-wagon-haywire",
-      "title": "Concept: Bit-flip Logic gates (signal viz) \u2014 draft",
+      "title": "Concept: Bit-flip Logic gates (signal viz) — draft",
       "state": "READY",
       "priority": "P2",
       "claimed_by": null,
@@ -3792,7 +3792,7 @@
     {
       "id": "KWH-MINI-TESTS",
       "project_id": "kludge-wagon-haywire",
-      "title": "Mini games/sims: tests for host API + telemetry\u2192viz + rewards",
+      "title": "Mini games/sims: tests for host API + telemetry→viz + rewards",
       "state": "READY",
       "priority": "P2",
       "claimed_by": null,
@@ -3838,7 +3838,7 @@
     {
       "id": "KWH-KERNEL-BOOT",
       "project_id": "kludge-wagon-haywire",
-      "title": "Kernel lesson: boot/entry (reset vector \u2192 early init) + tests",
+      "title": "Kernel lesson: boot/entry (reset vector → early init) + tests",
       "state": "CLAIMED",
       "priority": "P0",
       "claimed_by": "chatgpt-kwh-kernel-boot",
@@ -4258,7 +4258,7 @@
       "claimed_by": null,
       "claim_expires_at": null,
       "updated_at": "2026-10-14T03:26:04Z",
-      "next_action": "Same HUD/stack as Ep1 ASM; C\u2194asm map; scrub; common UI API both skins. READY.",
+      "next_action": "Same HUD/stack as Ep1 ASM; C↔asm map; scrub; common UI API both skins. READY.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/270"
@@ -4683,49 +4683,49 @@
       "type": "CLAIM",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-AND-UI-PEDALS",
-      "summary": "Registered+claimed KWH-AND-UI-PEDALS \u2192 #195."
+      "summary": "Registered+claimed KWH-AND-UI-PEDALS → #195."
     },
     {
       "at": "2026-10-14T02:18:32Z",
       "type": "TASK_REGISTERED",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-BLD-MATERIALS",
-      "summary": "KWH-AND-UI-STEER-GPS DONE; registered READY building variety ['KWH-BLD-MATERIALS', 'KWH-BLD-KIT', 'KWH-BLD-GEN', 'KWH-BLD-TYPES-RES', 'KWH-BLD-TYPES-COMM', 'KWH-BLD-DISTRICTS', 'KWH-BLD-LOD-PERF', 'KWH-BLD-TEST'] \u2192 #187\u2013#194. Unclaimed."
+      "summary": "KWH-AND-UI-STEER-GPS DONE; registered READY building variety ['KWH-BLD-MATERIALS', 'KWH-BLD-KIT', 'KWH-BLD-GEN', 'KWH-BLD-TYPES-RES', 'KWH-BLD-TYPES-COMM', 'KWH-BLD-DISTRICTS', 'KWH-BLD-LOD-PERF', 'KWH-BLD-TEST'] → #187–#194. Unclaimed."
     },
     {
       "at": "2026-10-14T02:14:18Z",
       "type": "CLAIM",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-AND-UI-STEER-GPS",
-      "summary": "Registered+claimed KWH-AND-UI-STEER-GPS \u2192 #186 (wheel/GPS overlap + real wheel look)."
+      "summary": "Registered+claimed KWH-AND-UI-STEER-GPS → #186 (wheel/GPS overlap + real wheel look)."
     },
     {
       "at": "2026-10-14T02:13:37Z",
       "type": "TASK_REGISTERED",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-DMG-TERRAIN",
-      "summary": "Updated KWH-DMG-MODEL AC; registered READY ['KWH-DMG-TERRAIN', 'KWH-WORLD-TRAILS', 'KWH-DMG-COLLISION', 'KWH-DMG-TRAILS-TEST'] \u2192 #182\u2013#185 (terrain wear, trails, collisions, tests). Unclaimed."
+      "summary": "Updated KWH-DMG-MODEL AC; registered READY ['KWH-DMG-TERRAIN', 'KWH-WORLD-TRAILS', 'KWH-DMG-COLLISION', 'KWH-DMG-TRAILS-TEST'] → #182–#185 (terrain wear, trails, collisions, tests). Unclaimed."
     },
     {
       "at": "2026-10-14T02:11:53Z",
       "type": "TASK_REGISTERED",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-DMG-MODEL",
-      "summary": "Registered READY unclaimed damage system tasks ['KWH-DMG-MODEL', 'KWH-DMG-FUZZ', 'KWH-DMG-TELEMETRY', 'KWH-DMG-SHOP', 'KWH-DMG-MANUAL', 'KWH-DMG-TEST'] \u2192 #176\u2013#181 (fuzz/hardening/mechanic; common UI API)."
+      "summary": "Registered READY unclaimed damage system tasks ['KWH-DMG-MODEL', 'KWH-DMG-FUZZ', 'KWH-DMG-TELEMETRY', 'KWH-DMG-SHOP', 'KWH-DMG-MANUAL', 'KWH-DMG-TEST'] → #176–#181 (fuzz/hardening/mechanic; common UI API)."
     },
     {
       "at": "2026-10-14T02:10:56Z",
       "type": "DONE",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-WORLD-VEG-VISIBLE",
-      "summary": "Veg visible + Android button/steer redesign DONE (#173\u2013#175); PR #164 updated; APK ~222MB."
+      "summary": "Veg visible + Android button/steer redesign DONE (#173–#175); PR #164 updated; APK ~222MB."
     },
     {
       "at": "2026-10-14T02:05:57Z",
       "type": "CLAIM",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-WORLD-VEG-VISIBLE",
-      "summary": "Registered+claimed ['KWH-WORLD-VEG-VISIBLE', 'KWH-AND-UI-BUTTONS', 'KWH-AND-UI-STEER'] \u2192 #173\u2013#175 (veg visible, button redesign, steering redesign)."
+      "summary": "Registered+claimed ['KWH-WORLD-VEG-VISIBLE', 'KWH-AND-UI-BUTTONS', 'KWH-AND-UI-STEER'] → #173–#175 (veg visible, button redesign, steering redesign)."
     },
     {
       "at": "2026-10-14T02:02:48Z",
@@ -4739,14 +4739,14 @@
       "type": "CLAIM",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-UI-CORE-API",
-      "summary": "Registered+claimed KWH-UI-CORE-API \u2192 #172. Android UI makeover depends on shared core+skins."
+      "summary": "Registered+claimed KWH-UI-CORE-API → #172. Android UI makeover depends on shared core+skins."
     },
     {
       "at": "2026-10-14T01:55:49Z",
       "type": "CLAIM",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-AND-UI-DESIGN",
-      "summary": "Registered+claimed Android UI makeover tasks ['KWH-AND-UI-DESIGN', 'KWH-AND-UI-NAV', 'KWH-AND-UI-DRIVE', 'KWH-AND-UI-KITTY-SPLASH', 'KWH-AND-UI-EDITOR', 'KWH-AND-UI-CLUES-SETTINGS', 'KWH-AND-UI-APK'] \u2192 #165\u2013#171 (120m)."
+      "summary": "Registered+claimed Android UI makeover tasks ['KWH-AND-UI-DESIGN', 'KWH-AND-UI-NAV', 'KWH-AND-UI-DRIVE', 'KWH-AND-UI-KITTY-SPLASH', 'KWH-AND-UI-EDITOR', 'KWH-AND-UI-CLUES-SETTINGS', 'KWH-AND-UI-APK'] → #165–#171 (120m)."
     },
     {
       "at": "2026-10-14T01:49:49Z",
@@ -4767,14 +4767,14 @@
       "type": "TASK_REGISTERED",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-CLUE-SCHEMA",
-      "summary": "Registered READY clue\u2192lesson unlock tasks ['KWH-CLUE-SCHEMA', 'KWH-CLUE-WORLD', 'KWH-CLUE-REVEAL', 'KWH-CLUE-GATE', 'KWH-CLUE-EP1', 'KWH-CLUE-TEST'] \u2192 #157\u2013#162. Open for any agent. Top box can store clues."
+      "summary": "Registered READY clue→lesson unlock tasks ['KWH-CLUE-SCHEMA', 'KWH-CLUE-WORLD', 'KWH-CLUE-REVEAL', 'KWH-CLUE-GATE', 'KWH-CLUE-EP1', 'KWH-CLUE-TEST'] → #157–#162. Open for any agent. Top box can store clues."
     },
     {
       "at": "2026-10-14T01:44:42Z",
       "type": "TASK_REGISTERED",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-TOPBOX-MODEL",
-      "summary": "Registered READY top-box tasks ['KWH-TOPBOX-MODEL', 'KWH-TOPBOX-ECU', 'KWH-TOPBOX-UI', 'KWH-TOPBOX-TEST'] \u2192 #153\u2013#156 (roof rack + locked cargo box ECU). Open for any agent."
+      "summary": "Registered READY top-box tasks ['KWH-TOPBOX-MODEL', 'KWH-TOPBOX-ECU', 'KWH-TOPBOX-UI', 'KWH-TOPBOX-TEST'] → #153–#156 (roof rack + locked cargo box ECU). Open for any agent."
     },
     {
       "at": "2026-10-14T01:40:26Z",
@@ -4788,14 +4788,14 @@
       "type": "TASK_REGISTERED",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-AND-EVAL",
-      "summary": "Registered 5 READY Android tasks (KWH-AND-EVAL, KWH-AND-SDK, KWH-AND-WEBVIEW, KWH-AND-TOUCH, KWH-AND-APK) \u2192 issues #148\u2013#152. Open for claim."
+      "summary": "Registered 5 READY Android tasks (KWH-AND-EVAL, KWH-AND-SDK, KWH-AND-WEBVIEW, KWH-AND-TOUCH, KWH-AND-APK) → issues #148–#152. Open for claim."
     },
     {
       "at": "2026-10-14T01:14:23Z",
       "type": "TASK_REGISTERED",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-KITTY-DESIGN",
-      "summary": "Registered 6 READY unclaimed Kitty help-system tasks (KWH-KITTY-*) linked to fly-by-wire-c issues #113\u2013#118. Open for any agent."
+      "summary": "Registered 6 READY unclaimed Kitty help-system tasks (KWH-KITTY-*) linked to fly-by-wire-c issues #113–#118. Open for any agent."
     },
     {
       "at": "2026-09-25T14:55:00-07:00",
