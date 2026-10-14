@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T02:48:55Z",
+    "generated_at": "2026-10-14T02:53:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts."
   },
@@ -820,12 +820,12 @@
       "id": "KWH-WORLD-PERF",
       "project_id": "kludge-wagon-haywire",
       "title": "World: performance pass (LOD, MultiMesh, culling, web FPS budget)",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
       "claimed_by": "chatgpt-kwh-world-performance",
       "claim_expires_at": "2026-10-15T01:31:00Z",
-      "updated_at": "2026-10-14T02:11:30Z",
-      "next_action": "In progress under the canonical KITT claim and execution lease; complete the bounded performance pass, preserve measured evidence, then update canonical task state before releasing the lease.",
+      "updated_at": "2026-10-14T02:53:00Z",
+      "next_action": "Blocked on an authorized Godot 4.3/private-source profiling surface. Existing canonical lease is retained only for the bounded retry through 2026-10-14T04:10:01Z; otherwise release it and remain BLOCKED.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/36",
@@ -4272,6 +4272,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-14T02:53:00Z",
+      "type": "BLOCKER_RECONCILIATION",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-WORLD-PERF",
+      "summary": "Normalized world-performance state to BLOCKED while preserving the current owner and existing lease as an explicit bounded retry through its current expiry."
+    },
     {
       "at": "2026-10-14T02:52:30Z",
       "type": "CLAIM_SYNC",
