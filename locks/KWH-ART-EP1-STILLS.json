@@ -1,0 +1,9 @@
+{
+  "task_id": "KWH-ART-EP1-STILLS",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "Grok Bot",
+  "lock_token": "grokbot-kwh-art-ep1-stills",
+  "created_at": "2026-10-14T13:20:00Z",
+  "expires_at": "2026-10-16T13:20:00Z",
+  "run_ref": "feature/ep1-stills-boss"
+}
