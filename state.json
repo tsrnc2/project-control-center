@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T03:28:00Z",
+    "generated_at": "2026-10-14T03:28:30Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-14T03:01:35Z"
@@ -3980,13 +3980,13 @@
     {
       "id": "KWH-KERNEL-GRADE",
       "project_id": "kludge-wagon-haywire",
-      "title": "Kernel: grading harness for lessons + final boot",
-      "state": "CLAIMED",
-      "priority": "P1",
-      "claimed_by": "chatgpt-kwh-kernel-grade",
-      "claim_expires_at": "2026-10-15T03:01:20Z",
-      "updated_at": "2026-10-14T03:01:20Z",
-      "next_action": "Assigned to chatgpt-kwh-kernel-grade. Acquire a canonical execution lease before mutation; build the deterministic grading scaffold before or alongside first HAL/BOOT implementation.",
+      "title": "Kernel grading harness for component lessons + final boot",
+      "state": "DONE",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T03:28:00Z",
+      "next_action": "Merged to main as db1dd7adb594386a9dc31f9530b3cf287a2246de after exact-head focused execution and correlated technical review. Component tasks should now add their own frozen fixtures/checks to the common grading envelope.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/239",
@@ -4304,6 +4304,20 @@
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/273"
+    },
+    {
+      "id": "KWH-KERNEL-GRADE-REVIEW",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Review deterministic kernel grading scaffold PR #274",
+      "state": "DONE",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T03:27:00Z",
+      "next_action": "PASS correlated technical review on exact head 07d0232e97c0bc8543624c840c43bd915cdebf9a; scaffold subsequently merged as db1dd7adb594386a9dc31f9530b3cf287a2246de.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/274"
     }
   ],
   "blockers": [
@@ -4517,6 +4531,16 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-14T03:28:30Z",
+      "type": "TASK_MERGED",
+      "project_id": "kludge-wagon-haywire",
+      "task_ids": [
+        "KWH-KERNEL-GRADE",
+        "KWH-KERNEL-GRADE-REVIEW"
+      ],
+      "summary": "Deterministic kernel grading scaffold passed focused execution and correlated exact-head review, merged via PR #274 as db1dd7adb594386a9dc31f9530b3cf287a2246de, and issue #239 closed."
+    },
     {
       "at": "2026-10-14T03:16:30Z",
       "type": "VALIDATION_HANDOFF_SYNC",
