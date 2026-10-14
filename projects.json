@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-11T15:35:00-07:00",
+  "updated_at": "2026-10-13T19:24:00-07:00",
   "projects": [
     {
       "id": "kitt",
@@ -153,9 +153,25 @@
     },
     {
       "id": "kludge-wagon-haywire",
-      "name": "Kludge Wagon Haywire",
+      "name": "Fly By Wire C / Kludge Wagon Haywire",
       "lifecycle": "ACTIVE",
-      "class": "PRIMARY"
+      "class": "PRIMARY",
+      "summary": "Browser C-learning game: rewrite the haywire fly-by-wire systems of the Kludge Wagon SR-404 in real C.",
+      "repo": "https://github.com/tsrnc2/fly-by-wire-c",
+      "repo_visibility": "private",
+      "owner_agent": "Portfolio Delegation Manager",
+      "human_owner": "Jobo",
+      "drive": "https://drive.google.com/drive/folders/1JwrX38rNs-ddAIAH9HlQVFlJvOylVHPX",
+      "reports_path": "Kludge Wagon Haywire/reports/<agent name>/",
+      "aliases": [
+        "Fly By Wire C",
+        "Fly-by-Wire C",
+        "fly-by-wire-c",
+        "Kludge Wagon Haywire",
+        "KWH"
+      ],
+      "portfolio_priority": "P0",
+      "portfolio_priority_rank": 1
     }
   ]
 }
