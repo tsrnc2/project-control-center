@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T02:36:00Z",
+    "generated_at": "2026-10-14T02:32:40Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts."
   },
@@ -2750,15 +2750,17 @@
       "id": "KWH-MKT-LEGAL-CHECK",
       "project_id": "kludge-wagon-haywire",
       "title": "Legal check: no Toyota / Knight Rider references in marketing",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P1",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T01:15:54Z",
-      "next_action": "Marketing. Acceptance: Audit all marketing assets + game text; report findings. Unclaimed.",
+      "claimed_by": "chatgpt-kwh-legal-audit",
+      "claim_expires_at": "2026-10-15T02:34:00Z",
+      "updated_at": "2026-10-14T02:34:00Z",
+      "next_action": "In progress by chatgpt-kwh-legal-audit; canonical KITT task/lease govern execution.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/146"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/146",
+      "claimed_at": "2026-10-14T02:34:00Z",
+      "claim_heartbeat_at": "2026-10-14T02:34:00Z"
     },
     {
       "id": "KWH-AND-EVAL",
@@ -2890,15 +2892,17 @@
       "id": "KWH-CLUE-SCHEMA",
       "project_id": "kludge-wagon-haywire",
       "title": "Clue→lesson: schema tying world clues to real ECU bugs",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P1",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T01:48:50Z",
-      "next_action": "Schema includes bug line targets + super:true; revealed-line tracking. AC updated on #157. READY.",
+      "claimed_by": "chatgpt-kwh-clue-schema",
+      "claim_expires_at": "2026-10-15T02:24:00Z",
+      "updated_at": "2026-10-14T02:25:00Z",
+      "next_action": "In progress by chatgpt-kwh-clue-schema; canonical KITT task/lease govern execution.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/157"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/157",
+      "claimed_at": "2026-10-14T02:24:00Z",
+      "claim_heartbeat_at": "2026-10-14T02:25:00Z"
     },
     {
       "id": "KWH-CLUE-WORLD",
@@ -3618,6 +3622,17 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-14T02:32:40Z",
+      "type": "CONTROL_PLANE_SYNC",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-CLUE-SCHEMA",
+      "task_ids": [
+        "KWH-CLUE-SCHEMA",
+        "KWH-MKT-LEGAL-CHECK"
+      ],
+      "summary": "Mirrored canonical KITT execution state for KWH-CLUE-SCHEMA, KWH-MKT-LEGAL-CHECK; no new ownership authority created by this dashboard sync."
+    },
     {
       "at": "2026-10-14T02:30:24Z",
       "type": "DONE",
