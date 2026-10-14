@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T03:01:56Z",
+    "generated_at": "2026-10-14T03:02:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-14T03:01:35Z"
@@ -3817,12 +3817,12 @@
       "id": "KWH-KERNEL-HAL",
       "project_id": "kludge-wagon-haywire",
       "title": "Kernel: hardware abstraction spec (ECU bridge for drivers)",
-      "state": "CLAIMED",
+      "state": "RUNNING",
       "priority": "P1",
       "claimed_by": "chatgpt-kwh-kernel-hal",
       "claim_expires_at": "2026-10-15T02:59:41.387Z",
-      "updated_at": "2026-10-14T02:59:41.387Z",
-      "next_action": "Assigned to chatgpt-kwh-kernel-hal; acquire the canonical KITT execution lease before spec mutation.",
+      "updated_at": "2026-10-14T03:00:11.217Z",
+      "next_action": "In progress under canonical KITT ownership. Freeze the deterministic ECU bridge contract and include single-owner actuator arbitration plus existing clamp/watchdog/limp-mode safety preservation from the roadmap review.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/228",
@@ -3833,15 +3833,17 @@
       "id": "KWH-KERNEL-BOOT",
       "project_id": "kludge-wagon-haywire",
       "title": "Kernel lesson: boot/entry + tests",
-      "state": "READY",
+      "state": "CLAIMED",
       "priority": "P1",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T02:48:55Z",
-      "next_action": "Real C boot lesson + boot sim viz. READY.",
+      "claimed_by": "chatgpt-kwh-kernel-boot",
+      "claim_expires_at": "2026-10-15T03:01:15Z",
+      "updated_at": "2026-10-14T03:01:15Z",
+      "next_action": "Assigned to chatgpt-kwh-kernel-boot. Acquire a canonical execution lease before mutation; first gate is proving a custom teaching-kernel artifact can load and reach player C under the current i386 v86 path.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/229"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/229",
+      "claimed_at": "2026-10-14T03:01:15Z",
+      "claim_heartbeat_at": "2026-10-14T03:01:15Z"
     },
     {
       "id": "KWH-KERNEL-IRQ",
@@ -3973,15 +3975,17 @@
       "id": "KWH-KERNEL-GRADE",
       "project_id": "kludge-wagon-haywire",
       "title": "Kernel: grading harness for lessons + final boot",
-      "state": "READY",
+      "state": "CLAIMED",
       "priority": "P1",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T02:48:55Z",
-      "next_action": "Automated deterministic grading. READY.",
+      "claimed_by": "chatgpt-kwh-kernel-grade",
+      "claim_expires_at": "2026-10-15T03:01:20Z",
+      "updated_at": "2026-10-14T03:01:20Z",
+      "next_action": "Assigned to chatgpt-kwh-kernel-grade. Acquire a canonical execution lease before mutation; build the deterministic grading scaffold before or alongside first HAL/BOOT implementation.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/239"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/239",
+      "claimed_at": "2026-10-14T03:01:20Z",
+      "claim_heartbeat_at": "2026-10-14T03:01:20Z"
     },
     {
       "id": "KWH-STORY-KITTY-ARC",
@@ -4080,6 +4084,20 @@
       "owner_agent": "chatgpt-kwh-gpl-review-pr199",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/246"
+    },
+    {
+      "id": "KWH-KERNEL-ROADMAP-REVIEW",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Review kernel curriculum roadmap PR #248",
+      "state": "DONE",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T03:01:00Z",
+      "next_action": "PASS on exact PR #248 head 1198bb8fc7275b8a091d3620d17323b4a9d7628d. HAL/BOOT/GRADE may begin with the recorded arbitration, custom-boot, and deterministic-grading guardrails.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/248"
     }
   ],
   "blockers": [
@@ -4293,6 +4311,18 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-14T03:02:00Z",
+      "type": "KERNEL_TRANCHE_SYNC",
+      "project_id": "kludge-wagon-haywire",
+      "task_ids": [
+        "KWH-KERNEL-ROADMAP-REVIEW",
+        "KWH-KERNEL-HAL",
+        "KWH-KERNEL-BOOT",
+        "KWH-KERNEL-GRADE"
+      ],
+      "summary": "Kernel roadmap exact-head review passed with guardrails; HAL is RUNNING, while BOOT and deterministic GRADE scaffold are durably CLAIMED and require their own leases before mutation."
+    },
     {
       "at": "2026-10-14T03:01:56Z",
       "type": "CLAIM_SYNC",
