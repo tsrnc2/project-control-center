@@ -8,7 +8,7 @@
     "generated_at": "2026-10-14T12:00:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
-    "updated_at": "2026-10-14T12:03:27.105Z"
+    "updated_at": "2026-10-14T12:06:04.031Z"
   },
   "projects": [
     {
@@ -666,8 +666,8 @@
       "priority": "P1",
       "claimed_by": "chatgpt-kwh-browser-toolchain",
       "claim_expires_at": "2026-10-15T01:31:00Z",
-      "updated_at": "2026-10-14T03:24:00Z",
-      "next_action": "PR #254 repaired the diagnostic-normalization defect at head ddfca9da61d9eb5331d15017bdbf7ad01c8450d2; distinct source-level re-review resolved that finding. The head is stale versus current main. Rebuild/rebase only the five-file compiler delta on current main, then run the real shipped-Clang/WASM fixtures + ECU regression on the exact rebased head and obtain a fresh distinct final review before merge.",
+      "updated_at": "2026-10-14T03:11:00Z",
+      "next_action": "PR #254 head ddfca9da61d9eb5331d15017bdbf7ad01c8450d2 was merged as 989cfd5d5ca20a072a02d88081424681401c91c3. Compiler source is on main; separate tester is BLOCKED on absent real shipped-Clang8/WASM assets and full ECU harness. Do not rebase an already merged PR or claim runtime/release acceptance.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/20",
@@ -827,8 +827,8 @@
       "priority": "P2",
       "claimed_by": "chatgpt-kwh-world-performance",
       "claim_expires_at": "2026-10-15T01:31:00Z",
-      "updated_at": "2026-10-14T02:53:00Z",
-      "next_action": "Blocked on an authorized Godot 4.3/private-source profiling surface. Existing canonical lease is retained only for the bounded retry through 2026-10-14T04:10:01Z; otherwise release it and remain BLOCKED.",
+      "updated_at": "2026-10-14T11:59:38.141Z",
+      "next_action": "BLOCKED — its 04:10:01Z expired execution lease was SHA-released at 11:59:53Z; bounded retry ended. Retain Godot 4.3/private-source and source-write blocker with no 720p llvmpipe FPS/draw-call acceptance. Do not re-run unchanged.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/36",
@@ -3837,20 +3837,36 @@
       "claim_heartbeat_at": null
     },
     {
+      "id": "KWH-KERNEL-LOADER",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Kernel boot prerequisite: custom i386 Multiboot loader mode in Workbench",
+      "priority": "P0",
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/275",
+      "owner_agent": null,
+      "state": "CLAIMED",
+      "claimed_by": "chatgpt-kwh-kernel-loader",
+      "claim_expires_at": "2026-10-15T03:30:00Z",
+      "claimed_at": "2026-10-14T03:30:00Z",
+      "claim_heartbeat_at": "2026-10-14T03:31:00Z",
+      "updated_at": "2026-10-14T12:01:03.694Z",
+      "next_action": "Source candidate PR #278 merged to main as 6d5fd12f6d1c2650ed20b09cccbc250cf3c2d9df. Expired 05:31Z execution lease released; durable author claim preserved. Before DONE, run and record actual v86 ELF32 Multiboot serial boot/ready smoke and regression output under a new valid execution lease."
+    },
+    {
       "id": "KWH-KERNEL-BOOT",
       "project_id": "kludge-wagon-haywire",
       "title": "Kernel lesson: boot/entry (reset vector → early init) + tests",
-      "state": "CLAIMED",
+      "state": "BLOCKED",
       "priority": "P0",
       "claimed_by": "chatgpt-kwh-kernel-boot",
       "claim_expires_at": "2026-10-15T03:01:15Z",
-      "updated_at": "2026-10-14T03:01:15Z",
-      "next_action": "Owned by chatgpt-kwh-kernel-boot; worker must acquire/read back its canonical execution lease before source mutation.",
+      "updated_at": "2026-10-14T03:30:00Z",
+      "next_action": "BLOCKED on KWH-KERNEL-LOADER runtime qualification despite PR #278 source merge. Retain existing boot owner/blocker. Loader/BOOT must prove real serial-derived v86 boot, not static tests or source presence, before dependent execution.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/229",
       "claimed_at": "2026-10-14T03:01:15Z",
-      "claim_heartbeat_at": "2026-10-14T03:01:15Z"
+      "claim_heartbeat_at": "2026-10-14T03:29:00Z"
     },
     {
       "id": "KWH-KERNEL-IRQ",
@@ -4755,11 +4771,13 @@
       "claimed_by": "chatgpt-kwh-browser-toolchain-tester",
       "claim_expires_at": "2026-10-15T03:11:00Z",
       "updated_at": "2026-10-14T12:01:13.603Z",
-      "owner_agent": "chatgpt-kwh-browser-toolchain-tester",
+      "owner_agent": null,
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/20",
       "canonical_task_blob": "026c8cce02f2b6ad78b41a86a7b0d99d08b33299",
       "candidate_revision": "ddfca9da61d9eb5331d15017bdbf7ad01c8450d2",
-      "next_action": "Authorized shared-box tester must execute exact repaired PR #254 head using shipped browser clang 8 and full ECU regression suite; preserve exact command/output evidence. Merged PR is not test or release acceptance."
+      "next_action": "BLOCKED after same-owner old-head 91e117ce lease expiry and fresh repaired-head ddfca9da lease/testing attempt. Real shipped wasm Clang8 fixtures and ECU_ONLY regression were not run on this execution surface; native Clang17/GCC14.2 are correlated diagnostics only. Authorized exact-head compiler execution surface required.",
+      "claimed_at": "2026-10-14T03:11:00Z",
+      "claim_heartbeat_at": "2026-10-14T03:11:00Z"
     }
   ],
   "blockers": [
