@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T01:40:26Z",
+    "generated_at": "2026-10-14T01:44:42Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts."
   },
@@ -2809,6 +2809,62 @@
       "owner_agent": "GrokBot",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/152"
+    },
+    {
+      "id": "KWH-TOPBOX-MODEL",
+      "project_id": "kludge-wagon-haywire",
+      "title": "SR-404 roof rack bars + cargo top box mesh (build_kludge.py)",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T01:44:42Z",
+      "next_action": "Model rack+box cream/teal; closed/open states. READY for any agent.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/153"
+    },
+    {
+      "id": "KWH-TOPBOX-ECU",
+      "project_id": "kludge-wagon-haywire",
+      "title": "SR-404 topbox_lock ECU buggy C + systems_map lesson",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T01:44:42Z",
+      "next_action": "Add topbox_lock ECU, buggy shipped C, fixed ref, systems_map row, ecu_test. READY.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/154"
+    },
+    {
+      "id": "KWH-TOPBOX-UI",
+      "project_id": "kludge-wagon-haywire",
+      "title": "SR-404 top box status/manual + open animation + clue slot",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T01:44:42Z",
+      "next_action": "Status+manual entry, open anim when unlocked, hold items/clues. READY.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/155"
+    },
+    {
+      "id": "KWH-TOPBOX-TEST",
+      "project_id": "kludge-wagon-haywire",
+      "title": "SR-404 topbox_lock automated tests",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T01:44:42Z",
+      "next_action": "ECU + e2e/status hooks for lock\u2192unlock. READY.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/156"
     }
   ],
   "blockers": [
@@ -3022,6 +3078,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-14T01:44:42Z",
+      "type": "TASK_REGISTERED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-TOPBOX-MODEL",
+      "summary": "Registered READY top-box tasks ['KWH-TOPBOX-MODEL', 'KWH-TOPBOX-ECU', 'KWH-TOPBOX-UI', 'KWH-TOPBOX-TEST'] \u2192 #153\u2013#156 (roof rack + locked cargo box ECU). Open for any agent."
+    },
     {
       "at": "2026-10-14T01:40:26Z",
       "type": "CLAIM",
