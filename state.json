@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T02:58:42Z",
+    "generated_at": "2026-10-14T03:00:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts."
   },
@@ -2982,17 +2982,15 @@
       "id": "KWH-CLUE-BUGLINES",
       "project_id": "kludge-wagon-haywire",
       "title": "Clue→lesson: IDE gutter bug-line reveals + super-clue spend UI",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P1",
-      "claimed_by": "chatgpt-kwh-clue-buglines",
-      "claim_expires_at": "2026-10-15T02:36:00Z",
-      "updated_at": "2026-10-14T02:36:00Z",
-      "next_action": "In progress under the canonical KITT task and lease; implement bug-line reveal/gutter/super-clue file-picker behavior against the merged clue schema.",
-      "owner_agent": null,
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T02:58:37Z",
+      "next_action": "Done: bug-line reveal engine + dashboard gutter/super-clue picker merged in fly-by-wire-c PR #247 as 72b27fc726a2851a211f930d75e9c6be1c80987e; issue #163 closed.",
+      "owner_agent": "chatgpt-kwh-clue-buglines",
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/163",
-      "claimed_at": "2026-10-14T02:36:00Z",
-      "claim_heartbeat_at": "2026-10-14T02:36:00Z"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/163"
     },
     {
       "id": "KWH-AND-UI-DESIGN",
@@ -4292,6 +4290,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-14T02:58:37Z",
+      "type": "DONE",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-CLUE-BUGLINES",
+      "summary": "KWH-CLUE-BUGLINES completed: reveal engine + dashboard gutter/super-clue picker merged via fly-by-wire-c PR #247 (72b27fc7); issue #163 closed; canonical KITT lease released."
+    },
     {
       "at": "2026-10-14T02:58:42Z",
       "type": "CLAIM",
