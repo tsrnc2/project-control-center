@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T02:11:53Z",
+    "generated_at": "2026-10-14T02:13:37Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts."
   },
@@ -3126,8 +3126,8 @@
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T02:11:53Z",
-      "next_action": "Design+implement wear model; persist; UI API state. READY for any agent.",
+      "updated_at": "2026-10-14T02:13:37Z",
+      "next_action": "AC updated (#176): terrain wear + massive collisions. See KWH-DMG-TERRAIN/COLLISION. READY.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/176"
@@ -3201,6 +3201,62 @@
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/181"
+    },
+    {
+      "id": "KWH-DMG-TERRAIN",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Damage: terrain surface wear (paved / trail / off-road + speed)",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T02:13:37Z",
+      "next_action": "Per-surface wear rates; suspension/steer/tires; speed multiplier. READY.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/182"
+    },
+    {
+      "id": "KWH-WORLD-TRAILS",
+      "project_id": "kludge-wagon-haywire",
+      "title": "World: on-road + off-road trail network with surface tags",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T02:13:37Z",
+      "next_action": "Author trails, signage, tempting off-road shortcuts; surface sampling. READY.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/183"
+    },
+    {
+      "id": "KWH-DMG-COLLISION",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Damage: collision massive impact damage + Kitty/robot voice",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T02:13:37Z",
+      "next_action": "Impact-speed damage; instant BREAK; voice reactions. READY.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/184"
+    },
+    {
+      "id": "KWH-DMG-TRAILS-TEST",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Damage: terrain + collision + wear automated tests",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T02:13:37Z",
+      "next_action": "Rate ordering, speed mult, collision break tests. READY.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/185"
     }
   ],
   "blockers": [
@@ -3414,6 +3470,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-14T02:13:37Z",
+      "type": "TASK_REGISTERED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-DMG-TERRAIN",
+      "summary": "Updated KWH-DMG-MODEL AC; registered READY ['KWH-DMG-TERRAIN', 'KWH-WORLD-TRAILS', 'KWH-DMG-COLLISION', 'KWH-DMG-TRAILS-TEST'] \u2192 #182\u2013#185 (terrain wear, trails, collisions, tests). Unclaimed."
+    },
     {
       "at": "2026-10-14T02:11:53Z",
       "type": "TASK_REGISTERED",
@@ -3897,12 +3960,6 @@
         "KWH-MKT-LAUNCH-CHECKLIST",
         "KWH-MKT-LEGAL-CHECK"
       ]
-    },
-    {
-      "at": "2026-10-14T01:27:30Z",
-      "type": "MASTER_PROJECT_ALIGNMENT",
-      "project_id": "kludge-wagon-haywire",
-      "summary": "Aligned Drive MASTER PROJECT DIRECTORY rev76, KITT projects mirror, Drive report root, aliases, GitHub repository, and owner-designated P0 rank-1 execution priority. T7 remains the highest enabling dependency at execution rank 2."
     }
   ]
 }
