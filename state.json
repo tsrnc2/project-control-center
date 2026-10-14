@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T03:18:00Z",
+    "generated_at": "2026-10-14T03:17:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-14T03:01:35Z"
@@ -2373,45 +2373,47 @@
       "id": "KWH-MKT-STORE-SHORT-DESC",
       "project_id": "kludge-wagon-haywire",
       "title": "Steam store: short description (<=300 chars)",
-      "state": "CLAIMED",
+      "state": "DONE",
       "priority": "P1",
-      "claimed_by": "chatgpt-kwh-marketing-copy",
-      "claim_expires_at": "2026-10-15T01:31:00Z",
-      "updated_at": "2026-10-14T01:31:00Z",
-      "next_action": "Assigned to chatgpt-kwh-marketing-copy; acquire an execution lock only when the worker starts.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T03:13:00Z",
+      "next_action": "DONE: three <=300-character draft options published in draft PR #260; human approval required before store publication.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/119",
       "claimed_at": "2026-10-14T01:31:00Z",
-      "claim_heartbeat_at": "2026-10-14T01:31:00Z"
+      "claim_heartbeat_at": null
     },
     {
       "id": "KWH-MKT-STORE-LONG-DESC",
       "project_id": "kludge-wagon-haywire",
       "title": "Steam store: long 'About this game' description",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T01:15:54Z",
-      "next_action": "Marketing. Acceptance: Long description w/ feature bullets + BBCode-ready text in docs/marketing/store-page.md. Unclaimed.",
+      "updated_at": "2026-10-14T03:14:00Z",
+      "next_action": "DONE: long-form + BBCode-ready store copy published in stacked draft PR #262; human approval required before publication.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/120"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/120",
+      "claim_heartbeat_at": null
     },
     {
       "id": "KWH-MKT-STORE-TAGS",
       "project_id": "kludge-wagon-haywire",
       "title": "Steam store: tags + genre/category selection",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P2",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T01:15:54Z",
-      "next_action": "Marketing. Acceptance: Ranked list of 20 tags with rationale (Education, Programming, Driving, Mystery...). Unclaimed.",
+      "updated_at": "2026-10-14T03:16:00Z",
+      "next_action": "DONE: ranked 20-tag/category draft published in stacked draft PR #264; final tags/categories require release-build/human review.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/121"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/121",
+      "claim_heartbeat_at": null
     },
     {
       "id": "KWH-MKT-SYSREQS",
@@ -4819,6 +4821,17 @@
       "type": "KWH_STATUS_RECONCILIATION",
       "project_id": "kludge-wagon-haywire",
       "summary": "Mirrored completed Android WebView hardening/test tasks and repaired PR #254 browser-compiler candidate. Real shipped-Clang execution remains the browser candidate gate; Android APK/runtime qualification remains separate."
+    },
+    {
+      "at": "2026-10-14T03:17:00Z",
+      "type": "KWH_MARKETING_TRANCHE_COMPLETE",
+      "project_id": "kludge-wagon-haywire",
+      "task_ids": [
+        "KWH-MKT-STORE-SHORT-DESC",
+        "KWH-MKT-STORE-LONG-DESC",
+        "KWH-MKT-STORE-TAGS"
+      ],
+      "summary": "Mirrored completion of short store copy, long/BBCode store copy, and ranked tag/category drafts. Draft PRs #260/#262/#264 remain unmerged and unpublished."
     }
   ]
 }
