@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T02:02:48Z",
+    "generated_at": "2026-10-14T02:05:57Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts."
   },
@@ -3075,6 +3075,48 @@
       "owner_agent": "GrokBot",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/171"
+    },
+    {
+      "id": "KWH-WORLD-VEG-VISIBLE",
+      "project_id": "kludge-wagon-haywire",
+      "title": "World: visible trees/plants in driving view (MultiMesh, gfx density)",
+      "state": "CLAIMED",
+      "priority": "P1",
+      "claimed_by": "GrokBot",
+      "claim_expires_at": "2026-10-14T04:05:57Z",
+      "updated_at": "2026-10-14T02:05:57Z",
+      "next_action": "Claimed by GrokBot; implementing.",
+      "owner_agent": "GrokBot",
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/173"
+    },
+    {
+      "id": "KWH-AND-UI-BUTTONS",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Android UI: redesign buttons (chunky 80s-dash tactile)",
+      "state": "CLAIMED",
+      "priority": "P1",
+      "claimed_by": "GrokBot",
+      "claim_expires_at": "2026-10-14T04:05:57Z",
+      "updated_at": "2026-10-14T02:05:57Z",
+      "next_action": "Claimed by GrokBot; implementing.",
+      "owner_agent": "GrokBot",
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/174"
+    },
+    {
+      "id": "KWH-AND-UI-STEER",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Android UI: redesign steering (wheel/tilt/zones + analog pedals)",
+      "state": "CLAIMED",
+      "priority": "P1",
+      "claimed_by": "GrokBot",
+      "claim_expires_at": "2026-10-14T04:05:57Z",
+      "updated_at": "2026-10-14T02:05:57Z",
+      "next_action": "Claimed by GrokBot; implementing.",
+      "owner_agent": "GrokBot",
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/175"
     }
   ],
   "blockers": [
@@ -3288,6 +3330,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-14T02:05:57Z",
+      "type": "CLAIM",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-WORLD-VEG-VISIBLE",
+      "summary": "Registered+claimed ['KWH-WORLD-VEG-VISIBLE', 'KWH-AND-UI-BUTTONS', 'KWH-AND-UI-STEER'] \u2192 #173\u2013#175 (veg visible, button redesign, steering redesign)."
+    },
     {
       "at": "2026-10-14T02:02:48Z",
       "type": "DONE",
