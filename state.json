@@ -8,7 +8,7 @@
     "generated_at": "2026-10-14T12:00:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
-    "updated_at": "2026-10-14T12:01:32Z"
+    "updated_at": "2026-10-14T12:03:27.105Z"
   },
   "projects": [
     {
@@ -4745,6 +4745,21 @@
       "owner_agent": "Grok Bot",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/313"
+    },
+    {
+      "id": "KWH-BROWSER-CLANG-GCC14-TEST",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Execute shipped clang 8 GCC14-compatibility fixtures on PR #254",
+      "state": "BLOCKED",
+      "priority": "P1",
+      "claimed_by": "chatgpt-kwh-browser-toolchain-tester",
+      "claim_expires_at": "2026-10-15T03:11:00Z",
+      "updated_at": "2026-10-14T12:01:13.603Z",
+      "owner_agent": "chatgpt-kwh-browser-toolchain-tester",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/20",
+      "canonical_task_blob": "026c8cce02f2b6ad78b41a86a7b0d99d08b33299",
+      "candidate_revision": "ddfca9da61d9eb5331d15017bdbf7ad01c8450d2",
+      "next_action": "Authorized shared-box tester must execute exact repaired PR #254 head using shipped browser clang 8 and full ECU regression suite; preserve exact command/output evidence. Merged PR is not test or release acceptance."
     }
   ],
   "blockers": [
@@ -4955,6 +4970,19 @@
       "updated_at": "2026-10-11T17:49:41.981Z",
       "category": "REVIEW_COMPLETE_REMAINING_ACCEPTANCE_OR_EXECUTION_GATES",
       "review_ref": "https://github.com/tsrnc2/llm_reasoning_project/pull/262"
+    },
+    {
+      "id": "KWH-BROWSER-CLANG-GCC14-TEST",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-BROWSER-CLANG-GCC14-TEST",
+      "state": "OPEN",
+      "severity": "HIGH",
+      "category": "EXACT_HEAD_EXECUTION_SURFACE_UNAVAILABLE",
+      "summary": "Shipped browser-clang8 compiler/ECU test execution is not available on this runner. Native compiler checks do not substitute.",
+      "required_next_action": "Run node tests/ecu_test.js on exact frozen repaired head ddfca9da61d9eb5331d15017bdbf7ad01c8450d2 with the shipped compiler assets; publish full evidence and distinct acceptance.",
+      "issue_url": "https://github.com/tsrnc2/fly-by-wire-c/issues/20",
+      "canonical_blocker_blob": "76b7160de3fa6ca9c87d5ca71b6b8b616aaee938",
+      "updated_at": "2026-10-14T12:01:10.975Z"
     }
   ],
   "activity": [
