@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T01:49:49Z",
+    "generated_at": "2026-10-14T01:55:49Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts."
   },
@@ -2963,6 +2963,104 @@
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/163"
+    },
+    {
+      "id": "KWH-AND-UI-DESIGN",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Android UI: Material3\u00d7amber Kludge design tokens + safe-area",
+      "state": "CLAIMED",
+      "priority": "P1",
+      "claimed_by": "GrokBot",
+      "claim_expires_at": "2026-10-14T03:55:49Z",
+      "updated_at": "2026-10-14T01:55:49Z",
+      "next_action": "Claimed by GrokBot; building mobile UI makeover.",
+      "owner_agent": "GrokBot",
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/165"
+    },
+    {
+      "id": "KWH-AND-UI-NAV",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Android UI: bottom nav Drive/Workbench/Status/Manual/Clues",
+      "state": "CLAIMED",
+      "priority": "P1",
+      "claimed_by": "GrokBot",
+      "claim_expires_at": "2026-10-14T03:55:49Z",
+      "updated_at": "2026-10-14T01:55:49Z",
+      "next_action": "Claimed by GrokBot; building mobile UI makeover.",
+      "owner_agent": "GrokBot",
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/166"
+    },
+    {
+      "id": "KWH-AND-UI-DRIVE",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Android UI: landscape HUD, thumb controls, haptics, GPS",
+      "state": "CLAIMED",
+      "priority": "P1",
+      "claimed_by": "GrokBot",
+      "claim_expires_at": "2026-10-14T03:55:49Z",
+      "updated_at": "2026-10-14T01:55:49Z",
+      "next_action": "Claimed by GrokBot; building mobile UI makeover.",
+      "owner_agent": "GrokBot",
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/167"
+    },
+    {
+      "id": "KWH-AND-UI-KITTY-SPLASH",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Android UI: Kitty bubble+amber scanner; splash+K adaptive icon",
+      "state": "CLAIMED",
+      "priority": "P1",
+      "claimed_by": "GrokBot",
+      "claim_expires_at": "2026-10-14T03:55:49Z",
+      "updated_at": "2026-10-14T01:55:49Z",
+      "next_action": "Claimed by GrokBot; building mobile UI makeover.",
+      "owner_agent": "GrokBot",
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/168"
+    },
+    {
+      "id": "KWH-AND-UI-EDITOR",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Android UI: mobile editor toolbar, pinch zoom, output sheet",
+      "state": "CLAIMED",
+      "priority": "P1",
+      "claimed_by": "GrokBot",
+      "claim_expires_at": "2026-10-14T03:55:49Z",
+      "updated_at": "2026-10-14T01:55:49Z",
+      "next_action": "Claimed by GrokBot; building mobile UI makeover.",
+      "owner_agent": "GrokBot",
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/169"
+    },
+    {
+      "id": "KWH-AND-UI-CLUES-SETTINGS",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Android UI: clue/super-clue sheets + graphics settings",
+      "state": "CLAIMED",
+      "priority": "P1",
+      "claimed_by": "GrokBot",
+      "claim_expires_at": "2026-10-14T03:55:49Z",
+      "updated_at": "2026-10-14T01:55:49Z",
+      "next_action": "Claimed by GrokBot; building mobile UI makeover.",
+      "owner_agent": "GrokBot",
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/170"
+    },
+    {
+      "id": "KWH-AND-UI-APK",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Android UI: rebuild APK + 412\u00d7915 / 915\u00d7412 screenshots",
+      "state": "CLAIMED",
+      "priority": "P1",
+      "claimed_by": "GrokBot",
+      "claim_expires_at": "2026-10-14T03:55:49Z",
+      "updated_at": "2026-10-14T01:55:49Z",
+      "next_action": "Claimed by GrokBot; building mobile UI makeover.",
+      "owner_agent": "GrokBot",
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/171"
     }
   ],
   "blockers": [
@@ -3176,6 +3274,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-14T01:55:49Z",
+      "type": "CLAIM",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-AND-UI-DESIGN",
+      "summary": "Registered+claimed Android UI makeover tasks ['KWH-AND-UI-DESIGN', 'KWH-AND-UI-NAV', 'KWH-AND-UI-DRIVE', 'KWH-AND-UI-KITTY-SPLASH', 'KWH-AND-UI-EDITOR', 'KWH-AND-UI-CLUES-SETTINGS', 'KWH-AND-UI-APK'] \u2192 #165\u2013#171 (120m)."
+    },
     {
       "at": "2026-10-14T01:49:49Z",
       "type": "DONE",
