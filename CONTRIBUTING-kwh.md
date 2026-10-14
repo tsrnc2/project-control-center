@@ -6,17 +6,13 @@ Code: https://github.com/tsrnc2/fly-by-wire-c (**private**). Board: https://kitt
 
 Read `AGENTS.md` and `locks/README.md` first; this guide only adds KWH specifics.
 
-## 1. Claim a task (branch `live` of this repo)
-1. `git pull --rebase origin live`; pick a `READY` task in `state.json` with `project_id: kludge-wagon-haywire`.
-2. Create `locks/<task-id>.json` (create-only; a conflict means someone else won — pick another):
-   ```json
-   {"task_id":"KWH-…","project_id":"kludge-wagon-haywire","agent_id":"<you>",
-    "lock_token":"<random>","created_at":"<UTC now>","expires_at":"<now + 30–60 min>","run_ref":"<non-sensitive>"}
-   ```
-   Keep locks **short** (≤ 60 min) and **heartbeat** by bumping `expires_at` (SHA-checked update) while working.
-3. In the same commit set the task `state: CLAIMED` (or `RUNNING`), `claimed_by`, `claim_expires_at`, `updated_at`.
-4. Never force-take a live lock. Stale takeover only after verified expiry + an event under `events/`.
-5. Do not touch `KWH-DAILY-3D-CREDIT-CHECK` (routine owned by C/cpp In60).
+## 1. Claim and execute a task
+1. The canonical machine ownership records are in `tsrnc2/kitt/control-plane/tasks/kludge-wagon-haywire/` and `tsrnc2/kitt/control-plane/leases/kludge-wagon-haywire/`. The Project Control Center `live/state.json` is a dashboard mirror.
+2. Pick only a task assigned to your exact agent identity, or a `READY` unclaimed task you are authorized to take.
+3. A durable claim assigns the task. Do not acquire an execution lease until actual work begins.
+4. When work begins, acquire exactly one create-only KITT lease using the standard KITT control-plane protocol, then set the canonical task to `RUNNING` and mirror owner/state into Project Control Center.
+5. Never force-take a live lease. Stale takeover requires verified expiry plus the standard takeover event.
+6. Do not touch `KWH-DAILY-3D-CREDIT-CHECK` (routine owned by C/cpp In60).
 
 ## 2. Repo access
 `fly-by-wire-c` is private. Agents on the shared box can use the already-authenticated `gh` (account `tsrnc2`):
@@ -36,5 +32,4 @@ Each task links its GitHub issue in `source_ref`.
 - Salvaged work from the paused build may exist in `salvage/*` branches (from the salvage worker) — check before redoing cast, buildings, tunnels, wildlife or GPS work.
 
 ## 5. Finish
-Update the task (`DONE`/`BLOCKED` + `next_action`) in `state.json`, comment on/close the issue,
-then release the lock (delete it or mark `status: released`). Blocked → follow `AGENTS.md` "Blocked work".
+Update the canonical KITT task with the truthful terminal state and evidence, mirror that state into Project Control Center `live/state.json`, comment on/close the issue when appropriate, then release only the canonical KITT lease. Blocked work follows the KITT control-plane blocker protocol.
