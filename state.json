@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T02:59:41.387Z",
+    "generated_at": "2026-10-14T03:00:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-14T03:00:00Z"
@@ -3987,12 +3987,12 @@
       "id": "KWH-STORY-KITTY-ARC",
       "project_id": "kludge-wagon-haywire",
       "title": "Story: Kitty turn-evil arc (beats, foreshadowing, legally distinct)",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P0",
-      "claimed_by": "chatgpt-kwh-story-kitty-arc",
+      "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T02:56:00Z",
-      "next_action": "Execution active under canonical KITT lease; produce the bounded Kitty ally→foreshadow→turn→confrontation→resolution design candidate without gameplay implementation or merge.",
+      "updated_at": "2026-10-14T03:00:00Z",
+      "next_action": "Design candidate complete in fly-by-wire-c draft PR #249 (head 366c6d8857e47207e364da159d6fc055fa0711ce); Jobo review is approval-only. Downstream runtime/backdoor/clue/confrontation implementation remains separately tracked.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/240"
@@ -4293,6 +4293,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-14T03:00:00Z",
+      "type": "TASK_COMPLETION",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-STORY-KITTY-ARC",
+      "summary": "Completed bounded Kitty late-game story-arc design; draft PR #249 is open on a current-main one-file candidate. Canonical KITT lease released; owner review remains approval-only."
+    },
     {
       "at": "2026-10-14T03:00:00Z",
       "type": "CONTROL_PLANE_SYNC",
