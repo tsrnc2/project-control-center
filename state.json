@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T03:00:00Z",
+    "generated_at": "2026-10-14T03:01:56Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-14T03:01:35Z"
@@ -4071,13 +4071,13 @@
       "id": "KWH-WB-GPL-OFFER-REVIEW-PR199",
       "project_id": "kludge-wagon-haywire",
       "title": "Independent review of GPL source-offer repair PR #199",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P0",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T03:06:00Z",
-      "next_action": "Independent reviewer may claim this exact-head review task; acquire a KITT execution lease only when review begins. The PR #199 implementer must not self-review.",
-      "owner_agent": null,
+      "claimed_by": "chatgpt-kwh-gpl-review-pr199",
+      "claim_expires_at": "2026-10-15T02:57:47Z",
+      "updated_at": "2026-10-14T03:01:56Z",
+      "next_action": "Independent review is executing against frozen PR #199 head afc2ca4016d51442898b280a7b42f7c53ef00bec under the canonical KITT lease. The live PR has advanced; this review does not certify newer heads.",
+      "owner_agent": "chatgpt-kwh-gpl-review-pr199",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/246"
     }
@@ -4293,6 +4293,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-14T03:01:56Z",
+      "type": "CLAIM_SYNC",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-WB-GPL-OFFER-REVIEW-PR199",
+      "summary": "Mirrored canonical KITT RUNNING state for the independent exact-head PR #199 source-offer review; no merge, release, or deployment authority is implied."
+    },
     {
       "at": "2026-10-14T03:00:00Z",
       "type": "TASK_COMPLETION",
