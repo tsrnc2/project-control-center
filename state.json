@@ -4061,6 +4061,20 @@
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/245"
+    },
+    {
+      "id": "KWH-WB-GPL-OFFER-REVIEW-PR199",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Independent review of GPL source-offer repair PR #199",
+      "state": "READY",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T03:06:00Z",
+      "next_action": "Independent reviewer may claim this exact-head review task; acquire a KITT execution lease only when review begins. The PR #199 implementer must not self-review.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/246"
     }
   ],
   "blockers": [
