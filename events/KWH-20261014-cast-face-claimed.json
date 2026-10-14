@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-14T04:31:32Z",
+  "type": "tasks_claimed",
+  "project_id": "kludge-wagon-haywire",
+  "note": "Register+claim CAST-MODELS/FACE; FACE-TESTS READY",
+  "tasks": [
+    {
+      "id": "KWH-CAST-MODELS",
+      "issue": 279
+    },
+    {
+      "id": "KWH-CAST-FACE",
+      "issue": 280
+    },
+    {
+      "id": "KWH-CAST-FACE-TESTS",
+      "issue": 281
+    }
+  ]
+}
