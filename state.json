@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T02:13:37Z",
+    "generated_at": "2026-10-14T02:14:18Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts."
   },
@@ -3257,6 +3257,20 @@
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/185"
+    },
+    {
+      "id": "KWH-AND-UI-STEER-GPS",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Android UI: steer wheel vs GPS layout + real wheel look/transparency",
+      "state": "CLAIMED",
+      "priority": "P1",
+      "claimed_by": "GrokBot",
+      "claim_expires_at": "2026-10-14T03:14:18Z",
+      "updated_at": "2026-10-14T02:14:18Z",
+      "next_action": "Fix landscape overlap; real wheel visual; screenshots+APK.",
+      "owner_agent": "GrokBot",
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/186"
     }
   ],
   "blockers": [
@@ -3470,6 +3484,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-14T02:14:18Z",
+      "type": "CLAIM",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-AND-UI-STEER-GPS",
+      "summary": "Registered+claimed KWH-AND-UI-STEER-GPS \u2192 #186 (wheel/GPS overlap + real wheel look)."
+    },
     {
       "at": "2026-10-14T02:13:37Z",
       "type": "TASK_REGISTERED",
@@ -3923,42 +3944,6 @@
         "KWH-PH-WHEEL",
         "KWH-WHEELS-BAKED",
         "KWH-FIRST-LOAD-SIZE"
-      ]
-    },
-    {
-      "at": "2026-10-14T01:15:54Z",
-      "type": "TASK_REGISTERED",
-      "project_id": "kludge-wagon-haywire",
-      "summary": "Registered 28 Steam marketing tasks (issues #119-#146, label marketing). All READY/unclaimed.",
-      "task_ids": [
-        "KWH-MKT-STORE-SHORT-DESC",
-        "KWH-MKT-STORE-LONG-DESC",
-        "KWH-MKT-STORE-TAGS",
-        "KWH-MKT-SYSREQS",
-        "KWH-MKT-CONTENT-SURVEY",
-        "KWH-MKT-CAPSULE-HEADER",
-        "KWH-MKT-CAPSULE-SMALL",
-        "KWH-MKT-CAPSULE-MAIN",
-        "KWH-MKT-CAPSULE-VERTICAL",
-        "KWH-MKT-LIBRARY-HERO-LOGO",
-        "KWH-MKT-SCREENSHOTS",
-        "KWH-MKT-TRAILER-SCRIPT",
-        "KWH-MKT-TRAILER-EDIT",
-        "KWH-MKT-GIFS",
-        "KWH-MKT-COMING-SOON",
-        "KWH-MKT-PRESSKIT-PAGE",
-        "KWH-MKT-FACT-SHEET",
-        "KWH-MKT-LOGOS",
-        "KWH-MKT-DEVLOG-ANNOUNCE",
-        "KWH-MKT-SOCIAL-X",
-        "KWH-MKT-SOCIAL-SHORTS",
-        "KWH-MKT-SOCIAL-REDDIT",
-        "KWH-MKT-NEXTFEST-DEMO",
-        "KWH-MKT-PRICING",
-        "KWH-MKT-ACHIEVEMENTS",
-        "KWH-MKT-TRADING-CARDS",
-        "KWH-MKT-LAUNCH-CHECKLIST",
-        "KWH-MKT-LEGAL-CHECK"
       ]
     }
   ]
