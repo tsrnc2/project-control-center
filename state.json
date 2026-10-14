@@ -1911,7 +1911,7 @@
       "claimed_by": "chatgpt-kwh-gpl-docs",
       "claim_expires_at": "2026-10-15T01:31:00Z",
       "updated_at": "2026-10-14T02:34:00Z",
-      "next_action": "Resume KWH-WB-GPL-OFFER on an authorized source-write/build surface, bind exact shipped package versions to corresponding source/aports or equivalent source archives, publish the reviewable source-offer candidate, validate it, and then resolve this blocker.",
+      "next_action": "Independently review draft PR #199, then run a clean workbench rebuild from the reviewed candidate to generate exact provenance; assemble and checksum the matching corresponding-source bundle; run the fail-closed source-release check and independent source/license review. Only then may the parent blocker be resolved or public release considered.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/105",
