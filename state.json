@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T03:02:45Z",
+    "generated_at": "2026-10-14T03:02:49Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-14T03:01:35Z"
@@ -4077,13 +4077,13 @@
       "id": "KWH-WB-GPL-OFFER-REVIEW-PR199",
       "project_id": "kludge-wagon-haywire",
       "title": "Independent review of GPL source-offer repair PR #199",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P0",
-      "claimed_by": "chatgpt-kwh-gpl-review-pr199",
-      "claim_expires_at": "2026-10-15T02:57:47Z",
-      "updated_at": "2026-10-14T03:01:56Z",
-      "next_action": "Independent review is executing against frozen PR #199 head afc2ca4016d51442898b280a7b42f7c53ef00bec under the canonical KITT lease. The live PR has advanced; this review does not certify newer heads.",
-      "owner_agent": "chatgpt-kwh-gpl-review-pr199",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T03:02:49Z",
+      "next_action": "Frozen head afc2ca4016d51442898b280a7b42f7c53ef00bec review completed FAIL. PR #199 has advanced to 4f4a94952b623bb751b843535a5efdf970e22873; register/use a fresh exact-head independent review before any acceptance.",
+      "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/246"
     },
@@ -4313,6 +4313,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-14T03:02:49Z",
+      "type": "REVIEW_COMPLETED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-WB-GPL-OFFER-REVIEW-PR199",
+      "summary": "Independent review completed FAIL for frozen PR #199 head afc2ca4: source-gate semantics were insufficient despite correct v86 pinning and fail-closed wording. Live PR has advanced and requires a fresh exact-head review."
+    },
     {
       "at": "2026-10-14T03:02:00Z",
       "type": "KERNEL_TRANCHE_SYNC",
