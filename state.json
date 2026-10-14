@@ -8,7 +8,7 @@
     "generated_at": "2026-10-14T05:55:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
-    "updated_at": "2026-10-14T03:04:30Z"
+    "updated_at": "2026-10-14T11:55:00Z"
   },
   "projects": [
     {
@@ -1219,15 +1219,16 @@
       "id": "KWH-GPS-TESTS",
       "project_id": "kludge-wagon-haywire",
       "title": "GPS ECU: automated tests (buggy fails, fixed passes)",
-      "state": "BLOCKED",
+      "state": "RUNNING",
       "priority": "P1",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T03:18:00Z",
-      "next_action": "Implementation/tests are on main and historical ECU_ONLY validation passed on the salvage lineage, but run the full exact-current repository ECU/test harness after merge before marking this test-only task DONE.",
-      "owner_agent": null,
+      "claimed_by": "chatgpt-kwh-gps-tests",
+      "claim_expires_at": "2026-10-15T11:54:30Z",
+      "updated_at": "2026-10-14T11:55:00Z",
+      "next_action": "Fresh exact-current repository ECU/test harness is running; existing GPS tests are read-only.",
+      "owner_agent": "chatgpt-kwh-gps-tests",
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/64"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/64",
+      "claim_heartbeat_at": "2026-10-14T11:55:00Z"
     },
     {
       "id": "KWH-GPS-TELEMETRY",
