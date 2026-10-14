@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T02:24:00Z",
+    "generated_at": "2026-10-14T02:28:45Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts."
   },
@@ -2881,7 +2881,7 @@
       "claimed_by": null,
       "claim_expires_at": null,
       "updated_at": "2026-10-14T01:44:42Z",
-      "next_action": "ECU + e2e/status hooks for lock→unlock. READY.",
+      "next_action": "ECU + e2e/status hooks for lock\u2192unlock. READY.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/156"
@@ -2889,7 +2889,7 @@
     {
       "id": "KWH-CLUE-SCHEMA",
       "project_id": "kludge-wagon-haywire",
-      "title": "Clue→lesson: schema tying world clues to real ECU bugs",
+      "title": "Clue\u2192lesson: schema tying world clues to real ECU bugs",
       "state": "READY",
       "priority": "P1",
       "claimed_by": null,
@@ -2903,7 +2903,7 @@
     {
       "id": "KWH-CLUE-WORLD",
       "project_id": "kludge-wagon-haywire",
-      "title": "Clue→lesson: world pickups per mission + top-box storage",
+      "title": "Clue\u2192lesson: world pickups per mission + top-box storage",
       "state": "READY",
       "priority": "P1",
       "claimed_by": null,
@@ -2917,7 +2917,7 @@
     {
       "id": "KWH-CLUE-REVEAL",
       "project_id": "kludge-wagon-haywire",
-      "title": "Clue→lesson: secret case-file document reveal UI",
+      "title": "Clue\u2192lesson: secret case-file document reveal UI",
       "state": "READY",
       "priority": "P1",
       "claimed_by": null,
@@ -2931,7 +2931,7 @@
     {
       "id": "KWH-CLUE-GATE",
       "project_id": "kludge-wagon-haywire",
-      "title": "Clue→lesson: gate next lesson in workbench/IDE + Car Manual",
+      "title": "Clue\u2192lesson: gate next lesson in workbench/IDE + Car Manual",
       "state": "READY",
       "priority": "P1",
       "claimed_by": null,
@@ -2945,13 +2945,13 @@
     {
       "id": "KWH-CLUE-EP1",
       "project_id": "kludge-wagon-haywire",
-      "title": "Clue→lesson: author Ep1 clues from actual shipped bugs",
+      "title": "Clue\u2192lesson: author Ep1 clues from actual shipped bugs",
       "state": "READY",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
       "updated_at": "2026-10-14T01:48:50Z",
-      "next_action": "Ep1 clues map to real bug lines; include ≥1 super clue. AC updated on #161. READY.",
+      "next_action": "Ep1 clues map to real bug lines; include \u22651 super clue. AC updated on #161. READY.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/161"
@@ -2959,7 +2959,7 @@
     {
       "id": "KWH-CLUE-TEST",
       "project_id": "kludge-wagon-haywire",
-      "title": "Clue→lesson: tests for collect → unlock → gate",
+      "title": "Clue\u2192lesson: tests for collect \u2192 unlock \u2192 gate",
       "state": "READY",
       "priority": "P2",
       "claimed_by": null,
@@ -2973,7 +2973,7 @@
     {
       "id": "KWH-CLUE-BUGLINES",
       "project_id": "kludge-wagon-haywire",
-      "title": "Clue→lesson: IDE gutter bug-line reveals + super-clue spend UI",
+      "title": "Clue\u2192lesson: IDE gutter bug-line reveals + super-clue spend UI",
       "state": "READY",
       "priority": "P1",
       "claimed_by": null,
@@ -2987,7 +2987,7 @@
     {
       "id": "KWH-AND-UI-DESIGN",
       "project_id": "kludge-wagon-haywire",
-      "title": "Android UI: Material3×amber Kludge design tokens + safe-area",
+      "title": "Android UI: Material3\u00d7amber Kludge design tokens + safe-area",
       "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
@@ -3071,7 +3071,7 @@
     {
       "id": "KWH-AND-UI-APK",
       "project_id": "kludge-wagon-haywire",
-      "title": "Android UI: rebuild APK + 412×915 / 915×412 screenshots",
+      "title": "Android UI: rebuild APK + 412\u00d7915 / 915\u00d7412 screenshots",
       "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
@@ -3175,7 +3175,7 @@
       "claimed_by": null,
       "claim_expires_at": null,
       "updated_at": "2026-10-14T02:11:53Z",
-      "next_action": "Shop location; BROKEN→challenge→replace. Common UI API. READY.",
+      "next_action": "Shop location; BROKEN\u2192challenge\u2192replace. Common UI API. READY.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/179"
@@ -3297,7 +3297,7 @@
     {
       "id": "KWH-BLD-KIT",
       "project_id": "kludge-wagon-haywire",
-      "title": "Buildings: expandable kit by style (modern→industrial + Bodie western)",
+      "title": "Buildings: expandable kit by style (modern\u2192industrial + Bodie western)",
       "state": "READY",
       "priority": "P1",
       "claimed_by": null,
@@ -3325,7 +3325,7 @@
     {
       "id": "KWH-BLD-TYPES-RES",
       "project_id": "kludge-wagon-haywire",
-      "title": "Buildings: residential types (townhome→apartment)",
+      "title": "Buildings: residential types (townhome\u2192apartment)",
       "state": "READY",
       "priority": "P1",
       "claimed_by": null,
@@ -3339,7 +3339,7 @@
     {
       "id": "KWH-BLD-TYPES-COMM",
       "project_id": "kludge-wagon-haywire",
-      "title": "Buildings: commercial/civic types (shop→warehouse)",
+      "title": "Buildings: commercial/civic types (shop\u2192warehouse)",
       "state": "READY",
       "priority": "P1",
       "claimed_by": null,
@@ -3391,6 +3391,20 @@
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/194"
+    },
+    {
+      "id": "KWH-AND-UI-PEDALS",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Android UI: thumb-sized gas/brake pedals (landscape)",
+      "state": "CLAIMED",
+      "priority": "P1",
+      "claimed_by": "GrokBot",
+      "claim_expires_at": "2026-10-14T03:13:45Z",
+      "updated_at": "2026-10-14T02:28:45Z",
+      "next_action": "Resize pedals 56-64dp; screenshots+APK.",
+      "owner_agent": "GrokBot",
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/195"
     }
   ],
   "blockers": [
@@ -3605,46 +3619,53 @@
   ],
   "activity": [
     {
+      "at": "2026-10-14T02:28:45Z",
+      "type": "CLAIM",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-AND-UI-PEDALS",
+      "summary": "Registered+claimed KWH-AND-UI-PEDALS \u2192 #195."
+    },
+    {
       "at": "2026-10-14T02:18:32Z",
       "type": "TASK_REGISTERED",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-BLD-MATERIALS",
-      "summary": "KWH-AND-UI-STEER-GPS DONE; registered READY building variety ['KWH-BLD-MATERIALS', 'KWH-BLD-KIT', 'KWH-BLD-GEN', 'KWH-BLD-TYPES-RES', 'KWH-BLD-TYPES-COMM', 'KWH-BLD-DISTRICTS', 'KWH-BLD-LOD-PERF', 'KWH-BLD-TEST'] → #187–#194. Unclaimed."
+      "summary": "KWH-AND-UI-STEER-GPS DONE; registered READY building variety ['KWH-BLD-MATERIALS', 'KWH-BLD-KIT', 'KWH-BLD-GEN', 'KWH-BLD-TYPES-RES', 'KWH-BLD-TYPES-COMM', 'KWH-BLD-DISTRICTS', 'KWH-BLD-LOD-PERF', 'KWH-BLD-TEST'] \u2192 #187\u2013#194. Unclaimed."
     },
     {
       "at": "2026-10-14T02:14:18Z",
       "type": "CLAIM",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-AND-UI-STEER-GPS",
-      "summary": "Registered+claimed KWH-AND-UI-STEER-GPS → #186 (wheel/GPS overlap + real wheel look)."
+      "summary": "Registered+claimed KWH-AND-UI-STEER-GPS \u2192 #186 (wheel/GPS overlap + real wheel look)."
     },
     {
       "at": "2026-10-14T02:13:37Z",
       "type": "TASK_REGISTERED",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-DMG-TERRAIN",
-      "summary": "Updated KWH-DMG-MODEL AC; registered READY ['KWH-DMG-TERRAIN', 'KWH-WORLD-TRAILS', 'KWH-DMG-COLLISION', 'KWH-DMG-TRAILS-TEST'] → #182–#185 (terrain wear, trails, collisions, tests). Unclaimed."
+      "summary": "Updated KWH-DMG-MODEL AC; registered READY ['KWH-DMG-TERRAIN', 'KWH-WORLD-TRAILS', 'KWH-DMG-COLLISION', 'KWH-DMG-TRAILS-TEST'] \u2192 #182\u2013#185 (terrain wear, trails, collisions, tests). Unclaimed."
     },
     {
       "at": "2026-10-14T02:11:53Z",
       "type": "TASK_REGISTERED",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-DMG-MODEL",
-      "summary": "Registered READY unclaimed damage system tasks ['KWH-DMG-MODEL', 'KWH-DMG-FUZZ', 'KWH-DMG-TELEMETRY', 'KWH-DMG-SHOP', 'KWH-DMG-MANUAL', 'KWH-DMG-TEST'] → #176–#181 (fuzz/hardening/mechanic; common UI API)."
+      "summary": "Registered READY unclaimed damage system tasks ['KWH-DMG-MODEL', 'KWH-DMG-FUZZ', 'KWH-DMG-TELEMETRY', 'KWH-DMG-SHOP', 'KWH-DMG-MANUAL', 'KWH-DMG-TEST'] \u2192 #176\u2013#181 (fuzz/hardening/mechanic; common UI API)."
     },
     {
       "at": "2026-10-14T02:10:56Z",
       "type": "DONE",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-WORLD-VEG-VISIBLE",
-      "summary": "Veg visible + Android button/steer redesign DONE (#173–#175); PR #164 updated; APK ~222MB."
+      "summary": "Veg visible + Android button/steer redesign DONE (#173\u2013#175); PR #164 updated; APK ~222MB."
     },
     {
       "at": "2026-10-14T02:05:57Z",
       "type": "CLAIM",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-WORLD-VEG-VISIBLE",
-      "summary": "Registered+claimed ['KWH-WORLD-VEG-VISIBLE', 'KWH-AND-UI-BUTTONS', 'KWH-AND-UI-STEER'] → #173–#175 (veg visible, button redesign, steering redesign)."
+      "summary": "Registered+claimed ['KWH-WORLD-VEG-VISIBLE', 'KWH-AND-UI-BUTTONS', 'KWH-AND-UI-STEER'] \u2192 #173\u2013#175 (veg visible, button redesign, steering redesign)."
     },
     {
       "at": "2026-10-14T02:02:48Z",
@@ -3658,14 +3679,14 @@
       "type": "CLAIM",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-UI-CORE-API",
-      "summary": "Registered+claimed KWH-UI-CORE-API → #172. Android UI makeover depends on shared core+skins."
+      "summary": "Registered+claimed KWH-UI-CORE-API \u2192 #172. Android UI makeover depends on shared core+skins."
     },
     {
       "at": "2026-10-14T01:55:49Z",
       "type": "CLAIM",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-AND-UI-DESIGN",
-      "summary": "Registered+claimed Android UI makeover tasks ['KWH-AND-UI-DESIGN', 'KWH-AND-UI-NAV', 'KWH-AND-UI-DRIVE', 'KWH-AND-UI-KITTY-SPLASH', 'KWH-AND-UI-EDITOR', 'KWH-AND-UI-CLUES-SETTINGS', 'KWH-AND-UI-APK'] → #165–#171 (120m)."
+      "summary": "Registered+claimed Android UI makeover tasks ['KWH-AND-UI-DESIGN', 'KWH-AND-UI-NAV', 'KWH-AND-UI-DRIVE', 'KWH-AND-UI-KITTY-SPLASH', 'KWH-AND-UI-EDITOR', 'KWH-AND-UI-CLUES-SETTINGS', 'KWH-AND-UI-APK'] \u2192 #165\u2013#171 (120m)."
     },
     {
       "at": "2026-10-14T01:49:49Z",
@@ -3686,14 +3707,14 @@
       "type": "TASK_REGISTERED",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-CLUE-SCHEMA",
-      "summary": "Registered READY clue→lesson unlock tasks ['KWH-CLUE-SCHEMA', 'KWH-CLUE-WORLD', 'KWH-CLUE-REVEAL', 'KWH-CLUE-GATE', 'KWH-CLUE-EP1', 'KWH-CLUE-TEST'] → #157–#162. Open for any agent. Top box can store clues."
+      "summary": "Registered READY clue\u2192lesson unlock tasks ['KWH-CLUE-SCHEMA', 'KWH-CLUE-WORLD', 'KWH-CLUE-REVEAL', 'KWH-CLUE-GATE', 'KWH-CLUE-EP1', 'KWH-CLUE-TEST'] \u2192 #157\u2013#162. Open for any agent. Top box can store clues."
     },
     {
       "at": "2026-10-14T01:44:42Z",
       "type": "TASK_REGISTERED",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-TOPBOX-MODEL",
-      "summary": "Registered READY top-box tasks ['KWH-TOPBOX-MODEL', 'KWH-TOPBOX-ECU', 'KWH-TOPBOX-UI', 'KWH-TOPBOX-TEST'] → #153–#156 (roof rack + locked cargo box ECU). Open for any agent."
+      "summary": "Registered READY top-box tasks ['KWH-TOPBOX-MODEL', 'KWH-TOPBOX-ECU', 'KWH-TOPBOX-UI', 'KWH-TOPBOX-TEST'] \u2192 #153\u2013#156 (roof rack + locked cargo box ECU). Open for any agent."
     },
     {
       "at": "2026-10-14T01:40:26Z",
@@ -3707,14 +3728,14 @@
       "type": "TASK_REGISTERED",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-AND-EVAL",
-      "summary": "Registered 5 READY Android tasks (KWH-AND-EVAL, KWH-AND-SDK, KWH-AND-WEBVIEW, KWH-AND-TOUCH, KWH-AND-APK) → issues #148–#152. Open for claim."
+      "summary": "Registered 5 READY Android tasks (KWH-AND-EVAL, KWH-AND-SDK, KWH-AND-WEBVIEW, KWH-AND-TOUCH, KWH-AND-APK) \u2192 issues #148\u2013#152. Open for claim."
     },
     {
       "at": "2026-10-14T01:14:23Z",
       "type": "TASK_REGISTERED",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-KITTY-DESIGN",
-      "summary": "Registered 6 READY unclaimed Kitty help-system tasks (KWH-KITTY-*) linked to fly-by-wire-c issues #113–#118. Open for any agent."
+      "summary": "Registered 6 READY unclaimed Kitty help-system tasks (KWH-KITTY-*) linked to fly-by-wire-c issues #113\u2013#118. Open for any agent."
     },
     {
       "at": "2026-09-25T14:55:00-07:00",
@@ -3832,136 +3853,6 @@
         "KWH-DEPLOY-MEMBERS-SITE",
         "KWH-DAILY-3D-CREDIT-CHECK"
       ]
-    },
-    {
-      "at": "2026-10-14T00:40:00.000Z",
-      "type": "TASK_REGISTERED",
-      "project_id": "kludge-wagon-haywire",
-      "summary": "Work paused; registered 109 small tasks with acceptance criteria, each linked to a fly-by-wire-c issue. No claims yet.",
-      "task_ids": [
-        "KWH-WORLD-VEG-KIT",
-        "KWH-WORLD-ANIMALS",
-        "KWH-WORLD-BIRDS",
-        "KWH-WORLD-TERRAIN",
-        "KWH-WORLD-BIOME2",
-        "KWH-WORLD-PERF",
-        "KWH-BLD-LEDGES",
-        "KWH-BLD-BALCONIES",
-        "KWH-BLD-DOORS-WINDOWS",
-        "KWH-BLD-ROOFS",
-        "KWH-BLD-CHIMNEYS",
-        "KWH-BLD-WINDCHIMES",
-        "KWH-BLD-PLANTS",
-        "KWH-BLD-PAINT-SIGNS",
-        "KWH-BLD-FENCING",
-        "KWH-BLD-YARDS",
-        "KWH-BLD-ORNAMENTS",
-        "KWH-BLD-ROADS",
-        "KWH-BLD-BOARDWALKS",
-        "KWH-BLD-UPG-GENERAL-STORE",
-        "KWH-BLD-UPG-CHURCH-STEEPLE",
-        "KWH-BLD-UPG-METHODIST-CHURCH",
-        "KWH-BLD-UPG-SCHOOLHOUSE",
-        "KWH-BLD-UPG-STAMP-MILL",
-        "KWH-BLD-UPG-HOUSE-A",
-        "KWH-BLD-UPG-HOUSE-B",
-        "KWH-BLD-UPG-HOUSE-C-FALSEFRONT",
-        "KWH-BLD-UPG-HOTEL-2STORY",
-        "KWH-BLD-UPG-HOUSE-D-PAINTED",
-        "KWH-BLD-UPG-HOUSE-E-SHINGLE",
-        "KWH-GPS-HEADER",
-        "KWH-GPS-BUGGY",
-        "KWH-GPS-MINIMAP",
-        "KWH-GPS-TESTS",
-        "KWH-GPS-TELEMETRY",
-        "KWH-FOOT-MODE",
-        "KWH-TUNNEL-KIT",
-        "KWH-TUNNEL-BODIE",
-        "KWH-TUNNEL-LAIR",
-        "KWH-TUNNEL-GPS",
-        "KWH-CAST-GIRLFRIEND",
-        "KWH-CAST-BOSS-CAT",
-        "KWH-CAST-JHONNAS",
-        "KWH-CAST-SKY-MOON",
-        "KWH-CAST-PROF-WRENFIELD",
-        "KWH-CAST-SGT-KOWALCZYK",
-        "KWH-CAST-GRANDMA-ROSE",
-        "KWH-CAST-NIGEL",
-        "KWH-CAST-BIG-LOU",
-        "KWH-CAST-DARLENE",
-        "KWH-CAST-PETTIBONE-COUSINS",
-        "KWH-VEH-SUV",
-        "KWH-VEH-SAILBOAT",
-        "KWH-VEH-MOTORCYCLE",
-        "KWH-VEH-HELICOPTER",
-        "KWH-CAST-LINEUP",
-        "KWH-EP1-M01",
-        "KWH-EP1-M02",
-        "KWH-EP1-M03",
-        "KWH-EP1-M04",
-        "KWH-EP1-M05",
-        "KWH-EP1-M06",
-        "KWH-EP1-M07",
-        "KWH-EP1-M08",
-        "KWH-EP1-M09",
-        "KWH-EP1-M10",
-        "KWH-EP1-MISSION-LOG",
-        "KWH-EP1-CUTSCENE-SYS",
-        "KWH-EP1-MISSIONS-TEST",
-        "KWH-OUTLINE-HELI",
-        "KWH-OUTLINE-SAILBOAT",
-        "KWH-OUTLINE-MOTO",
-        "KWH-ECU-BRAKES",
-        "KWH-ECU-HEADLIGHTS",
-        "KWH-ECU-WIPERS",
-        "KWH-ECU-4WD-TRANSFER",
-        "KWH-ECU-RADIO",
-        "KWH-ECU-FUEL-MAP",
-        "KWH-ECU-RESTORED-CHECKS",
-        "KWH-ECU-SAME-TICK",
-        "KWH-ECU-DASH-STEER-THROTTLE",
-        "KWH-WB-CORE",
-        "KWH-WB-GPL-OFFER",
-        "KWH-WB-64BIT",
-        "KWH-WB-STDIN",
-        "KWH-WB-CONSOLE-SEP",
-        "KWH-WB-PRECACHE",
-        "KWH-WB-HOOKS-TEST",
-        "KWH-WB-MANUAL-LINKS",
-        "KWH-WB-GDB-CLI",
-        "KWH-PH-BODIE-CHURCH-STEEPLE",
-        "KWH-PH-BODIE-GENERAL-STORE",
-        "KWH-PH-BODIE-HOUSE-A",
-        "KWH-PH-BODIE-HOUSE-B",
-        "KWH-PH-BODIE-HOUSE-C-FALSEFRONT",
-        "KWH-PH-BODIE-METHODIST-CHURCH",
-        "KWH-PH-BODIE-SCHOOLHOUSE",
-        "KWH-PH-BODIE-STAMP-MILL",
-        "KWH-PH-PROP-FENCE-4M",
-        "KWH-PH-PROP-HIGHWAY-SEGMENT",
-        "KWH-PH-PROP-ROCK",
-        "KWH-PH-PROP-SAGEBRUSH",
-        "KWH-PH-PROP-SIGNPOST",
-        "KWH-PH-PROP-TELEPHONE-POLE",
-        "KWH-PH-RANGER-KIOSK",
-        "KWH-PH-SHERIFF-CAR",
-        "KWH-PH-WHEEL",
-        "KWH-WHEELS-BAKED",
-        "KWH-FIRST-LOAD-SIZE"
-      ]
-    },
-    {
-      "at": "2026-10-14T02:24:00Z",
-      "type": "CLAIM",
-      "project_id": "kludge-wagon-haywire",
-      "task_id": "KWH-EP2-STEERING",
-      "task_ids": [
-        "KWH-EP2-STEERING",
-        "KWH-ECU-BRAKES",
-        "KWH-EP1-CUTSCENE-SYS",
-        "KWH-BLD-MATERIALS"
-      ],
-      "summary": "Assigned four dependency-ready P1 tasks: EP2 steering, ECU brakes, Ep1 cutscene core, and building materials. Existing claims were preserved; execution locks remain deferred until each worker starts."
     }
   ]
 }
