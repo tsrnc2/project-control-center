@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T03:12:00Z",
+    "generated_at": "2026-10-14T03:09:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-14T03:01:35Z"
@@ -3818,13 +3818,13 @@
     {
       "id": "KWH-KERNEL-HAL",
       "project_id": "kludge-wagon-haywire",
-      "title": "Kernel: hardware abstraction spec (ECU bridge for per-system drivers)",
+      "title": "Kernel hardware abstraction spec: ECU bridge for per-system drivers",
       "state": "DONE",
       "priority": "P0",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T03:04:21.178Z",
-      "next_action": "Stacked draft PR #251 current repaired head is 78413941366beda7c8d62a63eb007674de8c51da; exact-head reviewer must bind to this head before a verdict transfers.",
+      "updated_at": "2026-10-14T03:02:22.723Z",
+      "next_action": "HAL spec authoring is DONE. Exact repaired PR #251 head 8e9e1282d06f175ac12b4d7650cf604862841fd7 passed R2 review. Implementation must proceed through KWH-KERNEL-HAL-SCAFFOLD (#258), then a separate v86 transport/real-device bridge before KWH-KERNEL-DRIVERS.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/228",
@@ -4133,14 +4133,59 @@
       "id": "KWH-KERNEL-HAL-REVIEW",
       "project_id": "kludge-wagon-haywire",
       "title": "Review kernel HAL / ECU bridge PR #251",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P0",
-      "claimed_by": "chatgpt-kwh-kernel-hal-reviewer",
-      "claim_expires_at": "2026-10-15T03:04:16Z",
-      "updated_at": "2026-10-14T03:04:30Z",
-      "next_action": "Review was started against superseded PR #251 head 90de9426f40a31fa7587ff1b58ef432335eb74a6. Recorded reviewer must rebind/re-run against repaired head 78413941366beda7c8d62a63eb007674de8c51da before any verdict applies.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T03:05:00Z",
+      "next_action": "REVISE on superseded head 90de9426f40a31fa7587ff1b58ef432335eb74a6: GPS payload bound and actuator-owner semantics required repair. Superseded by R1 repair and R2 review.",
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/251",
+      "owner_agent": null
+    },
+    {
+      "id": "KWH-KERNEL-HAL-REPAIR-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Repair kernel HAL PR #251 review findings",
+      "state": "DONE",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T03:06:15Z",
+      "next_action": "DONE on exact repaired head 8e9e1282d06f175ac12b4d7650cf604862841fd7; R2 review passed.",
+      "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/251"
+    },
+    {
+      "id": "KWH-KERNEL-HAL-REVIEW-R2",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Re-review repaired kernel HAL PR #251",
+      "state": "DONE",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T03:08:00Z",
+      "next_action": "PASS on exact repaired head 8e9e1282d06f175ac12b4d7650cf604862841fd7. ABI v1 may be used for HAL implementation scaffolding; per-device drivers remain gated on real scaffold + v86 bridge.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/251"
+    },
+    {
+      "id": "KWH-KERNEL-HAL-SCAFFOLD",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Kernel HAL: implement kw_hal.h + deterministic fake-transport scaffold",
+      "state": "CLAIMED",
+      "priority": "P0",
+      "claimed_by": "chatgpt-kwh-kernel-hal-scaffold",
+      "claimed_at": "2026-10-14T03:08:20Z",
+      "claim_heartbeat_at": "2026-10-14T03:08:20Z",
+      "claim_expires_at": "2026-10-15T03:08:20Z",
+      "updated_at": "2026-10-14T03:08:20Z",
+      "next_action": "Assigned to chatgpt-kwh-kernel-hal-scaffold. Acquire the canonical KITT execution lease before source mutation; implement kw_hal.h, field-explicit serialization, deterministic fake host/transport, one typed wrapper, and focused ABI/ownership/GPS tests. No v86 adapter or driver lessons yet.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/258"
     }
   ],
   "blockers": [
@@ -4354,6 +4399,19 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-14T03:09:00Z",
+      "type": "HAL_ACCEPTANCE_CHAIN_SYNC",
+      "project_id": "kludge-wagon-haywire",
+      "task_ids": [
+        "KWH-KERNEL-HAL",
+        "KWH-KERNEL-HAL-REVIEW",
+        "KWH-KERNEL-HAL-REPAIR-R1",
+        "KWH-KERNEL-HAL-REVIEW-R2",
+        "KWH-KERNEL-HAL-SCAFFOLD"
+      ],
+      "summary": "Reconciled HAL spec acceptance chain: initial review REVISE, bounded repair, exact-head R2 PASS, then promoted the missing implementation scaffold as P0 issue #258/task. Driver work remains gated."
+    },
     {
       "at": "2026-10-14T03:06:45Z",
       "type": "TASK_COMPLETED",
