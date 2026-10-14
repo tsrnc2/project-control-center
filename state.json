@@ -4715,7 +4715,7 @@
       "claimed_by": "Grok Bot",
       "claim_expires_at": "2026-10-16T12:00:00Z",
       "updated_at": "2026-10-14T12:10:00Z",
-      "next_action": "https://github.com/tsrnc2/fly-by-wire-c/pull/314 \u2014 leave for Jobo review; prerelease android-debug-2026-10-14-perf",
+      "next_action": "https://github.com/tsrnc2/fly-by-wire-c/pull/314 — leave for Jobo review; prerelease android-debug-2026-10-14-perf",
       "owner_agent": "Grok Bot",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/310"
@@ -4729,7 +4729,7 @@
       "claimed_by": "Grok Bot",
       "claim_expires_at": "2026-10-16T12:00:00Z",
       "updated_at": "2026-10-14T12:10:00Z",
-      "next_action": "https://github.com/tsrnc2/fly-by-wire-c/pull/314 \u2014 leave for Jobo review; prerelease android-debug-2026-10-14-perf",
+      "next_action": "https://github.com/tsrnc2/fly-by-wire-c/pull/314 — leave for Jobo review; prerelease android-debug-2026-10-14-perf",
       "owner_agent": "Grok Bot",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/311"
@@ -4743,7 +4743,7 @@
       "claimed_by": "Grok Bot",
       "claim_expires_at": "2026-10-16T12:00:00Z",
       "updated_at": "2026-10-14T12:10:00Z",
-      "next_action": "https://github.com/tsrnc2/fly-by-wire-c/pull/314 \u2014 leave for Jobo review; prerelease android-debug-2026-10-14-perf",
+      "next_action": "https://github.com/tsrnc2/fly-by-wire-c/pull/314 — leave for Jobo review; prerelease android-debug-2026-10-14-perf",
       "owner_agent": "Grok Bot",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/312"
@@ -4757,7 +4757,7 @@
       "claimed_by": "Grok Bot",
       "claim_expires_at": "2026-10-16T12:00:00Z",
       "updated_at": "2026-10-14T12:10:00Z",
-      "next_action": "https://github.com/tsrnc2/fly-by-wire-c/pull/314 \u2014 leave for Jobo review; prerelease android-debug-2026-10-14-perf",
+      "next_action": "https://github.com/tsrnc2/fly-by-wire-c/pull/314 — leave for Jobo review; prerelease android-debug-2026-10-14-perf",
       "owner_agent": "Grok Bot",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/313"
@@ -4778,6 +4778,161 @@
       "next_action": "BLOCKED after same-owner old-head 91e117ce lease expiry and fresh repaired-head ddfca9da lease/testing attempt. Real shipped wasm Clang8 fixtures and ECU_ONLY regression were not run on this execution surface; native Clang17/GCC14.2 are correlated diagnostics only. Authorized exact-head compiler execution surface required.",
       "claimed_at": "2026-10-14T03:11:00Z",
       "claim_heartbeat_at": "2026-10-14T03:11:00Z"
+    },
+    {
+      "id": "KWH-MCU-NETWORK-FOUNDATION",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Multilevel vehicle MCU replacement: executable foundation and integration contract",
+      "state": "DONE",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T12:57:30.665Z",
+      "dependencies": [],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/315",
+      "next_action": "Claim KWH-MCU-RUNTIME-ISOLATION against pinned candidate 6cef7be66f210a9180f6216332ab19777eae3566 after fresh ownership checks; source remains a draft PR, not integrated main.",
+      "owner_agent": "ChatGPT",
+      "human_owner": "Jobo"
+    },
+    {
+      "id": "KWH-MCU-RUNTIME-ISOLATION",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Isolate MCU firmware and define manifests, routed network and reset epochs",
+      "state": "READY",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T12:55:02.318Z",
+      "dependencies": [
+        "KWH-MCU-NETWORK-FOUNDATION"
+      ],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/315",
+      "next_action": "Queued; dependency completion, role eligibility and a fresh exclusive claim/lease are required before execution.",
+      "owner_agent": null,
+      "human_owner": "Jobo"
+    },
+    {
+      "id": "KWH-MCU-POWER-DRIVETRAIN",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Model power, engine starting/timing and complete drivetrain",
+      "state": "READY",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T12:55:05.883Z",
+      "dependencies": [
+        "KWH-MCU-RUNTIME-ISOLATION"
+      ],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/315",
+      "next_action": "Queued; dependency completion, role eligibility and a fresh exclusive claim/lease are required before execution.",
+      "owner_agent": null,
+      "human_owner": "Jobo"
+    },
+    {
+      "id": "KWH-MCU-CHASSIS-PHYSICS",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Complete steering, four-corner brakes and tire/traction feedback",
+      "state": "READY",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T12:55:08.725Z",
+      "dependencies": [
+        "KWH-MCU-RUNTIME-ISOLATION",
+        "KWH-MCU-POWER-DRIVETRAIN"
+      ],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/315",
+      "next_action": "Queued; dependency completion, role eligibility and a fresh exclusive claim/lease are required before execution.",
+      "owner_agent": null,
+      "human_owner": "Jobo"
+    },
+    {
+      "id": "KWH-MCU-BODY-NAV",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Connect every body, cabin and navigation controller to the network",
+      "state": "READY",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T12:55:12.029Z",
+      "dependencies": [
+        "KWH-MCU-RUNTIME-ISOLATION"
+      ],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/315",
+      "next_action": "Queued; dependency completion, role eligibility and a fresh exclusive claim/lease are required before execution.",
+      "owner_agent": null,
+      "human_owner": "Jobo"
+    },
+    {
+      "id": "KWH-MCU-GAME-INTEGRATION",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Integrate multilevel controllers into Godot, editor and telemetry",
+      "state": "READY",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T12:55:15.188Z",
+      "dependencies": [
+        "KWH-MCU-POWER-DRIVETRAIN",
+        "KWH-MCU-CHASSIS-PHYSICS",
+        "KWH-MCU-BODY-NAV",
+        "KWH-ECU-BRAKES"
+      ],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/315",
+      "next_action": "Queued; dependency completion, role eligibility and a fresh exclusive claim/lease are required before execution.",
+      "owner_agent": null,
+      "human_owner": "Jobo"
+    },
+    {
+      "id": "KWH-MCU-FAULT-QUALIFICATION",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualify complete vehicle lifecycle and faults on exact integrated commit",
+      "state": "READY",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T12:55:18.493Z",
+      "dependencies": [
+        "KWH-MCU-GAME-INTEGRATION"
+      ],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/315",
+      "next_action": "Queued; dependency completion, role eligibility and a fresh exclusive claim/lease are required before execution.",
+      "owner_agent": null,
+      "human_owner": "Jobo"
+    },
+    {
+      "id": "KWH-MCU-INDEPENDENT-REVIEW",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Independently review complete multilevel vehicle replacement",
+      "state": "READY",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T12:55:22.561Z",
+      "dependencies": [
+        "KWH-MCU-FAULT-QUALIFICATION"
+      ],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/315",
+      "next_action": "Queued; dependency completion, role eligibility and a fresh exclusive claim/lease are required before execution.",
+      "owner_agent": null,
+      "human_owner": "Jobo"
+    },
+    {
+      "id": "KWH-MCU-CUTOVER",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Make accepted multilevel vehicle backend default",
+      "state": "READY",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T12:55:25.278Z",
+      "dependencies": [
+        "KWH-MCU-INDEPENDENT-REVIEW"
+      ],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/315",
+      "next_action": "Queued; dependency completion, role eligibility and a fresh exclusive claim/lease are required before execution.",
+      "owner_agent": null,
+      "human_owner": "Jobo"
     }
   ],
   "blockers": [
@@ -5004,6 +5159,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-14T12:57:36.264Z",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-MCU-NETWORK-FOUNDATION",
+      "summary": "Multilevel vehicle replacement foundation published as draft PR #316: 16 C controller instances, 42 native/sanitized scenarios. Eight dependent stages queued; full replacement/integration/cutover remain incomplete.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/316"
+    },
     {
       "at": "2026-10-14T03:28:30Z",
       "type": "TASK_MERGED",
