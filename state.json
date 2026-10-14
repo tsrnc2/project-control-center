@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T02:39:00Z",
+    "generated_at": "2026-10-14T02:36:32Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts."
   },
@@ -3407,6 +3407,22 @@
       "owner_agent": "GrokBot",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/195"
+    },
+    {
+      "id": "KWH-WB-GPL-OFFER-REPAIR",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Repair GPL source-offer publication and source-capture path",
+      "state": "RUNNING",
+      "priority": "P0",
+      "claimed_by": "chatgpt-kwh-gpl-repair",
+      "claimed_at": "2026-10-14T02:34:00Z",
+      "claim_heartbeat_at": "2026-10-14T02:34:00Z",
+      "claim_expires_at": "2026-10-15T02:34:00Z",
+      "updated_at": "2026-10-14T02:34:00Z",
+      "next_action": "In progress under canonical KITT task and lease; prepare a reviewable GPL source-offer/source-provenance repair candidate without merge, release, deployment, or compliance claim.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-WB-GPL-OFFER-REPAIR.json"
     }
   ],
   "blockers": [
@@ -3620,6 +3636,16 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-14T02:36:32Z",
+      "type": "CONTROL_PLANE_RECONCILIATION",
+      "project_id": "kludge-wagon-haywire",
+      "task_ids": [
+        "KWH-TOPBOX-ECU",
+        "KWH-WB-GPL-OFFER-REPAIR"
+      ],
+      "summary": "Reconciled Fly By Wire C dashboard with canonical KITT ownership: top-box remains CLAIMED without a lease; GPL repair is RUNNING with a live canonical lease."
+    },
     {
       "at": "2026-10-14T02:35:23Z",
       "type": "CONTROL_PLANE_RECONCILIATION",
