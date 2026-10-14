@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T02:52:30Z",
+    "generated_at": "2026-10-14T02:48:55Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts."
   },
@@ -3423,7 +3423,7 @@
       "claim_heartbeat_at": "2026-10-14T02:34:00Z",
       "claim_expires_at": null,
       "updated_at": "2026-10-14T02:38:01Z",
-      "next_action": "DONE: draft repair PR #199 published at exact head afc2ca4016d51442898b280a7b42f7c53ef00bec; no execution lease remains. Parent source-closure task stays blocked on independent candidate selection/review plus rebuild/source-bundle gates.",
+      "next_action": "Repair candidate complete as draft PR #199; parent KWH-WB-GPL-OFFER remains BLOCKED pending independent review, clean rebuild, exact corresponding-source bundle, checksums, and release-gate validation.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-WB-GPL-OFFER-REPAIR.json"
@@ -3796,15 +3796,17 @@
       "id": "KWH-KERNEL-ROADMAP",
       "project_id": "kludge-wagon-haywire",
       "title": "Kernel curriculum roadmap: player kernel + mini libc end goal",
-      "state": "READY",
+      "state": "CLAIMED",
       "priority": "P0",
-      "claimed_by": null,
-      "claim_expires_at": null,
+      "claimed_by": "chatgpt-kwh-kernel-roadmap",
+      "claim_expires_at": "2026-10-15T02:48:55Z",
       "updated_at": "2026-10-14T02:48:55Z",
-      "next_action": "Map all episodes/lessons/ECUs → kernel components; define final boot. READY.",
+      "next_action": "Assigned to chatgpt-kwh-kernel-roadmap; acquire the canonical KITT execution lease before beginning roadmap mutation.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/227"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/227",
+      "claimed_at": "2026-10-14T02:48:55Z",
+      "claim_heartbeat_at": "2026-10-14T02:48:55Z"
     },
     {
       "id": "KWH-KERNEL-HAL",
