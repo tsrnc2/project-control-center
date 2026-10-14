@@ -1,0 +1,112 @@
+{
+  "at": "2026-10-14T02:46:13Z",
+  "type": "tasks_registered",
+  "project_id": "kludge-wagon-haywire",
+  "note": "READY: side-work, upgrades, engine/kernel, KWH-SIM-FRAMEWORK; mini games as Concept drafts pending Jobo via KWH-MINI-DESIGN (visual sims of player C)",
+  "tasks": [
+    {
+      "id": "KWH-SIDE-DESIGN",
+      "issue": 200
+    },
+    {
+      "id": "KWH-SIDE-JOBS",
+      "issue": 201
+    },
+    {
+      "id": "KWH-SIDE-WALLET",
+      "issue": 202
+    },
+    {
+      "id": "KWH-SIDE-TESTS",
+      "issue": 203
+    },
+    {
+      "id": "KWH-UPG-DESIGN",
+      "issue": 204
+    },
+    {
+      "id": "KWH-UPG-SHOP-UI",
+      "issue": 205
+    },
+    {
+      "id": "KWH-UPG-PARTS",
+      "issue": 207
+    },
+    {
+      "id": "KWH-UPG-TESTS",
+      "issue": 208
+    },
+    {
+      "id": "KWH-ENG-KERNEL-SIM",
+      "issue": 209
+    },
+    {
+      "id": "KWH-ENG-BOOT-UX",
+      "issue": 210
+    },
+    {
+      "id": "KWH-ENG-MANUAL",
+      "issue": 211
+    },
+    {
+      "id": "KWH-ENG-TIERS",
+      "issue": 212
+    },
+    {
+      "id": "KWH-ENG-TESTS",
+      "issue": 213
+    },
+    {
+      "id": "KWH-MINI-DESIGN",
+      "issue": 214
+    },
+    {
+      "id": "KWH-SIM-FRAMEWORK",
+      "issue": 215
+    },
+    {
+      "id": "KWH-MINI-BUG-HUNT",
+      "issue": 216
+    },
+    {
+      "id": "KWH-MINI-BREAKPOINT",
+      "issue": 217
+    },
+    {
+      "id": "KWH-MINI-LEAK",
+      "issue": 218
+    },
+    {
+      "id": "KWH-MINI-RACE",
+      "issue": 219
+    },
+    {
+      "id": "KWH-MINI-WIRE",
+      "issue": 220
+    },
+    {
+      "id": "KWH-MINI-LOADBAL",
+      "issue": 221
+    },
+    {
+      "id": "KWH-MINI-POINTER",
+      "issue": 222
+    },
+    {
+      "id": "KWH-MINI-STACK",
+      "issue": 223
+    },
+    {
+      "id": "KWH-MINI-BITFLIP",
+      "issue": 224
+    },
+    {
+      "id": "KWH-MINI-FRAMEWORK",
+      "issue": 225
+    },
+    {
+      "id": "KWH-MINI-TESTS",
+      "issue": 226
+    }
+  ]
+}
