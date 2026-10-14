@@ -4802,14 +4802,17 @@
       "priority": "P0",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T12:55:02.318Z",
+      "updated_at": "2026-10-14T12:58:47.873Z",
       "dependencies": [
+        "KWH-MCU-DESIGN-FREEZE",
         "KWH-MCU-NETWORK-FOUNDATION"
       ],
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/315",
-      "next_action": "Queued; dependency completion, role eligibility and a fresh exclusive claim/lease are required before execution.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/317",
+      "next_action": "Owner paused implementation on 2026-10-14. Do not execute until hierarchical system/inspection/resource design is complete and KWH-MCU-DESIGN-FREEZE closes; prior native prototype is not design approval.",
       "owner_agent": null,
-      "human_owner": "Jobo"
+      "human_owner": "Jobo",
+      "dispatch_allowed": false,
+      "implementation_hold": "OWNER_DESIGN_FIRST"
     },
     {
       "id": "KWH-MCU-POWER-DRIVETRAIN",
@@ -4819,14 +4822,17 @@
       "priority": "P0",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T12:55:05.883Z",
+      "updated_at": "2026-10-14T12:58:50.436Z",
       "dependencies": [
+        "KWH-MCU-DESIGN-FREEZE",
         "KWH-MCU-RUNTIME-ISOLATION"
       ],
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/315",
-      "next_action": "Queued; dependency completion, role eligibility and a fresh exclusive claim/lease are required before execution.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/317",
+      "next_action": "Owner paused implementation on 2026-10-14. Do not execute until hierarchical system/inspection/resource design is complete and KWH-MCU-DESIGN-FREEZE closes; prior native prototype is not design approval.",
       "owner_agent": null,
-      "human_owner": "Jobo"
+      "human_owner": "Jobo",
+      "dispatch_allowed": false,
+      "implementation_hold": "OWNER_DESIGN_FIRST"
     },
     {
       "id": "KWH-MCU-CHASSIS-PHYSICS",
@@ -4836,15 +4842,18 @@
       "priority": "P0",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T12:55:08.725Z",
+      "updated_at": "2026-10-14T12:58:54.067Z",
       "dependencies": [
+        "KWH-MCU-DESIGN-FREEZE",
         "KWH-MCU-RUNTIME-ISOLATION",
         "KWH-MCU-POWER-DRIVETRAIN"
       ],
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/315",
-      "next_action": "Queued; dependency completion, role eligibility and a fresh exclusive claim/lease are required before execution.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/317",
+      "next_action": "Owner paused implementation on 2026-10-14. Do not execute until hierarchical system/inspection/resource design is complete and KWH-MCU-DESIGN-FREEZE closes; prior native prototype is not design approval.",
       "owner_agent": null,
-      "human_owner": "Jobo"
+      "human_owner": "Jobo",
+      "dispatch_allowed": false,
+      "implementation_hold": "OWNER_DESIGN_FIRST"
     },
     {
       "id": "KWH-MCU-BODY-NAV",
@@ -4854,14 +4863,17 @@
       "priority": "P0",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T12:55:12.029Z",
+      "updated_at": "2026-10-14T12:58:56.687Z",
       "dependencies": [
+        "KWH-MCU-DESIGN-FREEZE",
         "KWH-MCU-RUNTIME-ISOLATION"
       ],
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/315",
-      "next_action": "Queued; dependency completion, role eligibility and a fresh exclusive claim/lease are required before execution.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/317",
+      "next_action": "Owner paused implementation on 2026-10-14. Do not execute until hierarchical system/inspection/resource design is complete and KWH-MCU-DESIGN-FREEZE closes; prior native prototype is not design approval.",
       "owner_agent": null,
-      "human_owner": "Jobo"
+      "human_owner": "Jobo",
+      "dispatch_allowed": false,
+      "implementation_hold": "OWNER_DESIGN_FIRST"
     },
     {
       "id": "KWH-MCU-GAME-INTEGRATION",
@@ -4871,17 +4883,20 @@
       "priority": "P0",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T12:55:15.188Z",
+      "updated_at": "2026-10-14T12:58:59.392Z",
       "dependencies": [
+        "KWH-MCU-DESIGN-FREEZE",
         "KWH-MCU-POWER-DRIVETRAIN",
         "KWH-MCU-CHASSIS-PHYSICS",
         "KWH-MCU-BODY-NAV",
         "KWH-ECU-BRAKES"
       ],
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/315",
-      "next_action": "Queued; dependency completion, role eligibility and a fresh exclusive claim/lease are required before execution.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/317",
+      "next_action": "Owner paused implementation on 2026-10-14. Do not execute until hierarchical system/inspection/resource design is complete and KWH-MCU-DESIGN-FREEZE closes; prior native prototype is not design approval.",
       "owner_agent": null,
-      "human_owner": "Jobo"
+      "human_owner": "Jobo",
+      "dispatch_allowed": false,
+      "implementation_hold": "OWNER_DESIGN_FIRST"
     },
     {
       "id": "KWH-MCU-FAULT-QUALIFICATION",
@@ -4891,14 +4906,17 @@
       "priority": "P0",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T12:55:18.493Z",
+      "updated_at": "2026-10-14T12:59:02.211Z",
       "dependencies": [
+        "KWH-MCU-DESIGN-FREEZE",
         "KWH-MCU-GAME-INTEGRATION"
       ],
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/315",
-      "next_action": "Queued; dependency completion, role eligibility and a fresh exclusive claim/lease are required before execution.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/317",
+      "next_action": "Owner paused implementation on 2026-10-14. Do not execute until hierarchical system/inspection/resource design is complete and KWH-MCU-DESIGN-FREEZE closes; prior native prototype is not design approval.",
       "owner_agent": null,
-      "human_owner": "Jobo"
+      "human_owner": "Jobo",
+      "dispatch_allowed": false,
+      "implementation_hold": "OWNER_DESIGN_FIRST"
     },
     {
       "id": "KWH-MCU-INDEPENDENT-REVIEW",
@@ -4908,14 +4926,17 @@
       "priority": "P0",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T12:55:22.561Z",
+      "updated_at": "2026-10-14T12:59:05.008Z",
       "dependencies": [
+        "KWH-MCU-DESIGN-FREEZE",
         "KWH-MCU-FAULT-QUALIFICATION"
       ],
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/315",
-      "next_action": "Queued; dependency completion, role eligibility and a fresh exclusive claim/lease are required before execution.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/317",
+      "next_action": "Owner paused implementation on 2026-10-14. Do not execute until hierarchical system/inspection/resource design is complete and KWH-MCU-DESIGN-FREEZE closes; prior native prototype is not design approval.",
       "owner_agent": null,
-      "human_owner": "Jobo"
+      "human_owner": "Jobo",
+      "dispatch_allowed": false,
+      "implementation_hold": "OWNER_DESIGN_FIRST"
     },
     {
       "id": "KWH-MCU-CUTOVER",
@@ -4925,12 +4946,51 @@
       "priority": "P0",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T12:55:25.278Z",
+      "updated_at": "2026-10-14T12:59:07.327Z",
       "dependencies": [
+        "KWH-MCU-DESIGN-FREEZE",
         "KWH-MCU-INDEPENDENT-REVIEW"
       ],
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/315",
-      "next_action": "Queued; dependency completion, role eligibility and a fresh exclusive claim/lease are required before execution.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/317",
+      "next_action": "Owner paused implementation on 2026-10-14. Do not execute until hierarchical system/inspection/resource design is complete and KWH-MCU-DESIGN-FREEZE closes; prior native prototype is not design approval.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "dispatch_allowed": false,
+      "implementation_hold": "OWNER_DESIGN_FIRST"
+    },
+    {
+      "id": "KWH-MCU-SYSTEM-DESIGN",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Design first: hierarchical vehicle, component inspection and heterogeneous MCU architecture",
+      "state": "DONE",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T13:09:22.043Z",
+      "dependencies": [],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/317",
+      "dispatch_allowed": false,
+      "next_action": "Complete KWH-MCU-DESIGN-FREEZE design artifacts and independent review; no runtime work before freeze.",
+      "implementation_hold": null,
+      "owner_agent": "ChatGPT",
+      "human_owner": "Jobo"
+    },
+    {
+      "id": "KWH-MCU-DESIGN-FREEZE",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Finish and freeze complete vehicle system design before implementation",
+      "state": "READY",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T13:08:26.880Z",
+      "dependencies": [
+        "KWH-MCU-SYSTEM-DESIGN"
+      ],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/317",
+      "dispatch_allowed": true,
+      "next_action": "Design work may proceed under normal claim/lease. All MCU runtime implementation remains explicitly paused until this design gate closes.",
+      "implementation_hold": null,
       "owner_agent": null,
       "human_owner": "Jobo"
     }
@@ -5159,6 +5219,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-14T13:09:27.852Z",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-MCU-SYSTEM-DESIGN",
+      "summary": "Owner requested design first. Design-only PR #317 specifies hierarchical component inspection, 32 MCU allocation and five resource profiles. Runtime implementation paused; eight stages gated on open design freeze.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/317"
+    },
     {
       "at": "2026-10-14T12:57:36.264Z",
       "project_id": "kludge-wagon-haywire",
