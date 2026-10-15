@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-15T03:50:00Z",
+    "generated_at": "2026-10-15T03:51:36Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-15T03:42:37.449Z"
@@ -757,15 +757,17 @@
       "id": "KWH-DEPLOY-MEMBERS-SITE",
       "project_id": "kludge-wagon-haywire",
       "title": "Deploy to members-only site",
-      "state": "READY",
+      "state": "BLOCKED",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Ready for owner agent.",
-      "owner_agent": null,
+      "updated_at": "2026-10-15T03:51:36Z",
+      "next_action": "Blocked: link/designate the concrete authorized members-only host/domain and gate implementation. Deployment contract merged in PR #347 / a620afd34523358536ccdfdc7cef0255ebaa9b0d.",
+      "owner_agent": "chatgpt-kwh-members-deployer",
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c",
+      "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/347",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/177"
     },
     {
       "id": "KWH-DAILY-3D-CREDIT-CHECK",
@@ -6073,6 +6075,13 @@
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-FOOT-MODE",
       "summary": "Existing on-foot implementation verified; focused contract test merged via PR #344 at 72611e5d8f6bfe92984e5b6ef7ef11ce25d35153."
+    },
+    {
+      "at": "2026-10-15T03:51:36Z",
+      "type": "BLOCKED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-DEPLOY-MEMBERS-SITE",
+      "summary": "Deployment contract merged via PR #347; actual members-only deployment blocked on missing authorized host/domain/gate. KITT blocker issue #177."
     }
   ]
 }
