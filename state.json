@@ -8,7 +8,7 @@
     "generated_at": "2026-10-15T03:36:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
-    "updated_at": "2026-10-15T03:30:12.277Z"
+    "updated_at": "2026-10-15T03:36:31.510Z"
   },
   "projects": [
     {
@@ -4159,16 +4159,17 @@
       "id": "KWH-EP2-DEATH-VALLEY-WORLD",
       "project_id": "kludge-wagon-haywire",
       "title": "Ep2 Death Valley environment and level shell",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "codex-kwh-death-valley",
-      "claim_expires_at": "2026-10-16T03:29:34.921Z",
-      "updated_at": "2026-10-15T03:30:12.277Z",
-      "next_action": "Build and validate the Episode 2 Death Valley level using the existing steering ECU; preserve Episode 1 world and progress.",
-      "owner_agent": "codex-kwh-death-valley",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-15T03:36:31.510Z",
+      "next_action": "Browser-capable tester validates exact draft PR336; deterministic checks pass, desktop/touch and shipped/fixed steering C acceptance remain open.",
+      "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/253",
-      "dependency": "KWH-EP2-STEERING"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/336",
+      "dependency": "KWH-EP2-STEERING",
+      "blocker_issue": "https://github.com/tsrnc2/kitt/issues/173"
     },
     {
       "id": "KWH-KERNEL-HAL-OWNERSHIP-REPAIR",
