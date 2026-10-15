@@ -8,7 +8,7 @@
     "generated_at": "2026-10-14T16:46:21Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
-    "updated_at": "2026-10-15T01:29:52Z"
+    "updated_at": "2026-10-15T01:30:52.641Z"
   },
   "projects": [
     {
@@ -5176,6 +5176,19 @@
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/330"
+    },
+    {
+      "id": "pity-please-20261014-store-packaging",
+      "project_id": "pity-please",
+      "title": "Prepare verified Steam and Google Play packaging tools",
+      "state": "BLOCKED",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-14T17:33:23.804Z",
+      "owner_agent": null,
+      "source_ref": "https://github.com/tsrnc2/PityPlease/pull/134",
+      "next_action": "Draft PR #134 is tooling-only (19 fixture tests passed); actual authorized Godot/Android SDK builds, Steam/Play artifact checks, signing, device/16 KB compatibility and independent acceptance remain open. Build-host handoff: KITT issue #166. No merge, signing changes or store publication."
     }
   ],
   "blockers": [
@@ -5399,6 +5412,19 @@
       "issue_url": "https://github.com/tsrnc2/fly-by-wire-c/issues/20",
       "canonical_blocker_blob": "76b7160de3fa6ca9c87d5ca71b6b8b616aaee938",
       "updated_at": "2026-10-14T12:01:10.975Z"
+    },
+    {
+      "id": "pity-please-20261014-store-packaging-release-host",
+      "project_id": "pity-please",
+      "task_id": "pity-please-20261014-store-packaging",
+      "state": "OPEN",
+      "severity": "HIGH",
+      "category": "BUILD_SURFACE_AND_EXTERNAL_ACCEPTANCE",
+      "summary": "Real Steam/Google Play export and validation blocked: build host inaccessible and runtime/signing/store evidence missing; tooling draft PR #134 is unaccepted.",
+      "required_next_action": "Authorized build-host operator verifies exact PR #134, existing private signing identity, Android API 36 and real exported artifacts, then returns evidence for separate review.",
+      "issue_url": "https://github.com/tsrnc2/kitt/issues/166",
+      "updated_at": "2026-10-14T17:32:55.455Z",
+      "source_task_blob": "59ea6bd289446288ee7d7edaa61e935bacd2c603"
     }
   ],
   "activity": [
