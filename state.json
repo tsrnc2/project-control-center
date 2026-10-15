@@ -8,7 +8,7 @@
     "generated_at": "2026-10-15T03:57:26Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
-    "updated_at": "2026-10-15T03:42:37.449Z"
+    "updated_at": "2026-10-15T05:21:00Z"
   },
   "projects": [
     {
@@ -2487,15 +2487,18 @@
       "id": "KWH-MKT-CAPSULE-HEADER",
       "project_id": "kludge-wagon-haywire",
       "title": "Capsule art: header capsule 920x430",
-      "state": "READY",
+      "state": "CLAIMED",
       "priority": "P1",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T01:15:54Z",
-      "next_action": "Marketing. Acceptance: PNG + source file in assets/marketing/capsules; logo legible. Unclaimed.",
-      "owner_agent": null,
+      "claimed_by": "chatgpt-kwh-capsule-header-design",
+      "claim_expires_at": "2026-10-16T05:19:30Z",
+      "updated_at": "2026-10-15T05:21:00Z",
+      "next_action": "Delegated to chatgpt-kwh-capsule-header-design. When work begins, acquire/read back the canonical KITT lease, set task RUNNING, create exactly one 920x430 PNG plus editable/source artifact with original KWH/SR-404 branding, validate dimensions/legibility/license notes, publish a focused draft PR, record evidence, then release the lease. No Steamworks publication.",
+      "owner_agent": "chatgpt-kwh-capsule-header-design",
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/124"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/124",
+      "claimed_at": "2026-10-15T05:19:30Z",
+      "claim_heartbeat_at": "2026-10-15T05:19:30Z",
+      "canonical_task_blob": "e05f1f64314fe9fa5adb4be35d08acd5d5467dd5"
     },
     {
       "id": "KWH-MKT-CAPSULE-SMALL",
