@@ -8,7 +8,7 @@
     "generated_at": "2026-10-15T03:36:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
-    "updated_at": "2026-10-15T03:39:24.939Z"
+    "updated_at": "2026-10-15T03:40:14.527Z"
   },
   "projects": [
     {
@@ -5221,6 +5221,19 @@
       "claim_expires_at": null,
       "updated_at": "2026-10-15T03:39:24.939Z",
       "next_action": "REVISE findings in PR338: pin full resource ceilings and fail closed on numeric overflow; fresh exact-head review still required.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/338"
+    },
+    {
+      "id": "KWH-MCU-ADMISSION-CEILING-REPAIR-R3",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Pin reviewed profile ceilings and use bounded exact admission arithmetic",
+      "state": "RUNNING",
+      "priority": "P0",
+      "claimed_by": "codex-kwh-ceiling-repair",
+      "owner_agent": "codex-kwh-ceiling-repair",
+      "claim_expires_at": "2026-10-16T03:39:58.363Z",
+      "updated_at": "2026-10-15T03:40:14.527Z",
+      "next_action": "Repair only two PR338 findings on isolated successor; freeze remains open.",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/338"
     }
   ],
