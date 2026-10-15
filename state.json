@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-15T03:36:00Z",
+    "generated_at": "2026-10-15T03:40:10Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-15T03:40:14.527Z"
@@ -4502,12 +4502,12 @@
       "id": "KWH-LANDMARKS",
       "project_id": "kludge-wagon-haywire",
       "title": "Landmarks: 10 hidden + song + tracker; all-10 unlocks challenges",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P0",
       "claimed_by": "chatgpt-kwh-landmarks",
       "claim_expires_at": "2026-10-16T03:30:41Z",
-      "updated_at": "2026-10-15T03:31:00Z",
-      "next_action": "Implement exact 10-landmark discovery/tracker/unlock slice under canonical KITT lease.",
+      "updated_at": "2026-10-15T03:40:10Z",
+      "next_action": "Draft PR #337 exact head 40c8fa8725411a8c846dd6015721f84bb517aa54 awaits distinct Godot-capable runtime review via KWH-LANDMARKS-REVIEW-PR337 / fly-by-wire-c issue #339. Static author checks pass; no merge/DONE inferred.",
       "owner_agent": "chatgpt-kwh-landmarks",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/287"
@@ -5235,6 +5235,20 @@
       "updated_at": "2026-10-15T03:40:14.527Z",
       "next_action": "Repair only two PR338 findings on isolated successor; freeze remains open.",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/338"
+    },
+    {
+      "id": "KWH-LANDMARKS-REVIEW-PR337",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Independent Godot/runtime review of landmark candidate PR #337",
+      "state": "READY",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-15T03:39:50Z",
+      "next_action": "Distinct Godot-capable reviewer may claim exact-head review task; run landmarks test + Godot 4.3 smoke, then PASS/REVISE/BLOCKED.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/339"
     }
   ],
   "blockers": [
@@ -5474,6 +5488,17 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-15T03:40:10Z",
+      "type": "BLOCKER_RECONCILIATION",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-LANDMARKS",
+      "task_ids": [
+        "KWH-LANDMARKS",
+        "KWH-LANDMARKS-REVIEW-PR337"
+      ],
+      "summary": "Landmark candidate PR #337 published and author-validated; parent blocked only on exact-head Godot/runtime review, reviewer lane READY, execution lease released."
+    },
     {
       "at": "2026-10-15T03:35:51.379Z",
       "project_id": "kludge-wagon-haywire",
