@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-15T03:57:00Z",
+    "generated_at": "2026-10-15T03:57:26Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-15T03:42:37.449Z"
@@ -2671,15 +2671,17 @@
       "id": "KWH-MKT-DEVLOG-ANNOUNCE",
       "project_id": "kludge-wagon-haywire",
       "title": "Devlog / announcement post draft",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T01:15:54Z",
-      "next_action": "Marketing. Acceptance: Draft post (not published). Unclaimed.",
-      "owner_agent": null,
+      "updated_at": "2026-10-15T03:57:26Z",
+      "next_action": "Done: draft devlog merged via PR #351 at 206aa5eb8dd5b40a0673bacc9e31c5d1aea80f3d; human approval still required before posting.",
+      "owner_agent": "chatgpt-kwh-devlog-writer",
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/137"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/137",
+      "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/351",
+      "candidate_commit": "206aa5eb8dd5b40a0673bacc9e31c5d1aea80f3d"
     },
     {
       "id": "KWH-MKT-SOCIAL-X",
@@ -6089,6 +6091,13 @@
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-DEPLOY-MEMBERS-SITE",
       "summary": "Deployment contract merged via PR #347; actual members-only deployment blocked on missing authorized host/domain/gate. KITT blocker issue #177."
+    },
+    {
+      "at": "2026-10-15T03:57:26Z",
+      "type": "DONE",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-MKT-DEVLOG-ANNOUNCE",
+      "summary": "Grounded draft devlog merged via PR #351; no publication action performed."
     }
   ]
 }
