@@ -5,10 +5,10 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-15T03:57:26Z",
+    "generated_at": "2026-10-15T05:21:30Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
-    "updated_at": "2026-10-15T05:21:00Z"
+    "updated_at": "2026-10-15T05:21:30Z"
   },
   "projects": [
     {
@@ -5287,6 +5287,29 @@
       "next_action": "17 draft PRs skipped; five partial exact-main tests pass. Full browser/WASM/Android build and security/source qualification need an authorized build worker; no new prerelease.",
       "owner_agent": null,
       "human_owner": "Jobo"
+    },
+    {
+      "id": "PCC-KITT-20261014-ACTIONS-CAPACITY-RECOVERY",
+      "project_id": "kitt",
+      "title": "Restore GitHub Actions capacity and resume KITT truthfulness validation",
+      "state": "BLOCKED",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "owner_agent": "Portfolio Delegation Manager",
+      "delegated_to": "Portfolio Delegation Manager",
+      "human_owner": "Jobo",
+      "updated_at": "2026-10-15T05:21:30Z",
+      "source_ref": "https://github.com/tsrnc2/project-control-center/issues/85",
+      "next_action": "Wait for included GitHub Actions capacity reset on 2026-11-01 unless no-cost capacity is restored earlier. Then re-read PR #140, rerun exact CI/native workflows, require real steps/logs, and hand passing evidence to independent acceptance. No paid capacity without explicit approval.",
+      "resume_not_before": "2026-11-01",
+      "spending_authorized": false,
+      "downstream_refs": [
+        "https://github.com/tsrnc2/kitt/pull/140",
+        "https://github.com/tsrnc2/kitt/issues/148",
+        "https://github.com/tsrnc2/kitt/issues/83",
+        "https://github.com/tsrnc2/llm_reasoning_project/issues/238"
+      ]
     }
   ],
   "blockers": [
@@ -5523,9 +5546,27 @@
       "issue_url": "https://github.com/tsrnc2/kitt/issues/166",
       "updated_at": "2026-10-14T17:32:55.455Z",
       "source_task_blob": "59ea6bd289446288ee7d7edaa61e935bacd2c603"
+    },
+    {
+      "id": "PCC-KITT-20261014-ACTIONS-CAPACITY-BLOCKER",
+      "project_id": "kitt",
+      "task_id": "PCC-KITT-20261014-ACTIONS-CAPACITY-RECOVERY",
+      "state": "OPEN",
+      "severity": "HIGH",
+      "summary": "Shared GitHub-hosted Actions included minutes are exhausted and the $0 budget prevents further hosted execution. Current no-cost reset date is 2026-11-01; zero-step jobs are infrastructure evidence, not code-test failures.",
+      "required_next_action": "On or after 2026-11-01, or earlier if an account administrator confirms restored no-cost capacity, rerun the exact PR #140 CI/native jobs and preserve executed-step evidence. No paid capacity or alternative paid compute without explicit approval.",
+      "source_ref": "https://github.com/tsrnc2/project-control-center/issues/85",
+      "updated_at": "2026-10-15T05:21:30Z"
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-15T05:21:30Z",
+      "type": "TASK_DELEGATED",
+      "project_id": "kitt",
+      "task_id": "PCC-KITT-20261014-ACTIONS-CAPACITY-RECOVERY",
+      "summary": "Delegated GitHub Actions capacity recovery to Portfolio Delegation Manager. Task is BLOCKED until the 2026-11-01 included-usage reset or earlier confirmed no-cost restoration; first downstream qualification target is KITT PR #140."
+    },
     {
       "at": "2026-10-15T03:57:00Z",
       "type": "TASK_COMPLETION",
