@@ -5190,6 +5190,24 @@
       "owner_agent": null,
       "source_ref": "https://github.com/tsrnc2/PityPlease/pull/134",
       "next_action": "Draft PR #134 is tooling-only (19 fixture tests passed); actual authorized Godot/Android SDK builds, Steam/Play artifact checks, signing, device/16 KB compatibility and independent acceptance remain open. Build-host handoff: KITT issue #166. No merge, signing changes or store publication."
+    },
+    {
+      "id": "KWH-MCU-INSPECTION-CONTRACT-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Specify inspection instance actions, UI service API and save/rollback contract",
+      "state": "DONE",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-15T03:35:28.777Z",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/333",
+      "dependencies": [
+        "KWH-MCU-SYSTEM-DESIGN"
+      ],
+      "dispatch_allowed": false,
+      "next_action": "Parent freeze owner review/integration of pinned candidate 855ec6f8c5248cc9273da9367eeb78237b6283e5, followed by integrated design review; do not close freeze from this child delivery.",
+      "owner_agent": "ChatGPT",
+      "human_owner": "Jobo"
     }
   ],
   "blockers": [
@@ -5429,6 +5447,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-15T03:35:51.379Z",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-MCU-INSPECTION-CONTRACT-R1",
+      "summary": "P0 inspection design contract candidate delivered in PR #333: 32 bindings, design checks and 12 rejected negative mutations; parent freeze and runtime hold remain.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/333"
+    },
     {
       "at": "2026-10-15T03:36:00Z",
       "type": "TASK_COMPLETION",
