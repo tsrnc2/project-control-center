@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-15T03:45:00Z",
+    "generated_at": "2026-10-15T03:43:45Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-15T03:42:37.449Z"
@@ -4378,12 +4378,12 @@
       "id": "KWH-CAST-MODELS",
       "project_id": "kludge-wagon-haywire",
       "title": "Cast: replace temp GLBs with free Hunyuan3D + retopo/rig",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P0",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T16:49:04Z",
-      "next_action": "Partial: Jacob/girlfriend/Boss Hunyuan models + face lip-sync merged via #291. Remaining cast temp models still need free Hunyuan replace. READY for next agent.",
+      "updated_at": "2026-10-15T03:43:45Z",
+      "next_action": "Task complete under issue #279 fallback: three free Hunyuan replacements remain merged; nine temp cast models remain documented because no no-cost connected generation surface was available.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/279",
@@ -5501,6 +5501,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-15T03:43:45Z",
+      "type": "TASK_COMPLETED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-CAST-MODELS",
+      "summary": "Cast-model P0 closed under explicit free-quota fallback: three Hunyuan replacements verified; nine temp cast models remain documented; no paid generation used."
+    },
     {
       "at": "2026-10-15T03:45:00Z",
       "type": "BLOCKER_RECONCILIATION",
