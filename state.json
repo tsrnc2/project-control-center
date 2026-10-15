@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-15T03:47:35Z",
+    "generated_at": "2026-10-15T03:50:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-15T03:42:37.449Z"
@@ -4065,12 +4065,12 @@
       "id": "KWH-STORY-CLUE-TRAIL",
       "project_id": "kludge-wagon-haywire",
       "title": "Story: seed backdoor clue trail across missions/episodes",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T02:48:55Z",
-      "next_action": "Depends on STORY-KITTY-ARC + clue system. READY.",
+      "updated_at": "2026-10-15T03:50:00Z",
+      "next_action": "DONE via merged PR #345 at c6f8664e607a0ed5aa832bceee817fc68aa030f1. Runtime pickup/Manual/log/asm/gdb surfaces may consume the data-driven trail; confrontation remains separately gated.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/241"
@@ -5505,6 +5505,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-15T03:50:00Z",
+      "type": "TASK_COMPLETION",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-STORY-CLUE-TRAIL",
+      "summary": "Merged twelve-record multi-channel kernel-backdoor clue trail via PR #345; evidence/gate validation passed and canonical lease released."
+    },
     {
       "at": "2026-10-15T03:47:00Z",
       "type": "CONTROL_PLANE_RECONCILIATION",
