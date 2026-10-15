@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-15T03:43:45Z",
+    "generated_at": "2026-10-15T03:44:12Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-15T03:42:37.449Z"
@@ -1887,15 +1887,17 @@
       "id": "KWH-ECU-RESTORED-CHECKS",
       "project_id": "kludge-wagon-haywire",
       "title": "ECU: Ep2/Ep3 lesson checks + RESTORED beats for steering/throttle",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Check passes only with correct fix; RESTORED story beat fires",
-      "owner_agent": null,
+      "updated_at": "2026-10-15T03:44:12Z",
+      "next_action": "Done: behavioral RESTORED gates merged in fly-by-wire-c PR #343 at 2fb2c75cf40d2e52b80b004e7b648bccf5bfec93. Proceed to next dependency-ready gameplay task.",
+      "owner_agent": "chatgpt-kwh-ecu-restored-checks",
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/30"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/30",
+      "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/343",
+      "candidate_commit": "2fb2c75cf40d2e52b80b004e7b648bccf5bfec93"
     },
     {
       "id": "KWH-ECU-SAME-TICK",
@@ -6041,6 +6043,13 @@
       "type": "PROJECT_REGISTRY_UPDATE",
       "project_id": "safe-native-tooling-course",
       "summary": "Safe Native Tooling for LLM Agents in Modern C++ v2.3.0 published to tsrnc2/PersonalLessons main and registered under Personal Lesson Plan; hosted CI runner allocation and independent acceptance remain separately tracked."
+    },
+    {
+      "at": "2026-10-15T03:44:12Z",
+      "type": "DONE",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-ECU-RESTORED-CHECKS",
+      "summary": "Steering/throttle behavioral RESTORED gates merged via fly-by-wire-c PR #343 at 2fb2c75cf40d2e52b80b004e7b648bccf5bfec93; KITT task DONE and lease released."
     }
   ]
 }
