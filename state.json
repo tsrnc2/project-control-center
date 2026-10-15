@@ -5270,6 +5270,20 @@
       "updated_at": "2026-10-15T03:42:37.449Z",
       "next_action": "Independent reviewer claims canonical KITT task then executes exact PR341; repair author cannot accept own work.",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/341"
+    },
+    {
+      "id": "KITT-20261015-KWH-EOD-INTEGRATION-CHECK",
+      "project_id": "kitt",
+      "title": "Check daily KWH merge eligibility, exact-main tests and Android prerelease capability",
+      "state": "BLOCKED",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-15T04:54:28.434Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/issues/178",
+      "next_action": "17 draft PRs skipped; five partial exact-main tests pass. Full browser/WASM/Android build and security/source qualification need an authorized build worker; no new prerelease.",
+      "owner_agent": null,
+      "human_owner": "Jobo"
     }
   ],
   "blockers": [
