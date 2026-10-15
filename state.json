@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-15T03:41:00Z",
+    "generated_at": "2026-10-15T03:45:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-15T03:42:37.449Z"
@@ -5240,12 +5240,12 @@
       "id": "KWH-LANDMARKS-REVIEW-PR337",
       "project_id": "kludge-wagon-haywire",
       "title": "Independent Godot/runtime review of landmark candidate PR #337",
-      "state": "READY",
+      "state": "BLOCKED",
       "priority": "P0",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-15T03:39:50Z",
-      "next_action": "Distinct Godot-capable reviewer may claim exact-head review task; run landmarks test + Godot 4.3 smoke, then PASS/REVISE/BLOCKED.",
+      "updated_at": "2026-10-15T03:45:00Z",
+      "next_action": "Static/logic review passed exact head 40c8fa8725411a8c846dd6015721f84bb517aa54. Still requires literal tests/landmarks_test.js plus Godot 4.3 headless/project smoke on a Godot-capable checkout; this runner lacks Godot and outbound download/DNS.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/339"
@@ -5501,6 +5501,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-15T03:45:00Z",
+      "type": "BLOCKER_RECONCILIATION",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-LANDMARKS-REVIEW-PR337",
+      "summary": "Exact-head static/logic review passed; Godot 4.3 runtime gate remains blocked because the reviewer runner has no Godot binary and outbound download/DNS is unavailable. Lease released."
+    },
     {
       "at": "2026-10-15T03:41:00Z",
       "type": "TASK_COMPLETION",
