@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-15T16:46:00Z",
+    "generated_at": "2026-10-15T17:00:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-15T05:21:30Z"
@@ -5395,6 +5395,35 @@
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/357",
       "next_action": "READY for a distinct repository-capable reviewer to execute PR #357 exact-head validator/regressions/adversarial probes."
+    },
+    {
+      "id": "KWH-MCU-INSPECTION-CONTRACT-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Independently review exact PR333 inspection/API/save contract",
+      "state": "DONE",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-15T16:56:00Z",
+      "next_action": "DONE with REVISE on PR #333 exact head; current manifest taxonomy/digest integration is required before inspection contract acceptance.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/333"
+    },
+    {
+      "id": "KWH-MCU-INSPECTION-CONTRACT-REPAIR-R2",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Integrate inspection/API/save contract with accepted exact manifest",
+      "state": "READY",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-15T16:58:00Z",
+      "next_action": "Wait for independent PR357 manifest review. On positive exact-head acceptance, bind that exact manifest/admission digest, then claim/lease this repair and integrate PR333 semantics onto it.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/333",
+      "dispatch_allowed": false
     }
   ],
   "blockers": [
@@ -5645,6 +5674,16 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-15T17:00:00Z",
+      "type": "MCU_INSPECTION_REVIEW_RECONCILIATION",
+      "project_id": "kludge-wagon-haywire",
+      "task_ids": [
+        "KWH-MCU-INSPECTION-CONTRACT-REVIEW-R1",
+        "KWH-MCU-INSPECTION-CONTRACT-REPAIR-R2"
+      ],
+      "summary": "Mirrored PR333 inspection review REVISE and dependency-held repair task. Repair cannot dispatch until exact manifest successor is independently accepted; runtime remains held."
+    },
     {
       "at": "2026-10-15T16:46:00Z",
       "type": "MCU_MANIFEST_REVIEW_REPAIR_RECONCILIATION",
