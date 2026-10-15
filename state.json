@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-15T03:31:00Z",
+    "generated_at": "2026-10-15T03:36:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-15T03:30:12.277Z"
@@ -4103,12 +4103,12 @@
       "id": "KWH-STORY-BACKDOOR",
       "project_id": "kludge-wagon-haywire",
       "title": "Story: kernel backdoor bug (real C, gdb/asm/audit discoverable)",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P0",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T02:48:55Z",
-      "next_action": "Teaching-focused real C backdoor + tests. READY.",
+      "updated_at": "2026-10-15T03:36:00Z",
+      "next_action": "DONE via merged fly-by-wire-c PR #334 at main c160996f58bcb2ed667fdc663d16f2dde9247569; downstream clue-trail/confrontation/ending tasks may now consume the teaching-safe kernel defect.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/244"
@@ -5429,6 +5429,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-15T03:36:00Z",
+      "type": "TASK_COMPLETION",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-STORY-BACKDOOR",
+      "summary": "Merged teaching-safe kernel backdoor lesson via PR #334; deterministic buggy/fixed tests and debugger-visible kernel integration passed; canonical lease released."
+    },
     {
       "at": "2026-10-15T03:31:00Z",
       "type": "CONTROL_PLANE_SYNC",
