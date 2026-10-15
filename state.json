@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-15T16:22:00Z",
+    "generated_at": "2026-10-15T16:46:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-15T05:21:30Z"
@@ -5353,6 +5353,48 @@
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/354",
       "next_action": "READY for a distinct repository-capable reviewer. Execute PR #354 exact head tests/adversarial probes; repair author must not self-accept."
+    },
+    {
+      "id": "KWH-MCU-DESIGN-MANIFEST-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Independently review exact PR350 MCU manifest repair",
+      "state": "DONE",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-15T16:34:00Z",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/350",
+      "next_action": "DONE with REVISE on PR #350 exact head; bounded validator-only successor is PR #357."
+    },
+    {
+      "id": "KWH-MCU-DESIGN-MANIFEST-REPAIR-R2",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Repair PR350 exact-manifest validator binding gaps",
+      "state": "DONE",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-15T16:44:00Z",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/350",
+      "next_action": "DONE: PR #357 exact head f578cf61009d49b68f833456199ebd20c38b612b published; await distinct repository-capable exact-head review."
+    },
+    {
+      "id": "KWH-MCU-DESIGN-MANIFEST-REVIEW-R2",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Independently execute/review exact PR357 manifest validator repair",
+      "state": "READY",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-15T16:44:00Z",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/357",
+      "next_action": "READY for a distinct repository-capable reviewer to execute PR #357 exact-head validator/regressions/adversarial probes."
     }
   ],
   "blockers": [
@@ -5603,6 +5645,17 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-15T16:46:00Z",
+      "type": "MCU_MANIFEST_REVIEW_REPAIR_RECONCILIATION",
+      "project_id": "kludge-wagon-haywire",
+      "task_ids": [
+        "KWH-MCU-DESIGN-MANIFEST-REVIEW-R1",
+        "KWH-MCU-DESIGN-MANIFEST-REPAIR-R2",
+        "KWH-MCU-DESIGN-MANIFEST-REVIEW-R2"
+      ],
+      "summary": "Mirrored exact PR350 manifest review REVISE, completed validator-only PR357 repair, and fresh independent exact-head review lane. No design freeze/runtime implementation inferred."
+    },
     {
       "at": "2026-10-15T16:22:00Z",
       "type": "MCU_DESIGN_REVIEW_RECONCILIATION",
