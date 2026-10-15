@@ -8,7 +8,7 @@
     "generated_at": "2026-10-14T16:46:21Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
-    "updated_at": "2026-10-14T13:49:00-07:00"
+    "updated_at": "2026-10-15T01:28:08Z"
   },
   "projects": [
     {
@@ -1943,17 +1943,17 @@
       "id": "KWH-WB-GPL-OFFER",
       "project_id": "kludge-wagon-haywire",
       "title": "Workbench: GPL source offer for gcc/gdb/Linux/Alpine",
-      "state": "BLOCKED",
+      "state": "RUNNING",
       "priority": "P0",
       "claimed_by": "chatgpt-kwh-gpl-docs",
       "claim_expires_at": "2026-10-15T01:31:00Z",
-      "updated_at": "2026-10-14T12:01:32Z",
-      "next_action": "PR #199 source-offer/provenance gate is merged on main (merge 1150d086e660411413abd950a4e09f036dd83439). Remaining gate requires an authenticated networked build surface: clean Workbench rebuild, generated provenance, exact installed-package-to-source bundle, check_source_release.sh pass on the frozen VM candidate, then independent source/license review. Current worker surface cannot resolve github.com; no public-release/source-closure claim.",
+      "updated_at": "2026-10-15T01:28:08Z",
+      "next_action": "Terminal docs-scope reconciliation is active under the canonical KITT lease. Source-offer documentation is merged; remaining clean rebuild/source-bundle qualification will be moved to a separate task before this task closes.",
       "owner_agent": "chatgpt-kwh-gpl-docs",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/105",
       "claimed_at": "2026-10-14T01:31:00Z",
-      "claim_heartbeat_at": "2026-10-14T12:01:32Z"
+      "claim_heartbeat_at": "2026-10-15T01:28:08Z"
     },
     {
       "id": "KWH-WB-64BIT",
