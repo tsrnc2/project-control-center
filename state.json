@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-14T16:46:21Z",
+    "generated_at": "2026-10-15T03:31:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-15T03:30:12.277Z"
@@ -4501,13 +4501,13 @@
       "id": "KWH-LANDMARKS",
       "project_id": "kludge-wagon-haywire",
       "title": "Landmarks: 10 hidden + song + tracker; all-10 unlocks challenges",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P0",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T04:42:17Z",
-      "next_action": "Original/licensed-free music only. READY unclaimed.",
-      "owner_agent": null,
+      "claimed_by": "chatgpt-kwh-landmarks",
+      "claim_expires_at": "2026-10-16T03:30:41Z",
+      "updated_at": "2026-10-15T03:31:00Z",
+      "next_action": "Implement exact 10-landmark discovery/tracker/unlock slice under canonical KITT lease.",
+      "owner_agent": "chatgpt-kwh-landmarks",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/287"
     },
@@ -5429,6 +5429,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-15T03:31:00Z",
+      "type": "CONTROL_PLANE_SYNC",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-LANDMARKS",
+      "summary": "Mirrored canonical RUNNING P0 landmark task; scope excludes challenge implementation and paused MCU runtime work."
+    },
     {
       "at": "2026-10-14T13:09:27.852Z",
       "project_id": "kludge-wagon-haywire",
