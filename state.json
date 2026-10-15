@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-15T05:21:30Z",
+    "generated_at": "2026-10-15T16:22:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-15T05:21:30Z"
@@ -5265,14 +5265,15 @@
       "id": "KWH-MCU-ADMISSION-CEILING-REVIEW-R3",
       "project_id": "kludge-wagon-haywire",
       "title": "Independently review exact PR341 profile-ceiling repair",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P0",
-      "claimed_by": null,
+      "claimed_by": "chatgpt-kwh-admission-ceiling-review-r3",
       "owner_agent": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-15T03:42:37.449Z",
-      "next_action": "Independent reviewer claims canonical KITT task then executes exact PR341; repair author cannot accept own work.",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/341"
+      "claim_expires_at": "2026-10-16T03:54:00Z",
+      "updated_at": "2026-10-15T03:54:30Z",
+      "next_action": "Canonical claim remains owned by chatgpt-kwh-admission-ceiling-review-r3 through 2026-10-16T03:54:00Z, but its execution lease expired 2026-10-15T05:54:00Z. Recorded owner must reconcile/reacquire the lease before further review; do not steal or duplicate the task.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/341",
+      "human_owner": "Jobo"
     },
     {
       "id": "KITT-20261015-KWH-EOD-INTEGRATION-CHECK",
@@ -5310,6 +5311,48 @@
         "https://github.com/tsrnc2/kitt/issues/83",
         "https://github.com/tsrnc2/llm_reasoning_project/issues/238"
       ]
+    },
+    {
+      "id": "KWH-MCU-TIMING-LINK-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Independently review exact PR352 MCU CPU/network timing admission",
+      "state": "DONE",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-15T16:10:00Z",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/352",
+      "next_action": "DONE with REVISE on PR #352 exact head 02646b68d54c79ef4645bafb2141be23e9c0c3f2; successor repair is PR #354. No design freeze/runtime acceptance."
+    },
+    {
+      "id": "KWH-MCU-TIMING-LINK-REPAIR-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Repair PR352 timing checker review findings",
+      "state": "DONE",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-15T16:20:00Z",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/352",
+      "next_action": "DONE: draft successor PR #354 exact head 17ba0dbd109abe0c28a7e4b4d9b0d6d64eacbf45 published. Await distinct repository-capable exact-head review via KWH-MCU-TIMING-LINK-REVIEW-R2 / issue #355."
+    },
+    {
+      "id": "KWH-MCU-TIMING-LINK-REVIEW-R2",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Independently execute/review exact PR354 timing-link repair",
+      "state": "READY",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-15T16:20:00Z",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/354",
+      "next_action": "READY for a distinct repository-capable reviewer. Execute PR #354 exact head tests/adversarial probes; repair author must not self-accept."
     }
   ],
   "blockers": [
@@ -5560,6 +5603,18 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-15T16:22:00Z",
+      "type": "MCU_DESIGN_REVIEW_RECONCILIATION",
+      "project_id": "kludge-wagon-haywire",
+      "task_ids": [
+        "KWH-MCU-TIMING-LINK-REVIEW-R1",
+        "KWH-MCU-TIMING-LINK-REPAIR-R1",
+        "KWH-MCU-TIMING-LINK-REVIEW-R2",
+        "KWH-MCU-ADMISSION-CEILING-REVIEW-R3"
+      ],
+      "summary": "Mirrored PR352 timing review REVISE, completed PR354 repair candidate, new exact-head review lane, and the still-owned PR341 review whose execution lease is expired. No runtime implementation or design freeze inferred."
+    },
     {
       "at": "2026-10-15T05:21:30Z",
       "type": "TASK_DELEGATED",
