@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-15T03:47:00Z",
+    "generated_at": "2026-10-15T03:47:35Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-15T03:42:37.449Z"
@@ -1281,15 +1281,17 @@
       "id": "KWH-FOOT-MODE",
       "project_id": "kludge-wagon-haywire",
       "title": "On-foot mode: E to exit/enter car, walk as Jacob, camera",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: E toggles; Jacob CharacterBody3D with walk/run; camera follow; can re-enter car",
-      "owner_agent": null,
+      "updated_at": "2026-10-15T03:47:35Z",
+      "next_action": "Done: existing on-foot gameplay verified and focused regression coverage merged in fly-by-wire-c PR #344 at 72611e5d8f6bfe92984e5b6ef7ef11ce25d35153.",
+      "owner_agent": "chatgpt-kwh-foot-mode-verifier",
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/66"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/66",
+      "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/344",
+      "candidate_commit": "72611e5d8f6bfe92984e5b6ef7ef11ce25d35153"
     },
     {
       "id": "KWH-TUNNEL-KIT",
@@ -6057,6 +6059,13 @@
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-ECU-RESTORED-CHECKS",
       "summary": "Steering/throttle behavioral RESTORED gates merged via fly-by-wire-c PR #343 at 2fb2c75cf40d2e52b80b004e7b648bccf5bfec93; KITT task DONE and lease released."
+    },
+    {
+      "at": "2026-10-15T03:47:35Z",
+      "type": "DONE",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-FOOT-MODE",
+      "summary": "Existing on-foot implementation verified; focused contract test merged via PR #344 at 72611e5d8f6bfe92984e5b6ef7ef11ce25d35153."
     }
   ]
 }
