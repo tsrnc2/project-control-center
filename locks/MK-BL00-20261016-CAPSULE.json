@@ -1,9 +1,0 @@
-{
-  "task_id": "MK-BL00-20261016-CAPSULE",
-  "project_id": "microkernel",
-  "agent_id": "chatgpt-bl00",
-  "lock_token": "bl00-20261016-7e43c9d2",
-  "acquired_at": "2026-10-16T13:15:55.897Z",
-  "expires_at": "2026-10-16T15:15:55.897Z",
-  "run_ref": "bootloader-capsule-20261016"
-}
