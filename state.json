@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-16T01:31:00Z",
+    "generated_at": "2026-10-16T01:47:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-15T05:21:30Z"
@@ -5074,17 +5074,17 @@
       "title": "Finish and freeze complete vehicle system design before implementation",
       "state": "CLAIMED",
       "priority": "P0",
-      "claimed_by": "chatgpt-kwh-design-admission",
-      "claim_expires_at": "2026-10-15T17:15:22.453Z",
-      "updated_at": "2026-10-14T17:21:06.631Z",
+      "claimed_by": "chatgpt-kwh-design-freeze-r2",
+      "claim_expires_at": "2026-10-17T01:24:00Z",
+      "updated_at": "2026-10-16T01:45:00Z",
       "dependencies": [
         "KWH-MCU-SYSTEM-DESIGN"
       ],
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/326",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/315",
       "dispatch_allowed": true,
-      "next_action": "Continue design-only exact component/pin/signal manifests, capture burst/jitter contracts and complete network latency; then plant/fault/oracles, inspection/API/save mappings and separate independent design review before freeze. Runtime implementation remains held.",
+      "next_action": "Wait for/coordinate independent exact-head reviews of PR341/354/357/364. When PR357 is positively accepted, dispatch the held inspection R2 repair against that exact digest. Integrate only accepted successors, rerun complete design validation, then obtain final independent design review. Keep all eight MCU runtime stages dispatch_allowed=false.",
       "implementation_hold": "DESIGN_FREEZE_INCOMPLETE",
-      "owner_agent": "chatgpt-kwh-design-admission",
+      "owner_agent": null,
       "human_owner": "Jobo",
       "claimed_at": "2026-10-14T17:15:22.453Z",
       "claim_heartbeat_at": "2026-10-14T17:21:06.631Z",
@@ -5422,6 +5422,34 @@
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/333",
       "dispatch_allowed": false
+    },
+    {
+      "id": "KWH-MCU-PLANT-FAULT-CONTRACT",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Specify plant equations, actuator fault/recovery contracts and deterministic oracles",
+      "state": "DONE",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-16T01:42:00Z",
+      "next_action": "DONE authoring: draft PR #364 exact head 5311d52f0f5a0670587db6b625a37b359d060630 published; independent review pending. No full freeze/runtime claim.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/364"
+    },
+    {
+      "id": "KWH-MCU-PLANT-FAULT-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Independently execute/review exact PR364 plant fault oracle design",
+      "state": "READY",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-16T01:42:00Z",
+      "next_action": "READY for a distinct repository-capable reviewer to execute exact PR #364 validator/tests and adversarial plant/fault/oracle review.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/364"
     }
   ],
   "blockers": [
@@ -5672,6 +5700,17 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-16T01:47:00Z",
+      "type": "MCU_DESIGN_FREEZE_TAKEOVER_AND_PLANT_TRANCHE",
+      "project_id": "kludge-wagon-haywire",
+      "task_ids": [
+        "KWH-MCU-DESIGN-FREEZE",
+        "KWH-MCU-PLANT-FAULT-CONTRACT",
+        "KWH-MCU-PLANT-FAULT-REVIEW-R1"
+      ],
+      "summary": "Expired design-freeze claim was safely taken over with no live lease; plant/fault/oracle authoring completed as PR364; parent returned to CLAIMED with lease released and runtime MCU stages still held."
+    },
     {
       "at": "2026-10-16T01:30:20Z",
       "type": "DONE",
