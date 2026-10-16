@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-16T01:56:00Z",
+    "generated_at": "2026-10-16T23:41:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-15T05:21:30Z"
@@ -5467,6 +5467,34 @@
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/315",
       "dispatch_allowed": false
+    },
+    {
+      "id": "KWH-MCU-PLANT-FAULT-REPAIR-R3",
+      "project_id": "kludge-wagon-haywire",
+      "human_owner": "Jobo",
+      "title": "Repair PR370 PF2 suspension/oracle/numeric/topology/actuator safety findings",
+      "state": "DONE",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-16T23:40:00Z",
+      "next_action": "DONE: R3 successor PR #375 frozen at e3ac1ba8d341c8ad925373df120d0eb2dd7bbf8a. Await distinct exact-head execution review via KWH-MCU-PLANT-FAULT-REVIEW-R3 / issue #376; no integration/runtime authorization.",
+      "owner_agent": "chatgpt-kwh-plant-fault-repair-r3",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/375"
+    },
+    {
+      "id": "KWH-MCU-PLANT-FAULT-REVIEW-R3",
+      "project_id": "kludge-wagon-haywire",
+      "human_owner": "Jobo",
+      "title": "Independently execute/review exact PR375 plant/fault PF2 repair",
+      "state": "READY",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-16T23:39:00Z",
+      "next_action": "Distinct repository-capable reviewer must execute checker/regressions on exact head e3ac1ba8d341c8ad925373df120d0eb2dd7bbf8a, recompute suspension equilibrium/braking loads, rerun PF2 probes, and publish immutable verdict.",
+      "owner_agent": null,
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/376"
     }
   ],
   "blockers": [
@@ -5717,6 +5745,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-16T23:40:00Z",
+      "type": "DONE",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-MCU-PLANT-FAULT-REPAIR-R3",
+      "summary": "PF2 R3 repair published as draft PR #375 exact head e3ac1ba8; author lease released; fresh independent execution review registered as KWH-MCU-PLANT-FAULT-REVIEW-R3 / issue #376."
+    },
     {
       "at": "2026-10-16T01:55:00Z",
       "type": "REVIEW_COMPLETE",
