@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-15T17:00:00Z",
+    "generated_at": "2026-10-16T01:28:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-15T05:21:30Z"
@@ -1737,8 +1737,8 @@
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T03:28:00Z",
-      "next_action": "Done on main via PR #256. Current main cutscene source is byte-identical to the tested salvage head: data-driven missions.json playback, explicit Skip scene control, and CAT lines rendered as visible italic captions. The duplicate worker claim was released.",
+      "updated_at": "2026-10-16T01:20:00Z",
+      "next_action": "Complete: reusable data-driven cutscene system is on merged main via PR #256; issue #98 is closed. Mission-specific content remains separately tracked.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/98",
@@ -1805,12 +1805,12 @@
       "id": "KWH-ECU-BRAKES",
       "project_id": "kludge-wagon-haywire",
       "title": "ECU: brakes (brake_cmd + ABS) in player C",
-      "state": "CLAIMED",
+      "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "chatgpt-kwh-ecu-brakes",
-      "claim_expires_at": "2026-10-15T02:24:00Z",
-      "updated_at": "2026-10-14T02:24:00Z",
-      "next_action": "Assigned to chatgpt-kwh-ecu-brakes; acquire an execution lock only when the worker starts.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-16T01:24:00Z",
+      "next_action": "Draft PR #360 exact head 209071446814ca9ed18f8f67249a3b356882b3e1 implements the real brake/ABS ECU. Run KWH-ECU-BRAKES-TEST-R1 with node tests/ecu_test.js on that exact head before review/merge.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/27",
@@ -3344,17 +3344,17 @@
       "id": "KWH-BLD-MATERIALS",
       "project_id": "kludge-wagon-haywire",
       "title": "Buildings: material library (wood/brick/stone/concrete/stucco/metal-glass)",
-      "state": "CLAIMED",
+      "state": "READY",
       "priority": "P1",
-      "claimed_by": "chatgpt-kwh-building-materials",
-      "claim_expires_at": "2026-10-15T02:24:00Z",
-      "updated_at": "2026-10-14T02:24:00Z",
-      "next_action": "Assigned to chatgpt-kwh-building-materials; acquire an execution lock only when the worker starts.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-16T01:27:00Z",
+      "next_action": "Expired claim released; issue #187 remains open. Assign a generator worker only when capacity is available and acquire a canonical lease before source/assets changes.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/187",
-      "claimed_at": "2026-10-14T02:24:00Z",
-      "claim_heartbeat_at": "2026-10-14T02:24:00Z"
+      "claimed_at": null,
+      "claim_heartbeat_at": null
     },
     {
       "id": "KWH-BLD-KIT",
@@ -6303,6 +6303,18 @@
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-MKT-DEVLOG-ANNOUNCE",
       "summary": "Grounded draft devlog merged via PR #351; no publication action performed."
+    },
+    {
+      "at": "2026-10-16T01:28:00Z",
+      "type": "TASK_RECONCILIATION",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-ECU-BRAKES",
+      "task_ids": [
+        "KWH-ECU-BRAKES",
+        "KWH-EP1-CUTSCENE-SYS",
+        "KWH-BLD-MATERIALS"
+      ],
+      "summary": "Reconciled cutscene core to DONE from merged PR #256; published brake ECU draft PR #360 and blocked it only on exact-head WASM regression testing; released expired building-material claim back to READY."
     }
   ]
 }
