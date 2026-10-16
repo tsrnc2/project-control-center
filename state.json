@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-16T01:28:00Z",
+    "generated_at": "2026-10-16T01:31:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-15T05:21:30Z"
@@ -2960,17 +2960,15 @@
       "id": "KWH-CLUE-WORLD",
       "project_id": "kludge-wagon-haywire",
       "title": "Clue→lesson: world pickups per mission + top-box storage",
-      "state": "CLAIMED",
+      "state": "DONE",
       "priority": "P1",
-      "claimed_by": "chatgpt-kwh-clue-world",
-      "claim_expires_at": "2026-10-15T02:52:00Z",
-      "updated_at": "2026-10-14T02:52:00Z",
-      "next_action": "Assigned to chatgpt-kwh-clue-world. Acquire the canonical KITT execution lease before implementing world pickups/inventory; consume the merged clue schema and keep reveal/gating/gutter work separate.",
-      "owner_agent": null,
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-16T01:30:20Z",
+      "next_action": "Done: Ep1 Bodie normal/super clue pickups + persistent inventory/topbox_lock-gated storage merged in fly-by-wire-c PR #361 as d4656f1655f3edbe43a8761ed39b3154da325894; issue #158 closed.",
+      "owner_agent": "chatgpt-kwh-clue-world-takeover",
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/158",
-      "claimed_at": "2026-10-14T02:52:00Z",
-      "claim_heartbeat_at": "2026-10-14T02:52:00Z"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/158"
     },
     {
       "id": "KWH-CLUE-REVEAL",
@@ -5674,6 +5672,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-16T01:30:20Z",
+      "type": "DONE",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-CLUE-WORLD",
+      "summary": "KWH-CLUE-WORLD completed after stale-claim takeover: Bodie normal/super pickups, persistent inventory and topbox_lock-gated storage merged via fly-by-wire-c PR #361 (d4656f16); issue #158 closed; canonical lease released."
+    },
     {
       "at": "2026-10-15T17:00:00Z",
       "type": "MCU_INSPECTION_REVIEW_RECONCILIATION",
