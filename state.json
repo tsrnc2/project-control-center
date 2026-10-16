@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-16T01:47:00Z",
+    "generated_at": "2026-10-16T01:52:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-15T05:21:30Z"
@@ -5076,13 +5076,13 @@
       "priority": "P0",
       "claimed_by": "chatgpt-kwh-design-freeze-r2",
       "claim_expires_at": "2026-10-17T01:24:00Z",
-      "updated_at": "2026-10-16T01:45:00Z",
+      "updated_at": "2026-10-16T01:50:00Z",
       "dependencies": [
         "KWH-MCU-SYSTEM-DESIGN"
       ],
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/315",
       "dispatch_allowed": true,
-      "next_action": "Wait for/coordinate independent exact-head reviews of PR341/354/357/364. When PR357 is positively accepted, dispatch the held inspection R2 repair against that exact digest. Integrate only accepted successors, rerun complete design validation, then obtain final independent design review. Keep all eight MCU runtime stages dispatch_allowed=false.",
+      "next_action": "Coordinate exact-head reviews PR341/PR354/PR357/PR364. After positive PR357 acceptance, execute and independently review the held inspection R2 repair. Only then enable KWH-MCU-DESIGN-INTEGRATION-R1; integrate exact accepted successors, rerun all design validators, and obtain final independent full-design review. Keep downstream MCU runtime tasks held.",
       "implementation_hold": "DESIGN_FREEZE_INCOMPLETE",
       "owner_agent": null,
       "human_owner": "Jobo",
@@ -5269,9 +5269,10 @@
       "owner_agent": null,
       "claim_expires_at": "2026-10-16T03:54:00Z",
       "updated_at": "2026-10-15T03:54:30Z",
-      "next_action": "Canonical claim remains owned by chatgpt-kwh-admission-ceiling-review-r3 through 2026-10-16T03:54:00Z, but its execution lease expired 2026-10-15T05:54:00Z. Recorded owner must reconcile/reacquire the lease before further review; do not steal or duplicate the task.",
+      "next_action": "Existing reviewer retains durable claim through 2026-10-16T03:54:00Z; its execution lease is expired. Owner must reacquire/reconcile before further execution; do not duplicate.",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/341",
-      "human_owner": "Jobo"
+      "human_owner": "Jobo",
+      "dispatch_allowed": true
     },
     {
       "id": "KITT-20261015-KWH-EOD-INTEGRATION-CHECK",
@@ -5342,15 +5343,15 @@
       "id": "KWH-MCU-TIMING-LINK-REVIEW-R2",
       "project_id": "kludge-wagon-haywire",
       "title": "Independently execute/review exact PR354 timing-link repair",
-      "state": "READY",
+      "state": "BLOCKED",
       "priority": "P0",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-15T16:20:00Z",
+      "claimed_by": "chatgpt-kwh-timing-reviewer-r2",
+      "claim_expires_at": "2026-10-17T01:35:00Z",
+      "updated_at": "2026-10-16T01:45:00Z",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/354",
-      "next_action": "READY for a distinct repository-capable reviewer. Execute PR #354 exact head tests/adversarial probes; repair author must not self-accept."
+      "next_action": "A distinct repository-capable reviewer, preferably provider-diverse, must run `python3 tests/vehicle_timing_admission_test.py`, `python3 tests/vehicle_timing_review_regression_test.py`, and `python3 tools/check_vehicle_timing_admission.py` on exact PR354 head and return immutable PASS/REVISE evidence."
     },
     {
       "id": "KWH-MCU-DESIGN-MANIFEST-REVIEW-R1",
@@ -5384,15 +5385,15 @@
       "id": "KWH-MCU-DESIGN-MANIFEST-REVIEW-R2",
       "project_id": "kludge-wagon-haywire",
       "title": "Independently execute/review exact PR357 manifest validator repair",
-      "state": "READY",
+      "state": "BLOCKED",
       "priority": "P0",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-15T16:44:00Z",
+      "claimed_by": "chatgpt-kwh-manifest-reviewer-r2",
+      "claim_expires_at": "2026-10-17T01:20:00Z",
+      "updated_at": "2026-10-16T01:31:00Z",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/357",
-      "next_action": "READY for a distinct repository-capable reviewer to execute PR #357 exact-head validator/regressions/adversarial probes."
+      "next_action": "A distinct repository-capable reviewer, preferably a non-OpenAI/provider-diverse route, must run the exact PR357 Python validator/regressions and confirm the same adversarial probes on head f578cf61009d49b68f833456199ebd20c38b612b. Until then KWH-MCU-INSPECTION-CONTRACT-REPAIR-R2 remains held."
     },
     {
       "id": "KWH-MCU-INSPECTION-CONTRACT-REVIEW-R1",
@@ -5432,7 +5433,7 @@
       "claimed_by": null,
       "claim_expires_at": null,
       "updated_at": "2026-10-16T01:42:00Z",
-      "next_action": "DONE authoring: draft PR #364 exact head 5311d52f0f5a0670587db6b625a37b359d060630 published; independent review pending. No full freeze/runtime claim.",
+      "next_action": "DONE authoring at PR #364 exact head 5311d52f0f5a0670587db6b625a37b359d060630; independent review required before integration.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/364"
@@ -5446,10 +5447,25 @@
       "claimed_by": null,
       "claim_expires_at": null,
       "updated_at": "2026-10-16T01:42:00Z",
-      "next_action": "READY for a distinct repository-capable reviewer to execute exact PR #364 validator/tests and adversarial plant/fault/oracle review.",
+      "next_action": "READY for a distinct repository-capable reviewer on issue #365 / PR #364.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/364"
+    },
+    {
+      "id": "KWH-MCU-DESIGN-INTEGRATION-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Integrate independently accepted MCU design tranches into one frozen candidate",
+      "state": "READY",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-16T01:49:00Z",
+      "next_action": "Held. Complete positive exact-head reviews for admission PR341, timing PR354, manifest PR357 and plant PR364; after manifest acceptance, execute/review the held inspection repair. Then enable this integration task.",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/315",
+      "dispatch_allowed": false
     }
   ],
   "blockers": [
@@ -5700,6 +5716,22 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-16T01:52:00Z",
+      "type": "MCU_DESIGN_FRONTIER_SYNC",
+      "project_id": "kludge-wagon-haywire",
+      "task_ids": [
+        "KWH-MCU-DESIGN-FREEZE",
+        "KWH-MCU-PLANT-FAULT-CONTRACT",
+        "KWH-MCU-PLANT-FAULT-REVIEW-R1",
+        "KWH-MCU-DESIGN-INTEGRATION-R1",
+        "KWH-MCU-INSPECTION-CONTRACT-REPAIR-R2",
+        "KWH-MCU-TIMING-LINK-REVIEW-R2",
+        "KWH-MCU-DESIGN-MANIFEST-REVIEW-R2",
+        "KWH-MCU-ADMISSION-CEILING-REVIEW-R3"
+      ],
+      "summary": "Synchronized plant PR364, review lanes, manifest-gated inspection repair and held integrated-design task. Parent design freeze remains CLAIMED; all downstream MCU runtime tasks remain held."
+    },
     {
       "at": "2026-10-16T01:47:00Z",
       "type": "MCU_DESIGN_FREEZE_TAKEOVER_AND_PLANT_TRANCHE",
