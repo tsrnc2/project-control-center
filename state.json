@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-16T01:52:00Z",
+    "generated_at": "2026-10-16T01:38:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-15T05:21:30Z"
@@ -3004,12 +3004,12 @@
       "id": "KWH-CLUE-EP1",
       "project_id": "kludge-wagon-haywire",
       "title": "Clue→lesson: author Ep1 clues from actual shipped bugs",
-      "state": "READY",
+      "state": "CLAIMED",
       "priority": "P1",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T01:48:50Z",
-      "next_action": "Ep1 clues map to real bug lines; include ≥1 super clue. AC updated on #161. READY.",
+      "claimed_by": "chatgpt-kwh-clue-ep1",
+      "claim_expires_at": "2026-10-16T03:48:58Z",
+      "updated_at": "2026-10-16T01:31:00Z",
+      "next_action": "Durable claim remains with chatgpt-kwh-clue-ep1 through 2026-10-16T03:48:58Z, but its execution lease expired and was released. Same owner must reacquire/read back a fresh lease before continuing; do not overlap.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/161"
@@ -3342,12 +3342,12 @@
       "id": "KWH-BLD-MATERIALS",
       "project_id": "kludge-wagon-haywire",
       "title": "Buildings: material library (wood/brick/stone/concrete/stucco/metal-glass)",
-      "state": "READY",
+      "state": "BLOCKED",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-16T01:27:00Z",
-      "next_action": "Expired claim released; issue #187 remains open. Assign a generator worker only when capacity is available and acquire a canonical lease before source/assets changes.",
+      "updated_at": "2026-10-16T01:35:00Z",
+      "next_action": "Draft PR #366 exact head 205d41570a7d6c19fb27e13d9e9826f379cf3bd4 contains the reusable material palette. Run KWH-BLD-MATERIALS-TEST-R1: node tests/building_materials_test.js plus Godot 4 load of material_preview.tscn on that exact head before review/merge.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/187",
@@ -3914,12 +3914,12 @@
       "id": "KWH-KERNEL-IRQ",
       "project_id": "kludge-wagon-haywire",
       "title": "Kernel lesson: interrupts + timer + tests",
-      "state": "READY",
+      "state": "CLAIMED",
       "priority": "P1",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T02:48:55Z",
-      "next_action": "IRQ/timer lesson + tests + Manual. READY.",
+      "claimed_by": "chatgpt-kwh-kernel-irq",
+      "claim_expires_at": "2026-10-16T04:00:00Z",
+      "updated_at": "2026-10-16T01:32:00Z",
+      "next_action": "Durable claim remains with chatgpt-kwh-kernel-irq through 2026-10-16T04:00:00Z; expired execution lease was released. Same owner must reacquire a fresh lease before further mutation.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/230"
@@ -5263,13 +5263,13 @@
       "id": "KWH-MCU-ADMISSION-CEILING-REVIEW-R3",
       "project_id": "kludge-wagon-haywire",
       "title": "Independently review exact PR341 profile-ceiling repair",
-      "state": "RUNNING",
+      "state": "CLAIMED",
       "priority": "P0",
       "claimed_by": "chatgpt-kwh-admission-ceiling-review-r3",
       "owner_agent": null,
       "claim_expires_at": "2026-10-16T03:54:00Z",
-      "updated_at": "2026-10-15T03:54:30Z",
-      "next_action": "Existing reviewer retains durable claim through 2026-10-16T03:54:00Z; its execution lease is expired. Owner must reacquire/reconcile before further execution; do not duplicate.",
+      "updated_at": "2026-10-16T01:33:00Z",
+      "next_action": "P0 reviewer claim is preserved through 2026-10-16T03:54:00Z, but the expired execution lease was released. Existing reviewer must reacquire before further exact-head review; do not duplicate.",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/341",
       "human_owner": "Jobo",
       "dispatch_allowed": true
@@ -6391,6 +6391,19 @@
         "KWH-BLD-MATERIALS"
       ],
       "summary": "Reconciled cutscene core to DONE from merged PR #256; published brake ECU draft PR #360 and blocked it only on exact-head WASM regression testing; released expired building-material claim back to READY."
+    },
+    {
+      "at": "2026-10-16T01:38:00Z",
+      "type": "TASK_RECONCILIATION",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-BLD-MATERIALS",
+      "task_ids": [
+        "KWH-BLD-MATERIALS",
+        "KWH-CLUE-EP1",
+        "KWH-KERNEL-IRQ",
+        "KWH-MCU-ADMISSION-CEILING-REVIEW-R3"
+      ],
+      "summary": "Published building-material draft PR #366 and routed exact-head runtime validation; reconciled three expired execution leases to preserved durable claims so no task remains falsely RUNNING."
     }
   ]
 }
