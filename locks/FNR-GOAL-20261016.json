@@ -1,9 +1,0 @@
-{
-  "task_id": "FNR-GOAL-20261016",
-  "project_id": "formal-neural-reasoner",
-  "agent_id": "chatgpt-fnr-goal-recorder",
-  "lock_token": "fnr-goal-1792147381992",
-  "acquired_at": "2026-10-16T10:43:01.992Z",
-  "expires_at": "2026-10-16T11:13:01.992Z",
-  "run_reference": "issue-87-owner-goal"
-}
