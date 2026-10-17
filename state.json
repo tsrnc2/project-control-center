@@ -5487,16 +5487,36 @@
       "project_id": "kludge-wagon-haywire",
       "human_owner": "Jobo",
       "title": "Independently execute/review exact PR375 plant/fault PF2 repair",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P0",
-      "claimed_by": "codex-fbw-pr375-review",
-      "claim_expires_at": "2026-10-18T01:17:00Z",
-      "updated_at": "2026-10-17T01:17:00Z",
-      "next_action": "Execute independent read-only PR375 review at frozen e3ac1ba8d341c8ad925373df120d0eb2dd7bbf8a; preserve logs and return PASS/REVISE. No integration/runtime authority.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-17T01:21:57Z",
+      "next_action": "Independent exact-head review completed REVISE. Follow bounded successor KWH-MCU-PLANT-FAULT-REPAIR-R4 / issue #379; design integration and runtime remain held.",
       "owner_agent": null,
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/376",
-      "claimed_at": "2026-10-17T01:17:00Z",
-      "claim_heartbeat_at": "2026-10-17T01:17:00Z"
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "completed_at": "2026-10-17T01:21:57Z",
+      "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/blob/8bc2569624329ede77aad4c2cd178cf811ffb847/reports/codex/pr375-review-20261017/REPORT.md",
+      "review_verdict": "REVISE"
+    },
+    {
+      "id": "KWH-MCU-PLANT-FAULT-REPAIR-R4",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Correct PR375 suspension signs and fail-closed validator semantics",
+      "state": "READY",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-17T01:22:39Z",
+      "next_action": "Repair independently reproduced PR375 findings on a focused successor; run full regressions and obtain distinct exact-head review.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/379",
+      "dependencies": [
+        "KWH-MCU-PLANT-FAULT-REVIEW-R3"
+      ],
+      "owner_agent": null,
+      "human_owner": "Jobo"
     }
   ],
   "blockers": [
@@ -5747,6 +5767,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-17T01:22:39Z",
+      "type": "REVIEW_COMPLETED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-MCU-PLANT-FAULT-REVIEW-R3",
+      "summary": "PR375 review completed REVISE with immutable evidence and Drive backup; lease released; bounded successor R4 registered. No full design or runtime acceptance."
+    },
     {
       "at": "2026-10-17T01:17:00Z",
       "type": "REVIEW_STARTED",
