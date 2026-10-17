@@ -2,8 +2,8 @@
   "project_id": "llm-reasoning-parental-skills",
   "task_id": "PARENT-GAP-006",
   "agent_id": "chatgpt-parental-skills-progress",
-  "lock_token": "ps006-source-publish-20261017-b1a4e8",
-  "acquired_at": "2026-10-16T17:32:54.375Z",
-  "expires_at": "2026-10-16T18:02:54.375Z",
-  "run_reference": "source-scout-clean-pr-20261017"
+  "lock_token": "ps006-source-scope-clean-pr-20261017-0441-b02",
+  "acquired_at": "2026-10-17T04:41:07.878Z",
+  "expires_at": "2026-10-17T05:16:07.878Z",
+  "run_reference": "source-scope-clean-pr-at-author-repaired-main-20261017"
 }
