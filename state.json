@@ -8,7 +8,7 @@
     "generated_at": "2026-10-16T23:41:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
-    "updated_at": "2026-10-17T01:56:06Z"
+    "updated_at": "2026-10-17T01:57:01Z"
   },
   "projects": [
     {
@@ -5552,6 +5552,24 @@
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/383",
       "human_owner": "Jobo",
       "owner_agent": null
+    },
+    {
+      "id": "KWH-NEW-GAME-AUDIO-OVERLAP-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Prevent New Game cutscene and KITT guide audio overlap",
+      "state": "RUNNING",
+      "priority": "P0",
+      "dependencies": [],
+      "claimed_by": "codex-fbw-new-game-audio",
+      "claimed_at": "2026-10-17T01:57:01Z",
+      "claim_heartbeat_at": "2026-10-17T01:57:01Z",
+      "claim_expires_at": "2026-10-18T01:57:01Z",
+      "updated_at": "2026-10-17T01:57:01Z",
+      "dispatch_allowed": true,
+      "next_action": "Claim exclusive task, fix startup audio ownership and verify sequencing.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/384",
+      "owner_agent": null,
+      "human_owner": "Jobo"
     }
   ],
   "blockers": [
