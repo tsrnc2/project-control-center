@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-17T01:51:30Z",
+  "type": "CLAIM_REASSIGNMENT",
+  "task_id": "KWH-MCU-DESIGN-MANIFEST-REVIEW-R2",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-fbw-manifest-review-r2",
+  "prior_claim_expires_at": "2026-10-17T01:20:00Z",
+  "summary": "Resume exact PR357 review after verified expired public claim; KITT claim released and both execution leases absent before acquisition."
+}
