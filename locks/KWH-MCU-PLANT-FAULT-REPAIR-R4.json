@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "task_id": "KWH-MCU-PLANT-FAULT-REPAIR-R4",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-fbw-plant-repair-r4",
+  "lock_token": "fbw-r4-continuation-0330026",
+  "acquired_at": "2026-10-17T01:40:37Z",
+  "heartbeat_at": "2026-10-17T01:40:37Z",
+  "expires_at": "2026-10-17T03:23:46Z",
+  "run_ref": "Continue existing R4 repair acceptance and publication"
+}
