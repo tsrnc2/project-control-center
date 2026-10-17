@@ -8,7 +8,7 @@
     "generated_at": "2026-10-16T23:41:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
-    "updated_at": "2026-10-17T01:43:12Z"
+    "updated_at": "2026-10-17T01:51:30Z"
   },
   "projects": [
     {
@@ -5385,15 +5385,22 @@
       "id": "KWH-MCU-DESIGN-MANIFEST-REVIEW-R2",
       "project_id": "kludge-wagon-haywire",
       "title": "Independently execute/review exact PR357 manifest validator repair",
-      "state": "BLOCKED",
+      "state": "RUNNING",
       "priority": "P0",
-      "claimed_by": "chatgpt-kwh-manifest-reviewer-r2",
-      "claim_expires_at": "2026-10-17T01:20:00Z",
-      "updated_at": "2026-10-16T01:31:00Z",
+      "claimed_by": "codex-fbw-manifest-review-r2",
+      "claim_expires_at": "2026-10-18T01:51:30Z",
+      "updated_at": "2026-10-17T01:51:30Z",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/357",
-      "next_action": "A distinct repository-capable reviewer, preferably a non-OpenAI/provider-diverse route, must run the exact PR357 Python validator/regressions and confirm the same adversarial probes on head f578cf61009d49b68f833456199ebd20c38b612b. Until then KWH-MCU-INSPECTION-CONTRACT-REPAIR-R2 remains held."
+      "next_action": "Distinct worker executes PR357 literal suites and adversarial source/profile/power probes on frozen head; parent validates and publishes result.",
+      "claimed_at": "2026-10-17T01:51:30Z",
+      "claim_heartbeat_at": "2026-10-17T01:51:30Z",
+      "takeover_of": {
+        "agent_id": "chatgpt-kwh-manifest-reviewer-r2",
+        "claim_expires_at": "2026-10-17T01:20:00Z",
+        "reason": "Expired claim; KITT canonical task had released ownership; no execution leases exist."
+      }
     },
     {
       "id": "KWH-MCU-INSPECTION-CONTRACT-REVIEW-R1",
