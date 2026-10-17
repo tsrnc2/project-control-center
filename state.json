@@ -8,7 +8,7 @@
     "generated_at": "2026-10-16T23:41:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
-    "updated_at": "2026-10-15T05:21:30Z"
+    "updated_at": "2026-10-17T01:43:12Z"
   },
   "projects": [
     {
@@ -5505,20 +5505,25 @@
       "id": "KWH-MCU-PLANT-FAULT-REPAIR-R4",
       "project_id": "kludge-wagon-haywire",
       "title": "Correct PR375 suspension signs and fail-closed validator semantics",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P0",
-      "claimed_by": "codex-fbw-plant-repair-r4",
-      "claim_expires_at": "2026-10-18T01:23:46Z",
-      "updated_at": "2026-10-17T01:23:46Z",
-      "next_action": "Execute bounded R4 design repair and literal regressions; independent successor review required before design integration.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-17T01:43:12Z",
+      "next_action": "Consume exact accepted PR381 candidate during gated design integration after remaining independent design reviews and manifest-bound inspection repair. No runtime/full-design-freeze authorization.",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/379",
       "dependencies": [
         "KWH-MCU-PLANT-FAULT-REVIEW-R3"
       ],
       "owner_agent": null,
       "human_owner": "Jobo",
-      "claimed_at": "2026-10-17T01:23:46Z",
-      "claim_heartbeat_at": "2026-10-17T01:23:46Z"
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "completed_at": "2026-10-17T01:43:12Z",
+      "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/381",
+      "candidate_revision": "0330026e2635dacd8630817db5e0096899ec68aa",
+      "review_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/382",
+      "review_verdict": "PASS_DESIGN_ONLY"
     }
   ],
   "blockers": [
@@ -6492,6 +6497,13 @@
         "KWH-MCU-ADMISSION-CEILING-REVIEW-R3"
       ],
       "summary": "Published building-material draft PR #366 and routed exact-head runtime validation; reconciled three expired execution leases to preserved durable claims so no task remains falsely RUNNING."
+    },
+    {
+      "at": "2026-10-17T01:43:12Z",
+      "type": "DONE",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-MCU-PLANT-FAULT-REPAIR-R4",
+      "summary": "R4 PR381 exact 0330026 independently reviewed and parent tested PASS_DESIGN_ONLY. Receipt https://github.com/tsrnc2/fly-by-wire-c/blob/bce7e0fbf504014ca7dd906fe69c8d96ef510868/reports/codex/plant-r4-acceptance-20261017/REPORT.md. No runtime/full-design-freeze claim."
     }
   ]
 }
