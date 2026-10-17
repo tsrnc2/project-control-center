@@ -5505,18 +5505,20 @@
       "id": "KWH-MCU-PLANT-FAULT-REPAIR-R4",
       "project_id": "kludge-wagon-haywire",
       "title": "Correct PR375 suspension signs and fail-closed validator semantics",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P0",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-17T01:22:39Z",
-      "next_action": "Repair independently reproduced PR375 findings on a focused successor; run full regressions and obtain distinct exact-head review.",
+      "claimed_by": "codex-fbw-plant-repair-r4",
+      "claim_expires_at": "2026-10-18T01:23:46Z",
+      "updated_at": "2026-10-17T01:23:46Z",
+      "next_action": "Execute bounded R4 design repair and literal regressions; independent successor review required before design integration.",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/379",
       "dependencies": [
         "KWH-MCU-PLANT-FAULT-REVIEW-R3"
       ],
       "owner_agent": null,
-      "human_owner": "Jobo"
+      "human_owner": "Jobo",
+      "claimed_at": "2026-10-17T01:23:46Z",
+      "claim_heartbeat_at": "2026-10-17T01:23:46Z"
     }
   ],
   "blockers": [
@@ -5767,6 +5769,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-17T01:23:46Z",
+      "type": "REPAIR_STARTED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-MCU-PLANT-FAULT-REPAIR-R4",
+      "summary": "Canonical claim and exclusive KITT lease acquired for focused successor repair of independently reproduced PR375 findings."
+    },
     {
       "at": "2026-10-17T01:22:39Z",
       "type": "REVIEW_COMPLETED",
