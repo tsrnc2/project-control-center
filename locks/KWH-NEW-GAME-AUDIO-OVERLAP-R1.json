@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-NEW-GAME-AUDIO-OVERLAP-R1",
+  "agent_id": "codex-fbw-new-game-audio",
+  "lock_token": "2e126147-7a00-47f3-8f02-37131ca0ba44",
+  "acquired_at": "2026-10-17T01:57:01Z",
+  "heartbeat_at": "2026-10-17T01:57:01Z",
+  "expires_at": "2026-10-17T03:57:01Z",
+  "run_ref": "User reported opening cutscene and KITT simultaneous playback"
+}
