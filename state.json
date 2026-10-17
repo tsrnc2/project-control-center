@@ -8,7 +8,7 @@
     "generated_at": "2026-10-16T23:41:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
-    "updated_at": "2026-10-17T01:51:30Z"
+    "updated_at": "2026-10-17T01:56:06Z"
   },
   "projects": [
     {
@@ -5385,22 +5385,25 @@
       "id": "KWH-MCU-DESIGN-MANIFEST-REVIEW-R2",
       "project_id": "kludge-wagon-haywire",
       "title": "Independently execute/review exact PR357 manifest validator repair",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P0",
-      "claimed_by": "codex-fbw-manifest-review-r2",
-      "claim_expires_at": "2026-10-18T01:51:30Z",
-      "updated_at": "2026-10-17T01:51:30Z",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-17T01:56:06Z",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/357",
-      "next_action": "Distinct worker executes PR357 literal suites and adversarial source/profile/power probes on frozen head; parent validates and publishes result.",
-      "claimed_at": "2026-10-17T01:51:30Z",
-      "claim_heartbeat_at": "2026-10-17T01:51:30Z",
+      "next_action": "Follow queued KWH-MCU-DESIGN-MANIFEST-REPAIR-R3 / fly-by-wire-c issue383; fresh positive review required before inspection repair/integration.",
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
       "takeover_of": {
         "agent_id": "chatgpt-kwh-manifest-reviewer-r2",
         "claim_expires_at": "2026-10-17T01:20:00Z",
         "reason": "Expired claim; KITT canonical task had released ownership; no execution leases exist."
-      }
+      },
+      "completed_at": "2026-10-17T01:56:06Z",
+      "publication_ref": "https://github.com/tsrnc2/fly-by-wire-c/blob/86bd1cd77940613d1815421d5b6564e342c147cf/reports/codex/manifest-r2-review-20261017/REPORT.md",
+      "review_verdict": "REVISE"
     },
     {
       "id": "KWH-MCU-INSPECTION-CONTRACT-REVIEW-R1",
@@ -5531,6 +5534,24 @@
       "candidate_revision": "0330026e2635dacd8630817db5e0096899ec68aa",
       "review_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/382",
       "review_verdict": "PASS_DESIGN_ONLY"
+    },
+    {
+      "id": "KWH-MCU-DESIGN-MANIFEST-REPAIR-R3",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Restore manifest regressions and structured malformed-input errors",
+      "state": "READY",
+      "priority": "P0",
+      "dependencies": [
+        "KWH-MCU-DESIGN-MANIFEST-REVIEW-R2"
+      ],
+      "claimed_by": null,
+      "dispatch_allowed": true,
+      "updated_at": "2026-10-17T01:56:06Z",
+      "next_action": "Queued for focused R3 repair; owner currently prioritizes user-reported new-game cutscene/KITT audio overlap.",
+      "claim_expires_at": null,
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/383",
+      "human_owner": "Jobo",
+      "owner_agent": null
     }
   ],
   "blockers": [
@@ -6511,6 +6532,13 @@
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-MCU-PLANT-FAULT-REPAIR-R4",
       "summary": "R4 PR381 exact 0330026 independently reviewed and parent tested PASS_DESIGN_ONLY. Receipt https://github.com/tsrnc2/fly-by-wire-c/blob/bce7e0fbf504014ca7dd906fe69c8d96ef510868/reports/codex/plant-r4-acceptance-20261017/REPORT.md. No runtime/full-design-freeze claim."
+    },
+    {
+      "at": "2026-10-17T01:56:06Z",
+      "type": "REVIEW_COMPLETED",
+      "task_id": "KWH-MCU-DESIGN-MANIFEST-REVIEW-R2",
+      "project_id": "kludge-wagon-haywire",
+      "summary": "Independent executed PR357 review REVISE; regression failure/malformed tracebacks preserved, R3 successor queued. https://github.com/tsrnc2/fly-by-wire-c/blob/86bd1cd77940613d1815421d5b6564e342c147cf/reports/codex/manifest-r2-review-20261017/REPORT.md"
     }
   ]
 }
