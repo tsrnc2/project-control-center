@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-18T03:39:52.796Z",
+    "generated_at": "2026-10-18T04:00:07.537Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -5575,18 +5575,21 @@
       "id": "KWH-BYWAY-01-TOPOLOGY",
       "project_id": "kludge-wagon-haywire",
       "title": "Byway Island — area topology and bridge/exit planning",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "chatgpt-byway-topology-20261017",
-      "claim_expires_at": "2026-10-19T03:38:37.803Z",
-      "updated_at": "2026-10-18T03:39:52.796Z",
-      "next_action": "Author the surveyed island entrance/exit topology and independent-review candidate, then release the exclusive KITT design lease after status/evidence update.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-18T04:00:07.537Z",
+      "next_action": "Author-side design complete in draft PR #417 (unmerged); independent review #418 and owner episode/placement approval required before construction.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "epic_id": "KWH-E5-BYWAY-ISLAND",
       "mirror_kind": "CANONICAL_TASK",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/402",
-      "planning_board": "https://github.com/tsrnc2/kitt/blob/main/control-plane/assignments/portfolio.json"
+      "planning_board": "https://github.com/tsrnc2/kitt/blob/main/control-plane/assignments/portfolio.json",
+      "last_owner_agent": "chatgpt-byway-topology-20261017",
+      "candidate_revision": "80a45f7265c4b38f0fbc72429131ed56b78c7dad",
+      "publication_state": "DRAFT_REVIEW_PENDING"
     },
     {
       "id": "KWH-BYWAY-02-LOCATION-SCHEMA",
@@ -5808,6 +5811,23 @@
       "mirror_kind": "PLANNING_ASSIGNMENT",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/415",
       "planning_board": "https://github.com/tsrnc2/kitt/blob/main/control-plane/assignments/portfolio.json"
+    },
+    {
+      "id": "KWH-BYWAY-01-REVIEW-PR417",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Byway Island — independent design and topology review",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "updated_at": "2026-10-18T04:00:07.537Z",
+      "epic_id": "KWH-E5-BYWAY-ISLAND",
+      "mirror_kind": "CANONICAL_TASK",
+      "next_action": "Different reviewer checks exact head 80a45f72 of draft PR #417 and committed Node graph validator, reports PASS/REVISE/BLOCKED; no self-review or merge.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/418",
+      "review_target": "https://github.com/tsrnc2/fly-by-wire-c/pull/417"
     }
   ],
   "blockers": [
@@ -6821,6 +6841,13 @@
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-BYWAY-01-TOPOLOGY",
       "summary": "Byway Island topology design claimed under exclusive KITT execution lease; no world runtime changes."
+    },
+    {
+      "at": "2026-10-18T04:00:07.537Z",
+      "type": "DESIGN_CANDIDATE_PUBLISHED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-BYWAY-01-TOPOLOGY",
+      "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ]
 }
