@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-18T04:00:07.537Z",
+    "generated_at": "2026-10-19T15:11:35.667832Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -5852,6 +5852,20 @@
       "updated_at": "2026-10-19T13:41:50.976762Z",
       "next_action": "Distinct eligible independent review of ca6f1edda60f3d0a0a18ee75327710d34a593961 via FBW issue425; no acceptance or runtime activation.",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/447"
+    },
+    {
+      "id": "KWH-BLD-MATERIALS-TEST-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Validate building material palette PR #366 exact head",
+      "state": "DONE",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-19T15:11:35.667812Z",
+      "test_verdict": "REVISE",
+      "next_action": "Validation completed with a source revision request. Author repair and exact-candidate runtime retest are required before product acceptance. No release approval.",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-BLD-MATERIALS-TEST-R1.json",
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/blob/ecd82652e345bb86d2bacb2bfbcc55b2ce418d5d/reports/codex/KWH-BLD-MATERIALS-TEST-R1-20261019/REPORT.md"
     }
   ],
   "blockers": [
@@ -6102,6 +6116,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-19T15:11:35.667837Z",
+      "type": "VALIDATION_COMPLETED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-BLD-MATERIALS-TEST-R1",
+      "summary": "Read-only validation returned REVISE. Evidence is published in the project repository; source repair and runtime retest remain required."
+    },
     {
       "at": "2026-10-17T01:23:46Z",
       "type": "REPAIR_STARTED",
