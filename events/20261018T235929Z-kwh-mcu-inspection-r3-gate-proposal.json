@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-18T23:59:29Z",
+  "type": "CONTROL_PLANE_PROPOSAL_UPDATED",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-MCU-INSPECTION-CONTRACT-REPAIR-R2",
+  "summary": "Private KITT draft dependency-gate correction now requires independent manifest R3 and admission R3 exact-head acceptance instead of rejected manifest R2. Canonical machine main remains unchanged and dispatch-held; no acceptance, reassignment, lease, integration, MCU runtime, merge or release.",
+  "visibility": "PUBLIC_SAFE_COORDINATION_ONLY",
+  "mirror_only": true
+}
