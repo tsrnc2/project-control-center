@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-DMG-MODEL-REVIEW-R1",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-fbw-serial",
+  "lock_token": "72c05b8c4eb026c120a3a27b2e33ab54a0f86a85c316c5ef",
+  "acquired_at": "2026-10-19T13:39:28.675294Z",
+  "heartbeat_at": "2026-10-19T13:39:28.675294Z",
+  "expires_at": "2026-10-19T14:39:35Z",
+  "run_ref": "KITT canonical lease; sequential owner-directed damage-model review"
+}
