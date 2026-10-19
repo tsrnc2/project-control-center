@@ -5840,6 +5840,18 @@
       "updated_at": "2026-10-19T13:39:28.675294Z",
       "next_action": "Review exact damage-model source and run deterministic/adversarial tests; no source repair or acceptance/merge/runtime effects.",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/425"
+    },
+    {
+      "id": "KWH-MCU-ADMISSION-CLI-REPAIR-R4",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Repair structured CLI malformed input rejection",
+      "priority": "P0",
+      "state": "RUNNING",
+      "claimed_by": "codex",
+      "claim_expires_at": "2026-10-19T15:35:53Z",
+      "updated_at": "2026-10-19T13:39:59.972886Z",
+      "next_action": "Publish tested isolated successor for eligible independent review.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/425"
     }
   ],
   "blockers": [
@@ -6862,5 +6874,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-19T13:39:28.675294Z"
+  "updated_at": "2026-10-19T13:39:59.972906Z"
 }
