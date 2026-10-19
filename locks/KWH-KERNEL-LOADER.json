@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-KERNEL-LOADER",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-kernel-loader",
+  "lock_token": "3001fd81a9171c3308fb98422d50569f323dee6c1b3bd393",
+  "acquired_at": "2026-10-19T23:33:55.331873Z",
+  "heartbeat_at": "2026-10-19T23:33:55.331890Z",
+  "expires_at": "2026-10-20T01:03:47Z",
+  "run_ref": "Real v86 kernel boot validation of merged loader; bounded source fixes if reproduced"
+}
