@@ -5869,6 +5869,18 @@
       "next_action": "Validation completed with a source revision request. Author repair and exact-candidate runtime retest are required before product acceptance. No release approval.",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-BLD-MATERIALS-TEST-R1.json",
       "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/blob/ecd82652e345bb86d2bacb2bfbcc55b2ce418d5d/reports/codex/KWH-BLD-MATERIALS-TEST-R1-20261019/REPORT.md"
+    },
+    {
+      "id": "KWH-CLUE-EP1-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Review Episode 1 source-backed clue content PR #429",
+      "priority": "P1",
+      "state": "RUNNING",
+      "claimed_by": "codex-fbw-serial",
+      "claim_expires_at": "2026-10-19T18:14:47Z",
+      "updated_at": "2026-10-19T16:14:40.232521Z",
+      "next_action": "Review exact clue content/source bindings and teaching accuracy; no content repair, acceptance, merge or runtime effects.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/430"
     }
   ],
   "blockers": [
@@ -6898,5 +6910,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-19T15:11:57.150286Z"
+  "updated_at": "2026-10-19T16:14:40.232521Z"
 }
