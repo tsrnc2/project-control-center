@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "event_type": "KWH_MCU_SHARED_MODEL_REPAIR_RECONCILIATION",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-MCU-DESIGN-FREEZE",
+  "at": "2026-10-19T06:21:00Z",
+  "canonical_source": "tsrnc2/kitt/control-plane",
+  "summary": "Shared-model PR #380 received REVISE for hard-linked output overwrite. Bounded successor PR #438 repairs inode alias refusal and atomic publication; author-side tests pass, but a distinct R2 review remains mandatory before integration.",
+  "changes": [
+    {
+      "task_id": "KWH-MCU-SHARED-MODEL-REVIEW-R1",
+      "state": "DONE",
+      "verdict": "REVISE",
+      "finding": "SMR1-01",
+      "evidence_pr": 434
+    },
+    {
+      "task_id": "KWH-MCU-SHARED-MODEL-REPAIR-R2",
+      "state": "DONE",
+      "pull_request": 438,
+      "candidate_commit": "e72ac2b0b09989b4ddfeaf9bb41b3800971a5a40",
+      "test_groups_passed": 18,
+      "independent_acceptance": false
+    },
+    {
+      "task_id": "KWH-MCU-SHARED-MODEL-REVIEW-R2",
+      "state": "READY",
+      "review_issue": 439,
+      "frozen_target": "e72ac2b0b09989b4ddfeaf9bb41b3800971a5a40"
+    },
+    {
+      "task_id": "KWH-MCU-DESIGN-INTEGRATION-R1",
+      "state": "READY",
+      "dispatch_allowed": false,
+      "dependency_change": "KWH-MCU-SHARED-MODEL-REVIEW-R1 replaced by KWH-MCU-SHARED-MODEL-REVIEW-R2"
+    },
+    {
+      "task_id": "KWH-MCU-DESIGN-FREEZE",
+      "state": "BLOCKED",
+      "design_frozen": false,
+      "runtime_dispatch_allowed": false
+    }
+  ],
+  "preserved": [
+    "No shared-model contract or domain design semantics changed.",
+    "The repair author cannot self-review the successor.",
+    "Active legacy R4 repair ownership was not modified.",
+    "All downstream MCU runtime tasks remain held."
+  ],
+  "canonical_event": "https://github.com/tsrnc2/kitt/blob/main/control-plane/events/20261019T0621Z-KWH-MCU-shared-model-r2-reconciliation.json",
+  "refresh_note": "The canonical KITT records are authoritative; the generated live state snapshot should incorporate this event on its next normal refresh."
+}
