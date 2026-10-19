@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "event_type": "KWH_MCU_FREEZE_REVIEW_BOUNDARY_CORRECTION",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-MCU-DESIGN-FREEZE",
+  "at": "2026-10-19T08:51:50Z",
+  "canonical_source": "tsrnc2/kitt/control-plane",
+  "summary": "Shared-model R2 review is DONE, but its PASS_DESIGN_TOOLING_ONLY verdict is same-provider correlated evidence. Provider-diverse final independent acceptance remains unestablished. Manifest R3 has zero submitted reviews and is first P0 dispatch target, held pending independently qualified reviewer and capacity.",
+  "changes": [
+    {
+      "task_id": "KWH-MCU-SHARED-MODEL-REVIEW-R2",
+      "state": "DONE",
+      "verdict": "PASS_DESIGN_TOOLING_ONLY",
+      "exact_head": "e72ac2b0b09989b4ddfeaf9bb41b3800971a5a40",
+      "evidence_pr": 440,
+      "provider_diverse": false,
+      "final_independent_acceptance": false
+    },
+    {
+      "task_id": "KWH-MCU-DESIGN-MANIFEST-REVIEW-R3",
+      "state": "READY",
+      "exact_head": "c8d33e001dec9b640d8ba00e998caabaa15ef279",
+      "submitted_reviews": 0
+    },
+    {
+      "task_id": "KWH-MCU-DESIGN-FREEZE",
+      "state": "BLOCKED",
+      "claimed_by": null,
+      "design_frozen": false,
+      "runtime_dispatch_allowed": false,
+      "blocker_state": "OPEN"
+    }
+  ],
+  "canonical_commit": "e5666f967e0edec6f79a3adf55bf1e52c482f448",
+  "preserved": [
+    "No claim, lease or worker capacity changes.",
+    "No merge, runtime, APK, deployment, paid spend or independent-acceptance waiver.",
+    "Source PR #438 remains draft and unmerged."
+  ],
+  "refresh_note": "This is a public-safe event only. KITT canonical task/lease/blocker records govern dispatch; live state.json is a mirror."
+}
