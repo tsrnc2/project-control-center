@@ -3886,13 +3886,21 @@
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/275",
       "owner_agent": null,
-      "state": "CLAIMED",
-      "claimed_by": "chatgpt-kwh-kernel-loader",
-      "claim_expires_at": "2026-10-15T03:30:00Z",
+      "state": "RUNNING",
+      "claimed_by": "codex-kernel-loader",
+      "claim_expires_at": "2026-10-20T01:03:47Z",
       "claimed_at": "2026-10-14T03:30:00Z",
       "claim_heartbeat_at": "2026-10-14T03:31:00Z",
-      "updated_at": "2026-10-14T12:01:03.694Z",
-      "next_action": "Source candidate PR #278 merged to main as 6d5fd12f6d1c2650ed20b09cccbc250cf3c2d9df. Expired 05:31Z execution lease released; durable author claim preserved. Before DONE, run and record actual v86 ELF32 Multiboot serial boot/ready smoke and regression output under a new valid execution lease."
+      "updated_at": "2026-10-19T23:37:59.517454Z",
+      "next_action": "Complete actual v86 boot validation and repair reproduced false-positive marker/architecture/grading faults; source candidate only, no deployment.",
+      "ownership_history": [
+        {
+          "claimed_by": "chatgpt-kwh-kernel-loader",
+          "claim_expires_at": "2026-10-15T03:30:00Z",
+          "reconciled_at": "2026-10-19T23:37:59.517447Z",
+          "basis": "Canonical READY task was unclaimed; fresh canonical ownership and PCC lock now held"
+        }
+      ]
     },
     {
       "id": "KWH-KERNEL-BOOT",
@@ -6913,5 +6921,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-19T16:23:05.603118Z"
+  "updated_at": "2026-10-19T23:37:59.517461Z"
 }
