@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "event_type": "KWH_MCU_DESIGN_DEPENDENCY_RECONCILIATION",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-MCU-DESIGN-FREEZE",
+  "at": "2026-10-19T06:05:00Z",
+  "canonical_source": "tsrnc2/kitt/control-plane",
+  "summary": "The negative legacy migration R3 review can no longer satisfy design integration. The active R4 repair is preserved under its current owner, and a held R4 independent-review lane is now mandatory before integration.",
+  "changes": [
+    {
+      "task_id": "KWH-MCU-LEGACY-ADAPTER-MAP-REVIEW-R3",
+      "state": "DONE",
+      "verdict": "REVISE",
+      "reviewed_commit": "9e5ff6e8a89e27b2a9964ea39df34bdd48bf71eb",
+      "evidence_pr": 431
+    },
+    {
+      "task_id": "KWH-MCU-LEGACY-ADAPTER-MAP-REPAIR-R4",
+      "state": "RUNNING",
+      "claimed_by": "chatgpt-fbw-legacy-repair-r4-20261019",
+      "claim_expires_at": "2026-10-20T05:59:41.385576+00:00"
+    },
+    {
+      "task_id": "KWH-MCU-LEGACY-ADAPTER-MAP-REVIEW-R4",
+      "state": "READY",
+      "dispatch_allowed": false,
+      "dispatch_condition": "Enable only after the active R4 repair publishes one frozen exact-head successor."
+    },
+    {
+      "task_id": "KWH-MCU-DESIGN-INTEGRATION-R1",
+      "state": "READY",
+      "dispatch_allowed": false,
+      "dependency_change": "KWH-MCU-LEGACY-ADAPTER-MAP-REVIEW-R3 replaced by KWH-MCU-LEGACY-ADAPTER-MAP-REVIEW-R4"
+    },
+    {
+      "task_id": "KWH-MCU-DESIGN-FREEZE",
+      "state": "BLOCKED",
+      "design_frozen": false,
+      "runtime_dispatch_allowed": false
+    }
+  ],
+  "preserved": [
+    "Active legacy R4 repair ownership was not modified.",
+    "Active shared-model review ownership was not modified.",
+    "Current author contexts were not allowed to self-review manifest or timing successors.",
+    "Accepted plant/fault R4 input remains unchanged.",
+    "All downstream MCU runtime implementation tasks remain held."
+  ],
+  "canonical_event": "https://github.com/tsrnc2/kitt/blob/main/control-plane/events/20261019T0605Z-KWH-MCU-legacy-r4-dependency-reconciliation.json",
+  "refresh_note": "The canonical KITT records are authoritative; the generated live state snapshot should incorporate this event on its next normal refresh."
+}
