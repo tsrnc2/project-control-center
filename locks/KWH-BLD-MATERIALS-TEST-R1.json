@@ -1,0 +1,9 @@
+{
+  "task_id": "KWH-BLD-MATERIALS-TEST-R1",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-fbw-sequential",
+  "lock_token": "2ea4e2fca726080131744877e1ebb8b7908c607aec2b90aa",
+  "acquired_at": "2026-10-19T15:11:33.469405Z",
+  "expires_at": "2026-10-19T15:21:33.469417Z",
+  "run_ref": "fbw-validation-mirror-20261019"
+}
