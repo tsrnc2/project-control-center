@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-MCU-ADMISSION-CLI-REPAIR-R4",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex",
+  "lock_token": "1e4d27c303aa87a8cf1bb34c052005957e9a11be4ccbb83a",
+  "acquired_at": "2026-10-19T13:39:58.206543Z",
+  "heartbeat_at": "2026-10-19T13:39:58.206556Z",
+  "expires_at": "2026-10-19T15:35:53Z",
+  "run_ref": "KITT canonical lease; isolated serial CLI repair"
+}
