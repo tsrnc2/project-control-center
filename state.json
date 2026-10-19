@@ -5846,12 +5846,12 @@
       "project_id": "kludge-wagon-haywire",
       "title": "Repair structured CLI malformed input rejection",
       "priority": "P0",
-      "state": "RUNNING",
-      "claimed_by": "codex",
-      "claim_expires_at": "2026-10-19T15:35:53Z",
-      "updated_at": "2026-10-19T13:39:59.972886Z",
-      "next_action": "Publish tested isolated successor for eligible independent review.",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/425"
+      "state": "DONE",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-19T13:41:50.976762Z",
+      "next_action": "Distinct eligible independent review of ca6f1edda60f3d0a0a18ee75327710d34a593961 via FBW issue425; no acceptance or runtime activation.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/447"
     }
   ],
   "blockers": [
@@ -6874,5 +6874,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-19T13:39:59.972906Z"
+  "updated_at": "2026-10-19T13:41:50.976804Z"
 }
