@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "event_type": "KWH_MCU_LEGACY_INPUT_INTERFACE_DESIGN",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-MCU-LEGACY-INPUT-INTERFACE-DESIGN-R1",
+  "at": "2026-10-19T06:50:00Z",
+  "canonical_source": "tsrnc2/kitt/control-plane",
+  "summary": "Published complete design-only canonical routes for all ten legacy APIs as PR442. Independent design review, applied-source implementation/re-admission, applied-source review and migration R4 review remain mandatory before integration.",
+  "candidate": {
+    "pull_request": 442,
+    "head": "5355b33eb7186e1ba604ed1507647e51342c3c9a",
+    "base": "0330026e2635dacd8630817db5e0096899ec68aa",
+    "changed_files": 6,
+    "projected_utilization": {
+      "net.powertrain": 0.51852,
+      "net.chassis": 0.79362,
+      "net.body": 0.7072
+    },
+    "independent_acceptance": false
+  },
+  "task_states": [
+    {"task_id":"KWH-MCU-LEGACY-INPUT-INTERFACE-DESIGN-R1","state":"DONE"},
+    {"task_id":"KWH-MCU-LEGACY-INPUT-INTERFACE-REVIEW-R1","state":"READY","issue":443},
+    {"task_id":"KWH-MCU-LEGACY-INPUT-INTERFACE-APPLY-R1","state":"READY","dispatch_allowed":false},
+    {"task_id":"KWH-MCU-LEGACY-INPUT-INTERFACE-APPLY-REVIEW-R1","state":"READY","dispatch_allowed":false},
+    {"task_id":"KWH-MCU-LEGACY-ADAPTER-MAP-REPAIR-R4","state":"BLOCKED"},
+    {"task_id":"KWH-MCU-DESIGN-INTEGRATION-R1","state":"READY","dispatch_allowed":false},
+    {"task_id":"KWH-MCU-DESIGN-FREEZE","state":"BLOCKED","design_frozen":false}
+  ],
+  "preserved": [
+    "No frozen upstream design source or PR437 migration candidate was modified.",
+    "No resource, timing or authority ceiling was widened.",
+    "All downstream MCU runtime tasks remain held."
+  ],
+  "canonical_event": "https://github.com/tsrnc2/kitt/blob/main/control-plane/events/20261019T0650Z-KWH-MCU-legacy-input-interface-r1.json",
+  "refresh_note": "The canonical KITT records are authoritative; the generated live state snapshot should incorporate this event on its next normal refresh."
+}
