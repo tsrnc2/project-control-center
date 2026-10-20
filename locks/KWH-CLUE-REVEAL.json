@@ -1,0 +1,10 @@
+{
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-CLUE-REVEAL",
+  "agent_id": "codex-fbw-goal-api",
+  "lock_token": "e891374f9118b143f127365d0f242555921a4ca1376a5781",
+  "acquired_at": "2026-10-20T16:10:59.239316+00:00",
+  "heartbeat_at": "2026-10-20T16:10:49Z",
+  "expires_at": "2026-10-20T18:10:49Z",
+  "run_ref": "Sequential FBW goal; reusable case-file UI only"
+}
