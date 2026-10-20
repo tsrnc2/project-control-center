@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-20T19:36:47.963615Z",
+    "generated_at": "2026-10-20T20:17:23.396097Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6200,12 +6200,15 @@
       "project_id": "kludge-wagon-haywire",
       "title": "Review exact inspection action/interlock and policy-limit guard repair R4",
       "priority": "P0",
-      "state": "RUNNING",
-      "claimed_by": "codex-standing-fbw",
-      "claim_expires_at": "2026-10-20T21:19:17Z",
-      "updated_at": "2026-10-20T19:19:26.656654Z",
+      "state": "BLOCKED",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T20:17:23.396071Z",
       "independent_acceptance": false,
-      "next_action": "Read-only exact-candidate technical review. Preserve source, correlation and qualification limits; no acceptance, repair or deployment."
+      "next_action": "Qualified distinct reviewer with documented eligibility and required authority resumes the existing exact-source task. Passing technical evidence retained.",
+      "technical_disposition": "PASS_SCOPED_R4",
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/blob/65920b21df2b3a8a31ad99d47eeb9b1c0086f4a8/reports/codex-standing-fbw/inspection-r4-20261020/REVIEW.md",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/275"
     },
     {
       "id": "KITT-20261020-MASTER-MULTICLI-READINESS-CEDAR",
@@ -6468,6 +6471,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-20T20:17:23.396104Z",
+      "type": "TASK_BLOCKED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-MCU-INSPECTION-CHECKER-REVIEW-R4",
+      "summary": "Inspection R4 technical checks pass; exact qualified independent review evidence remains external. Own execution released."
+    },
     {
       "at": "2026-10-20T19:25:08.720861+00:00",
       "type": "TASK_DONE",
