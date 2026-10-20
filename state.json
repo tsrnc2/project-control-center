@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-20T22:18:25.404467Z",
+    "generated_at": "2026-10-20T22:18:54.201042Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6221,13 +6221,15 @@
       "id": "KITT-20261020-MASTER-MULTICLI-READINESS-CEDAR",
       "project_id": "kitt",
       "title": "Repair master UTF8 transport boundary with owner-directed multi-CLI source support",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "codex-long-term-sequential",
-      "claim_expires_at": "2026-10-20T23:45:26.543303Z",
-      "updated_at": "2026-10-20T22:15:26.543282Z",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T22:18:54.200961Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-20261020-MASTER-MULTICLI-READINESS-CEDAR.json",
-      "next_action": "One bounded source-only caretaker tranche: multi-CLI availability and source advice; repair reproduced master stdio UTF8 decoding dependency/invalid-byte termination on exact PR260 source5cb64a358124c3c98a03b3359435364b8b63f288. Allowed product source path plugins/master/server/master_mcp.py only, new focused subprocess tests under plugins/master/tests and sanitized reports. Preserve protocol envelope/policy/grants/allowlists; no source changes to original PR260 or core digest dependency. No merge, deployment, runtime admission, activation or scheduler/controller transfer."
+      "next_action": "Existing independent review route verifies exact PR278 head plus PR260 and PR124 dependencies. Reconcile Claude receipt/result and aborted agy launch before new external execution. Preserve issue66 allowlist/activation and controllerACK/scheduler gates; no author self-acceptance.",
+      "evidence_ref": "https://github.com/tsrnc2/kitt/blob/b04c15735483ef0c1b1c7244ddf21176eea83880/reports/codex/master-multicli-utf8-20261020/REPORT.md",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/281"
     },
     {
       "id": "kitt-20261001-fix-the-stale-project-path-in-root-codex",
@@ -6239,6 +6241,17 @@
       "claim_expires_at": "2026-10-20T22:33:30Z",
       "updated_at": "2026-10-20T20:33:39.689050Z",
       "next_action": "Sanitized read-only verification of historical project-path entry and actual location. Preserve explicit owner approval before configuration mutation."
+    },
+    {
+      "id": "KITT-20261020-MASTER-UTF8-TRANSPORT-REVIEW",
+      "project_id": "kitt",
+      "title": "Qualified exact-source review of master UTF8 byte boundary PR278",
+      "state": "READY",
+      "dispatch_allowed": false,
+      "priority": "P1",
+      "claimed_by": null,
+      "updated_at": "2026-10-20T22:18:54.201036Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/pull/278"
     }
   ],
   "blockers": [
