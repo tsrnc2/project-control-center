@@ -1,0 +1,9 @@
+{
+  "task_id": "KWH-BYWAY-01-REVIEW-PR417",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-waypoint-byway-design-review-20261020",
+  "lock_token": "ebfb0aa98bded62751b6b57a2b646bbe2261e01649b6f41c",
+  "acquired_at": "2026-10-20T16:30:59.705173Z",
+  "expires_at": "2026-10-20T16:40:59.705193Z",
+  "run_ref": "terminal-mirror-20261020"
+}
