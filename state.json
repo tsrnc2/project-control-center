@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-20T17:09:02.528678+00:00",
+    "generated_at": "2026-10-20T17:30:29.490783Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6138,6 +6138,19 @@
       "source_ref": "https://github.com/tsrnc2/kitt/pull/256",
       "candidate_commit": "4873e0ac2c00216e3827956003d0d06c5df20ab9",
       "independent_acceptance": false
+    },
+    {
+      "id": "KITT-20261020-ROUTER-DRAFT-INPUT-REPAIR",
+      "project_id": "kitt",
+      "title": "Repair router draft numeric, boolean and envelope input gates",
+      "priority": "P1",
+      "state": "DONE",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T17:30:29.490735Z",
+      "evidence_ref": "https://github.com/tsrnc2/kitt/blob/67cc7c2a25dbeca47a8fca3d9700266051f274e8/reports/codex/router-input-repair-20261020/REPORT.md",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-20261020-ROUTER-DRAFT-INPUT-REPAIR.json",
+      "next_action": "Author source preparation published; distinct review KITT-20261020-ROUTER-DRAFT-INPUT-REPAIR-REVIEW pending. Issue242/native port remain blocked pending accepted semantics/independent fixture freeze."
     }
   ],
   "blockers": [
