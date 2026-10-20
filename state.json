@@ -4759,15 +4759,15 @@
       "id": "KWH-ROAD-OBSTACLES-MODELS",
       "project_id": "kludge-wagon-haywire",
       "title": "Road obstacles: simple hazard models/props",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-fbw-goal-api",
-      "claim_expires_at": "2026-10-20T22:18:21.614464Z",
-      "updated_at": "2026-10-20T20:18:21.614464Z",
-      "next_action": "READY unclaimed \u2014 see issue AC",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T20:54:25.645344Z",
+      "next_action": "Qualified independent asset/provenance and placement review; owner style/adoption decision; coordinate actual collision layers, telegraphing and accepted vehicle effects with existing spawner/physics owners. Do not treat the asset pack as implemented hazards.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/302"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/497"
     },
     {
       "id": "KWH-ROAD-OBSTACLES-AI",
@@ -7320,5 +7320,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T20:20:44.159300+00:00"
+  "updated_at": "2026-10-20T20:54:25.645344Z"
 }
