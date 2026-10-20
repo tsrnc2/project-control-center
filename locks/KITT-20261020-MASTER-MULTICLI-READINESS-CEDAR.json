@@ -4,6 +4,7 @@
   "agent_id": "codex-long-term-sequential",
   "lock_token": "1bfe78ea25a226a05ff102e85a7746d950403623f6baa406",
   "acquired_at": "2026-10-20T19:36:35.936411Z",
-  "expires_at": "2026-10-20T21:06:35.936430Z",
-  "run_ref": "master-multicli-cedar-20261020"
+  "expires_at": "2026-10-20T22:25:23.076302Z",
+  "run_ref": "master-multicli-cedar-20261020",
+  "heartbeat_at": "2026-10-20T20:55:23.076289Z"
 }

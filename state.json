@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-20T20:33:39.689071Z",
+    "generated_at": "2026-10-20T20:55:23.076289Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6216,14 +6216,14 @@
     {
       "id": "KITT-20261020-MASTER-MULTICLI-READINESS-CEDAR",
       "project_id": "kitt",
-      "title": "Owner-directed multi-CLI master control plane readiness and bounded source support",
+      "title": "Repair master UTF8 transport boundary with owner-directed multi-CLI source support",
       "state": "RUNNING",
       "priority": "P1",
       "claimed_by": "codex-long-term-sequential",
-      "claim_expires_at": "2026-10-20T21:06:35.936430Z",
-      "updated_at": "2026-10-20T19:36:35.936411Z",
+      "claim_expires_at": "2026-10-20T22:25:23.076302Z",
+      "updated_at": "2026-10-20T20:55:23.076289Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-20261020-MASTER-MULTICLI-READINESS-CEDAR.json",
-      "next_action": "One source-only/read-only parallel tranche: verify current canonical master-plugin task gates and ownership; launch bounded existing Claude and agy wrappers using isolated task packets; measure host capacity and actual agent outcomes; independently validate source evidence and publish sanitized receipts/next actionable handoff. Existing live tasks remain owned; no product/runtime changes under this umbrella."
+      "next_action": "One bounded source-only caretaker tranche: multi-CLI availability and source advice; repair reproduced master stdio UTF8 decoding dependency/invalid-byte termination on exact PR260 source5cb64a358124c3c98a03b3359435364b8b63f288. Allowed product source path plugins/master/server/master_mcp.py only, new focused subprocess tests under plugins/master/tests and sanitized reports. Preserve protocol envelope/policy/grants/allowlists; no source changes to original PR260 or core digest dependency. No merge, deployment, runtime admission, activation or scheduler/controller transfer."
     },
     {
       "id": "kitt-20261001-fix-the-stale-project-path-in-root-codex",
