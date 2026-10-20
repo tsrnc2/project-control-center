@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-20T16:13:44.647311Z",
+    "generated_at": "2026-10-20T16:17:16.533279Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -5951,6 +5951,20 @@
       "claim_expires_at": "2026-10-20T18:14:41Z",
       "updated_at": "2026-10-20T16:14:49.882811+00:00",
       "next_action": "Read-only exact PR466 review with actual checker, regression and adversarial evidence; no acceptance or runtime activation."
+    },
+    {
+      "id": "KWH-MCU-SHARED-MODEL-OUTPUT-REVIEW-R2",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Independently review shared-model input protection and atomic output at PR441",
+      "priority": "P0",
+      "state": "DONE",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T16:17:16.533237Z",
+      "verdict": "PASS_SCOPED_REPAIR_ONLY",
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/blob/26e49c1a5fa4be1d3afc62d474ce3249ad2982b9/reports/codex/shared-output-review-r2-20261020/REVIEW.md",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-MCU-SHARED-MODEL-OUTPUT-REVIEW-R2.json",
+      "next_action": "Scoped PR441 repair review complete; frame/domain/integrated acceptance and runtime gates remain unchanged."
     }
   ],
   "blockers": [
