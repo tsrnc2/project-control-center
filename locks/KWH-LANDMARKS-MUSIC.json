@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-LANDMARKS-MUSIC",
+  "agent_id": "codex-fbw-goal-api",
+  "lock_token": "20ee888aa299e5a889c40fdc5b49d69330c935c93d06d202",
+  "acquired_at": "2026-10-20T17:32:34.361018Z",
+  "heartbeat_at": "2026-10-20T17:32:34.361018Z",
+  "expires_at": "2026-10-20T19:32:34.361018Z",
+  "run_ref": "Canonical KITT asset-only jingle task"
+}
