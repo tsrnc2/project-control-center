@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-20T03:46:06.064209Z",
+    "generated_at": "2026-10-20T04:44:16.173435Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -5908,6 +5908,18 @@
       "updated_at": "2026-10-20T03:46:06.064186Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-FRESH-MERGE-BUILD-20261020.json",
       "result_summary": "Owner-requested fresh Kludge Wagon integration merged as 9da9c378ec44f8cf6607746926d4978b2c34c679 via PR464; PR457/458/459/460 all closed/merged. SHA-256 verified standalone web prerelease published. Character draft contains references/tooling, not new models. Core/Systems/Practice/layout pass; broad story timeout and slow onboarding retained explicitly. No native Android/device or independent acceptance claimed."
+    },
+    {
+      "id": "KWH-BUILD-VALIDATION-FOLLOWUP-20261020",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Finish merged Kludge Wagon story and onboarding validation",
+      "state": "RUNNING",
+      "priority": "P1",
+      "claimed_by": "codex-waypoint-fbw-followup",
+      "claim_expires_at": "2026-10-21T04:38:06Z",
+      "updated_at": "2026-10-20T04:44:16.173413Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-BUILD-VALIDATION-FOLLOWUP-20261020.json",
+      "result_summary": null
     }
   ],
   "blockers": [
