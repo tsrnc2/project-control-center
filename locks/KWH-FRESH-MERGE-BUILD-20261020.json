@@ -1,0 +1,9 @@
+{
+  "task_id": "KWH-FRESH-MERGE-BUILD-20261020",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-waypoint-fbw-merge",
+  "lock_token": "98678a3c8050c304998023c5b39dc4e49388c0809173a50b",
+  "acquired_at": "2026-10-20T02:23:46.998538Z",
+  "expires_at": "2026-10-20T02:33:46.998567+00:00",
+  "run_ref": "fbw-fresh-merge-20261020"
+}
