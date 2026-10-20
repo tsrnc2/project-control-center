@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-19T15:11:35.667832Z",
+    "generated_at": "2026-10-20T02:23:49.200582Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -5896,6 +5896,18 @@
       "technical_verdict": "REVISE",
       "independent_acceptance": false,
       "result_summary": "Technical review completed with revisions required; source unchanged and eligible acceptance remains pending."
+    },
+    {
+      "id": "KWH-FRESH-MERGE-BUILD-20261020",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Owner requested fresh merge and web build: UI, practice, characters and performance",
+      "state": "RUNNING",
+      "priority": "P1",
+      "claimed_by": "codex-waypoint-fbw-merge",
+      "claim_expires_at": "2026-10-21T02:15:48Z",
+      "updated_at": "2026-10-20T02:23:49.200557Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-FRESH-MERGE-BUILD-20261020.json",
+      "result_summary": null
     }
   ],
   "blockers": [
