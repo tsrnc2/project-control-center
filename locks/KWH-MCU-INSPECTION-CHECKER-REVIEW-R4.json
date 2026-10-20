@@ -4,7 +4,7 @@
   "agent_id": "codex-standing-fbw",
   "lock_token": "798f64fbf04500ceed986380a4d907ee068a1e4fb82b664d",
   "acquired_at": "2026-10-20T19:19:24.895950Z",
-  "heartbeat_at": "2026-10-20T19:19:24.895967Z",
-  "expires_at": "2026-10-20T21:19:17Z",
+  "heartbeat_at": "2026-10-20T19:29:06.210644Z",
+  "expires_at": "2026-10-20T21:29:06.210668Z",
   "run_ref": "inspection-r4-review-20261020"
 }
