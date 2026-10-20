@@ -6054,6 +6054,17 @@
       "evidence_ref": "https://github.com/tsrnc2/kitt/blob/422a3ac79c1af363c84777ef786e1ca7c65c5308/reports/codex/router-fixture-gate-20261020/REPORT.md",
       "source_ref": "https://github.com/tsrnc2/kitt/issues/242",
       "next_action": "Reference behavior repair/decision and independent fixture freeze required before native promotion; no runtime change."
+    },
+    {
+      "id": "KWH-UI-RESPONSIVE-REPAIR-R3",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Repair reproduced responsive landscape and hidden-steering defects",
+      "priority": "P1",
+      "state": "RUNNING",
+      "claimed_by": "codex-long-term-sequential",
+      "claim_expires_at": "2026-10-21T16:41:28.263026Z",
+      "updated_at": "2026-10-20T16:41:28.263026Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-UI-RESPONSIVE-REPAIR-R3.json"
     }
   ],
   "blockers": [
