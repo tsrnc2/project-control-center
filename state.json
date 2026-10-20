@@ -5988,6 +5988,17 @@
       "blocker_ref": "https://github.com/tsrnc2/kitt/issues/221",
       "result_summary": "Published partial PR473: reject 7/7 immutable reviewer mutations; original 10 and new 15 semantic tests pass; all 9 declared byte identities checked. Two-bit transfer, gear/tick and complete buffer ABI proposals recorded. Full source/transport/derivation closure remains held; no application/runtime.",
       "next_action": "Qualified exact-source review of PR473, then complete separately admitted heading/accepted-command/inhibit-metadata/GPS-minimap source and transport design plus inherited wire-range and structured derivation closure. Keep applied/runtime work held."
+    },
+    {
+      "id": "KWH-MCU-INSPECTION-CHECKER-REPAIR-R3",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Repair inspection checker destination, request, oracle and malformed-input guards",
+      "priority": "P0",
+      "state": "RUNNING",
+      "claimed_by": "codex-cedar-persistent",
+      "claim_expires_at": "2026-10-20T18:23:32Z",
+      "updated_at": "2026-10-20T16:23:43.448209+00:00",
+      "next_action": "Bounded inspection checker repair and focused regressions; no runtime or acceptance grant."
     }
   ],
   "blockers": [
@@ -7024,5 +7035,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T16:22:58.025795Z"
+  "updated_at": "2026-10-20T16:23:43.448209+00:00"
 }
