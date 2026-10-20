@@ -2806,11 +2806,11 @@
       "id": "KWH-MKT-ACHIEVEMENTS",
       "project_id": "kludge-wagon-haywire",
       "title": "Achievements list",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P3",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T01:15:54Z",
+      "claimed_by": "codex-fbw-goal-api",
+      "claim_expires_at": "2026-10-21T00:21:56.140255Z",
+      "updated_at": "2026-10-20T22:24:16.048423+00:00",
       "next_action": "Marketing. Acceptance: 20-40 achievements with names/descriptions/icons spec. Unclaimed.",
       "owner_agent": null,
       "human_owner": "Jobo",
@@ -7366,5 +7366,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T22:23:17.287886+00:00"
+  "updated_at": "2026-10-20T22:24:16.048423+00:00"
 }
