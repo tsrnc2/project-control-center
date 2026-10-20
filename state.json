@@ -6068,6 +6068,17 @@
       "claim_expires_at": "2026-10-21T16:41:28.263026Z",
       "updated_at": "2026-10-20T16:41:28.263026Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-UI-RESPONSIVE-REPAIR-R3.json"
+    },
+    {
+      "id": "KITT-20261020-CEDAR-READONLY-BOARD-CLIENT",
+      "project_id": "kitt",
+      "title": "Adopt pinned read-only board client for caretaker intake",
+      "priority": "P1",
+      "state": "RUNNING",
+      "claimed_by": "codex-cedar-persistent",
+      "claim_expires_at": "2026-10-20T18:52:09Z",
+      "updated_at": "2026-10-20T16:52:18.782608+00:00",
+      "next_action": "Verify source pins and development-client discovery only; no production change."
     }
   ],
   "blockers": [
@@ -7118,5 +7129,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T16:49:06.298076Z"
+  "updated_at": "2026-10-20T16:52:18.782608+00:00"
 }
