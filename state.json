@@ -1364,14 +1364,14 @@
       "state": "RUNNING",
       "priority": "P3",
       "claimed_by": "codex-fbw-sequential",
-      "claim_expires_at": "2026-10-20T19:12:28.305354+00:00",
-      "updated_at": "2026-10-20T17:12:28.305354+00:00",
+      "claim_expires_at": "2026-10-20T19:32:07.678362+00:00",
+      "updated_at": "2026-10-20T17:32:07.678362+00:00",
       "next_action": "Acceptance: Minimap shows NO SIGNAL while underground; restores on exit",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/70",
       "claimed_at": "2026-10-20T17:11:52.673001+00:00",
-      "claim_heartbeat_at": "2026-10-20T17:12:28.305354+00:00"
+      "claim_heartbeat_at": "2026-10-20T17:32:07.678362+00:00"
     },
     {
       "id": "KWH-CAST-GIRLFRIEND",
@@ -7235,5 +7235,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T17:30:43.154658Z"
+  "updated_at": "2026-10-20T17:32:07.678362+00:00"
 }
