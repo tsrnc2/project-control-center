@@ -847,15 +847,19 @@
       "id": "KWH-WORLD-BIRDS",
       "project_id": "kludge-wagon-haywire",
       "title": "World: birds (flocks, perching, take-off when car near)",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P3",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T00:38:46.191820Z",
-      "updated_at": "2026-10-20T22:38:54.016383Z",
-      "next_action": "Run authored browser routes plus separate boundary probes; no independent acceptance.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T23:08:09.194904Z",
+      "next_action": "Qualified independent review via KWH-WORLD-BIRDS-REVIEW-R1;preserve issue33 and other wildlife/integration/export gates.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/33"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/504",
+      "candidate_revision": "96ea49443f5bed151137923bd369eb1815d048c2",
+      "completion_scope": "AUTHOR_CANDIDATE_AND_NATIVE_EVIDENCE",
+      "independent_acceptance": false,
+      "result_summary": "Bird source candidate/native evidence complete;qualified review and integration remain open. No deployment."
     },
     {
       "id": "KWH-WORLD-TERRAIN",
@@ -6293,6 +6297,23 @@
       "next_action": "Provider/account coordinator verifies current balance, expiry/timezone, terms, account binding and no-paid-overage budget before any separately claimed/admitted execution. Preserve KITT-20261014-CREDIT-CREDENTIAL-ROTATION, PR179 review and existing KITT-20261016-CREDIT-OFFLINE-QUALIFY owner. No credit use is authorized by this completed planning task.",
       "scope_completed": "PLAN_AND_REMINDERS_ONLY",
       "independent_acceptance": false
+    },
+    {
+      "id": "KWH-WORLD-BIRDS-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified exact-source review of bird flock/perch/takeoff candidate",
+      "state": "READY",
+      "priority": "P3",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "dispatch_allowed": false,
+      "dependencies": [
+        "KWH-WORLD-BIRDS"
+      ],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/504",
+      "candidate_revision": "96ea49443f5bed151137923bd369eb1815d048c2",
+      "updated_at": "2026-10-20T23:08:09.194976Z",
+      "next_action": "Bind actual qualified independent reviewer before enabling dispatch or claiming;source author must not self-accept."
     }
   ],
   "blockers": [
@@ -7404,5 +7425,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T22:38:54.016403Z"
+  "updated_at": "2026-10-20T23:08:09.194981Z"
 }
