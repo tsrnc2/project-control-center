@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-20T19:19:26.656672Z",
+    "generated_at": "2026-10-20T19:36:47.963615Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6206,6 +6206,18 @@
       "updated_at": "2026-10-20T19:19:26.656654Z",
       "independent_acceptance": false,
       "next_action": "Read-only exact-candidate technical review. Preserve source, correlation and qualification limits; no acceptance, repair or deployment."
+    },
+    {
+      "id": "KITT-20261020-MASTER-MULTICLI-READINESS-CEDAR",
+      "project_id": "kitt",
+      "title": "Owner-directed multi-CLI master control plane readiness and bounded source support",
+      "state": "RUNNING",
+      "priority": "P1",
+      "claimed_by": "codex-long-term-sequential",
+      "claim_expires_at": "2026-10-20T21:06:35.936430Z",
+      "updated_at": "2026-10-20T19:36:35.936411Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-20261020-MASTER-MULTICLI-READINESS-CEDAR.json",
+      "next_action": "One source-only/read-only parallel tranche: verify current canonical master-plugin task gates and ownership; launch bounded existing Claude and agy wrappers using isolated task packets; measure host capacity and actual agent outcomes; independently validate source evidence and publish sanitized receipts/next actionable handoff. Existing live tasks remain owned; no product/runtime changes under this umbrella."
     }
   ],
   "blockers": [
