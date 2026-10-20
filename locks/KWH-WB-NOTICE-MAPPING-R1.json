@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-WB-NOTICE-MAPPING-R1",
+  "agent_id": "codex-cedar-persistent",
+  "lock_token": "fe071d358b5e174344a8ee01bfa66adf0ecf90896b319f9e",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-20T22:26:21.849731Z",
+  "heartbeat_at": "2026-10-20T22:26:21.849745Z",
+  "expires_at": "2026-10-21T00:26:21.849749Z",
+  "run_ref": "Package notice evidence preparation; no legal clearance, acceptance or release"
+}
