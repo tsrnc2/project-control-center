@@ -1,0 +1,8 @@
+{
+  "project_id": "kitt",
+  "task_id": "kitt-20261001-spend-the-expiring-credits-databricks-ab",
+  "agent_id": "codex-sr-delegated-credit-plan-20261020",
+  "lock_token": "311ac3bca1f204e19b5fe2f20d8d8432c5e3a10671e4ea44",
+  "acquired_at": "2026-10-20T22:31:02.523406+00:00",
+  "expires_at": "2026-10-20T22:41:02.523406+00:00"
+}
