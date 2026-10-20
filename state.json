@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-20T17:03:03.224506+00:00",
+    "generated_at": "2026-10-20T17:06:16.894362Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6063,11 +6063,14 @@
       "project_id": "kludge-wagon-haywire",
       "title": "Repair reproduced responsive landscape and hidden-steering defects",
       "priority": "P1",
-      "state": "RUNNING",
-      "claimed_by": "codex-long-term-sequential",
-      "claim_expires_at": "2026-10-21T16:41:28.263026Z",
-      "updated_at": "2026-10-20T16:41:28.263026Z",
-      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-UI-RESPONSIVE-REPAIR-R3.json"
+      "state": "DONE",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T17:06:16.894362Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-UI-RESPONSIVE-REPAIR-R3.json",
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/blob/8327be8cf8d1c8da54278c23dbf6450b131595bd/reports/codex/responsive-repair-r3-20261020/REPORT.md",
+      "next_action": "Distinct eligible reviewer verifies exact PR487 head and runs browser/source/skin regressions. Real Android, hardware/accessibility and release acceptance remain separate; no author self-acceptance.",
+      "publication_state": "AUTHOR_VALIDATED_DRAFT_REVIEW_PENDING"
     },
     {
       "id": "KITT-20261020-CEDAR-READONLY-BOARD-CLIENT",
@@ -6101,6 +6104,21 @@
       "last_execution_owner": "codex-waypoint-story-phase-repair-20261020",
       "independent_acceptance": false,
       "next_action": "Distinct eligible review of exact corrected design and owner creative approval before canon merge or staged implementation."
+    },
+    {
+      "id": "KWH-UI-RESPONSIVE-REPAIR-R3-REVIEW",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Review responsive landscape and hidden-steering repair exact PR487 head",
+      "state": "READY",
+      "priority": "P1",
+      "dependencies": [
+        "KWH-UI-RESPONSIVE-REPAIR-R3"
+      ],
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T17:06:16.894362Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-UI-RESPONSIVE-REPAIR-R3-REVIEW.json",
+      "next_action": "A distinct qualified reviewer claims and leases this read-only task; do not infer independence from a different session name."
     }
   ],
   "blockers": [
