@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-20T22:23:20.232760Z",
+    "generated_at": "2026-10-20T22:31:05.291177+00:00",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6273,6 +6273,22 @@
       "claim_expires_at": "2026-10-21T00:26:21.849749Z",
       "updated_at": "2026-10-20T22:26:30.996416Z",
       "next_action": "Prepare exact package notice evidence; preserve qualified review and release gates."
+    },
+    {
+      "id": "kitt-20261001-spend-the-expiring-credits-databricks-ab",
+      "project_id": "kitt",
+      "state": "DONE",
+      "updated_at": "2026-10-20T22:31:05.291177+00:00",
+      "completed_at": "2026-10-20T22:30:29.942732+00:00",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "canonical_task_blob": "a3f0b8ec88b5c8842f968ab7a157491f3d2f9ebb",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/kitt-20261001-spend-the-expiring-credits-databricks-ab.json",
+      "evidence_ref": "https://github.com/tsrnc2/kitt/pull/288",
+      "result_summary": "Nine-provider conditional workload plan published in https://github.com/tsrnc2/kitt/pull/288; four owner-private calendar reminders created and independently requested readbacks verify exact time/reminder/privacy metadata. Reported credit availability/expiry remains unverified; no provider workload, spend, grant, account or production action performed.",
+      "next_action": "Provider/account coordinator verifies current balance, expiry/timezone, terms, account binding and no-paid-overage budget before any separately claimed/admitted execution. Preserve KITT-20261014-CREDIT-CREDENTIAL-ROTATION, PR179 review and existing KITT-20261016-CREDIT-OFFLINE-QUALIFY owner. No credit use is authorized by this completed planning task.",
+      "scope_completed": "PLAN_AND_REMINDERS_ONLY",
+      "independent_acceptance": false
     }
   ],
   "blockers": [
@@ -6535,6 +6551,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-20T22:31:05.291177+00:00",
+      "type": "BOUNDED_PLANNING_COMPLETE",
+      "project_id": "kitt",
+      "task_id": "kitt-20261001-spend-the-expiring-credits-databricks-ab",
+      "summary": "Nine conditional credit workloads planned; four private review reminders read back. No provider execution or spend authorization."
+    },
     {
       "at": "2026-10-20T22:19:49.645471+00:00",
       "type": "TASK_BLOCKED",
@@ -7377,5 +7400,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T22:26:30.996435Z"
+  "updated_at": "2026-10-20T22:31:05.291177+00:00"
 }
