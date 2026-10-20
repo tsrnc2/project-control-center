@@ -763,17 +763,24 @@
       "id": "KWH-SR404-BADGE-POS",
       "project_id": "kludge-wagon-haywire",
       "title": "SR-404 badge position",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P3",
-      "claimed_by": "codex-fbw-sequential",
-      "claim_expires_at": "2026-10-21T00:14:56.806530+00:00",
-      "updated_at": "2026-10-20T22:14:56.806530+00:00",
-      "next_action": "Ready for owner agent.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T22:19:49.645471+00:00",
+      "next_action": "Tested source/Web-pack correction published;qualified distinct exact-source review KWH-SR404-BADGE-POS-REVIEW-R1 and authorized integration remain. Issue24 stays open;own execution ownership released.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/24",
-      "claimed_at": "2026-10-20T19:36:36.643575+00:00",
-      "claim_heartbeat_at": "2026-10-20T22:14:56.806530+00:00"
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "canonical_task_blob": "934f8b583ca87aae5b9383d52c95bc8576bd113c",
+      "canonical_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-SR404-BADGE-POS.json",
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/500",
+      "blocker_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/24",
+      "review_task": "KWH-SR404-BADGE-POS-REVIEW-R1",
+      "release_operation_id": "sr404-hatch-badge-source-review-release-20261020",
+      "last_execution_owner": "codex-fbw-sequential"
     },
     {
       "id": "KWH-DEPLOY-MEMBERS-SITE",
@@ -6515,6 +6522,13 @@
   ],
   "activity": [
     {
+      "at": "2026-10-20T22:19:49.645471+00:00",
+      "type": "TASK_BLOCKED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-SR404-BADGE-POS",
+      "summary": "Badge correction and Web pack verified/published;independent review pending;own locks released;https://github.com/tsrnc2/fly-by-wire-c/pull/500"
+    },
+    {
       "at": "2026-10-20T20:17:23.396104Z",
       "type": "TASK_BLOCKED",
       "project_id": "kludge-wagon-haywire",
@@ -7349,5 +7363,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T22:17:26.198115Z"
+  "updated_at": "2026-10-20T22:19:49.645471+00:00"
 }
