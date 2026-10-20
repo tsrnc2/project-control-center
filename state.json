@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-20T22:15:26.543282Z",
+    "generated_at": "2026-10-20T22:18:25.404467Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -5231,15 +5231,18 @@
       "id": "KWH-WB-GPL-SOURCE-REVIEW",
       "project_id": "kludge-wagon-haywire",
       "title": "Workbench: independent corresponding-source/license review",
-      "state": "READY",
+      "state": "BLOCKED",
       "priority": "P0",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-15T01:29:52Z",
-      "next_action": "Wait for KWH-WB-GPL-SOURCE-CLOSURE exact candidate/source-bundle receipt, then independently claim/lease and review immutable bytes. No edits, merge, deployment or public release.",
+      "updated_at": "2026-10-20T22:18:25.404438Z",
+      "next_action": "Supply29 package notice/disposition mappings and qualified independent review evidence; no release or deployment.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/330"
+      "source_ref": "https://github.com/tsrnc2/kitt/issues/280",
+      "technical_verdict": "REVISE",
+      "independent_acceptance": false,
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/blob/38a7eee6a7b28831a0c860c9701ba20fc1b8677b/reports/codex-fbw-longterm/workbench-source-review-20261020/REPORT.md"
     },
     {
       "id": "pity-please-20261014-store-packaging",
