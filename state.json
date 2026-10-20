@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-20T17:30:29.490783Z",
+    "generated_at": "2026-10-20T18:49:28.526353Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -5204,16 +5204,18 @@
       "id": "KWH-WB-GPL-SOURCE-CLOSURE",
       "project_id": "kludge-wagon-haywire",
       "title": "Workbench: build and verify exact GPL corresponding-source bundle",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P0",
-      "claimed_by": "codex-standing-fbw",
-      "claim_expires_at": "2026-10-20T18:26:08Z",
-      "updated_at": "2026-10-20T16:26:19.215532Z",
-      "next_action": "Recover exact shipped provenance and matching source bundle on authenticated Linux; verify frozen candidate gate. No public release or acceptance.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T18:49:28.526331Z",
+      "next_action": "Exact source-preparation candidate and complete private artifact handed to existing independent review. Review/release gates remain.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/330",
-      "claim_heartbeat_at": null
+      "claim_heartbeat_at": null,
+      "independent_acceptance": false,
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/blob/7d6ee147bdcd2a07185e7ea01db5f77596b05a40/reports/codex-standing-fbw/2026-10-20-workbench-source-closure.md"
     },
     {
       "id": "KWH-WB-GPL-SOURCE-REVIEW",
@@ -6421,6 +6423,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-20T18:49:28.526358Z",
+      "type": "TASK_COMPLETED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-WB-GPL-SOURCE-CLOSURE",
+      "summary": "Pinned Workbench source preparation verified and privately retained; independent source/license review is next."
+    },
     {
       "at": "2026-10-20T17:09:02.528678+00:00",
       "type": "BLOCKER_REDUCED",
