@@ -6129,12 +6129,15 @@
       "id": "KITT-20261020-BATCHED-READONLY-BOARD",
       "project_id": "kitt",
       "title": "Prepare batched read-only board discovery",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P1",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-20T19:11:50.672686Z",
-      "updated_at": "2026-10-20T17:11:59.807398Z",
-      "next_action": "Read-only development candidate and source-bound tests; no runtime activation."
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T17:27:47.114327Z",
+      "next_action": "Independent review of draft development candidate; no runtime activation.",
+      "source_ref": "https://github.com/tsrnc2/kitt/pull/256",
+      "candidate_commit": "4873e0ac2c00216e3827956003d0d06c5df20ab9",
+      "independent_acceptance": false
     }
   ],
   "blockers": [
@@ -7199,5 +7202,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T17:13:16.316075Z"
+  "updated_at": "2026-10-20T17:27:47.114350Z"
 }
