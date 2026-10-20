@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-20T16:41:35.763303Z",
+    "generated_at": "2026-10-20T17:03:03.224506+00:00",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6082,6 +6082,25 @@
       "source_ref": "https://github.com/tsrnc2/kitt/pull/248",
       "result_summary": "Local caretaker intake adopted unchanged PR228 read-only development client with exact pins.10original/4wrapper tests pass; complete actual FBW181/master5/KITT259 reads; no installed/native/write/service changes. https://github.com/tsrnc2/kitt/pull/248",
       "independent_acceptance": false
+    },
+    {
+      "id": "KWH-STORY-LOCATIONS-DESIGN",
+      "project_id": "kludge-wagon-haywire",
+      "state": "BLOCKED",
+      "priority": "P1",
+      "claimed_by": null,
+      "claimed_at": null,
+      "claim_expires_at": null,
+      "claim_heartbeat_at": null,
+      "owner_agent": null,
+      "updated_at": "2026-10-20T17:03:03.224506+00:00",
+      "canonical_task_blob": "87d5018a0f0dca7c3469e24d5982cbc00e98236a",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-STORY-LOCATIONS-DESIGN.json",
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/486",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/250",
+      "last_execution_owner": "codex-waypoint-story-phase-repair-20261020",
+      "independent_acceptance": false,
+      "next_action": "Distinct eligible review of exact corrected design and owner creative approval before canon merge or staged implementation."
     }
   ],
   "blockers": [
@@ -6332,6 +6351,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-20T17:03:03.224506+00:00",
+      "type": "CANONICAL_BLOCKED_MIRRORED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-STORY-LOCATIONS-DESIGN",
+      "summary": "SLR-01 design correction published; distinct review and creative decision remain. No runtime/canon authority."
+    },
     {
       "at": "2026-10-20T16:31:12.313127Z",
       "type": "CANONICAL_TERMINAL_MIRRORED",
@@ -7132,5 +7158,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T16:56:45.284005Z"
+  "updated_at": "2026-10-20T17:03:03.224506+00:00"
 }
