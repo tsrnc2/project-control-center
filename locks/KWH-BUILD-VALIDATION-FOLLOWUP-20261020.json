@@ -1,9 +1,0 @@
-{
-  "task_id": "KWH-BUILD-VALIDATION-FOLLOWUP-20261020",
-  "project_id": "kludge-wagon-haywire",
-  "agent_id": "codex-waypoint-fbw-followup",
-  "lock_token": "416a9d8ec632be3e743b401758f95b9da82f6cc17a7bcc78",
-  "acquired_at": "2026-10-20T12:27:22.002419Z",
-  "expires_at": "2026-10-20T12:37:22.002434+00:00",
-  "run_ref": "fbw-build-followup-20261020"
-}
