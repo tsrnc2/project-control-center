@@ -6030,6 +6030,17 @@
       "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/blob/786a9a74f45ae60d2b67721848f603e89878fd69/reports/codex/story-locations-review-20261020/REVIEW.md",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-STORY-LOCATIONS-REVIEW-PR400.json",
       "next_action": "PR400 review complete with SLR-01 revision request; author successor and renewed review/creative approval required."
+    },
+    {
+      "id": "PM-011",
+      "project_id": "project-merger",
+      "title": "Finalize ready pull requests across all canonical portfolio repositories",
+      "priority": "P1",
+      "state": "RUNNING",
+      "claimed_by": "codex-cedar-persistent",
+      "claim_expires_at": "2026-10-20T18:39:14Z",
+      "updated_at": "2026-10-20T16:39:22.171048+00:00",
+      "next_action": "One read-only portfolio PR inventory pass; exact head/base and review/check metadata; zero merge/close operations."
     }
   ],
   "blockers": [
@@ -7080,5 +7091,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T16:31:12.313118Z"
+  "updated_at": "2026-10-20T16:39:22.171048+00:00"
 }
