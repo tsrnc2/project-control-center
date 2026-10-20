@@ -5995,13 +5995,13 @@
       "state": "BLOCKED",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-20T16:19:28.429282Z",
-      "candidate_revision": "bab20b6e813cb6759a001224729f68db01fb076e",
+      "updated_at": "2026-10-20T16:52:57.394224Z",
+      "candidate_revision": "e17e2bf861532ee750f96dfef773f5dd5f004a2d",
       "pull_request": "https://github.com/tsrnc2/fly-by-wire-c/pull/473",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/473",
       "blocker_ref": "https://github.com/tsrnc2/kitt/issues/221",
-      "result_summary": "Published partial PR473: reject 7/7 immutable reviewer mutations; original 10 and new 15 semantic tests pass; all 9 declared byte identities checked. Two-bit transfer, gear/tick and complete buffer ABI proposals recorded. Full source/transport/derivation closure remains held; no application/runtime.",
-      "next_action": "Qualified exact-source review of PR473, then complete separately admitted heading/accepted-command/inhibit-metadata/GPS-minimap source and transport design plus inherited wire-range and structured derivation closure. Keep applied/runtime work held."
+      "result_summary": "Source-binding follow-up PR473: 10 original + 15 existing + 14 binding groups pass;  reject 7/7 immutable reviewer mutations; original 10 and existing 15 semantic tests plus 14 binding tests pass; all 9 declared byte identities checked. Two-bit transfer, gear/tick and complete buffer ABI proposals recorded. Full source/transport admission remains held; no application/runtime.",
+      "next_action": "Qualified exact-source review of PR473, then complete separately admitted heading/accepted-command/inhibit-metadata/GPS-minimap source and transport design plus inherited wire-range closure. Keep applied/runtime work held."
     },
     {
       "id": "KWH-MCU-INSPECTION-CHECKER-REPAIR-R3",
@@ -7129,5 +7129,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T16:52:18.782608+00:00"
+  "updated_at": "2026-10-20T16:52:57.394245Z"
 }
