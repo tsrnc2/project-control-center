@@ -3884,15 +3884,15 @@
       "title": "Kernel boot prerequisite: custom i386 Multiboot loader mode in Workbench",
       "priority": "P0",
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/275",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/461",
       "owner_agent": null,
-      "state": "RUNNING",
-      "claimed_by": "codex-kernel-loader",
-      "claim_expires_at": "2026-10-20T01:03:47Z",
+      "state": "BLOCKED",
+      "claimed_by": null,
+      "claim_expires_at": null,
       "claimed_at": "2026-10-14T03:30:00Z",
       "claim_heartbeat_at": "2026-10-14T03:31:00Z",
-      "updated_at": "2026-10-19T23:37:59.517454Z",
-      "next_action": "Complete actual v86 boot validation and repair reproduced false-positive marker/architecture/grading faults; source candidate only, no deployment.",
+      "updated_at": "2026-10-20T00:29:09.672627Z",
+      "next_action": "Qualified exact-head reviewer/owner reviews PR461 at b72ab5eb8ea86e3ddc5ecffb72bc543cee9c2f32; Jobo merges through normal project protections. Keep dependent kernel work behind its actual prerequisites.",
       "ownership_history": [
         {
           "claimed_by": "chatgpt-kwh-kernel-loader",
@@ -3900,7 +3900,11 @@
           "reconciled_at": "2026-10-19T23:37:59.517447Z",
           "basis": "Canonical READY task was unclaimed; fresh canonical ownership and PCC lock now held"
         }
-      ]
+      ],
+      "candidate_revision": "b72ab5eb8ea86e3ddc5ecffb72bc543cee9c2f32",
+      "pull_request": "https://github.com/tsrnc2/fly-by-wire-c/pull/461",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/215",
+      "result_summary": "Actual bundled-v86 boot verified and loader faults repaired: reject malformed/wrong-architecture/unsupported-flag ELF before VM construction, exact complete serial marker lines, explicit failure rejection, guest-derived banner grading, timer cleanup and relocated reproducibility. Final 11 loader groups + 10 grader tests + actual v86 smoke pass. Await qualified exact-head review and Jobo merge."
     },
     {
       "id": "KWH-KERNEL-BOOT",
@@ -6921,5 +6925,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-19T23:37:59.517461Z"
+  "updated_at": "2026-10-20T00:29:09.672656Z"
 }
