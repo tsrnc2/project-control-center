@@ -6124,6 +6124,17 @@
       "updated_at": "2026-10-20T17:06:16.894362Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-UI-RESPONSIVE-REPAIR-R3-REVIEW.json",
       "next_action": "A distinct qualified reviewer claims and leases this read-only task; do not infer independence from a different session name."
+    },
+    {
+      "id": "KITT-20261020-BATCHED-READONLY-BOARD",
+      "project_id": "kitt",
+      "title": "Prepare batched read-only board discovery",
+      "state": "RUNNING",
+      "priority": "P1",
+      "claimed_by": "codex-cedar-persistent",
+      "claim_expires_at": "2026-10-20T19:11:50.672686Z",
+      "updated_at": "2026-10-20T17:11:59.807398Z",
+      "next_action": "Read-only development candidate and source-bound tests; no runtime activation."
     }
   ],
   "blockers": [
@@ -7188,5 +7199,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T17:11:52.673001+00:00"
+  "updated_at": "2026-10-20T17:11:59.807417Z"
 }
