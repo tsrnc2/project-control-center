@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-20T16:31:10.872339Z",
+  "type": "STALE_MIRROR_CLAIM_RECONCILED",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-MKT-CAPSULE-HEADER",
+  "agent_id": "codex-waypoint-capsule-draft-20261020",
+  "prior_agent": "chatgpt-kwh-capsule-header-design",
+  "prior_expiry": "2026-10-16T05:19:30Z",
+  "canonical_task_blob": "9b6a007291e36373d8be3a7fc3de3e7f19c1bc8a",
+  "reason": "Canonical task already completed by the documented successor; reconcile only terminal dashboard status, no new execution or acceptance authority."
+}
