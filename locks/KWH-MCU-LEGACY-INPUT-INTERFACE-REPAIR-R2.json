@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-MCU-LEGACY-INPUT-INTERFACE-REPAIR-R2",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-waypoint-board-drain",
+  "lock_token": "7b7093fc2639a99f55c7f9f10811a22c51376b5ce0fb78d4",
+  "acquired_at": "2026-10-20T16:14:04.604686Z",
+  "heartbeat_at": "2026-10-20T16:14:04.604686Z",
+  "expires_at": "2026-10-20T18:09:05Z",
+  "run_ref": "Isolated partial legacy-input semantic repair; no application or runtime"
+}
