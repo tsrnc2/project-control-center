@@ -6071,14 +6071,16 @@
       "project_id": "project-merger",
       "title": "Finalize ready pull requests across all canonical portfolio repositories",
       "priority": "P1",
-      "state": "RUNNING",
-      "claimed_by": "codex-waypoint-pm011-graphql",
-      "claim_expires_at": "2026-10-20T22:16:59.869233Z",
-      "updated_at": "2026-10-20T20:16:59.869285Z",
-      "next_action": "Recheck changed/promoted candidates and resolved read-access gaps; qualify exact head/base before any finalization.",
-      "source_ref": "https://github.com/tsrnc2/project-control-center-private/pull/2",
-      "last_run_completed_at": "2026-10-20T16:46:59.392873Z",
-      "result_summary": "One read-only portfolio inventory pass completed; no PR finalization or acceptance granted."
+      "state": "READY",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T20:17:31.828682Z",
+      "next_action": "Reconsider changed/promoted candidates or resolved access gaps; qualify current exact-head repository gates before a fresh one-PR finalizer. Skip unchanged dispositions.",
+      "source_ref": "https://github.com/tsrnc2/project-control-center-private/pull/3",
+      "last_run_completed_at": "2026-10-20T20:17:31.828682Z",
+      "result_summary": "One read-only inventory pass completed:302 PRs,19 new,1 changed head/base,4 changed metadata. No PR finalization or acceptance.",
+      "claimed_at": null,
+      "claim_heartbeat_at": null
     },
     {
       "id": "kitt-20261004-promote-router-cpp",
@@ -7306,5 +7308,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T19:38:22.797331Z"
+  "updated_at": "2026-10-20T20:17:31.828682Z"
 }
