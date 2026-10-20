@@ -5940,6 +5940,17 @@
       "claim_expires_at": "2026-10-20T18:13:32Z",
       "updated_at": "2026-10-20T16:13:44.647311Z",
       "next_action": "Execute frozen network timing checker and adversarial tests; preserve source and qualified acceptance limits."
+    },
+    {
+      "id": "KWH-MCU-INSPECTION-CONTRACT-REVIEW-R2",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Independently review manifest-bound inspection/API/save repair",
+      "priority": "P0",
+      "state": "RUNNING",
+      "claimed_by": "codex-cedar-persistent",
+      "claim_expires_at": "2026-10-20T18:14:41Z",
+      "updated_at": "2026-10-20T16:14:49.882811+00:00",
+      "next_action": "Read-only exact PR466 review with actual checker, regression and adversarial evidence; no acceptance or runtime activation."
     }
   ],
   "blockers": [
@@ -6969,5 +6980,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T16:11:23.817383+00:00"
+  "updated_at": "2026-10-20T16:14:49.882811+00:00"
 }
