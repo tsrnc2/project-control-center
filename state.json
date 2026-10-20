@@ -375,11 +375,11 @@
       "id": "PM-003",
       "project_id": "project-merger",
       "title": "Canonical branch and PR inventory",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P1",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-10T09:18:31Z",
+      "claimed_by": "codex-waypoint-pm003",
+      "claim_expires_at": "2026-10-20T18:10:08Z",
+      "updated_at": "2026-10-20T16:40:19.258501Z",
       "source_ref": "https://github.com/tsrnc2/project-control-center/issues/66",
       "next_action": "Continue PM-003 from repository-family tranche 2/27. project-control-center is complete: 20 exact branch heads and 13 open-PR bindings are stored in its private ledger partition. Do not rescan it unless its target SHA changes.",
       "progress": {
@@ -7091,5 +7091,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T16:39:22.171048+00:00"
+  "updated_at": "2026-10-20T16:40:19.258520Z"
 }
