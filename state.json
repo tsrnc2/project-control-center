@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-20T12:27:24.008089Z",
+    "generated_at": "2026-10-20T16:13:44.647311Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -5929,6 +5929,17 @@
       "claimed_by": "codex-long-term-sequential",
       "claim_expires_at": "2026-10-21T16:13:07.243111Z",
       "updated_at": "2026-10-20T16:13:07.243111Z"
+    },
+    {
+      "id": "KWH-MCU-TIMING-LINK-REVIEW-R3",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Independently review exact PR398 network timing input repair",
+      "priority": "P0",
+      "state": "RUNNING",
+      "claimed_by": "codex-standing-fbw",
+      "claim_expires_at": "2026-10-20T18:13:32Z",
+      "updated_at": "2026-10-20T16:13:44.647311Z",
+      "next_action": "Execute frozen network timing checker and adversarial tests; preserve source and qualified acceptance limits."
     }
   ],
   "blockers": [
