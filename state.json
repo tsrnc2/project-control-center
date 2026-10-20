@@ -858,15 +858,15 @@
       "id": "KWH-WORLD-PERF",
       "project_id": "kludge-wagon-haywire",
       "title": "World: performance pass (LOD, MultiMesh, culling, web FPS budget)",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-fbw-goal-api",
-      "claim_expires_at": "2026-10-20T18:26:56Z",
-      "updated_at": "2026-10-20T16:27:28.930114+00:00",
-      "next_action": "BLOCKED \u2014 its 04:10:01Z expired execution lease was SHA-released at 11:59:53Z; bounded retry ended. Retain Godot 4.3/private-source and source-write blocker with no 720p llvmpipe FPS/draw-call acceptance. Do not re-run unchanged.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T16:49:06.298076Z",
+      "next_action": "Quiet matched native/web performance profiling and qualified independent evidence review; prioritize Bodie draw/primitive cost. Do not apply the rejected experimental patch.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/36",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/484",
       "claimed_at": "2026-10-14T01:31:00Z",
       "claim_heartbeat_at": "2026-10-14T01:31:00Z"
     },
@@ -7118,5 +7118,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T16:46:59.392873Z"
+  "updated_at": "2026-10-20T16:49:06.298076Z"
 }
