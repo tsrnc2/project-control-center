@@ -6268,11 +6268,15 @@
       "project_id": "kludge-wagon-haywire",
       "title": "Exact installed-package notice evidence mapping",
       "priority": "P1",
-      "state": "RUNNING",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T00:26:21.849749Z",
-      "updated_at": "2026-10-20T22:26:30.996416Z",
-      "next_action": "Prepare exact package notice evidence; preserve qualified review and release gates."
+      "state": "DONE",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T22:36:24.902957Z",
+      "next_action": "Existing qualified source/license review remains gated; resolve2 notice decisions and exact offline distribution delivery.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/503",
+      "candidate_revision": "f6ea16d9233ad07789318e4cd36bd2b1b9b5401b",
+      "result_summary": "Notice evidence preparation published:29 gaps accounted;2 maintainer/reviewer notice decisions and reviewed delivery remain open. No legal/independent/release acceptance.",
+      "independent_acceptance": false
     },
     {
       "id": "kitt-20261001-spend-the-expiring-credits-databricks-ab",
@@ -7400,5 +7404,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T22:31:05.291177+00:00"
+  "updated_at": "2026-10-20T22:36:24.902980Z"
 }
