@@ -1,0 +1,9 @@
+{
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-STORY-LOCATIONS-DESIGN",
+  "agent_id": "codex-waypoint-story-phase-repair-20261020",
+  "lock_token": "aa524850a2820885534f04108d935d214e0b23dfc47c8c74",
+  "acquired_at": "2026-10-20T17:03:00.364374+00:00",
+  "expires_at": "2026-10-20T17:13:00.364374+00:00",
+  "run_ref": "story-phase-repair-mirror-20261020"
+}
