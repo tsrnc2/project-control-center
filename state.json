@@ -896,16 +896,17 @@
       "id": "KWH-BLD-LEDGES",
       "project_id": "kludge-wagon-haywire",
       "title": "Building detail kit: ledges/trim",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-standing-ledges",
-      "claim_expires_at": "2026-10-20T21:48:09.458487+00:00",
-      "updated_at": "2026-10-20T20:18:23.161613+00:00",
-      "next_action": "Verify exact existing ledge/trim assets, anchor placement and actual Godot screenshots; preserve production source and world owners.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T22:16:27.625104+00:00",
+      "next_action": "Candidate https://github.com/tsrnc2/fly-by-wire-c/pull/499 passes516 native checks; independent review KWH-BLD-LEDGES-TRANSFORM-REVIEW-R1 and reviewed adoption remain. Blocker https://github.com/tsrnc2/kitt/issues/279. Original issue37 is open; no deployment.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/37",
-      "claimed_at": "2026-10-20T20:18:09.458487+00:00"
+      "claimed_at": "2026-10-20T20:18:09.458487+00:00",
+      "claim_heartbeat_at": null
     },
     {
       "id": "KWH-BLD-BALCONIES",
@@ -6482,6 +6483,18 @@
       "required_next_action": "On or after 2026-11-01, or earlier if an account administrator confirms restored no-cost capacity, rerun the exact PR #140 CI/native jobs and preserve executed-step evidence. No paid capacity or alternative paid compute without explicit approval.",
       "source_ref": "https://github.com/tsrnc2/project-control-center/issues/85",
       "updated_at": "2026-10-15T05:21:30Z"
+    },
+    {
+      "id": "kwh-detail-authored-transform-review-20261020",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-BLD-LEDGES",
+      "state": "OPEN",
+      "severity": "MEDIUM",
+      "summary": "Native detail-transform repair published; independent review and reviewed adoption pending.",
+      "required_next_action": "Review exact candidate c282751440b7dfdbdb2a8b6d29687be9ea619506 through KWH-BLD-LEDGES-TRANSFORM-REVIEW-R1; see https://github.com/tsrnc2/kitt/issues/279.",
+      "updated_at": "2026-10-20T22:16:27.625129+00:00",
+      "category": "INDEPENDENT_REVIEW",
+      "review_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/499"
     }
   ],
   "activity": [
@@ -7320,5 +7333,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T22:14:56.806530+00:00"
+  "updated_at": "2026-10-20T22:16:27.625141+00:00"
 }
