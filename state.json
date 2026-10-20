@@ -1361,17 +1361,23 @@
       "id": "KWH-TUNNEL-GPS",
       "project_id": "kludge-wagon-haywire",
       "title": "GPS loses signal underground",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P3",
-      "claimed_by": "codex-fbw-sequential",
-      "claim_expires_at": "2026-10-20T19:32:07.678362+00:00",
-      "updated_at": "2026-10-20T17:32:07.678362+00:00",
-      "next_action": "Acceptance: Minimap shows NO SIGNAL while underground; restores on exit",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T19:25:08.720861+00:00",
+      "next_action": "Verified in actual frozen Chromium/Godot build: mine entry NO SIGNAL,sewer exit restores map;no product source correction required.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/70",
-      "claimed_at": "2026-10-20T17:11:52.673001+00:00",
-      "claim_heartbeat_at": "2026-10-20T17:32:07.678362+00:00"
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "completed_at": "2026-10-20T19:25:08.720861+00:00",
+      "canonical_task_blob": "35c085f0e73051492f7b1f9d64b5e68fe88e3157",
+      "canonical_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-TUNNEL-GPS.json",
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/494",
+      "release_operation_id": "gps-tunnel-source-bound-verification-release-20261020",
+      "last_execution_owner": "codex-fbw-sequential"
     },
     {
       "id": "KWH-CAST-GIRLFRIEND",
@@ -6449,6 +6455,13 @@
   ],
   "activity": [
     {
+      "at": "2026-10-20T19:25:08.720861+00:00",
+      "type": "TASK_DONE",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-TUNNEL-GPS",
+      "summary": "Frozen browser GPS acceptance verified;exact own canonical/PCC ownership released;https://github.com/tsrnc2/fly-by-wire-c/pull/494"
+    },
+    {
       "at": "2026-10-20T18:49:28.526358Z",
       "type": "TASK_COMPLETED",
       "project_id": "kludge-wagon-haywire",
@@ -7269,5 +7282,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T19:23:42.240133Z"
+  "updated_at": "2026-10-20T19:25:08.720861+00:00"
 }
