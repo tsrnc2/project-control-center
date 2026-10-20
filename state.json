@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-20T17:06:16.894362Z",
+    "generated_at": "2026-10-20T17:09:02.528678+00:00",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -2806,17 +2806,20 @@
       "id": "KWH-MKT-LEGAL-CHECK",
       "project_id": "kludge-wagon-haywire",
       "title": "Legal check: no Toyota / Knight Rider references in marketing",
-      "state": "DONE",
+      "state": "BLOCKED",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-17T12:48:00Z",
-      "next_action": "Technical text/diff branding audit complete and issue #146 closed. Private MP3 speech remains a pre-release binary-audio verification item; no legal clearance is claimed.",
+      "updated_at": "2026-10-20T17:09:02.528678+00:00",
+      "next_action": "Qualified audio-capable reviewer verifies/transcribes known binary speech and coordinates any separately authorized re-recording; refresh source/open-PR text audit. Description-administrator action is resolved.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/146",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-MKT-LEGAL-CHECK.json",
       "claimed_at": "2026-10-14T02:34:00Z",
-      "claim_heartbeat_at": "2026-10-14T02:34:00Z"
+      "claim_heartbeat_at": "2026-10-14T02:34:00Z",
+      "result_summary": "Repository description corrected from Tercel to Kludge Wagon SR-404 through existing admin broker; separate authenticated readback verifies exact description and unchanged name/homepage/topics. Evidence https://github.com/tsrnc2/kitt/pull/251. Private MP3 speech remains untranscribed and fresh source/PR audit remains due. No legal clearance or qualified independent acceptance.",
+      "evidence_ref": "https://github.com/tsrnc2/kitt/pull/251",
+      "canonical_task_blob": "deecba04667713960fb825028c3b852653497ace"
     },
     {
       "id": "KWH-AND-EVAL",
@@ -6370,6 +6373,13 @@
   ],
   "activity": [
     {
+      "at": "2026-10-20T17:09:02.528678+00:00",
+      "type": "BLOCKER_REDUCED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-MKT-LEGAL-CHECK",
+      "summary": "Repository description corrected and separately read back; audio verification and fresh text/PR review remain."
+    },
+    {
       "at": "2026-10-20T17:03:03.224506+00:00",
       "type": "CANONICAL_BLOCKED_MIRRORED",
       "project_id": "kludge-wagon-haywire",
@@ -7176,5 +7186,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T17:03:03.224506+00:00"
+  "updated_at": "2026-10-20T17:09:02.528678+00:00"
 }
