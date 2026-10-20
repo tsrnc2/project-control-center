@@ -5965,6 +5965,22 @@
       "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/blob/26e49c1a5fa4be1d3afc62d474ce3249ad2982b9/reports/codex/shared-output-review-r2-20261020/REVIEW.md",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-MCU-SHARED-MODEL-OUTPUT-REVIEW-R2.json",
       "next_action": "Scoped PR441 repair review complete; frame/domain/integrated acceptance and runtime gates remain unchanged."
+    },
+    {
+      "id": "KWH-MCU-LEGACY-INPUT-INTERFACE-REPAIR-R2",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Repair canonical legacy input proposal after PR442 exact-head review",
+      "priority": "P0",
+      "state": "BLOCKED",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T16:19:28.429282Z",
+      "candidate_revision": "bab20b6e813cb6759a001224729f68db01fb076e",
+      "pull_request": "https://github.com/tsrnc2/fly-by-wire-c/pull/473",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/473",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/221",
+      "result_summary": "Published partial PR473: reject 7/7 immutable reviewer mutations; original 10 and new 15 semantic tests pass; all 9 declared byte identities checked. Two-bit transfer, gear/tick and complete buffer ABI proposals recorded. Full source/transport/derivation closure remains held; no application/runtime.",
+      "next_action": "Qualified exact-source review of PR473, then complete separately admitted heading/accepted-command/inhibit-metadata/GPS-minimap source and transport design plus inherited wire-range and structured derivation closure. Keep applied/runtime work held."
     }
   ],
   "blockers": [
@@ -6994,5 +7010,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T16:14:49.882811+00:00"
+  "updated_at": "2026-10-20T16:19:28.429311Z"
 }
