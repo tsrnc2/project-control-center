@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-20T16:27:06.740923Z",
+    "generated_at": "2026-10-20T16:31:01.904934Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -5828,18 +5828,25 @@
       "id": "KWH-BYWAY-01-REVIEW-PR417",
       "project_id": "kludge-wagon-haywire",
       "title": "Byway Island \u2014 independent design and topology review",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P2",
       "claimed_by": null,
       "claim_expires_at": null,
       "owner_agent": null,
       "human_owner": "Jobo",
-      "updated_at": "2026-10-18T04:00:07.537Z",
+      "updated_at": "2026-10-20T16:31:01.904901Z",
       "epic_id": "KWH-E5-BYWAY-ISLAND",
       "mirror_kind": "CANONICAL_TASK",
-      "next_action": "Different reviewer checks exact head 80a45f72 of draft PR #417 and committed Node graph validator, reports PASS/REVISE/BLOCKED; no self-review or merge.",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/418",
-      "review_target": "https://github.com/tsrnc2/fly-by-wire-c/pull/417"
+      "next_action": "Review completed with required validation-binding revision. No design/canon/child-task admission; consume the existing repair and review the exact successor.",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-BYWAY-01-REVIEW-PR417.json",
+      "review_target": "https://github.com/tsrnc2/fly-by-wire-c/pull/417",
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "canonical_task_blob": "c8c38d2ad81f6b54f4d48999f12568241ef457af",
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/475",
+      "completed_execution_owner": "codex-waypoint-byway-design-review-20261020",
+      "technical_verdict": "REVISE",
+      "qualified_independent_acceptance_established": false
     },
     {
       "id": "KWH-DMG-MODEL-REVIEW-R1",
@@ -6269,6 +6276,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-20T16:31:01.904950Z",
+      "type": "CANONICAL_TERMINAL_MIRRORED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-BYWAY-01-REVIEW-PR417",
+      "summary": "Owned bounded task completed; evidence and unresolved approval limits linked. No release authority granted."
+    },
     {
       "at": "2026-10-20T16:21:51.014364Z",
       "type": "REVIEW_COMPLETED",
@@ -7055,5 +7069,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T16:28:47.864575Z"
+  "updated_at": "2026-10-20T16:31:01.904941Z"
 }
