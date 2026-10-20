@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-20T16:17:16.533279Z",
+    "generated_at": "2026-10-20T16:21:51.014353Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -5935,11 +5935,14 @@
       "project_id": "kludge-wagon-haywire",
       "title": "Independently review exact PR398 network timing input repair",
       "priority": "P0",
-      "state": "RUNNING",
-      "claimed_by": "codex-standing-fbw",
-      "claim_expires_at": "2026-10-20T18:13:32Z",
-      "updated_at": "2026-10-20T16:13:44.647311Z",
-      "next_action": "Execute frozen network timing checker and adversarial tests; preserve source and qualified acceptance limits."
+      "state": "DONE",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T16:21:51.014310Z",
+      "next_action": "Technical review completed with a revision request; source owner repair and qualified exact-head review remain. No runtime/design acceptance.",
+      "review_verdict": "REVISE",
+      "independent_acceptance": false,
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/blob/db5e7809bf1345a6b764afbeeb3605be0c91a2f5/reports/codex/KWH-MCU-TIMING-LINK-REVIEW-R3-20261020/REPORT.md"
     },
     {
       "id": "KWH-MCU-INSPECTION-CONTRACT-REVIEW-R2",
@@ -6235,6 +6238,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-20T16:21:51.014364Z",
+      "type": "REVIEW_COMPLETED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-MCU-TIMING-LINK-REVIEW-R3",
+      "summary": "Frozen-candidate technical review returned REVISE; existing malformed-input boundary needs repair. Evidence published privately; no qualified acceptance."
+    },
     {
       "at": "2026-10-19T15:11:35.667837Z",
       "type": "VALIDATION_COMPLETED",
