@@ -5997,11 +5997,14 @@
       "project_id": "kludge-wagon-haywire",
       "title": "Repair inspection checker destination, request, oracle and malformed-input guards",
       "priority": "P0",
-      "state": "RUNNING",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-20T18:23:32Z",
-      "updated_at": "2026-10-20T16:23:43.448209+00:00",
-      "next_action": "Bounded inspection checker repair and focused regressions; no runtime or acceptance grant."
+      "state": "DONE",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T16:28:47.864575Z",
+      "next_action": "Distinct eligible reviewer executes KWH-MCU-INSPECTION-CHECKER-REVIEW-R3 on frozen candidate; no source repair, merge or full-design/runtime acceptance.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/480",
+      "result_summary": "Author checker-repair candidate published; exact-source independent review required.",
+      "independent_acceptance": false
     },
     {
       "id": "KWH-STORY-LOCATIONS-REVIEW-PR400",
@@ -7052,5 +7055,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T16:27:28.930114+00:00"
+  "updated_at": "2026-10-20T16:28:47.864575Z"
 }
