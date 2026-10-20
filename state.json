@@ -4629,11 +4629,11 @@
       "id": "KWH-BUG-COVERAGE",
       "project_id": "kludge-wagon-haywire",
       "title": "Bug coverage: map shipped C/C++ mistakes to mistakes_catalog",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P2",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T05:20:00Z",
+      "claimed_by": "codex-fbw-goal-api",
+      "claim_expires_at": "2026-10-20T18:54:03Z",
+      "updated_at": "2026-10-20T16:54:13.101195+00:00",
       "next_action": "READY unclaimed \u2014 see issue AC",
       "owner_agent": null,
       "human_owner": "Jobo",
@@ -7129,5 +7129,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T16:52:57.394245Z"
+  "updated_at": "2026-10-20T16:54:13.101195+00:00"
 }
