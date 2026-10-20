@@ -6061,10 +6061,10 @@
       "project_id": "project-merger",
       "title": "Finalize ready pull requests across all canonical portfolio repositories",
       "priority": "P1",
-      "state": "READY",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-20T16:46:59.392873Z",
+      "state": "RUNNING",
+      "claimed_by": "codex-waypoint-pm011-graphql",
+      "claim_expires_at": "2026-10-20T19:02:47.231643+00:00",
+      "updated_at": "2026-10-20T17:32:47.231649Z",
       "next_action": "Recheck changed/promoted candidates and resolved read-access gaps; qualify exact head/base before any finalization.",
       "source_ref": "https://github.com/tsrnc2/project-control-center-private/pull/2",
       "last_run_completed_at": "2026-10-20T16:46:59.392873Z",
@@ -7235,5 +7235,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T17:32:07.678362+00:00"
+  "updated_at": "2026-10-20T17:32:47.231649Z"
 }

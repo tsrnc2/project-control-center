@@ -1,0 +1,9 @@
+{
+  "task_id": "PM-011",
+  "project_id": "project-merger",
+  "agent_id": "codex-waypoint-pm011-graphql",
+  "lock_token": "bbe76426f73e708270eb8b1c3cf714c05718b7d5db6b7e91",
+  "acquired_at": "2026-10-20T17:32:47.231649Z",
+  "heartbeat_at": "2026-10-20T17:32:47.231649Z",
+  "expires_at": "2026-10-20T19:02:47.231643+00:00"
+}
