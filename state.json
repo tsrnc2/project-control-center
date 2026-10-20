@@ -2689,15 +2689,16 @@
       "id": "KWH-MKT-FACT-SHEET",
       "project_id": "kludge-wagon-haywire",
       "title": "Press fact sheet",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "codex-fbw-goal-api",
-      "claim_expires_at": "2026-10-21T00:17:26.198115Z",
-      "updated_at": "2026-10-20T22:17:26.198115Z",
-      "next_action": "Marketing. Acceptance: Studio RebelMedia Interactive, platforms, price TBD, contacts, Pity Please! link. Unclaimed.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T22:20:27.761692Z",
+      "next_action": "Jobo may review/approve the draft, confirm the published contact handles Kludge Wagon, and supply approved commercial platforms/public game and store URLs. Keep price/dateTBD until explicitly approved. No distribution authorized.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/135"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/501",
+      "result_summary": "Private draft completed; no public distribution approval."
     },
     {
       "id": "KWH-MKT-LOGOS",
@@ -7363,5 +7364,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T22:19:49.645471+00:00"
+  "updated_at": "2026-10-20T22:20:27.761692Z"
 }
