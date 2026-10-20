@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-WORLD-BIRDS",
+  "agent_id": "codex-cedar-persistent",
+  "lock_token": "12eb39509542f7268bda4665691fdfb4b35ea1e189b83288",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-20T22:38:46.191804Z",
+  "heartbeat_at": "2026-10-20T22:38:46.191816Z",
+  "expires_at": "2026-10-21T00:38:46.191820Z",
+  "run_ref": "Existing issue33 bird-only verification/preparation; preserve active ground-animal owner"
+}

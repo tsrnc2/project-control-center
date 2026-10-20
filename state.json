@@ -847,12 +847,12 @@
       "id": "KWH-WORLD-BIRDS",
       "project_id": "kludge-wagon-haywire",
       "title": "World: birds (flocks, perching, take-off when car near)",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P3",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Boids-style flock + ravens perching on roofs/poles; take off when car <15 m; no per-frame alloc",
+      "claimed_by": "codex-cedar-persistent",
+      "claim_expires_at": "2026-10-21T00:38:46.191820Z",
+      "updated_at": "2026-10-20T22:38:54.016383Z",
+      "next_action": "Run authored browser routes plus separate boundary probes; no independent acceptance.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/33"
@@ -7404,5 +7404,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T22:36:24.902980Z"
+  "updated_at": "2026-10-20T22:38:54.016403Z"
 }
