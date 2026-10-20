@@ -6074,11 +6074,14 @@
       "project_id": "kitt",
       "title": "Adopt pinned read-only board client for caretaker intake",
       "priority": "P1",
-      "state": "RUNNING",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-20T18:52:09Z",
-      "updated_at": "2026-10-20T16:52:18.782608+00:00",
-      "next_action": "Verify source pins and development-client discovery only; no production change."
+      "state": "DONE",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T16:56:45.284005Z",
+      "next_action": "Continue exact-record/lease-gated task selection using complete brief discovery; preserve issue229 native build-provenance and existing deployment/qualification gates.",
+      "source_ref": "https://github.com/tsrnc2/kitt/pull/248",
+      "result_summary": "Local caretaker intake adopted unchanged PR228 read-only development client with exact pins.10original/4wrapper tests pass; complete actual FBW181/master5/KITT259 reads; no installed/native/write/service changes. https://github.com/tsrnc2/kitt/pull/248",
+      "independent_acceptance": false
     }
   ],
   "blockers": [
@@ -7129,5 +7132,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T16:54:13.101195+00:00"
+  "updated_at": "2026-10-20T16:56:45.284005Z"
 }
