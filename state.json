@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-20T04:44:16.173435Z",
+    "generated_at": "2026-10-20T12:27:24.008089Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -5913,13 +5913,13 @@
       "id": "KWH-BUILD-VALIDATION-FOLLOWUP-20261020",
       "project_id": "kludge-wagon-haywire",
       "title": "Finish merged Kludge Wagon story and onboarding validation",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P1",
-      "claimed_by": "codex-waypoint-fbw-followup",
-      "claim_expires_at": "2026-10-21T04:38:06Z",
-      "updated_at": "2026-10-20T04:44:16.173413Z",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T12:27:24.008069Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-BUILD-VALIDATION-FOLLOWUP-20261020.json",
-      "result_summary": null
+      "result_summary": "Merged ECU startup latency and story-save repairs through PR465 and published SHA-256 verified refreshed web prerelease. Isolated onboarding passes unchanged High graphics/25-second target at 12.969 seconds. Functional story passes at explicit Low graphics with 180-second dialogue waits; original High/Low 60-second mission-8 dialogue timeouts retained. No native-device or independent acceptance claimed."
     }
   ],
   "blockers": [
