@@ -896,15 +896,16 @@
       "id": "KWH-BLD-LEDGES",
       "project_id": "kludge-wagon-haywire",
       "title": "Building detail kit: ledges/trim",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P2",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Reusable snap-on scene(s) in models/detail; attach via anchors.json; used by town_dresser.gd on >=2 buildings; screenshot",
+      "claimed_by": "codex-standing-ledges",
+      "claim_expires_at": "2026-10-20T21:48:09.458487+00:00",
+      "updated_at": "2026-10-20T20:18:23.161613+00:00",
+      "next_action": "Verify exact existing ledge/trim assets, anchor placement and actual Godot screenshots; preserve production source and world owners.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/37"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/37",
+      "claimed_at": "2026-10-20T20:18:09.458487+00:00"
     },
     {
       "id": "KWH-BLD-BALCONIES",
@@ -7308,5 +7309,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T20:17:31.828682Z"
+  "updated_at": "2026-10-20T20:18:23.161626+00:00"
 }
