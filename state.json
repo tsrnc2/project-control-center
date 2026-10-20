@@ -2974,11 +2974,11 @@
       "id": "KWH-CLUE-REVEAL",
       "project_id": "kludge-wagon-haywire",
       "title": "Clue\u2192lesson: secret case-file document reveal UI",
-      "state": "CLAIMED",
+      "state": "RUNNING",
       "priority": "P1",
-      "claimed_by": "chatgpt-kwh-clue-reveal",
-      "claim_expires_at": "2026-10-15T02:58:42Z",
-      "updated_at": "2026-10-14T02:58:42Z",
+      "claimed_by": "codex-fbw-goal-api",
+      "claim_expires_at": "2026-10-20T18:10:49Z",
+      "updated_at": "2026-10-20T16:11:23.817383+00:00",
       "next_action": "Assigned to chatgpt-kwh-clue-reveal. Acquire the canonical KITT execution lease before implementation; consume the merged clue schema and keep downstream lesson gating separate.",
       "owner_agent": null,
       "human_owner": "Jobo",
@@ -6949,5 +6949,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T00:29:09.672656Z"
+  "updated_at": "2026-10-20T16:11:23.817383+00:00"
 }
