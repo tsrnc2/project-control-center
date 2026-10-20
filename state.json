@@ -831,17 +831,17 @@
       "id": "KWH-WORLD-ANIMALS",
       "project_id": "kludge-wagon-haywire",
       "title": "World: animals + behaviors (wander, flee from car, idle)",
-      "state": "CLAIMED",
+      "state": "RUNNING",
       "priority": "P2",
       "claimed_by": "codex-fbw-sequential",
-      "claim_expires_at": "2026-10-21T00:22:13.033359+00:00",
-      "updated_at": "2026-10-20T22:22:13.033359+00:00",
+      "claim_expires_at": "2026-10-21T00:22:21.856690+00:00",
+      "updated_at": "2026-10-20T22:22:21.856690+00:00",
       "next_action": "Acceptance: Jackrabbit/coyote/deer temp models; wander/idle/flee state machine; flee triggered by car within radius; screenshot of flee",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/32",
       "claimed_at": "2026-10-20T22:22:13.033359+00:00",
-      "claim_heartbeat_at": "2026-10-20T22:22:13.033359+00:00"
+      "claim_heartbeat_at": "2026-10-20T22:22:21.856690+00:00"
     },
     {
       "id": "KWH-WORLD-BIRDS",
@@ -7366,5 +7366,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T22:22:13.033359+00:00"
+  "updated_at": "2026-10-20T22:22:21.856690+00:00"
 }
