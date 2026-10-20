@@ -766,14 +766,14 @@
       "state": "RUNNING",
       "priority": "P3",
       "claimed_by": "codex-fbw-sequential",
-      "claim_expires_at": "2026-10-20T21:36:47.630183+00:00",
-      "updated_at": "2026-10-20T19:36:47.630183+00:00",
+      "claim_expires_at": "2026-10-20T22:20:44.159300+00:00",
+      "updated_at": "2026-10-20T20:20:44.159300+00:00",
       "next_action": "Ready for owner agent.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/24",
       "claimed_at": "2026-10-20T19:36:36.643575+00:00",
-      "claim_heartbeat_at": "2026-10-20T19:36:47.630183+00:00"
+      "claim_heartbeat_at": "2026-10-20T20:20:44.159300+00:00"
     },
     {
       "id": "KWH-DEPLOY-MEMBERS-SITE",
@@ -7309,5 +7309,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T20:18:21.614464Z"
+  "updated_at": "2026-10-20T20:20:44.159300+00:00"
 }

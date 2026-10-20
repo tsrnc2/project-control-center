@@ -4,7 +4,7 @@
   "agent_id": "codex-fbw-sequential",
   "lock_token": "bff98b09c27a95a2f1e19e5508318b8ad529558c4621d57d",
   "acquired_at": "2026-10-20T19:36:36.643575+00:00",
-  "heartbeat_at": "2026-10-20T19:36:36.643575+00:00",
-  "expires_at": "2026-10-20T21:36:36.643575+00:00",
+  "heartbeat_at": "2026-10-20T20:20:44.159300+00:00",
+  "expires_at": "2026-10-20T22:20:44.159300+00:00",
   "run_ref": "Inspect and correct original SR-404 badge near hatch plate; isolated source and preview only"
 }
