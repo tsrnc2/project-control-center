@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-20T16:26:19.215560Z",
+    "generated_at": "2026-10-20T16:27:06.740923Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6002,6 +6002,20 @@
       "claim_expires_at": "2026-10-20T18:23:32Z",
       "updated_at": "2026-10-20T16:23:43.448209+00:00",
       "next_action": "Bounded inspection checker repair and focused regressions; no runtime or acceptance grant."
+    },
+    {
+      "id": "KWH-STORY-LOCATIONS-REVIEW-PR400",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Independently review story locations design PR #400",
+      "priority": "P1",
+      "state": "DONE",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T16:27:06.740889Z",
+      "verdict": "REVISE",
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/blob/786a9a74f45ae60d2b67721848f603e89878fd69/reports/codex/story-locations-review-20261020/REVIEW.md",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-STORY-LOCATIONS-REVIEW-PR400.json",
+      "next_action": "PR400 review complete with SLR-01 revision request; author successor and renewed review/creative approval required."
     }
   ],
   "blockers": [
