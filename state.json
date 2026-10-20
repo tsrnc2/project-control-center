@@ -4566,15 +4566,15 @@
       "id": "KWH-LANDMARKS-MUSIC",
       "project_id": "kludge-wagon-haywire",
       "title": "Landmarks: original/licensed-free find-jingle set",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "codex-fbw-goal-api",
-      "claim_expires_at": "2026-10-20T19:32:34.361018Z",
-      "updated_at": "2026-10-20T17:32:34.361018Z",
-      "next_action": "License notes in repo. READY.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-20T19:23:42.240133Z",
+      "next_action": "Owner listening of preview.html and qualified independent asset/provenance review; adopt only after review. Runtime playback integration is separate and must preserve mute, user gesture, duplicate and save semantics.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/288"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/495"
     },
     {
       "id": "KWH-CHALLENGE",
@@ -7269,5 +7269,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T17:32:34.361018Z"
+  "updated_at": "2026-10-20T19:23:42.240133Z"
 }
