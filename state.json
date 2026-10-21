@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T18:38:59.257223Z",
+    "generated_at": "2026-10-21T18:45:15.229026Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -1159,15 +1159,16 @@
       "id": "KWH-BLD-UPG-CHURCH-STEEPLE",
       "project_id": "kludge-wagon-haywire",
       "title": "Upgrade Bodie building with detail kit: church_steeple",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P3",
-      "claimed_by": "codex-sr-delegated-church-detail-20261021",
-      "claim_expires_at": "2026-10-21T20:31:39.850275Z",
-      "updated_at": "2026-10-21T18:32:55.069030Z",
-      "next_action": "Repair only church producer metadata/sign and actual kit binding;preserve model/collision/neighbors/RNG. Actual native Godot/source verification then qualified art/integration review.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T18:45:15.229026Z",
+      "next_action": "Reconcile actualmaster97 mirror receipt under separately owned KITT-20261021-REGISTRY-REV97 before treating handoff audit as current/clean. Then bind genuine qualified independent KWH-BLD-UPG-CHURCH-STEEPLE-REVIEW-R1 to frozen a046ce7852629d53c3cb7ac41e5afd11df0eefbd;reproduce118source controls/1936geometrycommands and15native checks,19actualchurchpieces,sign/neighbor/street/RNG/collision preservation and expected missing-input failures. Sourceproducer trace is not Blender execution. ExistingPR546notadopted;normal source/art/current-main/export/fullgame/terrain/web/Android/performance review remains required. No role/model admission,merge/deploy or independent acceptance. https://github.com/tsrnc2/fly-by-wire-c/pull/613 https://github.com/tsrnc2/kitt/issues/443",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/51"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/51",
+      "blocked_at": "2026-10-21T18:45:15.229026Z"
     },
     {
       "id": "KWH-BLD-UPG-METHODIST-CHURCH",
@@ -8994,5 +8995,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T18:44:10.590741Z"
+  "updated_at": "2026-10-21T18:45:15.229026Z"
 }
