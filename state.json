@@ -7544,6 +7544,17 @@
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/603",
       "dispatch_allowed": false,
       "next_action": "Authorized coordinator records exact reviewer qualification/independence and resolves hold before claim; no automatic design/game/device/admission clearance."
+    },
+    {
+      "id": "KWH-WEB-ASSET-GUARD-MODE-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Correct export executable mode in source candidate",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "owner_agent": null,
+      "source_ref": "https://github.com/tsrnc2/kitt/issues/401",
+      "updated_at": "2026-10-21T18:01:27.575631+00:00"
     }
   ],
   "blockers": [
@@ -8800,5 +8811,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T17:59:28.106599Z"
+  "updated_at": "2026-10-21T18:01:27.575660+00:00"
 }
