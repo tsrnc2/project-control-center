@@ -950,15 +950,16 @@
       "id": "KWH-BLD-DOORS-WINDOWS",
       "project_id": "kludge-wagon-haywire",
       "title": "Building detail kit: doors and windows (framed/broken/boarded variants)",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "codex-waypoint-doors-windows",
-      "claim_expires_at": "2026-10-21T05:19:29.441673Z",
-      "updated_at": "2026-10-21T03:20:46.082970Z",
-      "next_action": "Bounded door/window author source and native verification; independent review/composition held.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T03:28:32.855583Z",
+      "next_action": "Author candidate published;qualified independent review/art/composition held.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/39"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/527",
+      "completed_at": "2026-10-21T03:28:32.855583Z"
     },
     {
       "id": "KWH-BLD-ROOFS",
@@ -6626,6 +6627,17 @@
       "execution_mode": "OWNER_SCOPED_TECHNICAL_REVIEW",
       "independent_acceptance": false,
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-20261020-GUARDIAN-MATRIX-GAP-RECOVERY-REVIEW.json"
+    },
+    {
+      "id": "KWH-BLD-DOORS-WINDOWS-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified independent review of door/window source candidate",
+      "state": "BLOCKED",
+      "priority": "P2",
+      "claimed_by": null,
+      "updated_at": "2026-10-21T03:28:32.855583Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/issues/320",
+      "next_action": "Bind qualified independent reviewer;exact-source and accountable art/composition acceptance pending."
     }
   ],
   "blockers": [
@@ -7836,5 +7848,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T03:28:03.741669Z"
+  "updated_at": "2026-10-21T03:28:32.855583Z"
 }
