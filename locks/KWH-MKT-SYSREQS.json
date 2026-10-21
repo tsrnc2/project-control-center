@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-MKT-SYSREQS",
+  "agent_id": "codex-cedar-persistent",
+  "lock_token": "65055ab85d80f9c8dd2efc82c4133a3481ce08436f655d57",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T18:38:16.651134Z",
+  "heartbeat_at": "2026-10-21T18:38:16.651147Z",
+  "expires_at": "2026-10-21T20:38:16.651150Z",
+  "run_ref": "Issue122 private exact-artifact singlehost diagnostic; no supportedminimum/ready verdict"
+}

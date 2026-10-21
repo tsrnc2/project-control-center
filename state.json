@@ -2694,12 +2694,12 @@
       "id": "KWH-MKT-SYSREQS",
       "project_id": "kludge-wagon-haywire",
       "title": "Steam store: system requirements (min/recommended)",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P2",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T01:15:54Z",
-      "next_action": "Marketing. Acceptance: Measured min/rec specs for web/desktop build documented. Unclaimed.",
+      "claimed_by": "codex-cedar-persistent",
+      "claim_expires_at": "2026-10-21T20:38:16.651150Z",
+      "updated_at": "2026-10-21T18:38:25.161951Z",
+      "next_action": "Measured webprerelease reference environment only;unknownminimum/recommended/desktop/SLO/qualification fields held;boundedresource-safe diagnostic beforeprivatedraft publication.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/122"
@@ -8973,5 +8973,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T18:35:02.890843Z"
+  "updated_at": "2026-10-21T18:38:25.161970Z"
 }
