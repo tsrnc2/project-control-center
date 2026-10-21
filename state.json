@@ -2838,15 +2838,16 @@
       "id": "KWH-MKT-LAUNCH-CHECKLIST",
       "project_id": "kludge-wagon-haywire",
       "title": "Launch checklist",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P1",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T01:15:54Z",
-      "next_action": "Marketing. Acceptance: End-to-end checklist from Coming Soon to release. Unclaimed.",
+      "claimed_by": "codex-standing-launch",
+      "claim_expires_at": "2026-10-21T02:50:20.116981+00:00",
+      "updated_at": "2026-10-21T01:20:30.912720+00:00",
+      "next_action": "Prepare private end-to-end launch checklist with verified source links and owner approval gates. No public/store action.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/145"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/145",
+      "claimed_at": "2026-10-21T01:20:20.116981+00:00"
     },
     {
       "id": "KWH-MKT-LEGAL-CHECK",
@@ -7450,5 +7451,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T01:20:16.947575Z"
+  "updated_at": "2026-10-21T01:20:30.912731+00:00"
 }
