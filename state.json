@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T17:33:59.755129Z",
+    "generated_at": "2026-10-21T17:41:50.204043Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -2504,15 +2504,16 @@
       "id": "KWH-WHEELS-BAKED",
       "project_id": "kludge-wagon-haywire",
       "title": "Proper wheels baked into Kludge Wagon + steering wheel turn",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-sr-delegated-wheel-rig-20261021",
-      "claim_expires_at": "2026-10-21T19:22:08.252594Z",
-      "updated_at": "2026-10-21T17:22:18.253443Z",
-      "next_action": "Source-only original wheel rig and visual animation;preserve body/collision/physics/ECU and other art owners. Native Godot verification then qualified review.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T17:41:50.204043Z",
+      "next_action": "Bind genuine qualified independent KWH-WHEELS-BAKED-REVIEW-R1 to frozen e5480d2586725fa6c4b0dee875ada25f0d81d805 for original-geometry provenance,rig/axis/material/finite/terrain/refusal and actual loading/fallback review. Owner/art reviewer resolves board-title interior-handwheel interpretation;no interior handwheel is added/qualified. After acceptance,normal current-main integration and full-game terrain/driving/collision/export/web/Android/target performance validation remain required. Preserve all other asset/physics/ECU owners;no role/model admission,merge/deploy or source-parity assumption. https://github.com/tsrnc2/fly-by-wire-c/pull/601 https://github.com/tsrnc2/kitt/issues/430",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/25"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/25",
+      "blocked_at": "2026-10-21T17:41:50.204043Z"
     },
     {
       "id": "KWH-FIRST-LOAD-SIZE",
@@ -8743,5 +8744,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T17:39:24.699458Z"
+  "updated_at": "2026-10-21T17:41:50.204043Z"
 }
