@@ -5,7 +5,7 @@
   "agent_id": "codex-fbw-goal-api",
   "lock_token": "b72a6b2489e639e47df20a13210843097e081d36c6aa5b4f",
   "acquired_at": "2026-10-21T01:49:12.627849Z",
-  "heartbeat_at": "2026-10-21T01:49:12.627849Z",
-  "expires_at": "2026-10-21T03:49:12.627849Z",
+  "heartbeat_at": "2026-10-21T03:11:20.233025Z",
+  "expires_at": "2026-10-21T05:11:20.233025Z",
   "run_ref": "Canonical KITT asset-only manual link task"
 }

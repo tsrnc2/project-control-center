@@ -2104,8 +2104,8 @@
       "state": "RUNNING",
       "priority": "P3",
       "claimed_by": "codex-fbw-goal-api",
-      "claim_expires_at": "2026-10-21T03:49:12.627849Z",
-      "updated_at": "2026-10-21T01:49:12.627849Z",
+      "claim_expires_at": "2026-10-21T05:11:20.233025Z",
+      "updated_at": "2026-10-21T03:11:20.233025Z",
       "next_action": "Acceptance: Each manual lesson opens its code in workbench",
       "owner_agent": null,
       "human_owner": "Jobo",
@@ -7701,5 +7701,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T02:35:55.949335Z"
+  "updated_at": "2026-10-21T03:11:20.233025Z"
 }
