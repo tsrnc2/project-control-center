@@ -8078,6 +8078,17 @@
       "minimum_model_tier": "T7",
       "different_model_family_required": true,
       "next_action": "Bind eligible distinct reviewer to exact artifact;no self-qualification or inherited precursor acceptance."
+    },
+    {
+      "id": "KITT-20261021-KCM-ARGUMENT-SCHEMA-REPAIR",
+      "project_id": "kitt",
+      "title": "Repair KCM argument schema subset conformance findings F01/F02",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "owner_agent": null,
+      "source_ref": "https://github.com/tsrnc2/kitt/pull/133",
+      "updated_at": "2026-10-21T20:09:32.744921+00:00"
     }
   ],
   "blockers": [
@@ -9341,5 +9352,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T20:08:48.326893Z"
+  "updated_at": "2026-10-21T20:09:32.744940+00:00"
 }
