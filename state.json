@@ -2503,8 +2503,8 @@
       "state": "RUNNING",
       "priority": "P3",
       "claimed_by": "codex-fbw-goal-api",
-      "claim_expires_at": "2026-10-21T20:05:52.366469Z",
-      "updated_at": "2026-10-21T18:05:52.366469Z",
+      "claim_expires_at": "2026-10-21T21:25:33.339418Z",
+      "updated_at": "2026-10-21T19:25:33.339418Z",
       "next_action": "Prepare original telephone-pole GLB with legacy bounds/pivot and native collision/fallback evidence;qualified distinct review/composition remains held.",
       "owner_agent": null,
       "human_owner": "Jobo",
@@ -9136,5 +9136,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:24:12.205004+00:00"
+  "updated_at": "2026-10-21T19:25:33.339418Z"
 }
