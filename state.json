@@ -8010,6 +8010,17 @@
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/626",
       "dispatch_allowed": false,
       "next_action": "Bind genuine qualified independent native/gameplay reviewer to exact ba43f569aa2b0e195acfa074c717e6bd9b2fafea before KWH-ROAD-OBSTACLES-AI-REVIEW-R1 dispatch. Inspect seeded geometry, warning/activation timeline, pause/bolt/wind, lifetime, atomic/copy/cap/global-RNG contracts and retained fixture correction. After actual source acceptance, separately bind accepted spawner/route/model/context and actual visible warning acknowledgement, relative moving-player/hazard sweeps, run-ID damage deduplication and real scene/device/C-driven avoidance tests before activating hazards. PR607/497 and original umbrella/tests remain separate."
+    },
+    {
+      "id": "KITT-20261021-SF-SCHEMA-001",
+      "project_id": "kitt",
+      "title": "Repair service manifest schema finding SF-SCHEMA-001",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "owner_agent": null,
+      "source_ref": "https://github.com/tsrnc2/kitt/pull/132",
+      "updated_at": "2026-10-21T19:50:50.147571+00:00"
     }
   ],
   "blockers": [
@@ -9266,5 +9277,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:50:30.537725Z"
+  "updated_at": "2026-10-21T19:50:50.147588+00:00"
 }
