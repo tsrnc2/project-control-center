@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T18:52:24.999163Z",
+    "generated_at": "2026-10-21T19:07:57.394975Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -7806,6 +7806,16 @@
       "candidate_revision": "0c465f05ac24b5765d64b7d6a9fde4db27534261",
       "updated_at": "2026-10-21T19:05:04.781526Z",
       "next_action": "Bind actually qualified distinct source/native/art reviewer and Jobo final House A sage paint/sign/appearance approval. Review frozen source and four product paths, original-resource/per-instance override ownership, exact one-line selector/fallback, old complete bounds/4cm lower extent/coarse collision, existing21kit pieces and seeded full-layout/RNG preservation. Reproduce321checks/fresh completeJSON/threePNG identity and collision12/blank1 negative failures; inspect street/close/baseline native component views with simple ground planes. Reconcile accepted-source composition before actual world/game export/platform/distance/LOD/performance acceptance. Review frozen 0c465f05ac24b5765d64b7d6a9fde4db27534261 through KWH-BLD-UPG-HOUSE-A-REVIEW-R1."
+    },
+    {
+      "id": "KWH-FIRST-LOAD-GZIP-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Deterministic gzip web staging and localhost preview",
+      "state": "RUNNING",
+      "claimed_by": "codex-sr-delegated-first-load-gzip-20261021",
+      "claim_expires_at": "2026-10-21T21:07:50.936612Z",
+      "updated_at": "2026-10-21T19:07:57.394936Z",
+      "next_action": "Stage unchanged web tree with gzip sidecars;verify native HTTP and real browser delivery;preserve source/assets/cache/production owners,then qualified source/platform review."
     }
   ],
   "blockers": [
@@ -9062,5 +9072,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:07:28.545567Z"
+  "updated_at": "2026-10-21T19:07:57.394971Z"
 }
