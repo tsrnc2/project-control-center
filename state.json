@@ -6381,6 +6381,21 @@
       "result_summary": "Tested isolated adapter-ID correction https://github.com/tsrnc2/kitt/pull/298 source 2683211959542b78ec809c61eeb22c11c36df378. Original8tests pass; unchanged new suite gives159baseline failures; all16candidate tests pass. Actual pinned inventory getter baseline0/154 versus candidate154/154; index unchanged. Live installed getter remains unpatched pending review/source-home/package/updater gates.",
       "next_action": "Eligible independent exact-source reviewer and accountable maintainer resolve canonical source-home/reproducible packaging for the preserved adapter, then use authorized updater and verify live inventory-list/get roundtrip without authority/status promotion.",
       "independent_acceptance": false
+    },
+    {
+      "id": "kitt-20261001-llm-provider-key-and-credit-problems-fou",
+      "project_id": "kitt",
+      "title": "LLM provider key and credit problems found by the live chat test",
+      "state": "BLOCKED",
+      "priority": "P3",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T01:36:26.303924Z",
+      "source_ref": "https://github.com/tsrnc2/project-control-center-private/pull/6",
+      "candidate_revision": "91702607c9b50285c939c71bc20db3a98837e379",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/302",
+      "result_summary": "Published source-bound provider disposition proposal https://github.com/tsrnc2/project-control-center-private/pull/6;11template providers/5candidate keeps/6proposed exclusions plus Cloudflare exclusion. Source/template consistency verified; current host/grants/provider health unknown. No provider calls, credentials or grant changes.",
+      "next_action": "Owner/operator reviews concrete proposal, verifies intended-host installed plugin/grant/counters/expiry and current provider account eligibility, decides keep/fix/drop and applies only an explicitly approved scoped delta. Verify actual provider dispositions and installed-list matching before completion. No automatic credential or grant changes."
     }
   ],
   "blockers": [
@@ -7518,5 +7533,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T01:35:23.533101Z"
+  "updated_at": "2026-10-21T01:36:26.303960Z"
 }
