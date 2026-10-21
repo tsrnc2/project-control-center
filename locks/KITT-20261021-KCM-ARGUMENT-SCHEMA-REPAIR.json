@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kitt",
+  "task_id": "KITT-20261021-KCM-ARGUMENT-SCHEMA-REPAIR",
+  "agent_id": "codex-standing-kcm-contract",
+  "lock_token": "0d5caf2f8aa1514063665a0514c76c0aa1dad356be7b592c",
+  "acquired_at": "2026-10-21T20:09:36.943329+00:00",
+  "expires_at": "2026-10-21T21:39:36.943329+00:00",
+  "run_ref": "KITT-20261021-KCM-ARGUMENT-SCHEMA-REPAIR"
+}
