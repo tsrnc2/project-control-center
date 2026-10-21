@@ -5,6 +5,7 @@
   "agent_id": "codex-standing-service-compose",
   "lock_token": "582403a4fe05be1c03b4ad23281b74ebe1db3f90d3fcc43b",
   "acquired_at": "2026-10-21T22:46:37.983529+00:00",
-  "expires_at": "2026-10-22T00:16:37.983529+00:00",
-  "run_ref": "KITT-20261021-SERVICE-FRAMEWORK-COMPOSE-author"
+  "expires_at": "2026-10-22T00:19:28Z",
+  "run_ref": "KITT-20261021-SERVICE-FRAMEWORK-COMPOSE-author",
+  "heartbeat_at": "2026-10-21T22:49:31.401981+00:00"
 }
