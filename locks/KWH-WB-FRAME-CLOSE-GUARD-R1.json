@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-WB-FRAME-CLOSE-GUARD-R1",
+  "agent_id": "codex-standing-frame-guard",
+  "lock_token": "1cdc73ff30e03f65e4d8188aa81756f69b4bbd7e7317a6b0",
+  "acquired_at": "2026-10-21T03:14:17.092239+00:00",
+  "expires_at": "2026-10-21T04:44:17.092239+00:00",
+  "run_ref": "KWH-WB-FRAME-CLOSE-GUARD-R1-20261021"
+}
