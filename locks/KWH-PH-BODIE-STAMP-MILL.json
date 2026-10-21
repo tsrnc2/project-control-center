@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-PH-BODIE-STAMP-MILL",
+  "agent_id": "codex-cedar-persistent",
+  "lock_token": "0b84b09e1099f0ef16f97502ac6f75f5eaee27a46808a856",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T19:50:20.417309Z",
+  "heartbeat_at": "2026-10-21T19:50:20.417326Z",
+  "expires_at": "2026-10-21T21:50:20.417330Z",
+  "run_ref": "Issue8 actualusedStampGLB raw-prefix-preserving toon/support author candidate;no finalacceptance/admission"
+}
