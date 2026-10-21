@@ -1,0 +1,9 @@
+{
+  "task_id": "KWH-ROAD-OBSTACLES-AI",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-road-motion-20261021",
+  "lock_token": "67c2517c04158bc679b72b0d2bab6b23218d69411647be5c",
+  "acquired_at": "2026-10-21T19:39:17.280299Z",
+  "expires_at": "2026-10-21T21:39:17.280318Z",
+  "run_ref": "road-motion-core-20261021"
+}
