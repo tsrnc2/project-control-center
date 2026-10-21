@@ -1101,12 +1101,12 @@
       "id": "KWH-BLD-BOARDWALKS",
       "project_id": "kludge-wagon-haywire",
       "title": "Building detail kit: boardwalk sidewalks + steps",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P2",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Reusable snap-on scene(s) in models/detail; attach via anchors.json; used by town_dresser.gd on >=2 buildings; screenshot",
+      "claimed_by": "codex-caretaker-boardwalk-kit",
+      "claim_expires_at": "2026-10-21T15:31:19.257932Z",
+      "updated_at": "2026-10-21T13:31:25.976892Z",
+      "next_action": "Prepare anchored boardwalk/steps author candidate and native evidence; preserve other owners and all review gates.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/49"
@@ -7868,5 +7868,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T13:30:03.023518Z"
+  "updated_at": "2026-10-21T13:31:25.976931Z"
 }
