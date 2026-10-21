@@ -1224,15 +1224,20 @@
       "id": "KWH-BLD-UPG-HOUSE-A",
       "project_id": "kludge-wagon-haywire",
       "title": "Upgrade Bodie building with detail kit: house_a",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P3",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T20:54:29.420242Z",
-      "updated_at": "2026-10-21T18:54:39.458050Z",
-      "next_action": "HouseA original instance paint/sign over unchanged GLB/dresser/anchors;component native verification and private draft;qualification/Jobo/world acceptance held.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T19:05:04.781443Z",
+      "next_action": "Bind actually qualified distinct source/native/art reviewer and Jobo final House A sage paint/sign/appearance approval. Review frozen source and four product paths, original-resource/per-instance override ownership, exact one-line selector/fallback, old complete bounds/4cm lower extent/coarse collision, existing21kit pieces and seeded full-layout/RNG preservation. Reproduce321checks/fresh completeJSON/threePNG identity and collision12/blank1 negative failures; inspect street/close/baseline native component views with simple ground planes. Reconcile accepted-source composition before actual world/game export/platform/distance/LOD/performance acceptance. Review frozen 0c465f05ac24b5765d64b7d6a9fde4db27534261 through KWH-BLD-UPG-HOUSE-A-REVIEW-R1.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/55"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/618",
+      "dispatch_allowed": false,
+      "candidate_revision": "0c465f05ac24b5765d64b7d6a9fde4db27534261",
+      "blocker_issue": "https://github.com/tsrnc2/kitt/issues/447",
+      "author_completion": "DONE",
+      "review_task": "KWH-BLD-UPG-HOUSE-A-REVIEW-R1"
     },
     {
       "id": "KWH-BLD-UPG-HOUSE-B",
@@ -7786,6 +7791,21 @@
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/615",
       "dispatch_allowed": false,
       "next_action": "Authorized coordinator binds genuine qualified independent source/test reviewer before claim/dispatch; no automatic parent/current/role/platform clearance."
+    },
+    {
+      "id": "KWH-BLD-UPG-HOUSE-A-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified House A instance-dressing source/native/art review and Jobo approval",
+      "state": "READY",
+      "priority": "P3",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "dispatch_allowed": false,
+      "dependencies": [],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/618",
+      "candidate_revision": "0c465f05ac24b5765d64b7d6a9fde4db27534261",
+      "updated_at": "2026-10-21T19:05:04.781526Z",
+      "next_action": "Bind actually qualified distinct source/native/art reviewer and Jobo final House A sage paint/sign/appearance approval. Review frozen source and four product paths, original-resource/per-instance override ownership, exact one-line selector/fallback, old complete bounds/4cm lower extent/coarse collision, existing21kit pieces and seeded full-layout/RNG preservation. Reproduce321checks/fresh completeJSON/threePNG identity and collision12/blank1 negative failures; inspect street/close/baseline native component views with simple ground planes. Reconcile accepted-source composition before actual world/game export/platform/distance/LOD/performance acceptance. Review frozen 0c465f05ac24b5765d64b7d6a9fde4db27534261 through KWH-BLD-UPG-HOUSE-A-REVIEW-R1."
     }
   ],
   "blockers": [
@@ -9042,5 +9062,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:04:38.600723Z"
+  "updated_at": "2026-10-21T19:05:04.781532Z"
 }
