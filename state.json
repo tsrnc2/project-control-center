@@ -7217,11 +7217,12 @@
       "claimed_by": null,
       "owner_agent": null,
       "source_ref": "https://github.com/tsrnc2/kitt/issues/362",
-      "updated_at": "2026-10-21T16:58:01.999458+00:00",
-      "next_action": "Source candidate https://github.com/tsrnc2/fly-by-wire-c/pull/592 requires qualified distinct exact-source review/adoption; KWH-WEB-ASSET-LFS-GUARD-REVIEW-R1 held. https://github.com/tsrnc2/kitt/issues/401",
+      "updated_at": "2026-10-21T18:02:44.124190+00:00",
+      "next_action": "Qualified distinct exact-source review at 9fa523c2ed5f45182181acc520563378a30ab45f for https://github.com/tsrnc2/fly-by-wire-c/pull/592 remains held; original executable mode preserved and tested blobs unchanged.",
       "claimed_at": "2026-10-21T16:13:10.415144+00:00",
       "claim_expires_at": null,
-      "claim_heartbeat_at": null
+      "claim_heartbeat_at": null,
+      "candidate_revision": "9fa523c2ed5f45182181acc520563378a30ab45f"
     },
     {
       "id": "KWH-BLD-DRESSER-REGRESSION-REVIEW-R1",
@@ -7395,10 +7396,11 @@
       "claimed_by": null,
       "owner_agent": null,
       "dispatch_allowed": false,
-      "review_input_commit": "17966f9ce1057d374122e68ef9f547f2ccfedc7b",
+      "review_input_commit": "9fa523c2ed5f45182181acc520563378a30ab45f",
       "source_ref": "https://github.com/tsrnc2/kitt/issues/401",
-      "updated_at": "2026-10-21T16:58:01.999560+00:00",
-      "next_action": "Establish actual qualified distinct reviewer authority for KWH-WEB-ASSET-LFS-GUARD-REVIEW-R1 on https://github.com/tsrnc2/fly-by-wire-c/pull/592 source 17966f9ce1057d374122e68ef9f547f2ccfedc7b, reproduce source-bound tests/controls and complete exact-source review before normal adoption. Keep dispatch disabled until eligible. Screenshot/package remediation remains separate."
+      "updated_at": "2026-10-21T18:02:44.124202+00:00",
+      "next_action": "Qualified distinct exact-source review at 9fa523c2ed5f45182181acc520563378a30ab45f for https://github.com/tsrnc2/fly-by-wire-c/pull/592 remains held; original executable mode preserved and tested blobs unchanged.",
+      "candidate_revision": "9fa523c2ed5f45182181acc520563378a30ab45f"
     },
     {
       "id": "KWH-FRESH-WEB-BUILD-20261021",
@@ -7549,15 +7551,16 @@
       "id": "KWH-WEB-ASSET-GUARD-MODE-R1",
       "project_id": "kludge-wagon-haywire",
       "title": "Correct export executable mode in source candidate",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P1",
-      "claimed_by": "codex-standing-asset-guard",
+      "claimed_by": null,
       "owner_agent": null,
       "source_ref": "https://github.com/tsrnc2/kitt/issues/401",
-      "updated_at": "2026-10-21T18:01:51.723493+00:00",
+      "updated_at": "2026-10-21T18:02:44.124149+00:00",
       "claimed_at": "2026-10-21T18:01:37.673009+00:00",
-      "claim_expires_at": "2026-10-21T19:31:37.673009+00:00",
-      "next_action": "Restore exact existing export mode and retarget unclaimed held review; no logic or acceptance change."
+      "claim_expires_at": null,
+      "next_action": "Mode-only correction verified; parent source/review remain held at 9fa523c2ed5f45182181acc520563378a30ab45f",
+      "claim_heartbeat_at": null
     }
   ],
   "blockers": [
@@ -8814,5 +8817,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T18:02:04.133312Z"
+  "updated_at": "2026-10-21T18:02:44.124210+00:00"
 }
