@@ -1284,8 +1284,8 @@
       "priority": "P3",
       "claimed_by": "codex-caretaker-house-d-upgrade",
       "claim_expires_at": "2026-10-21T20:48:56.712247Z",
-      "updated_at": "2026-10-21T18:49:01.877730Z",
-      "next_action": "Author originalHouseDpaint/signwrapper preservingcurrentdresser/seededMultiMesh placement;native sourcecollision/detailbatching/fallback/views;qualifiedreview/Joboart/world/platformheld.",
+      "updated_at": "2026-10-21T18:55:49.961810Z",
+      "next_action": "HouseD source53/0,native60/0,negative57/3,60/12,60/3;actualfallback5/0;freshfullJSON/2PNGsidentical;42refs/5paths;sourcebatched21/29/20instances and10/14/10batches/RNG/XFs preserved;qualifiedreview/Joboart/world/platformheld.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/59"
@@ -9034,5 +9034,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T18:54:39.458068Z"
+  "updated_at": "2026-10-21T18:55:49.961810Z"
 }
