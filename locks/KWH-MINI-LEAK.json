@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-MINI-LEAK",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-01a15457-leak",
+  "lock_token": "ddc0366bf3a149ffbc66c06fb51cb2bdf7319567d9ac6d55",
+  "acquired_at": "2026-10-21T15:56:07.495479Z",
+  "heartbeat_at": "2026-10-21T15:56:07.495492Z",
+  "expires_at": "2026-10-21T17:55:55.628146Z",
+  "run_ref": "leak-concept-01a15457-20261021"
+}
