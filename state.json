@@ -8971,14 +8971,17 @@
       "id": "KITT-20261021-SERVICE-FRAMEWORK-COMPOSE",
       "project_id": "kitt",
       "title": "Compose service-framework schema and lifecycle stack",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P1",
-      "claimed_by": null,
+      "claimed_by": "codex-standing-service-compose",
       "owner_agent": null,
       "source_ref": "https://github.com/tsrnc2/kitt/pull/481",
       "dispatch_allowed": false,
       "execution_mode": "OWNER_SUPERVISED_AUTHOR_ONLY",
-      "updated_at": "2026-10-21T22:46:28.981232+00:00"
+      "updated_at": "2026-10-21T22:46:52.375914+00:00",
+      "claimed_at": "2026-10-21T22:46:37.983529+00:00",
+      "claim_expires_at": "2026-10-22T00:16:37.983529+00:00",
+      "next_action": "Compose exact schema repair onto lifecycle/process stack; run focused and full checks; publish author-only candidate."
     }
   ],
   "blockers": [
@@ -10242,5 +10245,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T22:46:28.981252+00:00"
+  "updated_at": "2026-10-21T22:46:52.375924+00:00"
 }
