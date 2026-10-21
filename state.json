@@ -2799,15 +2799,18 @@
       "id": "KWH-MKT-SOCIAL-SHORTS",
       "project_id": "kludge-wagon-haywire",
       "title": "Social plan: YouTube Shorts from the C tutorial series",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T05:19:52.796067Z",
-      "updated_at": "2026-10-21T03:20:01.881007Z",
-      "next_action": "Author source-backed ten source-backed Shorts cut proposals; private draft only,Jobo approval required.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T03:26:03.566936Z",
+      "next_action": "Jobo script/spoiler/capture/rights/distribution review pending;issue139 stays open. Private proposal only.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/139"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/526",
+      "candidate_revision": "f4d58adb467d443b9d51234e11db18ca238da824",
+      "completion_scope": "AUTHOR_SHORTS_PLAN_DRAFT",
+      "independent_acceptance": false
     },
     {
       "id": "KWH-MKT-SOCIAL-REDDIT",
@@ -7820,5 +7823,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T03:24:18.636239+00:00"
+  "updated_at": "2026-10-21T03:26:03.566968Z"
 }
