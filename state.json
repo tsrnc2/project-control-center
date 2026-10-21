@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T16:04:23.840363Z",
+    "generated_at": "2026-10-21T16:04:49.284363Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -2144,15 +2144,19 @@
       "id": "KWH-WB-PRECACHE",
       "project_id": "kludge-wagon-haywire",
       "title": "Workbench: compiler pre-cache + image size reduction",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-precache-01a15507",
-      "claim_expires_at": "2026-10-21T17:56:26.877223Z",
-      "updated_at": "2026-10-21T15:56:32.030256Z",
-      "next_action": "Prepare anchored snapshot pre-cache author candidate author candidate and native evidence; preserve other owners and all review gates.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T16:04:49.284285Z",
+      "next_action": "Bind qualified distinct snapshot-cache reviewer;keep dispatch disabled. Plan image reduction and actual VM/platform acceptance separately under bounded ownership.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/109"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/575",
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "author_phase_state": "CACHE_SOURCE_DONE_IMAGE_UNCHANGED",
+      "result_summary": "Cache-only source complete https://github.com/tsrnc2/fly-by-wire-c/pull/575 at0374a97e3922f8926836e18fdb5c825aa04f354f;22native browser checks/fresh identical functional replay. Actual25,967,645byte snapshot verified;payloadbefore/after unchanged,image reduction0. Qualified distinct review,real VM/compiler,source/license,platform and release acceptance held;original issue109 open."
     },
     {
       "id": "KWH-WB-HOOKS-TEST",
@@ -7045,6 +7049,18 @@
       "candidate_revision": "f62bf5accb3025ebb8b7ee4457bfb9fb0fbd7916",
       "updated_at": "2026-10-21T15:53:47.928503Z",
       "next_action": "Bind actual qualified distinct reviewer;immutable artifact review has no blocked-parent dependency."
+    },
+    {
+      "id": "KWH-WB-SNAPSHOT-CACHE-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Independently review exact verified snapshot Cache API startup candidate",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "dispatch_allowed": false,
+      "source_ref": "https://github.com/tsrnc2/kitt/issues/374",
+      "updated_at": "2026-10-21T16:04:49.284356Z",
+      "next_action": "Bind qualified distinct snapshot-cache reviewer;keep dispatch disabled. Plan image reduction and actual VM/platform acceptance separately under bounded ownership."
     }
   ],
   "blockers": [
