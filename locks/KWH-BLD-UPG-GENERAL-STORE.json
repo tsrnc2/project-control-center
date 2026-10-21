@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-BLD-UPG-GENERAL-STORE",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-sr-delegated-general-store-20261021",
+  "lock_token": "dc7cc7e1ba8d367f0ebda18df681cf6648318849fbae4f37",
+  "acquired_at": "2026-10-21T16:05:25.145959Z",
+  "heartbeat_at": "2026-10-21T16:05:25.145959Z",
+  "expires_at": "2026-10-21T18:05:20.410080Z",
+  "run_ref": "general-store-source-dressing-20261021"
+}
