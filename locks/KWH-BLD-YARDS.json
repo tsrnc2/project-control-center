@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-BLD-YARDS",
+  "agent_id": "codex-cedar-persistent",
+  "lock_token": "6dcf757325b8cbff4a7576d7e7505a5d2194f2807ecb848f",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T13:35:08.585890Z",
+  "heartbeat_at": "2026-10-21T13:35:08.585904Z",
+  "expires_at": "2026-10-21T15:35:08.585907Z",
+  "run_ref": "Issue46 isolated native yard-kit verification; no other owner source edits"
+}
