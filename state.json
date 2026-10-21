@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T16:29:50.991481Z",
+    "generated_at": "2026-10-21T16:30:42.842932+00:00",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -1667,16 +1667,21 @@
       "id": "KWH-VEH-MOTORCYCLE",
       "project_id": "kludge-wagon-haywire",
       "title": "Temp vehicle model: Jhonnas motorcycle",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-waypoint-moto-validation-20261021",
-      "claim_expires_at": "2026-10-21T18:26:32.338228Z",
-      "updated_at": "2026-10-21T16:26:32.338208Z",
-      "next_action": "Acceptance: GLB with fictional brand only; scale-correct; render committed",
-      "owner_agent": "codex-waypoint-moto-validation-20261021",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T16:30:42.842932+00:00",
+      "next_action": "Correct degenerate Fender faces; inspect tank pinch and ground contact; bind corrected source/import/native views and unaffected geometry, then normal qualified source/art review before acceptance. No runtime/deployment authority.",
+      "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/84",
-      "claimed_at": "2026-10-21T16:26:32.338208Z"
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/586",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/388",
+      "technical_verdict": "CHANGES_REQUIRED",
+      "independent_acceptance": false
     },
     {
       "id": "KWH-VEH-HELICOPTER",
@@ -8420,5 +8425,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T16:29:50.991477Z"
+  "updated_at": "2026-10-21T16:30:42.842932+00:00"
 }
