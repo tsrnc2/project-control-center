@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-WB-MI-PARSER-BOUNDS-R1",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-01a15457-mi-parser",
+  "lock_token": "b52d748035807e3fa9a983dae1050c3c13bca3fcdea4229a",
+  "acquired_at": "2026-10-21T15:31:20.923686Z",
+  "heartbeat_at": "2026-10-21T15:31:20.923712Z",
+  "expires_at": "2026-10-21T17:30:45.783040Z",
+  "run_ref": "mi-parser-01a15457-20261021"
+}
