@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T15:44:37.849552+00:00",
+    "generated_at": "2026-10-21T15:48:46.477799Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -749,15 +749,19 @@
       "id": "KWH-COLLISION-POLISH",
       "project_id": "kludge-wagon-haywire",
       "title": "Collision polish",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-building-collision-01a15507",
-      "claim_expires_at": "2026-10-21T15:58:12.872525Z",
-      "updated_at": "2026-10-21T13:58:18.325812Z",
-      "next_action": "Prepare anchored building mesh collision author candidate author candidate and native evidence; preserve other owners and all review gates.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T15:48:46.477707Z",
+      "next_action": "Bind actual qualified distinct reviewer for frozen building shapes;keep dispatch disabled. Coordinate separate owned scopes for remaining parent criteria;do not claim full issue22 completion.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/22"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/567",
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "author_phase_state": "BUILDING_SHAPES_SOURCE_DONE",
+      "result_summary": "Bounded building-shape author source complete: https://github.com/tsrnc2/fly-by-wire-c/pull/567 atacb1fe3ff3b6fd6075ed62c717f8f976a00eb327;native38/0 vs baseline38/14,extended89/0,fresh functional replay identical. Broad issue22 remains partial: actual steps,car bounce/damage,desert edges,sagebrush and full-game acceptance unfinished. Distinct review/integration held."
     },
     {
       "id": "KWH-SR404-BADGE-POS",
@@ -6978,6 +6982,18 @@
       "claimed_at": "2026-10-21T15:43:59.151261Z",
       "claim_expires_at": "2026-10-21T17:43:59.151275Z",
       "updated_at": "2026-10-21T15:43:59.151261Z"
+    },
+    {
+      "id": "KWH-COLLISION-BUILDING-SHAPES-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Independently review exact Bodie building surface-collision author candidate",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "dispatch_allowed": false,
+      "source_ref": "https://github.com/tsrnc2/kitt/issues/360",
+      "updated_at": "2026-10-21T15:48:46.477791Z",
+      "next_action": "Bind actual qualified distinct reviewer for frozen building shapes;keep dispatch disabled. Coordinate separate owned scopes for remaining parent criteria;do not claim full issue22 completion."
     }
   ],
   "blockers": [
