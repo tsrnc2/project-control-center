@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T16:22:11.015652+00:00",
+    "generated_at": "2026-10-21T16:22:22.862177Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -7155,6 +7155,18 @@
       "evidence_ref": "https://github.com/tsrnc2/linode-freebsd-vpn/tree/7f5dfc4e9ee841e89be40e47a0a136f998249310/reports/codex/guardian-opaque-repair-20261021",
       "dispatch_allowed": false,
       "next_action": "Establish and record genuine reviewer qualification/independence for this exact source; only then resolve dispatch hold through the authorized coordinator. No automatic source/runtime admission."
+    },
+    {
+      "id": "KWH-ECU-OBSERVATION-CORRELATION-PROBE-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Diagnose ECU completed-call observation correlation",
+      "state": "RUNNING",
+      "priority": "P1",
+      "claimed_by": "codex-01a15457-ecu-observation",
+      "claim_expires_at": "2026-10-21T18:22:16.979126Z",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/561",
+      "updated_at": "2026-10-21T16:22:22.862158Z",
+      "next_action": "Diagnose existing telemetry correlation using frozen manager and controlled transport;draft completed-observation contract only;preserve active damage-fuzz ECU files;no implementation or Concept build."
     }
   ],
   "blockers": [
@@ -8391,5 +8403,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T16:22:11.015652+00:00"
+  "updated_at": "2026-10-21T16:22:22.862173Z"
 }
