@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T17:18:50.906515Z",
+    "generated_at": "2026-10-21T17:22:18.253468Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -2490,12 +2490,12 @@
       "id": "KWH-WHEELS-BAKED",
       "project_id": "kludge-wagon-haywire",
       "title": "Proper wheels baked into Kludge Wagon + steering wheel turn",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P2",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Wheels part of model with correct pivots; steering wheel rotates with input",
+      "claimed_by": "codex-sr-delegated-wheel-rig-20261021",
+      "claim_expires_at": "2026-10-21T19:22:08.252594Z",
+      "updated_at": "2026-10-21T17:22:18.253443Z",
+      "next_action": "Source-only original wheel rig and visual animation;preserve body/collision/physics/ECU and other art owners. Native Godot verification then qualified review.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/25"
@@ -8698,5 +8698,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T17:18:50.906515Z"
+  "updated_at": "2026-10-21T17:22:18.253464Z"
 }
