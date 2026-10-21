@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T21:28:37.732626Z",
+    "generated_at": "2026-10-21T21:30:06.702230Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -8102,13 +8102,13 @@
       "id": "LRP-20261021-RE-RELOCATION-TARGET-RESOLUTION",
       "project_id": "llm-reasoning-project",
       "title": "Build and qualify re.relocation-target-resolution",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "codex-01a15457-re-location-author",
-      "claim_expires_at": "2026-10-21T22:27:00Z",
-      "source_ref": "https://github.com/tsrnc2/kitt/commit/2ad287dcaf1dee968d8a4adcbfc7021e2e0444b7",
-      "updated_at": "2026-10-21T21:27:23.209796Z",
-      "next_action": "Author one bounded draft source candidate only; independent review remains required."
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "source_ref": "https://github.com/tsrnc2/llm_reasoning_project/pull/367",
+      "updated_at": "2026-10-21T21:30:06.702230Z",
+      "next_action": "Bind qualified independent different-family T7 exact-head review."
     },
     {
       "id": "KWH-ROBOT-CAR-VOICE-DSP-REVIEW-R1",
@@ -9384,5 +9384,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T21:27:49.403624Z"
+  "updated_at": "2026-10-21T21:30:06.702230Z"
 }
