@@ -1631,17 +1631,23 @@
       "id": "KWH-VEH-SUV",
       "project_id": "kludge-wagon-haywire",
       "title": "Temp vehicle model: Jhonnas SUV (non-branded)",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "codex-fbw-sequential",
-      "claim_expires_at": "2026-10-21T17:44:30.362408+00:00",
-      "updated_at": "2026-10-21T15:44:30.362408+00:00",
-      "next_action": "Acceptance: GLB with fictional brand only; scale-correct; render committed",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T16:48:29.121726+00:00",
+      "next_action": "Existing merged fictional SUV verified:authoredmetrescale;fouractualrenders committed/inspected;12native+12portablechecks. No product correction needed.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/82",
-      "claimed_at": "2026-10-21T15:44:19.761429+00:00",
-      "claim_heartbeat_at": "2026-10-21T15:44:30.362408+00:00"
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "completed_at": "2026-10-21T16:48:29.121726+00:00",
+      "canonical_task_blob": "32028bb68dadea4ab6144a407450206aa15cfe1a",
+      "canonical_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-VEH-SUV.json",
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/589",
+      "release_operation_id": "suv-source-bound-verification-release-20261021",
+      "last_execution_owner": "codex-fbw-sequential"
     },
     {
       "id": "KWH-VEH-SAILBOAT",
@@ -7541,6 +7547,13 @@
   ],
   "activity": [
     {
+      "at": "2026-10-21T16:48:29.121726+00:00",
+      "type": "TASK_DONE",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-VEH-SUV",
+      "summary": "Existing SUV model acceptance verified;exact own canonical/PCC ownership released;https://github.com/tsrnc2/fly-by-wire-c/pull/589"
+    },
+    {
       "at": "2026-10-21T15:39:46.072617+00:00",
       "type": "TASK_DONE",
       "project_id": "kludge-wagon-haywire",
@@ -8466,5 +8479,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T16:44:59.598909Z"
+  "updated_at": "2026-10-21T16:48:29.121726+00:00"
 }
