@@ -1845,15 +1845,16 @@
       "id": "KWH-OUTLINE-HELI",
       "project_id": "kludge-wagon-haywire",
       "title": "Outline: helicopter crash rescue episode",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "codex-kwh-helicopter-outline",
-      "claim_expires_at": "2026-10-21T04:57:46.843077Z",
-      "updated_at": "2026-10-21T03:27:46.843048Z",
-      "next_action": "Acceptance: Episode slot chosen; beats written; Jacob saves Jhonnas + Sky Moon last-minute; Jhonnas refuses credit",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T03:31:01.245844Z",
+      "next_action": "Private outline draft ready for Jobo/story-owner review; proposed slot/canon and future implementation remain gated.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/100"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/530",
+      "candidate_revision": "9a67569e0f9f29a3fbe862156945a8cf7f5ad3b4"
     },
     {
       "id": "KWH-OUTLINE-SAILBOAT",
@@ -7849,5 +7850,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T03:30:33.312098Z"
+  "updated_at": "2026-10-21T03:31:01.245844Z"
 }
