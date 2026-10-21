@@ -1,0 +1,10 @@
+{
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-OUTLINE-MOTO",
+  "agent_id": "codex-kwh-motorcycle-outline",
+  "at": "2026-10-21T13:28:44.804122Z",
+  "type": "STALE_OWN_LOCK_RECONCILED",
+  "previous_expires_at": "2026-10-21T05:02:08.312833Z",
+  "new_expires_at": "2026-10-21T14:28:44.804134Z",
+  "reason": "Same recorded owner resuming exact canonical task after interruption; no source replay or expanded runtime authority"
+}

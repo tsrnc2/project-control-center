@@ -1881,8 +1881,8 @@
       "state": "RUNNING",
       "priority": "P2",
       "claimed_by": "codex-kwh-motorcycle-outline",
-      "claim_expires_at": "2026-10-21T05:02:08.312833Z",
-      "updated_at": "2026-10-21T03:32:08.312811Z",
+      "claim_expires_at": "2026-10-21T14:28:44.804134Z",
+      "updated_at": "2026-10-21T13:28:44.804122Z",
       "next_action": "Acceptance: Episode beats + lesson mapping written",
       "owner_agent": null,
       "human_owner": "Jobo",
@@ -7867,5 +7867,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T13:28:22.530124Z"
+  "updated_at": "2026-10-21T13:28:44.804122Z"
 }
