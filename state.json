@@ -2702,12 +2702,12 @@
       "id": "KWH-MKT-PRESSKIT-PAGE",
       "project_id": "kludge-wagon-haywire",
       "title": "Press kit page (presskit()-style)",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P2",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T01:15:54Z",
-      "next_action": "Marketing. Acceptance: Static presskit page draft in repo. Unclaimed.",
+      "claimed_by": "codex-cedar-persistent",
+      "claim_expires_at": "2026-10-21T03:56:44.538671Z",
+      "updated_at": "2026-10-21T01:56:53.902642Z",
+      "next_action": "Verify exact existing native presskit-draft and publish actual render evidence; no qualified acceptance.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/134"
@@ -7659,5 +7659,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T01:52:45.238927Z"
+  "updated_at": "2026-10-21T01:56:53.902662Z"
 }
