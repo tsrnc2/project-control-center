@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-BLD-PLANTS",
+  "agent_id": "codex-cedar-persistent",
+  "lock_token": "985dcef7f259b63ba6c009f96166ad03c5eca3209f6056f4",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T03:27:39.307810Z",
+  "heartbeat_at": "2026-10-21T03:27:39.307858Z",
+  "expires_at": "2026-10-21T05:27:39.307871Z",
+  "run_ref": "Issue43 isolated native building-plants verification; no other owner source edits"
+}
