@@ -1270,15 +1270,23 @@
       "id": "KWH-BLD-UPG-HOUSE-C-FALSEFRONT",
       "project_id": "kludge-wagon-haywire",
       "title": "Upgrade Bodie building with detail kit: house_c_falsefront",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P3",
-      "claimed_by": "codex-caretaker-house-c-upgrade",
-      "claim_expires_at": "2026-10-21T21:19:16.871454Z",
-      "updated_at": "2026-10-21T19:32:13.698675Z",
-      "next_action": "FalsefrontHouseC finalsource61/0,native63/0,controls60/3,63/12,63/3/occlusion63/3;actualfallback5/0;freshJSON/4PNGsidentity;initialsignocclusionretained;44refs/5paths;qualifiedreview/Joboart/world/platformheld.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T19:34:45.963844Z",
+      "next_action": "Coordinator binds actually qualified independent distinct-family source/native/art reviewer and Jobo final HouseC paint/lettering/mount/combined-sign appearance approval to 89f541f0e7a40e5d8949bceb946f2d948b86ac1c. Reproduce61source/63nativechecks;collision60/3,details63/12,blank63/3,old-depthocclusion63/3;actualfallback5/0;freshJSON/4PNGidentity. Inspect initial56/60technicalpasses with actualvisualfailure,sourceGLBroof/cornice depth,mountedface/2supports insideoldbounds,6per-instancepaints andoriginalsharedresources/RNG/XFs/batched21/28/21instances in11/14/11batches. Actualworld/platform/performance remainsheld;no selfacceptance/admission/merge/deploy.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/57"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/57",
+      "author_phase_state": "DONE_NOT_ACCEPTED",
+      "artifacts": [
+        "https://github.com/tsrnc2/fly-by-wire-c/pull/623",
+        "https://github.com/tsrnc2/kitt/issues/453"
+      ],
+      "candidate_revision": "89f541f0e7a40e5d8949bceb946f2d948b86ac1c",
+      "review_task_id": "KWH-BLD-UPG-HOUSE-C-FALSEFRONT-REVIEW-R1",
+      "blocker_issue_url": "https://github.com/tsrnc2/kitt/issues/453"
     },
     {
       "id": "KWH-BLD-UPG-HOTEL-2STORY",
@@ -9167,5 +9175,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:33:26.516587Z"
+  "updated_at": "2026-10-21T19:34:45.963865Z"
 }
