@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-BLD-ROADS",
+  "agent_id": "codex-roads-kit-01a15507",
+  "lock_token": "456273668432c65df2aead7f21ba1d9bd635384581177f97",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T13:50:13.116612Z",
+  "heartbeat_at": "2026-10-21T13:50:13.116652Z",
+  "expires_at": "2026-10-21T15:50:13.116664Z",
+  "run_ref": "Original issue48 isolated source rutted dirt and surface-overlay road kit kit; no acceptance or deployment"
+}
