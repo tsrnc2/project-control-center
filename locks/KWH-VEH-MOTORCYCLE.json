@@ -1,0 +1,9 @@
+{
+  "task_id": "KWH-VEH-MOTORCYCLE",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-waypoint-moto-validation-20261021",
+  "lock_token": "cc3bb48ee3a9e79f7507dbbe5e6633eeb0709989181fccde",
+  "acquired_at": "2026-10-21T16:26:32.338208Z",
+  "expires_at": "2026-10-21T18:26:32.338228Z",
+  "run_ref": "motorcycle-validation-20261021"
+}

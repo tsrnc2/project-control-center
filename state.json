@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T16:22:22.862177Z",
+    "generated_at": "2026-10-21T16:26:32.338208Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -1667,15 +1667,16 @@
       "id": "KWH-VEH-MOTORCYCLE",
       "project_id": "kludge-wagon-haywire",
       "title": "Temp vehicle model: Jhonnas motorcycle",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P2",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
+      "claimed_by": "codex-waypoint-moto-validation-20261021",
+      "claim_expires_at": "2026-10-21T18:26:32.338228Z",
+      "updated_at": "2026-10-21T16:26:32.338208Z",
       "next_action": "Acceptance: GLB with fictional brand only; scale-correct; render committed",
-      "owner_agent": null,
+      "owner_agent": "codex-waypoint-moto-validation-20261021",
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/84"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/84",
+      "claimed_at": "2026-10-21T16:26:32.338208Z"
     },
     {
       "id": "KWH-VEH-HELICOPTER",
