@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T01:42:07.071152+00:00",
+    "generated_at": "2026-10-21T01:42:51.769999Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6246,13 +6246,15 @@
       "title": "Repair master UTF8 transport boundary with owner-directed multi-CLI source support",
       "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "codex-long-term-sequential",
-      "claim_expires_at": "2026-10-21T02:12:40.626113Z",
-      "updated_at": "2026-10-21T01:42:40.626083Z",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T01:42:51.769967Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-20261020-MASTER-MULTICLI-READINESS-CEDAR.json",
-      "next_action": "Existing independent review route verifies exact PR278 head plus PR260 and PR124 dependencies. Reconcile Claude receipt/result and aborted agy launch before new external execution. Preserve issue66 allowlist/activation and controllerACK/scheduler gates; no author self-acceptance.",
-      "evidence_ref": "https://github.com/tsrnc2/kitt/blob/b04c15735483ef0c1b1c7244ddf21176eea83880/reports/codex/master-multicli-utf8-20261020/REPORT.md",
-      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/281"
+      "next_action": "Claude saved old-source advisory now passes canonical runner/hash verification; no new inference or formal successor acceptance. Qualified reviewer verifies exact PR278 and PR260/PR124 dependencies. Reconcile unknown agy launch outcome before any retry. Preserve issue66 activation/allowlists and controllerACK/scheduler gates.",
+      "evidence_ref": "https://github.com/tsrnc2/kitt/blob/d469930c3a77bbf10c82fc565fa68b48549e13b5/reports/codex/master-worker-reconciliation-20261021.json",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/281",
+      "claimed_at": null,
+      "claim_heartbeat_at": null
     },
     {
       "id": "kitt-20261001-fix-the-stale-project-path-in-root-codex",
