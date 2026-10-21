@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T19:16:43.905926Z",
+    "generated_at": "2026-10-21T19:28:47.177357Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -7881,6 +7881,18 @@
       "claimed_at": "2026-10-21T19:23:59.911171+00:00",
       "claim_expires_at": "2026-10-21T20:53:59.911171+00:00",
       "next_action": "Verify own local report reader against current membership and publish sanitized evidence; Matrix issue377 remains held."
+    },
+    {
+      "id": "LRP-20261012-RE-RELOCATION-ENTRY-PARSE",
+      "project_id": "llm-reasoning-project",
+      "title": "Reconcile own blocked task issue routes",
+      "state": "RUNNING",
+      "priority": "P1",
+      "claimed_by": "codex-01a15457-re-relocation",
+      "claim_expires_at": "2026-10-21T21:28:00.854949Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/pull/391",
+      "updated_at": "2026-10-21T19:28:47.177332Z",
+      "next_action": "Manual owner-exception author candidate for re.relocation-entry-parse only; qualified review and all release gates remain closed."
     }
   ],
   "blockers": [
@@ -9137,5 +9149,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:26:01.898129+00:00"
+  "updated_at": "2026-10-21T19:28:47.177351Z"
 }
