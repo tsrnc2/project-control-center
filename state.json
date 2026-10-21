@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T13:43:55.055323Z",
+    "generated_at": "2026-10-21T13:47:28.509476Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -3904,15 +3904,15 @@
       "id": "KWH-MINI-POINTER",
       "project_id": "kludge-wagon-haywire",
       "title": "Concept: Pointer Maze (graph/memory viz) \u2014 draft",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-01a15457-pointer",
-      "claim_expires_at": "2026-10-21T15:43:31.665100Z",
-      "updated_at": "2026-10-21T13:43:55.055299Z",
-      "next_action": "Draft queue/pointer concept only; no build before Jobo approval; preserve other owners.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T13:47:28.509452Z",
+      "next_action": "Jobo reviews the Pointer Maze proposal through existing KWH-MINI-DESIGN. Decide known-live-node boundary,route/cycle/step semantics and host before a separately claimed approved implementation. No player-C trace,arbitrary-pointer safety,skin/reward implementation or independent acceptance claimed.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/222"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/545"
     },
     {
       "id": "KWH-MINI-STACK",
@@ -7930,5 +7930,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T13:43:55.055320Z"
+  "updated_at": "2026-10-21T13:47:28.509472Z"
 }
