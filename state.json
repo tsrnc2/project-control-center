@@ -3356,15 +3356,21 @@
       "id": "KWH-CLUE-EP1",
       "project_id": "kludge-wagon-haywire",
       "title": "Clue\u2192lesson: author Ep1 clues from actual shipped bugs",
-      "state": "CLAIMED",
+      "state": "DONE",
       "priority": "P1",
-      "claimed_by": "chatgpt-kwh-clue-ep1",
-      "claim_expires_at": "2026-10-16T03:48:58Z",
-      "updated_at": "2026-10-16T01:31:00Z",
-      "next_action": "Durable claim remains with chatgpt-kwh-clue-ep1 through 2026-10-16T03:48:58Z, but its execution lease expired and was released. Same owner must reacquire/read back a fresh lease before continuing; do not overlap.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T22:00:32.509377Z",
+      "next_action": "Canonical task was DONE and PR429 merged at 05c8b30eb1e7d1fad3f968a0ba1c754101f6c631; dashboard stale claim reconciled. No submitted independent review observed.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/161"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/429",
+      "reconciliation": {
+        "at": "2026-10-21T22:00:32.509377Z",
+        "canonical_state": "DONE",
+        "merge_commit": "05c8b30eb1e7d1fad3f968a0ba1c754101f6c631",
+        "submitted_reviews": 0
+      }
     },
     {
       "id": "KWH-CLUE-TEST",
@@ -10127,5 +10133,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T21:59:59.099251Z"
+  "updated_at": "2026-10-21T22:00:32.509377Z"
 }
