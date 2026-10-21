@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T19:39:43.986042Z",
+    "generated_at": "2026-10-21T19:43:25.265921Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -5157,16 +5157,24 @@
       "id": "KWH-ROAD-OBSTACLES-AI",
       "project_id": "kludge-wagon-haywire",
       "title": "Road obstacles: hazard AI (animals / tumbleweed)",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-road-motion-20261021",
-      "claim_expires_at": "2026-10-21T21:39:17.280318Z",
-      "updated_at": "2026-10-21T19:39:17.280299Z",
-      "next_action": "READY unclaimed \u2014 see issue AC",
-      "owner_agent": "codex-road-motion-20261021",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T19:43:25.265921Z",
+      "next_action": "Bind genuine qualified independent native/gameplay reviewer to exact ba43f569aa2b0e195acfa074c717e6bd9b2fafea before KWH-ROAD-OBSTACLES-AI-REVIEW-R1 dispatch. Inspect seeded geometry, warning/activation timeline, pause/bolt/wind, lifetime, atomic/copy/cap/global-RNG contracts and retained fixture correction. After actual source acceptance, separately bind accepted spawner/route/model/context and actual visible warning acknowledgement, relative moving-player/hazard sweeps, run-ID damage deduplication and real scene/device/C-driven avoidance tests before activating hazards. PR607/497 and original umbrella/tests remain separate.",
+      "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/303",
-      "claimed_at": "2026-10-21T19:39:17.280299Z"
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/626",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/460",
+      "author_completion": "DONE",
+      "feature_acceptance": false,
+      "independent_acceptance": false,
+      "dispatch_allowed": false,
+      "deployment": false
     },
     {
       "id": "KWH-ROAD-OBSTACLES-TESTS",
@@ -7989,6 +7997,19 @@
       "updated_at": "2026-10-21T19:43:25.530968Z",
       "source_ref": "https://github.com/tsrnc2/kitt/issues/459",
       "next_action": "Bind eligible distinct reviewer to exact artifact;no self-qualification or inherited precursor acceptance."
+    },
+    {
+      "id": "KWH-ROAD-OBSTACLES-AI-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified independent exact-source review of road hazard motion core",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "owner_agent": null,
+      "updated_at": "2026-10-21T19:43:25.265921Z",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/626",
+      "dispatch_allowed": false,
+      "next_action": "Bind genuine qualified independent native/gameplay reviewer to exact ba43f569aa2b0e195acfa074c717e6bd9b2fafea before KWH-ROAD-OBSTACLES-AI-REVIEW-R1 dispatch. Inspect seeded geometry, warning/activation timeline, pause/bolt/wind, lifetime, atomic/copy/cap/global-RNG contracts and retained fixture correction. After actual source acceptance, separately bind accepted spawner/route/model/context and actual visible warning acknowledgement, relative moving-player/hazard sweeps, run-ID damage deduplication and real scene/device/C-driven avoidance tests before activating hazards. PR607/497 and original umbrella/tests remain separate."
     }
   ],
   "blockers": [
@@ -9245,5 +9266,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:43:25.530968Z"
+  "updated_at": "2026-10-21T19:43:25.265921Z"
 }
