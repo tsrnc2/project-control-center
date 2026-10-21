@@ -1187,12 +1187,12 @@
       "id": "KWH-BLD-UPG-SCHOOLHOUSE",
       "project_id": "kludge-wagon-haywire",
       "title": "Upgrade Bodie building with detail kit: schoolhouse",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P3",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Building dressed with >=4 kit pieces, unique paint/sign; collision intact; street-level screenshot",
+      "claimed_by": "codex-caretaker-schoolhouse-upgrade",
+      "claim_expires_at": "2026-10-21T20:32:22.197981Z",
+      "updated_at": "2026-10-21T18:32:27.459097Z",
+      "next_action": "Author originalschoolhouseupgrade using4currentmainkittypes/unique paint/sign/nativecollision/sourcefixture;Joboart/dresser/world/platform integration held.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/53"
@@ -8951,5 +8951,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T18:29:33.051049Z"
+  "updated_at": "2026-10-21T18:32:27.459115Z"
 }

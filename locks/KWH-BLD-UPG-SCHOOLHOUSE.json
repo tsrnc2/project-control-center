@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-BLD-UPG-SCHOOLHOUSE",
+  "agent_id": "codex-caretaker-schoolhouse-upgrade",
+  "lock_token": "b5247f35579fd1e9c374cad0cde30884afcd1ee0f6950151",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T18:32:22.197958Z",
+  "heartbeat_at": "2026-10-21T18:32:22.197976Z",
+  "expires_at": "2026-10-21T20:32:22.197981Z",
+  "run_ref": "Original issue53 bounded schoolhouse/detail/sourcecollision/native candidate;Jobo final art/world approval held"
+}
