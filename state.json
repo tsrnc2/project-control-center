@@ -8056,13 +8056,14 @@
       "project_id": "kludge-wagon-haywire",
       "parent_task_id": "KWH-ROBOT-CAR-VOICE",
       "title": "Offline robot-car voice tuning and additional bark author samples",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-caretaker-car-voice-dsp",
-      "claim_expires_at": "2026-10-21T21:54:05.180599Z",
-      "updated_at": "2026-10-21T19:54:05.180567Z",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T20:17:00.746328Z",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/19",
-      "next_action": "Prepare bounded offline source DSP/copy/audio evidence with isolatednative tools;all existing game/audio/parentreview fields preserved."
+      "next_action": "Bind qualified distinct source/audio reviewer to frozen PR630 and obtain Jobo listening/copy/rights approval;later integration also requires accepted parentpriority/DSP work.",
+      "blocked_at": "2026-10-21T20:17:00.746328Z"
     },
     {
       "id": "KWH-ECU-COMPLETED-OBSERVATION-R1-REVIEW-R1",
@@ -8103,6 +8104,18 @@
       "source_ref": "https://github.com/tsrnc2/kitt/commit/2ad287dcaf1dee968d8a4adcbfc7021e2e0444b7",
       "updated_at": "2026-10-21T20:13:12.786952Z",
       "next_action": "Bind an admitted exact author runtime or a new explicit one-task manual author authorization; independent different-family T7 review follows candidate publication."
+    },
+    {
+      "id": "KWH-ROBOT-CAR-VOICE-DSP-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "parent_task_id": "KWH-ROBOT-CAR-VOICE-DSP-R1",
+      "title": "Qualified review of offline robot-car DSP and copy author evidence",
+      "state": "BLOCKED",
+      "priority": "P2",
+      "claimed_by": null,
+      "updated_at": "2026-10-21T20:17:00.746328Z",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/630",
+      "next_action": "Await actual qualified distinct reviewer binding and Jobo listening/copy/rights decision."
     }
   ],
   "blockers": [
@@ -9366,5 +9379,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T20:15:02.825444Z"
+  "updated_at": "2026-10-21T20:17:00.746328Z"
 }
