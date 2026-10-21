@@ -7719,6 +7719,17 @@
       "next_action": "Claim one bounded source-author lease; reproduce safe browser-free entrypoint boundary, prepare minimal candidate and qualified independent review hold. Do not run known unsafe full-browser pipeline or adopt pending source.",
       "claimed_at": "2026-10-21T18:38:59.257223Z",
       "claim_expires_at": "2026-10-21T20:38:59.257243Z"
+    },
+    {
+      "id": "KITT-20261021-REGISTRY-REV98",
+      "project_id": "kitt",
+      "title": "Exact master directory96-to98 metadata reconciliation",
+      "state": "DONE",
+      "priority": "P2",
+      "claimed_by": null,
+      "updated_at": "2026-10-21T18:44:05.705650Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/events/KITT-20261021-REGISTRY-REV98.json",
+      "next_action": "Continueeligiblework usingverifiedrevision98;all43projectobjects/KWHscopeownership unchanged;notdomainassessmentcertification,qualification/acceptance/fullportfolioaudit."
     }
   ],
   "blockers": [
@@ -8975,5 +8986,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T18:41:24.458835Z"
+  "updated_at": "2026-10-21T18:44:05.705674Z"
 }
