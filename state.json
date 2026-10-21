@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T13:55:31.101634Z",
+    "generated_at": "2026-10-21T13:58:23.446445Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -2105,15 +2105,16 @@
       "id": "KWH-WB-CONSOLE-SEP",
       "project_id": "kludge-wagon-haywire",
       "title": "Workbench: separate stdout/stderr/build console",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P3",
-      "claimed_by": "codex-sr-delegated-console-sep-20261021",
-      "claim_expires_at": "2026-10-21T15:38:18.657727Z",
-      "updated_at": "2026-10-21T13:39:21.640396Z",
-      "next_action": "Prepare four relative weeks of source-grounded post drafts for owner review; no scheduling, posting, spending or account access.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T13:58:23.446417Z",
+      "next_action": "Author pane candidate https://github.com/tsrnc2/fly-by-wire-c/pull/548 verified12actual pane checks with legacy receipts. Qualified exact-source KWH-WB-CONSOLE-SEP-REVIEW-R1 and combined Workbench integration pending;https://github.com/tsrnc2/kitt/issues/346. No merge/deployment or VM/license/platform acceptance.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/108"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/108",
+      "blocked_at": "2026-10-21T13:58:23.446433Z"
     },
     {
       "id": "KWH-WB-PRECACHE",
@@ -7986,5 +7987,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T13:58:18.325830Z"
+  "updated_at": "2026-10-21T13:58:23.446442Z"
 }
