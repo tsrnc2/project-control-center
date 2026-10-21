@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T15:50:07.450321Z",
+    "generated_at": "2026-10-21T15:52:16.546087Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6940,13 +6940,18 @@
       "id": "KWH-WB-MI-PARSER-BOUNDS-R1",
       "project_id": "kludge-wagon-haywire",
       "title": "Bound Workbench MI parser EOF/progress",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "codex-01a15457-mi-parser",
-      "claim_expires_at": "2026-10-21T17:30:45.783040Z",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/561",
-      "updated_at": "2026-10-21T15:31:23.539663Z",
-      "next_action": "Reproduce bounded MI parser failure and prepare source-only EOF/progress correction;no Concept build/runtime adoption;preserve held source owners."
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/570",
+      "updated_at": "2026-10-21T15:52:16.546009Z",
+      "next_action": "Bind qualified distinct parser/source/integration review for KWH-WB-MI-PARSER-BOUNDS-REVIEW-R1 at 185958d52eaad59c4801f8ecba605fae514ac553. Evaluate EOF/progress and structured failures, valid-output compatibility, grammar/resource limits and held candidate composition. Native host fixture is not V86 acceptance; no merge/deployment or self-admission.",
+      "author_phase_state": "DONE_NOT_ACCEPTED",
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "candidate_revision": "185958d52eaad59c4801f8ecba605fae514ac553",
+      "review_task_id": "KWH-WB-MI-PARSER-BOUNDS-REVIEW-R1"
     },
     {
       "id": "kitt-20261004-promote-self_improvement-cpp",
@@ -6999,6 +7004,21 @@
       "source_ref": "https://github.com/tsrnc2/kitt/issues/360",
       "updated_at": "2026-10-21T15:48:46.477791Z",
       "next_action": "Bind actual qualified distinct reviewer for frozen building shapes;keep dispatch disabled. Coordinate separate owned scopes for remaining parent criteria;do not claim full issue22 completion."
+    },
+    {
+      "id": "KWH-WB-MI-PARSER-BOUNDS-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified distinct Workbench MI parser source/integration review",
+      "state": "BLOCKED",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T15:52:16.546074Z",
+      "next_action": "Bind qualified distinct parser/source/integration review for KWH-WB-MI-PARSER-BOUNDS-REVIEW-R1 at 185958d52eaad59c4801f8ecba605fae514ac553. Evaluate EOF/progress and structured failures, valid-output compatibility, grammar/resource limits and held candidate composition. Native host fixture is not V86 acceptance; no merge/deployment or self-admission.",
+      "source_ref": "https://github.com/tsrnc2/kitt/issues/363",
+      "candidate_pr": "https://github.com/tsrnc2/fly-by-wire-c/pull/570",
+      "candidate_revision": "185958d52eaad59c4801f8ecba605fae514ac553",
+      "dispatch_allowed": false
     }
   ],
   "blockers": [
@@ -8235,5 +8255,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T15:51:46.401586+00:00"
+  "updated_at": "2026-10-21T15:52:16.546084Z"
 }
