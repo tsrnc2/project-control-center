@@ -3567,16 +3567,20 @@
     {
       "id": "KWH-BLD-TYPES-RES",
       "project_id": "kludge-wagon-haywire",
-      "title": "Buildings: residential types (townhome\u2192apartment)",
-      "state": "RUNNING",
+      "title": "Six placeable residential exterior types",
+      "state": "DONE",
       "priority": "P1",
-      "claimed_by": "codex-caretaker-residential-types",
-      "claim_expires_at": "2026-10-21T16:53:13.449640Z",
-      "updated_at": "2026-10-21T15:26:41.793522Z",
-      "next_action": "Six original residential types native345/0;verify47newpaths,43filedeterministicgeneration,negativecontrols and freshreplay before publication. Art/world/platform/releasegates held.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T15:57:51.691938Z",
+      "next_action": "Six residential types author candidate https://github.com/tsrnc2/fly-by-wire-c/pull/563;held qualified distinct-family review https://github.com/tsrnc2/kitt/issues/370. Not accepted,merged,deployed or fullgame/platformqualified.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/190"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/190",
+      "artifacts": [
+        "https://github.com/tsrnc2/fly-by-wire-c/pull/563",
+        "https://github.com/tsrnc2/kitt/issues/370"
+      ]
     },
     {
       "id": "KWH-BLD-TYPES-COMM",
@@ -8276,5 +8280,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T15:57:15.963450Z"
+  "updated_at": "2026-10-21T15:57:51.691957Z"
 }
