@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T01:44:13.824487+00:00",
+    "generated_at": "2026-10-21T01:46:41.784707Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6455,6 +6455,19 @@
       "candidate_revision": "181b83ad90b28879fff43c2d438b8eb8e703c22e",
       "updated_at": "2026-10-21T01:43:53.973062Z",
       "next_action": "Bind actual qualified distinct reviewer before enabling dispatch/claiming;author cannot self-accept."
+    },
+    {
+      "id": "KITT-20261020-DISPATCH-DRAFT-INPUT-REPAIR",
+      "project_id": "kitt",
+      "title": "Repair dispatch draft ceiling, input domains and controlled errors",
+      "priority": "P1",
+      "state": "DONE",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T01:46:41.784676Z",
+      "evidence_ref": "https://github.com/tsrnc2/kitt/blob/10664ab584f73d09bcfe57644788e911cb136d66/reports/codex/dispatch-input-repair-20261020/REPORT.md",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-20261020-DISPATCH-DRAFT-INPUT-REPAIR.json",
+      "next_action": "Author source preparation published; distinct review KITT-20261020-DISPATCH-DRAFT-INPUT-REPAIR-REVIEW pending. Issue267/native port remain blocked pending accepted semantics/independent fixture freeze."
     }
   ],
   "blockers": [
