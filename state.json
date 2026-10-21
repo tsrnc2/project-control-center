@@ -1425,18 +1425,24 @@
       "id": "KWH-TUNNEL-LAIR",
       "project_id": "kludge-wagon-haywire",
       "title": "Jhonnas lair room with clues",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "codex-fbw-sequential",
-      "claim_expires_at": "2026-10-21T17:38:45.656868+00:00",
-      "updated_at": "2026-10-21T15:38:45.656868+00:00",
-      "next_action": "Acceptance: Lair room with >=3 interactable clue props tied to Ep1 story",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T15:39:46.072617+00:00",
+      "next_action": "Existing merged lair verified:3actual interactions andEpisode1story links;13native+4handler checks. No product correction needed.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/69",
-      "claimed_at": "2026-10-21T15:38:45.656868+00:00",
-      "claim_heartbeat_at": "2026-10-21T15:38:45.656868+00:00",
-      "recovery_operation_id": "lair-expired-self-recovery-2026-10-21T153341_839010_0000"
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "recovery_operation_id": "lair-expired-self-recovery-2026-10-21T153341_839010_0000",
+      "completed_at": "2026-10-21T15:39:46.072617+00:00",
+      "canonical_task_blob": "4b539df184a6825a89ca40ad3fa7904cc9fa95a1",
+      "canonical_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-TUNNEL-LAIR.json",
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/564",
+      "release_operation_id": "lair-clue-source-bound-verification-release-20261021",
+      "last_execution_owner": "codex-fbw-sequential"
     },
     {
       "id": "KWH-TUNNEL-GPS",
@@ -7217,6 +7223,13 @@
   ],
   "activity": [
     {
+      "at": "2026-10-21T15:39:46.072617+00:00",
+      "type": "TASK_DONE",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-TUNNEL-LAIR",
+      "summary": "Existing lair-clue acceptance verified;exact own canonical/PCC ownership released;https://github.com/tsrnc2/fly-by-wire-c/pull/564"
+    },
+    {
       "at": "2026-10-21T13:36:54.627929Z",
       "type": "TASK_COMPLETED",
       "project_id": "kitt",
@@ -8135,5 +8148,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T15:39:21.323237+00:00"
+  "updated_at": "2026-10-21T15:39:46.072617+00:00"
 }
