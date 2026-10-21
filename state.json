@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T13:47:41.985718Z",
+    "generated_at": "2026-10-21T13:55:31.101634Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -1101,15 +1101,19 @@
       "id": "KWH-BLD-ROADS",
       "project_id": "kludge-wagon-haywire",
       "title": "Building detail kit: roads (rutted dirt with decals)",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-roads-kit-01a15507",
-      "claim_expires_at": "2026-10-21T15:50:13.116664Z",
-      "updated_at": "2026-10-21T13:50:19.403620Z",
-      "next_action": "Prepare anchored rutted dirt and surface-overlay road kit author candidate and native evidence; preserve other owners and all review gates.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T13:55:31.101538Z",
+      "next_action": "Accountable coordinator binds actual qualified distinct reviewer; keep dispatch disabled until established.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/48"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/547",
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "author_phase_state": "DONE",
+      "result_summary": "Author source/evidence complete: https://github.com/tsrnc2/fly-by-wire-c/pull/547 at546189d2c570000703ceeffa3493416a6143c880;native37/0,fresh replay identical,all published source/evidence blobs verified. Original issue48 remains open;qualified distinct source/art review and composition/integration gates held."
     },
     {
       "id": "KWH-BLD-BOARDWALKS",
@@ -6753,6 +6757,18 @@
       "candidate_revision": "6014431441d9cc0b0a97b6d1ebe1b862e95f5c81",
       "updated_at": "2026-10-21T13:48:01.998180Z",
       "next_action": "Bind actual qualified distinct reviewer before enabling dispatch/claiming;author cannot self-accept."
+    },
+    {
+      "id": "KWH-BLD-ROADS-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Independently review anchored rutted dirt aprons and source-reused rut overlays",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "dispatch_allowed": false,
+      "source_ref": "https://github.com/tsrnc2/kitt/issues/344",
+      "updated_at": "2026-10-21T13:55:31.101623Z",
+      "next_action": "Accountable coordinator binds actual qualified distinct reviewer; keep dispatch disabled until established."
     }
   ],
   "blockers": [
