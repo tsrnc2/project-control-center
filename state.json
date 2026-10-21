@@ -2420,15 +2420,20 @@
       "id": "KWH-PH-PROP-SIGNPOST",
       "project_id": "kludge-wagon-haywire",
       "title": "Replace placeholder model: prop_signpost",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P3",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T19:13:25.305289Z",
-      "updated_at": "2026-10-21T17:13:35.855714Z",
-      "next_action": "Original signpost model/decals;preserve exactproduction placements/nativecollision/footprint;qualified art/source/Jobo approval held.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T17:27:50.543457Z",
+      "next_action": "Coordinator binds actually qualified distinct art/source reviewer andJobo final wording/visual approval to efefbfadf98ff6703ea51eac2f90449683d151ee through KWH-PH-PROP-SIGNPOST-REVIEW-R1. Verify originalmesh/glyph provenance,one signpostloaderline/oldnotices/fourplacements,78triangleGLB/embeddedPNG,+Z/readability/nativeAABB andcollision atactualterrainplacements,retainedfirstfailures andfreshreproduction. Then reconcile acceptedsource andactualgame/world/export/platform/distance/LOD/performance gates. No finalart self-acceptance,merge/export/deploy orpaidservice.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/13"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/599",
+      "dispatch_allowed": false,
+      "candidate_revision": "efefbfadf98ff6703ea51eac2f90449683d151ee",
+      "blocker_issue": "https://github.com/tsrnc2/kitt/issues/427",
+      "author_completion": "DONE",
+      "review_task": "KWH-PH-PROP-SIGNPOST-REVIEW-R1"
     },
     {
       "id": "KWH-PH-PROP-TELEPHONE-POLE",
@@ -7442,6 +7447,21 @@
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/597",
       "dispatch_allowed": false,
       "next_action": "Authorized coordinator records genuine exact-domain reviewer qualification/independence and resolves dispatch hold before claim; no automatic parent/4WD/game/admission clearance."
+    },
+    {
+      "id": "KWH-PH-PROP-SIGNPOST-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified original signpost art/source review and Jobo final acceptance",
+      "state": "READY",
+      "priority": "P3",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "dispatch_allowed": false,
+      "dependencies": [],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/599",
+      "candidate_revision": "efefbfadf98ff6703ea51eac2f90449683d151ee",
+      "updated_at": "2026-10-21T17:27:50.543522Z",
+      "next_action": "Coordinator binds actually qualified distinct art/source reviewer andJobo final wording/visual approval to efefbfadf98ff6703ea51eac2f90449683d151ee through KWH-PH-PROP-SIGNPOST-REVIEW-R1. Verify originalmesh/glyph provenance,one signpostloaderline/oldnotices/fourplacements,78triangleGLB/embeddedPNG,+Z/readability/nativeAABB andcollision atactualterrainplacements,retainedfirstfailures andfreshreproduction. Then reconcile acceptedsource andactualgame/world/export/platform/distance/LOD/performance gates. No finalart self-acceptance,merge/export/deploy orpaidservice."
     }
   ],
   "blockers": [
@@ -8698,5 +8718,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T17:22:18.253464Z"
+  "updated_at": "2026-10-21T17:27:50.543532Z"
 }
