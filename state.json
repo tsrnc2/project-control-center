@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-20T22:31:05.291177+00:00",
+    "generated_at": "2026-10-21T01:20:03.593933Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6250,11 +6250,13 @@
       "project_id": "kitt",
       "title": "Fix the stale project path in /root/.codex/config.toml",
       "priority": "P3",
-      "state": "RUNNING",
-      "claimed_by": "codex-standing-fbw",
-      "claim_expires_at": "2026-10-20T22:33:30Z",
-      "updated_at": "2026-10-20T20:33:39.689050Z",
-      "next_action": "Sanitized read-only verification of historical project-path entry and actual location. Preserve explicit owner approval before configuration mutation."
+      "state": "BLOCKED",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T01:20:03.593891Z",
+      "next_action": "Identify the original machine/configuration and actual project path from original source history or its owner, or obtain explicit retirement direction. Then inspect the exact target and prepare a minimal correction under the original owner-approval requirement. Do not substitute another identity configuration or infer completion from absent files.",
+      "evidence_ref": "https://github.com/tsrnc2/kitt/blob/316b933bf3c37a609ace6f1c8af4e6d50f078c47/reports/codex-standing-fbw/codex-path-readiness-20261020/REPORT.md",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/292"
     },
     {
       "id": "KITT-20261020-MASTER-UTF8-TRANSPORT-REVIEW",
@@ -6576,6 +6578,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-21T01:20:03.593940Z",
+      "type": "TASK_BLOCKED",
+      "project_id": "kitt",
+      "task_id": "kitt-20261001-fix-the-stale-project-path-in-root-codex",
+      "summary": "Historical Codex target unidentified on checked deployments; owner cannot identify location. Own execution released, no config changes."
+    },
     {
       "at": "2026-10-20T22:31:05.291177+00:00",
       "type": "BOUNDED_PLANNING_COMPLETE",
