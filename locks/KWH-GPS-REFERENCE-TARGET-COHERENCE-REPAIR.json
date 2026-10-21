@@ -1,9 +1,0 @@
-{
-  "task_id": "KWH-GPS-REFERENCE-TARGET-COHERENCE-REPAIR",
-  "project_id": "kludge-wagon-haywire",
-  "agent_id": "codex-gps-target-coherence-20261021",
-  "lock_token": "12ccdb33c8ac2f6d769ff67cb84f224a0e4ddb5c2c83e8a7",
-  "acquired_at": "2026-10-21T18:09:47.923819Z",
-  "expires_at": "2026-10-21T20:09:47.923869Z",
-  "run_ref": "gps-target-coherence-20261021"
-}
