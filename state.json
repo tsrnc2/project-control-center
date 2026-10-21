@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T16:05:54.723285+00:00",
+    "generated_at": "2026-10-21T16:07:41.735920+00:00",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -3461,15 +3461,17 @@
       "id": "KWH-DMG-TERRAIN",
       "project_id": "kludge-wagon-haywire",
       "title": "Damage: terrain surface wear (paved / trail / off-road + speed)",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P1",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T02:13:37Z",
+      "claimed_by": "codex-fbw-longterm",
+      "claim_expires_at": "2026-10-21T18:07:33Z",
+      "updated_at": "2026-10-21T16:07:41.735920+00:00",
       "next_action": "Per-surface wear rates; suspension/steer/tires; speed multiplier. READY.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/182"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/182",
+      "claimed_at": "2026-10-21T16:07:41.735920+00:00",
+      "claim_heartbeat_at": "2026-10-21T16:07:41.735920+00:00"
     },
     {
       "id": "KWH-WORLD-TRAILS",
