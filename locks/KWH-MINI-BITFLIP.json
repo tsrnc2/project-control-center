@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-MINI-BITFLIP",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-01a15457-bitflip",
+  "lock_token": "ba7e184c9f40a05c7bee34ca39824c1f10e694fae5f1bc10",
+  "acquired_at": "2026-10-21T16:01:13.190385Z",
+  "heartbeat_at": "2026-10-21T16:01:13.190399Z",
+  "expires_at": "2026-10-21T18:01:09.764540Z",
+  "run_ref": "bitflip-concept-01a15457-20261021"
+}
