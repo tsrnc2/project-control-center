@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-CLUE-SUPER-SPEND-R1",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-sr-delegated-clue-spend-20261021",
+  "lock_token": "4a5a65ebc3fe5282748f0029981de0dd9e5868a703008a47",
+  "acquired_at": "2026-10-21T14:45:18.380782Z",
+  "heartbeat_at": "2026-10-21T14:45:18.380782Z",
+  "expires_at": "2026-10-21T16:45:14.468834Z",
+  "run_ref": "clue-super-spend-correction-20261021"
+}
