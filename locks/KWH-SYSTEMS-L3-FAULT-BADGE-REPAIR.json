@@ -1,9 +1,0 @@
-{
-  "task_id": "KWH-SYSTEMS-L3-FAULT-BADGE-REPAIR",
-  "project_id": "kludge-wagon-haywire",
-  "agent_id": "codex-waypoint-l3-badge-repair-20261021",
-  "lock_token": "3f376a2cfa38a12b64e2c5bf13ecf5218f5bd9c82941aeff",
-  "acquired_at": "2026-10-21T17:10:43.871205Z",
-  "expires_at": "2026-10-21T18:40:43.871220Z",
-  "run_ref": "l3-wire-fault-followup-20261021"
-}
