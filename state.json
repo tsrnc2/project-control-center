@@ -978,15 +978,18 @@
       "id": "KWH-BLD-CHIMNEYS",
       "project_id": "kludge-wagon-haywire",
       "title": "Building detail kit: chimneys + stovepipes",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T04:32:08.272388Z",
-      "updated_at": "2026-10-21T02:32:08.272434Z",
-      "next_action": "Verify exact existing native chimney-kit and publish actual render evidence; no qualified acceptance.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T02:35:55.949209Z",
+      "next_action": "Qualified exact-source review KWH-BLD-CHIMNEYS-REVIEW-R1 and approved PR499/PR511composition/integration/export acceptance remain pending;issue41 stays open.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/41"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/516",
+      "candidate_revision": "25c2adee2e977a989dbbdc18fb6c69fc41176040",
+      "completion_scope": "AUTHOR_CANDIDATE_AND_NATIVE_EVIDENCE",
+      "independent_acceptance": false
     },
     {
       "id": "KWH-BLD-WINDCHIMES",
@@ -6511,6 +6514,23 @@
       "evidence_ref": "https://github.com/tsrnc2/kitt/blob/266e8870110baab54e8d739fc3fbff3181d07975/reports/codex/cost-firewall-fixture-gate-20261021/REPORT.md",
       "source_ref": "https://github.com/tsrnc2/kitt/issues/310",
       "next_action": "Reference behavior repair/decision and independent fixture freeze required before native promotion; no runtime change."
+    },
+    {
+      "id": "KWH-BLD-CHIMNEYS-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified exact-source review of modular chimney kit and roof anchors",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "dispatch_allowed": false,
+      "dependencies": [
+        "KWH-BLD-CHIMNEYS"
+      ],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/516",
+      "candidate_revision": "25c2adee2e977a989dbbdc18fb6c69fc41176040",
+      "updated_at": "2026-10-21T02:35:55.949327Z",
+      "next_action": "Bind actual qualified distinct reviewer before enabling dispatch/claiming;author cannot self-accept."
     }
   ],
   "blockers": [
@@ -7681,5 +7701,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T02:32:08.272438Z"
+  "updated_at": "2026-10-21T02:35:55.949335Z"
 }
