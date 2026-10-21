@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-PH-PROP-TELEPHONE-POLE",
+  "agent_id": "codex-fbw-goal-api",
+  "lock_token": "a0a10b6829e8d4b2d80996f3722d0867788d3c096829000b",
+  "acquired_at": "2026-10-21T18:05:52.366469Z",
+  "heartbeat_at": "2026-10-21T18:05:52.366469Z",
+  "expires_at": "2026-10-21T20:05:52.366469Z",
+  "run_ref": "Canonical original telephone-pole author task"
+}
