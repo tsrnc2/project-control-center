@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kitt",
+  "task_id": "KITT-20261021-SF-CUTOVER-001",
+  "agent_id": "codex-standing-service-cutover",
+  "lock_token": "05fd07dbb11c44650f6f6ac462c464ad910818539822c44b",
+  "acquired_at": "2026-10-21T22:16:18.485836+00:00",
+  "expires_at": "2026-10-21T23:46:18.485836+00:00",
+  "run_ref": "KITT-20261021-SF-CUTOVER-001-author"
+}
