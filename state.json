@@ -1034,15 +1034,19 @@
       "id": "KWH-BLD-PAINT-SIGNS",
       "project_id": "kludge-wagon-haywire",
       "title": "Building detail kit: paint palettes + painted signs",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "codex-caretaker-paint-sign-kit",
-      "claim_expires_at": "2026-10-21T15:42:53.765219Z",
-      "updated_at": "2026-10-21T13:42:59.727825Z",
-      "next_action": "Prepare anchored paint palettes/painted signs author candidate and native evidence; preserve other owners and all review gates.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T13:51:52.060120Z",
+      "next_action": "Author sourcephaseDONE https://github.com/tsrnc2/fly-by-wire-c/pull/546;held exact-source review https://github.com/tsrnc2/kitt/issues/341. Not independently accepted,merged,deployed orfullgamequalified.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/44"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/44",
+      "artifacts": [
+        "https://github.com/tsrnc2/fly-by-wire-c/pull/546",
+        "https://github.com/tsrnc2/kitt/issues/341"
+      ]
     },
     {
       "id": "KWH-BLD-FENCING",
@@ -7966,5 +7970,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T13:50:19.403645Z"
+  "updated_at": "2026-10-21T13:51:52.060161Z"
 }
