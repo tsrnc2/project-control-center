@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T15:31:23.539697Z",
+    "generated_at": "2026-10-21T15:39:53.657193Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6924,6 +6924,19 @@
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/561",
       "updated_at": "2026-10-21T15:31:23.539663Z",
       "next_action": "Reproduce bounded MI parser failure and prepare source-only EOF/progress correction;no Concept build/runtime adoption;preserve held source owners."
+    },
+    {
+      "id": "kitt-20261004-promote-self_improvement-cpp",
+      "project_id": "kitt",
+      "title": "Promote self_improvement draft to a native C++ service",
+      "priority": "P1",
+      "state": "BLOCKED",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T15:39:53.657165Z",
+      "evidence_ref": "https://github.com/tsrnc2/kitt/blob/979de7383e1d0b6808c49769880593573f9719e3/reports/codex/self-improvement-fixture-gate-20261021/REPORT.md",
+      "source_ref": "https://github.com/tsrnc2/kitt/issues/356",
+      "next_action": "Reference SI-01/SI-02 repair/decision and qualified independent fixture freeze required before native promotion;no skill/scheduler/runtime change."
     }
   ],
   "blockers": [
