@@ -4,7 +4,7 @@
   "agent_id": "codex-sr-delegated-church-detail-20261021",
   "lock_token": "d95bc4316c7265c0228f3ac6fab4c9bbc0f50f4cee2198ca",
   "acquired_at": "2026-10-21T18:08:06.755474Z",
-  "heartbeat_at": "2026-10-21T18:08:06.755474Z",
-  "expires_at": "2026-10-21T20:07:56.280452Z",
+  "heartbeat_at": "2026-10-21T18:32:55.069030Z",
+  "expires_at": "2026-10-21T20:31:39.850275Z",
   "run_ref": "kwh-church-detail-20261021"
 }
