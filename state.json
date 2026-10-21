@@ -1678,8 +1678,8 @@
       "priority": "P2",
       "claimed_by": "codex-caretaker-cast-lineup",
       "claim_expires_at": "2026-10-21T15:56:37.400300Z",
-      "updated_at": "2026-10-21T13:56:43.343878Z",
-      "next_action": "Render complete current-source cast/vehicle lineup and publish source/evidence;no model or art acceptance.",
+      "updated_at": "2026-10-21T14:15:00.065097Z",
+      "next_action": "Final source-bound native150/0artifact published on exactbranch;finishPRmetadata/readback and heldreview handoff. 91source-settingsUV/tangenterrors retained;notcleanimport orartacceptance.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/86"
@@ -7999,5 +7999,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T14:03:13.386656Z"
+  "updated_at": "2026-10-21T14:15:00.065097Z"
 }
