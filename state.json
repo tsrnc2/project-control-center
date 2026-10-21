@@ -1041,15 +1041,19 @@
       "id": "KWH-BLD-FENCING",
       "project_id": "kludge-wagon-haywire",
       "title": "Building detail kit: fencing (picket, wire, rail)",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "codex-caretaker-fencing-kit",
-      "claim_expires_at": "2026-10-21T05:18:46.969651Z",
-      "updated_at": "2026-10-21T03:19:12.923333Z",
-      "next_action": "Prepare and native verify picket/wire/rail reusable fencing; isolated authoring only, independent acceptance separate.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T03:33:33.582747Z",
+      "next_action": "Author source phaseDONE https://github.com/tsrnc2/fly-by-wire-c/pull/531;held exact-source review https://github.com/tsrnc2/kitt/issues/327. Not independently accepted,merged,deployed or full-game qualified.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/45"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/45",
+      "artifacts": [
+        "https://github.com/tsrnc2/fly-by-wire-c/pull/531",
+        "https://github.com/tsrnc2/kitt/issues/327"
+      ]
     },
     {
       "id": "KWH-BLD-YARDS",
@@ -7862,5 +7866,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T03:33:06.924202Z"
+  "updated_at": "2026-10-21T03:33:33.582776Z"
 }
