@@ -8886,17 +8886,18 @@
       "id": "KITT-20261021-SF-STOP-002-003",
       "project_id": "kitt",
       "title": "Repair service stop uncertainty and reentry fencing",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P1",
-      "claimed_by": "codex-standing-service-stop",
+      "claimed_by": null,
       "owner_agent": null,
       "source_ref": "https://github.com/tsrnc2/kitt/pull/132",
       "dispatch_allowed": false,
       "execution_mode": "OWNER_SUPERVISED_SOURCE_PREPARATION_ONLY",
-      "updated_at": "2026-10-21T22:05:34.660725+00:00",
+      "updated_at": "2026-10-21T22:09:02.564320+00:00",
       "claimed_at": "2026-10-21T22:05:18.687304+00:00",
-      "claim_expires_at": "2026-10-21T23:35:18.687304+00:00",
-      "next_action": "Repair only SF-STOP-002/003 against exact PR122; independent review and all other framework gates remain held."
+      "claim_expires_at": null,
+      "next_action": "Draft author phase complete; qualified independent exact-head review required. Parent issue120 remains held.",
+      "claim_heartbeat_at": null
     }
   ],
   "blockers": [
@@ -10160,5 +10161,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T22:07:33.171275Z"
+  "updated_at": "2026-10-21T22:09:02.564343+00:00"
 }
