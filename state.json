@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T14:45:21.462718Z",
+    "generated_at": "2026-10-21T14:48:24.356727Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -3942,15 +3942,15 @@
       "id": "KWH-MINI-STACK",
       "project_id": "kludge-wagon-haywire",
       "title": "Concept: Stack Overflow Tower (call-stack viz) \u2014 draft",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-01a15457-stack",
-      "claim_expires_at": "2026-10-21T16:42:52.813154Z",
-      "updated_at": "2026-10-21T14:43:30.542940Z",
-      "next_action": "Draft stack/call-frame concept only; no build before Jobo approval; preserve Workbench and host owners.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T14:48:24.356706Z",
+      "next_action": "Jobo reviews snapshot-only versus deferred live Stack Tower through existing KWH-MINI-DESIGN; approve learning/count/build/overflow/host boundaries before build. Separately repair the observed Workbench backtrace failure-to-empty mapping before relying on completeness. No C/gdb/runtime implementation or independent acceptance.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/223"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/557"
     },
     {
       "id": "KWH-MINI-BITFLIP",
@@ -8045,5 +8045,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T14:45:21.462715Z"
+  "updated_at": "2026-10-21T14:48:24.356723Z"
 }
