@@ -2330,12 +2330,12 @@
       "id": "KWH-PH-PROP-ROCK",
       "project_id": "kludge-wagon-haywire",
       "title": "Replace placeholder model: prop_rock",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P3",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Final low-poly GLB replaces placeholder; same footprint/anchors; collision intact",
+      "claimed_by": "codex-fbw-goal-api",
+      "claim_expires_at": "2026-10-21T17:42:40.724898Z",
+      "updated_at": "2026-10-21T15:42:40.724898Z",
+      "next_action": "Prepare original three-rock source kit with exact legacy bounds and native collision fixture; distinct review/composition required.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/11"
@@ -8184,5 +8184,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T15:42:27.010572Z"
+  "updated_at": "2026-10-21T15:42:40.724898Z"
 }
