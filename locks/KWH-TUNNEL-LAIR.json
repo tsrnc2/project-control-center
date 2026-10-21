@@ -2,9 +2,9 @@
   "task_id": "KWH-TUNNEL-LAIR",
   "project_id": "kludge-wagon-haywire",
   "agent_id": "codex-fbw-sequential",
-  "lock_token": "20c773460afb40f8cbea626d871944e8ffc3f3bdc25f238a",
-  "acquired_at": "2026-10-21T03:24:09.652904+00:00",
-  "heartbeat_at": "2026-10-21T03:24:09.652904+00:00",
-  "expires_at": "2026-10-21T05:24:09.652904+00:00",
+  "lock_token": "dc2ab528b07c75515ea9ed7c3b38325b3cd1d22c0bcb9c9b",
+  "acquired_at": "2026-10-21T13:33:41.839010+00:00",
+  "heartbeat_at": "2026-10-21T13:33:41.839010+00:00",
+  "expires_at": "2026-10-21T15:33:41.839010+00:00",
   "run_ref": "Verify exact lair-clue route,actual on-foot movement and both exits;isolated verification only"
 }
