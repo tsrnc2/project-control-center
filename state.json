@@ -2120,15 +2120,15 @@
       "id": "KWH-WB-MANUAL-LINKS",
       "project_id": "kludge-wagon-haywire",
       "title": "Workbench: Owner's Manual -> workbench example links",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P3",
-      "claimed_by": "codex-fbw-goal-api",
-      "claim_expires_at": "2026-10-21T05:11:20.233025Z",
-      "updated_at": "2026-10-21T03:11:20.233025Z",
-      "next_action": "Acceptance: Each manual lesson opens its code in workbench",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T03:32:43.769292Z",
+      "next_action": "Qualified reviewer distinct from this implementation author should inspect exact source/state/focus boundaries, reproduce contract/browser/baseline controls and return a bounded verdict with eligibility/correlation/qualification limits; owner adopts only after review.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/111"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/532"
     },
     {
       "id": "KWH-WB-GDB-CLI",
@@ -7862,5 +7862,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T03:32:08.312811Z"
+  "updated_at": "2026-10-21T03:32:43.769292Z"
 }
