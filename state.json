@@ -8915,6 +8915,19 @@
       "claim_expires_at": null,
       "next_action": "Draft author phase complete; qualified independent exact-head review and deliberate stack composition required.",
       "claim_heartbeat_at": null
+    },
+    {
+      "id": "KITT-20261021-LIFECYCLE-NINE-VECTORS",
+      "project_id": "kitt",
+      "title": "Port nine lifecycle qualification vectors",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "owner_agent": null,
+      "source_ref": "https://docs.google.com/document/d/1AP2DnLMmEuRTPGmrAmxFLK8kjWC34bRUxy2vd8KUZLQ/edit",
+      "dispatch_allowed": false,
+      "execution_mode": "OWNER_SUPERVISED_SOURCE_PREPARATION_ONLY",
+      "updated_at": "2026-10-21T22:27:49.834195+00:00"
     }
   ],
   "blockers": [
@@ -10178,5 +10191,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T22:19:27.101860+00:00"
+  "updated_at": "2026-10-21T22:27:49.834211+00:00"
 }
