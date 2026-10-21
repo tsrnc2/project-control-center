@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-WB-STDIN",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-kwh-social-x-20261021",
+  "lock_token": "2b3919a6ed2089f3a012d61dfce4f4403c5a4135562fc66e",
+  "acquired_at": "2026-10-21T03:31:52.800246Z",
+  "heartbeat_at": "2026-10-21T03:31:52.800246Z",
+  "expires_at": "2026-10-21T05:31:24.527948Z",
+  "run_ref": "workbench-stdin-draft-20261021"
+}
