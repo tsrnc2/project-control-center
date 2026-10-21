@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kitt",
+  "task_id": "KITT-20261021-SF-SCHEMA-001",
+  "agent_id": "codex-standing-service-schema",
+  "lock_token": "46cb56246369531bbb57b016accd02be34bb492bb647b0f7",
+  "acquired_at": "2026-10-21T19:50:57.982202+00:00",
+  "expires_at": "2026-10-21T21:20:57.982202+00:00",
+  "run_ref": "KITT-20261021-SF-SCHEMA-001-author"
+}
