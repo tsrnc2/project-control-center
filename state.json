@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T03:26:38.946583Z",
+    "generated_at": "2026-10-21T03:27:00.142557Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6613,6 +6613,19 @@
       "updated_at": "2026-10-21T03:22:02.254987Z",
       "evidence_ref": "https://github.com/tsrnc2/kitt/blob/99a4b1050a73466208a55349615c2dc31c9f2eb3/reports/codex-standing-fbw/intake-dependencies-20261021/REPORT.md",
       "next_action": "Use this session corrected read-only intake. Before any execution re-read exact live task/prerequisite/lease and applicable ownership, positive review and qualification evidence. Remaining external review/assignment/deployment gates are unchanged."
+    },
+    {
+      "id": "KITT-20261020-GUARDIAN-MATRIX-GAP-RECOVERY-REVIEW",
+      "project_id": "kitt",
+      "state": "RUNNING",
+      "claimed_by": "codex-waypoint-guardian-tech-review-20261021",
+      "claimed_at": "2026-10-21T03:27:00.142509Z",
+      "claim_expires_at": "2026-10-21T04:26:58.277805Z",
+      "owner_agent": "codex-waypoint-guardian-tech-review-20261021",
+      "updated_at": "2026-10-21T03:27:00.142542Z",
+      "execution_mode": "OWNER_SCOPED_TECHNICAL_REVIEW",
+      "independent_acceptance": false,
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-20261020-GUARDIAN-MATRIX-GAP-RECOVERY-REVIEW.json"
     }
   ],
   "blockers": [
@@ -7823,5 +7836,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T03:26:38.946579Z"
+  "updated_at": "2026-10-21T03:27:00.142554Z"
 }
