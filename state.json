@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T03:33:06.924206Z",
+    "generated_at": "2026-10-21T13:25:51.171948Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -3045,12 +3045,12 @@
       "id": "KWH-TOPBOX-TEST",
       "project_id": "kludge-wagon-haywire",
       "title": "SR-404 topbox_lock automated tests",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P2",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T01:44:42Z",
-      "next_action": "ECU + e2e/status hooks for lock\u2192unlock. READY.",
+      "claimed_by": "codex-01a15457-topbox",
+      "claim_expires_at": "2026-10-21T15:25:43.586600Z",
+      "updated_at": "2026-10-21T13:25:51.171925Z",
+      "next_action": "Freeze source and verify/add ECU/headless topbox status/open-state tests; no product/runtime/other-owner changes.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/156"
@@ -7866,5 +7866,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T03:33:33.582776Z"
+  "updated_at": "2026-10-21T13:25:51.171945Z"
 }
