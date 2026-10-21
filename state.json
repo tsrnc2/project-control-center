@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T15:41:51.322994+00:00",
+    "generated_at": "2026-10-21T15:43:59.151261Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6960,6 +6960,17 @@
       "updated_at": "2026-10-21T15:42:27.010572Z",
       "source_ref": "https://github.com/tsrnc2/kitt/issues/358",
       "next_action": "Bind qualified independent reviewer;exact-source and accountable art/composition acceptance pending."
+    },
+    {
+      "id": "KITT-20261021-LOCAL-INTAKE-TREE-OIDS",
+      "project_id": "kitt",
+      "title": "Repair local board-intake tree OID queries while preserving exact task identities",
+      "state": "RUNNING",
+      "priority": "P1",
+      "claimed_by": "codex-waypoint-intake-tree-repair",
+      "claimed_at": "2026-10-21T15:43:59.151261Z",
+      "claim_expires_at": "2026-10-21T17:43:59.151275Z",
+      "updated_at": "2026-10-21T15:43:59.151261Z"
     }
   ],
   "blockers": [

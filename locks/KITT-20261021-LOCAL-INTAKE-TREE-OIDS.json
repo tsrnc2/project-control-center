@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kitt",
+  "task_id": "KITT-20261021-LOCAL-INTAKE-TREE-OIDS",
+  "agent_id": "codex-waypoint-intake-tree-repair",
+  "lock_token": "1d8a02a93d24c09fe5d519c02c27445352c3f864285d6b4d",
+  "acquired_at": "2026-10-21T15:43:59.151261Z",
+  "heartbeat_at": "2026-10-21T15:43:59.151261Z",
+  "expires_at": "2026-10-21T17:43:59.151275Z",
+  "run_ref": "KITT-20261021-LOCAL-INTAKE-TREE-OIDS"
+}
