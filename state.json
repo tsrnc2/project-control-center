@@ -4354,12 +4354,12 @@
       "id": "KWH-KERNEL-IRQ",
       "project_id": "kludge-wagon-haywire",
       "title": "Kernel lesson: interrupts + timer + tests",
-      "state": "CLAIMED",
+      "state": "DONE",
       "priority": "P1",
-      "claimed_by": "chatgpt-kwh-kernel-irq",
-      "claim_expires_at": "2026-10-16T04:00:00Z",
-      "updated_at": "2026-10-16T01:32:00Z",
-      "next_action": "Durable claim remains with chatgpt-kwh-kernel-irq through 2026-10-16T04:00:00Z; expired execution lease was released. Same owner must reacquire a fresh lease before further mutation.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T22:03:19.982014Z",
+      "next_action": "Reconciled from canonical terminal record: exact PR #432 merged at 8ae09da1eaa2814fa76fa736655c1030dfef181e from head 90d23b6ab8f9815241014f3e90ab91b5da8591f8. No active execution lease or submitted GitHub review record was observed in this reconciliation.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/230"
@@ -10141,5 +10141,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T22:02:49.861050Z"
+  "updated_at": "2026-10-21T22:03:19.982062Z"
 }
