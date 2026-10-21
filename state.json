@@ -1950,15 +1950,20 @@
       "id": "KWH-ECU-HEADLIGHTS",
       "project_id": "kludge-wagon-haywire",
       "title": "ECU: headlights in player C",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T17:33:20.400013Z",
-      "updated_at": "2026-10-21T15:33:31.095087Z",
-      "next_action": "Prepare HEADLIGHTS-only realC/WASM/worker/actuator/telemetry source with precise neighboring/gate preservation;independent integration acceptance held.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T15:53:47.928420Z",
+      "next_action": "Coordinator binds actual qualified distinct C/WASM/worker/Godot/shared-UI reviewer to f62bf5accb3025ebb8b7ee4457bfb9fb0fbd7916 via KWH-ECU-HEADLIGHTS-REVIEW-R1. Reconcile approved current compiler/bootstrap/ECU/bridge source and other owners;then verify the exact composed game/export on supported platforms,cold bootstrap/live tick delivery/visible lamp fix/fallback/practice/save/difficulty/editor and episode/story/RESTORED gates. Current evidence is component-level,not a newly exported live game. Existing issue28 stays open for remaining ECU lanes.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/28"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/569",
+      "dispatch_allowed": false,
+      "candidate_revision": "f62bf5accb3025ebb8b7ee4457bfb9fb0fbd7916",
+      "blocker_issue": "https://github.com/tsrnc2/kitt/issues/366",
+      "author_completion": "DONE",
+      "review_task": "KWH-ECU-HEADLIGHTS-REVIEW-R1"
     },
     {
       "id": "KWH-ECU-WIPERS",
@@ -7019,6 +7024,21 @@
       "candidate_pr": "https://github.com/tsrnc2/fly-by-wire-c/pull/570",
       "candidate_revision": "185958d52eaad59c4801f8ecba605fae514ac553",
       "dispatch_allowed": false
+    },
+    {
+      "id": "KWH-ECU-HEADLIGHTS-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified exact-source HEADLIGHTS C/WASM/worker/Godot/UI review",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "dispatch_allowed": false,
+      "dependencies": [],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/569",
+      "candidate_revision": "f62bf5accb3025ebb8b7ee4457bfb9fb0fbd7916",
+      "updated_at": "2026-10-21T15:53:47.928503Z",
+      "next_action": "Bind actual qualified distinct reviewer;immutable artifact review has no blocked-parent dependency."
     }
   ],
   "blockers": [
@@ -8255,5 +8275,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T15:52:16.546084Z"
+  "updated_at": "2026-10-21T15:53:47.928509Z"
 }
