@@ -1,0 +1,9 @@
+{
+  "task_id": "KITT-20261020-GUARDIAN-MATRIX-GAP-RECOVERY-REVIEW",
+  "project_id": "kitt",
+  "agent_id": "codex-waypoint-guardian-tech-review-20261021",
+  "lock_token": "ffc076b34251c80bef82d32d0889100fede8897fd7ee87f4",
+  "acquired_at": "2026-10-21T03:26:58.277791Z",
+  "expires_at": "2026-10-21T04:26:58.277805Z",
+  "run_ref": "owner-scoped-guardian-technical-review-20261021"
+}
