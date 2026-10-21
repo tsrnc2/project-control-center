@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-OUTLINE-HELI",
+  "agent_id": "codex-kwh-helicopter-outline",
+  "lock_token": "f532ab11-49d5-4f47-9a10-f35ac0972325",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T03:27:46.843048Z",
+  "heartbeat_at": "2026-10-21T03:27:46.843048Z",
+  "expires_at": "2026-10-21T04:57:46.843077Z",
+  "run_ref": "Canonical private story-outline preparation; no runtime or canon acceptance"
+}
