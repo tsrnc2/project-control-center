@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-BLD-CHIMNEYS",
+  "agent_id": "codex-cedar-persistent",
+  "lock_token": "306fdb60feaf000c7a2a33717e75b43fa83883fa273178c1",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T02:14:36.604729Z",
+  "heartbeat_at": "2026-10-21T02:14:36.604767Z",
+  "expires_at": "2026-10-21T04:14:36.604773Z",
+  "run_ref": "Issue31 isolated native chimney-kit verification; no other owner source edits"
+}
