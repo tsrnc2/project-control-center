@@ -1678,8 +1678,8 @@
       "priority": "P2",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-21T17:54:44.528327Z",
-      "next_action": "Author correction RUNNING under KWH-VEH-MOTORCYCLE-GEOMETRY-R1;original verification staysBLOCKED on source correction and qualified source/art acceptance. Preserve original defect/evidence;no integration authority.",
+      "updated_at": "2026-10-21T18:14:43.669278Z",
+      "next_action": "Bounded author correction published https://github.com/tsrnc2/fly-by-wire-c/pull/608; review https://github.com/tsrnc2/kitt/issues/437. Original verification remainsBLOCKED: residualLODwarning,qualifiedsource/art/rebuild/integration acceptance pending. Do not close issue388.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/84",
@@ -1689,7 +1689,9 @@
       "blocker_ref": "https://github.com/tsrnc2/kitt/issues/388",
       "technical_verdict": "CHANGES_REQUIRED",
       "independent_acceptance": false,
-      "repair_task_id": "KWH-VEH-MOTORCYCLE-GEOMETRY-R1"
+      "repair_task_id": "KWH-VEH-MOTORCYCLE-GEOMETRY-R1",
+      "repair_candidate_revision": "cd1da030458628eab05cf1da3b4138fb82d30df2",
+      "repair_review_task_id": "KWH-VEH-MOTORCYCLE-GEOMETRY-R1-REVIEW-R1"
     },
     {
       "id": "KWH-VEH-HELICOPTER",
@@ -7538,14 +7540,18 @@
       "id": "KWH-VEH-MOTORCYCLE-GEOMETRY-R1",
       "project_id": "kludge-wagon-haywire",
       "title": "Correct Smugcycle exact-degenerate Fender triangles and inspect ground contact",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "codex-caretaker-motorcycle-geometry",
-      "claim_expires_at": "2026-10-21T19:54:44.527694Z",
-      "updated_at": "2026-10-21T18:10:40.977493Z",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T18:14:43.669257Z",
       "owner_agent": null,
       "source_ref": "https://github.com/tsrnc2/kitt/issues/388",
-      "next_action": "Smugcycle independent source52checks pass;native four-variant import/render underway;Godot/source degeneracy distinction retained. Parent remainsBLOCKED;source/art qualification and integration held."
+      "next_action": "Accountable coordinator binds actual qualified independent distinct-family native/source reviewer and art authority; dispatch disabled until eligibility/independence proven. Residual LOD warning, tank profile and full original-environment Blender rebuild/integration remain held.",
+      "artifacts": [
+        "https://github.com/tsrnc2/fly-by-wire-c/pull/608",
+        "https://github.com/tsrnc2/kitt/issues/437"
+      ]
     },
     {
       "id": "KWH-KITTY-CONSOLE-REVIEW-R1",
@@ -8872,5 +8878,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T18:10:40.977493Z"
+  "updated_at": "2026-10-21T18:14:43.669285Z"
 }
