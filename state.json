@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T17:02:45.623208Z",
+    "generated_at": "2026-10-21T17:02:56.201571Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -2014,16 +2014,24 @@
       "id": "KWH-ECU-4WD-TRANSFER",
       "project_id": "kludge-wagon-haywire",
       "title": "ECU: 4WD transfer in player C",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-waypoint-transfer-ecu-20261021",
-      "claim_expires_at": "2026-10-21T18:39:47.681509Z",
-      "updated_at": "2026-10-21T16:39:47.681493Z",
-      "next_action": "Acceptance: System driven by C; buggy starter + fixed ref + test; telemetry shown",
-      "owner_agent": "codex-waypoint-transfer-ecu-20261021",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T17:02:56.201571Z",
+      "next_action": "Coordinator establishes actual qualified independent source/C/WASM/Godot/shared-UI reviewer for exact 8d6174cbe5190e52825628845eb5f92edb9af41f via KWH-ECU-4WD-TRANSFER-REVIEW-R1. Track separate original-source Level3 stale fault-badge correction; reconcile accepted current compiler/ECU/bridge/other-controller composition, then verify exact exported game, compiler bootstrap, practice/storage/editor/fallback and supported platforms. Keep issue28 open; no automatic RESTORED/story/qualification/deployment.",
+      "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/28",
-      "claimed_at": "2026-10-21T16:39:47.681493Z"
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/593",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/417",
+      "author_completion": "DONE",
+      "independent_acceptance": false,
+      "dispatch_allowed": false,
+      "game_export": false,
+      "deployment": false
     },
     {
       "id": "KWH-ECU-RADIO",
@@ -7320,6 +7328,19 @@
       "updated_at": "2026-10-21T17:02:23.536321Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-FRESH-WEB-BUILD-20261021.json",
       "result_summary": null
+    },
+    {
+      "id": "KWH-ECU-4WD-TRANSFER-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified independent exact-source review of 4WD transfer C component candidate",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "owner_agent": null,
+      "updated_at": "2026-10-21T17:02:56.201571Z",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/593",
+      "dispatch_allowed": false,
+      "next_action": "Authorized coordinator records actual qualified independent reviewer binding and resolves dispatch hold before claim; source acceptance and composed-game integration remain separate."
     }
   ],
   "blockers": [
@@ -8576,5 +8597,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T17:02:45.623203Z"
+  "updated_at": "2026-10-21T17:02:56.201571Z"
 }
