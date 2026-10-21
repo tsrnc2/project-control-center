@@ -3411,15 +3411,16 @@
       "id": "KWH-DMG-FUZZ",
       "project_id": "kludge-wagon-haywire",
       "title": "Damage: seeded fuzz inputs into player C (ECU worker)",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "codex-waypoint-damage-fuzz",
-      "claim_expires_at": "2026-10-21T17:57:57.885214Z",
-      "updated_at": "2026-10-21T15:57:57.885203Z",
-      "next_action": "PartialPR571 published; source-only composition on released exactHEADLIGHTSPR569, review/acceptance held.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T16:55:04.626798Z",
+      "next_action": "Author source phase complete;qualified exact-composed review and supported game/export integration pending.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/177"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/590",
+      "blocker_issue": "https://github.com/tsrnc2/kitt/issues/398"
     },
     {
       "id": "KWH-DMG-TELEMETRY",
@@ -7238,6 +7239,17 @@
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/587",
       "dispatch_allowed": false,
       "next_action": "Authorized coordinator establishes genuine exact-domain reviewer qualification/independence and resolves dispatch hold before claim. Source issue85 stays open pending actual acceptance."
+    },
+    {
+      "id": "KWH-DMG-FUZZ-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified independent review of composed damage-fuzz source",
+      "state": "BLOCKED",
+      "priority": "P1",
+      "claimed_by": null,
+      "updated_at": "2026-10-21T16:55:04.626798Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/issues/398",
+      "next_action": "Bind eligible distinct reviewer to exact artifact;no self-qualification or inherited precursor acceptance."
     }
   ],
   "blockers": [
@@ -8481,5 +8493,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T16:54:58.702239Z"
+  "updated_at": "2026-10-21T16:55:04.626798Z"
 }
