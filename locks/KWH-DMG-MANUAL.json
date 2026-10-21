@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-DMG-MANUAL",
+  "agent_id": "codex-damage-manual",
+  "lock_token": "ffe2dd14046e85842f4c5840af7fe7ad51332e3689e85937",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T03:28:36.522086Z",
+  "heartbeat_at": "2026-10-21T03:28:36.522086Z",
+  "expires_at": "2026-10-21T04:58:36.522086Z"
+}
