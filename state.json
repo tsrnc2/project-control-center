@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T03:21:01.284274Z",
+    "generated_at": "2026-10-21T03:21:18.190542Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -2557,15 +2557,15 @@
       "id": "KWH-MKT-CONTENT-SURVEY",
       "project_id": "kludge-wagon-haywire",
       "title": "Steam mature content survey answers draft",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "codex-kwh-content-survey-20261021",
-      "claim_expires_at": "2026-10-21T05:16:14.922874Z",
-      "updated_at": "2026-10-21T03:16:22.586067Z",
-      "next_action": "Prepare evidence-linked private survey draft for Jobo; no Steamworks access/submission, rating or full release-content certification.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T03:21:18.190502Z",
+      "next_action": "Jobo reviews the private draft against the complete submitted build and current Steamworks form, resolves conditional answers and asset/audio provenance, then enters the final survey himself. Draft authoring completion is not submission, a rating, rights clearance or release acceptance.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/123"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/521"
     },
     {
       "id": "KWH-MKT-CAPSULE-HEADER",
@@ -7771,5 +7771,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T03:21:01.284270Z"
+  "updated_at": "2026-10-21T03:21:18.190533Z"
 }
