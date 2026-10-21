@@ -1066,15 +1066,18 @@
       "id": "KWH-BLD-YARDS",
       "project_id": "kludge-wagon-haywire",
       "title": "Building detail kit: yards (dirt, junk, gardens, wells)",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T15:35:08.585907Z",
-      "updated_at": "2026-10-21T13:35:20.683970Z",
-      "next_action": "Verify exact existing native yard-kit and publish actual render evidence; no qualified acceptance.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T13:48:01.998026Z",
+      "next_action": "Qualified exact-source review KWH-BLD-YARDS-REVIEW-R1 and approved PR499/PR511/PR516 and concurrent door/fencecomposition/integration/export acceptance remain pending;issue46 stays open.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/46"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/544",
+      "candidate_revision": "6014431441d9cc0b0a97b6d1ebe1b862e95f5c81",
+      "completion_scope": "AUTHOR_CANDIDATE_AND_NATIVE_EVIDENCE",
+      "independent_acceptance": false
     },
     {
       "id": "KWH-BLD-ORNAMENTS",
@@ -6729,6 +6732,23 @@
       "source_ref": "https://github.com/tsrnc2/kitt/issues/339",
       "updated_at": "2026-10-21T13:47:41.985704Z",
       "next_action": "Accountable coordinator binds actual qualified distinct reviewer; keep dispatch disabled until established."
+    },
+    {
+      "id": "KWH-BLD-YARDS-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified exact-source review of garden/well yard kit and placement",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "dispatch_allowed": false,
+      "dependencies": [
+        "KWH-BLD-YARDS"
+      ],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/544",
+      "candidate_revision": "6014431441d9cc0b0a97b6d1ebe1b862e95f5c81",
+      "updated_at": "2026-10-21T13:48:01.998180Z",
+      "next_action": "Bind actual qualified distinct reviewer before enabling dispatch/claiming;author cannot self-accept."
     }
   ],
   "blockers": [
@@ -7946,5 +7966,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T13:47:28.509472Z"
+  "updated_at": "2026-10-21T13:48:01.998193Z"
 }
