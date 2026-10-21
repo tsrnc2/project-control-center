@@ -3645,16 +3645,18 @@
       "id": "KWH-DMG-COLLISION",
       "project_id": "kludge-wagon-haywire",
       "title": "Damage: collision massive impact damage + Kitty/robot voice",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "codex-waypoint-damage-collision",
-      "claim_expires_at": "2026-10-21T21:33:26.516606Z",
-      "updated_at": "2026-10-21T19:33:26.516587Z",
-      "next_action": "Disjoint collision-to-model producer/scripted-impact evidence only; preserve live TERRAIN world/shell ownership and full audio/game/review gates.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T19:43:25.530968Z",
+      "next_action": "Collision author source complete;qualified T7 review and TERRAIN-cleared world/bootstrap/game integration pending.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/184",
-      "claim_heartbeat_at": "2026-10-21T19:33:26.516587Z"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/625",
+      "claim_heartbeat_at": "2026-10-21T19:33:26.516587Z",
+      "publication_head": "677eb60b5c489efbb6900e21f2509ddc587e9fcf",
+      "blocker_issue": "https://github.com/tsrnc2/kitt/issues/459"
     },
     {
       "id": "KWH-DMG-TRAILS-TEST",
@@ -7976,6 +7978,17 @@
       "candidate_revision": "5c113a911b109543d15a46a8b38d33e47e0fcde4",
       "dispatch_allowed": false,
       "next_action": "Bind qualified independent different-family T7 exact-head review for 5c113a911b109543d15a46a8b38d33e47e0fcde4 via https://github.com/tsrnc2/kitt/issues/458. Reproduce source tests; do not infer acceptance or begin relocation-target-resolution in this slice."
+    },
+    {
+      "id": "KWH-DMG-COLLISION-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified T7 distinct-family review of collision source",
+      "state": "BLOCKED",
+      "priority": "P1",
+      "claimed_by": null,
+      "updated_at": "2026-10-21T19:43:25.530968Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/issues/459",
+      "next_action": "Bind eligible distinct reviewer to exact artifact;no self-qualification or inherited precursor acceptance."
     }
   ],
   "blockers": [
@@ -9232,5 +9245,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:39:43.986037Z"
+  "updated_at": "2026-10-21T19:43:25.530968Z"
 }
