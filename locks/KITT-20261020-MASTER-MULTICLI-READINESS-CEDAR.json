@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kitt",
+  "task_id": "KITT-20261020-MASTER-MULTICLI-READINESS-CEDAR",
+  "agent_id": "codex-long-term-sequential",
+  "lock_token": "bd079a2c5bb64c678fd236fc3f0f01a80312d3f9818bd005",
+  "acquired_at": "2026-10-21T01:42:40.626083Z",
+  "heartbeat_at": "2026-10-21T01:42:40.626083Z",
+  "expires_at": "2026-10-21T02:12:40.626113Z",
+  "run_ref": "master-worker-reconcile-20261021"
+}
