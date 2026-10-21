@@ -7872,15 +7872,16 @@
       "id": "KITT-20261021-BLOCKER-REPORT-MEMBERSHIP",
       "project_id": "kitt",
       "title": "Verify owner-requested blocker report membership",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P1",
-      "claimed_by": "codex-standing-blocker-report",
+      "claimed_by": null,
       "owner_agent": null,
       "source_ref": "https://github.com/tsrnc2/kitt/issues/377",
-      "updated_at": "2026-10-21T19:24:12.204988+00:00",
+      "updated_at": "2026-10-21T19:29:29.969521+00:00",
       "claimed_at": "2026-10-21T19:23:59.911171+00:00",
-      "claim_expires_at": "2026-10-21T20:53:59.911171+00:00",
-      "next_action": "Verify own local report reader against current membership and publish sanitized evidence; Matrix issue377 remains held."
+      "claim_expires_at": null,
+      "next_action": "Report-author evidence https://github.com/tsrnc2/kitt/pull/451 ready; Matrix delivery0 pending existing room-device verification issue377. No task acceptance or engine adoption inferred.",
+      "claim_heartbeat_at": null
     },
     {
       "id": "LRP-20261012-RE-RELOCATION-ENTRY-PARSE",
@@ -9149,5 +9150,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:28:47.177351Z"
+  "updated_at": "2026-10-21T19:29:29.969565+00:00"
 }
