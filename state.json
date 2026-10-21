@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T18:16:22.265814Z",
+    "generated_at": "2026-10-21T18:19:46.122147Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -7642,6 +7642,20 @@
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/609",
       "dispatch_allowed": false,
       "next_action": "Authorized coordinator binds genuine independent qualified C/navigation reviewer before claim/dispatch; no automatic original GPS/game/platform/role acceptance."
+    },
+    {
+      "id": "KWH-GPS-HARNESS-EVIDENCE-RECONCILE",
+      "project_id": "kludge-wagon-haywire",
+      "title": "GPS exact repository ECU_ONLY harness execution evidence",
+      "state": "RUNNING",
+      "priority": "P1",
+      "claimed_by": "codex-gps-harness-evidence-20261021",
+      "owner_agent": "codex-gps-harness-evidence-20261021",
+      "claimed_at": "2026-10-21T18:19:46.122147Z",
+      "claim_expires_at": "2026-10-21T20:19:46.122169Z",
+      "updated_at": "2026-10-21T18:19:46.122147Z",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/64",
+      "next_action": "Run exact unmodified historical/current harnesses; publish factual execution evidence, preserve original task owner and review/platform gates."
     }
   ],
   "blockers": [
@@ -8898,5 +8912,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T18:17:46.653726Z"
+  "updated_at": "2026-10-21T18:19:46.122147Z"
 }
