@@ -1,9 +1,0 @@
-{
-  "task_id": "KWH-FRESH-WEB-BUILD-20261021",
-  "project_id": "kludge-wagon-haywire",
-  "agent_id": "codex-waypoint-fresh-build",
-  "lock_token": "f8026723d5a983cecc66e5be2afecf0af7f3b75f4826a63e",
-  "acquired_at": "2026-10-21T17:02:21.358509Z",
-  "expires_at": "2026-10-21T17:12:21.358524+00:00",
-  "run_ref": "fbw-fresh-build-20261021"
-}
