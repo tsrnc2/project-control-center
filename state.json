@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T22:00:37.052036Z",
+    "generated_at": "2026-10-21T22:02:49.861055Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -5060,15 +5060,16 @@
       "id": "KWH-KITTY-CONTEXT-HINTS",
       "project_id": "kludge-wagon-haywire",
       "title": "Kitty: context-aware tiered hints from real game state",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "codex-kitty-context-20261021",
-      "claim_expires_at": "2026-10-21T23:59:11.490289Z",
-      "updated_at": "2026-10-21T21:59:16.625488Z",
-      "next_action": "Author pure Kitty context-aware hint resolver; preserve Kitty/story/UI owners and independent review gates.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T22:02:49.861015Z",
+      "next_action": "Author candidate https://github.com/tsrnc2/fly-by-wire-c/pull/635 has fixture and Kitty regression evidence; qualified KWH-KITTY-CONTEXT-HINTS-REVIEW-R1 and Kitty/story/UI composition remain required. https://github.com/tsrnc2/kitt/issues/476",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/294"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/294",
+      "blocked_at": "2026-10-21T22:02:49.861038Z"
     },
     {
       "id": "KWH-BUG-COVERAGE",
@@ -10140,5 +10141,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T22:00:54.123048Z"
+  "updated_at": "2026-10-21T22:02:49.861050Z"
 }
