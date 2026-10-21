@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-EP02-STILLS-01",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "chatgpt-fbw-ep02-google-render-20261021",
+  "lock_token": "fbw-ep02-20261021-220041-b7a894ee62d1",
+  "acquired_at": "2026-10-21T22:00:41Z",
+  "heartbeat_at": "2026-10-21T22:00:41Z",
+  "expires_at": "2026-10-22T00:00:41Z",
+  "run_ref": "PCC-103-owner-delegated-google-rendering-only-no-repository-integration"
+}
