@@ -3538,8 +3538,8 @@
       "priority": "P1",
       "claimed_by": "codex-caretaker-residential-types",
       "claim_expires_at": "2026-10-21T16:53:13.449640Z",
-      "updated_at": "2026-10-21T14:53:18.887626Z",
-      "next_action": "Author six placeable residential exterior samples,coarse collision,threegeometrytiers and native sheet;all art/world/platform/release gates remain.",
+      "updated_at": "2026-10-21T15:26:41.793522Z",
+      "next_action": "Six original residential types native345/0;verify47newpaths,43filedeterministicgeneration,negativecontrols and freshreplay before publication. Art/world/platform/releasegates held.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/190"
@@ -8102,5 +8102,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T15:23:11.947530Z"
+  "updated_at": "2026-10-21T15:26:41.793522Z"
 }
