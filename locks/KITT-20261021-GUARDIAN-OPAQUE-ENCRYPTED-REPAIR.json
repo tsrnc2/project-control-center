@@ -1,0 +1,9 @@
+{
+  "task_id": "KITT-20261021-GUARDIAN-OPAQUE-ENCRYPTED-REPAIR",
+  "project_id": "kitt",
+  "agent_id": "codex-waypoint-guardian-opaque-repair-20261021",
+  "lock_token": "be775cec1a2333a6d62ef76c946cd40add2482351d43b9be",
+  "acquired_at": "2026-10-21T16:11:05.739258Z",
+  "expires_at": "2026-10-21T18:11:05.739275Z",
+  "run_ref": "guardian-opaque-source-repair-20261021"
+}

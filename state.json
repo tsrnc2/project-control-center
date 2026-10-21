@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T16:08:46.277687Z",
+    "generated_at": "2026-10-21T16:11:05.739258Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -7068,6 +7068,19 @@
       "source_ref": "https://github.com/tsrnc2/kitt/issues/374",
       "updated_at": "2026-10-21T16:04:49.284356Z",
       "next_action": "Bind qualified distinct snapshot-cache reviewer;keep dispatch disabled. Plan image reduction and actual VM/platform acceptance separately under bounded ownership."
+    },
+    {
+      "id": "KITT-20261021-GUARDIAN-OPAQUE-ENCRYPTED-REPAIR",
+      "project_id": "kitt",
+      "title": "Source-only opaque encrypted history guard correction",
+      "state": "RUNNING",
+      "claimed_by": "codex-waypoint-guardian-opaque-repair-20261021",
+      "claimed_at": "2026-10-21T16:11:05.739258Z",
+      "claim_expires_at": "2026-10-21T18:11:05.739275Z",
+      "owner_agent": "codex-waypoint-guardian-opaque-repair-20261021",
+      "updated_at": "2026-10-21T16:11:05.739258Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/issues/233",
+      "independent_acceptance": false
     }
   ],
   "blockers": [
@@ -8304,5 +8317,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T16:10:53.181696Z"
+  "updated_at": "2026-10-21T16:11:05.739258Z"
 }
