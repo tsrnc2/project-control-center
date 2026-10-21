@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-MKT-SOCIAL-REDDIT",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-kwh-social-x-20261021",
+  "lock_token": "8a8e70d3aa8b879b1f89f9d0e16b3ea92405b070199ff227",
+  "acquired_at": "2026-10-21T03:23:03.560611Z",
+  "heartbeat_at": "2026-10-21T03:23:03.560611Z",
+  "expires_at": "2026-10-21T05:22:52.370150Z",
+  "run_ref": "social-reddit-draft-20261021"
+}
