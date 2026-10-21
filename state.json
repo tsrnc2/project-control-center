@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T14:43:30.542990Z",
+    "generated_at": "2026-10-21T14:45:21.462718Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6818,6 +6818,16 @@
       "candidate_pr": "https://github.com/tsrnc2/fly-by-wire-c/pull/553",
       "candidate_revision": "b0fc36409c9b2cc49bba2e82ca9c425cb1a87941",
       "dispatch_allowed": false
+    },
+    {
+      "id": "KWH-CLUE-SUPER-SPEND-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Correct super clue world charge debit and reload",
+      "state": "RUNNING",
+      "claimed_by": "codex-sr-delegated-clue-spend-20261021",
+      "claim_expires_at": "2026-10-21T16:45:14.468834Z",
+      "updated_at": "2026-10-21T14:45:21.462696Z",
+      "next_action": "Correct successful world-authoritative super-clue debit and reload persistence;preserve standalone engine,failed spends,topbox and other source owners."
     }
   ],
   "blockers": [
@@ -8035,5 +8045,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T14:43:30.542986Z"
+  "updated_at": "2026-10-21T14:45:21.462715Z"
 }
