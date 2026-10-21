@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-BLD-UPG-HOUSE-B",
+  "agent_id": "codex-caretaker-house-b-upgrade",
+  "lock_token": "47cdef80d7690e43b143e39457328dcdef526c228d33e253",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T19:04:32.489969Z",
+  "heartbeat_at": "2026-10-21T19:04:32.489991Z",
+  "expires_at": "2026-10-21T21:04:32.489995Z",
+  "run_ref": "Original issue56 bounded HouseB/source-dresser/native candidate;Jobo finalart/worldapproval held"
+}
