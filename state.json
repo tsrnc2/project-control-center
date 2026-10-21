@@ -2026,8 +2026,8 @@
       "priority": "P2",
       "claimed_by": "codex-caretaker-radio-ecu",
       "claim_expires_at": "2026-10-21T18:24:16.090658Z",
-      "updated_at": "2026-10-21T16:24:21.279085Z",
-      "next_action": "Prepare real Radio/CB C/WASM station-label path,buggy/reference and verified shared ECU integration;independent review/integration pending.",
+      "updated_at": "2026-10-21T16:38:47.685903Z",
+      "next_action": "Six original residential types native345/0;verify47newpaths,43filedeterministicgeneration,negativecontrols and freshreplay before publication. Art/world/platform/releasegates held.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/28"
@@ -8457,5 +8457,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T16:35:57.088646+00:00"
+  "updated_at": "2026-10-21T16:38:47.685903Z"
 }
