@@ -2423,15 +2423,20 @@
       "id": "KWH-PH-BODIE-STAMP-MILL",
       "project_id": "kludge-wagon-haywire",
       "title": "Replace placeholder model: bodie_stamp_mill",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P3",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T21:50:20.417330Z",
-      "updated_at": "2026-10-21T20:09:57.376123Z",
-      "next_action": "ActualusedStampGLB toon/support author proposal;preserve originalgeometry/currentbounds/othermodels and separatePR624;qualifiedreview/Jobo/world acceptance held.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T21:55:44.975518Z",
+      "next_action": "Qualified review/Blender/current-world composition required.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/8"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/633",
+      "dispatch_allowed": false,
+      "candidate_revision": "2aefafd16ab2acc3e35acec32840e57dc6ec0325",
+      "blocker_issue": "https://github.com/tsrnc2/kitt/issues/473",
+      "author_completion": "PARTIAL",
+      "review_task": "KWH-PH-BODIE-STAMP-MILL-REVIEW-R1"
     },
     {
       "id": "KWH-PH-PROP-FENCE-4M",
@@ -8158,6 +8163,21 @@
       "source_ref": "https://github.com/tsrnc2/kitt/commit/7b419529d6cb819087d3de0cbe6e7ef0963d703e",
       "updated_at": "2026-10-21T21:55:33.478878Z",
       "next_action": "Bind qualified different-family T7 exact-head reviewer for LRP PR #367."
+    },
+    {
+      "id": "KWH-PH-BODIE-STAMP-MILL-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Review Bodie stamp mill toon candidate",
+      "state": "READY",
+      "priority": "P3",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "dispatch_allowed": false,
+      "dependencies": [],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/633",
+      "candidate_revision": "2aefafd16ab2acc3e35acec32840e57dc6ec0325",
+      "updated_at": "2026-10-21T21:55:44.975608Z",
+      "next_action": "Qualified distinct reviewer/Jobo authority required before dispatch."
     }
   ],
   "blockers": [
@@ -9421,5 +9441,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T21:55:33.478878Z"
+  "updated_at": "2026-10-21T21:55:44.975613Z"
 }
