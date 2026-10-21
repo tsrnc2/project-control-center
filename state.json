@@ -8903,17 +8903,18 @@
       "id": "KITT-20261021-SF-CUTOVER-001",
       "project_id": "kitt",
       "title": "Repair replacement cutover admission drift",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P1",
-      "claimed_by": "codex-standing-service-cutover",
+      "claimed_by": null,
       "owner_agent": null,
       "source_ref": "https://github.com/tsrnc2/kitt/pull/132",
       "dispatch_allowed": false,
       "execution_mode": "OWNER_SUPERVISED_SOURCE_PREPARATION_ONLY",
-      "updated_at": "2026-10-21T22:16:30.490256+00:00",
+      "updated_at": "2026-10-21T22:19:27.101840+00:00",
       "claimed_at": "2026-10-21T22:16:18.485836+00:00",
-      "claim_expires_at": "2026-10-21T23:46:18.485836+00:00",
-      "next_action": "Repair only SF-CUTOVER-001 against exact PR477; independent review and all qualification gates remain held."
+      "claim_expires_at": null,
+      "next_action": "Draft author phase complete; qualified independent exact-head review and deliberate stack composition required.",
+      "claim_heartbeat_at": null
     }
   ],
   "blockers": [
@@ -10177,5 +10178,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T22:16:30.490285+00:00"
+  "updated_at": "2026-10-21T22:19:27.101860+00:00"
 }
