@@ -1,0 +1,9 @@
+{
+  "task_id": "KWH-SR404-BADGE-POS-REVIEW-R1",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-waypoint-badge-technical-review-20261021",
+  "lock_token": "9136689af55d6d9f8740adbb9c87fb6d5bc25cfccce3399c",
+  "acquired_at": "2026-10-21T01:29:06.696183Z",
+  "expires_at": "2026-10-21T03:29:06.696200Z",
+  "run_ref": "owner-scoped-pr500-technical-review-20261021"
+}
