@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T01:32:36.359629Z",
+    "generated_at": "2026-10-21T01:34:13.847455+00:00",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6364,6 +6364,23 @@
       "claim_heartbeat_at": null,
       "evidence_ref": "https://github.com/tsrnc2/kitt/blob/17acd39158dd480d7e4cb7e40c59c58aeb146436/reports/codex/pity-backup-blocker-reconciliation-20261021.json",
       "next_action": "Owner selects historical v21 reproduction versus a reviewed Godot4 conversion through existing training plan PR4/issue283. Establish compatible canonical trainer/evaluator source, reviewed checkpoint persistence, authorized host/operator, disk alert and resource/cost limits before any restore/training. GitHub archive access remains unavailable but is no longer the only route to the preserved checkpoint. Backup verification does not prove a runtime restore or trainer operation."
+    },
+    {
+      "id": "KITT-20261021-LRP-INVENTORY-ID-REPAIR",
+      "project_id": "kitt",
+      "title": "Repair KITT LRP inventory lookup for listed colon/versioned role IDs",
+      "state": "BLOCKED",
+      "priority": "P1",
+      "updated_at": "2026-10-21T01:34:13.847455+00:00",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "canonical_task_blob": "1ffcaf485e2cc6c871073f0359506467a8b5a001",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-20261021-LRP-INVENTORY-ID-REPAIR.json",
+      "evidence_ref": "https://github.com/tsrnc2/kitt/pull/298",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/299",
+      "result_summary": "Tested isolated adapter-ID correction https://github.com/tsrnc2/kitt/pull/298 source 2683211959542b78ec809c61eeb22c11c36df378. Original8tests pass; unchanged new suite gives159baseline failures; all16candidate tests pass. Actual pinned inventory getter baseline0/154 versus candidate154/154; index unchanged. Live installed getter remains unpatched pending review/source-home/package/updater gates.",
+      "next_action": "Eligible independent exact-source reviewer and accountable maintainer resolve canonical source-home/reproducible packaging for the preserved adapter, then use authorized updater and verify live inventory-list/get roundtrip without authority/status promotion.",
+      "independent_acceptance": false
     }
   ],
   "blockers": [
@@ -6638,6 +6655,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-21T01:34:13.847455+00:00",
+      "type": "SOURCE_CORRECTION_REVIEW_GATE",
+      "project_id": "kitt",
+      "task_id": "KITT-20261021-LRP-INVENTORY-ID-REPAIR",
+      "summary": "LRP inventory-ID candidate passes16tests/154actual entry probes; exact-source review/source packaging/updater adoption remain. Installed tool unchanged."
+    },
     {
       "at": "2026-10-21T01:20:03.593940Z",
       "type": "TASK_BLOCKED",
@@ -7494,5 +7518,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T01:33:44.974230Z"
+  "updated_at": "2026-10-21T01:34:13.847455+00:00"
 }
