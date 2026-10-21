@@ -3402,8 +3402,8 @@
       "state": "RUNNING",
       "priority": "P2",
       "claimed_by": "codex-damage-manual",
-      "claim_expires_at": "2026-10-21T15:03:59.641394Z",
-      "updated_at": "2026-10-21T13:33:59.641394Z",
+      "claim_expires_at": "2026-10-21T17:09:53.864204Z",
+      "updated_at": "2026-10-21T15:40:20.445925Z",
       "next_action": "Author source-grounded defensive-programming Manual lesson; preserve existing unlock/skin/damage behavior and qualified review gate.",
       "owner_agent": null,
       "human_owner": "Jobo",
@@ -8161,5 +8161,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T15:39:46.072617+00:00"
+  "updated_at": "2026-10-21T15:40:20.445925Z"
 }
