@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-21T15:41:51.322994+00:00",
+  "kind": "OWN_IDLE_REVIEW_LEASE_RECONCILED",
+  "task_id": "KITT-20261020-GUARDIAN-MATRIX-GAP-RECOVERY-REVIEW",
+  "project_id": "kitt",
+  "actor": "codex-waypoint-guardian-tech-review-20261021",
+  "previous_expiry": "2026-10-21T14:22:48.508653+00:00",
+  "new_expiry": "2026-10-21T16:21:51.323008+00:00",
+  "other_ownership_changed": false
+}

@@ -4,6 +4,7 @@
   "agent_id": "codex-waypoint-guardian-tech-review-20261021",
   "lock_token": "3d8aa2695d4d3ec7e18f72eb14ffd7626f2342767a6f5315",
   "acquired_at": "2026-10-21T13:37:48.508631+00:00",
-  "expires_at": "2026-10-21T14:22:48.508653+00:00",
-  "run_ref": "guardian-technical-review-resumed-20261021"
+  "expires_at": "2026-10-21T16:21:51.323008+00:00",
+  "run_ref": "guardian-technical-review-resumed-20261021",
+  "heartbeat_at": "2026-10-21T15:41:51.322994+00:00"
 }
