@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T16:15:57.186548Z",
+    "generated_at": "2026-10-21T16:16:23.371815Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -3645,15 +3645,19 @@
       "id": "KWH-BLD-TEST",
       "project_id": "kludge-wagon-haywire",
       "title": "Buildings: variety system automated tests",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-building-tests-01a15507",
-      "claim_expires_at": "2026-10-21T18:10:47.090871Z",
-      "updated_at": "2026-10-21T16:10:53.181677Z",
-      "next_action": "Prepare current-main native dresser regression fixture and evidence; preserve other owners and all review gates.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T16:16:23.371747Z",
+      "next_action": "Accountable coordinator binds qualified distinct test/oracle reviewer;keep dispatch disabled until eligibility and independence are established. Coordinate geometry correction with existing transform/boardwalk owners;complete remaining original acceptance on accepted source.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/194"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/580",
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "author_phase_state": "COUNTEREXAMPLE_FIXTURE_DONE",
+      "result_summary": "Native regression author fixture https://github.com/tsrnc2/fly-by-wire-c/pull/580 at 53502cb6581e0b3a990bf2bc62018520743266dd:138checks/132pass/6road-geometry failures preserved;2mutation controls detected;fresh replay identical;runtime unchanged. Broad issue194 remains partial for enum/district/Lowgraphics target coverage and coordinated geometry correction."
     },
     {
       "id": "KWH-AND-UI-PEDALS",
@@ -7100,6 +7104,18 @@
       "next_action": "Prepare source-only asset checks and tracked packaging refusal with baseline/candidate evidence; no export/release/adoption.",
       "claimed_at": "2026-10-21T16:13:10.415144+00:00",
       "claim_expires_at": "2026-10-21T17:43:10.415144+00:00"
+    },
+    {
+      "id": "KWH-BLD-DRESSER-REGRESSION-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Independently review current-main building dresser regression fixture and negative evidence",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "dispatch_allowed": false,
+      "source_ref": "https://github.com/tsrnc2/kitt/issues/384",
+      "updated_at": "2026-10-21T16:16:23.371807Z",
+      "next_action": "Accountable coordinator binds qualified distinct test/oracle reviewer;keep dispatch disabled until eligibility and independence are established."
     }
   ],
   "blockers": [
