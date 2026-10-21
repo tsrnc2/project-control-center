@@ -965,12 +965,12 @@
       "id": "KWH-BLD-ROOFS",
       "project_id": "kludge-wagon-haywire",
       "title": "Building detail kit: roof variants (gable, false front, tin, shingle)",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P2",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Reusable snap-on scene(s) in models/detail; attach via anchors.json; used by town_dresser.gd on >=2 buildings; screenshot",
+      "claimed_by": "codex-roof-kit-01a15507",
+      "claim_expires_at": "2026-10-21T15:37:24.398742Z",
+      "updated_at": "2026-10-21T13:37:29.488000Z",
+      "next_action": "Prepare anchored roof variants author candidate and native evidence; preserve other owners and all review gates.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/40"
@@ -7911,5 +7911,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T13:36:26.937063Z"
+  "updated_at": "2026-10-21T13:37:29.488017Z"
 }
