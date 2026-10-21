@@ -3506,12 +3506,12 @@
       "id": "KWH-BLD-KIT",
       "project_id": "kludge-wagon-haywire",
       "title": "Buildings: expandable kit by style (modern\u2192industrial + Bodie western)",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P1",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T02:18:32Z",
-      "next_action": "READY for any agent. See issue acceptance criteria.",
+      "claimed_by": "codex-cedar-persistent",
+      "claim_expires_at": "2026-10-21T17:16:23.406474Z",
+      "updated_at": "2026-10-21T15:16:33.927212Z",
+      "next_action": "Prepare original six-style modular facade assets and native snap/instancing/visual evidence;qualified source/art/integration acceptance held.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/188"
@@ -8082,5 +8082,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T15:13:04.227423Z"
+  "updated_at": "2026-10-21T15:16:33.927254Z"
 }
