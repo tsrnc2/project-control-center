@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-BLD-TYPES-RES",
+  "agent_id": "codex-caretaker-residential-types",
+  "lock_token": "c9727dbf4dd1b863eadcc6a6dd5d7f5ce4094c6c3760ab99",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T14:53:13.449621Z",
+  "heartbeat_at": "2026-10-21T14:53:13.449636Z",
+  "expires_at": "2026-10-21T16:53:13.449640Z",
+  "run_ref": "Original issue190 six placeable residential types;collision/three geometry tiers/native sheet;author candidate only"
+}
