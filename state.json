@@ -1174,15 +1174,20 @@
       "id": "KWH-BLD-UPG-METHODIST-CHURCH",
       "project_id": "kludge-wagon-haywire",
       "title": "Upgrade Bodie building with detail kit: methodist_church",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P3",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T21:07:16.965086Z",
-      "updated_at": "2026-10-21T19:07:28.545539Z",
-      "next_action": "MethodistChurch original instance paint/sign over unchanged GLB/dresser/anchors;component native verification and private draft;qualification/Jobo/world acceptance held.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T19:17:56.248240Z",
+      "next_action": "Bind actually qualified distinct source/native/art reviewer and Jobo final Methodist church creampaint/sign/dressing approval. Verify all frozen/product identities,church-onlyselector/originalfallback,threeper-instanceGREY overrides/eight original kitmeshes,containedgeometry/oldbounds/collision,groundedpots/current no-anchor noRNG path andallseededlayouts. Reproduce344+fresh344/fullJSON/threePNGidentity and12/1/2 negativefailures;inspect first342-check floating visual andcorrectednative street/close/baseline views. Reconcile accepted-source composition/futureanchoradditions beforefullworld/export/platform/distance/LOD/performance acceptance. Review frozen 7e4bd4c3ed31fcfb1447dd5c06b7a6861bb93567 through KWH-BLD-UPG-METHODIST-CHURCH-REVIEW-R1.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/52"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/621",
+      "dispatch_allowed": false,
+      "candidate_revision": "7e4bd4c3ed31fcfb1447dd5c06b7a6861bb93567",
+      "blocker_issue": "https://github.com/tsrnc2/kitt/issues/450",
+      "author_completion": "DONE",
+      "review_task": "KWH-BLD-UPG-METHODIST-CHURCH-REVIEW-R1"
     },
     {
       "id": "KWH-BLD-UPG-SCHOOLHOUSE",
@@ -7846,6 +7851,21 @@
       "updated_at": "2026-10-21T19:16:43.905926Z",
       "source_ref": "https://github.com/tsrnc2/kitt/pull/334",
       "next_action": "Narrow native diagnostic source candidate only; preserve validator,frozen reference and provenance/compatibility/adoption gates."
+    },
+    {
+      "id": "KWH-BLD-UPG-METHODIST-CHURCH-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified Methodist church local-kit source/native/art review and Jobo approval",
+      "state": "READY",
+      "priority": "P3",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "dispatch_allowed": false,
+      "dependencies": [],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/621",
+      "candidate_revision": "7e4bd4c3ed31fcfb1447dd5c06b7a6861bb93567",
+      "updated_at": "2026-10-21T19:17:56.248318Z",
+      "next_action": "Bind actually qualified distinct source/native/art reviewer and Jobo final Methodist church creampaint/sign/dressing approval. Verify all frozen/product identities,church-onlyselector/originalfallback,threeper-instanceGREY overrides/eight original kitmeshes,containedgeometry/oldbounds/collision,groundedpots/current no-anchor noRNG path andallseededlayouts. Reproduce344+fresh344/fullJSON/threePNGidentity and12/1/2 negativefailures;inspect first342-check floating visual andcorrectednative street/close/baseline views. Reconcile accepted-source composition/futureanchoradditions beforefullworld/export/platform/distance/LOD/performance acceptance. Review frozen 7e4bd4c3ed31fcfb1447dd5c06b7a6861bb93567 through KWH-BLD-UPG-METHODIST-CHURCH-REVIEW-R1."
     }
   ],
   "blockers": [
@@ -9102,5 +9122,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:17:17.883694Z"
+  "updated_at": "2026-10-21T19:17:56.248324Z"
 }
