@@ -4632,12 +4632,12 @@
       "id": "KWH-CHALLENGE",
       "project_id": "kludge-wagon-haywire",
       "title": "Challenge system: opt pars + time trials, medals, leaderboard, replays",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P0",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T04:42:17Z",
-      "next_action": "Gated by all 10 landmarks. READY.",
+      "claimed_by": "codex-cedar-persistent",
+      "claim_expires_at": "2026-10-21T04:06:48.137492Z",
+      "updated_at": "2026-10-21T02:06:56.906274Z",
+      "next_action": "Verify exact existing native challenge-gate-intake and publish actual render evidence; no qualified acceptance.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/289"
@@ -7675,5 +7675,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T02:02:20.196631Z"
+  "updated_at": "2026-10-21T02:06:56.906306Z"
 }
