@@ -3,8 +3,12 @@
   "project_id": "kludge-wagon-haywire",
   "task_id": "KWH-MKT-SCREENSHOTS",
   "agent_id": "codex-standing-store-shots",
-  "lock_token": "fbfe469eb494749a7d6317371416b409cde8105225053fc3",
-  "acquired_at": "2026-10-21T13:30:26.679772+00:00",
-  "expires_at": "2026-10-21T15:00:26.679772+00:00",
-  "run_ref": "KWH-MKT-SCREENSHOTS-20261021"
+  "lock_token": "eec4e2dc813fcf2abd00f3a3c35d9c2771ba510d0102fb1c",
+  "acquired_at": "2026-10-21T15:39:17.111205+00:00",
+  "expires_at": "2026-10-21T17:09:10Z",
+  "run_ref": "KWH-MKT-SCREENSHOTS-resume-after-expiry",
+  "takeover_of": {
+    "agent_id": "codex-standing-store-shots",
+    "expired_at": "2026-10-21T15:00:26.679772+00:00"
+  }
 }
