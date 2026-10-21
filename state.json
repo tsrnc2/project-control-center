@@ -8038,13 +8038,18 @@
       "id": "KWH-ECU-COMPLETED-OBSERVATION-R1",
       "project_id": "kludge-wagon-haywire",
       "title": "Bounded completed-call ECU observation source candidate",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "codex-waypoint-completed-observation",
-      "claim_expires_at": "2026-10-21T21:52:15.395032Z",
-      "updated_at": "2026-10-21T19:52:15.395017Z",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/585",
-      "next_action": "Additive source-only ECU manager observation contract/tests; preserve controls/world and exact prerequisite/review gates."
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T20:07:57.017195Z",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/629",
+      "next_action": "Completed-call observation author source complete;qualified T7 review and TERRAIN-cleared world/bootstrap/game integration pending.",
+      "owner_agent": null,
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "publication_head": "0051f244afda87aee8c8f6476a1cf07179e4fb44",
+      "blocker_issue": "https://github.com/tsrnc2/kitt/issues/467"
     },
     {
       "id": "KWH-ROBOT-CAR-VOICE-DSP-R1",
@@ -8058,6 +8063,21 @@
       "updated_at": "2026-10-21T19:54:05.180567Z",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/19",
       "next_action": "Prepare bounded offline source DSP/copy/audio evidence with isolatednative tools;all existing game/audio/parentreview fields preserved."
+    },
+    {
+      "id": "KWH-ECU-COMPLETED-OBSERVATION-R1-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified T7 distinct-family review of observation source",
+      "state": "BLOCKED",
+      "priority": "P1",
+      "claimed_by": null,
+      "updated_at": "2026-10-21T20:07:57.017195Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/issues/467",
+      "frozen_revision": "0051f244afda87aee8c8f6476a1cf07179e4fb44",
+      "dispatch_allowed": false,
+      "minimum_model_tier": "T7",
+      "different_model_family_required": true,
+      "next_action": "Bind eligible distinct reviewer to exact artifact;no self-qualification or inherited precursor acceptance."
     }
   ],
   "blockers": [
@@ -9321,5 +9341,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T20:03:09.472531+00:00"
+  "updated_at": "2026-10-21T20:07:57.017195Z"
 }
