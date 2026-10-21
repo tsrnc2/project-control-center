@@ -4505,15 +4505,20 @@
       "id": "KWH-STORY-DUALEC",
       "project_id": "kludge-wagon-haywire",
       "title": "Dual_EC_DRBG foreshadowing: Jacob's 2003 theory + toy C proof",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T16:56:38.494476Z",
-      "updated_at": "2026-10-21T14:56:38.494522Z",
-      "next_action": "Prepare toy C lesson and common UI source candidate with exact math tests;story activation/review held.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T15:13:04.227351Z",
+      "next_action": "Coordinator binds actual qualified distinct math/teaching/story/shared-UI reviewers to 4695ab8af37b7f957afd379d7c42ffea78aead27 via KWH-STORY-DUALEC-REVIEW-R1. Jobo/story/UI owners approve the accurate tiny-group limitation,fictional2003 beat,Manual/clue entry,permission getter/container and pacing without bypassing Kitty-design/kernel/confrontation gates. Only after accepted source/integration scope,verify exact merged/exported game and supported platforms before activation. Existing FBW272 remains open.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/272"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/560",
+      "dispatch_allowed": false,
+      "candidate_revision": "4695ab8af37b7f957afd379d7c42ffea78aead27",
+      "blocker_issue": "https://github.com/tsrnc2/kitt/issues/353",
+      "author_completion": "DONE",
+      "review_task": "KWH-STORY-DUALEC-REVIEW-R1"
     },
     {
       "id": "KWH-ASM-REG-TESTS",
@@ -6845,6 +6850,21 @@
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/557",
       "updated_at": "2026-10-21T14:58:28.440311Z",
       "next_action": "Reproduce and repair existing Workbench backtrace availability only;no Concept build or runtime adoption;preserve held source owners."
+    },
+    {
+      "id": "KWH-STORY-DUALEC-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified exact-source tiny-curve lesson review",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "dispatch_allowed": false,
+      "dependencies": [],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/560",
+      "candidate_revision": "4695ab8af37b7f957afd379d7c42ffea78aead27",
+      "updated_at": "2026-10-21T15:13:04.227417Z",
+      "next_action": "Bind actual qualified distinct reviewers before dispatch;immutable source review has no blocked-parent dependency."
     }
   ],
   "blockers": [
@@ -8062,5 +8082,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T14:58:28.440329Z"
+  "updated_at": "2026-10-21T15:13:04.227423Z"
 }
