@@ -833,18 +833,25 @@
       "id": "KWH-WORLD-ANIMALS",
       "project_id": "kludge-wagon-haywire",
       "title": "World: animals + behaviors (wander, flee from car, idle)",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-fbw-sequential",
-      "claim_expires_at": "2026-10-21T03:22:45.388763+00:00",
-      "updated_at": "2026-10-21T01:22:45.388763+00:00",
-      "next_action": "Acceptance: Jackrabbit/coyote/deer temp models; wander/idle/flee state machine; flee triggered by car within radius; screenshot of flee",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T01:44:02.814339+00:00",
+      "next_action": "Tested source/Web-pack correction published;qualified distinct exact-source review KWH-WORLD-ANIMALS-REVIEW-R1 and authorized integration remain. Issue32 stays open;own execution ownership released.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/32",
-      "claimed_at": "2026-10-21T01:22:45.388763+00:00",
-      "claim_heartbeat_at": "2026-10-21T01:22:45.388763+00:00",
-      "recovery_operation_id": "ground-animals-expired-self-recovery-20261021"
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "recovery_operation_id": "ground-animals-expired-self-recovery-20261021",
+      "canonical_task_blob": "a826da595fb323b765f3f2bad01e2442270e0e89",
+      "canonical_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-WORLD-ANIMALS.json",
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/506",
+      "blocker_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/32",
+      "review_task": "KWH-WORLD-ANIMALS-REVIEW-R1",
+      "release_operation_id": "ground-animals-source-review-release-20261021",
+      "last_execution_owner": "codex-fbw-sequential"
     },
     {
       "id": "KWH-WORLD-BIRDS",
@@ -6714,6 +6721,13 @@
   ],
   "activity": [
     {
+      "at": "2026-10-21T01:44:02.814339+00:00",
+      "type": "TASK_BLOCKED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-WORLD-ANIMALS",
+      "summary": "Animal overlap correction and Web pack verified/published;independent review pending;own locks released;https://github.com/tsrnc2/fly-by-wire-c/pull/506"
+    },
+    {
       "at": "2026-10-21T01:42:07.071152+00:00",
       "type": "SOURCE_CORRECTION_REVIEW_GATE",
       "project_id": "kitt",
@@ -7583,5 +7597,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T01:43:53.973073Z"
+  "updated_at": "2026-10-21T01:44:02.814339+00:00"
 }
