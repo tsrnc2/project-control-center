@@ -817,15 +817,17 @@
       "id": "KWH-WORLD-VEG-KIT",
       "project_id": "kludge-wagon-haywire",
       "title": "World: vegetation kit (sagebrush, pinyon, grasses, wildflowers) with MultiMesh scatter",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T03:29:22.828938Z",
-      "updated_at": "2026-10-21T01:29:31.043210Z",
-      "next_action": "Verify exact existing native vegetation and publish actual render evidence; no qualified acceptance.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T01:37:07.196957Z",
+      "next_action": "Approved added-vegetation biome/dressing rules or missing generator source required;native evidence complete,no product change.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/31"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/507",
+      "candidate_revision": "8dd9acb458eab58adbcf8f64bfa978519c0d5282",
+      "blocker_issue": "https://github.com/tsrnc2/kitt/issues/304"
     },
     {
       "id": "KWH-WORLD-ANIMALS",
@@ -7533,5 +7535,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T01:36:26.303960Z"
+  "updated_at": "2026-10-21T01:37:07.196993Z"
 }
