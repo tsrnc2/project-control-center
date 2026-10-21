@@ -1,9 +1,0 @@
-{
-  "task_id": "KWH-VEH-SAILBOAT",
-  "project_id": "kludge-wagon-haywire",
-  "agent_id": "codex-waypoint-sailboat-validation-20261021",
-  "lock_token": "b51de60c28c6a05735c5ec4a3b2901c523f16052727fb67a",
-  "acquired_at": "2026-10-21T15:54:27.035204Z",
-  "expires_at": "2026-10-21T17:54:27.035222Z",
-  "run_ref": "sailboat-validation-20261021"
-}
