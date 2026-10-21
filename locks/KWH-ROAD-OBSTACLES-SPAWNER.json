@@ -1,9 +1,0 @@
-{
-  "task_id": "KWH-ROAD-OBSTACLES-SPAWNER",
-  "project_id": "kludge-wagon-haywire",
-  "agent_id": "codex-waypoint-road-spawner-20261021",
-  "lock_token": "78e5ee43689fe21eefeff587a85dd3eabd551150e0da45c3",
-  "acquired_at": "2026-10-21T17:59:28.106599Z",
-  "expires_at": "2026-10-21T19:59:28.106621Z",
-  "run_ref": "road-spawner-core-20261021"
-}
