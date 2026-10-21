@@ -1,0 +1,8 @@
+{
+  "project_id": "kitt",
+  "task_id": "KITT-20261021-LRP-INVENTORY-ID-REPAIR",
+  "agent_id": "codex-sr-delegated-lrp-id-20261021",
+  "lock_token": "2018518730916ea5b0152d1b97c01b1673a84c8ee46c97a3",
+  "acquired_at": "2026-10-21T01:34:11.162583+00:00",
+  "expires_at": "2026-10-21T01:44:11.162583+00:00"
+}
