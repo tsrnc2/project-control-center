@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-DEV-REGVIEW",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-wb-history-20261021",
+  "lock_token": "c02b4e17e56b547028ea2c4d07883f82ac47c8c42165d23e",
+  "acquired_at": "2026-10-21T20:15:00.186427Z",
+  "heartbeat_at": "2026-10-21T20:15:00.186427Z",
+  "expires_at": "2026-10-21T22:14:56.834269Z",
+  "run_ref": "workbench-history-scrub-20261021"
+}
