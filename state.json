@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T03:29:59.193876Z",
+    "generated_at": "2026-10-21T03:31:05.439400Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6640,6 +6640,18 @@
       "updated_at": "2026-10-21T03:28:32.855583Z",
       "source_ref": "https://github.com/tsrnc2/kitt/issues/320",
       "next_action": "Bind qualified independent reviewer;exact-source and accountable art/composition acceptance pending."
+    },
+    {
+      "id": "KWH-WB-HOOKS-ERROR-REPAIR-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Repair unexpected page-error masking in Workbench hook negative controls",
+      "state": "RUNNING",
+      "priority": "P2",
+      "claimed_by": "codex-waypoint-hooks-error-repair",
+      "claimed_at": "2026-10-21T03:31:05.439400Z",
+      "claim_expires_at": "2026-10-21T05:31:05.439424Z",
+      "updated_at": "2026-10-21T03:31:05.439400Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-WB-HOOKS-ERROR-REPAIR-R1.json"
     }
   ],
   "blockers": [
