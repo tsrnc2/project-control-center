@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T20:13:12.786952Z",
+    "generated_at": "2026-10-21T20:15:02.825448Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -4727,12 +4727,12 @@
       "id": "KWH-DEV-REGVIEW",
       "project_id": "kludge-wagon-haywire",
       "title": "Workbench gdb-step register/stack/flags HUD + history scrub",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P1",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T03:26:04Z",
-      "next_action": "Same HUD/stack as Ep1 ASM; C\u2194asm map; scrub; common UI API both skins. READY.",
+      "claimed_by": "codex-wb-history-20261021",
+      "claim_expires_at": "2026-10-21T22:14:56.834269Z",
+      "updated_at": "2026-10-21T20:15:02.825395Z",
+      "next_action": "Author bounded real-GDB snapshot history scrubber; preserve other Workbench source owners and independent review gates.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/270"
@@ -9366,5 +9366,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T20:13:12.786952Z"
+  "updated_at": "2026-10-21T20:15:02.825444Z"
 }
