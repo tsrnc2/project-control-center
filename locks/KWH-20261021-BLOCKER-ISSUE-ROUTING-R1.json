@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-20261021-BLOCKER-ISSUE-ROUTING-R1",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-01a15457-blocker-routing",
+  "lock_token": "53def617c7369209695da767495ecd0b4af0d1294a264dad",
+  "acquired_at": "2026-10-21T16:57:43.779365Z",
+  "heartbeat_at": "2026-10-21T16:57:43.779376Z",
+  "expires_at": "2026-10-21T18:57:25.965605Z",
+  "run_ref": "blocker-routing-01a15457-20261021"
+}
