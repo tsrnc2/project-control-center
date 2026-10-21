@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-ROBOT-CAR-VOICE",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-sr-delegated-car-voice-20261021",
+  "lock_token": "89fbd8eb697c285c9e9786c5d06d452ce99f29c7b0a7140c",
+  "acquired_at": "2026-10-21T17:48:57.760859Z",
+  "heartbeat_at": "2026-10-21T17:48:57.760859Z",
+  "expires_at": "2026-10-21T19:48:20.678268Z",
+  "run_ref": "kwh-car-voice-priority-20261021"
+}
