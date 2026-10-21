@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T14:03:13.386660Z",
+    "generated_at": "2026-10-21T14:15:25.028371Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -3032,8 +3032,8 @@
       "priority": "P1",
       "claimed_by": "codex-01a15457-topbox-model",
       "claim_expires_at": "2026-10-21T16:01:41.253047Z",
-      "updated_at": "2026-10-21T14:03:13.386638Z",
-      "next_action": "Draft queue/topbox model only; no build before Jobo approval; preserve other owners.",
+      "updated_at": "2026-10-21T14:15:25.028345Z",
+      "next_action": "Author and verify original SR-404 roof/top-box assets under issue153; preserve ECU/UI/gameplay owners and final review gates.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/153",
@@ -7999,5 +7999,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T14:15:00.065097Z"
+  "updated_at": "2026-10-21T14:15:25.028367Z"
 }
