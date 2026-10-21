@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T14:15:25.028371Z",
+    "generated_at": "2026-10-21T14:20:11.753598Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6779,13 +6779,14 @@
       "id": "KWH-WB-AUTO-CHECK-DEBUG-RACE-R1",
       "project_id": "kludge-wagon-haywire",
       "title": "Prevent syntax checks entering GDB during Debug startup",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "codex-sr-delegated-debug-race-20261021",
+      "claimed_by": null,
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/549",
-      "claim_expires_at": "2026-10-21T15:59:48.768781Z",
-      "updated_at": "2026-10-21T13:59:56.704825Z",
-      "next_action": "Prepare isolated Debug-start admission repair and actual VM/browser regressions;no merge,deployment or runtime acceptance."
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T14:20:11.753559Z",
+      "next_action": "Author Debug-admission candidate https://github.com/tsrnc2/fly-by-wire-c/pull/551 verified16focused checks(one synthetic pre-channel failure)+16legacy assertions. Qualified exact-source KWH-WB-DEBUG-ADMISSION-REVIEW-R1 and combined Workbench integration pending;https://github.com/tsrnc2/kitt/issues/348. No merge/deployment or VM/license/platform acceptance.",
+      "blocked_at": "2026-10-21T14:20:11.753572Z"
     }
   ],
   "blockers": [
@@ -8003,5 +8004,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T14:16:21.402989Z"
+  "updated_at": "2026-10-21T14:20:11.753595Z"
 }
