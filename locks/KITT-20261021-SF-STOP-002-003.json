@@ -5,6 +5,7 @@
   "agent_id": "codex-standing-service-stop",
   "lock_token": "8483aa7aff876491dafe0c17bed2c29865bb21508af51713",
   "acquired_at": "2026-10-21T22:05:18.687304+00:00",
-  "expires_at": "2026-10-21T23:35:18.687304+00:00",
-  "run_ref": "KITT-20261021-SF-STOP-002-003-author"
+  "expires_at": "2026-10-21T23:38:39Z",
+  "run_ref": "KITT-20261021-SF-STOP-002-003-author",
+  "heartbeat_at": "2026-10-21T22:08:42.467623+00:00"
 }
