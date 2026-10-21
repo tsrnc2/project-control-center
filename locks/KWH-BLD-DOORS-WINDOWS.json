@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-BLD-DOORS-WINDOWS",
+  "agent_id": "codex-waypoint-doors-windows",
+  "lock_token": "433475255f9dfbc136e769901cc829f6f0ac36f00a3284ad",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T03:19:29.441645Z",
+  "heartbeat_at": "2026-10-21T03:19:29.441645Z",
+  "expires_at": "2026-10-21T05:19:29.441673Z"
+}
