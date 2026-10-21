@@ -2702,15 +2702,18 @@
       "id": "KWH-MKT-PRESSKIT-PAGE",
       "project_id": "kludge-wagon-haywire",
       "title": "Press kit page (presskit()-style)",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T03:56:44.538671Z",
-      "updated_at": "2026-10-21T01:56:53.902642Z",
-      "next_action": "Verify exact existing native presskit-draft and publish actual render evidence; no qualified acceptance.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T02:02:20.196552Z",
+      "next_action": "Jobo editorial/media/contact/platform/release/distribution review pending;issue134 stays open. Private draft only.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/134"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/515",
+      "candidate_revision": "eafbfab1b2ad0745e3e91f98eb0de3efbb250f99",
+      "completion_scope": "AUTHOR_STATIC_DRAFT",
+      "independent_acceptance": false
     },
     {
       "id": "KWH-MKT-FACT-SHEET",
@@ -7659,5 +7662,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T01:56:53.902662Z"
+  "updated_at": "2026-10-21T02:02:20.196631Z"
 }
