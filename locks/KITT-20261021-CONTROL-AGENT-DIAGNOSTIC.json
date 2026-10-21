@@ -1,0 +1,9 @@
+{
+  "task_id": "KITT-20261021-CONTROL-AGENT-DIAGNOSTIC",
+  "project_id": "kitt",
+  "agent_id": "codex-control-agent-diag-20261021",
+  "lock_token": "06f45aff4e362a14f1d9d6462c6a2c3fecca245867a3afad",
+  "acquired_at": "2026-10-21T19:16:43.905926Z",
+  "expires_at": "2026-10-21T21:16:43.905950Z",
+  "run_ref": "control-agent-diagnostic-20261021"
+}

@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T19:07:57.394975Z",
+    "generated_at": "2026-10-21T19:16:43.905926Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -7824,6 +7824,20 @@
       "claim_expires_at": "2026-10-21T21:07:50.936612Z",
       "updated_at": "2026-10-21T19:07:57.394936Z",
       "next_action": "Stage unchanged web tree with gzip sidecars;verify native HTTP and real browser delivery;preserve source/assets/cache/production owners,then qualified source/platform review."
+    },
+    {
+      "id": "KITT-20261021-CONTROL-AGENT-DIAGNOSTIC",
+      "project_id": "kitt",
+      "title": "Native control client invalid-agent diagnostic proposal",
+      "state": "RUNNING",
+      "priority": "P2",
+      "claimed_by": "codex-control-agent-diag-20261021",
+      "owner_agent": "codex-control-agent-diag-20261021",
+      "claimed_at": "2026-10-21T19:16:43.905926Z",
+      "claim_expires_at": "2026-10-21T21:16:43.905950Z",
+      "updated_at": "2026-10-21T19:16:43.905926Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/pull/334",
+      "next_action": "Narrow native diagnostic source candidate only; preserve validator,frozen reference and provenance/compatibility/adoption gates."
     }
   ],
   "blockers": [
@@ -9080,5 +9094,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:12:46.993677Z"
+  "updated_at": "2026-10-21T19:16:43.905926Z"
 }
