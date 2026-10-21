@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kitt",
+  "task_id": "KITT-20261021-LIFECYCLE-NINE-VECTORS",
+  "agent_id": "codex-standing-nine-vectors",
+  "lock_token": "bad4b27823a3ed90a280a88f903db97ca485f3c3802e5a07",
+  "acquired_at": "2026-10-21T22:27:58.654862+00:00",
+  "expires_at": "2026-10-21T23:57:58.654862+00:00",
+  "run_ref": "KITT-20261021-LIFECYCLE-NINE-VECTORS-author"
+}
