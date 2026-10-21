@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kitt",
+  "task_id": "KITT-20261021-SERVICE-FRAMEWORK-FULLCHECKOUT",
+  "agent_id": "codex-standing-full-checkout",
+  "lock_token": "13a3da648143ee80bd397c03d697d4cd48e8ceec4adcdc32",
+  "acquired_at": "2026-10-21T22:33:14.858724+00:00",
+  "expires_at": "2026-10-22T00:03:14.858724+00:00",
+  "run_ref": "KITT-20261021-SERVICE-FRAMEWORK-FULLCHECKOUT-evidence"
+}
