@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-21T13:27:13.395405Z",
+  "actor": "codex-waypoint-hooks-error-repair",
+  "previous_expiry": "2026-10-21T05:31:05.439424Z",
+  "new_expiry": "2026-10-21T15:27:13.395422Z",
+  "reason": "Interrupted browser process handle missing, no matching live process or completed receipt; same owner/token reread before renewal",
+  "other_ownership_changed": false
+}

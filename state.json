@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T13:25:51.171948Z",
+    "generated_at": "2026-10-21T13:27:13.395405Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6653,9 +6653,10 @@
       "priority": "P2",
       "claimed_by": "codex-waypoint-hooks-error-repair",
       "claimed_at": "2026-10-21T03:31:05.439400Z",
-      "claim_expires_at": "2026-10-21T05:31:05.439424Z",
-      "updated_at": "2026-10-21T03:31:05.439400Z",
-      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-WB-HOOKS-ERROR-REPAIR-R1.json"
+      "claim_expires_at": "2026-10-21T15:27:13.395422Z",
+      "updated_at": "2026-10-21T13:27:13.395405Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-WB-HOOKS-ERROR-REPAIR-R1.json",
+      "claim_heartbeat_at": "2026-10-21T13:27:13.395405Z"
     }
   ],
   "blockers": [
