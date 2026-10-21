@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T14:38:59.209942Z",
+    "generated_at": "2026-10-21T14:42:52.803335Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -3165,15 +3165,16 @@
       "id": "KWH-CLUE-TEST",
       "project_id": "kludge-wagon-haywire",
       "title": "Clue\u2192lesson: tests for collect \u2192 unlock \u2192 gate",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-sr-delegated-clue-tests-20261021",
-      "claim_expires_at": "2026-10-21T16:31:46.645693Z",
-      "updated_at": "2026-10-21T14:31:53.816087Z",
-      "next_action": "Inventory and execute existing clue tests,add only meaningful workflow/persistence gaps,preserve failed contracts and product-owner/review gates.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T14:42:52.803308Z",
+      "next_action": "Regression candidate https://github.com/tsrnc2/fly-by-wire-c/pull/554 published/verified;5existing suitesPASS,browser11/14,manual1/2. Resolve shared charge defect https://github.com/tsrnc2/fly-by-wire-c/issues/556 and existing reveal/gate integration. https://github.com/tsrnc2/kitt/issues/350. No production acceptance.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/162"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/162",
+      "blocked_at": "2026-10-21T14:42:52.803322Z"
     },
     {
       "id": "KWH-CLUE-BUGLINES",
@@ -8034,5 +8035,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T14:38:59.209940Z"
+  "updated_at": "2026-10-21T14:42:52.803333Z"
 }
