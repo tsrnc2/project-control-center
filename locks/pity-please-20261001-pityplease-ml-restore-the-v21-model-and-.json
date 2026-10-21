@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "project_id": "pity-please",
+  "task_id": "pity-please-20261001-pityplease-ml-restore-the-v21-model-and-",
+  "agent_id": "codex-long-term-sequential",
+  "lock_token": "d155ae8936ae5c95ab0e38065d7e8e2ea6ed7309e08e6c1f",
+  "acquired_at": "2026-10-21T01:31:12.753157Z",
+  "heartbeat_at": "2026-10-21T01:31:12.753157Z",
+  "expires_at": "2026-10-21T02:16:12.753188Z",
+  "run_ref": "pity-backup-reconcile-20261021"
+}

@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T01:29:08.693924Z",
+    "generated_at": "2026-10-21T01:32:17.550199Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6350,6 +6350,15 @@
       "execution_mode": "OWNER_SCOPED_TECHNICAL_REVIEW",
       "independent_acceptance": false,
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-SR404-BADGE-POS-REVIEW-R1.json"
+    },
+    {
+      "id": "pity-please-20261001-pityplease-ml-restore-the-v21-model-and-",
+      "project_id": "pity-please",
+      "title": "PityPlease ML: restore the v21 model and restart training under KITT",
+      "state": "BLOCKED",
+      "claimed_by": "codex-long-term-sequential",
+      "claim_expires_at": "2026-10-21T02:16:12.753188Z",
+      "updated_at": "2026-10-21T01:32:17.550199Z"
     }
   ],
   "blockers": [
