@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-BLD-ORNAMENTS",
+  "agent_id": "codex-waypoint-ornaments",
+  "lock_token": "00633fd36221cb5a3de80243566c0a9ad95ca8df3d505b37",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T03:30:33.312098Z",
+  "heartbeat_at": "2026-10-21T03:30:33.312098Z",
+  "expires_at": "2026-10-21T05:30:33.312128Z"
+}
