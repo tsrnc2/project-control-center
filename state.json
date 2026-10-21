@@ -2700,17 +2700,17 @@
       "id": "KWH-MKT-SCREENSHOTS",
       "project_id": "kludge-wagon-haywire",
       "title": "5+ store screenshots (1920x1080)",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "codex-standing-store-shots",
-      "claim_expires_at": "2026-10-21T17:09:10Z",
-      "updated_at": "2026-10-21T15:39:21.323233+00:00",
-      "next_action": "Capture private actual1080p draft images from verified packaged runtime; no product/store action. Interrupted claim reconciled; Drive94 receipt verified.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T15:51:46.401546+00:00",
+      "next_action": "Provide a corrected, source-bound runtime package with actual image assets replacing the174 LFS pointers; verify decoded image assets and recapture on sufficient memory headroom using corrected author harness. Evidence https://github.com/tsrnc2/fly-by-wire-c/pull/568 at 6051a7e90dbd009293669d875ca117521bdbabd5. Then require Jobo image approval and rights/source/store review. Reconcile live ownership first; no public/account action inferred. Blocker https://github.com/tsrnc2/kitt/issues/362",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/129",
       "claimed_at": "2026-10-21T13:30:22Z",
-      "claim_heartbeat_at": "2026-10-21T15:39:21.323222+00:00"
+      "claim_heartbeat_at": null
     },
     {
       "id": "KWH-MKT-TRAILER-SCRIPT",
@@ -7294,6 +7294,18 @@
       "required_next_action": "Eligible independent reviewer claims KWH-WB-FRAME-CLOSE-GUARD-REVIEW-R1 for https://github.com/tsrnc2/fly-by-wire-c/pull/524 at caea508ff3eb5b60cb981e25b8fa2951f4cb21f7; reproduce applicable browser tests and complete exact-source review and normal reviewed adoption. Preserve separate VM/fullgame/license/release gates.",
       "review_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/524",
       "updated_at": "2026-10-21T03:25:02.279210+00:00"
+    },
+    {
+      "id": "kwh-store-shots-package-blocker-20261021",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-MKT-SCREENSHOTS",
+      "state": "OPEN",
+      "severity": "HIGH",
+      "category": "RUNTIME_PACKAGE",
+      "summary": "Screenshot task incomplete:174 packaged LFS image placeholders and insufficient browser headroom require corrected package/recapture; GDB author harness fault disclosed.",
+      "required_next_action": "Provide a corrected, source-bound runtime package with actual image assets replacing the174 LFS pointers; verify decoded image assets and recapture on sufficient memory headroom using corrected author harness. Evidence https://github.com/tsrnc2/fly-by-wire-c/pull/568 at 6051a7e90dbd009293669d875ca117521bdbabd5. Then require Jobo image approval and rights/source/store review. Reconcile live ownership first; no public/account action inferred.",
+      "review_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/568",
+      "updated_at": "2026-10-21T15:51:46.401581+00:00"
     }
   ],
   "activity": [
@@ -8223,5 +8235,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T15:46:38.606837Z"
+  "updated_at": "2026-10-21T15:51:46.401586+00:00"
 }
