@@ -8920,14 +8920,17 @@
       "id": "KITT-20261021-LIFECYCLE-NINE-VECTORS",
       "project_id": "kitt",
       "title": "Port nine lifecycle qualification vectors",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P1",
-      "claimed_by": null,
+      "claimed_by": "codex-standing-nine-vectors",
       "owner_agent": null,
       "source_ref": "https://docs.google.com/document/d/1AP2DnLMmEuRTPGmrAmxFLK8kjWC34bRUxy2vd8KUZLQ/edit",
       "dispatch_allowed": false,
       "execution_mode": "OWNER_SUPERVISED_SOURCE_PREPARATION_ONLY",
-      "updated_at": "2026-10-21T22:27:49.834195+00:00"
+      "updated_at": "2026-10-21T22:28:13.195540+00:00",
+      "claimed_at": "2026-10-21T22:27:58.654862+00:00",
+      "claim_expires_at": "2026-10-21T23:57:58.654862+00:00",
+      "next_action": "Port all nine frozen lifecycle requirements into a fail-closed evidence qualifier; do not claim product qualification."
     }
   ],
   "blockers": [
@@ -10191,5 +10194,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T22:27:49.834211+00:00"
+  "updated_at": "2026-10-21T22:28:13.195578+00:00"
 }
