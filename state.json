@@ -2469,15 +2469,20 @@
       "id": "KWH-PH-RANGER-KIOSK",
       "project_id": "kludge-wagon-haywire",
       "title": "Replace placeholder model: ranger_kiosk",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P3",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T19:55:31.531951Z",
-      "updated_at": "2026-10-21T17:55:41.402168Z",
-      "next_action": "Original ranger-kiosk;preserveexactterminalplacement/interaction/nativebounds/solidcollision;qualifiedart/source/Joboapprovalheld.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T18:06:21.642050Z",
+      "next_action": "Bind an actually qualified distinct source/art reviewer and Jobo final appearance/information-prop approval. Verify exact provenance, corrected roof/display and preserved terminal placement, solid collision and source logic. Reconcile approved-source composition before actual world/export/platform/distance/LOD/performance acceptance. Review frozen 880ee230b7247b883bc7ccb0ef5757d027fa0eff through KWH-PH-RANGER-KIOSK-REVIEW-R1.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/15"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/606",
+      "dispatch_allowed": false,
+      "candidate_revision": "880ee230b7247b883bc7ccb0ef5757d027fa0eff",
+      "blocker_issue": "https://github.com/tsrnc2/kitt/issues/435",
+      "author_completion": "DONE",
+      "review_task": "KWH-PH-RANGER-KIOSK-REVIEW-R1"
     },
     {
       "id": "KWH-PH-SHERIFF-CAR",
@@ -7561,6 +7566,21 @@
       "claim_expires_at": null,
       "next_action": "Mode-only correction verified; parent source/review remain held at 9fa523c2ed5f45182181acc520563378a30ab45f",
       "claim_heartbeat_at": null
+    },
+    {
+      "id": "KWH-PH-RANGER-KIOSK-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified original ranger-kiosk art/source review and Jobo final approval",
+      "state": "READY",
+      "priority": "P3",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "dispatch_allowed": false,
+      "dependencies": [],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/606",
+      "candidate_revision": "880ee230b7247b883bc7ccb0ef5757d027fa0eff",
+      "updated_at": "2026-10-21T18:06:21.642128Z",
+      "next_action": "Bind an actually qualified distinct source/art reviewer and Jobo final appearance/information-prop approval. Verify exact provenance, corrected roof/display and preserved terminal placement, solid collision and source logic. Reconcile approved-source composition before actual world/export/platform/distance/LOD/performance acceptance. Review frozen 880ee230b7247b883bc7ccb0ef5757d027fa0eff through KWH-PH-RANGER-KIOSK-REVIEW-R1."
     }
   ],
   "blockers": [
@@ -8817,5 +8837,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T18:05:52.366469Z"
+  "updated_at": "2026-10-21T18:06:21.642149Z"
 }
