@@ -4496,12 +4496,12 @@
       "id": "KWH-STORY-DUALEC",
       "project_id": "kludge-wagon-haywire",
       "title": "Dual_EC_DRBG foreshadowing: Jacob's 2003 theory + toy C proof",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P1",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T03:26:04Z",
-      "next_action": "Toy curve demo; historically accurate 2006/2007 framing; foreshadows backdoor. READY.",
+      "claimed_by": "codex-cedar-persistent",
+      "claim_expires_at": "2026-10-21T15:57:28.159681Z",
+      "updated_at": "2026-10-21T13:57:37.667127Z",
+      "next_action": "Prepare toy C lesson and common UI source candidate with exact math tests;story activation/review held.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/272"
@@ -7986,5 +7986,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T13:56:43.343895Z"
+  "updated_at": "2026-10-21T13:57:37.667153Z"
 }
