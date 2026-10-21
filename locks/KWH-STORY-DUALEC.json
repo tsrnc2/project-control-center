@@ -6,7 +6,7 @@
   "lock_token": "005fecae4034d0d0f93baf1a943426e420d69852819b3cde",
   "mode": "exclusive",
   "acquired_at": "2026-10-21T13:57:28.159665Z",
-  "heartbeat_at": "2026-10-21T13:57:28.159678Z",
-  "expires_at": "2026-10-21T15:57:28.159681Z",
+  "heartbeat_at": "2026-10-21T14:24:35.200672Z",
+  "expires_at": "2026-10-21T16:24:35.200677Z",
   "run_ref": "Issue272 private ten source-backed Shorts cut proposals authoring; no other owner source edits"
 }
