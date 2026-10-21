@@ -2490,15 +2490,20 @@
       "id": "KWH-PH-SHERIFF-CAR",
       "project_id": "kludge-wagon-haywire",
       "title": "Replace placeholder model: sheriff_car",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P3",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T20:09:18.576073Z",
-      "updated_at": "2026-10-21T18:09:27.923622Z",
-      "next_action": "Original static sheriff-prop;preserveplacement/storycoordinates/nativebounds/solidcollision;qualifiedart/source/Joboapprovalheld.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T18:25:45.456883Z",
+      "next_action": "Bind an actually qualified distinct source/art reviewer and Jobo final appearance/branding approval. Verify original static-only geometry/provenance, front cues/four-wheel stance and preserved source placement/envelope/collision/story logic. Reconcile accepted-source composition before actual world/export/platform/distance/LOD/performance acceptance; no driving/physical/P0 qualification follows from this art proposal. Review frozen eedbaa66ea334e9315beda46831fa4072bd59798 through KWH-PH-SHERIFF-CAR-REVIEW-R1.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/16"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/610",
+      "dispatch_allowed": false,
+      "candidate_revision": "eedbaa66ea334e9315beda46831fa4072bd59798",
+      "blocker_issue": "https://github.com/tsrnc2/kitt/issues/439",
+      "author_completion": "DONE",
+      "review_task": "KWH-PH-SHERIFF-CAR-REVIEW-R1"
     },
     {
       "id": "KWH-PH-WHEEL",
@@ -7656,6 +7661,21 @@
       "updated_at": "2026-10-21T18:21:38.455250Z",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/64",
       "next_action": "Run exact unmodified historical/current harnesses; publish factual execution evidence, preserve original task owner and review/platform gates."
+    },
+    {
+      "id": "KWH-PH-SHERIFF-CAR-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified original static sheriff-prop source/art review and Jobo final approval",
+      "state": "READY",
+      "priority": "P3",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "dispatch_allowed": false,
+      "dependencies": [],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/610",
+      "candidate_revision": "eedbaa66ea334e9315beda46831fa4072bd59798",
+      "updated_at": "2026-10-21T18:25:45.456980Z",
+      "next_action": "Bind an actually qualified distinct source/art reviewer and Jobo final appearance/branding approval. Verify original static-only geometry/provenance, front cues/four-wheel stance and preserved source placement/envelope/collision/story logic. Reconcile accepted-source composition before actual world/export/platform/distance/LOD/performance acceptance; no driving/physical/P0 qualification follows from this art proposal. Review frozen eedbaa66ea334e9315beda46831fa4072bd59798 through KWH-PH-SHERIFF-CAR-REVIEW-R1."
     }
   ],
   "blockers": [
@@ -8912,5 +8932,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T18:24:41.609407Z"
+  "updated_at": "2026-10-21T18:25:45.456992Z"
 }
