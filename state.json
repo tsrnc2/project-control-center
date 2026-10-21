@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T20:15:02.825448Z",
+    "generated_at": "2026-10-21T20:25:05.242309Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -4727,15 +4727,16 @@
       "id": "KWH-DEV-REGVIEW",
       "project_id": "kludge-wagon-haywire",
       "title": "Workbench gdb-step register/stack/flags HUD + history scrub",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "codex-wb-history-20261021",
-      "claim_expires_at": "2026-10-21T22:14:56.834269Z",
-      "updated_at": "2026-10-21T20:15:02.825395Z",
-      "next_action": "Author bounded real-GDB snapshot history scrubber; preserve other Workbench source owners and independent review gates.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T20:25:05.242272Z",
+      "next_action": "Author candidate https://github.com/tsrnc2/fly-by-wire-c/pull/631 has focused history and real VM/GDB evidence; qualified KWH-DEV-REGVIEW-REVIEW-R1 and combined Workbench integration remain required. https://github.com/tsrnc2/kitt/issues/471",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/270"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/270",
+      "blocked_at": "2026-10-21T20:25:05.242297Z"
     },
     {
       "id": "KWH-STORY-SKIPPABLE",
@@ -9379,5 +9380,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T20:17:00.746328Z"
+  "updated_at": "2026-10-21T20:25:05.242306Z"
 }
