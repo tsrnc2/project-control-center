@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T19:43:25.265921Z",
+    "generated_at": "2026-10-21T19:50:55.555994Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -1297,15 +1297,16 @@
       "id": "KWH-BLD-UPG-HOTEL-2STORY",
       "project_id": "kludge-wagon-haywire",
       "title": "Upgrade Bodie building with detail kit: hotel_2story",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P3",
-      "claimed_by": "codex-sr-delegated-hotel-reuse-20261021",
-      "claim_expires_at": "2026-10-21T21:37:20.259666Z",
-      "updated_at": "2026-10-21T19:37:25.736368Z",
-      "next_action": "Measure existing hotel/native kit and PR546exactcandidate;preserve original sourceauthor and review341;no production edits/adoption;record source/world/art acceptance hold.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T19:50:55.555994Z",
+      "next_action": "Coordinator binds actual qualified distinct source/native/art reviewer for existing KWH-BLD-PAINT-SIGNS-REVIEW-R1 frozen15c747f21f59196e0254414fa3a25b6ffd2486e4 and preserves blocker341. Reuse PR546existingHOTELblue sign/palette without sourcefork. After positive exact-source review/accepted composition,validate hotel visible kit/sign,actualworld/terrain/collision andJobofinalappearance. This source-author report https://github.com/tsrnc2/kitt/pull/461 provides23nativechecks/21and29actualinstances,fresh3JSON/3PNGidentity,not independent acceptance. Original issue58 remains open. https://github.com/tsrnc2/kitt/issues/463",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/58"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/58",
+      "blocked_at": "2026-10-21T19:50:55.555994Z"
     },
     {
       "id": "KWH-BLD-UPG-HOUSE-D-PAINTED",
@@ -9277,5 +9278,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:50:50.147588+00:00"
+  "updated_at": "2026-10-21T19:50:55.555994Z"
 }
