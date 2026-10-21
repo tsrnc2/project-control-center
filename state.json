@@ -2448,15 +2448,18 @@
       "id": "KWH-KITTY-LLM-DOC",
       "project_id": "kludge-wagon-haywire",
       "title": "Kitty optional LLM Q&A design doc (offline fallback, privacy/cost)",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T03:47:14.256497Z",
-      "updated_at": "2026-10-21T01:47:23.703440Z",
-      "next_action": "Verify exact existing native kitty-qa-design and publish actual render evidence; no qualified acceptance.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T01:52:45.238802Z",
+      "next_action": "Qualified design/personality review KWH-KITTY-LLM-DOC-REVIEW-R1 and approved personality guide remain pending;issue117 stays open.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/117"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/513",
+      "candidate_revision": "11228280f14e8562c5554082073cb34f7ac73886",
+      "completion_scope": "AUTHOR_DESIGN_PROPOSAL",
+      "independent_acceptance": false
     },
     {
       "id": "KWH-KITTY-TESTS",
@@ -6468,6 +6471,24 @@
       "evidence_ref": "https://github.com/tsrnc2/kitt/blob/10664ab584f73d09bcfe57644788e911cb136d66/reports/codex/dispatch-input-repair-20261020/REPORT.md",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-20261020-DISPATCH-DRAFT-INPUT-REPAIR.json",
       "next_action": "Author source preparation published; distinct review KITT-20261020-DISPATCH-DRAFT-INPUT-REPAIR-REVIEW pending. Issue267/native port remain blocked pending accepted semantics/independent fixture freeze."
+    },
+    {
+      "id": "KWH-KITTY-LLM-DOC-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified review of optional Kitty Q&A design against approved personality guide",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "dispatch_allowed": false,
+      "dependencies": [
+        "KWH-KITTY-LLM-DOC",
+        "KWH-KITTY-DESIGN"
+      ],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/513",
+      "candidate_revision": "11228280f14e8562c5554082073cb34f7ac73886",
+      "updated_at": "2026-10-21T01:52:45.238914Z",
+      "next_action": "Bind actual qualified distinct reviewer before enabling dispatch/claiming;author cannot self-accept."
     }
   ],
   "blockers": [
@@ -7638,5 +7659,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T01:49:12.627849Z"
+  "updated_at": "2026-10-21T01:52:45.238927Z"
 }
