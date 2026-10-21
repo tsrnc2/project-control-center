@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kitt",
+  "task_id": "KITT-20261021-BLOCKER-REPORT-MEMBERSHIP",
+  "agent_id": "codex-standing-blocker-report",
+  "lock_token": "2193e8abf7dcdeb2e2ce3d6c5d96ccdfeba55039c03cbeae",
+  "acquired_at": "2026-10-21T19:23:59.911171+00:00",
+  "expires_at": "2026-10-21T20:53:59.911171+00:00",
+  "run_ref": "KITT-20261021-BLOCKER-REPORT-MEMBERSHIP-20261021"
+}
