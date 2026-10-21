@@ -2509,15 +2509,23 @@
       "id": "KWH-PH-WHEEL",
       "project_id": "kludge-wagon-haywire",
       "title": "Replace placeholder model: wheel",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P3",
-      "claimed_by": "codex-caretaker-wheel-model",
-      "claim_expires_at": "2026-10-21T20:17:40.894052Z",
-      "updated_at": "2026-10-21T18:24:41.609407Z",
-      "next_action": "Original wheel source62/0,native49/0,wrongaxis49/8,missingmodel2/1;freshreconstruction and exact UID/importpolicy verification underway;Joboart/rig/review/integration held.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T18:26:53.775269Z",
+      "next_action": "Coordinator binds actually qualified independent distinct-family source/native/art reviewer and Jobo final visual/rig approval to f4a3ead3c18098498fb30f24407ca142f9d49884. Reproduce62source/49nativechecks,wrongaxis49/8,missingmodel2/1,freshJSON/3PNGidentity;inspect exactbounds/axle/UID/material-safety behavior and unchangedplacement/spin/collision. Finalbakedrig/world/platform/performance integration remains separate;no self-acceptance/admission/merge/deploy.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/17"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/17",
+      "author_phase_state": "DONE_NOT_ACCEPTED",
+      "artifacts": [
+        "https://github.com/tsrnc2/fly-by-wire-c/pull/611",
+        "https://github.com/tsrnc2/kitt/issues/440"
+      ],
+      "candidate_revision": "f4a3ead3c18098498fb30f24407ca142f9d49884",
+      "review_task_id": "KWH-PH-WHEEL-REVIEW-R1",
+      "blocker_issue_url": "https://github.com/tsrnc2/kitt/issues/440"
     },
     {
       "id": "KWH-WHEELS-BAKED",
@@ -8932,5 +8940,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T18:25:45.456992Z"
+  "updated_at": "2026-10-21T18:26:53.775295Z"
 }
