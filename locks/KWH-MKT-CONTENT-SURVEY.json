@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-MKT-CONTENT-SURVEY",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-kwh-content-survey-20261021",
+  "lock_token": "e88dba8eb052a7e587dc739da5ae4aa1ca8aea7cdbde40e9",
+  "acquired_at": "2026-10-21T03:16:20.746899Z",
+  "heartbeat_at": "2026-10-21T03:16:20.746899Z",
+  "expires_at": "2026-10-21T05:16:14.922874Z",
+  "run_ref": "content-survey-draft-20261021"
+}
