@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T14:53:55.705882Z",
+    "generated_at": "2026-10-21T14:58:28.440333Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6833,6 +6833,18 @@
       "updated_at": "2026-10-21T14:51:42.716503Z",
       "next_action": "Author correction https://github.com/tsrnc2/fly-by-wire-c/pull/558 verified;browser14/22\u219221/22,remaining case-file dependency;unit4/4,existing5PASS,manual1/2 unchanged. Qualified KWH-CLUE-SUPER-SPEND-REVIEW-R1 and accepted composition pending;https://github.com/tsrnc2/kitt/issues/352. No merge/deployment.",
       "blocked_at": "2026-10-21T14:51:42.716525Z"
+    },
+    {
+      "id": "KWH-WB-BACKTRACE-FAILURE-STATE-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Preserve unavailable versus reported-empty Workbench backtrace",
+      "state": "RUNNING",
+      "priority": "P1",
+      "claimed_by": "codex-01a15457-backtrace",
+      "claim_expires_at": "2026-10-21T16:55:39.924558Z",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/557",
+      "updated_at": "2026-10-21T14:58:28.440311Z",
+      "next_action": "Reproduce and repair existing Workbench backtrace availability only;no Concept build or runtime adoption;preserve held source owners."
     }
   ],
   "blockers": [
@@ -8050,5 +8062,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T14:56:38.494526Z"
+  "updated_at": "2026-10-21T14:58:28.440329Z"
 }
