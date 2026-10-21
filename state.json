@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T15:43:59.151261Z",
+    "generated_at": "2026-10-21T15:44:37.849552+00:00",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6688,16 +6688,21 @@
     {
       "id": "KITT-20261020-GUARDIAN-MATRIX-GAP-RECOVERY-REVIEW",
       "project_id": "kitt",
-      "state": "RUNNING",
-      "claimed_by": "codex-waypoint-guardian-tech-review-20261021",
-      "claimed_at": "2026-10-21T13:37:48.508631+00:00",
-      "claim_expires_at": "2026-10-21T16:21:51.323008+00:00",
-      "owner_agent": "codex-waypoint-guardian-tech-review-20261021",
-      "updated_at": "2026-10-21T15:41:51.322994+00:00",
+      "state": "BLOCKED",
+      "claimed_by": null,
+      "claimed_at": null,
+      "claim_expires_at": null,
+      "owner_agent": null,
+      "updated_at": "2026-10-21T15:44:37.849552+00:00",
       "execution_mode": "OWNER_SCOPED_TECHNICAL_REVIEW",
       "independent_acceptance": false,
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-20261020-GUARDIAN-MATRIX-GAP-RECOVERY-REVIEW.json",
-      "next_action": "Reconcile exact shared Drive93-to94 receipt as a separate bounded caretaker task, then resume this frozen private source review. Qualification/independent acceptance remains unknown."
+      "next_action": "Author fixes opaque/malformed encrypted SDK event refusal and adds gap/tail, decryption and atomicity regressions; publish fresh exact source. Then qualified independent review and separately authorized live rollout with encrypted request-result evidence.",
+      "claim_heartbeat_at": null,
+      "technical_verdict": "CHANGES_REQUIRED",
+      "qualification": "UNKNOWN",
+      "evidence_ref": "https://github.com/tsrnc2/linode-freebsd-vpn/tree/8c76f9d5730a07800b06f4104133ffb26b3c278b/reports/codex/guardian-gap-technical-review-20261021",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/233"
     },
     {
       "id": "KWH-BLD-DOORS-WINDOWS-REVIEW-R1",
