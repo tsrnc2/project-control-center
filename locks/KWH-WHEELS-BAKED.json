@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-WHEELS-BAKED",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-sr-delegated-wheel-rig-20261021",
+  "lock_token": "a85c2c52d161d1eab898055681bc8fdc925c19a9fddcf3aa",
+  "acquired_at": "2026-10-21T17:22:16.020205Z",
+  "heartbeat_at": "2026-10-21T17:22:16.020205Z",
+  "expires_at": "2026-10-21T19:22:08.252594Z",
+  "run_ref": "kwh-wheel-rig-20261021"
+}
