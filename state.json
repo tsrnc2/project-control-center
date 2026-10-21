@@ -2352,15 +2352,15 @@
       "id": "KWH-PH-PROP-ROCK",
       "project_id": "kludge-wagon-haywire",
       "title": "Replace placeholder model: prop_rock",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P3",
-      "claimed_by": "codex-fbw-goal-api",
-      "claim_expires_at": "2026-10-21T17:42:40.724898Z",
-      "updated_at": "2026-10-21T15:42:40.724898Z",
-      "next_action": "Prepare original three-rock source kit with exact legacy bounds and native collision fixture; distinct review/composition required.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T16:09:11.444240Z",
+      "next_action": "Coordinator binds an actually qualified distinct source/native/art reviewer on exact b2dc53fed3fc7549f0be78b94aa4a2d37041a024; review scope/bounds/collision/fallback and reproduce fresh controls. Owner decides asset/world use; preserve collision-polish and asset authors and review exact combined source before adoption.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/11"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/578"
     },
     {
       "id": "KWH-PH-PROP-SAGEBRUSH",
@@ -8304,5 +8304,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T16:08:46.277680Z"
+  "updated_at": "2026-10-21T16:09:11.444240Z"
 }
