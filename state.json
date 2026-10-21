@@ -3400,15 +3400,25 @@
       "id": "KWH-DMG-MANUAL",
       "project_id": "kludge-wagon-haywire",
       "title": "Damage: Car Manual defensive-programming lesson",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-damage-manual",
-      "claim_expires_at": "2026-10-21T17:09:53.864204Z",
-      "updated_at": "2026-10-21T15:40:20.445925Z",
-      "next_action": "Author source-grounded defensive-programming Manual lesson; preserve existing unlock/skin/damage behavior and qualified review gate.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T15:42:01.110592Z",
+      "next_action": "Review the exact private candidate, reconcile lesson against accepted KWH-DMG-FUZZ generated failures, then run integrated game/platform verification before adoption. Do not infer runtime/model qualification or deployment from author tests.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/180"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/180",
+      "ownership_history": [
+        {
+          "claimed_by": "codex-damage-manual",
+          "claim_expires_at": "2026-10-21T17:09:53.864204Z",
+          "released_at": "2026-10-21T15:42:01.110592Z"
+        }
+      ],
+      "release_operation_id": "KWH-DMG-MANUAL-author-handoff",
+      "candidate_pr": "https://github.com/tsrnc2/fly-by-wire-c/pull/565",
+      "blocker_issue": "https://github.com/tsrnc2/kitt/issues/357"
     },
     {
       "id": "KWH-DMG-TEST",
@@ -8162,5 +8172,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T15:41:35.004339Z"
+  "updated_at": "2026-10-21T15:42:01.110592Z"
 }
