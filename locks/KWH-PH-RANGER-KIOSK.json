@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-PH-RANGER-KIOSK",
+  "agent_id": "codex-cedar-persistent",
+  "lock_token": "72db2fe185d0275820d07b17e713bf828bf471805ab03720",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T17:55:31.531912Z",
+  "heartbeat_at": "2026-10-21T17:55:31.531945Z",
+  "expires_at": "2026-10-21T19:55:31.531951Z",
+  "run_ref": "Issue15 private original ranger-kiosk model author candidate; no finalart acceptance"
+}
