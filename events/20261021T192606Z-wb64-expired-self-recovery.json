@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-21T19:26:01.898129+00:00",
+  "task_id": "KWH-WB-64BIT",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-fbw-sequential",
+  "event_type": "EXPIRED_SELF_LOCK_RECOVERED",
+  "previous_expiry": "2026-10-21T18:56:46.615941+00:00",
+  "recovery_operation_id": "wb64-expired-self-recovery-2026-10-21T185700_301785_0000"
+}

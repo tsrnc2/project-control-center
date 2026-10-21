@@ -2197,14 +2197,15 @@
       "state": "RUNNING",
       "priority": "P2",
       "claimed_by": "codex-fbw-sequential",
-      "claim_expires_at": "2026-10-21T18:57:00.301785+00:00",
-      "updated_at": "2026-10-21T16:57:00.301785+00:00",
+      "claim_expires_at": "2026-10-21T21:26:01.898129+00:00",
+      "updated_at": "2026-10-21T19:26:01.898129+00:00",
       "next_action": "Acceptance: x86-64 program runs; rax/syscall visible in stepping",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/106",
-      "claimed_at": "2026-10-21T16:56:46.615941+00:00",
-      "claim_heartbeat_at": "2026-10-21T16:57:00.301785+00:00"
+      "claimed_at": "2026-10-21T19:26:01.898129+00:00",
+      "claim_heartbeat_at": "2026-10-21T19:26:01.898129+00:00",
+      "recovery_operation_id": "wb64-expired-self-recovery-2026-10-21T185700_301785_0000"
     },
     {
       "id": "KWH-WB-STDIN",
@@ -9136,5 +9137,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:25:33.339418Z"
+  "updated_at": "2026-10-21T19:26:01.898129+00:00"
 }
