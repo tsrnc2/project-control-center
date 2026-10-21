@@ -2801,15 +2801,16 @@
       "id": "KWH-MKT-PRICING",
       "project_id": "kludge-wagon-haywire",
       "title": "Pricing + regional pricing research",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "codex-fbw-goal-api",
-      "claim_expires_at": "2026-10-21T03:33:44.974230Z",
-      "updated_at": "2026-10-21T01:33:44.974230Z",
-      "next_action": "Marketing. Acceptance: Comparable titles table + recommended price + regional table. Unclaimed.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T01:43:11.384289Z",
+      "next_action": "Jobo may review the conditionalUSD14.99planning base after paid scope/playtime/value/build qualification, approve or revise the complete regional matrix with authorized current pricing tools/local feedback, and decide any discount separately. Keep external priceTBD; no account or public changes authorized.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/142"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/509",
+      "result_summary": "Private draft completed; no public distribution approval."
     },
     {
       "id": "KWH-MKT-ACHIEVEMENTS",
@@ -7562,5 +7563,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T01:42:07.071152+00:00"
+  "updated_at": "2026-10-21T01:43:11.384289Z"
 }
