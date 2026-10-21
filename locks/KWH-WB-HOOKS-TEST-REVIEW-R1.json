@@ -1,9 +1,0 @@
-{
-  "task_id": "KWH-WB-HOOKS-TEST-REVIEW-R1",
-  "project_id": "kludge-wagon-haywire",
-  "agent_id": "codex-waypoint-wb-hooks-review-20261021",
-  "lock_token": "ac55bbdeafe8edf64a2db766faa5e5d68504fb80192c99fe",
-  "acquired_at": "2026-10-21T03:20:59.121238Z",
-  "expires_at": "2026-10-21T05:20:59.121251Z",
-  "run_ref": "owner-scoped-pr512-technical-review-20261021"
-}
