@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T01:35:23.533105Z",
+    "generated_at": "2026-10-21T01:41:31.021222Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -928,15 +928,16 @@
       "id": "KWH-BLD-BALCONIES",
       "project_id": "kludge-wagon-haywire",
       "title": "Building detail kit: balconies + railings",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-kwh-balconies-20261021",
-      "claim_expires_at": "2026-10-21T03:34:59.836483Z",
-      "updated_at": "2026-10-21T01:35:23.533076Z",
-      "next_action": "Verify exact-source reusable balconies/railings, actual anchor placement on2buildings and native rendered evidence; preserve PR499 and qualified adoption gates.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T01:41:31.021183Z",
+      "next_action": "Qualified independent exact-source review under KWH-BLD-LEDGES-TRANSFORM-REVIEW-R1, positive acceptance and normal PR499 integration, then retest original balcony task on exact integrated revision. Preserve current owners; a negative review is not acceptance.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/38"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/508",
+      "blocker_issue": "https://github.com/tsrnc2/kitt/issues/279"
     },
     {
       "id": "KWH-BLD-DOORS-WINDOWS",
@@ -7535,5 +7536,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T01:38:54.005879Z"
+  "updated_at": "2026-10-21T01:41:31.021218Z"
 }
