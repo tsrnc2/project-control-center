@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T17:02:23.536341Z",
+    "generated_at": "2026-10-21T17:02:45.623208Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -7211,12 +7211,13 @@
       "id": "KITT-20261021-LRP-COMPANION-SNAPSHOT-R1",
       "project_id": "kitt",
       "title": "Preserve LRP protocol/contract companion source bytes",
-      "state": "RUNNING",
-      "claimed_by": "codex-sr-delegated-lrp-companions-20261021",
-      "claim_expires_at": "2026-10-21T18:53:16.379967Z",
-      "updated_at": "2026-10-21T16:53:21.787875Z",
-      "next_action": "Prepare bounded hash-indexed companion snapshot/staging source;preserve upstream pin/semantics,source-home,redaction/review and rollout gates.",
-      "claim_heartbeat_at": "2026-10-21T16:53:21.787861Z"
+      "state": "BLOCKED",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T17:02:45.623168Z",
+      "next_action": "Source-only companion proposal https://github.com/tsrnc2/kitt/pull/400 verified23focused+original8/8both;1643skills/3draftroles/154inventory entries preserved;34companions staged. Source-home PR332/issue299,qualified KITT-20261021-LRP-COMPANION-SNAPSHOT-REVIEW-R1 and separate updater/live readback pending;https://github.com/tsrnc2/kitt/issues/416. No installation/admission;author artifacts remain task-local observations.",
+      "claim_heartbeat_at": "2026-10-21T16:53:21.787861Z",
+      "blocked_at": "2026-10-21T17:02:45.623188Z"
     },
     {
       "id": "KITT-20261021-FLEET-STATUS-DELTA-R1",
@@ -8575,5 +8576,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T16:59:30.809107Z"
+  "updated_at": "2026-10-21T17:02:45.623203Z"
 }
