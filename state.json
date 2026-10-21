@@ -2515,15 +2515,15 @@
       "id": "KWH-PH-PROP-TELEPHONE-POLE",
       "project_id": "kludge-wagon-haywire",
       "title": "Replace placeholder model: prop_telephone_pole",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P3",
-      "claimed_by": "codex-fbw-goal-api",
-      "claim_expires_at": "2026-10-21T21:25:33.339418Z",
-      "updated_at": "2026-10-21T19:25:33.339418Z",
-      "next_action": "Prepare original telephone-pole GLB with legacy bounds/pivot and native collision/fallback evidence;qualified distinct review/composition remains held.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T19:50:40.113683Z",
+      "next_action": "Coordinator binds an actually qualified distinct source/native/art reviewer on exact 3b41c9a495f5a85c6609b948f722fcfbc9662975; review scope/bounds/collision/fallback and reproduce fresh controls. Owner approves appearance/local-tie detail;preserve other collision/asset candidates and review exact combined source before world adoption.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/14"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/628"
     },
     {
       "id": "KWH-PH-RANGER-KIOSK",
@@ -9278,5 +9278,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:50:55.555994Z"
+  "updated_at": "2026-10-21T19:50:40.113683Z"
 }
