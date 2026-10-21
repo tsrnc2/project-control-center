@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-21T01:22:45.388763+00:00",
+  "task_id": "KWH-WORLD-ANIMALS",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-fbw-sequential",
+  "event_type": "EXPIRED_SELF_LOCK_RECOVERED",
+  "previous_expiry": "2026-10-21T00:23:17.287886+00:00",
+  "recovery_operation_id": "ground-animals-expired-self-recovery-20261021"
+}
