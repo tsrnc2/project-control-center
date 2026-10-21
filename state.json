@@ -2387,15 +2387,20 @@
       "id": "KWH-PH-PROP-HIGHWAY-SEGMENT",
       "project_id": "kludge-wagon-haywire",
       "title": "Replace placeholder model: prop_highway_segment",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P3",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T19:43:47.028738Z",
-      "updated_at": "2026-10-21T17:43:57.673138Z",
-      "next_action": "Original highwaysegment;preserve13realplacements/solidity/oldfootprint;qualifiedart/source/Joboapprovalheld.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T17:52:49.357698Z",
+      "next_action": "Bind an actually qualified distinct source/art reviewer and Jobo final appearance/marking approval. Verify provenance, exact geometry, the per-asset precision import setting, preserved envelope/13 placements/solidity and fresh evidence. Reconcile approved-source composition before actual world/export/platform/distance/LOD and memory/performance acceptance. Review frozen d531afa8c11ce390518db8627666b0264af7bbce through KWH-PH-PROP-HIGHWAY-SEGMENT-REVIEW-R1.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/10"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/602",
+      "dispatch_allowed": false,
+      "candidate_revision": "d531afa8c11ce390518db8627666b0264af7bbce",
+      "blocker_issue": "https://github.com/tsrnc2/kitt/issues/431",
+      "author_completion": "DONE",
+      "review_task": "KWH-PH-PROP-HIGHWAY-SEGMENT-REVIEW-R1"
     },
     {
       "id": "KWH-PH-PROP-ROCK",
@@ -7488,6 +7493,21 @@
       "candidate_revision": "63e2d4f01af0e9537bfa2ac734cccf9fefc5bec6",
       "updated_at": "2026-10-21T17:39:24.699451Z",
       "next_action": "Coordinator binds actually qualified distinct art/source reviewer andJobo finalart approval to 63e2d4f01af0e9537bfa2ac734cccf9fefc5bec6 through KWH-PH-PROP-FENCE-4M-REVIEW-R1. Verify original3post/2splitrail geometry/provenance,one road-fenceloaderline/oldnotices,140triangleGLB/normals/winding/colors andexactAABB/groundorigin;source-exact20actualterrainplacements/nonsolid behavior andscaled/solidcollisioncontrols;firstfixturefailures/freshreproduction. Reconcile acceptedsource composition separately frombuilding-detailPR531 andsignpostPR599. Actualworld/export/platform/distanceLOD/performance remainheld. No finalart self-acceptance,merge/deploy orpaidservice."
+    },
+    {
+      "id": "KWH-PH-PROP-HIGHWAY-SEGMENT-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified original highway geometry/import/source/art review and Jobo final approval",
+      "state": "READY",
+      "priority": "P3",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "dispatch_allowed": false,
+      "dependencies": [],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/602",
+      "candidate_revision": "d531afa8c11ce390518db8627666b0264af7bbce",
+      "updated_at": "2026-10-21T17:52:49.357812Z",
+      "next_action": "Bind an actually qualified distinct source/art reviewer and Jobo final appearance/marking approval. Verify provenance, exact geometry, the per-asset precision import setting, preserved envelope/13 placements/solidity and fresh evidence. Reconcile approved-source composition before actual world/export/platform/distance/LOD and memory/performance acceptance. Review frozen d531afa8c11ce390518db8627666b0264af7bbce through KWH-PH-PROP-HIGHWAY-SEGMENT-REVIEW-R1."
     }
   ],
   "blockers": [
@@ -8744,5 +8764,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T17:48:59.606255Z"
+  "updated_at": "2026-10-21T17:52:49.357824Z"
 }
