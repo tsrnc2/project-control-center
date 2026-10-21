@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T01:41:31.021222Z",
+    "generated_at": "2026-10-21T01:42:07.071152+00:00",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6399,6 +6399,23 @@
       "blocker_ref": "https://github.com/tsrnc2/kitt/issues/302",
       "result_summary": "Published source-bound provider disposition proposal https://github.com/tsrnc2/project-control-center-private/pull/6;11template providers/5candidate keeps/6proposed exclusions plus Cloudflare exclusion. Source/template consistency verified; current host/grants/provider health unknown. No provider calls, credentials or grant changes.",
       "next_action": "Owner/operator reviews concrete proposal, verifies intended-host installed plugin/grant/counters/expiry and current provider account eligibility, decides keep/fix/drop and applies only an explicitly approved scoped delta. Verify actual provider dispositions and installed-list matching before completion. No automatic credential or grant changes."
+    },
+    {
+      "id": "KITT-20261021-LRP-SKILL-ID-INTEGRITY",
+      "project_id": "kitt",
+      "title": "Preserve LRP skill identity integrity without weakening secret redaction",
+      "state": "BLOCKED",
+      "priority": "P1",
+      "updated_at": "2026-10-21T01:42:07.071152+00:00",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "canonical_task_blob": "7adc0f4700e1eae0f2dc6320f6b3898bb70ff070",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-20261021-LRP-SKILL-ID-INTEGRITY.json",
+      "evidence_ref": "https://github.com/tsrnc2/kitt/pull/305",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/306",
+      "result_summary": "Read-only source-bound diagnosis https://github.com/tsrnc2/kitt/pull/305 proves65of1643skill IDs corrupted;65full-catalog search/get replay failures and65exact upstream blob matches;24synthetic raw-secret controls pass unchanged. No product/redaction repair or qualified security verdict.",
+      "next_action": "Qualified security/consumer owner defines identity-integrity and secret-redaction policy, then a separate source-bound successor must pass replay/confidentiality/authority tests, independent review and canonical source/package/updater gates. Preserve PR298 and all live role/model/trust state.",
+      "independent_acceptance": false
     }
   ],
   "blockers": [
@@ -6673,6 +6690,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-21T01:42:07.071152+00:00",
+      "type": "SOURCE_CORRECTION_REVIEW_GATE",
+      "project_id": "kitt",
+      "task_id": "KITT-20261021-LRP-SKILL-ID-INTEGRITY",
+      "summary": "65 source-bound skill lookup identity failures reproduced; confidentiality/identity policy and qualified successor review remain. Installed tool unchanged."
+    },
     {
       "at": "2026-10-21T01:34:13.847455+00:00",
       "type": "SOURCE_CORRECTION_REVIEW_GATE",
@@ -7536,5 +7560,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T01:41:31.021218Z"
+  "updated_at": "2026-10-21T01:42:07.071152+00:00"
 }
