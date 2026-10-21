@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-ECU-SAME-TICK",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-sr-delegated-ecu-same-tick-20261021",
+  "lock_token": "cd3be69d48bacaa56c0a18f593722a8d569898492e9e3cdc",
+  "acquired_at": "2026-10-21T21:26:52.669600Z",
+  "heartbeat_at": "2026-10-21T21:26:52.669600Z",
+  "expires_at": "2026-10-21T23:26:20.105021Z",
+  "run_ref": "ecu-same-tick-20261021"
+}
