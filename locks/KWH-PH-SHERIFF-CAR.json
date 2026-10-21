@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-PH-SHERIFF-CAR",
+  "agent_id": "codex-cedar-persistent",
+  "lock_token": "055f6d0229df146bdd7839ad7d07f115c1152c0bc2389bc8",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T18:09:18.576056Z",
+  "heartbeat_at": "2026-10-21T18:09:18.576070Z",
+  "expires_at": "2026-10-21T20:09:18.576073Z",
+  "run_ref": "Issue16 private original static sheriff prop model author candidate; no finalart acceptance"
+}
