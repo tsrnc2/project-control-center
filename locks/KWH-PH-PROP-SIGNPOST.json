@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-PH-PROP-SIGNPOST",
+  "agent_id": "codex-cedar-persistent",
+  "lock_token": "a65098906e7e70099e0f9fe053186955d96b4e57e83b8384",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T17:13:25.305274Z",
+  "heartbeat_at": "2026-10-21T17:13:25.305286Z",
+  "expires_at": "2026-10-21T19:13:25.305289Z",
+  "run_ref": "Issue13 private original signpost model author candidate; no finalart acceptance"
+}
