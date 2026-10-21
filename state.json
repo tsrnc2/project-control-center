@@ -7252,6 +7252,18 @@
       "updated_at": "2026-10-21T16:55:04.626798Z",
       "source_ref": "https://github.com/tsrnc2/kitt/issues/398",
       "next_action": "Bind eligible distinct reviewer to exact artifact;no self-qualification or inherited precursor acceptance."
+    },
+    {
+      "id": "KWH-VEH-SAILBOAT-STRIPE-REPAIR-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Narrow sailboat stripe source repair for issue376",
+      "state": "RUNNING",
+      "priority": "P2",
+      "claimed_by": "codex-sailboat-stripe-cedar",
+      "claim_expires_at": "2026-10-21T18:56:38.523464Z",
+      "updated_at": "2026-10-21T16:57:19.275081Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/issues/376",
+      "next_action": "Frozen-source stripe geometry correction and actual native renders; preserve parentBLOCKED and independent source/art acceptance."
     }
   ],
   "blockers": [
@@ -8495,5 +8507,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T16:57:00.301785+00:00"
+  "updated_at": "2026-10-21T16:57:19.275102Z"
 }
