@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "project_id": "project-merger",
+  "task_id": "PM-011",
+  "agent_id": "codex-long-term-sequential",
+  "lock_token": "aa17fa7471d8a5f2baf642ad4fd4bc6627ca7e8c8ec31dee",
+  "acquired_at": "2026-10-21T01:26:32.196496Z",
+  "heartbeat_at": "2026-10-21T01:26:32.196496Z",
+  "expires_at": "2026-10-21T02:11:32.196527Z",
+  "run_ref": "pm011-cedar-delta-20261020-comparison-correction"
+}
