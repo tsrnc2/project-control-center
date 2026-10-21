@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-21T15:38:45.656868+00:00",
+  "task_id": "KWH-TUNNEL-LAIR",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-fbw-sequential",
+  "event_type": "EXPIRED_SELF_LOCK_RECOVERED",
+  "previous_expiry": "2026-10-21T15:33:41.839010+00:00",
+  "recovery_operation_id": "lair-expired-self-recovery-2026-10-21T153341_839010_0000"
+}

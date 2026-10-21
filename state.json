@@ -1428,15 +1428,15 @@
       "state": "RUNNING",
       "priority": "P2",
       "claimed_by": "codex-fbw-sequential",
-      "claim_expires_at": "2026-10-21T15:33:41.839010+00:00",
-      "updated_at": "2026-10-21T13:33:41.839010+00:00",
+      "claim_expires_at": "2026-10-21T17:38:45.656868+00:00",
+      "updated_at": "2026-10-21T15:38:45.656868+00:00",
       "next_action": "Acceptance: Lair room with >=3 interactable clue props tied to Ep1 story",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/69",
-      "claimed_at": "2026-10-21T13:33:41.839010+00:00",
-      "claim_heartbeat_at": "2026-10-21T13:33:41.839010+00:00",
-      "recovery_operation_id": "lair-expired-self-recovery-20261021T1327"
+      "claimed_at": "2026-10-21T15:38:45.656868+00:00",
+      "claim_heartbeat_at": "2026-10-21T15:38:45.656868+00:00",
+      "recovery_operation_id": "lair-expired-self-recovery-2026-10-21T153341_839010_0000"
     },
     {
       "id": "KWH-TUNNEL-GPS",
@@ -8134,5 +8134,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T15:33:31.095104Z"
+  "updated_at": "2026-10-21T15:38:45.656868+00:00"
 }
