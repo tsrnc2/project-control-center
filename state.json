@@ -2422,15 +2422,15 @@
       "id": "KWH-PH-PROP-SAGEBRUSH",
       "project_id": "kludge-wagon-haywire",
       "title": "Replace placeholder model: prop_sagebrush",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P3",
-      "claimed_by": "codex-fbw-goal-api",
-      "claim_expires_at": "2026-10-21T18:49:28.932414Z",
-      "updated_at": "2026-10-21T16:49:28.932414Z",
-      "next_action": "Prepare original sagebrush GLB with legacy bounds/pivot and native collision/fallback evidence;qualified distinct review/composition remains held.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T18:02:04.133312Z",
+      "next_action": "Coordinator binds an actually qualified distinct source/native/art reviewer on exact 980d01785d82c8004d66420f2d39db64d186a60a; review scope/bounds/collision/fallback and reproduce fresh controls. Owner decides asset/world use; preserve collision-polish and asset authors and review exact combined source before adoption.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/12"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/605"
     },
     {
       "id": "KWH-PH-PROP-SIGNPOST",
@@ -8814,5 +8814,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T18:01:51.723511+00:00"
+  "updated_at": "2026-10-21T18:02:04.133312Z"
 }
