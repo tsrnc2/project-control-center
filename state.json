@@ -3635,12 +3635,13 @@
       "state": "RUNNING",
       "priority": "P1",
       "claimed_by": "codex-waypoint-damage-collision",
-      "claim_expires_at": "2026-10-21T18:59:30.809128Z",
-      "updated_at": "2026-10-21T16:59:30.809107Z",
+      "claim_expires_at": "2026-10-21T21:33:26.516606Z",
+      "updated_at": "2026-10-21T19:33:26.516587Z",
       "next_action": "Disjoint collision-to-model producer/scripted-impact evidence only; preserve live TERRAIN world/shell ownership and full audio/game/review gates.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/184"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/184",
+      "claim_heartbeat_at": "2026-10-21T19:33:26.516587Z"
     },
     {
       "id": "KWH-DMG-TRAILS-TEST",
@@ -9166,5 +9167,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:33:13.092194Z"
+  "updated_at": "2026-10-21T19:33:26.516587Z"
 }

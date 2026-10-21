@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0",
+  "event": "same-owner-expired-lease-recovery",
+  "task_id": "KWH-DMG-COLLISION",
+  "agent_id": "codex-waypoint-damage-collision",
+  "created_at": "2026-10-21T19:33:26.516587Z",
+  "previous_expires_at": "2026-10-21T18:59:30.809128Z",
+  "reason": "Interactive owner continued after interrupted turn; exact existing owner and private token verified; no surviving own fixture process. No takeover of another owner."
+}

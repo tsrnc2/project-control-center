@@ -3,9 +3,14 @@
   "project_id": "kludge-wagon-haywire",
   "task_id": "KWH-DMG-COLLISION",
   "agent_id": "codex-waypoint-damage-collision",
-  "lock_token": "c6ba5265b97f054583e0da14ea394c0bb7bfad03faee6401",
+  "lock_token": "126fbcfeac7b0e89383e73cd13d99f453536de88c02e368d",
   "mode": "exclusive",
-  "acquired_at": "2026-10-21T16:59:30.809107Z",
-  "heartbeat_at": "2026-10-21T16:59:30.809107Z",
-  "expires_at": "2026-10-21T18:59:30.809128Z"
+  "acquired_at": "2026-10-21T19:33:26.516587Z",
+  "heartbeat_at": "2026-10-21T19:33:26.516587Z",
+  "expires_at": "2026-10-21T21:33:26.516606Z",
+  "takeover_of": {
+    "agent_id": "codex-waypoint-damage-collision",
+    "expires_at": "2026-10-21T18:59:30.809128Z",
+    "event": "control-plane/events/20261021T193326Z-collision-same-owner-resume.json"
+  }
 }
