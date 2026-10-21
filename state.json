@@ -2703,15 +2703,20 @@
       "id": "KWH-MKT-SYSREQS",
       "project_id": "kludge-wagon-haywire",
       "title": "Steam store: system requirements (min/recommended)",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T20:38:16.651150Z",
-      "updated_at": "2026-10-21T18:38:25.161951Z",
-      "next_action": "Measured webprerelease reference environment only;unknownminimum/recommended/desktop/SLO/qualification fields held;boundedresource-safe diagnostic beforeprivatedraft publication.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T18:51:47.965852Z",
+      "next_action": "Owner/Jobo bind target web/desktop platforms, candidate minimum/recommended physical hardware, correctness/visual/FPS/latency budgets and residual-risk owner. Bind actually qualified distinct source/protocol reviewer; assess frozen artifacts, guard/censoring and PID0 helper defect. Then separately lease/freeze a corrected bounded measurement task on representative devices, preserving failed outcomes and covering lifecycle/load/storage/cache/desktop gaps. No blind rerun or readiness/minimum declaration from this abort. Review frozen 0e4884e6e63ad483b6544acaac46463f7b347ff1 through KWH-MKT-SYSREQS-REVIEW-R1.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/122"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/616",
+      "dispatch_allowed": false,
+      "candidate_revision": "0e4884e6e63ad483b6544acaac46463f7b347ff1",
+      "blocker_issue": "https://github.com/tsrnc2/kitt/issues/444",
+      "author_completion": "PARTIAL",
+      "review_task": "KWH-MKT-SYSREQS-REVIEW-R1"
     },
     {
       "id": "KWH-MKT-CONTENT-SURVEY",
@@ -7739,6 +7744,21 @@
       "updated_at": "2026-10-21T18:44:05.705650Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/events/KITT-20261021-REGISTRY-REV98.json",
       "next_action": "Continueeligiblework usingverifiedrevision98;all43projectobjects/KWHscopeownership unchanged;notdomainassessmentcertification,qualification/acceptance/fullportfolioaudit."
+    },
+    {
+      "id": "KWH-MKT-SYSREQS-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified exact-build system-requirements protocol and aborted-run review",
+      "state": "READY",
+      "priority": "P3",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "dispatch_allowed": false,
+      "dependencies": [],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/616",
+      "candidate_revision": "0e4884e6e63ad483b6544acaac46463f7b347ff1",
+      "updated_at": "2026-10-21T18:51:47.965942Z",
+      "next_action": "Owner/Jobo bind target web/desktop platforms, candidate minimum/recommended physical hardware, correctness/visual/FPS/latency budgets and residual-risk owner. Bind actually qualified distinct source/protocol reviewer; assess frozen artifacts, guard/censoring and PID0 helper defect. Then separately lease/freeze a corrected bounded measurement task on representative devices, preserving failed outcomes and covering lifecycle/load/storage/cache/desktop gaps. No blind rerun or readiness/minimum declaration from this abort. Review frozen 0e4884e6e63ad483b6544acaac46463f7b347ff1 through KWH-MKT-SYSREQS-REVIEW-R1."
     }
   ],
   "blockers": [
@@ -8995,5 +9015,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T18:49:01.877752Z"
+  "updated_at": "2026-10-21T18:51:47.965948Z"
 }
