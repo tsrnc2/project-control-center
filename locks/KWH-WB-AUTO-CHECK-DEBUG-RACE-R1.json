@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-WB-AUTO-CHECK-DEBUG-RACE-R1",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-sr-delegated-debug-race-20261021",
+  "lock_token": "dfdf00c270df4c99dd040cd22ab2a4edcc7eecb356f14ad0",
+  "acquired_at": "2026-10-21T13:59:53.296775Z",
+  "heartbeat_at": "2026-10-21T13:59:53.296775Z",
+  "expires_at": "2026-10-21T15:59:48.768781Z",
+  "run_ref": "workbench-debug-race-draft-20261021"
+}
