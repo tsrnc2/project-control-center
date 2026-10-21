@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T13:36:20.586632Z",
+    "generated_at": "2026-10-21T13:36:26.937066Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -3886,12 +3886,12 @@
       "id": "KWH-MINI-LOADBAL",
       "project_id": "kludge-wagon-haywire",
       "title": "Concept: Load Balancer/queue design viz \u2014 draft",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P2",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T02:46:13Z",
-      "next_action": "DRAFT concept. Needs Jobo design review via MINI-DESIGN before build.",
+      "claimed_by": "codex-01a15457-loadbal",
+      "claim_expires_at": "2026-10-21T15:36:12.206684Z",
+      "updated_at": "2026-10-21T13:36:26.937046Z",
+      "next_action": "Draft queue/load-balancer concept only; no build before Jobo approval; preserve other owners.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/221"
@@ -7892,5 +7892,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T13:36:20.586629Z"
+  "updated_at": "2026-10-21T13:36:26.937063Z"
 }
