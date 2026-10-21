@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T13:37:48.508631+00:00",
+    "generated_at": "2026-10-21T13:38:43.920467Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6657,14 +6657,17 @@
       "id": "KWH-WB-HOOKS-ERROR-REPAIR-R1",
       "project_id": "kludge-wagon-haywire",
       "title": "Repair unexpected page-error masking in Workbench hook negative controls",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "codex-waypoint-hooks-error-repair",
-      "claimed_at": "2026-10-21T03:31:05.439400Z",
-      "claim_expires_at": "2026-10-21T15:27:13.395422Z",
-      "updated_at": "2026-10-21T13:27:13.395405Z",
-      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-WB-HOOKS-ERROR-REPAIR-R1.json",
-      "claim_heartbeat_at": "2026-10-21T13:27:13.395405Z"
+      "claimed_by": null,
+      "claimed_at": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T13:38:43.920467Z",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/540",
+      "claim_heartbeat_at": null,
+      "completed_at": "2026-10-21T13:38:43.920467Z",
+      "result_summary": "Authored R1 repair: baseline paired-error false pass reproduced; repaired clean116checks pass, five-negative paired-error and positive-only error suites exit1. Production unchanged. https://github.com/tsrnc2/fly-by-wire-c/pull/540",
+      "next_action": "Qualified exact-source review via KWH-WB-HOOKS-ERROR-REVIEW-R2 then separately authorized integration; preserve original parent/review BLOCKED gates."
     },
     {
       "id": "KWH-BLD-PLANTS-REVIEW-R1",
@@ -6694,6 +6697,18 @@
       "updated_at": "2026-10-21T13:36:54.627880Z",
       "evidence_ref": "https://github.com/tsrnc2/kitt/blob/43a3a5a3b521a1abdafe3f68cb6c5dc4f4cbbe0b/reports/codex-standing-fbw/lrp-source-packaging-20261021/REPORT.md",
       "next_action": "Accountable maintainer selects source home/provenance status; eligible independent reviewer reviews exact repair/package boundary; only then separately authorized updater/rollback and live list/get readback. Original issue299 and security-policy issue306 remain open; source preparation does not grant authority."
+    },
+    {
+      "id": "KWH-WB-HOOKS-ERROR-REVIEW-R2",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Review exact Workbench hook page-error finalization repair",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "dispatch_allowed": false,
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/540",
+      "updated_at": "2026-10-21T13:38:43.920467Z",
+      "next_action": "Coordinator binds actual eligible distinct reviewer before enabling dispatch. Existing issue308 and parent gates remain open."
     }
   ],
   "blockers": [
