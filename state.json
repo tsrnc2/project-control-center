@@ -3640,12 +3640,12 @@
       "id": "KWH-BLD-TEST",
       "project_id": "kludge-wagon-haywire",
       "title": "Buildings: variety system automated tests",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P2",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T02:18:32Z",
-      "next_action": "READY for any agent. See issue acceptance criteria.",
+      "claimed_by": "codex-building-tests-01a15507",
+      "claim_expires_at": "2026-10-21T18:10:47.090871Z",
+      "updated_at": "2026-10-21T16:10:53.181677Z",
+      "next_action": "Prepare current-main native dresser regression fixture and evidence; preserve other owners and all review gates.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/194"
@@ -8304,5 +8304,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T16:09:11.444240Z"
+  "updated_at": "2026-10-21T16:10:53.181696Z"
 }

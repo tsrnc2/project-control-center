@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-BLD-TEST",
+  "agent_id": "codex-building-tests-01a15507",
+  "lock_token": "3c75df4614541b599eafd604bd7993ad1300ad63901a0580",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T16:10:47.090845Z",
+  "heartbeat_at": "2026-10-21T16:10:47.090865Z",
+  "expires_at": "2026-10-21T18:10:47.090871Z",
+  "run_ref": "Original issue194 current-main dresser regression author fixture; no acceptance or deployment"
+}
