@@ -1367,17 +1367,24 @@
       "id": "KWH-TUNNEL-BODIE",
       "project_id": "kludge-wagon-haywire",
       "title": "Bodie tunnel network (mine shaft/storm drain entry, second exit)",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-fbw-sequential",
-      "claim_expires_at": "2026-10-21T03:46:20.620028+00:00",
-      "updated_at": "2026-10-21T01:46:20.620028+00:00",
-      "next_action": "Acceptance: Traversable on foot end-to-end; two surface exits; no fall-through",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T03:12:39.759041+00:00",
+      "next_action": "Tested source/Web-pack correction published;qualified distinct exact-source review KWH-TUNNEL-BODIE-REVIEW-R1 and authorized integration remain. Issue68 stays open;own execution ownership released.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/68",
-      "claimed_at": "2026-10-21T01:46:10.915667+00:00",
-      "claim_heartbeat_at": "2026-10-21T01:46:20.620028+00:00"
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "canonical_task_blob": "99974771b73c6d40724c1122dd546aa195850865",
+      "canonical_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-TUNNEL-BODIE.json",
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/519",
+      "blocker_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/68",
+      "review_task": "KWH-TUNNEL-BODIE-REVIEW-R1",
+      "release_operation_id": "bodie-tunnel-source-review-release-20261021",
+      "last_execution_owner": "codex-fbw-sequential"
     },
     {
       "id": "KWH-TUNNEL-LAIR",
@@ -6818,6 +6825,13 @@
   ],
   "activity": [
     {
+      "at": "2026-10-21T03:12:39.759041+00:00",
+      "type": "TASK_BLOCKED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-TUNNEL-BODIE",
+      "summary": "Bodie tunnel shaft repair and Web pack verified/published;independent review pending;own locks released;https://github.com/tsrnc2/fly-by-wire-c/pull/519"
+    },
+    {
       "at": "2026-10-21T01:44:13.824487+00:00",
       "type": "BOUNDED_TECHNICAL_REVIEW_RECORDED",
       "project_id": "kludge-wagon-haywire",
@@ -7701,5 +7715,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T03:11:20.233025Z"
+  "updated_at": "2026-10-21T03:12:39.759041+00:00"
 }
