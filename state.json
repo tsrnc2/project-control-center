@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T13:47:28.509476Z",
+    "generated_at": "2026-10-21T13:47:41.985718Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -965,15 +965,19 @@
       "id": "KWH-BLD-ROOFS",
       "project_id": "kludge-wagon-haywire",
       "title": "Building detail kit: roof variants (gable, false front, tin, shingle)",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-roof-kit-01a15507",
-      "claim_expires_at": "2026-10-21T15:37:24.398742Z",
-      "updated_at": "2026-10-21T13:37:29.488000Z",
-      "next_action": "Prepare anchored roof variants author candidate and native evidence; preserve other owners and all review gates.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T13:47:41.985620Z",
+      "next_action": "Accountable coordinator binds actual qualified distinct reviewer; keep dispatch disabled until established.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/40"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/543",
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "author_phase_state": "DONE",
+      "result_summary": "Author source/evidence complete: https://github.com/tsrnc2/fly-by-wire-c/pull/543 atef40f3557922dac88002f160a20b10162356f263;native104/0,fresh replay identical,35source/evidence+3coordination blobs verified. Original issue40 remains open;qualified distinct source/art review and composition/integration gates held."
     },
     {
       "id": "KWH-BLD-CHIMNEYS",
@@ -6713,6 +6717,18 @@
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/540",
       "updated_at": "2026-10-21T13:38:43.920467Z",
       "next_action": "Coordinator binds actual eligible distinct reviewer before enabling dispatch. Existing issue308 and parent gates remain open."
+    },
+    {
+      "id": "KWH-BLD-ROOFS-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Independently review anchored gable false-front tin and shingle roof details",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "dispatch_allowed": false,
+      "source_ref": "https://github.com/tsrnc2/kitt/issues/339",
+      "updated_at": "2026-10-21T13:47:41.985704Z",
+      "next_action": "Accountable coordinator binds actual qualified distinct reviewer; keep dispatch disabled until established."
     }
   ],
   "blockers": [
