@@ -2387,12 +2387,12 @@
       "id": "KWH-PH-PROP-HIGHWAY-SEGMENT",
       "project_id": "kludge-wagon-haywire",
       "title": "Replace placeholder model: prop_highway_segment",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P3",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Final low-poly GLB replaces placeholder; same footprint/anchors; collision intact",
+      "claimed_by": "codex-cedar-persistent",
+      "claim_expires_at": "2026-10-21T19:43:47.028738Z",
+      "updated_at": "2026-10-21T17:43:57.673138Z",
+      "next_action": "Original highwaysegment;preserve13realplacements/solidity/oldfootprint;qualifiedart/source/Joboapprovalheld.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/10"
@@ -8744,5 +8744,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T17:41:50.204043Z"
+  "updated_at": "2026-10-21T17:43:57.673162Z"
 }

@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-PH-PROP-HIGHWAY-SEGMENT",
+  "agent_id": "codex-cedar-persistent",
+  "lock_token": "ca9b87d6156c86c4f309a1bee473e1e3ac568de4b1148ce5",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T17:43:47.028708Z",
+  "heartbeat_at": "2026-10-21T17:43:47.028735Z",
+  "expires_at": "2026-10-21T19:43:47.028738Z",
+  "run_ref": "Issue10 private original highway model author candidate; no finalart acceptance"
+}
