@@ -2080,16 +2080,17 @@
       "id": "KWH-WB-HOOKS-TEST",
       "project_id": "kludge-wagon-haywire",
       "title": "Workbench: in-game hooks test (car window, clue terminal)",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-standing-wb-hooks",
-      "claim_expires_at": "2026-10-21T03:03:37.059785+00:00",
-      "updated_at": "2026-10-21T01:33:49.314725+00:00",
-      "next_action": "Prepare actual-DOM/browser workbench entry-point tests; preserve production/VM source and existing release gates.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T01:45:53.755173+00:00",
+      "next_action": "Browser hook-test candidate https://github.com/tsrnc2/fly-by-wire-c/pull/512 needs independent KWH-WB-HOOKS-TEST-REVIEW-R1 and reviewed adoption. Blocker https://github.com/tsrnc2/kitt/issues/308. No VM/fullgame/compiler/release acceptance.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/110",
-      "claimed_at": "2026-10-21T01:33:37.059785+00:00"
+      "claimed_at": "2026-10-21T01:33:37.059785+00:00",
+      "claim_heartbeat_at": null
     },
     {
       "id": "KWH-WB-MANUAL-LINKS",
@@ -6723,6 +6724,18 @@
       "required_next_action": "Jobo reviews exact private draft https://github.com/tsrnc2/fly-by-wire-c/pull/505 at fc435476b5f1b944cc61ed9659888d1521003a2c and assigns accountable release/support/review owners and scope; then reconcile live ledger before newly authorized phases. No store/account action authorized by this draft.",
       "review_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/505",
       "updated_at": "2026-10-21T01:29:12.081482+00:00"
+    },
+    {
+      "id": "kwh-wb-hooks-review-20261021",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-WB-HOOKS-TEST",
+      "state": "OPEN",
+      "severity": "MEDIUM",
+      "category": "INDEPENDENT_REVIEW",
+      "summary": "Browser hook regression candidate awaits independent review/adoption.",
+      "required_next_action": "Eligible independent reviewer claims KWH-WB-HOOKS-TEST-REVIEW-R1 for https://github.com/tsrnc2/fly-by-wire-c/pull/512 at 5f4cf8056c49a0a7b6267c3dd9f26a45584beab4; reproduce applicable browser tests and complete exact-source review and normal reviewed adoption. Preserve separate VM/fullgame/license/release gates.",
+      "review_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/512",
+      "updated_at": "2026-10-21T01:45:53.755209+00:00"
     }
   ],
   "activity": [
@@ -7610,5 +7623,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T01:44:13.824487+00:00"
+  "updated_at": "2026-10-21T01:45:53.755247+00:00"
 }
