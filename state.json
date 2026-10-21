@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T17:48:59.606258Z",
+    "generated_at": "2026-10-21T17:56:14.288931Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -4916,16 +4916,23 @@
       "id": "KWH-KITTY-CONSOLE",
       "project_id": "kludge-wagon-haywire",
       "title": "Kitty: in-dash console panel (docked, commands, both skins)",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "codex-waypoint-kitty-console-20261021",
-      "claim_expires_at": "2026-10-21T19:33:59.755145Z",
-      "updated_at": "2026-10-21T17:33:59.755129Z",
-      "next_action": "READY unclaimed \u2014 see issue AC",
-      "owner_agent": "codex-waypoint-kitty-console-20261021",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T17:56:14.288931Z",
+      "next_action": "Bind genuine qualified independent shared-UI/source reviewer to exact 1d5f0f244fbc0283834b3b200a46d6e11a5e7ee2 before dispatch of KWH-KITTY-CONSOLE-REVIEW-R1. Inspect guards, actual producer semantics, lifecycle/keyboard/text boundaries and PC/Android component evidence; preserve unapproved personality design and separate context hints. After actual source/design acceptance, perform accepted composition/exported-game/device verification through normal gates.",
+      "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/293",
-      "claimed_at": "2026-10-21T17:33:59.755129Z"
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/603",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/432",
+      "author_completion": "DONE",
+      "independent_acceptance": false,
+      "dispatch_allowed": false,
+      "deployment": false
     },
     {
       "id": "KWH-KITTY-CONTEXT-HINTS",
@@ -7522,6 +7529,19 @@
       "owner_agent": null,
       "source_ref": "https://github.com/tsrnc2/kitt/issues/388",
       "next_action": "Bounded Smugcycle corrective source authoring;parent verification/qualified art acceptance remainheld."
+    },
+    {
+      "id": "KWH-KITTY-CONSOLE-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified independent exact-source review of bounded shared Kitty console",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "owner_agent": null,
+      "updated_at": "2026-10-21T17:56:14.288931Z",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/603",
+      "dispatch_allowed": false,
+      "next_action": "Authorized coordinator records exact reviewer qualification/independence and resolves hold before claim; no automatic design/game/device/admission clearance."
     }
   ],
   "blockers": [
@@ -8778,5 +8798,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T17:55:41.402187Z"
+  "updated_at": "2026-10-21T17:56:14.288931Z"
 }
