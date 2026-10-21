@@ -7684,6 +7684,17 @@
       "candidate_revision": "eedbaa66ea334e9315beda46831fa4072bd59798",
       "updated_at": "2026-10-21T18:25:45.456980Z",
       "next_action": "Bind an actually qualified distinct source/art reviewer and Jobo final appearance/branding approval. Verify original static-only geometry/provenance, front cues/four-wheel stance and preserved source placement/envelope/collision/story logic. Reconcile accepted-source composition before actual world/export/platform/distance/LOD/performance acceptance; no driving/physical/P0 qualification follows from this art proposal. Review frozen eedbaa66ea334e9315beda46831fa4072bd59798 through KWH-PH-SHERIFF-CAR-REVIEW-R1."
+    },
+    {
+      "id": "KITT-20261021-REGISTRY-REV96",
+      "project_id": "kitt",
+      "title": "Exact master directory95-to96 metadata reconciliation",
+      "state": "DONE",
+      "priority": "P2",
+      "claimed_by": null,
+      "updated_at": "2026-10-21T18:29:33.051001Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/events/KITT-20261021-REGISTRY-REV96.json",
+      "next_action": "Continue eligible work using verifiedrevision96;all43projectobjects andKWHscope/ownership unchanged;notqualification/acceptance/fullportfolioaudit."
     }
   ],
   "blockers": [
@@ -8940,5 +8951,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T18:26:53.775295Z"
+  "updated_at": "2026-10-21T18:29:33.051049Z"
 }
