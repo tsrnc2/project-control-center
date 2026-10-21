@@ -1970,12 +1970,12 @@
       "id": "KWH-ECU-WIPERS",
       "project_id": "kludge-wagon-haywire",
       "title": "ECU: wipers in player C",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P2",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: System driven by C; buggy starter + fixed ref + test; telemetry shown",
+      "claimed_by": "codex-cedar-persistent",
+      "claim_expires_at": "2026-10-21T17:57:06.266106Z",
+      "updated_at": "2026-10-21T15:57:15.963433Z",
+      "next_action": "Prepare WIPERS-only realC/WASM/worker/actuator/telemetry source with precise neighboring/gate preservation;independent integration acceptance held.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/28"
@@ -8276,5 +8276,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T15:56:32.030273Z"
+  "updated_at": "2026-10-21T15:57:15.963450Z"
 }

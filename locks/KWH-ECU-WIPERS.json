@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-ECU-WIPERS",
+  "agent_id": "codex-cedar-persistent",
+  "lock_token": "38bd69148aee4a49f564a543f6fdf05e1e83a143213bbcb3",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T15:57:06.266090Z",
+  "heartbeat_at": "2026-10-21T15:57:06.266102Z",
+  "expires_at": "2026-10-21T17:57:06.266106Z",
+  "run_ref": "Issue28 WIPERS lane only;original playerC/runtime/actuator wiring author candidate"
+}
