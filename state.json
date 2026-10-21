@@ -2801,15 +2801,20 @@
       "id": "KWH-MKT-GIFS",
       "project_id": "kludge-wagon-haywire",
       "title": "Store page GIFs (3-5 short loops)",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T18:54:30.585651Z",
-      "updated_at": "2026-10-21T16:54:58.702233Z",
-      "next_action": "Capture andverify3-5short realC-to-car GIF private drafts;actualsource/build/media/timing evidence;Joboapproval/distribution held.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T17:10:01.698334Z",
+      "next_action": "Jobo and an actually qualified independent media/source reviewer inspect exact 9c7c21b6ce4227ffd4dbe7abee9cc7edfac35330 via KWH-MKT-GIFS-REVIEW-R1:editorial readability/trim/hold/timing,source/game/compiler/worker causality,prototype-only brake semantics,rights/trade-dress/spoiler boundaries and permitted distribution. Reconcile current accepted game/startup/platform sources before any release;normal-shell intermittent startup and zero dashboard probe updates remain unresolved. No public posting/Steamworks/merge/deploy or independent self-acceptance.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/132"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/595",
+      "dispatch_allowed": false,
+      "candidate_revision": "9c7c21b6ce4227ffd4dbe7abee9cc7edfac35330",
+      "blocker_issue": "https://github.com/tsrnc2/kitt/issues/420",
+      "author_completion": "DONE",
+      "review_task": "KWH-MKT-GIFS-REVIEW-R1"
     },
     {
       "id": "KWH-MKT-COMING-SOON",
@@ -7350,6 +7355,21 @@
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/593",
       "dispatch_allowed": false,
       "next_action": "Authorized coordinator records actual qualified independent reviewer binding and resolves dispatch hold before claim; source acceptance and composed-game integration remain separate."
+    },
+    {
+      "id": "KWH-MKT-GIFS-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Jobo editorial/rights/spoiler and qualified exact-source private GIF review",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "dispatch_allowed": false,
+      "dependencies": [],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/595",
+      "candidate_revision": "9c7c21b6ce4227ffd4dbe7abee9cc7edfac35330",
+      "updated_at": "2026-10-21T17:10:01.698427Z",
+      "next_action": "Jobo and an actually qualified independent media/source reviewer inspect exact 9c7c21b6ce4227ffd4dbe7abee9cc7edfac35330 via KWH-MKT-GIFS-REVIEW-R1:editorial readability/trim/hold/timing,source/game/compiler/worker causality,prototype-only brake semantics,rights/trade-dress/spoiler boundaries and permitted distribution. Reconcile current accepted game/startup/platform sources before any release;normal-shell intermittent startup and zero dashboard probe updates remain unresolved. No public posting/Steamworks/merge/deploy or independent self-acceptance."
     }
   ],
   "blockers": [
@@ -8606,5 +8626,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T17:09:33.985990Z"
+  "updated_at": "2026-10-21T17:10:01.698437Z"
 }
