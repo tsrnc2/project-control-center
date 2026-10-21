@@ -1090,12 +1090,13 @@
       "state": "RUNNING",
       "priority": "P2",
       "claimed_by": "codex-waypoint-ornaments",
-      "claim_expires_at": "2026-10-21T15:26:38.281448Z",
-      "updated_at": "2026-10-21T13:26:38.281437Z",
+      "claim_expires_at": "2026-10-21T17:41:35.004358Z",
+      "updated_at": "2026-10-21T15:41:35.004339Z",
       "next_action": "Bounded ornament author source and native verification; independent review/composition held.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/47"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/47",
+      "claim_heartbeat_at": "2026-10-21T15:41:35.004339Z"
     },
     {
       "id": "KWH-BLD-ROADS",
@@ -8161,5 +8162,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T15:40:20.445925Z"
+  "updated_at": "2026-10-21T15:41:35.004339Z"
 }
