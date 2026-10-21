@@ -6796,9 +6796,9 @@
       "priority": "P2",
       "claimed_by": "codex-caretaker-cast-import-uv",
       "claim_expires_at": "2026-10-21T16:21:18.893859Z",
-      "updated_at": "2026-10-21T14:21:24.112115Z",
+      "updated_at": "2026-10-21T14:31:26.589749Z",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/552",
-      "next_action": "Native13flag author repair candidate;all model/art/release gates remain."
+      "next_action": "Nine character morph-tangent flag corrections target all91errors;preserve four nonculprit vehicle settings and strict18meshPNGbyteidentity;no model/art acceptance."
     }
   ],
   "blockers": [
@@ -8016,5 +8016,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T14:24:35.200745Z"
+  "updated_at": "2026-10-21T14:31:26.589812Z"
 }

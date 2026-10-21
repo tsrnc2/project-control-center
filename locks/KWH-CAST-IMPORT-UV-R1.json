@@ -6,7 +6,7 @@
   "lock_token": "ab026299786f37e601c40cdfa519fac2d1fa03dfacf46bca",
   "mode": "exclusive",
   "acquired_at": "2026-10-21T14:21:18.893838Z",
-  "heartbeat_at": "2026-10-21T14:21:18.893854Z",
+  "heartbeat_at": "2026-10-21T14:31:26.589807Z",
   "expires_at": "2026-10-21T16:21:18.893859Z",
-  "run_ref": "One exact-source13importflag native verification repair;no model/art acceptance"
+  "run_ref": "Source-bound9character morph-tangent import repair;initial13visualfailure preserved"
 }
