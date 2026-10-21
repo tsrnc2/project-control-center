@@ -3524,12 +3524,12 @@
       "id": "KWH-DMG-COLLISION",
       "project_id": "kludge-wagon-haywire",
       "title": "Damage: collision massive impact damage + Kitty/robot voice",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P1",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T02:13:37Z",
-      "next_action": "Impact-speed damage; instant BREAK; voice reactions. READY.",
+      "claimed_by": "codex-waypoint-damage-collision",
+      "claim_expires_at": "2026-10-21T18:59:30.809128Z",
+      "updated_at": "2026-10-21T16:59:30.809107Z",
+      "next_action": "Disjoint collision-to-model producer/scripted-impact evidence only; preserve live TERRAIN world/shell ownership and full audio/game/review gates.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/184"
@@ -8563,5 +8563,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T16:58:01.999584+00:00"
+  "updated_at": "2026-10-21T16:59:30.809107Z"
 }

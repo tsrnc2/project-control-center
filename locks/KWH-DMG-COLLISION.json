@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-DMG-COLLISION",
+  "agent_id": "codex-waypoint-damage-collision",
+  "lock_token": "c6ba5265b97f054583e0da14ea394c0bb7bfad03faee6401",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T16:59:30.809107Z",
+  "heartbeat_at": "2026-10-21T16:59:30.809107Z",
+  "expires_at": "2026-10-21T18:59:30.809128Z"
+}
