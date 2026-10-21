@@ -5552,17 +5552,17 @@
       "id": "KWH-MCU-DESIGN-FREEZE",
       "project_id": "kludge-wagon-haywire",
       "title": "Finish and freeze complete vehicle system design before implementation",
-      "state": "CLAIMED",
+      "state": "BLOCKED",
       "priority": "P0",
-      "claimed_by": "chatgpt-kwh-design-freeze-r2",
-      "claim_expires_at": "2026-10-17T01:24:00Z",
-      "updated_at": "2026-10-16T01:50:00Z",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T22:04:24.837435Z",
       "dependencies": [
         "KWH-MCU-SYSTEM-DESIGN"
       ],
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/315",
       "dispatch_allowed": true,
-      "next_action": "Coordinate exact-head reviews PR341/PR354/PR357/PR364. After positive PR357 acceptance, execute and independently review the held inspection R2 repair. Only then enable KWH-MCU-DESIGN-INTEGRATION-R1; integrate exact accepted successors, rerun all design validators, and obtain final independent full-design review. Keep downstream MCU runtime tasks held.",
+      "next_action": "Canonical gate is BLOCKED: obtain distinct exact-head reviews for admission #425, timing #422, manifest #423, shared-model #439 and legacy input-interface #443. After a positive PR442 review, apply the accepted delta and independently re-review source closure before migration, inspection, integration, and final full-design acceptance. MCU runtime remains prohibited.",
       "implementation_hold": "DESIGN_FREEZE_INCOMPLETE",
       "owner_agent": null,
       "human_owner": "Jobo",
@@ -10141,5 +10141,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T22:03:57.663198Z"
+  "updated_at": "2026-10-21T22:04:24.837457Z"
 }
