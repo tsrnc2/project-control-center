@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T14:58:28.440333Z",
+    "generated_at": "2026-10-21T15:23:11.947535Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6843,13 +6843,18 @@
       "id": "KWH-WB-BACKTRACE-FAILURE-STATE-R1",
       "project_id": "kludge-wagon-haywire",
       "title": "Preserve unavailable versus reported-empty Workbench backtrace",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "codex-01a15457-backtrace",
-      "claim_expires_at": "2026-10-21T16:55:39.924558Z",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/557",
-      "updated_at": "2026-10-21T14:58:28.440311Z",
-      "next_action": "Reproduce and repair existing Workbench backtrace availability only;no Concept build or runtime adoption;preserve held source owners."
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/561",
+      "updated_at": "2026-10-21T15:23:11.947461Z",
+      "next_action": "Bind qualified distinct source/contract/integration review for KWH-WB-BACKTRACE-FAILURE-STATE-REVIEW-R1 at 35236ea596f58ae835b290335af4c77670d80a11. Verify controlled transport and exact UI-fragment limits;retain real guest/Workbench composition and release gates. No Concept build approval, merge, deployment or independent acceptance.",
+      "author_phase_state": "DONE_NOT_ACCEPTED",
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "candidate_revision": "35236ea596f58ae835b290335af4c77670d80a11",
+      "review_task_id": "KWH-WB-BACKTRACE-FAILURE-STATE-REVIEW-R1"
     },
     {
       "id": "KWH-STORY-DUALEC-REVIEW-R1",
@@ -6865,6 +6870,21 @@
       "candidate_revision": "4695ab8af37b7f957afd379d7c42ffea78aead27",
       "updated_at": "2026-10-21T15:13:04.227417Z",
       "next_action": "Bind actual qualified distinct reviewers before dispatch;immutable source review has no blocked-parent dependency."
+    },
+    {
+      "id": "KWH-WB-BACKTRACE-FAILURE-STATE-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified distinct Workbench backtrace source/contract/integration review",
+      "state": "BLOCKED",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T15:23:11.947520Z",
+      "next_action": "Bind qualified distinct source/contract/integration review for KWH-WB-BACKTRACE-FAILURE-STATE-REVIEW-R1 at 35236ea596f58ae835b290335af4c77670d80a11. Verify controlled transport and exact UI-fragment limits;retain real guest/Workbench composition and release gates. No Concept build approval, merge, deployment or independent acceptance.",
+      "source_ref": "https://github.com/tsrnc2/kitt/issues/354",
+      "candidate_pr": "https://github.com/tsrnc2/fly-by-wire-c/pull/561",
+      "candidate_revision": "35236ea596f58ae835b290335af4c77670d80a11",
+      "dispatch_allowed": false
     }
   ],
   "blockers": [
@@ -8082,5 +8102,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T15:16:33.927254Z"
+  "updated_at": "2026-10-21T15:23:11.947530Z"
 }
