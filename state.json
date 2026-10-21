@@ -2448,12 +2448,12 @@
       "id": "KWH-KITTY-LLM-DOC",
       "project_id": "kludge-wagon-haywire",
       "title": "Kitty optional LLM Q&A design doc (offline fallback, privacy/cost)",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P2",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T01:14:23Z",
-      "next_action": "Write docs/kitty-llm-qa.md with offline fallback, privacy, cost, safety. Design-only. Unclaimed.",
+      "claimed_by": "codex-cedar-persistent",
+      "claim_expires_at": "2026-10-21T03:47:14.256497Z",
+      "updated_at": "2026-10-21T01:47:23.703440Z",
+      "next_action": "Verify exact existing native kitty-qa-design and publish actual render evidence; no qualified acceptance.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/117"
@@ -7638,5 +7638,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T01:46:20.620028+00:00"
+  "updated_at": "2026-10-21T01:47:23.703461Z"
 }
