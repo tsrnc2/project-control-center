@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T16:28:47.837105Z",
+    "generated_at": "2026-10-21T16:29:50.991481Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -7174,6 +7174,16 @@
       "candidate_revision": "89d5eee4a5035d8ef1c8bd9a7e3e74ca0e035ede",
       "handoff_target_task_id": "KWH-DMG-FUZZ",
       "handoff_state": "ACK_PENDING"
+    },
+    {
+      "id": "KITT-20261021-LRP-COMPANION-SNAPSHOT-R1",
+      "project_id": "kitt",
+      "title": "Preserve LRP protocol/contract companion source bytes",
+      "state": "RUNNING",
+      "claimed_by": "codex-sr-delegated-lrp-companions-20261021",
+      "claim_expires_at": "2026-10-21T18:28:55.323247Z",
+      "updated_at": "2026-10-21T16:29:50.991456Z",
+      "next_action": "Prepare bounded hash-indexed companion snapshot/staging source;preserve upstream pin/semantics,source-home,redaction/review and rollout gates."
     }
   ],
   "blockers": [
@@ -8410,5 +8420,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T16:28:47.837101Z"
+  "updated_at": "2026-10-21T16:29:50.991477Z"
 }
