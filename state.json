@@ -984,12 +984,12 @@
       "id": "KWH-BLD-WINDCHIMES",
       "project_id": "kludge-wagon-haywire",
       "title": "Building detail kit: wind chimes (animated, optional audio)",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P2",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Reusable snap-on scene(s) in models/detail; attach via anchors.json; used by town_dresser.gd on >=2 buildings; screenshot",
+      "claimed_by": "codex-cedar-persistent",
+      "claim_expires_at": "2026-10-21T03:38:45.140432Z",
+      "updated_at": "2026-10-21T01:38:54.005850Z",
+      "next_action": "Verify exact existing native wind-chimes and publish actual render evidence; no qualified acceptance.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/42"
@@ -7535,5 +7535,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T01:37:07.196993Z"
+  "updated_at": "2026-10-21T01:38:54.005879Z"
 }

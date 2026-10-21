@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-BLD-WINDCHIMES",
+  "agent_id": "codex-cedar-persistent",
+  "lock_token": "59ec83d3250bada5ab8f459d9b31cac6063c93134f2afae3",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T01:38:45.140404Z",
+  "heartbeat_at": "2026-10-21T01:38:45.140427Z",
+  "expires_at": "2026-10-21T03:38:45.140432Z",
+  "run_ref": "Issue42 isolated native wind-chimes verification; no other owner source edits"
+}
