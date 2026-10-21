@@ -7137,15 +7137,16 @@
       "id": "KWH-WEB-ASSET-LFS-GUARD-R1",
       "project_id": "kludge-wagon-haywire",
       "title": "Web asset materialization guard source candidate",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "codex-standing-asset-guard",
+      "claimed_by": null,
       "owner_agent": null,
       "source_ref": "https://github.com/tsrnc2/kitt/issues/362",
-      "updated_at": "2026-10-21T16:13:22.470178+00:00",
-      "next_action": "Prepare source-only asset checks and tracked packaging refusal with baseline/candidate evidence; no export/release/adoption.",
+      "updated_at": "2026-10-21T16:58:01.999458+00:00",
+      "next_action": "Source candidate https://github.com/tsrnc2/fly-by-wire-c/pull/592 requires qualified distinct exact-source review/adoption; KWH-WEB-ASSET-LFS-GUARD-REVIEW-R1 held. https://github.com/tsrnc2/kitt/issues/401",
       "claimed_at": "2026-10-21T16:13:10.415144+00:00",
-      "claim_expires_at": "2026-10-21T17:43:10.415144+00:00"
+      "claim_expires_at": null,
+      "claim_heartbeat_at": null
     },
     {
       "id": "KWH-BLD-DRESSER-REGRESSION-REVIEW-R1",
@@ -7292,6 +7293,20 @@
       "source_ref": "https://github.com/tsrnc2/kitt/pull/391",
       "updated_at": "2026-10-21T16:57:46.931742Z",
       "next_action": "Reconcile required KITT blocker issues for ten own source proposals only;preserve all source,approval,claim and runtime/review gates."
+    },
+    {
+      "id": "KWH-WEB-ASSET-LFS-GUARD-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified distinct source review of asset-materialization guard",
+      "state": "BLOCKED",
+      "priority": "P1",
+      "claimed_by": null,
+      "owner_agent": null,
+      "dispatch_allowed": false,
+      "review_input_commit": "17966f9ce1057d374122e68ef9f547f2ccfedc7b",
+      "source_ref": "https://github.com/tsrnc2/kitt/issues/401",
+      "updated_at": "2026-10-21T16:58:01.999560+00:00",
+      "next_action": "Establish actual qualified distinct reviewer authority for KWH-WEB-ASSET-LFS-GUARD-REVIEW-R1 on https://github.com/tsrnc2/fly-by-wire-c/pull/592 source 17966f9ce1057d374122e68ef9f547f2ccfedc7b, reproduce source-bound tests/controls and complete exact-source review before normal adoption. Keep dispatch disabled until eligible. Screenshot/package remediation remains separate."
     }
   ],
   "blockers": [
@@ -7599,6 +7614,19 @@
       "required_next_action": "Provide a corrected, source-bound runtime package with actual image assets replacing the174 LFS pointers; verify decoded image assets and recapture on sufficient memory headroom using corrected author harness. Evidence https://github.com/tsrnc2/fly-by-wire-c/pull/568 at 6051a7e90dbd009293669d875ca117521bdbabd5. Then require Jobo image approval and rights/source/store review. Reconcile live ownership first; no public/account action inferred.",
       "review_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/568",
       "updated_at": "2026-10-21T15:51:46.401581+00:00"
+    },
+    {
+      "id": "kwh-asset-guard-qualified-review-20261021",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-WEB-ASSET-LFS-GUARD-R1",
+      "review_task": "KWH-WEB-ASSET-LFS-GUARD-REVIEW-R1",
+      "state": "OPEN",
+      "severity": "HIGH",
+      "category": "REVIEWER_QUALIFICATION",
+      "summary": "Source candidate held pending qualified distinct reviewer binding and exact-source review/adoption.",
+      "required_next_action": "Establish actual qualified distinct reviewer authority for KWH-WEB-ASSET-LFS-GUARD-REVIEW-R1 on https://github.com/tsrnc2/fly-by-wire-c/pull/592 source 17966f9ce1057d374122e68ef9f547f2ccfedc7b, reproduce source-bound tests/controls and complete exact-source review before normal adoption. Keep dispatch disabled until eligible. Screenshot/package remediation remains separate.",
+      "review_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/592",
+      "updated_at": "2026-10-21T16:58:01.999579+00:00"
     }
   ],
   "activity": [
@@ -8535,5 +8563,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T16:57:46.933102Z"
+  "updated_at": "2026-10-21T16:58:01.999584+00:00"
 }
