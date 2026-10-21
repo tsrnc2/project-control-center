@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T17:09:33.985994Z",
+    "generated_at": "2026-10-21T17:10:43.871205Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -7370,6 +7370,20 @@
       "candidate_revision": "9c7c21b6ce4227ffd4dbe7abee9cc7edfac35330",
       "updated_at": "2026-10-21T17:10:01.698427Z",
       "next_action": "Jobo and an actually qualified independent media/source reviewer inspect exact 9c7c21b6ce4227ffd4dbe7abee9cc7edfac35330 via KWH-MKT-GIFS-REVIEW-R1:editorial readability/trim/hold/timing,source/game/compiler/worker causality,prototype-only brake semantics,rights/trade-dress/spoiler boundaries and permitted distribution. Reconcile current accepted game/startup/platform sources before any release;normal-shell intermittent startup and zero dashboard probe updates remain unresolved. No public posting/Steamworks/merge/deploy or independent self-acceptance."
+    },
+    {
+      "id": "KWH-SYSTEMS-L3-FAULT-BADGE-REPAIR",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Current-main Level3 live wire fault-marker follow-up",
+      "state": "RUNNING",
+      "priority": "P1",
+      "claimed_by": "codex-waypoint-l3-badge-repair-20261021",
+      "claimed_at": "2026-10-21T17:10:43.871205Z",
+      "claim_expires_at": "2026-10-21T18:40:43.871220Z",
+      "owner_agent": "codex-waypoint-l3-badge-repair-20261021",
+      "updated_at": "2026-10-21T17:10:43.871205Z",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/593",
+      "independent_acceptance": false
     }
   ],
   "blockers": [
@@ -8626,5 +8640,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T17:10:01.698437Z"
+  "updated_at": "2026-10-21T17:10:43.871205Z"
 }
