@@ -2208,18 +2208,25 @@
       "id": "KWH-WB-64BIT",
       "project_id": "kludge-wagon-haywire",
       "title": "Workbench: 64-bit path (blink) for rax/syscall facts",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-fbw-sequential",
-      "claim_expires_at": "2026-10-21T21:26:01.898129+00:00",
-      "updated_at": "2026-10-21T19:26:01.898129+00:00",
-      "next_action": "Acceptance: x86-64 program runs; rax/syscall visible in stepping",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T19:52:03.345027+00:00",
+      "next_action": "Actual ELF64/RAX/syscall debugger source and16groupbrowser/portable evidence published;distinct qualified exact-head source/artifact/license/security review KWH-WB-64BIT-REVIEW-R1 and authorized integration remain. Issue106 open;own execution ownership released.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/106",
-      "claimed_at": "2026-10-21T19:26:01.898129+00:00",
-      "claim_heartbeat_at": "2026-10-21T19:26:01.898129+00:00",
-      "recovery_operation_id": "wb64-expired-self-recovery-2026-10-21T185700_301785_0000"
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "recovery_operation_id": "wb64-expired-self-recovery-2026-10-21T185700_301785_0000",
+      "canonical_task_blob": "613d98a71dc677c4659b45733d869ff772e78469",
+      "canonical_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-WB-64BIT.json",
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/627",
+      "blocker_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/106",
+      "review_task": "KWH-WB-64BIT-REVIEW-R1",
+      "release_operation_id": "workbench-elf64-source-review-release-20261021",
+      "last_execution_owner": "codex-fbw-sequential"
     },
     {
       "id": "KWH-WB-STDIN",
@@ -8349,6 +8356,13 @@
   ],
   "activity": [
     {
+      "at": "2026-10-21T19:52:03.345027+00:00",
+      "type": "TASK_BLOCKED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-WB-64BIT",
+      "summary": "Real ELF64 debugger published;16UI/portablegroupspass;qualified artifact/source/license/security review required;own locks released;https://github.com/tsrnc2/fly-by-wire-c/pull/627"
+    },
+    {
       "at": "2026-10-21T16:48:29.121726+00:00",
       "type": "TASK_DONE",
       "project_id": "kludge-wagon-haywire",
@@ -9281,5 +9295,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:51:10.438278+00:00"
+  "updated_at": "2026-10-21T19:52:03.345027+00:00"
 }
