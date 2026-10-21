@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T16:26:32.338208Z",
+    "generated_at": "2026-10-21T16:28:47.837105Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -7161,13 +7161,19 @@
       "id": "KWH-ECU-OBSERVATION-CORRELATION-PROBE-R1",
       "project_id": "kludge-wagon-haywire",
       "title": "Diagnose ECU completed-call observation correlation",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "codex-01a15457-ecu-observation",
-      "claim_expires_at": "2026-10-21T18:22:16.979126Z",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/561",
-      "updated_at": "2026-10-21T16:22:22.862158Z",
-      "next_action": "Diagnose existing telemetry correlation using frozen manager and controlled transport;draft completed-observation contract only;preserve active damage-fuzz ECU files;no implementation or Concept build."
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/585",
+      "updated_at": "2026-10-21T16:28:47.837081Z",
+      "next_action": "Existing KWH-DMG-FUZZ source owner acknowledges/declines the exact diagnostic/API proposal https://github.com/tsrnc2/fly-by-wire-c/pull/585 at 89d5eee4a5035d8ef1c8bd9a7e3e74ca0e035ede. Reconcile own current composed source and normal review before any separately claimed implementation;no API adoption,Concept build,source transfer or independent acceptance inferred.",
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "author_phase_state": "DONE_NOT_ACCEPTED",
+      "candidate_revision": "89d5eee4a5035d8ef1c8bd9a7e3e74ca0e035ede",
+      "handoff_target_task_id": "KWH-DMG-FUZZ",
+      "handoff_state": "ACK_PENDING"
     }
   ],
   "blockers": [
@@ -8404,5 +8410,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T16:27:17.770926Z"
+  "updated_at": "2026-10-21T16:28:47.837101Z"
 }
