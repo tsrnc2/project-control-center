@@ -6,6 +6,6 @@
   "lock_token": "9f517d5686d454f63c37a35f0a4ebcfcf33f4f57f191b7e9",
   "mode": "exclusive",
   "acquired_at": "2026-10-21T15:46:38.606837Z",
-  "heartbeat_at": "2026-10-21T15:46:38.606837Z",
-  "expires_at": "2026-10-21T17:46:38.606854Z"
+  "heartbeat_at": "2026-10-21T15:57:57.885203Z",
+  "expires_at": "2026-10-21T17:57:57.885214Z"
 }

@@ -3374,9 +3374,9 @@
       "state": "RUNNING",
       "priority": "P1",
       "claimed_by": "codex-waypoint-damage-fuzz",
-      "claim_expires_at": "2026-10-21T17:46:38.606854Z",
-      "updated_at": "2026-10-21T15:46:38.606837Z",
-      "next_action": "Disjoint generator and real-C fixture; active HEADLIGHTS tick/shell ownership preserved, full issue integration held.",
+      "claim_expires_at": "2026-10-21T17:57:57.885214Z",
+      "updated_at": "2026-10-21T15:57:57.885203Z",
+      "next_action": "PartialPR571 published; source-only composition on released exactHEADLIGHTSPR569, review/acceptance held.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/177"
@@ -8280,5 +8280,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T15:57:51.691957Z"
+  "updated_at": "2026-10-21T15:57:57.885203Z"
 }
