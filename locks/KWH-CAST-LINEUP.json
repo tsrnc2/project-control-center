@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-CAST-LINEUP",
+  "agent_id": "codex-caretaker-cast-lineup",
+  "lock_token": "c558dd89b0020632d1a46c4fe0265f3045feeaaf62ade3d5",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T13:56:37.400267Z",
+  "heartbeat_at": "2026-10-21T13:56:37.400293Z",
+  "expires_at": "2026-10-21T15:56:37.400300Z",
+  "run_ref": "Original issue86 isolated native cast/vehicle lineup; no acceptance or deployment"
+}
