@@ -7866,6 +7866,17 @@
       "candidate_revision": "7e4bd4c3ed31fcfb1447dd5c06b7a6861bb93567",
       "updated_at": "2026-10-21T19:17:56.248318Z",
       "next_action": "Bind actually qualified distinct source/native/art reviewer and Jobo final Methodist church creampaint/sign/dressing approval. Verify all frozen/product identities,church-onlyselector/originalfallback,threeper-instanceGREY overrides/eight original kitmeshes,containedgeometry/oldbounds/collision,groundedpots/current no-anchor noRNG path andallseededlayouts. Reproduce344+fresh344/fullJSON/threePNGidentity and12/1/2 negativefailures;inspect first342-check floating visual andcorrectednative street/close/baseline views. Reconcile accepted-source composition/futureanchoradditions beforefullworld/export/platform/distance/LOD/performance acceptance. Review frozen 7e4bd4c3ed31fcfb1447dd5c06b7a6861bb93567 through KWH-BLD-UPG-METHODIST-CHURCH-REVIEW-R1."
+    },
+    {
+      "id": "KITT-20261021-BLOCKER-REPORT-MEMBERSHIP",
+      "project_id": "kitt",
+      "title": "Verify owner-requested blocker report membership",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "owner_agent": null,
+      "source_ref": "https://github.com/tsrnc2/kitt/issues/377",
+      "updated_at": "2026-10-21T19:23:52.436638+00:00"
     }
   ],
   "blockers": [
@@ -9122,5 +9133,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:21:22.877849Z"
+  "updated_at": "2026-10-21T19:23:52.436655+00:00"
 }
