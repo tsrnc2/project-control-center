@@ -4632,15 +4632,21 @@
       "id": "KWH-CHALLENGE",
       "project_id": "kludge-wagon-haywire",
       "title": "Challenge system: opt pars + time trials, medals, leaderboard, replays",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P0",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T04:06:48.137492Z",
-      "updated_at": "2026-10-21T02:06:56.906274Z",
-      "next_action": "Verify exact existing native challenge-gate-intake and publish actual render evidence; no qualified acceptance.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T02:09:07.085631Z",
+      "next_action": "Authorized coordinator/qualified distinct reviewer reconciles final accepted source and supported review verdict/receipt;updates the existing source-bound landmark handoff/blockers. Then explicitly clear challenge dependency/dispatch hold. No automatic PASS or fresh implementation from state alone.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/289"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/289",
+      "dispatch_allowed": false,
+      "dependencies": [
+        "KWH-LANDMARKS",
+        "KWH-LANDMARKS-REVIEW-PR337"
+      ],
+      "blocker_issue": "https://github.com/tsrnc2/kitt/issues/311"
     },
     {
       "id": "KWH-CHALLENGE-TESTS",
@@ -7675,5 +7681,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T02:06:56.906306Z"
+  "updated_at": "2026-10-21T02:09:07.085674Z"
 }
