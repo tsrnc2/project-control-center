@@ -5747,15 +5747,15 @@
     {
       "id": "KWH-MCU-ADMISSION-CEILING-REVIEW-R3",
       "project_id": "kludge-wagon-haywire",
-      "title": "Independently review exact PR341 profile-ceiling repair",
-      "state": "CLAIMED",
+      "title": "Independently review exact PR447 admission-ceiling and CLI successor",
+      "state": "BLOCKED",
       "priority": "P0",
-      "claimed_by": "chatgpt-kwh-admission-ceiling-review-r3",
+      "claimed_by": null,
       "owner_agent": null,
-      "claim_expires_at": "2026-10-16T03:54:00Z",
-      "updated_at": "2026-10-16T01:33:00Z",
-      "next_action": "P0 reviewer claim is preserved through 2026-10-16T03:54:00Z, but the expired execution lease was released. Existing reviewer must reacquire before further exact-head review; do not duplicate.",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/341",
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T22:04:48.984097Z",
+      "next_action": "Blocked pending an eligible distinct repository-capable reviewer for exact PR447 head ca6f1edda60f3d0a0a18ee75327710d34a593961. Reproduce checker, original, ceiling, CLI and unchanged PR444 probes; add independent arithmetic/input probes; publish PASS/REVISE and independence evidence in issue425. Correlated same-provider evidence cannot satisfy this gate.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/447",
       "human_owner": "Jobo",
       "dispatch_allowed": true
     },
@@ -10141,5 +10141,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T22:04:24.837457Z"
+  "updated_at": "2026-10-21T22:04:48.984122Z"
 }
