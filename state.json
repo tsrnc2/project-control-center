@@ -1013,15 +1013,18 @@
       "id": "KWH-BLD-PLANTS",
       "project_id": "kludge-wagon-haywire",
       "title": "Building detail kit: building plants (planters, vines, dead shrubs)",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T15:28:18.039316Z",
-      "updated_at": "2026-10-21T13:28:22.530117Z",
-      "next_action": "Private source publication after exact own expired-lock reconciliation;qualified independent/art/integration gates preserved.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T13:31:35.704327Z",
+      "next_action": "Qualified exact-source review KWH-BLD-PLANTS-REVIEW-R1 and approved PR499/PR511/PR516 and concurrent door/fencecomposition/integration/export acceptance remain pending;issue43 stays open.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/43"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/537",
+      "candidate_revision": "23ed20d85c999769588f8eaaf828b6601f11625f",
+      "completion_scope": "AUTHOR_CANDIDATE_AND_NATIVE_EVIDENCE",
+      "independent_acceptance": false
     },
     {
       "id": "KWH-BLD-PAINT-SIGNS",
@@ -6658,6 +6661,23 @@
       "updated_at": "2026-10-21T13:27:13.395405Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-WB-HOOKS-ERROR-REPAIR-R1.json",
       "claim_heartbeat_at": "2026-10-21T13:27:13.395405Z"
+    },
+    {
+      "id": "KWH-BLD-PLANTS-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified exact-source review of building plant kit and porch anchors",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "dispatch_allowed": false,
+      "dependencies": [
+        "KWH-BLD-PLANTS"
+      ],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/537",
+      "candidate_revision": "23ed20d85c999769588f8eaaf828b6601f11625f",
+      "updated_at": "2026-10-21T13:31:35.708730Z",
+      "next_action": "Bind actual qualified distinct reviewer before enabling dispatch/claiming;author cannot self-accept."
     }
   ],
   "blockers": [
@@ -7868,5 +7888,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T13:31:25.976931Z"
+  "updated_at": "2026-10-21T13:31:35.708744Z"
 }
