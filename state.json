@@ -1191,8 +1191,8 @@
       "priority": "P3",
       "claimed_by": "codex-caretaker-schoolhouse-upgrade",
       "claim_expires_at": "2026-10-21T20:32:22.197981Z",
-      "updated_at": "2026-10-21T18:32:27.459097Z",
-      "next_action": "Author originalschoolhouseupgrade using4currentmainkittypes/unique paint/sign/nativecollision/sourcefixture;Joboart/dresser/world/platform integration held.",
+      "updated_at": "2026-10-21T18:41:24.458835Z",
+      "next_action": "Schoolhouse source36/0,native51/0,negative48/3,51/6,51/3;missing-sceneactualfallback5/0;fresh fullJSON/2PNGsidentical;18refs/5paths;qualifiedreview/Joboart/world/platformheld.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/53"
@@ -8975,5 +8975,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T18:38:59.257223Z"
+  "updated_at": "2026-10-21T18:41:24.458835Z"
 }
