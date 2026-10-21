@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T03:19:37.120213Z",
+    "generated_at": "2026-10-21T03:21:01.284274Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6574,6 +6574,19 @@
       "evidence_ref": "https://github.com/tsrnc2/kitt/blob/651776b6460b5c5ad80d40b416d5b0d4d749d938/reports/codex/cost-firewall-repair-20261021/REPORT.md",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-20261021-COST-FIREWALL-DRAFT-REPAIR.json",
       "next_action": "Author preparation complete;distinct qualified review KITT-20261021-COST-FIREWALL-DRAFT-REPAIR-REVIEW pending. Issue310/nativeport held foracceptedfixturefreeze anddurablehostdesign."
+    },
+    {
+      "id": "KWH-WB-HOOKS-TEST-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "state": "RUNNING",
+      "claimed_by": "codex-waypoint-wb-hooks-review-20261021",
+      "claimed_at": "2026-10-21T03:21:01.284229Z",
+      "claim_expires_at": "2026-10-21T05:20:59.121251Z",
+      "owner_agent": "codex-waypoint-wb-hooks-review-20261021",
+      "updated_at": "2026-10-21T03:21:01.284258Z",
+      "execution_mode": "OWNER_SCOPED_TECHNICAL_REVIEW",
+      "independent_acceptance": false,
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-WB-HOOKS-TEST-REVIEW-R1.json"
     }
   ],
   "blockers": [
@@ -7758,5 +7771,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T03:20:46.083004Z"
+  "updated_at": "2026-10-21T03:21:01.284270Z"
 }
