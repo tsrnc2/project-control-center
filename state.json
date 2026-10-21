@@ -2824,17 +2824,17 @@
       "id": "KWH-MKT-CAPSULE-SMALL",
       "project_id": "kludge-wagon-haywire",
       "title": "Capsule art: small capsule 462x174",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "codex-fbw-sequential",
-      "claim_expires_at": "2026-10-21T23:56:21Z",
-      "updated_at": "2026-10-21T21:56:26.166739+00:00",
-      "next_action": "Marketing. Acceptance: PNG, logo readable at small size. Unclaimed.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T22:05:03.504462+00:00",
+      "next_action": "Draft PR636 is published. Await Jobo branding/legal approval and a distinct qualified review of exact head6d7a66f6c997283a6e7b0b43896ccb5d2f8b8298; no release or integration authorization.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/125",
-      "claimed_at": "2026-10-21T21:56:26.166739+00:00",
-      "claim_heartbeat_at": "2026-10-21T21:56:26.166739+00:00"
+      "claimed_at": null,
+      "claim_heartbeat_at": null
     },
     {
       "id": "KWH-MKT-CAPSULE-MAIN",
@@ -10141,5 +10141,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T22:04:48.984122Z"
+  "updated_at": "2026-10-21T22:05:03.504462+00:00"
 }
