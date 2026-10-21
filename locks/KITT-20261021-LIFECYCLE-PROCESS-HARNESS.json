@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kitt",
+  "task_id": "KITT-20261021-LIFECYCLE-PROCESS-HARNESS",
+  "agent_id": "codex-standing-process-vectors",
+  "lock_token": "6e446aa166b0ab6aea8e6bf82d8af96535b394dcdefbd862",
+  "acquired_at": "2026-10-21T22:39:27.451641+00:00",
+  "expires_at": "2026-10-22T00:09:27.451641+00:00",
+  "run_ref": "KITT-20261021-LIFECYCLE-PROCESS-HARNESS-author"
+}
