@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T13:33:17.309468+00:00",
+    "generated_at": "2026-10-21T13:34:22.859936Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -3050,15 +3050,15 @@
       "id": "KWH-TOPBOX-TEST",
       "project_id": "kludge-wagon-haywire",
       "title": "SR-404 topbox_lock automated tests",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-01a15457-topbox",
-      "claim_expires_at": "2026-10-21T15:25:43.586600Z",
-      "updated_at": "2026-10-21T13:25:51.171925Z",
-      "next_action": "Freeze source and verify/add ECU/headless topbox status/open-state tests; no product/runtime/other-owner changes.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T13:34:22.859897Z",
+      "next_action": "Complete separately claimed KWH-TOPBOX-UI (#155) and KWH-TOPBOX-MODEL (#153) integration,then test rendered status plus real lid-open state on an exact reviewed revision. Candidate ECU/model tests pass68/68;no physical-open acceptance or independent review claimed.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/156"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/538"
     },
     {
       "id": "KWH-CLUE-SCHEMA",
@@ -7890,5 +7890,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T13:33:59.641394Z"
+  "updated_at": "2026-10-21T13:34:22.859932Z"
 }
