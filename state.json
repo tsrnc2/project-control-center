@@ -2054,16 +2054,20 @@
     {
       "id": "KWH-ECU-FUEL-MAP",
       "project_id": "kludge-wagon-haywire",
-      "title": "ECU: fuel map in player C",
-      "state": "RUNNING",
+      "title": "Fuel-map ownership lesson in bounded real WASM and native response",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "codex-caretaker-fuel-ecu",
-      "claim_expires_at": "2026-10-21T18:53:37.933634Z",
-      "updated_at": "2026-10-21T17:17:24.829894Z",
-      "next_action": "Six original residential types native345/0;verify47newpaths,43filedeterministicgeneration,negativecontrols and freshreplay before publication. Art/world/platform/releasegates held.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T17:36:04.674726Z",
+      "next_action": "Fuel-map source author candidate https://github.com/tsrnc2/fly-by-wire-c/pull/598;held qualified distinct-family review https://github.com/tsrnc2/kitt/issues/428. Not accepted,merged,deployed or fullgame/platformqualified.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/28"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/28",
+      "artifacts": [
+        "https://github.com/tsrnc2/fly-by-wire-c/pull/598",
+        "https://github.com/tsrnc2/kitt/issues/428"
+      ]
     },
     {
       "id": "KWH-ECU-RESTORED-CHECKS",
@@ -8719,5 +8723,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T17:33:59.755129Z"
+  "updated_at": "2026-10-21T17:36:04.674791Z"
 }
