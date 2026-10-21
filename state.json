@@ -2504,12 +2504,12 @@
       "id": "KWH-PH-WHEEL",
       "project_id": "kludge-wagon-haywire",
       "title": "Replace placeholder model: wheel",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P3",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Final low-poly GLB replaces placeholder; same footprint/anchors; collision intact",
+      "claimed_by": "codex-caretaker-wheel-model",
+      "claim_expires_at": "2026-10-21T20:17:40.894052Z",
+      "updated_at": "2026-10-21T18:17:46.653707Z",
+      "next_action": "Author bounded original wheel GLB retaining frozenbounds/anchors and one main modelpath;actualsource-loader/native verification;Joboart/rig/world/platform gates held.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/17"
@@ -8898,5 +8898,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T18:16:22.265814Z"
+  "updated_at": "2026-10-21T18:17:46.653726Z"
 }
