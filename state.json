@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T03:24:21.982731+00:00",
+    "generated_at": "2026-10-21T03:25:12.364145Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -2871,12 +2871,12 @@
       "id": "KWH-MKT-TRADING-CARDS",
       "project_id": "kludge-wagon-haywire",
       "title": "Trading cards set plan",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P3",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T01:15:54Z",
-      "next_action": "Marketing. Acceptance: Card set (5-15), backgrounds, emoticons spec. Unclaimed.",
+      "claimed_by": "codex-01a15457-cards",
+      "claim_expires_at": "2026-10-21T05:24:51.630070Z",
+      "updated_at": "2026-10-21T03:25:12.364116Z",
+      "next_action": "Draft source-backed card,background and emoticon concepts; no art/account/submission/publication beyond private candidate.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/144"
@@ -7819,5 +7819,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T03:25:02.279215+00:00"
+  "updated_at": "2026-10-21T03:25:12.364141Z"
 }
