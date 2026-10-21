@@ -1270,12 +1270,12 @@
       "id": "KWH-BLD-UPG-HOUSE-C-FALSEFRONT",
       "project_id": "kludge-wagon-haywire",
       "title": "Upgrade Bodie building with detail kit: house_c_falsefront",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P3",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Building dressed with >=4 kit pieces, unique paint/sign; collision intact; street-level screenshot",
+      "claimed_by": "codex-caretaker-house-c-upgrade",
+      "claim_expires_at": "2026-10-21T21:19:16.871454Z",
+      "updated_at": "2026-10-21T19:20:14.122986Z",
+      "next_action": "Bounded originalfalse-frontpaint/signsourcecandidate;preserveexistingdresser/geometry/collision/RNG;qualifiedreview/Jobofinalart/world/platformheld.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/57"
@@ -9122,5 +9122,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:17:56.248324Z"
+  "updated_at": "2026-10-21T19:20:14.123005Z"
 }
