@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-BLD-ORNAMENTS",
+  "agent_id": "codex-waypoint-ornaments",
+  "event": "SAME_OWNER_EXPIRED_LEASE_RECOVERY",
+  "at": "2026-10-21T13:26:38.281437Z",
+  "prior_expires_at": "2026-10-21T05:30:33.312128Z",
+  "prior_heartbeat_at": "2026-10-21T03:30:33.312098Z",
+  "reason": "Owner continued after tool/runtime interruption. Same owner/private token verified;no matching fixture processes;target preflight has only the two expiry findings this reconciliation repairs."
+}
