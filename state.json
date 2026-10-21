@@ -2368,15 +2368,20 @@
       "id": "KWH-PH-PROP-FENCE-4M",
       "project_id": "kludge-wagon-haywire",
       "title": "Replace placeholder model: prop_fence_4m",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P3",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T19:30:21.882143Z",
-      "updated_at": "2026-10-21T17:30:31.330964Z",
-      "next_action": "Original4mroad-fence model;preserve20realplacements/solidity/oldfootprint;qualifiedart/source/Joboapprovalheld.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T17:39:24.699358Z",
+      "next_action": "Coordinator binds actually qualified distinct art/source reviewer andJobo finalart approval to 63e2d4f01af0e9537bfa2ac734cccf9fefc5bec6 through KWH-PH-PROP-FENCE-4M-REVIEW-R1. Verify original3post/2splitrail geometry/provenance,one road-fenceloaderline/oldnotices,140triangleGLB/normals/winding/colors andexactAABB/groundorigin;source-exact20actualterrainplacements/nonsolid behavior andscaled/solidcollisioncontrols;firstfixturefailures/freshreproduction. Reconcile acceptedsource composition separately frombuilding-detailPR531 andsignpostPR599. Actualworld/export/platform/distanceLOD/performance remainheld. No finalart self-acceptance,merge/deploy orpaidservice.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/9"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/600",
+      "dispatch_allowed": false,
+      "candidate_revision": "63e2d4f01af0e9537bfa2ac734cccf9fefc5bec6",
+      "blocker_issue": "https://github.com/tsrnc2/kitt/issues/429",
+      "author_completion": "DONE",
+      "review_task": "KWH-PH-PROP-FENCE-4M-REVIEW-R1"
     },
     {
       "id": "KWH-PH-PROP-HIGHWAY-SEGMENT",
@@ -7467,6 +7472,21 @@
       "candidate_revision": "efefbfadf98ff6703ea51eac2f90449683d151ee",
       "updated_at": "2026-10-21T17:27:50.543522Z",
       "next_action": "Coordinator binds actually qualified distinct art/source reviewer andJobo final wording/visual approval to efefbfadf98ff6703ea51eac2f90449683d151ee through KWH-PH-PROP-SIGNPOST-REVIEW-R1. Verify originalmesh/glyph provenance,one signpostloaderline/oldnotices/fourplacements,78triangleGLB/embeddedPNG,+Z/readability/nativeAABB andcollision atactualterrainplacements,retainedfirstfailures andfreshreproduction. Then reconcile acceptedsource andactualgame/world/export/platform/distance/LOD/performance gates. No finalart self-acceptance,merge/export/deploy orpaidservice."
+    },
+    {
+      "id": "KWH-PH-PROP-FENCE-4M-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified original road-fence art/source review and Jobo final acceptance",
+      "state": "READY",
+      "priority": "P3",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "dispatch_allowed": false,
+      "dependencies": [],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/600",
+      "candidate_revision": "63e2d4f01af0e9537bfa2ac734cccf9fefc5bec6",
+      "updated_at": "2026-10-21T17:39:24.699451Z",
+      "next_action": "Coordinator binds actually qualified distinct art/source reviewer andJobo finalart approval to 63e2d4f01af0e9537bfa2ac734cccf9fefc5bec6 through KWH-PH-PROP-FENCE-4M-REVIEW-R1. Verify original3post/2splitrail geometry/provenance,one road-fenceloaderline/oldnotices,140triangleGLB/normals/winding/colors andexactAABB/groundorigin;source-exact20actualterrainplacements/nonsolid behavior andscaled/solidcollisioncontrols;firstfixturefailures/freshreproduction. Reconcile acceptedsource composition separately frombuilding-detailPR531 andsignpostPR599. Actualworld/export/platform/distanceLOD/performance remainheld. No finalart self-acceptance,merge/deploy orpaidservice."
     }
   ],
   "blockers": [
@@ -8723,5 +8743,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T17:36:04.674791Z"
+  "updated_at": "2026-10-21T17:39:24.699458Z"
 }
