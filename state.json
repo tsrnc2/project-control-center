@@ -749,12 +749,12 @@
       "id": "KWH-COLLISION-POLISH",
       "project_id": "kludge-wagon-haywire",
       "title": "Collision polish",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P2",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Ready for owner agent.",
+      "claimed_by": "codex-building-collision-01a15507",
+      "claim_expires_at": "2026-10-21T15:58:12.872525Z",
+      "updated_at": "2026-10-21T13:58:18.325812Z",
+      "next_action": "Prepare anchored building mesh collision author candidate author candidate and native evidence; preserve other owners and all review gates.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/22"
@@ -7986,5 +7986,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T13:57:37.667153Z"
+  "updated_at": "2026-10-21T13:58:18.325830Z"
 }
