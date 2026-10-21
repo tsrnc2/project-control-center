@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-ECU-FUEL-MAP",
+  "agent_id": "codex-caretaker-fuel-ecu",
+  "lock_token": "ddf21abc0b0021ea0cb9edcef1fa91d3de21736c56162e5c",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T16:53:37.933611Z",
+  "heartbeat_at": "2026-10-21T16:53:37.933630Z",
+  "expires_at": "2026-10-21T18:53:37.933634Z",
+  "run_ref": "Original issue28 fuel-map malloc/free lesson through real playerC/WASM/bounded injector/engine telemetry;author candidate only"
+}
