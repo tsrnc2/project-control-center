@@ -8878,6 +8878,19 @@
       "issue_url": "https://github.com/tsrnc2/project-control-center/issues/147",
       "next_action": "Resolve accepted prerequisite artifacts and exact role/runtime/reviewer bindings before claiming; publish one bounded candidate, retain downstream gates.",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-SELF-GOV-030.json"
+    },
+    {
+      "id": "KITT-20261021-SF-STOP-002-003",
+      "project_id": "kitt",
+      "title": "Repair service stop uncertainty and reentry fencing",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "owner_agent": null,
+      "source_ref": "https://github.com/tsrnc2/kitt/pull/132",
+      "dispatch_allowed": false,
+      "execution_mode": "OWNER_SUPERVISED_SOURCE_PREPARATION_ONLY",
+      "updated_at": "2026-10-21T22:05:10.115932+00:00"
     }
   ],
   "blockers": [
@@ -10141,5 +10154,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T22:05:03.504462+00:00"
+  "updated_at": "2026-10-21T22:05:10.115951+00:00"
 }
