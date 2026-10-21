@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-MKT-CAPSULE-MAIN",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-fbw-sequential",
+  "lock_token": "8bfaea1cc4fa669c50666f5253ebe24235039d6307470661",
+  "acquired_at": "2026-10-21T22:07:19.992876+00:00",
+  "heartbeat_at": "2026-10-21T22:07:19.992876+00:00",
+  "expires_at": "2026-10-22T00:07:19.992892+00:00",
+  "run_ref": "draft-only-original-main-capsule-1232x706-source-and-native-render-evidence"
+}
