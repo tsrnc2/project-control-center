@@ -1,9 +1,0 @@
-{
-  "task_id": "KWH-GPS-HARNESS-EVIDENCE-RECONCILE",
-  "project_id": "kludge-wagon-haywire",
-  "agent_id": "codex-gps-harness-evidence-20261021",
-  "lock_token": "fd64c553c1d9c9505d583ab70a93a75f1102fd8d59816ef8",
-  "acquired_at": "2026-10-21T18:19:46.122147Z",
-  "expires_at": "2026-10-21T20:19:46.122169Z",
-  "run_ref": "gps-harness-evidence-20261021"
-}

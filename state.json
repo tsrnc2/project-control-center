@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T18:32:55.069030Z",
+    "generated_at": "2026-10-21T18:35:02.890843Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -7660,15 +7660,24 @@
       "id": "KWH-GPS-HARNESS-EVIDENCE-RECONCILE",
       "project_id": "kludge-wagon-haywire",
       "title": "GPS exact repository ECU_ONLY harness execution evidence",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-gps-harness-evidence-20261021",
-      "owner_agent": "codex-gps-harness-evidence-20261021",
-      "claimed_at": "2026-10-21T18:19:46.122147Z",
-      "claim_expires_at": "2026-10-21T20:19:46.122169Z",
-      "updated_at": "2026-10-21T18:21:38.455250Z",
+      "claimed_by": null,
+      "owner_agent": null,
+      "claimed_at": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T18:35:02.890843Z",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/64",
-      "next_action": "Run exact unmodified historical/current harnesses; publish factual execution evidence, preserve original task owner and review/platform gates."
+      "next_action": "Prepare exact-current Node-only ECU dispatcher source correction through KWH-ECU-ONLY-ENTRYPOINT-REPAIR without executing onboarding or disabling browser protections. After genuine independent source/test acceptance and normal adoption, refreeze accepted-current source and run exact ECU_ONLY=1 node test.js; reconcile original159/64/task/PCC facts under actual authority. Historical6d5execution is proven, currentf2fNOT_RUN remains explicit.",
+      "claim_heartbeat_at": null,
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/612",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/441",
+      "author_completion": "DONE",
+      "current_execution": "NOT_RUN_BROWSER_PATH_OUTSIDE_CONTRACT",
+      "independent_acceptance": false,
+      "dispatch_allowed": false,
+      "product_changes": 0,
+      "deployment": false
     },
     {
       "id": "KWH-PH-SHERIFF-CAR-REVIEW-R1",
@@ -7695,6 +7704,19 @@
       "updated_at": "2026-10-21T18:29:33.051001Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/events/KITT-20261021-REGISTRY-REV96.json",
       "next_action": "Continue eligible work using verifiedrevision96;all43projectobjects andKWHscope/ownership unchanged;notqualification/acceptance/fullportfolioaudit."
+    },
+    {
+      "id": "KWH-ECU-ONLY-ENTRYPOINT-REPAIR",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Make ECU_ONLY root entrypoint genuinely Node-only before browser imports/stages",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "owner_agent": null,
+      "updated_at": "2026-10-21T18:35:02.890843Z",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/612",
+      "dispatch_allowed": true,
+      "next_action": "Claim one bounded source-author lease; reproduce safe browser-free entrypoint boundary, prepare minimal candidate and qualified independent review hold. Do not run known unsafe full-browser pipeline or adopt pending source."
     }
   ],
   "blockers": [
@@ -8951,5 +8973,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T18:32:55.069030Z"
+  "updated_at": "2026-10-21T18:35:02.890843Z"
 }
