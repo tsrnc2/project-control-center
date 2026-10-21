@@ -1,0 +1,10 @@
+{
+  "task_id": "KITT-20261021-LRP-COMPANION-SNAPSHOT-R1",
+  "project_id": "kitt",
+  "agent_id": "codex-sr-delegated-lrp-companions-20261021",
+  "lock_token": "bcc43de29fc0f3d2e10f3a3893bfab730f24746a23bf069e",
+  "acquired_at": "2026-10-21T16:29:48.611619Z",
+  "heartbeat_at": "2026-10-21T16:29:48.611619Z",
+  "expires_at": "2026-10-21T18:28:55.323247Z",
+  "run_ref": "lrp-companion-snapshot-20261021"
+}
