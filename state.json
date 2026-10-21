@@ -985,15 +985,18 @@
       "id": "KWH-BLD-WINDCHIMES",
       "project_id": "kludge-wagon-haywire",
       "title": "Building detail kit: wind chimes (animated, optional audio)",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T03:38:45.140432Z",
-      "updated_at": "2026-10-21T01:38:54.005850Z",
-      "next_action": "Verify exact existing native wind-chimes and publish actual render evidence; no qualified acceptance.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T01:43:53.972946Z",
+      "next_action": "Qualified exact-source review KWH-BLD-WINDCHIMES-REVIEW-R1 and approved PR499composition/integration/export acceptance remain pending;issue42 stays open.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/42"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/511",
+      "candidate_revision": "181b83ad90b28879fff43c2d438b8eb8e703c22e",
+      "completion_scope": "AUTHOR_CANDIDATE_AND_NATIVE_EVIDENCE",
+      "independent_acceptance": false
     },
     {
       "id": "KWH-BLD-PLANTS",
@@ -6419,6 +6422,23 @@
       "result_summary": "Read-only source-bound diagnosis https://github.com/tsrnc2/kitt/pull/305 proves65of1643skill IDs corrupted;65full-catalog search/get replay failures and65exact upstream blob matches;24synthetic raw-secret controls pass unchanged. No product/redaction repair or qualified security verdict.",
       "next_action": "Qualified security/consumer owner defines identity-integrity and secret-redaction policy, then a separate source-bound successor must pass replay/confidentiality/authority tests, independent review and canonical source/package/updater gates. Preserve PR298 and all live role/model/trust state.",
       "independent_acceptance": false
+    },
+    {
+      "id": "KWH-BLD-WINDCHIMES-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified exact-source review of anchored wind chime animation",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "dispatch_allowed": false,
+      "dependencies": [
+        "KWH-BLD-WINDCHIMES"
+      ],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/511",
+      "candidate_revision": "181b83ad90b28879fff43c2d438b8eb8e703c22e",
+      "updated_at": "2026-10-21T01:43:53.973062Z",
+      "next_action": "Bind actual qualified distinct reviewer before enabling dispatch/claiming;author cannot self-accept."
     }
   ],
   "blockers": [
@@ -7563,5 +7583,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T01:43:11.384289Z"
+  "updated_at": "2026-10-21T01:43:53.973073Z"
 }
