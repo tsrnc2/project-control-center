@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T03:18:35.025909Z",
+    "generated_at": "2026-10-21T03:19:29.893402Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6561,6 +6561,19 @@
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-WB-FRAME-CLOSE-GUARD-R1.json",
       "next_action": "Reproduce owned-frame close fault and add minimal receiver sender/origin checks plus isolated browser regressions.",
       "claimed_at": "2026-10-21T03:14:17.092239+00:00"
+    },
+    {
+      "id": "KITT-20261021-COST-FIREWALL-DRAFT-REPAIR",
+      "project_id": "kitt",
+      "title": "Repair cost-firewall draft ceiling, settlement and typed-input boundary",
+      "priority": "P1",
+      "state": "DONE",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T03:19:29.893380Z",
+      "evidence_ref": "https://github.com/tsrnc2/kitt/blob/651776b6460b5c5ad80d40b416d5b0d4d749d938/reports/codex/cost-firewall-repair-20261021/REPORT.md",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-20261021-COST-FIREWALL-DRAFT-REPAIR.json",
+      "next_action": "Author preparation complete;distinct qualified review KITT-20261021-COST-FIREWALL-DRAFT-REPAIR-REVIEW pending. Issue310/nativeport held foracceptedfixturefreeze anddurablehostdesign."
     }
   ],
   "blockers": [
