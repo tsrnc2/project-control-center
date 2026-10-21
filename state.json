@@ -1976,15 +1976,20 @@
       "id": "KWH-ECU-WIPERS",
       "project_id": "kludge-wagon-haywire",
       "title": "ECU: wipers in player C",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T17:57:06.266106Z",
-      "updated_at": "2026-10-21T15:57:15.963433Z",
-      "next_action": "Prepare WIPERS-only realC/WASM/worker/actuator/telemetry source with precise neighboring/gate preservation;independent integration acceptance held.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T16:19:25.430488Z",
+      "next_action": "Coordinator binds actual qualified distinct C/float32/WASM/worker/Godot/shared-UI and visual/source reviewer to 8dd26befd691b59c03e1cdb5ec1d6904a5bb0fe3 via KWH-ECU-WIPERS-REVIEW-R1. Reconcile approved current compiler/bootstrap/ECU/car source and other owners without implicitly adopting PR569;then verify exact composed game/export on supported platforms,cold bootstrap/live elapsed time/visible stall-fix-parking/practice/save/difficulty/editor and episode/story/RESTORED gates. Current evidence is component-level,not a newly exported live game or qualified final car art. Existing issue28 stays open for remaining lanes.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/28"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/583",
+      "dispatch_allowed": false,
+      "candidate_revision": "8dd26befd691b59c03e1cdb5ec1d6904a5bb0fe3",
+      "blocker_issue": "https://github.com/tsrnc2/kitt/issues/387",
+      "author_completion": "DONE",
+      "review_task": "KWH-ECU-WIPERS-REVIEW-R1"
     },
     {
       "id": "KWH-ECU-4WD-TRANSFER",
@@ -7116,6 +7121,21 @@
       "source_ref": "https://github.com/tsrnc2/kitt/issues/384",
       "updated_at": "2026-10-21T16:16:23.371807Z",
       "next_action": "Accountable coordinator binds qualified distinct test/oracle reviewer;keep dispatch disabled until eligibility and independence are established."
+    },
+    {
+      "id": "KWH-ECU-WIPERS-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified exact-source WIPERS C/float32/WASM/worker/Godot/UI and visual review",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "dispatch_allowed": false,
+      "dependencies": [],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/583",
+      "candidate_revision": "8dd26befd691b59c03e1cdb5ec1d6904a5bb0fe3",
+      "updated_at": "2026-10-21T16:19:25.430556Z",
+      "next_action": "Bind actual qualified distinct reviewer;immutable artifact review has no blocked-parent dependency."
     }
   ],
   "blockers": [
@@ -8352,5 +8372,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T16:16:31.723621Z"
+  "updated_at": "2026-10-21T16:19:25.430561Z"
 }
