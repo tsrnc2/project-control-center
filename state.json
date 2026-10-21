@@ -2661,15 +2661,16 @@
       "id": "KWH-MKT-SCREENSHOTS",
       "project_id": "kludge-wagon-haywire",
       "title": "5+ store screenshots (1920x1080)",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P1",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T01:15:54Z",
-      "next_action": "Marketing. Acceptance: >=5 in-game 1920x1080 PNGs: driving, C workbench, gdb/asm view, mission cutscene, GPS minimap. Unclaimed.",
+      "claimed_by": "codex-standing-store-shots",
+      "claim_expires_at": "2026-10-21T15:00:33Z",
+      "updated_at": "2026-10-21T13:36:12.923622+00:00",
+      "next_action": "Capture private actual1080p draft images from verified packaged runtime; no product/store action. Interrupted claim reconciled; Drive94 receipt verified.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/129"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/129",
+      "claimed_at": "2026-10-21T13:30:22Z"
     },
     {
       "id": "KWH-MKT-TRAILER-SCRIPT",
@@ -7890,5 +7891,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T13:35:20.683989Z"
+  "updated_at": "2026-10-21T13:36:12.923636+00:00"
 }
