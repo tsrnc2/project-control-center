@@ -1398,17 +1398,17 @@
       "id": "KWH-TUNNEL-LAIR",
       "project_id": "kludge-wagon-haywire",
       "title": "Jhonnas lair room with clues",
-      "state": "CLAIMED",
+      "state": "RUNNING",
       "priority": "P2",
       "claimed_by": "codex-fbw-sequential",
-      "claim_expires_at": "2026-10-21T05:24:09.652904+00:00",
-      "updated_at": "2026-10-21T03:24:09.652904+00:00",
+      "claim_expires_at": "2026-10-21T05:24:18.636239+00:00",
+      "updated_at": "2026-10-21T03:24:18.636239+00:00",
       "next_action": "Acceptance: Lair room with >=3 interactable clue props tied to Ep1 story",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/69",
       "claimed_at": "2026-10-21T03:24:09.652904+00:00",
-      "claim_heartbeat_at": "2026-10-21T03:24:09.652904+00:00"
+      "claim_heartbeat_at": "2026-10-21T03:24:18.636239+00:00"
     },
     {
       "id": "KWH-TUNNEL-GPS",
@@ -7820,5 +7820,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T03:25:14.961325Z"
+  "updated_at": "2026-10-21T03:24:18.636239+00:00"
 }
