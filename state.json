@@ -6316,6 +6316,22 @@
       "candidate_revision": "96ea49443f5bed151137923bd369eb1815d048c2",
       "updated_at": "2026-10-20T23:08:09.194976Z",
       "next_action": "Bind actual qualified independent reviewer before enabling dispatch or claiming;source author must not self-accept."
+    },
+    {
+      "id": "kitt-20261001-kitt-job-1-review-past-trainer-ml-report",
+      "project_id": "kitt",
+      "title": "KITT job 1: review past trainer/ML reports, write a new plan, implement it, start the next training run",
+      "state": "BLOCKED",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T01:20:16.947525Z",
+      "source_ref": "https://github.com/tsrnc2/project-control-center-private/pull/4",
+      "candidate_revision": "6c48aa903038e4196f7a18dddfccd843f82a3430",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/283",
+      "canonical_task_blob": "426fe5826469daaed28c05266cc961513a318025",
+      "result_summary": "Historical review and concrete recovery plan published https://github.com/tsrnc2/project-control-center-private/pull/4. Verified intact17987-state pre-v22 checkpoint, archived truncation,6rejection controls and51unique evaluation runs. Owner plan/compatibility-track approval, compatible source/evaluator and authorized host/budget/review remain; no training or production restore.",
+      "next_action": "Owner reviews private plan and selects historical v21 recovery versus reviewed Godot4 conversion; resolve source/evaluator/reliability and host/resource approval gates before any training. Resume with fresh ownership."
     }
   ],
   "blockers": [
@@ -7434,5 +7450,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-20T23:08:09.194981Z"
+  "updated_at": "2026-10-21T01:20:16.947575Z"
 }
