@@ -1215,15 +1215,20 @@
       "id": "KWH-BLD-UPG-STAMP-MILL",
       "project_id": "kludge-wagon-haywire",
       "title": "Upgrade Bodie building with detail kit: stamp_mill",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P3",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T21:21:13.066212Z",
-      "updated_at": "2026-10-21T19:21:22.877831Z",
-      "next_action": "StampMill original instance paint/sign over unchanged GLB/dresser/anchors;component native verification and private draft;qualification/Jobo/world acceptance held.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T19:39:07.683446Z",
+      "next_action": "Bind actually qualified distinct source/native/art reviewer and Jobo final industrial paint/kit/label approval. Verify all exactsource/product/evidence identities,oneMill-onlyselector/fallback,originalresources/oldbounds/coarsecollision/sourcepose,twoper-instancepaints,eightcontained/grounded/front-clear originalkitmeshes andreadablelabel. Reproduce354checks/freshfullJSON/3PNGidentity and12/1/8/1negatives;inspect first344/41origin,344/0hiddenvisual anddisplayloss/stale-reference histories withmatchingfinalrenderprovenance. Assesspreservedunsupportedstackappearance/unbatchedpieces;reconcileaccepted-sourcecomposition beforefullworld/export/platform/distance/LOD/performanceacceptance. Review frozen f8414ca3c782dd00808a6350b2c790233d970773 through KWH-BLD-UPG-STAMP-MILL-REVIEW-R1.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/54"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/624",
+      "dispatch_allowed": false,
+      "candidate_revision": "f8414ca3c782dd00808a6350b2c790233d970773",
+      "blocker_issue": "https://github.com/tsrnc2/kitt/issues/457",
+      "author_completion": "DONE",
+      "review_task": "KWH-BLD-UPG-STAMP-MILL-REVIEW-R1"
     },
     {
       "id": "KWH-BLD-UPG-HOUSE-A",
@@ -7939,6 +7944,21 @@
       "source_ref": "https://github.com/tsrnc2/kitt/pull/455",
       "dispatch_allowed": false,
       "next_action": "Bind genuine qualified independent native/client/compatibility/build/provenance reviewer to exact de51211fc13e43c77636ee7e9a9d41a92f2e0128 before KITT-20261021-CONTROL-AGENT-DIAGNOSTIC-REVIEW-R1 dispatch. Verify intentional native-only message delta, unchanged validation/gates/frozen reference, fixture I/O assertion preservation, explicit Boost CONFIG compatibility and exact tested binary binding. PR334 and normal accepted adoption/install gates remain. No self-review, feature transplant to main, installed-cache patch or Daybreak action."
+    },
+    {
+      "id": "KWH-BLD-UPG-STAMP-MILL-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified stamp-mill industrial kit source/native/art review and Jobo approval",
+      "state": "READY",
+      "priority": "P3",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "dispatch_allowed": false,
+      "dependencies": [],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/624",
+      "candidate_revision": "f8414ca3c782dd00808a6350b2c790233d970773",
+      "updated_at": "2026-10-21T19:39:07.683544Z",
+      "next_action": "Bind actually qualified distinct source/native/art reviewer and Jobo final industrial paint/kit/label approval. Verify all exactsource/product/evidence identities,oneMill-onlyselector/fallback,originalresources/oldbounds/coarsecollision/sourcepose,twoper-instancepaints,eightcontained/grounded/front-clear originalkitmeshes andreadablelabel. Reproduce354checks/freshfullJSON/3PNGidentity and12/1/8/1negatives;inspect first344/41origin,344/0hiddenvisual anddisplayloss/stale-reference histories withmatchingfinalrenderprovenance. Assesspreservedunsupportedstackappearance/unbatchedpieces;reconcileaccepted-sourcecomposition beforefullworld/export/platform/distance/LOD/performanceacceptance. Review frozen f8414ca3c782dd00808a6350b2c790233d970773 through KWH-BLD-UPG-STAMP-MILL-REVIEW-R1."
     }
   ],
   "blockers": [
@@ -9195,5 +9215,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:37:38.674274Z"
+  "updated_at": "2026-10-21T19:39:07.683553Z"
 }
