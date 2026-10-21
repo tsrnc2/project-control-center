@@ -3599,12 +3599,12 @@
       "id": "KWH-DMG-SHOP",
       "project_id": "kludge-wagon-haywire",
       "title": "Damage: mechanic shop + replace-via-bug-challenge flow",
-      "state": "READY",
+      "state": "NO_PROGRESS",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T02:11:53Z",
-      "next_action": "Shop location; BROKEN\u2192challenge\u2192replace. Common UI API. READY.",
+      "updated_at": "2026-10-21T22:07:33.171245Z",
+      "next_action": "No canonical KITT task, lease, or blocker record exists for this dashboard-only idea. A coordinator must first create a scoped canonical task with acceptance, dependencies, and source boundaries; a worker may then take a fresh lease. Do not implement from this card alone.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/179"
@@ -10160,5 +10160,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T22:07:19.992876+00:00"
+  "updated_at": "2026-10-21T22:07:33.171275Z"
 }
