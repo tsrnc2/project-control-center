@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-MINI-LOADBAL",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-01a15457-loadbal",
+  "lock_token": "e3d1317ee5acd7f29b9a481a8fcd6ec16aa57777897a0671",
+  "acquired_at": "2026-10-21T13:36:19.490119Z",
+  "heartbeat_at": "2026-10-21T13:36:19.490119Z",
+  "expires_at": "2026-10-21T15:36:12.206684Z",
+  "run_ref": "loadbal-concept-01a15457-20261021"
+}
