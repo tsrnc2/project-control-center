@@ -1,9 +1,0 @@
-{
-  "task_id": "KITT-20261021-SELF-GOVERNANCE-BOARD-INTAKE",
-  "project_id": "kitt",
-  "agent_id": "codex-self-governance-board",
-  "lock_token": "d8cb15c7-b4f7-479c-97d9-f8eb20a4c9c7",
-  "acquired_at": "2026-10-21T21:54:50.657817Z",
-  "heartbeat_at": "2026-10-21T21:54:50.657817Z",
-  "expires_at": "2026-10-21T23:24:50.657830Z"
-}
