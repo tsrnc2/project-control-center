@@ -2022,16 +2022,20 @@
     {
       "id": "KWH-ECU-RADIO",
       "project_id": "kludge-wagon-haywire",
-      "title": "ECU: radio in player C",
-      "state": "RUNNING",
+      "title": "Radio CB station display driven by real player C",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "codex-caretaker-radio-ecu",
-      "claim_expires_at": "2026-10-21T18:24:16.090658Z",
-      "updated_at": "2026-10-21T16:38:47.685903Z",
-      "next_action": "Six original residential types native345/0;verify47newpaths,43filedeterministicgeneration,negativecontrols and freshreplay before publication. Art/world/platform/releasegates held.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T16:44:44.249615Z",
+      "next_action": "Radio CB source author candidate https://github.com/tsrnc2/fly-by-wire-c/pull/588;held qualified distinct-family review https://github.com/tsrnc2/kitt/issues/392. Not accepted,merged,deployed or fullgame/platformqualified.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/28"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/28",
+      "artifacts": [
+        "https://github.com/tsrnc2/fly-by-wire-c/pull/588",
+        "https://github.com/tsrnc2/kitt/issues/392"
+      ]
     },
     {
       "id": "KWH-ECU-FUEL-MAP",
@@ -8462,5 +8466,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T16:41:00.176003Z"
+  "updated_at": "2026-10-21T16:44:44.249638Z"
 }
