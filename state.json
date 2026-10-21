@@ -8937,17 +8937,18 @@
       "id": "KITT-20261021-SERVICE-FRAMEWORK-FULLCHECKOUT",
       "project_id": "kitt",
       "title": "Exact PR479 full-checkout validation",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P1",
-      "claimed_by": "codex-standing-full-checkout",
+      "claimed_by": null,
       "owner_agent": null,
       "source_ref": "https://github.com/tsrnc2/kitt/pull/479",
       "dispatch_allowed": false,
       "execution_mode": "OWNER_SUPERVISED_EVIDENCE_ONLY",
-      "updated_at": "2026-10-21T22:33:25.967098+00:00",
+      "updated_at": "2026-10-21T22:37:21.656306+00:00",
       "claimed_at": "2026-10-21T22:33:14.858724+00:00",
-      "claim_expires_at": "2026-10-22T00:03:14.858724+00:00",
-      "next_action": "Reconstruct exact PR479 checkout and run complete applicable local checks; preserve hosted runner failure separately."
+      "claim_expires_at": null,
+      "next_action": "Exact checkout passed locally; supervised-process vectors and independent acceptance remain required.",
+      "claim_heartbeat_at": null
     }
   ],
   "blockers": [
@@ -10211,5 +10212,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T22:33:25.967108+00:00"
+  "updated_at": "2026-10-21T22:37:21.656345+00:00"
 }
