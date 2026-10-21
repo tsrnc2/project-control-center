@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-BLD-UPG-HOTEL-2STORY",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-sr-delegated-hotel-reuse-20261021",
+  "lock_token": "7b13b5a85fae41eb8b921b41413976da2344ae521b6a3546",
+  "acquired_at": "2026-10-21T19:37:23.996693Z",
+  "heartbeat_at": "2026-10-21T19:37:23.996693Z",
+  "expires_at": "2026-10-21T21:37:20.259666Z",
+  "run_ref": "kwh-hotel-reuse-20261021"
+}
