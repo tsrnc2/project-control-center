@@ -7419,22 +7419,23 @@
       "id": "KWH-VEH-SAILBOAT-STRIPE-REPAIR-R1",
       "project_id": "kludge-wagon-haywire",
       "title": "Narrow sailboat stripe source repair for issue376",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "codex-sailboat-stripe-cedar",
-      "claim_expires_at": "2026-10-21T20:16:31.512017Z",
-      "updated_at": "2026-10-21T19:31:31.512017Z",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T19:33:13.092194Z",
       "source_ref": "https://github.com/tsrnc2/kitt/issues/376",
-      "next_action": "Owner-requested frozen review handoff only; no product edits or independent review execution.",
+      "next_action": "Accountable coordinator supplies actual independent T7/different-family source/art/runtime eligibility and ACK plus original Blender helper/generator inputs; reviewer then claims bounded exact-frozen review. No dispatch until eligibility exists; review/merge/deployment/commissioning acceptance remain separate.",
       "ownership_history": [
         {
           "claimed_by": "codex-sailboat-stripe-cedar",
           "released_at": "2026-10-21T17:03:56.010463Z"
         }
       ],
-      "release_operation_id": "KWH-VEH-SAILBOAT-STRIPE-REPAIR-R1-release",
+      "release_operation_id": "KWH-VEH-SAILBOAT-STRIPE-REPAIR-R1-review-handoff-release",
       "candidate_pr": "https://github.com/tsrnc2/fly-by-wire-c/pull/594",
-      "independent_acceptance": false
+      "independent_acceptance": false,
+      "review_task_id": "KWH-VEH-SAILBOAT-STRIPE-REVIEW-R1"
     },
     {
       "id": "KWH-ENG-MANUAL-REVIEW-R1",
@@ -7895,6 +7896,20 @@
       "source_ref": "https://github.com/tsrnc2/kitt/pull/391",
       "updated_at": "2026-10-21T19:28:47.177332Z",
       "next_action": "Manual owner-exception author candidate for re.relocation-entry-parse only; qualified review and all release gates remain closed."
+    },
+    {
+      "id": "KWH-VEH-SAILBOAT-STRIPE-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Held independent exact-source review of sailboat stripe correction",
+      "state": "BLOCKED",
+      "priority": "P2",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "dispatch_allowed": false,
+      "candidate_revision": "6cbec04a0d5053437f96f89c7b8aea06bfd650c0",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/594",
+      "updated_at": "2026-10-21T19:33:13.092194Z",
+      "next_action": "Accountable coordinator supplies actual independent T7/different-family source/art/runtime eligibility and ACK plus original Blender helper/generator inputs; reviewer then claims bounded exact-frozen review. No dispatch until eligibility exists; review/merge/deployment/commissioning acceptance remain separate."
     }
   ],
   "blockers": [
@@ -9151,5 +9166,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:32:13.698675Z"
+  "updated_at": "2026-10-21T19:33:13.092194Z"
 }
