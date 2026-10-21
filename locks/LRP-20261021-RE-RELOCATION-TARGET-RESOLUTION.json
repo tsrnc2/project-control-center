@@ -1,0 +1,10 @@
+{
+  "task_id": "LRP-20261021-RE-RELOCATION-TARGET-RESOLUTION",
+  "project_id": "llm-reasoning-project",
+  "agent_id": "codex-01a15457-re-location-author",
+  "lock_token": "8f9d139c-580e-46a5-95b3-32a58ec33ddc",
+  "acquired_at": "2026-10-21T21:26:11.882156Z",
+  "heartbeat_at": "2026-10-21T21:26:11.882156Z",
+  "expires_at": "2026-10-21T23:26:11.882156Z",
+  "run_ref": "re-location-author-01a15457"
+}
