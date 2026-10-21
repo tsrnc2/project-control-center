@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T03:25:12.364145Z",
+    "generated_at": "2026-10-21T03:25:14.961330Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -2813,15 +2813,16 @@
       "id": "KWH-MKT-SOCIAL-REDDIT",
       "project_id": "kludge-wagon-haywire",
       "title": "Social plan: Reddit (r/learnprogramming, r/C_Programming, r/godot)",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-kwh-social-x-20261021",
-      "claim_expires_at": "2026-10-21T05:22:52.370150Z",
-      "updated_at": "2026-10-21T03:23:05.366180Z",
-      "next_action": "Prepare four relative weeks of source-grounded post drafts for owner review; no scheduling, posting, spending or account access.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T03:25:14.961288Z",
+      "next_action": "Private Reddit rule/draft preparation: https://github.com/tsrnc2/fly-by-wire-c/pull/525. BLOCKED on community AI-origin/promotion/account eligibility;see https://github.com/tsrnc2/kitt/issues/317. No Reddit posting or messages.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/140"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/140",
+      "blocked_at": "2026-10-21T03:25:14.961313Z"
     },
     {
       "id": "KWH-MKT-NEXTFEST-DEMO",
@@ -7819,5 +7820,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T03:25:12.364141Z"
+  "updated_at": "2026-10-21T03:25:14.961325Z"
 }
