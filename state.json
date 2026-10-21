@@ -6545,15 +6545,16 @@
       "id": "KWH-WB-FRAME-CLOSE-GUARD-R1",
       "project_id": "kludge-wagon-haywire",
       "title": "Bind Workbench close messages to the current same-origin child frame",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P2",
-      "claimed_by": null,
+      "claimed_by": "codex-standing-frame-guard",
       "owner_agent": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-21T03:14:09.546879+00:00",
+      "claim_expires_at": "2026-10-21T04:44:17.092239+00:00",
+      "updated_at": "2026-10-21T03:14:28.347523+00:00",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-WB-FRAME-CLOSE-GUARD-R1.json",
-      "next_action": "Reproduce and correct discovered embed.js close sender/origin binding in private isolated frames; preserve active manual-link owner and all release gates."
+      "next_action": "Reproduce owned-frame close fault and add minimal receiver sender/origin checks plus isolated browser regressions.",
+      "claimed_at": "2026-10-21T03:14:17.092239+00:00"
     }
   ],
   "blockers": [
@@ -7731,5 +7732,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T03:14:12.205210+00:00"
+  "updated_at": "2026-10-21T03:14:28.347541+00:00"
 }
