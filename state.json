@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T15:56:12.250672Z",
+    "generated_at": "2026-10-21T15:58:44.109966Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -2188,15 +2188,16 @@
       "id": "KWH-WB-GDB-CLI",
       "project_id": "kludge-wagon-haywire",
       "title": "Workbench: gdb CLI pane + watch expressions",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P3",
-      "claimed_by": "codex-sr-delegated-gdb-cli-20261021",
-      "claim_expires_at": "2026-10-21T16:53:48.566190Z",
-      "updated_at": "2026-10-21T14:53:55.705857Z",
-      "next_action": "Author actual GDB command output and watch expressions refreshed on step;preserve exact startup-admission predecessor,other Workbench ownership and review gates.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T15:58:44.109941Z",
+      "next_action": "Author GDB command/watch candidate https://github.com/tsrnc2/fly-by-wire-c/pull/572 verified25browser+5protocol+18VM+16legacyUI assertions;runtime4646blobs unchanged. Qualified KWH-WB-GDB-CLI-REVIEW-R1 and accepted stacked/combined integration pending;https://github.com/tsrnc2/kitt/issues/371. No merge/deployment.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/112"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/112",
+      "blocked_at": "2026-10-21T15:58:44.109953Z"
     },
     {
       "id": "KWH-PH-BODIE-CHURCH-STEEPLE",
@@ -8280,5 +8281,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T15:57:57.885203Z"
+  "updated_at": "2026-10-21T15:58:44.109963Z"
 }
