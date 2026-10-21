@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-FIRST-LOAD-SIZE",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-sr-delegated-first-load-20261021",
+  "lock_token": "08f405282d4c69d5079a63c2134506f9d23ceac15fa96eae",
+  "acquired_at": "2026-10-21T17:09:32.000224Z",
+  "heartbeat_at": "2026-10-21T17:09:32.000224Z",
+  "expires_at": "2026-10-21T19:09:20.299395Z",
+  "run_ref": "kwh-first-load-measurement-20261021"
+}
