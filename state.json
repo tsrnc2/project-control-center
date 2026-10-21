@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T03:21:31.587517Z",
+    "generated_at": "2026-10-21T03:22:02.255031Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6588,6 +6588,18 @@
       "execution_mode": "OWNER_SCOPED_TECHNICAL_REVIEW",
       "independent_acceptance": false,
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-WB-HOOKS-TEST-REVIEW-R1.json"
+    },
+    {
+      "id": "KITT-20261021-INTAKE-DEPENDENCY-ALIASES",
+      "project_id": "kitt",
+      "title": "Correct dependency aliases in caretaker read-only board discovery",
+      "priority": "P2",
+      "state": "DONE",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T03:22:02.254987Z",
+      "evidence_ref": "https://github.com/tsrnc2/kitt/blob/99a4b1050a73466208a55349615c2dc31c9f2eb3/reports/codex-standing-fbw/intake-dependencies-20261021/REPORT.md",
+      "next_action": "Use this session corrected read-only intake. Before any execution re-read exact live task/prerequisite/lease and applicable ownership, positive review and qualification evidence. Remaining external review/assignment/deployment gates are unchanged."
     }
   ],
   "blockers": [
@@ -6874,6 +6886,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-21T03:22:02.255040Z",
+      "type": "TASK_COMPLETED",
+      "project_id": "kitt",
+      "task_id": "KITT-20261021-INTAKE-DEPENDENCY-ALIASES",
+      "summary": "Local discovery dependency aliases corrected; six false-ready records removed on identical inputs; source verification only."
+    },
     {
       "at": "2026-10-21T03:18:52.287514+00:00",
       "type": "TASK_DONE",
