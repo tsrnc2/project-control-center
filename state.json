@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T18:45:15.229026Z",
+    "generated_at": "2026-10-21T18:51:53.545568Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -7723,16 +7723,22 @@
       "id": "KWH-ECU-ONLY-ENTRYPOINT-REPAIR",
       "project_id": "kludge-wagon-haywire",
       "title": "Make ECU_ONLY root entrypoint genuinely Node-only before browser imports/stages",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "codex-ecu-only-entrypoint-20261021",
-      "owner_agent": "codex-ecu-only-entrypoint-20261021",
-      "updated_at": "2026-10-21T18:38:59.257223Z",
+      "claimed_by": null,
+      "owner_agent": null,
+      "updated_at": "2026-10-21T18:51:53.545568Z",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/612",
-      "dispatch_allowed": true,
-      "next_action": "Claim one bounded source-author lease; reproduce safe browser-free entrypoint boundary, prepare minimal candidate and qualified independent review hold. Do not run known unsafe full-browser pipeline or adopt pending source.",
-      "claimed_at": "2026-10-21T18:38:59.257223Z",
-      "claim_expires_at": "2026-10-21T20:38:59.257243Z"
+      "dispatch_allowed": false,
+      "next_action": "Bind genuine qualified independent source/test reviewer to exact f66c2c9c8bfe69e7b2b4c375da95e9532fed7395 before dispatch of KWH-ECU-ONLY-ENTRYPOINT-REPAIR-REVIEW-R1. Inspect actual early-only flag semantics, child status/signal/error handling, browser-free7case probe/real49ECU evidence and byte-identical original full dispatcher body. After actual acceptance/adoption, refreeze accepted-current root and rerun literal ECU_ONLY command; do not clear parent441/159/GPS/platform/admission gates from author candidate tests.",
+      "claimed_at": null,
+      "claim_expires_at": null,
+      "claim_heartbeat_at": null,
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/615",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/445",
+      "author_completion": "DONE",
+      "independent_acceptance": false,
+      "deployment": false
     },
     {
       "id": "KITT-20261021-REGISTRY-REV98",
@@ -7759,6 +7765,19 @@
       "candidate_revision": "0e4884e6e63ad483b6544acaac46463f7b347ff1",
       "updated_at": "2026-10-21T18:51:47.965942Z",
       "next_action": "Owner/Jobo bind target web/desktop platforms, candidate minimum/recommended physical hardware, correctness/visual/FPS/latency budgets and residual-risk owner. Bind actually qualified distinct source/protocol reviewer; assess frozen artifacts, guard/censoring and PID0 helper defect. Then separately lease/freeze a corrected bounded measurement task on representative devices, preserving failed outcomes and covering lifecycle/load/storage/cache/desktop gaps. No blind rerun or readiness/minimum declaration from this abort. Review frozen 0e4884e6e63ad483b6544acaac46463f7b347ff1 through KWH-MKT-SYSREQS-REVIEW-R1."
+    },
+    {
+      "id": "KWH-ECU-ONLY-ENTRYPOINT-REPAIR-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified independent exact-source review of genuine Node-only ECU entrypoint",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "owner_agent": null,
+      "updated_at": "2026-10-21T18:51:53.545568Z",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/615",
+      "dispatch_allowed": false,
+      "next_action": "Authorized coordinator binds genuine qualified independent source/test reviewer before claim/dispatch; no automatic parent/current/role/platform clearance."
     }
   ],
   "blockers": [
@@ -9015,5 +9034,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T18:51:47.965948Z"
+  "updated_at": "2026-10-21T18:51:53.545568Z"
 }
