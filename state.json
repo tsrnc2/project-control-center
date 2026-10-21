@@ -1874,11 +1874,11 @@
       "id": "KWH-OUTLINE-MOTO",
       "project_id": "kludge-wagon-haywire",
       "title": "Outline: motorcycle chase episode",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P2",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
+      "claimed_by": "codex-kwh-motorcycle-outline",
+      "claim_expires_at": "2026-10-21T05:02:08.312833Z",
+      "updated_at": "2026-10-21T03:32:08.312811Z",
       "next_action": "Acceptance: Episode beats + lesson mapping written",
       "owner_agent": null,
       "human_owner": "Jobo",
@@ -7862,5 +7862,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T03:31:55.087869Z"
+  "updated_at": "2026-10-21T03:32:08.312811Z"
 }

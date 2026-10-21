@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-OUTLINE-MOTO",
+  "agent_id": "codex-kwh-motorcycle-outline",
+  "lock_token": "2edef709-a67f-4cba-baf6-61e8e11e2bb7",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T03:32:08.312811Z",
+  "heartbeat_at": "2026-10-21T03:32:08.312811Z",
+  "expires_at": "2026-10-21T05:02:08.312833Z",
+  "run_ref": "Canonical private story-outline preparation; no runtime or canon acceptance"
+}
