@@ -8023,15 +8023,16 @@
       "id": "KITT-20261021-SF-SCHEMA-001",
       "project_id": "kitt",
       "title": "Repair service manifest schema finding SF-SCHEMA-001",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P1",
-      "claimed_by": "codex-standing-service-schema",
+      "claimed_by": null,
       "owner_agent": null,
       "source_ref": "https://github.com/tsrnc2/kitt/pull/132",
-      "updated_at": "2026-10-21T19:51:10.438268+00:00",
+      "updated_at": "2026-10-21T20:03:09.472511+00:00",
       "claimed_at": "2026-10-21T19:50:57.982202+00:00",
-      "claim_expires_at": "2026-10-21T21:20:57.982202+00:00",
-      "next_action": "Repair only SF-SCHEMA-001 against frozen PR17; independent review and other lifecycle gates remain held."
+      "claim_expires_at": null,
+      "next_action": "Draft PR464 author phase complete; qualified independent exact-head review required. Parent issue120 remains held.",
+      "claim_heartbeat_at": null
     },
     {
       "id": "KWH-ECU-COMPLETED-OBSERVATION-R1",
@@ -9320,5 +9321,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:54:05.180567Z"
+  "updated_at": "2026-10-21T20:03:09.472531+00:00"
 }
