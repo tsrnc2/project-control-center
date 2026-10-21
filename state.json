@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T21:56:02.183699Z",
+    "generated_at": "2026-10-21T21:56:26.166739+00:00",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -2818,15 +2818,17 @@
       "id": "KWH-MKT-CAPSULE-SMALL",
       "project_id": "kludge-wagon-haywire",
       "title": "Capsule art: small capsule 462x174",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P1",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T01:15:54Z",
+      "claimed_by": "codex-fbw-sequential",
+      "claim_expires_at": "2026-10-21T23:56:21Z",
+      "updated_at": "2026-10-21T21:56:26.166739+00:00",
       "next_action": "Marketing. Acceptance: PNG, logo readable at small size. Unclaimed.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/125"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/125",
+      "claimed_at": "2026-10-21T21:56:26.166739+00:00",
+      "claim_heartbeat_at": "2026-10-21T21:56:26.166739+00:00"
     },
     {
       "id": "KWH-MKT-CAPSULE-MAIN",
