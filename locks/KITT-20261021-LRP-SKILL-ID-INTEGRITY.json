@@ -1,0 +1,8 @@
+{
+  "project_id": "kitt",
+  "task_id": "KITT-20261021-LRP-SKILL-ID-INTEGRITY",
+  "agent_id": "codex-sr-delegated-lrp-skill-id-20261021",
+  "lock_token": "e6756d5c035799809e01d041c4b02bf38e17185e4c0b8584",
+  "acquired_at": "2026-10-21T01:42:04.076036+00:00",
+  "expires_at": "2026-10-21T01:52:04.076036+00:00"
+}
