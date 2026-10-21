@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T01:42:51.769999Z",
+    "generated_at": "2026-10-21T01:44:13.824487+00:00",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6358,15 +6358,21 @@
     {
       "id": "KWH-SR404-BADGE-POS-REVIEW-R1",
       "project_id": "kludge-wagon-haywire",
-      "state": "RUNNING",
-      "claimed_by": "codex-waypoint-badge-technical-review-20261021",
-      "claimed_at": "2026-10-21T01:29:08.693885Z",
-      "claim_expires_at": "2026-10-21T03:29:06.696200Z",
-      "owner_agent": "codex-waypoint-badge-technical-review-20261021",
-      "updated_at": "2026-10-21T01:29:08.693911Z",
+      "state": "BLOCKED",
+      "claimed_by": null,
+      "claimed_at": null,
+      "claim_expires_at": null,
+      "owner_agent": null,
+      "updated_at": "2026-10-21T01:44:13.824487+00:00",
       "execution_mode": "OWNER_SCOPED_TECHNICAL_REVIEW",
       "independent_acceptance": false,
-      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-SR404-BADGE-POS-REVIEW-R1.json"
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-SR404-BADGE-POS-REVIEW-R1.json",
+      "claim_heartbeat_at": null,
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/510",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/307",
+      "technical_verdict": "PASS_WITH_INHERITED_DIAGNOSTICS",
+      "qualification": "UNKNOWN",
+      "next_action": "Qualified independent exact-source acceptance and later authorized accepted-artifact integration remain. Owner technical exception consumed; no candidate/production change."
     },
     {
       "id": "pity-please-20261001-pityplease-ml-restore-the-v21-model-and-",
@@ -6720,6 +6726,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-21T01:44:13.824487+00:00",
+      "type": "BOUNDED_TECHNICAL_REVIEW_RECORDED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-SR404-BADGE-POS-REVIEW-R1",
+      "summary": "PR500 byte/native/browser checks pass with inherited diagnostics; qualified acceptance unknown. Own canonical lease released."
+    },
     {
       "at": "2026-10-21T01:44:02.814339+00:00",
       "type": "TASK_BLOCKED",
@@ -7597,5 +7610,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T01:44:02.814339+00:00"
+  "updated_at": "2026-10-21T01:44:13.824487+00:00"
 }
