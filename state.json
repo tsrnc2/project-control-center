@@ -1626,17 +1626,17 @@
       "id": "KWH-VEH-SUV",
       "project_id": "kludge-wagon-haywire",
       "title": "Temp vehicle model: Jhonnas SUV (non-branded)",
-      "state": "CLAIMED",
+      "state": "RUNNING",
       "priority": "P2",
       "claimed_by": "codex-fbw-sequential",
-      "claim_expires_at": "2026-10-21T17:44:19.761429+00:00",
-      "updated_at": "2026-10-21T15:44:19.761429+00:00",
+      "claim_expires_at": "2026-10-21T17:44:30.362408+00:00",
+      "updated_at": "2026-10-21T15:44:30.362408+00:00",
       "next_action": "Acceptance: GLB with fictional brand only; scale-correct; render committed",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/82",
       "claimed_at": "2026-10-21T15:44:19.761429+00:00",
-      "claim_heartbeat_at": "2026-10-21T15:44:19.761429+00:00"
+      "claim_heartbeat_at": "2026-10-21T15:44:30.362408+00:00"
     },
     {
       "id": "KWH-VEH-SAILBOAT",
@@ -8197,5 +8197,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T15:44:19.761429+00:00"
+  "updated_at": "2026-10-21T15:44:30.362408+00:00"
 }
