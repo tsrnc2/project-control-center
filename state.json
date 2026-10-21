@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T15:23:11.947535Z",
+    "generated_at": "2026-10-21T15:31:23.539697Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6905,6 +6905,18 @@
       "candidate_revision": "607ada75697634e7efd2bb7960cffe7d1d272175",
       "updated_at": "2026-10-21T15:29:38.045314Z",
       "next_action": "Bind actual qualified distinct reviewer before enabling dispatch/claiming;author cannot self-accept."
+    },
+    {
+      "id": "KWH-WB-MI-PARSER-BOUNDS-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Bound Workbench MI parser EOF/progress",
+      "state": "RUNNING",
+      "priority": "P1",
+      "claimed_by": "codex-01a15457-mi-parser",
+      "claim_expires_at": "2026-10-21T17:30:45.783040Z",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/561",
+      "updated_at": "2026-10-21T15:31:23.539663Z",
+      "next_action": "Reproduce bounded MI parser failure and prepare source-only EOF/progress correction;no Concept build/runtime adoption;preserve held source owners."
     }
   ],
   "blockers": [
@@ -8122,5 +8134,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T15:29:38.045320Z"
+  "updated_at": "2026-10-21T15:31:23.539687Z"
 }
