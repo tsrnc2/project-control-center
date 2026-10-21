@@ -3583,12 +3583,12 @@
       "id": "KWH-DMG-TELEMETRY",
       "project_id": "kludge-wagon-haywire",
       "title": "Damage: hardening score + status via common UI API (both skins)",
-      "state": "READY",
+      "state": "NO_PROGRESS",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T02:11:53Z",
-      "next_action": "Car Status health/hardening; PC+Android skins. READY.",
+      "updated_at": "2026-10-21T22:07:12.768736Z",
+      "next_action": "No canonical KITT task, lease, or blocker record exists for this dashboard-only idea. A coordinator must first create a scoped canonical task with acceptance, dependencies, and source boundaries; a worker may then take a fresh lease. Do not implement from this card alone.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/178"
@@ -10158,5 +10158,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T22:05:48.380062Z"
+  "updated_at": "2026-10-21T22:07:12.768781Z"
 }
