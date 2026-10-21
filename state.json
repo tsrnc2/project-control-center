@@ -6554,16 +6554,17 @@
       "id": "KWH-WB-FRAME-CLOSE-GUARD-R1",
       "project_id": "kludge-wagon-haywire",
       "title": "Bind Workbench close messages to the current same-origin child frame",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-standing-frame-guard",
+      "claimed_by": null,
       "owner_agent": null,
-      "claim_expires_at": "2026-10-21T04:44:17.092239+00:00",
-      "updated_at": "2026-10-21T03:14:28.347523+00:00",
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T03:25:02.279172+00:00",
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-WB-FRAME-CLOSE-GUARD-R1.json",
-      "next_action": "Reproduce owned-frame close fault and add minimal receiver sender/origin checks plus isolated browser regressions.",
-      "claimed_at": "2026-10-21T03:14:17.092239+00:00"
+      "next_action": "Workbench sender/origin candidate https://github.com/tsrnc2/fly-by-wire-c/pull/524 needs independent KWH-WB-FRAME-CLOSE-GUARD-REVIEW-R1 and reviewed adoption. Blocker https://github.com/tsrnc2/kitt/issues/316. No VM/fullgame/compiler/release acceptance.",
+      "claimed_at": "2026-10-21T03:14:17.092239+00:00",
+      "claim_heartbeat_at": null
     },
     {
       "id": "KITT-20261021-COST-FIREWALL-DRAFT-REPAIR",
@@ -6891,6 +6892,18 @@
       "required_next_action": "Eligible independent reviewer claims KWH-WB-HOOKS-TEST-REVIEW-R1 for https://github.com/tsrnc2/fly-by-wire-c/pull/512 at 5f4cf8056c49a0a7b6267c3dd9f26a45584beab4; reproduce applicable browser tests and complete exact-source review and normal reviewed adoption. Preserve separate VM/fullgame/license/release gates.",
       "review_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/512",
       "updated_at": "2026-10-21T01:45:53.755209+00:00"
+    },
+    {
+      "id": "kwh-wb-frame-close-review-20261021",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-WB-FRAME-CLOSE-GUARD-R1",
+      "state": "OPEN",
+      "severity": "MEDIUM",
+      "category": "INDEPENDENT_REVIEW",
+      "summary": "Workbench sender/origin guard awaits independent review/adoption.",
+      "required_next_action": "Eligible independent reviewer claims KWH-WB-FRAME-CLOSE-GUARD-REVIEW-R1 for https://github.com/tsrnc2/fly-by-wire-c/pull/524 at caea508ff3eb5b60cb981e25b8fa2951f4cb21f7; reproduce applicable browser tests and complete exact-source review and normal reviewed adoption. Preserve separate VM/fullgame/license/release gates.",
+      "review_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/524",
+      "updated_at": "2026-10-21T03:25:02.279210+00:00"
     }
   ],
   "activity": [
@@ -7806,5 +7819,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T03:24:21.982731+00:00"
+  "updated_at": "2026-10-21T03:25:02.279215+00:00"
 }
