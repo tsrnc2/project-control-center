@@ -1,0 +1,9 @@
+{
+  "task_id": "KWH-ECU-4WD-TRANSFER",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-waypoint-transfer-ecu-20261021",
+  "lock_token": "1ea8d126c3ad49b78bbf96a8918c9098b6878c1ee00724ea",
+  "acquired_at": "2026-10-21T16:39:47.681493Z",
+  "expires_at": "2026-10-21T18:39:47.681509Z",
+  "run_ref": "transfer-ecu-author-source-20261021"
+}
