@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-MKT-GIFS",
+  "agent_id": "codex-cedar-persistent",
+  "lock_token": "07c01ad29446223e47c17f2b7d46186080b24b2acd23b531",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T16:27:07.886506Z",
+  "heartbeat_at": "2026-10-21T16:27:07.886522Z",
+  "expires_at": "2026-10-21T18:27:07.886525Z",
+  "run_ref": "Issue132 private actual-gameplay GIF author drafts only; no distribution or Steamworks"
+}

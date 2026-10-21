@@ -2768,12 +2768,12 @@
       "id": "KWH-MKT-GIFS",
       "project_id": "kludge-wagon-haywire",
       "title": "Store page GIFs (3-5 short loops)",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P2",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T01:15:54Z",
-      "next_action": "Marketing. Acceptance: 3-5 GIFs <5MB showing code->car behavior change. Unclaimed.",
+      "claimed_by": "codex-cedar-persistent",
+      "claim_expires_at": "2026-10-21T18:27:07.886525Z",
+      "updated_at": "2026-10-21T16:27:17.770900Z",
+      "next_action": "Capture andverify3-5short realC-to-car GIF private drafts;actualsource/build/media/timing evidence;Joboapproval/distribution held.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/132"
@@ -8404,5 +8404,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T16:24:21.279105Z"
+  "updated_at": "2026-10-21T16:27:17.770926Z"
 }
