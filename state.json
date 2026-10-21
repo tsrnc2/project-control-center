@@ -8949,6 +8949,19 @@
       "claim_expires_at": null,
       "next_action": "Exact checkout passed locally; supervised-process vectors and independent acceptance remain required.",
       "claim_heartbeat_at": null
+    },
+    {
+      "id": "KITT-20261021-LIFECYCLE-PROCESS-HARNESS",
+      "project_id": "kitt",
+      "title": "Nine lifecycle supervised-process harness",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "owner_agent": null,
+      "source_ref": "https://github.com/tsrnc2/kitt/pull/480",
+      "dispatch_allowed": false,
+      "execution_mode": "OWNER_SUPERVISED_AUTHOR_ONLY",
+      "updated_at": "2026-10-21T22:39:19.698733+00:00"
     }
   ],
   "blockers": [
@@ -10212,5 +10225,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T22:37:21.656345+00:00"
+  "updated_at": "2026-10-21T22:39:19.698752+00:00"
 }
