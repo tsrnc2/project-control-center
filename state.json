@@ -6795,14 +6795,18 @@
     {
       "id": "KWH-CAST-IMPORT-UV-R1",
       "project_id": "kludge-wagon-haywire",
-      "title": "Repair UV-less cast/vehicle tangent import requests",
-      "state": "RUNNING",
+      "title": "Repair UV-less character morph tangent import requests",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "codex-caretaker-cast-import-uv",
-      "claim_expires_at": "2026-10-21T16:21:18.893859Z",
-      "updated_at": "2026-10-21T14:31:26.589749Z",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T14:48:32.455818Z",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/552",
-      "next_action": "Nine character morph-tangent flag corrections target all91errors;preserve four nonculprit vehicle settings and strict18meshPNGbyteidentity;no model/art acceptance."
+      "next_action": "Nine-flag authorcandidate https://github.com/tsrnc2/fly-by-wire-c/pull/555;held qualified distinct-family review https://github.com/tsrnc2/kitt/issues/351. Not accepted,merged,deployed or fullgame/platformqualified.",
+      "artifacts": [
+        "https://github.com/tsrnc2/fly-by-wire-c/pull/555",
+        "https://github.com/tsrnc2/kitt/issues/351"
+      ]
     },
     {
       "id": "KWH-TOPBOX-MODEL-REVIEW-R1",
@@ -8045,5 +8049,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T14:48:24.356723Z"
+  "updated_at": "2026-10-21T14:48:32.455837Z"
 }
