@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-MINI-WIRE",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-01a15457-wire",
+  "lock_token": "db3258192d2b090ef61790bb756e96c37905447ba30fd30e",
+  "acquired_at": "2026-10-21T16:08:43.259037Z",
+  "heartbeat_at": "2026-10-21T16:08:43.259047Z",
+  "expires_at": "2026-10-21T18:08:39.065197Z",
+  "run_ref": "wire-concept-01a15457-20261021"
+}
