@@ -3506,15 +3506,18 @@
       "id": "KWH-BLD-KIT",
       "project_id": "kludge-wagon-haywire",
       "title": "Buildings: expandable kit by style (modern\u2192industrial + Bodie western)",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P1",
-      "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T17:16:23.406474Z",
-      "updated_at": "2026-10-21T15:16:33.927212Z",
-      "next_action": "Prepare original six-style modular facade assets and native snap/instancing/visual evidence;qualified source/art/integration acceptance held.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T15:29:38.045215Z",
+      "next_action": "Qualified distinct source/native/art review KWH-BLD-KIT-REVIEW-R1 via https://github.com/tsrnc2/kitt/issues/355;approved composition,townselection/game/export/device/performance acceptance remain pending;issue188 stays open.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/188"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/562",
+      "candidate_revision": "607ada75697634e7efd2bb7960cffe7d1d272175",
+      "completion_scope": "AUTHOR_CANDIDATE_AND_NATIVE_EVIDENCE",
+      "independent_acceptance": false
     },
     {
       "id": "KWH-BLD-GEN",
@@ -6885,6 +6888,23 @@
       "candidate_pr": "https://github.com/tsrnc2/fly-by-wire-c/pull/561",
       "candidate_revision": "35236ea596f58ae835b290335af4c77670d80a11",
       "dispatch_allowed": false
+    },
+    {
+      "id": "KWH-BLD-KIT-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualified exact-source review of six-style modular facade accents",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "dispatch_allowed": false,
+      "dependencies": [
+        "KWH-BLD-KIT"
+      ],
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/562",
+      "candidate_revision": "607ada75697634e7efd2bb7960cffe7d1d272175",
+      "updated_at": "2026-10-21T15:29:38.045314Z",
+      "next_action": "Bind actual qualified distinct reviewer before enabling dispatch/claiming;author cannot self-accept."
     }
   ],
   "blockers": [
@@ -8102,5 +8122,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T15:26:41.793522Z"
+  "updated_at": "2026-10-21T15:29:38.045320Z"
 }
