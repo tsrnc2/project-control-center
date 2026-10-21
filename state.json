@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T16:53:34.534778Z",
+    "generated_at": "2026-10-21T16:57:28.266933Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -3865,15 +3865,19 @@
       "id": "KWH-ENG-MANUAL",
       "project_id": "kludge-wagon-haywire",
       "title": "Engine upgrades: Car Manual kernel-bug lessons",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "codex-engine-manual-01a15507",
-      "claim_expires_at": "2026-10-21T18:52:13.122824Z",
-      "updated_at": "2026-10-21T16:52:18.574263Z",
-      "next_action": "Author four source-bound manual chapters and isolated native browser evidence;no runtime or simulator activation.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T16:57:28.266896Z",
+      "next_action": "Accountable coordinator binds qualified distinct educational/source/UI reviewer and owner curriculum approval for exact frozen candidate. Keep review dispatch disabled until actual eligibility/independence. Then normal current-main integration/full-game/target-app checks;playable visual-sim/boot links require accepted trace/lesson implementations separately.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/211"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/591",
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "author_phase_state": "STATIC_CHAPTERS_DONE",
+      "result_summary": "Four engine-upgrade manual chapters and one existing manual entry: https://github.com/tsrnc2/fly-by-wire-c/pull/591 at d77ba516c002279765d18a531df00d932bdee6bb;20actual browser checks,identical fresh JSON and2PNG renders,15source pins,3product paths. Kernel/ECU/gameplay/boot/unlock logic unchanged. Static chapters distinguish planned lessons and real source;playable visual-sim/boot integration and original broader acceptance remain partial."
     },
     {
       "id": "KWH-ENG-TIERS",
@@ -7264,6 +7268,18 @@
       "updated_at": "2026-10-21T16:57:19.275081Z",
       "source_ref": "https://github.com/tsrnc2/kitt/issues/376",
       "next_action": "Frozen-source stripe geometry correction and actual native renders; preserve parentBLOCKED and independent source/art acceptance."
+    },
+    {
+      "id": "KWH-ENG-MANUAL-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Independently review engine-upgrade manual curriculum,source and UI entry",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "dispatch_allowed": false,
+      "source_ref": "https://github.com/tsrnc2/kitt/issues/399",
+      "updated_at": "2026-10-21T16:57:28.266926Z",
+      "next_action": "Accountable coordinator binds qualified distinct educational/source/UI reviewer and owner curriculum approval for exact frozen candidate. Keep review dispatch disabled until actual eligibility/independence. Then normal current-main integration/full-game/target-app checks;playable visual-sim/boot links require accepted trace/lesson implementations separately."
     }
   ],
   "blockers": [
