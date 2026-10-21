@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T17:56:14.288931Z",
+    "generated_at": "2026-10-21T17:59:09.525372Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -659,15 +659,16 @@
       "id": "KWH-ROBOT-CAR-VOICE",
       "project_id": "kludge-wagon-haywire",
       "title": "Polish the SR-404 robot car voice",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-sr-delegated-car-voice-20261021",
-      "claim_expires_at": "2026-10-21T19:48:20.678268Z",
-      "updated_at": "2026-10-21T17:48:59.606234Z",
-      "next_action": "Repair existing legacy crew/car voice priority and session lifecycle;preserve all audio bytes,text and other owners. Actual native Audio verification then qualified review.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T17:59:09.525372Z",
+      "next_action": "Bind genuine qualified independent KWH-ROBOT-CAR-VOICE-PRIORITY-REVIEW-R1 to frozen c916a66dad302209327a8515dd7653ef7c852f68;reproduce nativeAudio baseline6of14 versus candidate14of14 and existing new_game_audio suite,inspect exclusive-session/car-priority/cancellation/timer/ended/rejection boundaries. Review mission behavior when cutscenes replace legacy queues. Original issue19 remains incomplete for pitch/speed/vocoder,newper-system/per-episode lines and owner listening/creative approval. Full-game/phone/audio-output acceptance and normal integration remain separate;no role/model admission,merge/deploy or subjective voice-quality claim. https://github.com/tsrnc2/fly-by-wire-c/pull/604 https://github.com/tsrnc2/kitt/issues/433",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/19"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/19",
+      "blocked_at": "2026-10-21T17:59:09.525372Z"
     },
     {
       "id": "KWH-REPLACE-PLACEHOLDERS",
@@ -8798,5 +8799,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T17:56:14.288931Z"
+  "updated_at": "2026-10-21T17:59:09.525372Z"
 }
