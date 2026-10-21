@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-VEH-MOTORCYCLE-GEOMETRY-R1",
+  "agent_id": "codex-caretaker-motorcycle-geometry",
+  "lock_token": "a7937d4a33b2e0f503fe219138fe72bb04345b981bebc05f",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T17:54:44.527643Z",
+  "heartbeat_at": "2026-10-21T17:54:44.527688Z",
+  "expires_at": "2026-10-21T19:54:44.527694Z",
+  "run_ref": "Smugcycle exact-zero-area Fender/ground-contact postexport repair;parent verification remainsBLOCKED"
+}

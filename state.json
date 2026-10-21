@@ -1677,8 +1677,8 @@
       "priority": "P2",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-21T16:30:42.842932+00:00",
-      "next_action": "Correct degenerate Fender faces; inspect tank pinch and ground contact; bind corrected source/import/native views and unaffected geometry, then normal qualified source/art review before acceptance. No runtime/deployment authority.",
+      "updated_at": "2026-10-21T17:54:44.528327Z",
+      "next_action": "Author correction RUNNING under KWH-VEH-MOTORCYCLE-GEOMETRY-R1;original verification staysBLOCKED on source correction and qualified source/art acceptance. Preserve original defect/evidence;no integration authority.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/84",
@@ -1687,7 +1687,8 @@
       "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/586",
       "blocker_ref": "https://github.com/tsrnc2/kitt/issues/388",
       "technical_verdict": "CHANGES_REQUIRED",
-      "independent_acceptance": false
+      "independent_acceptance": false,
+      "repair_task_id": "KWH-VEH-MOTORCYCLE-GEOMETRY-R1"
     },
     {
       "id": "KWH-VEH-HELICOPTER",
@@ -7508,6 +7509,19 @@
       "candidate_revision": "d531afa8c11ce390518db8627666b0264af7bbce",
       "updated_at": "2026-10-21T17:52:49.357812Z",
       "next_action": "Bind an actually qualified distinct source/art reviewer and Jobo final appearance/marking approval. Verify provenance, exact geometry, the per-asset precision import setting, preserved envelope/13 placements/solidity and fresh evidence. Reconcile approved-source composition before actual world/export/platform/distance/LOD and memory/performance acceptance. Review frozen d531afa8c11ce390518db8627666b0264af7bbce through KWH-PH-PROP-HIGHWAY-SEGMENT-REVIEW-R1."
+    },
+    {
+      "id": "KWH-VEH-MOTORCYCLE-GEOMETRY-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Correct Smugcycle exact-degenerate Fender triangles and inspect ground contact",
+      "state": "RUNNING",
+      "priority": "P2",
+      "claimed_by": "codex-caretaker-motorcycle-geometry",
+      "claim_expires_at": "2026-10-21T19:54:44.527694Z",
+      "updated_at": "2026-10-21T17:54:44.528327Z",
+      "owner_agent": null,
+      "source_ref": "https://github.com/tsrnc2/kitt/issues/388",
+      "next_action": "Bounded Smugcycle corrective source authoring;parent verification/qualified art acceptance remainheld."
     }
   ],
   "blockers": [
@@ -8764,5 +8778,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T17:52:49.357824Z"
+  "updated_at": "2026-10-21T17:54:44.528327Z"
 }
