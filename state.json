@@ -6024,17 +6024,17 @@
       "id": "KWH-MCU-DESIGN-MANIFEST-REPAIR-R3",
       "project_id": "kludge-wagon-haywire",
       "title": "Restore manifest regressions and structured malformed-input errors",
-      "state": "READY",
+      "state": "DONE",
       "priority": "P0",
       "dependencies": [
         "KWH-MCU-DESIGN-MANIFEST-REVIEW-R2"
       ],
       "claimed_by": null,
       "dispatch_allowed": true,
-      "updated_at": "2026-10-17T01:56:06Z",
-      "next_action": "Queued for focused R3 repair; owner currently prioritizes user-reported new-game cutscene/KITT audio overlap.",
+      "updated_at": "2026-10-21T22:05:24.544714Z",
+      "next_action": "Canonical author repair is terminal at PR389 head c8d33e001dec9b640d8ba00e998caabaa15ef279. A distinct qualified reviewer must run the existing successor review task KWH-MCU-DESIGN-MANIFEST-REVIEW-R3 before inspection or design integration; runtime remains locked.",
       "claim_expires_at": null,
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/383",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/389",
       "human_owner": "Jobo",
       "owner_agent": null
     },
@@ -10154,5 +10154,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T22:05:10.115951+00:00"
+  "updated_at": "2026-10-21T22:05:24.544738Z"
 }
