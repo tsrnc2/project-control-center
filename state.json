@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T16:39:47.681493Z",
+    "generated_at": "2026-10-21T16:41:00.176007Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -7202,13 +7202,17 @@
       "id": "KITT-20261021-FLEET-STATUS-DELTA-R1",
       "project_id": "kitt",
       "title": "Refresh dated fleet inventory status",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P1",
-      "claimed_by": "codex-01a15457-fleet-status",
-      "claim_expires_at": "2026-10-21T18:30:59.752136Z",
-      "source_ref": "https://github.com/tsrnc2/kitt/pull/287",
-      "updated_at": "2026-10-21T16:31:06.190796Z",
-      "next_action": "Refresh exact-source fleet backup/pilot/channel status assessments only;preserve inventory history and all runtime/review/owner gates."
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "source_ref": "https://github.com/tsrnc2/kitt/pull/391",
+      "updated_at": "2026-10-21T16:41:00.175984Z",
+      "next_action": "Review dated descriptive overlay and preserve baseline history. Full recovery/PR232 rollout,exact-source/runtime qualification,controller handoffs and missing endpoint/scheduler/catalog/provenance discovery remain separate canonical work;no runtime adoption or global completion inferred.",
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "author_phase_state": "DONE_NOT_ACCEPTED",
+      "candidate_revision": "2afbcaa77deefd1d9a84d423efef6ac26f5f4116"
     },
     {
       "id": "KWH-VEH-HELICOPTER-REVIEW",
@@ -8458,5 +8462,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T16:38:47.685903Z"
+  "updated_at": "2026-10-21T16:41:00.176003Z"
 }
