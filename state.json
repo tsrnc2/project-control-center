@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T16:20:35.099624Z",
+    "generated_at": "2026-10-21T16:22:11.015652+00:00",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -7087,14 +7087,19 @@
       "id": "KITT-20261021-GUARDIAN-OPAQUE-ENCRYPTED-REPAIR",
       "project_id": "kitt",
       "title": "Source-only opaque encrypted history guard correction",
-      "state": "RUNNING",
-      "claimed_by": "codex-waypoint-guardian-opaque-repair-20261021",
-      "claimed_at": "2026-10-21T16:11:05.739258Z",
-      "claim_expires_at": "2026-10-21T18:11:05.739275Z",
-      "owner_agent": "codex-waypoint-guardian-opaque-repair-20261021",
-      "updated_at": "2026-10-21T16:11:05.739258Z",
-      "source_ref": "https://github.com/tsrnc2/kitt/issues/233",
-      "independent_acceptance": false
+      "state": "DONE",
+      "claimed_by": null,
+      "claimed_at": null,
+      "claim_expires_at": null,
+      "owner_agent": null,
+      "updated_at": "2026-10-21T16:22:11.015652+00:00",
+      "source_ref": "https://github.com/tsrnc2/linode-freebsd-vpn/tree/7f5dfc4e9ee841e89be40e47a0a136f998249310/guardian/listener-gap-recovery",
+      "independent_acceptance": false,
+      "claim_heartbeat_at": null,
+      "evidence_ref": "https://github.com/tsrnc2/linode-freebsd-vpn/tree/7f5dfc4e9ee841e89be40e47a0a136f998249310/reports/codex/guardian-opaque-repair-20261021",
+      "next_action": "Distinct qualified reviewer establishes eligibility/independence before claim and reviews exact 7f5dfc4e9ee841e89be40e47a0a136f998249310; then separately authorized live maintenance rollout and encrypted acceptance if accepted. No parent hold or commissioning flag cleared.",
+      "author_phase_complete": true,
+      "deployment": false
     },
     {
       "id": "KWH-WEB-ASSET-LFS-GUARD-R1",
@@ -7136,6 +7141,20 @@
       "candidate_revision": "8dd26befd691b59c03e1cdb5ec1d6904a5bb0fe3",
       "updated_at": "2026-10-21T16:19:25.430556Z",
       "next_action": "Bind actual qualified distinct reviewer;immutable artifact review has no blocked-parent dependency."
+    },
+    {
+      "id": "KITT-20261021-GUARDIAN-OPAQUE-ENCRYPTED-REPAIR-REVIEW",
+      "project_id": "kitt",
+      "title": "Independent exact-source review of Guardian opaque encrypted history refusal repair",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "owner_agent": null,
+      "updated_at": "2026-10-21T16:22:11.015652+00:00",
+      "source_ref": "https://github.com/tsrnc2/linode-freebsd-vpn/tree/7f5dfc4e9ee841e89be40e47a0a136f998249310/guardian/listener-gap-recovery",
+      "evidence_ref": "https://github.com/tsrnc2/linode-freebsd-vpn/tree/7f5dfc4e9ee841e89be40e47a0a136f998249310/reports/codex/guardian-opaque-repair-20261021",
+      "dispatch_allowed": false,
+      "next_action": "Establish and record genuine reviewer qualification/independence for this exact source; only then resolve dispatch hold through the authorized coordinator. No automatic source/runtime admission."
     }
   ],
   "blockers": [
@@ -8372,5 +8391,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T16:20:35.099621Z"
+  "updated_at": "2026-10-21T16:22:11.015652+00:00"
 }
