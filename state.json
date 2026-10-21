@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T21:55:33.478878Z",
+    "generated_at": "2026-10-21T21:56:02.183699Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -2150,12 +2150,12 @@
       "id": "KWH-ECU-SAME-TICK",
       "project_id": "kludge-wagon-haywire",
       "title": "ECU: same-tick synchronous calls (SharedArrayBuffer/Atomics)",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-sr-delegated-ecu-same-tick-20261021",
-      "claim_expires_at": "2026-10-21T23:26:20.105021Z",
-      "updated_at": "2026-10-21T21:26:54.670341Z",
-      "next_action": "Build isolated candidate and local browser evidence only; no production Caddy/header change or adoption.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T21:56:02.183699Z",
+      "next_action": "External architecture decision required: a main-thread Atomics.wait path is unsupported with current unthreaded Godot host; define worker boundary or explicit async frame contract.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/29"
@@ -9441,5 +9441,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T21:55:44.975613Z"
+  "updated_at": "2026-10-21T21:56:02.183699Z"
 }
