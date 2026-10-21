@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T17:10:43.871205Z",
+    "generated_at": "2026-10-21T17:14:14.044308Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -3159,11 +3159,14 @@
       "priority": "P2",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-21T13:34:22.859897Z",
+      "updated_at": "2026-10-21T17:14:14.044284Z",
       "next_action": "Complete separately claimed KWH-TOPBOX-UI (#155) and KWH-TOPBOX-MODEL (#153) integration,then test rendered status plus real lid-open state on an exact reviewed revision. Candidate ECU/model tests pass68/68;no physical-open acceptance or independent review claimed.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/538"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/538",
+      "blocker_issue_url": "https://github.com/tsrnc2/kitt/issues/418",
+      "blocker_issue_number": 418,
+      "private_discussion_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/156"
     },
     {
       "id": "KWH-CLUE-SCHEMA",
@@ -3956,11 +3959,14 @@
       "priority": "P2",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-21T16:20:35.099601Z",
+      "updated_at": "2026-10-21T17:14:14.044057Z",
       "next_action": "Jobo reviews Bug Hunt through MINI-DESIGN before any build. Decide staged severe-throttle fixture,diagnosis versus repair rubric,untimed/optional timer and host placement. Bind exact ECU artifact and completed-case correlation before separately claimed real C/view/skin/host work;preserve other ECU/framework/UI/economy owners and review gates.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/584"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/584",
+      "blocker_issue_url": "https://github.com/tsrnc2/kitt/issues/414",
+      "blocker_issue_number": 414,
+      "private_discussion_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/216"
     },
     {
       "id": "KWH-MINI-BREAKPOINT",
@@ -3970,11 +3976,14 @@
       "priority": "P2",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-21T16:15:46.215647Z",
+      "updated_at": "2026-10-21T17:14:14.043936Z",
       "next_action": "Jobo reviews Breakpoint Trap through MINI-DESIGN before any build. Decide isolated Workbench diagnostic host,two checkpoints and breakpoint-only first slice. Bind reviewed exact debugger/guest/toolchain/source composition,availability and teardown before separately claimed real-C trace,view/skin/host work;no live ECU stepping or source-license gate waiver.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/581"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/581",
+      "blocker_issue_url": "https://github.com/tsrnc2/kitt/issues/413",
+      "blocker_issue_number": 413,
+      "private_discussion_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/217"
     },
     {
       "id": "KWH-MINI-LEAK",
@@ -3984,11 +3993,14 @@
       "priority": "P2",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-21T16:00:32.142513Z",
+      "updated_at": "2026-10-21T17:14:14.040451Z",
       "next_action": "Jobo reviews Memory Leak Chase through existing KWH-MINI-DESIGN before any build. Decide isolated lab/allocator coverage,release checkpoint/retention and leak-only first slice. Real C hook pair and independent trace/runtime review must precede view/skin or host/reward implementation.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/573"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/573",
+      "blocker_issue_url": "https://github.com/tsrnc2/kitt/issues/409",
+      "blocker_issue_number": 409,
+      "private_discussion_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/218"
     },
     {
       "id": "KWH-MINI-RACE",
@@ -3998,11 +4010,14 @@
       "priority": "P2",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-21T16:07:46.931699Z",
+      "updated_at": "2026-10-21T17:14:14.040567Z",
       "next_action": "Jobo reviews Race Condition through existing MINI-DESIGN;retain DEFER until actual scheduler/atomic/lock execution and trace contracts exist. Decide two-task lost-update model and mutex versus RMW teaching path before separately claimed real C work and independent review;no simulator,view,skin or economy build.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/577"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/577",
+      "blocker_issue_url": "https://github.com/tsrnc2/kitt/issues/411",
+      "blocker_issue_number": 411,
+      "private_discussion_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/219"
     },
     {
       "id": "KWH-MINI-WIRE",
@@ -4012,11 +4027,14 @@
       "priority": "P2",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-21T16:11:50.115565Z",
+      "updated_at": "2026-10-21T17:14:14.043833Z",
       "next_action": "Jobo reviews Wire-the-Car through MINI-DESIGN;retain DEFER until actual network/gateway,scheduler,command/plant trace contracts and MCU design/runtime gates permit build. Decide fictional fixture,TTL at application and diagnostic-window exercise before separately claimed real-C trace work,qualified review and view/host integration.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/579"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/579",
+      "blocker_issue_url": "https://github.com/tsrnc2/kitt/issues/412",
+      "blocker_issue_number": 412,
+      "private_discussion_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/220"
     },
     {
       "id": "KWH-MINI-LOADBAL",
@@ -4026,11 +4044,14 @@
       "priority": "P2",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-21T13:40:30.935023Z",
+      "updated_at": "2026-10-21T17:14:14.040220Z",
       "next_action": "Jobo reviews this detailed draft through existing KWH-MINI-DESIGN;retain DEFER from first tranche. Decide learning target,virtual-time/service/overflow and host before any separately claimed approved build. No owner approval,runtime/skin/reward implementation or independent acceptance claimed.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/542"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/542",
+      "blocker_issue_url": "https://github.com/tsrnc2/kitt/issues/406",
+      "blocker_issue_number": 406,
+      "private_discussion_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/221"
     },
     {
       "id": "KWH-MINI-POINTER",
@@ -4040,11 +4061,14 @@
       "priority": "P2",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-21T13:47:28.509452Z",
+      "updated_at": "2026-10-21T17:14:14.040319Z",
       "next_action": "Jobo reviews the Pointer Maze proposal through existing KWH-MINI-DESIGN. Decide known-live-node boundary,route/cycle/step semantics and host before a separately claimed approved implementation. No player-C trace,arbitrary-pointer safety,skin/reward implementation or independent acceptance claimed.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/545"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/545",
+      "blocker_issue_url": "https://github.com/tsrnc2/kitt/issues/407",
+      "blocker_issue_number": 407,
+      "private_discussion_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/222"
     },
     {
       "id": "KWH-MINI-STACK",
@@ -4054,11 +4078,14 @@
       "priority": "P2",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-21T14:48:24.356706Z",
+      "updated_at": "2026-10-21T17:14:14.040392Z",
       "next_action": "Jobo reviews snapshot-only versus deferred live Stack Tower through existing KWH-MINI-DESIGN; approve learning/count/build/overflow/host boundaries before build. Separately repair the observed Workbench backtrace failure-to-empty mapping before relying on completeness. No C/gdb/runtime implementation or independent acceptance.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/557"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/557",
+      "blocker_issue_url": "https://github.com/tsrnc2/kitt/issues/408",
+      "blocker_issue_number": 408,
+      "private_discussion_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/223"
     },
     {
       "id": "KWH-MINI-BITFLIP",
@@ -4068,11 +4095,14 @@
       "priority": "P2",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-21T16:04:23.840338Z",
+      "updated_at": "2026-10-21T17:14:14.040506Z",
       "next_action": "Jobo reviews Bit-flip Logic Gates through existing MINI-DESIGN before build. Decide isolated host,toy unsigned truth table,word transport and specification-only diagram scope. Bind separately claimed real C harness and independent review before shared view,skins or host/economy integration.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/574"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/574",
+      "blocker_issue_url": "https://github.com/tsrnc2/kitt/issues/410",
+      "blocker_issue_number": 410,
+      "private_discussion_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/224"
     },
     {
       "id": "KWH-MINI-FRAMEWORK",
@@ -7211,14 +7241,17 @@
       "claimed_by": null,
       "claim_expires_at": null,
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/585",
-      "updated_at": "2026-10-21T16:28:47.837081Z",
+      "updated_at": "2026-10-21T17:14:14.044207Z",
       "next_action": "Existing KWH-DMG-FUZZ source owner acknowledges/declines the exact diagnostic/API proposal https://github.com/tsrnc2/fly-by-wire-c/pull/585 at 89d5eee4a5035d8ef1c8bd9a7e3e74ca0e035ede. Reconcile own current composed source and normal review before any separately claimed implementation;no API adoption,Concept build,source transfer or independent acceptance inferred.",
       "claimed_at": null,
       "claim_heartbeat_at": null,
       "author_phase_state": "DONE_NOT_ACCEPTED",
       "candidate_revision": "89d5eee4a5035d8ef1c8bd9a7e3e74ca0e035ede",
       "handoff_target_task_id": "KWH-DMG-FUZZ",
-      "handoff_state": "ACK_PENDING"
+      "handoff_state": "ACK_PENDING",
+      "blocker_issue_url": "https://github.com/tsrnc2/kitt/issues/415",
+      "blocker_issue_number": 415,
+      "private_discussion_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/177"
     },
     {
       "id": "KITT-20261021-LRP-COMPANION-SNAPSHOT-R1",
@@ -8640,5 +8673,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T17:13:35.855730Z"
+  "updated_at": "2026-10-21T17:14:14.044304Z"
 }
