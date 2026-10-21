@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T13:59:56.704843Z",
+    "generated_at": "2026-10-21T14:03:13.386660Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -3028,12 +3028,12 @@
       "id": "KWH-TOPBOX-MODEL",
       "project_id": "kludge-wagon-haywire",
       "title": "SR-404 roof rack bars + cargo top box mesh (build_kludge.py)",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P1",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T03:18:00Z",
-      "next_action": "Unblocked: PR #256 merged the canonical SR-404 art/source tree, including art/src/kludge/build_kludge.py, to main. Reclaim before work, acquire the execution lock, then add original cream/teal roof rack + cargo top box with clear closed/open states, regenerate the Godot mesh/web scene, capture acceptance screenshot, and publish a bounded PR.",
+      "claimed_by": "codex-01a15457-topbox-model",
+      "claim_expires_at": "2026-10-21T16:01:41.253047Z",
+      "updated_at": "2026-10-21T14:03:13.386638Z",
+      "next_action": "Draft queue/topbox model only; no build before Jobo approval; preserve other owners.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/153",
@@ -7999,5 +7999,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T13:59:56.704840Z"
+  "updated_at": "2026-10-21T14:03:13.386656Z"
 }
