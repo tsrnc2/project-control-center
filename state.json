@@ -8044,6 +8044,19 @@
       "updated_at": "2026-10-21T19:52:15.395017Z",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/585",
       "next_action": "Additive source-only ECU manager observation contract/tests; preserve controls/world and exact prerequisite/review gates."
+    },
+    {
+      "id": "KWH-ROBOT-CAR-VOICE-DSP-R1",
+      "project_id": "kludge-wagon-haywire",
+      "parent_task_id": "KWH-ROBOT-CAR-VOICE",
+      "title": "Offline robot-car voice tuning and additional bark author samples",
+      "state": "RUNNING",
+      "priority": "P2",
+      "claimed_by": "codex-caretaker-car-voice-dsp",
+      "claim_expires_at": "2026-10-21T21:54:05.180599Z",
+      "updated_at": "2026-10-21T19:54:05.180567Z",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/19",
+      "next_action": "Prepare bounded offline source DSP/copy/audio evidence with isolatednative tools;all existing game/audio/parentreview fields preserved."
     }
   ],
   "blockers": [
@@ -9307,5 +9320,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:52:15.395017Z"
+  "updated_at": "2026-10-21T19:54:05.180567Z"
 }

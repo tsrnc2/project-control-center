@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-ROBOT-CAR-VOICE-DSP-R1",
+  "agent_id": "codex-caretaker-car-voice-dsp",
+  "lock_token": "bce91f432bcdaee67bd7d18fd81008ab3605d22e61921901",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T19:54:05.180567Z",
+  "heartbeat_at": "2026-10-21T19:54:05.180567Z",
+  "expires_at": "2026-10-21T21:54:05.180599Z",
+  "run_ref": "Disjoint offline voice DSP/bark author draft only;parentprioritycandidate/review433 unchanged"
+}
