@@ -2840,16 +2840,17 @@
       "id": "KWH-MKT-LAUNCH-CHECKLIST",
       "project_id": "kludge-wagon-haywire",
       "title": "Launch checklist",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "codex-standing-launch",
-      "claim_expires_at": "2026-10-21T02:50:20.116981+00:00",
-      "updated_at": "2026-10-21T01:20:30.912720+00:00",
-      "next_action": "Prepare private end-to-end launch checklist with verified source links and owner approval gates. No public/store action.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T01:29:12.081445+00:00",
+      "next_action": "Private checklist https://github.com/tsrnc2/fly-by-wire-c/pull/505 needs Jobo exact-draft approval and accountable owner/scope assignment. Blocker https://github.com/tsrnc2/kitt/issues/297. All execution gates unchecked; no platform operation.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/145",
-      "claimed_at": "2026-10-21T01:20:20.116981+00:00"
+      "claimed_at": "2026-10-21T01:20:20.116981+00:00",
+      "claim_heartbeat_at": null
     },
     {
       "id": "KWH-MKT-LEGAL-CHECK",
@@ -6608,6 +6609,18 @@
       "updated_at": "2026-10-20T22:16:27.625129+00:00",
       "category": "INDEPENDENT_REVIEW",
       "review_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/499"
+    },
+    {
+      "id": "kwh-launch-checklist-owner-review-20261021",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-MKT-LAUNCH-CHECKLIST",
+      "state": "OPEN",
+      "severity": "HIGH",
+      "category": "OWNER_DECISION",
+      "summary": "Private launch-checklist draft awaits required Jobo approval and accountable owners.",
+      "required_next_action": "Jobo reviews exact private draft https://github.com/tsrnc2/fly-by-wire-c/pull/505 at fc435476b5f1b944cc61ed9659888d1521003a2c and assigns accountable release/support/review owners and scope; then reconcile live ledger before newly authorized phases. No store/account action authorized by this draft.",
+      "review_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/505",
+      "updated_at": "2026-10-21T01:29:12.081482+00:00"
     }
   ],
   "activity": [
@@ -7467,5 +7480,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T01:29:08.693921Z"
+  "updated_at": "2026-10-21T01:29:12.081487+00:00"
 }
