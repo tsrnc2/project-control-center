@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T17:18:07.394901Z",
+    "generated_at": "2026-10-21T17:18:26.043370Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -7343,13 +7343,17 @@
       "id": "KWH-20261021-BLOCKER-ISSUE-ROUTING-R1",
       "project_id": "kludge-wagon-haywire",
       "title": "Reconcile own blocked task issue routes",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P1",
-      "claimed_by": "codex-01a15457-blocker-routing",
-      "claim_expires_at": "2026-10-21T18:57:25.965605Z",
-      "source_ref": "https://github.com/tsrnc2/kitt/pull/391",
-      "updated_at": "2026-10-21T16:57:46.931742Z",
-      "next_action": "Reconcile required KITT blocker issues for ten own source proposals only;preserve all source,approval,claim and runtime/review gates."
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "source_ref": "https://github.com/tsrnc2/kitt/pull/424",
+      "updated_at": "2026-10-21T17:18:26.043344Z",
+      "next_action": "Owners/source/integration reviewers resolve the eleven existing linked gates using their exact source candidates and normal claim/review process. Private discussions remain preserved;this metadata correction grants no approval,source adoption,runtime admission,merge or deployment.",
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "author_phase_state": "DONE_NOT_ACCEPTED",
+      "candidate_revision": "90c784c96034e88d5ed203156124d88dd7b6eb38"
     },
     {
       "id": "KWH-WEB-ASSET-LFS-GUARD-REVIEW-R1",
@@ -8674,5 +8678,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T17:18:07.394901Z"
+  "updated_at": "2026-10-21T17:18:26.043366Z"
 }
