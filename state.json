@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T18:35:02.890843Z",
+    "generated_at": "2026-10-21T18:38:59.257223Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -7709,14 +7709,16 @@
       "id": "KWH-ECU-ONLY-ENTRYPOINT-REPAIR",
       "project_id": "kludge-wagon-haywire",
       "title": "Make ECU_ONLY root entrypoint genuinely Node-only before browser imports/stages",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P1",
-      "claimed_by": null,
-      "owner_agent": null,
-      "updated_at": "2026-10-21T18:35:02.890843Z",
+      "claimed_by": "codex-ecu-only-entrypoint-20261021",
+      "owner_agent": "codex-ecu-only-entrypoint-20261021",
+      "updated_at": "2026-10-21T18:38:59.257223Z",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/612",
       "dispatch_allowed": true,
-      "next_action": "Claim one bounded source-author lease; reproduce safe browser-free entrypoint boundary, prepare minimal candidate and qualified independent review hold. Do not run known unsafe full-browser pipeline or adopt pending source."
+      "next_action": "Claim one bounded source-author lease; reproduce safe browser-free entrypoint boundary, prepare minimal candidate and qualified independent review hold. Do not run known unsafe full-browser pipeline or adopt pending source.",
+      "claimed_at": "2026-10-21T18:38:59.257223Z",
+      "claim_expires_at": "2026-10-21T20:38:59.257243Z"
     }
   ],
   "blockers": [
@@ -8973,5 +8975,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T18:38:25.161970Z"
+  "updated_at": "2026-10-21T18:38:59.257223Z"
 }

@@ -1,0 +1,9 @@
+{
+  "task_id": "KWH-ECU-ONLY-ENTRYPOINT-REPAIR",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-ecu-only-entrypoint-20261021",
+  "lock_token": "27f23c7dd78b00d1f9959af923f71d852ad7be11d136bd5a",
+  "acquired_at": "2026-10-21T18:38:59.257223Z",
+  "expires_at": "2026-10-21T20:38:59.257243Z",
+  "run_ref": "ecu-only-entrypoint-20261021"
+}
