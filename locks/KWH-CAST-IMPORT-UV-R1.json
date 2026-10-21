@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-CAST-IMPORT-UV-R1",
+  "agent_id": "codex-caretaker-cast-import-uv",
+  "lock_token": "ab026299786f37e601c40cdfa519fac2d1fa03dfacf46bca",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T14:21:18.893838Z",
+  "heartbeat_at": "2026-10-21T14:21:18.893854Z",
+  "expires_at": "2026-10-21T16:21:18.893859Z",
+  "run_ref": "One exact-source13importflag native verification repair;no model/art acceptance"
+}

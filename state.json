@@ -6787,6 +6787,18 @@
       "updated_at": "2026-10-21T14:20:11.753559Z",
       "next_action": "Author Debug-admission candidate https://github.com/tsrnc2/fly-by-wire-c/pull/551 verified16focused checks(one synthetic pre-channel failure)+16legacy assertions. Qualified exact-source KWH-WB-DEBUG-ADMISSION-REVIEW-R1 and combined Workbench integration pending;https://github.com/tsrnc2/kitt/issues/348. No merge/deployment or VM/license/platform acceptance.",
       "blocked_at": "2026-10-21T14:20:11.753572Z"
+    },
+    {
+      "id": "KWH-CAST-IMPORT-UV-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Repair UV-less cast/vehicle tangent import requests",
+      "state": "RUNNING",
+      "priority": "P2",
+      "claimed_by": "codex-caretaker-cast-import-uv",
+      "claim_expires_at": "2026-10-21T16:21:18.893859Z",
+      "updated_at": "2026-10-21T14:21:24.112115Z",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/552",
+      "next_action": "Native13flag author repair candidate;all model/art/release gates remain."
     }
   ],
   "blockers": [
@@ -8004,5 +8016,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T14:20:11.753595Z"
+  "updated_at": "2026-10-21T14:21:24.112130Z"
 }
