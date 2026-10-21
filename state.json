@@ -2641,11 +2641,12 @@
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T05:20:00Z",
-      "next_action": "AC updated: Kitty IS in-dash console/guide; clue firewall; villain monologue hooks; drive-first intro",
+      "updated_at": "2026-10-21T22:05:48.380036Z",
+      "next_action": "Canonical design intake is dispatch-held pending a qualified designer and coordinator selection. Verify Explain-it placement and counter lifetime, then review thresholds and controls before implementation. No UI, voice generation, or server-KITT personality change is authorized.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/113"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/113",
+      "dispatch_allowed": false
     },
     {
       "id": "KWH-KITTY-HINTS",
@@ -10157,5 +10158,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T22:05:34.660735+00:00"
+  "updated_at": "2026-10-21T22:05:48.380062Z"
 }
