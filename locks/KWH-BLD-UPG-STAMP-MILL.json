@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-BLD-UPG-STAMP-MILL",
+  "agent_id": "codex-cedar-persistent",
+  "lock_token": "0b039f4885102d71496350b74674cacbd214f994dfb9ea2c",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T19:21:13.066192Z",
+  "heartbeat_at": "2026-10-21T19:21:13.066209Z",
+  "expires_at": "2026-10-21T21:21:13.066212Z",
+  "run_ref": "Issue54 private bounded StampMill author source/native verification; no acceptance/admission"
+}
