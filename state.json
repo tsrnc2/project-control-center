@@ -2796,12 +2796,12 @@
       "id": "KWH-MKT-SOCIAL-SHORTS",
       "project_id": "kludge-wagon-haywire",
       "title": "Social plan: YouTube Shorts from the C tutorial series",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P2",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T01:15:54Z",
-      "next_action": "Marketing. Acceptance: List of 10 Shorts cuts w/ hooks + CTA. Unclaimed.",
+      "claimed_by": "codex-cedar-persistent",
+      "claim_expires_at": "2026-10-21T05:19:52.796067Z",
+      "updated_at": "2026-10-21T03:20:01.881007Z",
+      "next_action": "Author source-backed ten source-backed Shorts cut proposals; private draft only,Jobo approval required.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/139"
@@ -7758,5 +7758,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T03:19:12.923356Z"
+  "updated_at": "2026-10-21T03:20:01.881032Z"
 }
