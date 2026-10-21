@@ -1016,9 +1016,9 @@
       "state": "RUNNING",
       "priority": "P2",
       "claimed_by": "codex-cedar-persistent",
-      "claim_expires_at": "2026-10-21T05:27:39.307871Z",
-      "updated_at": "2026-10-21T03:27:48.629384Z",
-      "next_action": "Verify exact existing native building-plants and publish actual render evidence; no qualified acceptance.",
+      "claim_expires_at": "2026-10-21T15:28:18.039316Z",
+      "updated_at": "2026-10-21T13:28:22.530117Z",
+      "next_action": "Private source publication after exact own expired-lock reconciliation;qualified independent/art/integration gates preserved.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/43"
@@ -7867,5 +7867,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T13:26:38.281437Z"
+  "updated_at": "2026-10-21T13:28:22.530124Z"
 }

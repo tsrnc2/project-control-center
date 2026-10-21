@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-BLD-PLANTS",
+  "event": "same_owner_stale_lease_reconciled",
+  "agent_id": "codex-cedar-persistent",
+  "at": "2026-10-21T13:28:18.040556Z",
+  "previous_lease": {
+    "agent_id": "codex-cedar-persistent",
+    "acquired_at": "2026-10-21T03:27:39.307810Z",
+    "heartbeat_at": "2026-10-21T03:27:39.307858Z",
+    "expires_at": "2026-10-21T05:27:39.307871Z"
+  },
+  "reason": "Interactive session gap; no new owner/later heartbeat. Local native evidence completed before expiry;no remote publication while expired.",
+  "authority": "Existing owner continuation and canonical stale takeover protocol;exact old owner/token verified.",
+  "independent_acceptance": false
+}
