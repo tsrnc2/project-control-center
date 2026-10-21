@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T13:27:13.395405Z",
+    "generated_at": "2026-10-21T13:29:48.897609Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -2069,9 +2069,9 @@
       "state": "RUNNING",
       "priority": "P2",
       "claimed_by": "codex-kwh-social-x-20261021",
-      "claim_expires_at": "2026-10-21T05:31:24.527948Z",
-      "updated_at": "2026-10-21T03:31:55.087826Z",
-      "next_action": "Prepare four relative weeks of source-grounded post drafts for owner review; no scheduling, posting, spending or account access.",
+      "claim_expires_at": "2026-10-21T15:29:42.682299+00:00",
+      "updated_at": "2026-10-21T13:29:48.897566Z",
+      "next_action": "Finish isolated stdin source with real VM/browser evidence;review/package/release gates retained.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/107"
@@ -7867,5 +7867,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T13:28:44.804122Z"
+  "updated_at": "2026-10-21T13:29:48.897602Z"
 }
