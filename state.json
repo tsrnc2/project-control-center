@@ -1315,15 +1315,23 @@
       "id": "KWH-BLD-UPG-HOUSE-E-SHINGLE",
       "project_id": "kludge-wagon-haywire",
       "title": "Upgrade Bodie building with detail kit: house_e_shingle",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P3",
-      "claimed_by": "codex-caretaker-house-e-upgrade",
-      "claim_expires_at": "2026-10-21T21:12:41.043213Z",
-      "updated_at": "2026-10-21T19:12:46.993628Z",
-      "next_action": "Author originalHouseEpaint/signwrapper preservingcurrentdresser/seededMultiMesh placement;native sourcecollision/detailbatching/fallback/views;qualifiedreview/Joboart/world/platformheld.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T19:17:17.883665Z",
+      "next_action": "Coordinator binds actually qualified independent distinct-family source/native/art reviewer and Jobo final HouseE paint/sign/appearance approval to e139f2c7a3b2cc797df4785e8d10517f72e7cc87. Reproduce41source/60nativechecks;collision57/3,details60/12,blanklabel60/3;actual originalfallback5/0;fresh fullJSON/2PNGidentity. Verify source dresser10/14/14instances in4/5/7batches with exactRNG/normalizedXF preservation,originalresources/sharedmaterials/bounds/collision and only3per-instancepaints. Actualfullworld/platform/performance acceptance remainsheld;no selfacceptance/admission/merge/deploy.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/60"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/60",
+      "author_phase_state": "DONE_NOT_ACCEPTED",
+      "artifacts": [
+        "https://github.com/tsrnc2/fly-by-wire-c/pull/620",
+        "https://github.com/tsrnc2/kitt/issues/449"
+      ],
+      "candidate_revision": "e139f2c7a3b2cc797df4785e8d10517f72e7cc87",
+      "review_task_id": "KWH-BLD-UPG-HOUSE-E-SHINGLE-REVIEW-R1",
+      "blocker_issue_url": "https://github.com/tsrnc2/kitt/issues/449"
     },
     {
       "id": "KWH-GPS-HEADER",
@@ -9094,5 +9102,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:16:43.905926Z"
+  "updated_at": "2026-10-21T19:17:17.883694Z"
 }
