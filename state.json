@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T17:22:18.253468Z",
+    "generated_at": "2026-10-21T17:33:59.755129Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -4900,15 +4900,16 @@
       "id": "KWH-KITTY-CONSOLE",
       "project_id": "kludge-wagon-haywire",
       "title": "Kitty: in-dash console panel (docked, commands, both skins)",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P1",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T05:20:00Z",
+      "claimed_by": "codex-waypoint-kitty-console-20261021",
+      "claim_expires_at": "2026-10-21T19:33:59.755145Z",
+      "updated_at": "2026-10-21T17:33:59.755129Z",
       "next_action": "READY unclaimed \u2014 see issue AC",
-      "owner_agent": null,
+      "owner_agent": "codex-waypoint-kitty-console-20261021",
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/293"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/293",
+      "claimed_at": "2026-10-21T17:33:59.755129Z"
     },
     {
       "id": "KWH-KITTY-CONTEXT-HINTS",
@@ -8718,5 +8719,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T17:30:31.330981Z"
+  "updated_at": "2026-10-21T17:33:59.755129Z"
 }

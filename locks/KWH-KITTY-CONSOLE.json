@@ -1,0 +1,9 @@
+{
+  "task_id": "KWH-KITTY-CONSOLE",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-waypoint-kitty-console-20261021",
+  "lock_token": "8565f60baa7355f6c46fe278c7f45dbea41c8e6f00646982",
+  "acquired_at": "2026-10-21T17:33:59.755129Z",
+  "expires_at": "2026-10-21T19:33:59.755145Z",
+  "run_ref": "kitty-console-source-20261021"
+}
