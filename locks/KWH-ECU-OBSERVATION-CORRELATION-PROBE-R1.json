@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-ECU-OBSERVATION-CORRELATION-PROBE-R1",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-01a15457-ecu-observation",
+  "lock_token": "13b2a4d9c548d0aee5078ba605d1fc0f5df616168a29e7eb",
+  "acquired_at": "2026-10-21T16:22:20.304006Z",
+  "heartbeat_at": "2026-10-21T16:22:20.304016Z",
+  "expires_at": "2026-10-21T18:22:16.979126Z",
+  "run_ref": "ecu-observation-01a15457-20261021"
+}
