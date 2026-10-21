@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-WB-GDB-CLI",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-sr-delegated-gdb-cli-20261021",
+  "lock_token": "308162492396d97dd05ea71bf4a792c3c117a96ae13abeaa",
+  "acquired_at": "2026-10-21T14:53:53.407454Z",
+  "heartbeat_at": "2026-10-21T14:53:53.407454Z",
+  "expires_at": "2026-10-21T16:53:48.566190Z",
+  "run_ref": "workbench-gdb-command-watch-20261021"
+}
