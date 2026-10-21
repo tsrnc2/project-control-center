@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T16:07:41.735920+00:00",
+    "generated_at": "2026-10-21T16:07:46.931724Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -3936,15 +3936,15 @@
       "id": "KWH-MINI-RACE",
       "project_id": "kludge-wagon-haywire",
       "title": "Concept: Race Condition puzzle (scheduler timeline viz) \u2014 draft",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P2",
-      "claimed_by": "codex-01a15457-race",
-      "claim_expires_at": "2026-10-21T18:05:11.272675Z",
-      "updated_at": "2026-10-21T16:05:17.388285Z",
-      "next_action": "Draft source-bound Race Condition scheduler/interleaving concept only;Jobo approval via MINI-DESIGN required before any build;preserve host/framework and other owners.",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T16:07:46.931699Z",
+      "next_action": "Jobo reviews Race Condition through existing MINI-DESIGN;retain DEFER until actual scheduler/atomic/lock execution and trace contracts exist. Decide two-task lost-update model and mutex versus RMW teaching path before separately claimed real C work and independent review;no simulator,view,skin or economy build.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/219"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/577"
     },
     {
       "id": "KWH-MINI-WIRE",
@@ -8304,5 +8304,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T16:05:54.723285+00:00"
+  "updated_at": "2026-10-21T16:07:46.931720Z"
 }
