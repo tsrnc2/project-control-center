@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kitt",
+  "task_id": "KITT-JR-GROK-005-QUALIFICATION-MATRIX-INVENTORY",
+  "agent_id": "codex-caretaker-kitt-jr-qualification-inventory",
+  "lock_token": "4ab61cb3da0637ecf675acbc00ae343284485f03e97ec5e4",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T21:26:23.914308Z",
+  "heartbeat_at": "2026-10-21T21:26:23.914308Z",
+  "expires_at": "2026-10-21T22:56:23.914527Z",
+  "run_ref": "Read-only exact-test qualification coverage inventory; no test implementation or acceptance claim"
+}
