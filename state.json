@@ -1040,12 +1040,12 @@
       "id": "KWH-BLD-FENCING",
       "project_id": "kludge-wagon-haywire",
       "title": "Building detail kit: fencing (picket, wire, rail)",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P2",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Reusable snap-on scene(s) in models/detail; attach via anchors.json; used by town_dresser.gd on >=2 buildings; screenshot",
+      "claimed_by": "codex-caretaker-fencing-kit",
+      "claim_expires_at": "2026-10-21T05:18:46.969651Z",
+      "updated_at": "2026-10-21T03:19:12.923333Z",
+      "next_action": "Prepare and native verify picket/wire/rail reusable fencing; isolated authoring only, independent acceptance separate.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/45"
@@ -7745,5 +7745,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T03:18:52.287514+00:00"
+  "updated_at": "2026-10-21T03:19:12.923356Z"
 }

@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-BLD-FENCING",
+  "agent_id": "codex-caretaker-fencing-kit",
+  "lock_token": "fbfbde676c509e28850d22f163b52c25674493c042aff5aa",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T03:18:46.969624Z",
+  "heartbeat_at": "2026-10-21T03:18:46.969647Z",
+  "expires_at": "2026-10-21T05:18:46.969651Z",
+  "run_ref": "Issue45 isolated fencing kit author verification; no other owner source edits"
+}
