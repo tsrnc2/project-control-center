@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T03:23:05.366211Z",
+    "generated_at": "2026-10-21T03:24:21.982731+00:00",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6581,15 +6581,21 @@
     {
       "id": "KWH-WB-HOOKS-TEST-REVIEW-R1",
       "project_id": "kludge-wagon-haywire",
-      "state": "RUNNING",
-      "claimed_by": "codex-waypoint-wb-hooks-review-20261021",
-      "claimed_at": "2026-10-21T03:21:01.284229Z",
-      "claim_expires_at": "2026-10-21T05:20:59.121251Z",
-      "owner_agent": "codex-waypoint-wb-hooks-review-20261021",
-      "updated_at": "2026-10-21T03:21:01.284258Z",
+      "state": "BLOCKED",
+      "claimed_by": null,
+      "claimed_at": null,
+      "claim_expires_at": null,
+      "owner_agent": null,
+      "updated_at": "2026-10-21T03:24:21.982731+00:00",
       "execution_mode": "OWNER_SCOPED_TECHNICAL_REVIEW",
       "independent_acceptance": false,
-      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-WB-HOOKS-TEST-REVIEW-R1.json"
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-WB-HOOKS-TEST-REVIEW-R1.json",
+      "claim_heartbeat_at": null,
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/523",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/308",
+      "technical_verdict": "REVISE",
+      "qualification": "UNKNOWN",
+      "next_action": "Author correction for unexpected browser errors, fresh exact-source retest and qualified independent acceptance; no candidate or production change."
     },
     {
       "id": "KITT-20261021-INTAKE-DEPENDENCY-ALIASES",
@@ -6888,6 +6894,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-10-21T03:24:21.982731+00:00",
+      "type": "BOUNDED_TECHNICAL_REVIEW_RECORDED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-WB-HOOKS-TEST-REVIEW-R1",
+      "summary": "PR512 technical REVISE: expected-failure paths ignore unexpected browser errors. Candidate unchanged; own canonical lease released."
+    },
     {
       "at": "2026-10-21T03:22:02.255040Z",
       "type": "TASK_COMPLETED",
@@ -7793,5 +7806,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T03:24:09.652904+00:00"
+  "updated_at": "2026-10-21T03:24:21.982731+00:00"
 }
