@@ -8032,6 +8032,18 @@
       "claimed_at": "2026-10-21T19:50:57.982202+00:00",
       "claim_expires_at": "2026-10-21T21:20:57.982202+00:00",
       "next_action": "Repair only SF-SCHEMA-001 against frozen PR17; independent review and other lifecycle gates remain held."
+    },
+    {
+      "id": "KWH-ECU-COMPLETED-OBSERVATION-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Bounded completed-call ECU observation source candidate",
+      "state": "RUNNING",
+      "priority": "P1",
+      "claimed_by": "codex-waypoint-completed-observation",
+      "claim_expires_at": "2026-10-21T21:52:15.395032Z",
+      "updated_at": "2026-10-21T19:52:15.395017Z",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/585",
+      "next_action": "Additive source-only ECU manager observation contract/tests; preserve controls/world and exact prerequisite/review gates."
     }
   ],
   "blockers": [
@@ -9295,5 +9307,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T19:52:03.345027+00:00"
+  "updated_at": "2026-10-21T19:52:15.395017Z"
 }

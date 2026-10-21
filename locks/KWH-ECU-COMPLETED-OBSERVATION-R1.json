@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-ECU-COMPLETED-OBSERVATION-R1",
+  "agent_id": "codex-waypoint-completed-observation",
+  "lock_token": "c39d829db67210106d1be5406ebfe7ed057e62e11fc04fe4",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T19:52:15.395017Z",
+  "heartbeat_at": "2026-10-21T19:52:15.395017Z",
+  "expires_at": "2026-10-21T21:52:15.395032Z"
+}
