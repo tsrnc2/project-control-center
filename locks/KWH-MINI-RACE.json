@@ -1,0 +1,10 @@
+{
+  "task_id": "KWH-MINI-RACE",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-01a15457-race",
+  "lock_token": "3bbde4a0c8115bb75ba0e3bb60c0b1f1867aff70a24208ee",
+  "acquired_at": "2026-10-21T16:05:14.781642Z",
+  "heartbeat_at": "2026-10-21T16:05:14.781652Z",
+  "expires_at": "2026-10-21T18:05:11.272675Z",
+  "run_ref": "race-concept-01a15457-20261021"
+}
