@@ -2689,13 +2689,14 @@
       "state": "RUNNING",
       "priority": "P1",
       "claimed_by": "codex-standing-store-shots",
-      "claim_expires_at": "2026-10-21T15:00:33Z",
-      "updated_at": "2026-10-21T13:36:12.923622+00:00",
+      "claim_expires_at": "2026-10-21T17:09:10Z",
+      "updated_at": "2026-10-21T15:39:21.323233+00:00",
       "next_action": "Capture private actual1080p draft images from verified packaged runtime; no product/store action. Interrupted claim reconciled; Drive94 receipt verified.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/129",
-      "claimed_at": "2026-10-21T13:30:22Z"
+      "claimed_at": "2026-10-21T13:30:22Z",
+      "claim_heartbeat_at": "2026-10-21T15:39:21.323222+00:00"
     },
     {
       "id": "KWH-MKT-TRAILER-SCRIPT",
@@ -8134,5 +8135,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T15:38:45.656868+00:00"
+  "updated_at": "2026-10-21T15:39:21.323237+00:00"
 }
