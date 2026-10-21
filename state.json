@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T01:32:17.550199Z",
+    "generated_at": "2026-10-21T01:32:36.359629Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -6356,9 +6356,13 @@
       "project_id": "pity-please",
       "title": "PityPlease ML: restore the v21 model and restart training under KITT",
       "state": "BLOCKED",
-      "claimed_by": "codex-long-term-sequential",
-      "claim_expires_at": "2026-10-21T02:16:12.753188Z",
-      "updated_at": "2026-10-21T01:32:17.550199Z"
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-21T01:32:36.359527Z",
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "evidence_ref": "https://github.com/tsrnc2/kitt/blob/17acd39158dd480d7e4cb7e40c59c58aeb146436/reports/codex/pity-backup-blocker-reconciliation-20261021.json",
+      "next_action": "Owner selects historical v21 reproduction versus a reviewed Godot4 conversion through existing training plan PR4/issue283. Establish compatible canonical trainer/evaluator source, reviewed checkpoint persistence, authorized host/operator, disk alert and resource/cost limits before any restore/training. GitHub archive access remains unavailable but is no longer the only route to the preserved checkpoint. Backup verification does not prove a runtime restore or trainer operation."
     }
   ],
   "blockers": [
