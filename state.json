@@ -2144,12 +2144,12 @@
       "id": "KWH-WB-PRECACHE",
       "project_id": "kludge-wagon-haywire",
       "title": "Workbench: compiler pre-cache + image size reduction",
-      "state": "READY",
+      "state": "RUNNING",
       "priority": "P2",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T00:23:48Z",
-      "next_action": "Acceptance: Snapshot cached (Cache API); size reported before/after",
+      "claimed_by": "codex-precache-01a15507",
+      "claim_expires_at": "2026-10-21T17:56:26.877223Z",
+      "updated_at": "2026-10-21T15:56:32.030256Z",
+      "next_action": "Prepare anchored snapshot pre-cache author candidate author candidate and native evidence; preserve other owners and all review gates.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/109"
@@ -8276,5 +8276,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T15:56:12.250668Z"
+  "updated_at": "2026-10-21T15:56:32.030273Z"
 }
