@@ -1,0 +1,1 @@
+{"task_id": "KWH-WB-STDIN", "agent_id": "codex-kwh-social-x-20261021", "at": "2026-10-21T13:29:42.682299+00:00", "operation": "expired_own_lock_reacquisition", "prior_expiry": "2026-10-21T05:31:24.527948Z", "prior_owner_token_verified": true}
