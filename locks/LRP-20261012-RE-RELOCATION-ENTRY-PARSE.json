@@ -1,0 +1,10 @@
+{
+  "task_id": "LRP-20261012-RE-RELOCATION-ENTRY-PARSE",
+  "project_id": "llm-reasoning-project",
+  "agent_id": "codex-01a15457-re-relocation",
+  "lock_token": "44048130641988cb2eb2f5e460f4d9f9f0603c85f167012c",
+  "acquired_at": "2026-10-21T19:28:43.666877Z",
+  "heartbeat_at": "2026-10-21T19:28:43.666888Z",
+  "expires_at": "2026-10-21T21:28:00.854949Z",
+  "run_ref": "re-relocation-01a15457-20261021"
+}
