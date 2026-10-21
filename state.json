@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-21T18:08:08.915619Z",
+    "generated_at": "2026-10-21T18:09:47.923819Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -7602,6 +7602,20 @@
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/607",
       "dispatch_allowed": false,
       "next_action": "Authorized coordinator establishes exact qualified independent native/gameplay reviewer binding before claim/dispatch; normal composition/gameplay/device acceptance stays separate."
+    },
+    {
+      "id": "KWH-GPS-REFERENCE-TARGET-COHERENCE-REPAIR",
+      "project_id": "kludge-wagon-haywire",
+      "title": "GPS reference target/bearing/distance coherence repair",
+      "state": "RUNNING",
+      "priority": "P1",
+      "claimed_by": "codex-gps-target-coherence-20261021",
+      "owner_agent": "codex-gps-target-coherence-20261021",
+      "claimed_at": "2026-10-21T18:09:47.923819Z",
+      "claim_expires_at": "2026-10-21T20:09:47.923869Z",
+      "updated_at": "2026-10-21T18:09:47.923819Z",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/64",
+      "next_action": "Freeze and reproduce real C advance-boundary inconsistency; narrow source candidate only, preserve other GPS tasks and review/platform gates."
     }
   ],
   "blockers": [
@@ -8858,5 +8872,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-21T18:09:27.923652Z"
+  "updated_at": "2026-10-21T18:09:47.923819Z"
 }
