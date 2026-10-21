@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-ECU-HEADLIGHTS",
+  "agent_id": "codex-cedar-persistent",
+  "lock_token": "667437906822ba73adacb5e1c3cf811cb8142dd8606a9f12",
+  "mode": "exclusive",
+  "acquired_at": "2026-10-21T15:33:20.399998Z",
+  "heartbeat_at": "2026-10-21T15:33:20.400009Z",
+  "expires_at": "2026-10-21T17:33:20.400013Z",
+  "run_ref": "Issue28 HEADLIGHTS lane only;original playerC/runtime/actuator wiring author candidate"
+}
