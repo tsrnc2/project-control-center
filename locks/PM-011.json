@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "project_id": "project-merger",
+  "task_id": "PM-011",
+  "agent_id": "codex-standing-pm011-0049",
+  "lock_token": "908ba92df97d38468420327ae0a4cc5928bbbc29b731f2b0",
+  "acquired_at": "2026-10-22T00:49:23.355460Z",
+  "heartbeat_at": "2026-10-22T00:49:23.355460Z",
+  "expires_at": "2026-10-22T02:19:23.355490Z",
+  "run_ref": "pm011-next-20261022-0049"
+}
