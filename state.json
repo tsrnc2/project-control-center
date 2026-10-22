@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-22T00:50:22.536610Z",
+    "generated_at": "2026-10-22T17:57:03.052752Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -8987,6 +8987,18 @@
       "claim_expires_at": null,
       "next_action": "Composed exact target passes locally; independent review and hosted execution remain required.",
       "claim_heartbeat_at": null
+    },
+    {
+      "id": "KWH-FRESH-INSTALLABLE-BUILDS-20261022",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Owner requested fresh installable builds, October 22",
+      "state": "RUNNING",
+      "priority": "P1",
+      "claimed_by": "codex-waypoint-installable-builds",
+      "claim_expires_at": "2026-10-23T17:56:18Z",
+      "updated_at": "2026-10-22T17:57:03.052724Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-FRESH-INSTALLABLE-BUILDS-20261022.json",
+      "result_summary": null
     }
   ],
   "blockers": [
