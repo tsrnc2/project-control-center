@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-22T18:13:10.200678Z",
+    "generated_at": "2026-10-22T21:18:26.798052Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -8999,6 +8999,18 @@
       "updated_at": "2026-10-22T18:13:10.200650Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-FRESH-INSTALLABLE-BUILDS-20261022.json",
       "result_summary": "Owner-requested supported Android Full test APK built from b1179d71 main with fresh Godot web export; all compiler/VM assets bundled and 5377 web hashes verified. Separate .full appId preserves previous app because debug signer differs. Five release assets uploaded and remote SHA256 verified. Desktop native packaging absent on main; no Windows/Linux native builds or device gameplay acceptance claimed."
+    },
+    {
+      "id": "KWH-INTRO-FLOW-20261022",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Owner playthrough feedback: uninterrupted intro and clear game explanation",
+      "state": "RUNNING",
+      "priority": "P1",
+      "claimed_by": "codex-kwh-intro-flow",
+      "claim_expires_at": "2026-10-23T21:11:02Z",
+      "updated_at": "2026-10-22T21:18:26.798029Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-INTRO-FLOW-20261022.json",
+      "result_summary": null
     }
   ],
   "blockers": [
