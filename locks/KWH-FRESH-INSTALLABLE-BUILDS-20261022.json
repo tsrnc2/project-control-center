@@ -1,0 +1,9 @@
+{
+  "task_id": "KWH-FRESH-INSTALLABLE-BUILDS-20261022",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-waypoint-installable-builds",
+  "lock_token": "2195f2fc9aec3feb9a65a443ba5ec0a3fa104c027ad6d98c",
+  "acquired_at": "2026-10-22T17:56:59.261354Z",
+  "expires_at": "2026-10-22T18:06:59.261370+00:00",
+  "run_ref": "fbw-native-build-20261022"
+}
