@@ -2873,15 +2873,17 @@
       "id": "KWH-MKT-LIBRARY-HERO-LOGO",
       "project_id": "kludge-wagon-haywire",
       "title": "Library assets: hero 3840x1240, logo 1280x720 transparent, library capsule 600x900, header 920x430",
-      "state": "READY",
+      "state": "CLAIMED",
       "priority": "P2",
-      "claimed_by": null,
-      "claim_expires_at": null,
-      "updated_at": "2026-10-14T01:15:54Z",
+      "claimed_by": "codex-fbw-sequential",
+      "claim_expires_at": "2026-10-22T05:25:46.302113+00:00",
+      "updated_at": "2026-10-22T03:25:46.302084+00:00",
       "next_action": "Marketing. Acceptance: All library PNGs at Steam sizes. Unclaimed.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/128"
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/128",
+      "claimed_at": "2026-10-22T03:25:46.302084+00:00",
+      "claim_heartbeat_at": "2026-10-22T03:25:46.302084+00:00"
     },
     {
       "id": "KWH-MKT-SCREENSHOTS",
@@ -10248,5 +10250,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-22T00:50:39.579573+00:00"
+  "updated_at": "2026-10-22T03:25:46.302084+00:00"
 }
