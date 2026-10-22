@@ -1,9 +1,0 @@
-{
-  "task_id": "KWH-INTRO-FLOW-20261022",
-  "project_id": "kludge-wagon-haywire",
-  "agent_id": "codex-kwh-intro-flow",
-  "lock_token": "a4843c6d43b8e4d8ec8a6ecec14737f3f5d925724547e874",
-  "acquired_at": "2026-10-22T21:35:45.631370Z",
-  "expires_at": "2026-10-22T21:45:45.631386+00:00",
-  "run_ref": "kwh-intro-flow-20261022"
-}
