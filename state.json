@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-22T21:18:26.798052Z",
+    "generated_at": "2026-10-22T21:35:47.545390Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -9004,13 +9004,13 @@
       "id": "KWH-INTRO-FLOW-20261022",
       "project_id": "kludge-wagon-haywire",
       "title": "Owner playthrough feedback: uninterrupted intro and clear game explanation",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "priority": "P1",
-      "claimed_by": "codex-kwh-intro-flow",
-      "claim_expires_at": "2026-10-23T21:11:02Z",
-      "updated_at": "2026-10-22T21:18:26.798029Z",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-22T21:35:47.545361Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-INTRO-FLOW-20261022.json",
-      "result_summary": null
+      "result_summary": "Draft PR640 at 0ff623e9b06ea9582eef4c0e2fffda30ab69ffb9: uninterrupted intro, clear repair-loop explanation, acknowledged controls, accurate arrow bindings/focus, real-moving tutorial timer and artwork/phone fixes implemented. Browser/real engine/compiler/actual input/real ECU checks pass. BLOCKED only on configured ElevenLabs access for10matching narration lines1669characters; owner authorized credits, none spent. No merge/deploy or independent acceptance."
     }
   ],
   "blockers": [
