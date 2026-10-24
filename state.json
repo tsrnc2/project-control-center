@@ -9011,6 +9011,19 @@
       "updated_at": "2026-10-22T21:35:47.545361Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-INTRO-FLOW-20261022.json",
       "result_summary": "Draft PR640 at 0ff623e9b06ea9582eef4c0e2fffda30ab69ffb9: uninterrupted intro, clear repair-loop explanation, acknowledged controls, accurate arrow bindings/focus, real-moving tutorial timer and artwork/phone fixes implemented. Browser/real engine/compiler/actual input/real ECU checks pass. BLOCKED only on configured ElevenLabs access for10matching narration lines1669characters; owner authorized credits, none spent. No merge/deploy or independent acceptance."
+    },
+    {
+      "id": "KWH-SHOPPING-CENTER-20261024",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Roadside shopping center",
+      "priority": "P1",
+      "human_owner": "Jobo",
+      "state": "RUNNING",
+      "claimed_by": "codex-fbw-shopping",
+      "owner_agent": "codex-fbw-shopping",
+      "updated_at": "2026-10-24T03:57:50.132073+00:00",
+      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-SHOPPING-CENTER-20261024.json",
+      "next_action": "Prepare and validate isolated source candidate."
     }
   ],
   "blockers": [
@@ -10274,5 +10287,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-22T03:25:46.302084+00:00"
+  "updated_at": "2026-10-24T03:57:50.132073+00:00"
 }
