@@ -9195,12 +9195,12 @@
       "title": "KITT car controls and detective assistance",
       "priority": "P1",
       "human_owner": "Jobo",
-      "state": "RUNNING",
-      "claimed_by": "codex-fbw-kitt-car",
+      "state": "DONE",
+      "claimed_by": null,
       "owner_agent": "codex-fbw-kitt-car",
-      "updated_at": "2026-10-24T05:18:07.754815+00:00",
-      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-KITT-CAR-ASSISTANT-20261024.json",
-      "next_action": "Prepare and validate isolated source candidate."
+      "updated_at": "2026-10-24T05:24:08.777551+00:00",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/660",
+      "next_action": "Independent review and authorized integration/deployment."
     }
   ],
   "blockers": [
@@ -10464,5 +10464,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-24T05:18:07.754815+00:00"
+  "updated_at": "2026-10-24T05:24:08.777551+00:00"
 }
