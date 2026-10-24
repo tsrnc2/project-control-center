@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-24T05:06:43.510035+00:00",
+    "generated_at": "2026-10-24T05:15:30.548155+00:00",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -9176,6 +9176,18 @@
       "updated_at": "2026-10-24T05:06:43.510035+00:00",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/657",
       "result_summary": "Author feature candidate published in draft PR657 at28ac021e: on-demand authentic Clang C11/O0 wasm32 assembly beside all game C editors, desktop split/mobile stack, Update/Copy, source invalidation and stale-reply protection. Actual compiler, real-worker UI fixture, ECU and WebView checks pass; both game skins have recorded passes, with intermittent cold-warmup test timeouts retained and unresolved. No independent/device acceptance, merge/deployment or APK release."
+    },
+    {
+      "id": "KWH-C-ASM-STEPPING-20261024",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Synchronize real C and assembly stepping in Workbench",
+      "state": "RUNNING",
+      "priority": "P1",
+      "claimed_by": "codex-fbw-stepper",
+      "claim_expires_at": "2026-10-25T05:12:22Z",
+      "updated_at": "2026-10-24T05:15:30.548155+00:00",
+      "source_ref": "",
+      "result_summary": "Owner-requested synchronized C/assembly stepping candidate in progress."
     }
   ],
   "blockers": [
