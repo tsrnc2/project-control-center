@@ -1,9 +1,0 @@
-{
-  "task_id": "KWH-RETAIL-RELEASE-READINESS-20261024",
-  "project_id": "kludge-wagon-haywire",
-  "agent_id": "codex-fbw-release",
-  "lock_token": "0a201c10-3833-4fd5-bcec-c813991198ab",
-  "acquired_at": "2026-10-24T18:05:16.659576+00:00",
-  "heartbeat_at": "2026-10-24T18:05:16.659576+00:00",
-  "expires_at": "2026-10-24T18:10:16.659576+00:00"
-}
