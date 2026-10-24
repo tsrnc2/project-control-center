@@ -9126,6 +9126,19 @@
       "updated_at": "2026-10-24T04:33:12.046262+00:00",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/646",
       "result_summary": "CPU optimization candidate published in draft PR646 at09af3f19, extending existing rendering changes. Wildlife paired median714.1->589.8us/tick and47% fewer height calls; real web bridge fixture114.5->93.7us/call. Behavior/payload regression, real ECU, live iframe bridge, fresh export and phone render budget checks pass. Author source phase complete; independent/device acceptance pending, no merge/deployment."
+    },
+    {
+      "id": "KWH-SHOPPING-CENTER-DETAILS-20261024",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Shopping center interiors and satellite stores",
+      "priority": "P1",
+      "human_owner": "Jobo",
+      "state": "RUNNING",
+      "claimed_by": "codex-fbw-retail",
+      "owner_agent": "codex-fbw-retail",
+      "updated_at": "2026-10-24T04:35:22.807240+00:00",
+      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-SHOPPING-CENTER-DETAILS-20261024.json",
+      "next_action": "Prepare and validate isolated source candidate."
     }
   ],
   "blockers": [
@@ -10389,5 +10402,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-24T04:03:05.145630Z"
+  "updated_at": "2026-10-24T04:35:22.807240+00:00"
 }
