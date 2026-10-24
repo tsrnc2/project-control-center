@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-24T04:02:15.118150Z",
+    "generated_at": "2026-10-24T04:10:19.193775+00:00",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -9078,6 +9078,18 @@
           "claim_expires_at": "2026-10-25T03:57:32Z"
         }
       ]
+    },
+    {
+      "id": "KWH-ORGANIC-TERRAIN-20261024",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Make world terrain look more organic",
+      "state": "RUNNING",
+      "priority": "P2",
+      "claimed_by": "codex-waypoint-organic-terrain",
+      "claim_expires_at": "2026-10-25T04:06:35Z",
+      "updated_at": "2026-10-24T04:10:19.193775+00:00",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-ORGANIC-TERRAIN-20261024.json",
+      "result_summary": null
     }
   ],
   "blockers": [
