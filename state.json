@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-24T05:27:32.684518+00:00",
+    "generated_at": "2026-10-24T13:36:07.747699+00:00",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -9201,6 +9201,18 @@
       "updated_at": "2026-10-24T05:24:08.777551+00:00",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/660",
       "next_action": "Independent review and authorized integration/deployment."
+    },
+    {
+      "id": "KWH-FBW-PRODUCTION-READINESS-20261024",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Qualify FBW phone and C assembly candidates for production",
+      "state": "RUNNING",
+      "priority": "P1",
+      "claimed_by": "codex-fbw-readiness",
+      "claim_expires_at": "2026-10-25T13:35:31Z",
+      "updated_at": "2026-10-24T13:36:07.747699+00:00",
+      "source_ref": "",
+      "result_summary": "Owner-requested synchronized C/assembly stepping candidate in progress."
     }
   ],
   "blockers": [
