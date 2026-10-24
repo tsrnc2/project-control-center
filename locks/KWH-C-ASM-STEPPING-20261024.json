@@ -1,8 +1,0 @@
-{
-  "task_id": "KWH-C-ASM-STEPPING-20261024",
-  "project_id": "kludge-wagon-haywire",
-  "agent_id": "codex-fbw-stepper",
-  "lock_token": "27cc2a46ba4a33d2700102ee1f12b874558781c30b7f61c6",
-  "acquired_at": "2026-10-24T05:15:30.548155+00:00",
-  "expires_at": "2026-10-24T05:25:30.548155+00:00"
-}
