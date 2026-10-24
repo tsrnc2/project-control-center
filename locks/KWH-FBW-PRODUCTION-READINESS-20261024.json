@@ -1,8 +1,0 @@
-{
-  "task_id": "KWH-FBW-PRODUCTION-READINESS-20261024",
-  "project_id": "kludge-wagon-haywire",
-  "agent_id": "codex-fbw-readiness",
-  "lock_token": "87f6c0ca82c7eb3b1081d0cd853c97bee500b4c1c0c06e41",
-  "acquired_at": "2026-10-24T13:36:07.747699+00:00",
-  "expires_at": "2026-10-24T13:46:07.747699+00:00"
-}
