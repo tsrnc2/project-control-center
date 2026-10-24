@@ -9036,6 +9036,48 @@
       "updated_at": "2026-10-24T04:02:15.118127Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-PHONE-OPTIMIZATION-20261024.json",
       "result_summary": "Source optimization candidate and fresh web export published as draft PR; fixed decorative and wildlife budgets, model LOD bias and terrain far plane. Fixed scene Low submitted primitives106582->64658 (-39.3%), calls111->84 (-24.3%); High unchanged. Implementation preparation complete; independent review and real-phone validation pending, no merge/deployment/APK release."
+    },
+    {
+      "schema_version": "1.0",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-ISLAND-FERRY-20261024",
+      "title": "Add island ferry landing and scheduled ferry",
+      "state": "DONE",
+      "priority": "P1",
+      "scope": "Direct owner request: ferry and dock for FBW island. Separate Mono Lake terminal and repeating ferry; preserve concurrent boat work. Isolated candidate, no deployment.",
+      "acceptance": [
+        "Signed shore-connected dock with shelter and fenders.",
+        "Distinct ferry arrives, dwells and departs on navigable water.",
+        "Godot 4.3 checks and source publication."
+      ],
+      "dependencies": [],
+      "claimed_by": null,
+      "claimed_at": null,
+      "claim_heartbeat_at": null,
+      "claim_expires_at": null,
+      "created_by": "codex-fbw-ferry",
+      "created_at": "2026-10-24T03:57:28Z",
+      "updated_at": "2026-10-24T04:02:45Z",
+      "started_at": "2026-10-24T03:57:40Z",
+      "result_summary": "Original island ferry and signed shore-connected Mono Lake landing implemented and published as draft PR648, commit af3ad3b53b50ba93d82dd1c419c182d28cd502d8. Godot4.3 rendered operating checks and author visual inspection pass. Ambient service only; no passenger/car transport, independent acceptance, merge, web export or deployment. Concurrent boat work preserved.",
+      "validation": [
+        "Godot4.3 rendered test PASS:720 simulated seconds, >=8 trips, every phase, full hull water-depth preflight, route bounds, bob and gangway states.",
+        "Physics ray confirms solid pier deck; vegetation corridor reservation checked. Real world rendered and author visually inspected after removing obstructing tufa.",
+        "git diff --check PASS. Initial dummy-renderer teardown errors and existing import tangent warnings retained locally; rendered check has no script or mesh errors."
+      ],
+      "completed_at": "2026-10-24T04:02:45Z",
+      "artifacts": [
+        "https://github.com/tsrnc2/fly-by-wire-c/pull/648",
+        "af3ad3b53b50ba93d82dd1c419c182d28cd502d8"
+      ],
+      "ownership_history": [
+        {
+          "claimed_by": "codex-fbw-ferry",
+          "claimed_at": "2026-10-24T03:57:32Z",
+          "claim_heartbeat_at": "2026-10-24T04:02:45Z",
+          "claim_expires_at": "2026-10-25T03:57:32Z"
+        }
+      ]
     }
   ],
   "blockers": [
@@ -10299,5 +10341,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-24T03:59:03.111490+00:00"
+  "updated_at": "2026-10-24T04:03:05.145630Z"
 }
