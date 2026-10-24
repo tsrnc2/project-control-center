@@ -1,0 +1,9 @@
+{
+  "task_id": "KWH-PHONE-CPU-20261024",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-fbw-phone-cpu",
+  "lock_token": "213e99045688c72836b24145b031b67175355ccb74483fc5",
+  "acquired_at": "2026-10-24T04:32:04.320481Z",
+  "expires_at": "2026-10-24T04:42:04.320498+00:00",
+  "run_ref": "fbw-native-build-20261022"
+}
