@@ -9158,12 +9158,12 @@
       "title": "Earn cosmetic credits from exploration and quests",
       "priority": "P1",
       "human_owner": "Jobo",
-      "state": "RUNNING",
-      "claimed_by": "codex-fbw-credits",
+      "state": "DONE",
+      "claimed_by": null,
       "owner_agent": "codex-fbw-credits",
-      "updated_at": "2026-10-24T04:53:36.194454+00:00",
-      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-EARNED-COSMETIC-CREDITS-20261024.json",
-      "next_action": "Prepare and validate isolated source candidate."
+      "updated_at": "2026-10-24T05:10:54.595782+00:00",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/645",
+      "next_action": "Independent review and authorized integration/deployment."
     },
     {
       "id": "KWH-ASSEMBLY-VIEW-20261024",
@@ -10439,5 +10439,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-24T04:53:36.194454+00:00"
+  "updated_at": "2026-10-24T05:10:54.595782+00:00"
 }
