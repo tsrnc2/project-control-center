@@ -9151,6 +9151,19 @@
       "updated_at": "2026-10-24T04:39:54.115926+00:00",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-FRACTAL-DECAY-REVIEW-R1.json",
       "result_summary": null
+    },
+    {
+      "id": "KWH-EARNED-COSMETIC-CREDITS-20261024",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Earn cosmetic credits from exploration and quests",
+      "priority": "P1",
+      "human_owner": "Jobo",
+      "state": "RUNNING",
+      "claimed_by": "codex-fbw-credits",
+      "owner_agent": "codex-fbw-credits",
+      "updated_at": "2026-10-24T04:53:36.194454+00:00",
+      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-EARNED-COSMETIC-CREDITS-20261024.json",
+      "next_action": "Prepare and validate isolated source candidate."
     }
   ],
   "blockers": [
@@ -10414,5 +10427,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-24T04:50:14.045097+00:00"
+  "updated_at": "2026-10-24T04:53:36.194454+00:00"
 }
