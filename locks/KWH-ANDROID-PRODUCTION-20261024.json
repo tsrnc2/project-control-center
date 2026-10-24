@@ -1,0 +1,9 @@
+{
+  "task_id": "KWH-ANDROID-PRODUCTION-20261024",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-waypoint-android-production",
+  "lock_token": "9457d1c755bf9c08b01ca1895681d583820817f64a27b4f7",
+  "acquired_at": "2026-10-24T13:40:17.876940+00:00",
+  "expires_at": "2026-10-24T13:50:17.876940+00:00",
+  "run_ref": "KWH-ANDROID-PRODUCTION-20261024"
+}
