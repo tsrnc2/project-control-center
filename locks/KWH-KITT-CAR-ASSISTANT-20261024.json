@@ -1,9 +1,0 @@
-{
-  "task_id": "KWH-KITT-CAR-ASSISTANT-20261024",
-  "project_id": "kludge-wagon-haywire",
-  "agent_id": "codex-fbw-kitt-car",
-  "lock_token": "fc30af49-4e9f-4f65-8769-4917f9cf1729",
-  "acquired_at": "2026-10-24T05:24:08.777551+00:00",
-  "heartbeat_at": "2026-10-24T05:24:08.777551+00:00",
-  "expires_at": "2026-10-24T05:29:08.777551+00:00"
-}
