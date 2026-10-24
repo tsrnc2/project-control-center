@@ -1,9 +1,0 @@
-{
-  "task_id": "KWH-SHOPPING-CENTER-20261024",
-  "project_id": "kludge-wagon-haywire",
-  "agent_id": "codex-fbw-shopping",
-  "lock_token": "043d2350-54d4-4ce5-a0b3-46840b61b843",
-  "acquired_at": "2026-10-24T03:57:50.132073+00:00",
-  "heartbeat_at": "2026-10-24T03:57:50.132073+00:00",
-  "expires_at": "2026-10-24T04:02:50.132073+00:00"
-}
