@@ -9233,12 +9233,12 @@
       "title": "Shopping and credits release readiness",
       "priority": "P1",
       "human_owner": "Jobo",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "claimed_by": "codex-fbw-release",
       "owner_agent": "codex-fbw-release",
-      "updated_at": "2026-10-24T13:37:41.886537+00:00",
-      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-RETAIL-RELEASE-READINESS-20261024.json",
-      "next_action": "Prepare and validate isolated source candidate."
+      "updated_at": "2026-10-24T18:05:16.659576+00:00",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/645",
+      "next_action": "Independent review, device/rights/signing acceptance and members-only HTTPS hosting target are required; see blocker #165 and review #164."
     },
     {
       "id": "KWH-ANDROID-PRODUCTION-20261024",
@@ -10514,5 +10514,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-24T14:13:33.001012+00:00"
+  "updated_at": "2026-10-24T18:05:16.659576+00:00"
 }
