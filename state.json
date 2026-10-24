@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-24T04:32:55.364010+00:00",
+    "generated_at": "2026-10-24T04:33:12.046262+00:00",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -9114,6 +9114,18 @@
       "updated_at": "2026-10-24T04:32:55.364010+00:00",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-FRACTAL-DECAY-20261024.json",
       "result_summary": null
+    },
+    {
+      "id": "KWH-PHONE-CPU-20261024",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Optimize FBW per-tick code and browser bridge for phones",
+      "state": "DONE",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-24T04:33:12.046262+00:00",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/646",
+      "result_summary": "CPU optimization candidate published in draft PR646 at09af3f19, extending existing rendering changes. Wildlife paired median714.1->589.8us/tick and47% fewer height calls; real web bridge fixture114.5->93.7us/call. Behavior/payload regression, real ECU, live iframe bridge, fresh export and phone render budget checks pass. Author source phase complete; independent/device acceptance pending, no merge/deployment."
     }
   ],
   "blockers": [
