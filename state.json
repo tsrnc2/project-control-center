@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-24T13:36:07.747699+00:00",
+    "generated_at": "2026-10-24T13:40:17.876940+00:00",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -9239,6 +9239,18 @@
       "updated_at": "2026-10-24T13:37:41.886537+00:00",
       "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-RETAIL-RELEASE-READINESS-20261024.json",
       "next_action": "Prepare and validate isolated source candidate."
+    },
+    {
+      "id": "KWH-ANDROID-PRODUCTION-20261024",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Prepare and qualify Android production release sequentially",
+      "state": "RUNNING",
+      "priority": "P2",
+      "claimed_by": "codex-waypoint-android-production",
+      "claim_expires_at": "2026-10-25T13:40:06Z",
+      "updated_at": "2026-10-24T13:40:17.876940+00:00",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-ANDROID-PRODUCTION-20261024.json",
+      "result_summary": null
     }
   ],
   "blockers": [
