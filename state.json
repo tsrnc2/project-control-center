@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-22T21:35:47.545390Z",
+    "generated_at": "2026-10-24T04:02:15.118150Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -9024,6 +9024,18 @@
       "updated_at": "2026-10-24T03:59:03.111490+00:00",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/645",
       "next_action": "Independent review and authorized integration/deployment."
+    },
+    {
+      "id": "KWH-PHONE-OPTIMIZATION-20261024",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Optimize FBW game and model rendering for phones",
+      "state": "DONE",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-24T04:02:15.118127Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-PHONE-OPTIMIZATION-20261024.json",
+      "result_summary": "Source optimization candidate and fresh web export published as draft PR; fixed decorative and wildlife budgets, model LOD bias and terrain far plane. Fixed scene Low submitted primitives106582->64658 (-39.3%), calls111->84 (-24.3%); High unchanged. Implementation preparation complete; independent review and real-phone validation pending, no merge/deployment/APK release."
     }
   ],
   "blockers": [
