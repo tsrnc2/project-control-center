@@ -9251,6 +9251,17 @@
       "updated_at": "2026-10-24T13:40:17.876940+00:00",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-ANDROID-PRODUCTION-20261024.json",
       "result_summary": null
+    },
+    {
+      "id": "KWH-EP01-FINISH-20261024",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Episode 1 closure candidate",
+      "priority": "P1",
+      "state": "RUNNING",
+      "claimed_by": "codex-ep01-worker-20261025",
+      "claim_expires_at": "2026-10-26T23:47:46Z",
+      "updated_at": "2026-10-25T23:47:46Z",
+      "next_action": "Bounded Episode 1 save/resume investigation; independent review remains separate. Canonical ownership stays in KITT."
     }
   ],
   "blockers": [
@@ -10514,5 +10525,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-24T18:05:16.659576+00:00"
+  "updated_at": "2026-10-25T23:47:46Z"
 }
