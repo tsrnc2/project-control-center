@@ -9289,6 +9289,34 @@
       "candidate_revision": "8a4406193217f37307eed0cc4859c6b0336813df",
       "summary": "Source PR only: offline C/x86 quick lookup, game/workbench controls and official full manual links. Focused desktop/Android-skin browser checks pass; execution assets omitted.",
       "next_action": "Independent review/adoption of PR664, then normal packaging; no merge or deployment claimed."
+    },
+    {
+      "id": "KWH-20261026-C-X86-LIVE-CHECK",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Verify C/x86 lookup with real workbench and correct integration faults",
+      "state": "DONE",
+      "priority": "P2",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-26T00:41:06.355818+00:00",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/664",
+      "candidate_revision": "93e5ee17985d360bfa80668077c265b9119aa9e5",
+      "summary": "Keyboard repair and real v86/gcc offline-lookup smoke pass; Android sync verified. Source PR only.",
+      "next_action": "Eligible independent reviewer takes KWH-20261026-C-X86-LOOKUP-REVIEW-R1 against exact PR head 93e5ee17985d360bfa80668077c265b9119aa9e5."
+    },
+    {
+      "id": "KWH-20261026-C-X86-LOOKUP-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Independent review: in-game C and Intel x86 manual lookup PR664",
+      "state": "READY",
+      "priority": "P2",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-26T00:41:06.355818+00:00",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/664",
+      "candidate_revision": "93e5ee17985d360bfa80668077c265b9119aa9e5",
+      "summary": "Independent review handoff for exact PR664 head; reviewer eligibility/admission not established by this entry.",
+      "next_action": "Eligible independent reviewer claims through normal task/lease gates; no dispatch or qualification established."
     }
   ],
   "blockers": [
@@ -10552,5 +10580,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T00:35:31.348497+00:00"
+  "updated_at": "2026-10-26T00:41:06.355818+00:00"
 }
