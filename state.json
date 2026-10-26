@@ -9413,6 +9413,111 @@
       "updated_at": "2026-10-26T02:32:51.942900+00:00",
       "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-LOCATION-EXPANSION-20261026.json",
       "next_action": "Expand all fourteen surface regions; preserve direct touch, underground work and story isolation."
+    },
+    {
+      "id": "KITT-COMPLETION-20261026",
+      "project_id": "kitt",
+      "title": "Complete KITT v1.0 with verified delivery and acknowledged controller handoff",
+      "state": "READY",
+      "priority": "P0",
+      "size": "L",
+      "requested_role_id": "subdelegator",
+      "parent_task_id": null,
+      "dependencies": [
+        "KITT-COMP-OWNERSHIP-20261026",
+        "KITT-COMP-COVERAGE-20261026",
+        "KITT-COMP-DELEGATION-20261026",
+        "KITT-COMP-PLAN-REVIEW-20261026"
+      ],
+      "planning_gate": "PLANNING_CONTAINER",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-26T02:32:40.496154Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-COMPLETION-20261026.json",
+      "summary": "Master completion container for the current KITT project. Cover all current KITT-P000 through KITT-P029 requirements and indexed accepted plans, plus the owner-directed Waypoint controller transition. Decompose large workstreams into bounded claimable tasks; reuse existing tasks, candidates, owners and upstream LRP ownership. This container is never executed as one unbounded worker run. Product milestone completion does not terminate the standing caretaker mission.",
+      "next_action": "Reconcile dependencies, exact task/role/model/runtime qualification, fresh canonical claim and exclusive lease before execution. No automatic dispatch enabled.",
+      "human_issue": "https://github.com/tsrnc2/project-control-center/issues/168"
+    },
+    {
+      "id": "KITT-COMP-OWNERSHIP-20261026",
+      "project_id": "kitt",
+      "title": "Snapshot KITT ownership and gate evidence for completion delegation",
+      "state": "READY",
+      "priority": "P0",
+      "size": "S",
+      "requested_role_id": "researcher",
+      "parent_task_id": "KITT-COMPLETION-20261026",
+      "dependencies": [],
+      "planning_gate": "READY",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-26T02:32:40.496154Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-COMP-OWNERSHIP-20261026.json",
+      "summary": "One bounded read-only inventory, target20\u201345minutes. Pin current KITT task/lease and relevant assignment/transition revisions; map active owners, scope overlaps, dependencies and exact P000 gate status. Confirm current fixed-service health/PAUSE using sanitized metadata. No stale-lease takeover, task-owner change, Matrix sends, scheduler or controller mutation.",
+      "next_action": "Reconcile dependencies, exact task/role/model/runtime qualification, fresh canonical claim and exclusive lease before execution. No automatic dispatch enabled.",
+      "human_issue": null
+    },
+    {
+      "id": "KITT-COMP-COVERAGE-20261026",
+      "project_id": "kitt",
+      "title": "Build the complete KITT requirements-to-evidence matrix",
+      "state": "READY",
+      "priority": "P0",
+      "size": "M",
+      "requested_role_id": "planner",
+      "parent_task_id": "KITT-COMPLETION-20261026",
+      "dependencies": [],
+      "planning_gate": "READY",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-26T02:32:40.496154Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-COMP-COVERAGE-20261026.json",
+      "summary": "One bounded requirements audit, target60\u201390minutes with checkpoint if scope exceeds the bound. Read current PRIORITIES KITT-P000\u2013P029, its indexed plans and authoritative contracts. Reconcile actual task/candidate/review/deployment evidence, including work already published, against each requirement. Preserve existing requirements and owner authority; generic reasoning resources remain upstream. Write a matrix, not feature code.",
+      "next_action": "Reconcile dependencies, exact task/role/model/runtime qualification, fresh canonical claim and exclusive lease before execution. No automatic dispatch enabled.",
+      "human_issue": null
+    },
+    {
+      "id": "KITT-COMP-DELEGATION-20261026",
+      "project_id": "kitt",
+      "title": "Turn the completion gaps into small tasks and large workstream handoffs",
+      "state": "READY",
+      "priority": "P0",
+      "size": "M",
+      "requested_role_id": "planner",
+      "parent_task_id": "KITT-COMPLETION-20261026",
+      "dependencies": [
+        "KITT-COMP-OWNERSHIP-20261026",
+        "KITT-COMP-COVERAGE-20261026"
+      ],
+      "planning_gate": "WAITING_FOR_DEPENDENCIES",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-26T02:32:40.496154Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-COMP-DELEGATION-20261026.json",
+      "summary": "Use accepted ownership and coverage snapshots to produce an actionable critical path and first delegation batches. Keep large workstreams as planning containers; split actual execution into independently reviewable20\u201390minute children or further bounded handoffs. Reuse active tasks and frozen PRs. Define disjoint file/API boundaries and serialize shared integration. No dispatch, model admission, scheduler edit, merge or deployment.",
+      "next_action": "Reconcile dependencies, exact task/role/model/runtime qualification, fresh canonical claim and exclusive lease before execution. No automatic dispatch enabled.",
+      "human_issue": null
+    },
+    {
+      "id": "KITT-COMP-PLAN-REVIEW-20261026",
+      "project_id": "kitt",
+      "title": "Independently review the frozen KITT completion and delegation plan",
+      "state": "READY",
+      "priority": "P0",
+      "size": "S",
+      "requested_role_id": "reviewer",
+      "parent_task_id": "KITT-COMPLETION-20261026",
+      "dependencies": [
+        "KITT-COMP-DELEGATION-20261026"
+      ],
+      "planning_gate": "WAITING_FOR_DEPENDENCIES",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-26T02:32:40.496154Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-COMP-PLAN-REVIEW-20261026.json",
+      "summary": "A distinct eligible non-author reviewer checks the exact frozen coverage/ownership/delegation artifact digests, target30\u201360minutes. Verify full scope, task atomicity, dependency closure, workload bounds, qualification and owner boundaries. No implementation edits or self-acceptance by the plan author.",
+      "next_action": "Reconcile dependencies, exact task/role/model/runtime qualification, fresh canonical claim and exclusive lease before execution. No automatic dispatch enabled.",
+      "human_issue": null
     }
   ],
   "blockers": [
@@ -10676,5 +10781,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T02:32:51.942900+00:00"
+  "updated_at": "2026-10-26T02:35:42.921353+00:00"
 }
