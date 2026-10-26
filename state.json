@@ -9616,12 +9616,12 @@
       "title": "Package exploration notebook and refined maps for Android",
       "priority": "P1",
       "human_owner": "Jobo",
-      "state": "RUNNING",
-      "claimed_by": "codex-fbw-field-notes-android",
+      "state": "DONE",
+      "claimed_by": null,
       "owner_agent": "codex-fbw-field-notes-android",
-      "updated_at": "2026-10-26T08:49:38.851218+00:00",
-      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-FIELD-NOTES-ANDROID-20261026.json",
-      "next_action": "Package exact tested5385notebook/map assets as Full debug Android version20261030; verify actual build and package integrity/identity. Independent/device/production acceptance remains separate."
+      "updated_at": "2026-10-26T09:00:57.220498+00:00",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/681",
+      "next_action": "Review exact source and candidate; independent review and actual-device acceptance remain separate."
     }
   ],
   "blockers": [
@@ -10885,5 +10885,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T08:49:38.851218+00:00"
+  "updated_at": "2026-10-26T09:00:57.220498+00:00"
 }
