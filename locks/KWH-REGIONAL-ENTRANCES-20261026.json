@@ -1,0 +1,9 @@
+{
+  "task_id": "KWH-REGIONAL-ENTRANCES-20261026",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-fbw-regional-entrances",
+  "lock_token": "2be79cfe-72fb-42ed-9e86-a4bd016102b4",
+  "acquired_at": "2026-10-26T09:52:22.418517+00:00",
+  "heartbeat_at": "2026-10-26T09:52:22.418517+00:00",
+  "expires_at": "2026-10-26T09:57:22.418517+00:00"
+}
