@@ -9551,12 +9551,12 @@
       "title": "Verified polished practice-map builds for browser and Android",
       "priority": "P1",
       "human_owner": "Jobo",
-      "state": "RUNNING",
-      "claimed_by": "codex-fbw-polished-map-builds",
+      "state": "DONE",
+      "claimed_by": null,
       "owner_agent": "codex-fbw-polished-map-builds",
-      "updated_at": "2026-10-26T04:34:59.985748+00:00",
+      "updated_at": "2026-10-26T05:07:46.756700+00:00",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/675",
-      "next_action": "Bounded browser job awaits measured headroom; finish remaining profiles and Android packaging. Full map refinement remains active."
+      "next_action": "Review exact source and candidate; independent review and actual-device acceptance remain separate."
     }
   ],
   "blockers": [
@@ -10820,5 +10820,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T05:00:09.461060+00:00"
+  "updated_at": "2026-10-26T05:07:46.756700+00:00"
 }
