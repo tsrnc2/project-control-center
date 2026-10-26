@@ -1,0 +1,9 @@
+{
+  "task_id": "KWH-KITT-PHONE-20261026",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-fbw-kitt-phone",
+  "lock_token": "dd83814b-659e-438f-9d73-e62ef3076d55",
+  "acquired_at": "2026-10-26T16:27:05.071387+00:00",
+  "heartbeat_at": "2026-10-26T16:27:05.071387+00:00",
+  "expires_at": "2026-10-26T16:32:05.071387+00:00"
+}
