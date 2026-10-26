@@ -9317,6 +9317,19 @@
       "candidate_revision": "93e5ee17985d360bfa80668077c265b9119aa9e5",
       "summary": "Independent review handoff for exact PR664 head; reviewer eligibility/admission not established by this entry.",
       "next_action": "Eligible independent reviewer claims through normal task/lease gates; no dispatch or qualification established."
+    },
+    {
+      "id": "KWH-PRACTICE-LOCATIONS-20261026",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Ten 3D practice destinations and location selection",
+      "priority": "P1",
+      "human_owner": "Jobo",
+      "state": "RUNNING",
+      "claimed_by": "codex-fbw-practice-locations",
+      "owner_agent": "codex-fbw-practice-locations",
+      "updated_at": "2026-10-26T00:51:51.619207+00:00",
+      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-PRACTICE-LOCATIONS-20261026.json",
+      "next_action": "Build and verify all ten 3D practice destinations, real driving, location switching and save isolation."
     }
   ],
   "blockers": [
@@ -10580,5 +10593,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T00:42:34.281217+00:00"
+  "updated_at": "2026-10-26T00:51:51.619207+00:00"
 }
