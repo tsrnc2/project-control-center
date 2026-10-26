@@ -9372,6 +9372,20 @@
       "candidate_revision": "2cb03de6eb224df6e5e9f95883118640fc9171a7",
       "summary": "Source-only two-skill consumer compatibility candidate published in PR495. Exact indexed IDs bypass lexical exclusion; existing error/path/hash/redaction guards preserved. Neutral resource bytes stay unchanged. Source-home/package review299 and known65-ID redaction-policy issue306 remain; no live remediation, security verdict or independent acceptance claimed.",
       "next_action": "Accountable issue299 maintainer chooses source home/package; eligible independent non-author reviewer inspects exact PR495 delta with pending inventory PR298 and unchanged issue306 policy; authorized updater/rollback and actual live readback only after acceptance."
+    },
+    {
+      "id": "KITT-20261026-RUNTIME-SOURCE-RECEIPT",
+      "project_id": "kitt",
+      "title": "Capture bounded read-only running service source provenance receipt",
+      "state": "DONE",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-26T02:03:05.975065Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/pull/496",
+      "candidate_revision": "502ba591ea33b92d01e58a9156af7743982820c0",
+      "summary": "Published read-only provenance collector and sanitized two-capture receipt in PR496. Five application process/artifact identities stable; running executable hashes equal current disk bytes. Three Python entry-script disk hashes recorded separately from loaded-source attestation. installed-app is the identical deployment via symlink; two pinned full Git trees yield no exact script match. All7 health units and HTTPS healthy. Deployed source/build commit remains unverified; no production change or independent acceptance.",
+      "next_action": "Find accountable deployment receipts matching exact hashes, then isolated source recovery/package candidate if needed. Independent review and authorized updater/rollback gates remain before installation. Controller transition acknowledgements/inventories remain pending."
     }
   ],
   "blockers": [
@@ -10635,5 +10649,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T02:01:16.897407+00:00"
+  "updated_at": "2026-10-26T02:03:37.226744+00:00"
 }
