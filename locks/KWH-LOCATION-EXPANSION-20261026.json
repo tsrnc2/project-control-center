@@ -1,9 +1,0 @@
-{
-  "task_id": "KWH-LOCATION-EXPANSION-20261026",
-  "project_id": "kludge-wagon-haywire",
-  "agent_id": "codex-fbw-location-expansion",
-  "lock_token": "bbc42b4e-4454-4712-9ea4-553cc1153b5d",
-  "acquired_at": "2026-10-26T02:32:51.942900+00:00",
-  "heartbeat_at": "2026-10-26T02:32:51.942900+00:00",
-  "expires_at": "2026-10-26T02:37:51.942900+00:00"
-}
