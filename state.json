@@ -9275,6 +9275,20 @@
       "updated_at": "2026-10-26T00:34:20.549841+00:00",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/663",
       "next_action": "Reproduce and verify real touch driving, then upload signed test update."
+    },
+    {
+      "id": "KWH-20261026-C-X86-LOOKUP",
+      "project_id": "kludge-wagon-haywire",
+      "title": "In-game standard C and Intel x86 instruction lookup",
+      "state": "DONE",
+      "priority": "P2",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-26T00:35:31.348497+00:00",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/664",
+      "candidate_revision": "8a4406193217f37307eed0cc4859c6b0336813df",
+      "summary": "Source PR only: offline C/x86 quick lookup, game/workbench controls and official full manual links. Focused desktop/Android-skin browser checks pass; execution assets omitted.",
+      "next_action": "Independent review/adoption of PR664, then normal packaging; no merge or deployment claimed."
     }
   ],
   "blockers": [
@@ -10538,5 +10552,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T00:34:20.549841+00:00"
+  "updated_at": "2026-10-26T00:35:31.348497+00:00"
 }
