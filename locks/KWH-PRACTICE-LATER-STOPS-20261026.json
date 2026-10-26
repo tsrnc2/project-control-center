@@ -1,9 +1,0 @@
-{
-  "task_id": "KWH-PRACTICE-LATER-STOPS-20261026",
-  "project_id": "kludge-wagon-haywire",
-  "agent_id": "codex-fbw-later-stops",
-  "lock_token": "c53f0bac-c4c2-4c32-8f3c-2cba897473ee",
-  "acquired_at": "2026-10-26T00:57:15.226344+00:00",
-  "heartbeat_at": "2026-10-26T00:57:15.226344+00:00",
-  "expires_at": "2026-10-26T01:02:15.226344+00:00"
-}
