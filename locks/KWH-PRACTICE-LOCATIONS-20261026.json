@@ -1,9 +1,0 @@
-{
-  "task_id": "KWH-PRACTICE-LOCATIONS-20261026",
-  "project_id": "kludge-wagon-haywire",
-  "agent_id": "codex-fbw-practice-locations",
-  "lock_token": "50ecc8f0-c17c-4659-a2a1-e90a40463b47",
-  "acquired_at": "2026-10-26T03:15:11.333875+00:00",
-  "heartbeat_at": "2026-10-26T03:15:11.333875+00:00",
-  "expires_at": "2026-10-26T03:20:11.333875+00:00"
-}
