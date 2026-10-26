@@ -9518,6 +9518,19 @@
       "summary": "A distinct eligible non-author reviewer checks the exact frozen coverage/ownership/delegation artifact digests, target30\u201360minutes. Verify full scope, task atomicity, dependency closure, workload bounds, qualification and owner boundaries. No implementation edits or self-acceptance by the plan author.",
       "next_action": "Reconcile dependencies, exact task/role/model/runtime qualification, fresh canonical claim and exclusive lease before execution. No automatic dispatch enabled.",
       "human_issue": null
+    },
+    {
+      "id": "KWH-UNDERGROUND-VIGNETTES-20261026",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Distinct hidden-room scenes and underground wayfinding",
+      "priority": "P1",
+      "human_owner": "Jobo",
+      "state": "RUNNING",
+      "claimed_by": "codex-fbw-underground-vignettes",
+      "owner_agent": "codex-fbw-underground-vignettes",
+      "updated_at": "2026-10-26T03:16:59.897299+00:00",
+      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-UNDERGROUND-VIGNETTES-20261026.json",
+      "next_action": "Build and verify all ten 3D practice destinations, real driving, location switching and save isolation."
     }
   ],
   "blockers": [
@@ -10781,5 +10794,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T03:15:11.333875+00:00"
+  "updated_at": "2026-10-26T03:16:59.897299+00:00"
 }
