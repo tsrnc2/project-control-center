@@ -9778,6 +9778,19 @@
       "updated_at": "2026-10-26T16:17:56.476962+00:00",
       "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-UNDERGROUND-MOTION-20261026.json",
       "next_action": "Build thirty bounded gutter/track animation pockets; preserve fifty discoveries and collision; verify actual rendered motion and surface/frustum freeze. Independent/device acceptance remains separate."
+    },
+    {
+      "id": "KWH-PLAYER-COSMETICS-POLISH-20261026",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Refine player accessory models",
+      "priority": "P1",
+      "human_owner": "Jobo",
+      "state": "RUNNING",
+      "claimed_by": "codex-cosmetics-polish",
+      "owner_agent": "codex-cosmetics-polish",
+      "updated_at": "2026-10-26T16:19:08.462198+00:00",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/674",
+      "next_action": "Prepare and validate isolated source candidate."
     }
   ],
   "blockers": [
@@ -11041,5 +11054,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T16:17:56.476962+00:00"
+  "updated_at": "2026-10-26T16:19:08.462198+00:00"
 }
