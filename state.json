@@ -9386,6 +9386,20 @@
       "candidate_revision": "502ba591ea33b92d01e58a9156af7743982820c0",
       "summary": "Published read-only provenance collector and sanitized two-capture receipt in PR496. Five application process/artifact identities stable; running executable hashes equal current disk bytes. Three Python entry-script disk hashes recorded separately from loaded-source attestation. installed-app is the identical deployment via symlink; two pinned full Git trees yield no exact script match. All7 health units and HTTPS healthy. Deployed source/build commit remains unverified; no production change or independent acceptance.",
       "next_action": "Find accountable deployment receipts matching exact hashes, then isolated source recovery/package candidate if needed. Independent review and authorized updater/rollback gates remain before installation. Controller transition acknowledgements/inventories remain pending."
+    },
+    {
+      "id": "KITT-20261026-BACKEND-SOURCE-ATTRIBUTION",
+      "project_id": "kitt",
+      "title": "Verify published backend source against exact running binary hash",
+      "state": "DONE",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-26T02:11:06.011899Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/pull/496",
+      "candidate_revision": "7b49646751baa5d71875d847da6065ca7f59a997",
+      "summary": "PR496 follow-up establishes exact backend source reproduction candidate from immutable PR196. Published source equals preserved local source. Two basename builds succeed and agree but mismatch historical/live hash; separate source-argument absolute-path countercheck produces two exact matches to running backend SHA25640bf2caf. All4 outcomes preserved. Source path read-only; no produced binary executed/installed. Original builder/build commit and independent acceptance remain unverified. All15 published file bytes/exact head verified; services healthy.",
+      "next_action": "Trace remaining gateway/chat/MCP/native-web source links through existing deployment receipts. Preserve historical build-authority uncertainty and persistent-backend admission/PCC independent-acceptance gates; no production change is authorized by reproduction alone."
     }
   ],
   "blockers": [
@@ -10649,5 +10663,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T02:03:37.226744+00:00"
+  "updated_at": "2026-10-26T02:11:28.935679+00:00"
 }
