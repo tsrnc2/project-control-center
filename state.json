@@ -9564,12 +9564,12 @@
       "title": "Clear practice controls from GPS and scene details",
       "priority": "P1",
       "human_owner": "Jobo",
-      "state": "RUNNING",
-      "claimed_by": "codex-fbw-practice-clear-view",
+      "state": "DONE",
+      "claimed_by": null,
       "owner_agent": "codex-fbw-practice-clear-view",
-      "updated_at": "2026-10-26T05:49:35.926434+00:00",
+      "updated_at": "2026-10-26T05:54:32.095134+00:00",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/677",
-      "next_action": "Reconcile live final-desktop browser unit, inspect game capture and publish final evidence. Both phone cases passed; reused via exact inactive-desktop-rule proof. No new APK or independent/device acceptance claimed. Map refinement remains active."
+      "next_action": "Review exact source and candidate; independent review and actual-device acceptance remain separate."
     }
   ],
   "blockers": [
@@ -10833,5 +10833,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T05:49:35.926434+00:00"
+  "updated_at": "2026-10-26T05:54:32.095134+00:00"
 }
