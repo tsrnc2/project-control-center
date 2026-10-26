@@ -1,0 +1,9 @@
+{
+  "task_id": "KWH-LATER-TUNNEL-AMBIENCE-20261026",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-fbw-later-ambience",
+  "lock_token": "eba5e4c7-a8d5-46a1-a3be-4e9d67020668",
+  "acquired_at": "2026-10-26T19:53:20.912193+00:00",
+  "heartbeat_at": "2026-10-26T19:53:20.912193+00:00",
+  "expires_at": "2026-10-26T19:58:20.912193+00:00"
+}
