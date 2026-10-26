@@ -1,0 +1,9 @@
+{
+  "task_id": "KWH-GALLERY-MOTION-20261026",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-fbw-gallery-motion",
+  "lock_token": "123abf9f-c9e6-4e04-bb25-1c8294cb8683",
+  "acquired_at": "2026-10-26T19:39:09.321906+00:00",
+  "heartbeat_at": "2026-10-26T19:39:09.321906+00:00",
+  "expires_at": "2026-10-26T19:44:09.321906+00:00"
+}
