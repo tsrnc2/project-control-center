@@ -9700,6 +9700,19 @@
       "updated_at": "2026-10-26T13:14:32.728288+00:00",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/687",
       "next_action": "Review exact source and candidate; independent review and actual-device acceptance remain separate."
+    },
+    {
+      "id": "KWH-ROOM-PLACARDS-20261026",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Refine twenty underground exhibit placards",
+      "priority": "P1",
+      "human_owner": "Jobo",
+      "state": "RUNNING",
+      "claimed_by": "codex-fbw-room-placards",
+      "owner_agent": "codex-fbw-room-placards",
+      "updated_at": "2026-10-26T13:17:09.874321+00:00",
+      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-ROOM-PLACARDS-20261026.json",
+      "next_action": "Refine twenty original underground room signs; verify native/browser framing and preserved network metadata; independent/device acceptance remains separate."
     }
   ],
   "blockers": [
@@ -10963,5 +10976,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T13:14:32.728288+00:00"
+  "updated_at": "2026-10-26T13:17:09.874321+00:00"
 }
