@@ -9544,6 +9544,19 @@
       "updated_at": "2026-10-26T03:28:29.531380+00:00",
       "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-PLAYER-COSMETICS-20261026.json",
       "next_action": "Prepare and validate isolated source candidate."
+    },
+    {
+      "id": "KWH-POLISHED-MAPS-BUILDS-20261026",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Verified polished practice-map builds for browser and Android",
+      "priority": "P1",
+      "human_owner": "Jobo",
+      "state": "RUNNING",
+      "claimed_by": "codex-fbw-polished-map-builds",
+      "owner_agent": "codex-fbw-polished-map-builds",
+      "updated_at": "2026-10-26T03:33:05.171940+00:00",
+      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-POLISHED-MAPS-BUILDS-20261026.json",
+      "next_action": "Build and verify all ten 3D practice destinations, real driving, location switching and save isolation."
     }
   ],
   "blockers": [
@@ -10807,5 +10820,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T03:28:29.531380+00:00"
+  "updated_at": "2026-10-26T03:33:05.171940+00:00"
 }
