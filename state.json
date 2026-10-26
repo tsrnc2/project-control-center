@@ -9269,12 +9269,12 @@
       "title": "Android practice touch controls",
       "priority": "P1",
       "human_owner": "Jobo",
-      "state": "RUNNING",
-      "claimed_by": "codex-fbw-practice",
+      "state": "DONE",
+      "claimed_by": null,
       "owner_agent": "codex-fbw-practice",
-      "updated_at": "2026-10-26T00:34:20.549841+00:00",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/663",
-      "next_action": "Reproduce and verify real touch driving, then upload signed test update."
+      "updated_at": "2026-10-26T00:42:34.281217+00:00",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/665",
+      "next_action": "Verify the signed test update on the owner device; source review and production acceptance remain separate."
     },
     {
       "id": "KWH-20261026-C-X86-LOOKUP",
@@ -10580,5 +10580,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T00:41:06.355818+00:00"
+  "updated_at": "2026-10-26T00:42:34.281217+00:00"
 }
