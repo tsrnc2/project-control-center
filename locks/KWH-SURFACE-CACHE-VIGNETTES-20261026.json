@@ -1,9 +1,0 @@
-{
-  "task_id": "KWH-SURFACE-CACHE-VIGNETTES-20261026",
-  "project_id": "kludge-wagon-haywire",
-  "agent_id": "codex-fbw-surface-cache-scenes",
-  "lock_token": "ad2ac427-2f03-4996-b54d-0129b3dcd3d0",
-  "acquired_at": "2026-10-26T07:02:28.945530+00:00",
-  "heartbeat_at": "2026-10-26T07:02:28.945530+00:00",
-  "expires_at": "2026-10-26T07:07:28.945530+00:00"
-}
