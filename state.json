@@ -9538,12 +9538,12 @@
       "title": "Add wearable player cosmetic items",
       "priority": "P1",
       "human_owner": "Jobo",
-      "state": "RUNNING",
-      "claimed_by": "codex-player-cosmetics",
+      "state": "DONE",
+      "claimed_by": null,
       "owner_agent": "codex-player-cosmetics",
-      "updated_at": "2026-10-26T03:28:29.531380+00:00",
-      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-PLAYER-COSMETICS-20261026.json",
-      "next_action": "Prepare and validate isolated source candidate."
+      "updated_at": "2026-10-26T03:35:55.045716+00:00",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/674",
+      "next_action": "Independent review and authorized integration/deployment."
     },
     {
       "id": "KWH-POLISHED-MAPS-BUILDS-20261026",
@@ -10820,5 +10820,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T03:33:05.171940+00:00"
+  "updated_at": "2026-10-26T03:35:55.045716+00:00"
 }
