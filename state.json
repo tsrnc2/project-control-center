@@ -9826,10 +9826,10 @@
       "priority": "P1",
       "claimed_by": "codex-waypoint-education",
       "claim_expires_at": "2026-10-27T18:49:17.410Z",
-      "updated_at": "2026-10-26T18:49:17.410Z",
+      "updated_at": "2026-10-26T18:57:03.462Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-EDUCATIONAL-CONTENT-20261026.json",
       "summary": "Episode1 draft699/review700; Episode2 draft702/review703;150-unit ledger701.121 original records assessed;673 pending resolution/edits,18 prepared corrections. No independent acceptance.",
-      "next_action": "Preserve exact source review targets; continue source-backed corrections for narrated/mission assertions, then remaining lesson clauses and unsupported frequency labels."
+      "next_action": "Prepare cited source corrections for the9 identified Episode2 narration wording issues and related runtime mission assertions; preserve exact PR699/702 review targets, then continue remaining story/cheatsheet clauses."
     },
     {
       "id": "KWH-MOTION-ANDROID-20261026",
@@ -11106,5 +11106,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T18:49:17.410Z"
+  "updated_at": "2026-10-26T18:57:03.462Z"
 }
