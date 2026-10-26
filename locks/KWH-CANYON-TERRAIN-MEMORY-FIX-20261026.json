@@ -1,9 +1,0 @@
-{
-  "task_id": "KWH-CANYON-TERRAIN-MEMORY-FIX-20261026",
-  "project_id": "kludge-wagon-haywire",
-  "agent_id": "codex-fbw-canyon-terrain-fix",
-  "lock_token": "7de574dc-e062-4158-8022-72db7df6b21f",
-  "acquired_at": "2026-10-26T22:53:02.750282+00:00",
-  "heartbeat_at": "2026-10-26T22:53:02.750282+00:00",
-  "expires_at": "2026-10-26T22:58:02.750282+00:00"
-}
