@@ -9577,12 +9577,12 @@
       "title": "Distinct scenery for ten hidden surface caches",
       "priority": "P1",
       "human_owner": "Jobo",
-      "state": "RUNNING",
-      "claimed_by": "codex-fbw-surface-cache-scenes",
+      "state": "DONE",
+      "claimed_by": null,
       "owner_agent": "codex-fbw-surface-cache-scenes",
-      "updated_at": "2026-10-26T06:37:12.441428+00:00",
+      "updated_at": "2026-10-26T07:02:28.945530+00:00",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/678",
-      "next_action": "Native/visual/export milestone passed and published. Reconcile live all-ten-cache browser playthrough and queued cold portrait touch; inspect results and publish final source-bound evidence before review. No APK/device/independent release acceptance."
+      "next_action": "Review exact source and candidate; independent review and actual-device acceptance remain separate."
     }
   ],
   "blockers": [
@@ -10846,5 +10846,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T06:37:12.441428+00:00"
+  "updated_at": "2026-10-26T07:02:28.945530+00:00"
 }
