@@ -9980,12 +9980,12 @@
       "title": "Improve Grand Canyon surface contrast and distance readability",
       "priority": "P1",
       "human_owner": "Jobo",
-      "state": "RUNNING",
-      "claimed_by": "codex-fbw-canyon-lighting",
+      "state": "DONE",
+      "claimed_by": null,
       "owner_agent": "codex-fbw-canyon-lighting",
-      "updated_at": "2026-10-26T23:29:17.523912+00:00",
-      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-CANYON-LIGHTING-20261026.json",
-      "next_action": "Compare matched lighting variants; validate chosen GrandCanyon-only preset through actual High/Medium/Low views, callbacks and all14 underground access. Preserve geometry, other13 settings and independent original oracle; no new delivery or independent acceptance."
+      "updated_at": "2026-10-26T23:43:37.714188+00:00",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/732",
+      "next_action": "Review frozen GrandCanyon-only lighting update and matched images/original-settings oracle/native callback/access evidence. Global art, APK/browser/device/performance acceptance remains separate; broader goal ACTIVE."
     }
   ],
   "blockers": [
@@ -11249,5 +11249,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T23:29:17.523912+00:00"
+  "updated_at": "2026-10-26T23:43:37.714188+00:00"
 }
