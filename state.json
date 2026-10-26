@@ -9262,6 +9262,19 @@
       "claim_expires_at": null,
       "updated_at": "2026-10-25T23:58:28Z",
       "next_action": "Exact-source independent review and accepted Episode1 composition required; canonical blocker https://github.com/tsrnc2/kitt/issues/493"
+    },
+    {
+      "id": "KWH-PRACTICE-TOUCH-20261026",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Android practice touch controls",
+      "priority": "P1",
+      "human_owner": "Jobo",
+      "state": "RUNNING",
+      "claimed_by": "codex-fbw-practice",
+      "owner_agent": "codex-fbw-practice",
+      "updated_at": "2026-10-26T00:34:20.549841+00:00",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/663",
+      "next_action": "Reproduce and verify real touch driving, then upload signed test update."
     }
   ],
   "blockers": [
@@ -10525,5 +10538,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-25T23:58:28Z"
+  "updated_at": "2026-10-26T00:34:20.549841+00:00"
 }
