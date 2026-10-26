@@ -9648,6 +9648,19 @@
       "updated_at": "2026-10-26T10:40:44.762392+00:00",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/683",
       "next_action": "Review exact source and candidate; independent review and actual-device acceptance remain separate."
+    },
+    {
+      "id": "KWH-REGIONAL-VIEW-ANDROID-20261026",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Package regional entrances and visible passages for Android",
+      "priority": "P1",
+      "human_owner": "Jobo",
+      "state": "RUNNING",
+      "claimed_by": "codex-fbw-regional-view-android",
+      "owner_agent": "codex-fbw-regional-view-android",
+      "updated_at": "2026-10-26T10:48:55.223140+00:00",
+      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-REGIONAL-VIEW-ANDROID-20261026.json",
+      "next_action": "Package exact5385tested regional entrance/view-fix assets as Full debug version20261031; verify actual Gradle/assets/signature/identity, preserve all sources/keys/artifacts. Independent/device/production acceptance remains separate."
     }
   ],
   "blockers": [
@@ -10911,5 +10924,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T10:40:44.762392+00:00"
+  "updated_at": "2026-10-26T10:48:55.223140+00:00"
 }
