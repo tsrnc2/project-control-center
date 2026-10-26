@@ -9661,6 +9661,19 @@
       "updated_at": "2026-10-26T10:54:30.678166+00:00",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/684",
       "next_action": "Review exact source and candidate; independent review and actual-device acceptance remain separate."
+    },
+    {
+      "id": "KWH-HIDDEN-ALCOVES-20261026",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Ten regional hidden underground alcoves",
+      "priority": "P1",
+      "human_owner": "Jobo",
+      "state": "RUNNING",
+      "claimed_by": "codex-fbw-hidden-alcoves",
+      "owner_agent": "codex-fbw-hidden-alcoves",
+      "updated_at": "2026-10-26T11:09:46.780587+00:00",
+      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-HIDDEN-ALCOVES-20261026.json",
+      "next_action": "Add10connectedregionalalcoves/newdiscoveries/notes;preserveoriginal30metadata/floors/exits,verifyrealcapsuleandnative/browservisuals. Independent/device/production acceptance remains separate."
     }
   ],
   "blockers": [
@@ -10924,5 +10937,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T10:54:30.678166+00:00"
+  "updated_at": "2026-10-26T11:09:46.780587+00:00"
 }
