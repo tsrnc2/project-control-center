@@ -2657,7 +2657,7 @@
       "claimed_by": null,
       "claim_expires_at": null,
       "updated_at": "2026-10-14T05:20:00Z",
-      "next_action": "AC updated: nudge→specific→show-the-line; clue firewall; pairs with CONTEXT-HINTS",
+      "next_action": "AC updated: nudge\u2192specific\u2192show-the-line; clue firewall; pairs with CONTEXT-HINTS",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/114"
@@ -3304,7 +3304,7 @@
     {
       "id": "KWH-CLUE-SCHEMA",
       "project_id": "kludge-wagon-haywire",
-      "title": "Clue→lesson: schema tying world clues to real ECU bugs",
+      "title": "Clue\u2192lesson: schema tying world clues to real ECU bugs",
       "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
@@ -3318,7 +3318,7 @@
     {
       "id": "KWH-CLUE-WORLD",
       "project_id": "kludge-wagon-haywire",
-      "title": "Clue→lesson: world pickups per mission + top-box storage",
+      "title": "Clue\u2192lesson: world pickups per mission + top-box storage",
       "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
@@ -3332,7 +3332,7 @@
     {
       "id": "KWH-CLUE-REVEAL",
       "project_id": "kludge-wagon-haywire",
-      "title": "Clue→lesson: secret case-file document reveal UI",
+      "title": "Clue\u2192lesson: secret case-file document reveal UI",
       "state": "BLOCKED",
       "priority": "P1",
       "claimed_by": null,
@@ -3348,7 +3348,7 @@
     {
       "id": "KWH-CLUE-GATE",
       "project_id": "kludge-wagon-haywire",
-      "title": "Clue→lesson: gate next lesson in workbench/IDE + Car Manual",
+      "title": "Clue\u2192lesson: gate next lesson in workbench/IDE + Car Manual",
       "state": "READY",
       "priority": "P1",
       "claimed_by": null,
@@ -3362,7 +3362,7 @@
     {
       "id": "KWH-CLUE-EP1",
       "project_id": "kludge-wagon-haywire",
-      "title": "Clue→lesson: author Ep1 clues from actual shipped bugs",
+      "title": "Clue\u2192lesson: author Ep1 clues from actual shipped bugs",
       "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
@@ -3382,7 +3382,7 @@
     {
       "id": "KWH-CLUE-TEST",
       "project_id": "kludge-wagon-haywire",
-      "title": "Clue→lesson: tests for collect → unlock → gate",
+      "title": "Clue\u2192lesson: tests for collect \u2192 unlock \u2192 gate",
       "state": "BLOCKED",
       "priority": "P2",
       "claimed_by": null,
@@ -3397,7 +3397,7 @@
     {
       "id": "KWH-CLUE-BUGLINES",
       "project_id": "kludge-wagon-haywire",
-      "title": "Clue→lesson: IDE gutter bug-line reveals + super-clue spend UI",
+      "title": "Clue\u2192lesson: IDE gutter bug-line reveals + super-clue spend UI",
       "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
@@ -3411,7 +3411,7 @@
     {
       "id": "KWH-AND-UI-DESIGN",
       "project_id": "kludge-wagon-haywire",
-      "title": "Android UI: Material3×amber Kludge design tokens + safe-area",
+      "title": "Android UI: Material3\u00d7amber Kludge design tokens + safe-area",
       "state": "BLOCKED",
       "priority": "P1",
       "claimed_by": null,
@@ -3495,7 +3495,7 @@
     {
       "id": "KWH-AND-UI-APK",
       "project_id": "kludge-wagon-haywire",
-      "title": "Android UI: rebuild APK + 412×915 / 915×412 screenshots",
+      "title": "Android UI: rebuild APK + 412\u00d7915 / 915\u00d7412 screenshots",
       "state": "BLOCKED",
       "priority": "P1",
       "claimed_by": null,
@@ -3746,7 +3746,7 @@
     {
       "id": "KWH-BLD-KIT",
       "project_id": "kludge-wagon-haywire",
-      "title": "Buildings: expandable kit by style (modern→industrial + Bodie western)",
+      "title": "Buildings: expandable kit by style (modern\u2192industrial + Bodie western)",
       "state": "DONE",
       "priority": "P1",
       "claimed_by": null,
@@ -4103,7 +4103,7 @@
     {
       "id": "KWH-MINI-BUG-HUNT",
       "project_id": "kludge-wagon-haywire",
-      "title": "Concept: Bug Hunt (timer + live code/sim) — draft",
+      "title": "Concept: Bug Hunt (timer + live code/sim) \u2014 draft",
       "state": "BLOCKED",
       "priority": "P2",
       "claimed_by": null,
@@ -4120,7 +4120,7 @@
     {
       "id": "KWH-MINI-BREAKPOINT",
       "project_id": "kludge-wagon-haywire",
-      "title": "Concept: Breakpoint Trap (gdb/stepper + viz) — draft",
+      "title": "Concept: Breakpoint Trap (gdb/stepper + viz) \u2014 draft",
       "state": "BLOCKED",
       "priority": "P2",
       "claimed_by": null,
@@ -4137,7 +4137,7 @@
     {
       "id": "KWH-MINI-LEAK",
       "project_id": "kludge-wagon-haywire",
-      "title": "Concept: Memory Leak Chase (heap block viz) — draft",
+      "title": "Concept: Memory Leak Chase (heap block viz) \u2014 draft",
       "state": "BLOCKED",
       "priority": "P2",
       "claimed_by": null,
@@ -4154,7 +4154,7 @@
     {
       "id": "KWH-MINI-RACE",
       "project_id": "kludge-wagon-haywire",
-      "title": "Concept: Race Condition puzzle (scheduler timeline viz) — draft",
+      "title": "Concept: Race Condition puzzle (scheduler timeline viz) \u2014 draft",
       "state": "BLOCKED",
       "priority": "P2",
       "claimed_by": null,
@@ -4171,7 +4171,7 @@
     {
       "id": "KWH-MINI-WIRE",
       "project_id": "kludge-wagon-haywire",
-      "title": "Concept: Wire-the-Car (CAN + scheduler deadline viz) — draft",
+      "title": "Concept: Wire-the-Car (CAN + scheduler deadline viz) \u2014 draft",
       "state": "BLOCKED",
       "priority": "P2",
       "claimed_by": null,
@@ -4188,7 +4188,7 @@
     {
       "id": "KWH-MINI-LOADBAL",
       "project_id": "kludge-wagon-haywire",
-      "title": "Concept: Load Balancer/queue design viz — draft",
+      "title": "Concept: Load Balancer/queue design viz \u2014 draft",
       "state": "BLOCKED",
       "priority": "P2",
       "claimed_by": null,
@@ -4205,7 +4205,7 @@
     {
       "id": "KWH-MINI-POINTER",
       "project_id": "kludge-wagon-haywire",
-      "title": "Concept: Pointer Maze (graph/memory viz) — draft",
+      "title": "Concept: Pointer Maze (graph/memory viz) \u2014 draft",
       "state": "BLOCKED",
       "priority": "P2",
       "claimed_by": null,
@@ -4222,7 +4222,7 @@
     {
       "id": "KWH-MINI-STACK",
       "project_id": "kludge-wagon-haywire",
-      "title": "Concept: Stack Overflow Tower (call-stack viz) — draft",
+      "title": "Concept: Stack Overflow Tower (call-stack viz) \u2014 draft",
       "state": "BLOCKED",
       "priority": "P2",
       "claimed_by": null,
@@ -4239,7 +4239,7 @@
     {
       "id": "KWH-MINI-BITFLIP",
       "project_id": "kludge-wagon-haywire",
-      "title": "Concept: Bit-flip Logic gates (signal viz) — draft",
+      "title": "Concept: Bit-flip Logic gates (signal viz) \u2014 draft",
       "state": "BLOCKED",
       "priority": "P2",
       "claimed_by": null,
@@ -4270,7 +4270,7 @@
     {
       "id": "KWH-MINI-TESTS",
       "project_id": "kludge-wagon-haywire",
-      "title": "Mini games/sims: tests for host API + telemetry→viz + rewards",
+      "title": "Mini games/sims: tests for host API + telemetry\u2192viz + rewards",
       "state": "READY",
       "priority": "P2",
       "claimed_by": null,
@@ -4344,7 +4344,7 @@
     {
       "id": "KWH-KERNEL-BOOT",
       "project_id": "kludge-wagon-haywire",
-      "title": "Kernel lesson: boot/entry (reset vector → early init) + tests",
+      "title": "Kernel lesson: boot/entry (reset vector \u2192 early init) + tests",
       "state": "BLOCKED",
       "priority": "P0",
       "claimed_by": "chatgpt-kwh-kernel-boot",
@@ -5155,7 +5155,7 @@
       "claimed_by": null,
       "claim_expires_at": null,
       "updated_at": "2026-10-14T05:35:00Z",
-      "next_action": "READY unclaimed — see issue AC",
+      "next_action": "READY unclaimed \u2014 see issue AC",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/300"
@@ -5229,7 +5229,7 @@
       "claimed_by": null,
       "claim_expires_at": null,
       "updated_at": "2026-10-14T05:35:00Z",
-      "next_action": "READY unclaimed — see issue AC",
+      "next_action": "READY unclaimed \u2014 see issue AC",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/304"
@@ -5237,7 +5237,7 @@
     {
       "id": "KWH-UI-MAIN-MENU",
       "project_id": "kludge-wagon-haywire",
-      "title": "Main menu: amber Kludge Motors (New Game/Continue/Chapters/…)",
+      "title": "Main menu: amber Kludge Motors (New Game/Continue/Chapters/\u2026)",
       "state": "DONE",
       "priority": "P0",
       "claimed_by": null,
@@ -5291,7 +5291,7 @@
     {
       "id": "KWH-PERF-MOBILE-SIZE",
       "project_id": "kludge-wagon-haywire",
-      "title": "Perf mobile: APK size — lazy workbench/clang (<80MB)",
+      "title": "Perf mobile: APK size \u2014 lazy workbench/clang (<80MB)",
       "state": "DONE",
       "priority": "P0",
       "claimed_by": null,
@@ -6066,7 +6066,7 @@
     {
       "id": "KWH-BYWAY-01-TOPOLOGY",
       "project_id": "kludge-wagon-haywire",
-      "title": "Byway Island — area topology and bridge/exit planning",
+      "title": "Byway Island \u2014 area topology and bridge/exit planning",
       "state": "DONE",
       "priority": "P2",
       "claimed_by": null,
@@ -6086,7 +6086,7 @@
     {
       "id": "KWH-BYWAY-02-LOCATION-SCHEMA",
       "project_id": "kludge-wagon-haywire",
-      "title": "Byway Island — story/location schema and persistence design",
+      "title": "Byway Island \u2014 story/location schema and persistence design",
       "state": "WAITING",
       "priority": "P2",
       "claimed_by": null,
@@ -6103,7 +6103,7 @@
     {
       "id": "KWH-BYWAY-03-RIVER-BRIDGES",
       "project_id": "kludge-wagon-haywire",
-      "title": "Byway Island — river and bridge terrain",
+      "title": "Byway Island \u2014 river and bridge terrain",
       "state": "WAITING",
       "priority": "P2",
       "claimed_by": null,
@@ -6120,7 +6120,7 @@
     {
       "id": "KWH-BYWAY-04-FACILITY-SURFACE",
       "project_id": "kludge-wagon-haywire",
-      "title": "Byway Island — treatment facility surface/interiors",
+      "title": "Byway Island \u2014 treatment facility surface/interiors",
       "state": "WAITING",
       "priority": "P2",
       "claimed_by": null,
@@ -6137,7 +6137,7 @@
     {
       "id": "KWH-BYWAY-05-TUNNEL-MESH",
       "project_id": "kludge-wagon-haywire",
-      "title": "Byway Island — interconnected tunnel geometry",
+      "title": "Byway Island \u2014 interconnected tunnel geometry",
       "state": "WAITING",
       "priority": "P2",
       "claimed_by": null,
@@ -6154,7 +6154,7 @@
     {
       "id": "KWH-BYWAY-06-PRESERVE-BIOME",
       "project_id": "kludge-wagon-haywire",
-      "title": "Byway Island — protected habitat environment",
+      "title": "Byway Island \u2014 protected habitat environment",
       "state": "WAITING",
       "priority": "P2",
       "claimed_by": null,
@@ -6171,7 +6171,7 @@
     {
       "id": "KWH-BYWAY-07-TRAVERSAL",
       "project_id": "kludge-wagon-haywire",
-      "title": "Byway Island — doors, navigation and level streaming",
+      "title": "Byway Island \u2014 doors, navigation and level streaming",
       "state": "WAITING",
       "priority": "P2",
       "claimed_by": null,
@@ -6188,7 +6188,7 @@
     {
       "id": "KWH-BYWAY-08-WATER-UTILITIES",
       "project_id": "kludge-wagon-haywire",
-      "title": "Byway Island — pump/valve/hazard interactions",
+      "title": "Byway Island \u2014 pump/valve/hazard interactions",
       "state": "WAITING",
       "priority": "P2",
       "claimed_by": null,
@@ -6205,7 +6205,7 @@
     {
       "id": "KWH-BYWAY-09-NARRATIVE-PROPS",
       "project_id": "kludge-wagon-haywire",
-      "title": "Byway Island — narrative interactions and evidence design",
+      "title": "Byway Island \u2014 narrative interactions and evidence design",
       "state": "WAITING",
       "priority": "P2",
       "claimed_by": null,
@@ -6222,7 +6222,7 @@
     {
       "id": "KWH-BYWAY-10-QUEST-BEATS",
       "project_id": "kludge-wagon-haywire",
-      "title": "Byway Island — episode mission and replay",
+      "title": "Byway Island \u2014 episode mission and replay",
       "state": "WAITING",
       "priority": "P2",
       "claimed_by": null,
@@ -6239,7 +6239,7 @@
     {
       "id": "KWH-BYWAY-11-NPC-PURSUIT",
       "project_id": "kludge-wagon-haywire",
-      "title": "Byway Island — NPC interactions and optional pursuit",
+      "title": "Byway Island \u2014 NPC interactions and optional pursuit",
       "state": "WAITING",
       "priority": "P2",
       "claimed_by": null,
@@ -6256,7 +6256,7 @@
     {
       "id": "KWH-BYWAY-12-STATE-MAP",
       "project_id": "kludge-wagon-haywire",
-      "title": "Byway Island — map and save-state integration",
+      "title": "Byway Island \u2014 map and save-state integration",
       "state": "WAITING",
       "priority": "P2",
       "claimed_by": null,
@@ -6273,7 +6273,7 @@
     {
       "id": "KWH-BYWAY-13-PERFORMANCE",
       "project_id": "kludge-wagon-haywire",
-      "title": "Byway Island — web/Android optimization",
+      "title": "Byway Island \u2014 web/Android optimization",
       "state": "WAITING",
       "priority": "P2",
       "claimed_by": null,
@@ -6290,7 +6290,7 @@
     {
       "id": "KWH-BYWAY-14-QA-REVIEW",
       "project_id": "kludge-wagon-haywire",
-      "title": "Byway Island — regression testing and independent review",
+      "title": "Byway Island \u2014 regression testing and independent review",
       "state": "WAITING",
       "priority": "P2",
       "claimed_by": null,
@@ -6307,7 +6307,7 @@
     {
       "id": "KWH-BYWAY-01-REVIEW-PR417",
       "project_id": "kludge-wagon-haywire",
-      "title": "Byway Island — independent design and topology review",
+      "title": "Byway Island \u2014 independent design and topology review",
       "state": "DONE",
       "priority": "P2",
       "claimed_by": null,
@@ -7158,7 +7158,7 @@
       "claimed_by": null,
       "claim_expires_at": null,
       "updated_at": "2026-10-21T14:51:42.716503Z",
-      "next_action": "Author correction https://github.com/tsrnc2/fly-by-wire-c/pull/558 verified;browser14/22→21/22,remaining case-file dependency;unit4/4,existing5PASS,manual1/2 unchanged. Qualified KWH-CLUE-SUPER-SPEND-REVIEW-R1 and accepted composition pending;https://github.com/tsrnc2/kitt/issues/352. No merge/deployment.",
+      "next_action": "Author correction https://github.com/tsrnc2/fly-by-wire-c/pull/558 verified;browser14/22\u219221/22,remaining case-file dependency;unit4/4,existing5PASS,manual1/2 unchanged. Qualified KWH-CLUE-SUPER-SPEND-REVIEW-R1 and accepted composition pending;https://github.com/tsrnc2/kitt/issues/352. No merge/deployment.",
       "blocked_at": "2026-10-21T14:51:42.716525Z"
     },
     {
@@ -8158,7 +8158,7 @@
     {
       "id": "KITT-JR-GROK-005-QUALIFICATION-MATRIX-INVENTORY",
       "project_id": "kitt",
-      "title": "Grok junior — qualification matrix existing-test inventory",
+      "title": "Grok junior \u2014 qualification matrix existing-test inventory",
       "state": "RUNNING",
       "priority": "P3",
       "claimed_by": "codex-caretaker-kitt-jr-qualification-inventory",
@@ -9453,7 +9453,7 @@
       "claim_expires_at": null,
       "updated_at": "2026-10-26T02:32:40.496154Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-COMP-OWNERSHIP-20261026.json",
-      "summary": "One bounded read-only inventory, target20–45minutes. Pin current KITT task/lease and relevant assignment/transition revisions; map active owners, scope overlaps, dependencies and exact P000 gate status. Confirm current fixed-service health/PAUSE using sanitized metadata. No stale-lease takeover, task-owner change, Matrix sends, scheduler or controller mutation.",
+      "summary": "One bounded read-only inventory, target20\u201345minutes. Pin current KITT task/lease and relevant assignment/transition revisions; map active owners, scope overlaps, dependencies and exact P000 gate status. Confirm current fixed-service health/PAUSE using sanitized metadata. No stale-lease takeover, task-owner change, Matrix sends, scheduler or controller mutation.",
       "next_action": "Reconcile dependencies, exact task/role/model/runtime qualification, fresh canonical claim and exclusive lease before execution. No automatic dispatch enabled.",
       "human_issue": null
     },
@@ -9472,7 +9472,7 @@
       "claim_expires_at": null,
       "updated_at": "2026-10-26T02:32:40.496154Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-COMP-COVERAGE-20261026.json",
-      "summary": "One bounded requirements audit, target60–90minutes with checkpoint if scope exceeds the bound. Read current PRIORITIES KITT-P000–P029, its indexed plans and authoritative contracts. Reconcile actual task/candidate/review/deployment evidence, including work already published, against each requirement. Preserve existing requirements and owner authority; generic reasoning resources remain upstream. Write a matrix, not feature code.",
+      "summary": "One bounded requirements audit, target60\u201390minutes with checkpoint if scope exceeds the bound. Read current PRIORITIES KITT-P000\u2013P029, its indexed plans and authoritative contracts. Reconcile actual task/candidate/review/deployment evidence, including work already published, against each requirement. Preserve existing requirements and owner authority; generic reasoning resources remain upstream. Write a matrix, not feature code.",
       "next_action": "Reconcile dependencies, exact task/role/model/runtime qualification, fresh canonical claim and exclusive lease before execution. No automatic dispatch enabled.",
       "human_issue": null
     },
@@ -9494,7 +9494,7 @@
       "claim_expires_at": null,
       "updated_at": "2026-10-26T02:32:40.496154Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-COMP-DELEGATION-20261026.json",
-      "summary": "Use accepted ownership and coverage snapshots to produce an actionable critical path and first delegation batches. Keep large workstreams as planning containers; split actual execution into independently reviewable20–90minute children or further bounded handoffs. Reuse active tasks and frozen PRs. Define disjoint file/API boundaries and serialize shared integration. No dispatch, model admission, scheduler edit, merge or deployment.",
+      "summary": "Use accepted ownership and coverage snapshots to produce an actionable critical path and first delegation batches. Keep large workstreams as planning containers; split actual execution into independently reviewable20\u201390minute children or further bounded handoffs. Reuse active tasks and frozen PRs. Define disjoint file/API boundaries and serialize shared integration. No dispatch, model admission, scheduler edit, merge or deployment.",
       "next_action": "Reconcile dependencies, exact task/role/model/runtime qualification, fresh canonical claim and exclusive lease before execution. No automatic dispatch enabled.",
       "human_issue": null
     },
@@ -9515,7 +9515,7 @@
       "claim_expires_at": null,
       "updated_at": "2026-10-26T02:32:40.496154Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kitt/KITT-COMP-PLAN-REVIEW-20261026.json",
-      "summary": "A distinct eligible non-author reviewer checks the exact frozen coverage/ownership/delegation artifact digests, target30–60minutes. Verify full scope, task atomicity, dependency closure, workload bounds, qualification and owner boundaries. No implementation edits or self-acceptance by the plan author.",
+      "summary": "A distinct eligible non-author reviewer checks the exact frozen coverage/ownership/delegation artifact digests, target30\u201360minutes. Verify full scope, task atomicity, dependency closure, workload bounds, qualification and owner boundaries. No implementation edits or self-acceptance by the plan author.",
       "next_action": "Reconcile dependencies, exact task/role/model/runtime qualification, fresh canonical claim and exclusive lease before execution. No automatic dispatch enabled.",
       "human_issue": null
     },
@@ -9967,12 +9967,12 @@
       "title": "Preserve Grand Canyon terrain while reducing construction memory",
       "priority": "P1",
       "human_owner": "Jobo",
-      "state": "RUNNING",
-      "claimed_by": "codex-fbw-canyon-terrain-fix",
+      "state": "DONE",
+      "claimed_by": null,
       "owner_agent": "codex-fbw-canyon-terrain-fix",
-      "updated_at": "2026-10-26T22:53:02.750282+00:00",
-      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-CANYON-TERRAIN-MEMORY-FIX-20261026.json",
-      "next_action": "Verify committed production helper and independent original SurfaceTool oracle, ten-map renders/all14access/GrandCanyon surfaceHighLow; preserve all geometry and regional/core/mobile ownership. No new delivery or independent acceptance claimed."
+      "updated_at": "2026-10-26T23:12:37.046474+00:00",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/729",
+      "next_action": "Review frozen committed-source terrain memory fix and independent oracle/full-main/access/actualsurface evidence. Combined export/APK/browser/device acceptance remains separate; broader goal ACTIVE."
     }
   ],
   "blockers": [
@@ -10837,49 +10837,49 @@
       "type": "CLAIM",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-AND-UI-PEDALS",
-      "summary": "Registered+claimed KWH-AND-UI-PEDALS → #195."
+      "summary": "Registered+claimed KWH-AND-UI-PEDALS \u2192 #195."
     },
     {
       "at": "2026-10-14T02:18:32Z",
       "type": "TASK_REGISTERED",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-BLD-MATERIALS",
-      "summary": "KWH-AND-UI-STEER-GPS DONE; registered READY building variety ['KWH-BLD-MATERIALS', 'KWH-BLD-KIT', 'KWH-BLD-GEN', 'KWH-BLD-TYPES-RES', 'KWH-BLD-TYPES-COMM', 'KWH-BLD-DISTRICTS', 'KWH-BLD-LOD-PERF', 'KWH-BLD-TEST'] → #187–#194. Unclaimed."
+      "summary": "KWH-AND-UI-STEER-GPS DONE; registered READY building variety ['KWH-BLD-MATERIALS', 'KWH-BLD-KIT', 'KWH-BLD-GEN', 'KWH-BLD-TYPES-RES', 'KWH-BLD-TYPES-COMM', 'KWH-BLD-DISTRICTS', 'KWH-BLD-LOD-PERF', 'KWH-BLD-TEST'] \u2192 #187\u2013#194. Unclaimed."
     },
     {
       "at": "2026-10-14T02:14:18Z",
       "type": "CLAIM",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-AND-UI-STEER-GPS",
-      "summary": "Registered+claimed KWH-AND-UI-STEER-GPS → #186 (wheel/GPS overlap + real wheel look)."
+      "summary": "Registered+claimed KWH-AND-UI-STEER-GPS \u2192 #186 (wheel/GPS overlap + real wheel look)."
     },
     {
       "at": "2026-10-14T02:13:37Z",
       "type": "TASK_REGISTERED",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-DMG-TERRAIN",
-      "summary": "Updated KWH-DMG-MODEL AC; registered READY ['KWH-DMG-TERRAIN', 'KWH-WORLD-TRAILS', 'KWH-DMG-COLLISION', 'KWH-DMG-TRAILS-TEST'] → #182–#185 (terrain wear, trails, collisions, tests). Unclaimed."
+      "summary": "Updated KWH-DMG-MODEL AC; registered READY ['KWH-DMG-TERRAIN', 'KWH-WORLD-TRAILS', 'KWH-DMG-COLLISION', 'KWH-DMG-TRAILS-TEST'] \u2192 #182\u2013#185 (terrain wear, trails, collisions, tests). Unclaimed."
     },
     {
       "at": "2026-10-14T02:11:53Z",
       "type": "TASK_REGISTERED",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-DMG-MODEL",
-      "summary": "Registered READY unclaimed damage system tasks ['KWH-DMG-MODEL', 'KWH-DMG-FUZZ', 'KWH-DMG-TELEMETRY', 'KWH-DMG-SHOP', 'KWH-DMG-MANUAL', 'KWH-DMG-TEST'] → #176–#181 (fuzz/hardening/mechanic; common UI API)."
+      "summary": "Registered READY unclaimed damage system tasks ['KWH-DMG-MODEL', 'KWH-DMG-FUZZ', 'KWH-DMG-TELEMETRY', 'KWH-DMG-SHOP', 'KWH-DMG-MANUAL', 'KWH-DMG-TEST'] \u2192 #176\u2013#181 (fuzz/hardening/mechanic; common UI API)."
     },
     {
       "at": "2026-10-14T02:10:56Z",
       "type": "DONE",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-WORLD-VEG-VISIBLE",
-      "summary": "Veg visible + Android button/steer redesign DONE (#173–#175); PR #164 updated; APK ~222MB."
+      "summary": "Veg visible + Android button/steer redesign DONE (#173\u2013#175); PR #164 updated; APK ~222MB."
     },
     {
       "at": "2026-10-14T02:05:57Z",
       "type": "CLAIM",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-WORLD-VEG-VISIBLE",
-      "summary": "Registered+claimed ['KWH-WORLD-VEG-VISIBLE', 'KWH-AND-UI-BUTTONS', 'KWH-AND-UI-STEER'] → #173–#175 (veg visible, button redesign, steering redesign)."
+      "summary": "Registered+claimed ['KWH-WORLD-VEG-VISIBLE', 'KWH-AND-UI-BUTTONS', 'KWH-AND-UI-STEER'] \u2192 #173\u2013#175 (veg visible, button redesign, steering redesign)."
     },
     {
       "at": "2026-10-14T02:02:48Z",
@@ -10893,14 +10893,14 @@
       "type": "CLAIM",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-UI-CORE-API",
-      "summary": "Registered+claimed KWH-UI-CORE-API → #172. Android UI makeover depends on shared core+skins."
+      "summary": "Registered+claimed KWH-UI-CORE-API \u2192 #172. Android UI makeover depends on shared core+skins."
     },
     {
       "at": "2026-10-14T01:55:49Z",
       "type": "CLAIM",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-AND-UI-DESIGN",
-      "summary": "Registered+claimed Android UI makeover tasks ['KWH-AND-UI-DESIGN', 'KWH-AND-UI-NAV', 'KWH-AND-UI-DRIVE', 'KWH-AND-UI-KITTY-SPLASH', 'KWH-AND-UI-EDITOR', 'KWH-AND-UI-CLUES-SETTINGS', 'KWH-AND-UI-APK'] → #165–#171 (120m)."
+      "summary": "Registered+claimed Android UI makeover tasks ['KWH-AND-UI-DESIGN', 'KWH-AND-UI-NAV', 'KWH-AND-UI-DRIVE', 'KWH-AND-UI-KITTY-SPLASH', 'KWH-AND-UI-EDITOR', 'KWH-AND-UI-CLUES-SETTINGS', 'KWH-AND-UI-APK'] \u2192 #165\u2013#171 (120m)."
     },
     {
       "at": "2026-10-14T01:49:49Z",
@@ -10921,14 +10921,14 @@
       "type": "TASK_REGISTERED",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-CLUE-SCHEMA",
-      "summary": "Registered READY clue→lesson unlock tasks ['KWH-CLUE-SCHEMA', 'KWH-CLUE-WORLD', 'KWH-CLUE-REVEAL', 'KWH-CLUE-GATE', 'KWH-CLUE-EP1', 'KWH-CLUE-TEST'] → #157–#162. Open for any agent. Top box can store clues."
+      "summary": "Registered READY clue\u2192lesson unlock tasks ['KWH-CLUE-SCHEMA', 'KWH-CLUE-WORLD', 'KWH-CLUE-REVEAL', 'KWH-CLUE-GATE', 'KWH-CLUE-EP1', 'KWH-CLUE-TEST'] \u2192 #157\u2013#162. Open for any agent. Top box can store clues."
     },
     {
       "at": "2026-10-14T01:44:42Z",
       "type": "TASK_REGISTERED",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-TOPBOX-MODEL",
-      "summary": "Registered READY top-box tasks ['KWH-TOPBOX-MODEL', 'KWH-TOPBOX-ECU', 'KWH-TOPBOX-UI', 'KWH-TOPBOX-TEST'] → #153–#156 (roof rack + locked cargo box ECU). Open for any agent."
+      "summary": "Registered READY top-box tasks ['KWH-TOPBOX-MODEL', 'KWH-TOPBOX-ECU', 'KWH-TOPBOX-UI', 'KWH-TOPBOX-TEST'] \u2192 #153\u2013#156 (roof rack + locked cargo box ECU). Open for any agent."
     },
     {
       "at": "2026-10-14T01:40:26Z",
@@ -10942,14 +10942,14 @@
       "type": "TASK_REGISTERED",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-AND-EVAL",
-      "summary": "Registered 5 READY Android tasks (KWH-AND-EVAL, KWH-AND-SDK, KWH-AND-WEBVIEW, KWH-AND-TOUCH, KWH-AND-APK) → issues #148–#152. Open for claim."
+      "summary": "Registered 5 READY Android tasks (KWH-AND-EVAL, KWH-AND-SDK, KWH-AND-WEBVIEW, KWH-AND-TOUCH, KWH-AND-APK) \u2192 issues #148\u2013#152. Open for claim."
     },
     {
       "at": "2026-10-14T01:14:23Z",
       "type": "TASK_REGISTERED",
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-KITTY-DESIGN",
-      "summary": "Registered 6 READY unclaimed Kitty help-system tasks (KWH-KITTY-*) linked to fly-by-wire-c issues #113–#118. Open for any agent."
+      "summary": "Registered 6 READY unclaimed Kitty help-system tasks (KWH-KITTY-*) linked to fly-by-wire-c issues #113\u2013#118. Open for any agent."
     },
     {
       "at": "2026-09-25T14:55:00-07:00",
@@ -11121,13 +11121,13 @@
         "KWH-STORY-SKIPPABLE",
         "KWH-MCU-DESIGN-FREEZE"
       ],
-      "summary": "Jobo overnight merge: PRs #291,#297,#305,#308,#309,#314,#322,#317 on main a58a23f. Skipped #316 ON HOLD. PCC CLAIMED overnight tasks → DONE; locks released. CAST-MODELS partial→READY."
+      "summary": "Jobo overnight merge: PRs #291,#297,#305,#308,#309,#314,#322,#317 on main a58a23f. Skipped #316 ON HOLD. PCC CLAIMED overnight tasks \u2192 DONE; locks released. CAST-MODELS partial\u2192READY."
     },
     {
       "at": "2026-10-14T16:58:37Z",
       "type": "ANDROID_PRERELEASE",
       "project_id": "kludge-wagon-haywire",
-      "summary": "Published prerelease https://github.com/tsrnc2/fly-by-wire-c/releases/tag/android-test-2026-10-14-merged (APK 66.9MB lazy packs) from main 111c121. STOP — no new features."
+      "summary": "Published prerelease https://github.com/tsrnc2/fly-by-wire-c/releases/tag/android-test-2026-10-14-merged (APK 66.9MB lazy packs) from main 111c121. STOP \u2014 no new features."
     },
     {
       "at": "2026-10-14T13:49:00-07:00",
@@ -11236,5 +11236,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T22:53:36.066Z"
+  "updated_at": "2026-10-26T23:12:37.046474+00:00"
 }
