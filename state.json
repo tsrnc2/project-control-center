@@ -9400,6 +9400,19 @@
       "candidate_revision": "7b49646751baa5d71875d847da6065ca7f59a997",
       "summary": "PR496 follow-up establishes exact backend source reproduction candidate from immutable PR196. Published source equals preserved local source. Two basename builds succeed and agree but mismatch historical/live hash; separate source-argument absolute-path countercheck produces two exact matches to running backend SHA25640bf2caf. All4 outcomes preserved. Source path read-only; no produced binary executed/installed. Original builder/build commit and independent acceptance remain unverified. All15 published file bytes/exact head verified; services healthy.",
       "next_action": "Trace remaining gateway/chat/MCP/native-web source links through existing deployment receipts. Preserve historical build-authority uncertainty and persistent-backend admission/PCC independent-acceptance gates; no production change is authorized by reproduction alone."
+    },
+    {
+      "id": "KWH-LOCATION-EXPANSION-20261026",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Large regional practice environments",
+      "priority": "P1",
+      "human_owner": "Jobo",
+      "state": "RUNNING",
+      "claimed_by": "codex-fbw-location-expansion",
+      "owner_agent": "codex-fbw-location-expansion",
+      "updated_at": "2026-10-26T02:32:51.942900+00:00",
+      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-LOCATION-EXPANSION-20261026.json",
+      "next_action": "Expand all fourteen surface regions; preserve direct touch, underground work and story isolation."
     }
   ],
   "blockers": [
@@ -10663,5 +10676,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T02:11:28.935679+00:00"
+  "updated_at": "2026-10-26T02:32:51.942900+00:00"
 }
