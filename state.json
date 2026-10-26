@@ -9720,12 +9720,12 @@
       "title": "Add regional sewer, storm-drain and subway utility bays",
       "priority": "P1",
       "human_owner": "Jobo",
-      "state": "RUNNING",
-      "claimed_by": "codex-fbw-utility-bays",
+      "state": "DONE",
+      "claimed_by": null,
       "owner_agent": "codex-fbw-utility-bays",
-      "updated_at": "2026-10-26T14:00:32.383728+00:00",
-      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-UTILITY-BAYS-20261026.json",
-      "next_action": "Build thirty wall-side utility vignettes across ten existing networks; native all30 and browser regional/type checks; preserve graph/colliders/discoveries/save. Independent/device acceptance remains separate."
+      "updated_at": "2026-10-26T14:57:39.385245+00:00",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/689",
+      "next_action": "Review exact source and candidate; independent review and actual-device acceptance remain separate."
     }
   ],
   "blockers": [
@@ -10989,5 +10989,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T14:00:32.383728+00:00"
+  "updated_at": "2026-10-26T14:57:39.385245+00:00"
 }
