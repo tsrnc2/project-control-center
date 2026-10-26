@@ -1,9 +1,0 @@
-{
-  "task_id": "KWH-UNDERGROUND-BUILD-20261026",
-  "project_id": "kludge-wagon-haywire",
-  "agent_id": "codex-fbw-underground-build",
-  "lock_token": "c8991083-f567-40c5-a8dd-ea76f3a65778",
-  "acquired_at": "2026-10-26T20:36:45.552849+00:00",
-  "heartbeat_at": "2026-10-26T20:36:45.552849+00:00",
-  "expires_at": "2026-10-26T20:41:45.552849+00:00"
-}
