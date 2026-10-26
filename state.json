@@ -9337,12 +9337,12 @@
       "title": "Later roadmap practice destinations",
       "priority": "P1",
       "human_owner": "Jobo",
-      "state": "RUNNING",
-      "claimed_by": "codex-fbw-later-stops",
+      "state": "DONE",
+      "claimed_by": null,
       "owner_agent": "codex-fbw-later-stops",
-      "updated_at": "2026-10-26T00:57:15.226344+00:00",
-      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-PRACTICE-LATER-STOPS-20261026.json",
-      "next_action": "Build four later named stops; integrate only an immutable base without modifying active first-ten work."
+      "updated_at": "2026-10-26T02:01:16.897407+00:00",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/668",
+      "next_action": "Verify the signed test update on the owner device; source review and production acceptance remain separate."
     },
     {
       "id": "KWH-PRACTICE-LOCATION-ACCEPTANCE-20261026",
@@ -10635,5 +10635,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T01:52:29.424435+00:00"
+  "updated_at": "2026-10-26T02:01:16.897407+00:00"
 }
