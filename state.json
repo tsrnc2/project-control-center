@@ -9804,6 +9804,19 @@
       "updated_at": "2026-10-26T16:37:10.515381+00:00",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/695",
       "next_action": "Independent review and authorized integration/deployment."
+    },
+    {
+      "id": "KWH-DIALOGUE-INVESTIGATION-20261026",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Dialogue and driving investigation",
+      "priority": "P1",
+      "human_owner": "Jobo",
+      "state": "RUNNING",
+      "claimed_by": "codex-fbw-mystery",
+      "owner_agent": "codex-fbw-mystery",
+      "updated_at": "2026-10-26T17:20:08.350144+00:00",
+      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-DIALOGUE-INVESTIGATION-20261026.json",
+      "next_action": "Prepare and validate isolated source candidate."
     }
   ],
   "blockers": [
@@ -11067,5 +11080,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T17:15:05.290549+00:00"
+  "updated_at": "2026-10-26T17:20:08.350144+00:00"
 }
