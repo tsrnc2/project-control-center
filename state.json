@@ -9947,6 +9947,19 @@
       "updated_at": "2026-10-26T22:33:12.340530+00:00",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/725",
       "next_action": "Review frozen diagnostic source; localize Grand Canyon synchronous teardown/build/setup allocation pressure. Memory root cause and full ten-map/device/browser acceptance remain open."
+    },
+    {
+      "id": "KWH-CANYON-MEMORY-STAGES-20261026",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Localize Grand Canyon map-selection construction memory stages",
+      "priority": "P1",
+      "human_owner": "Jobo",
+      "state": "RUNNING",
+      "claimed_by": "codex-fbw-canyon-memory",
+      "owner_agent": "codex-fbw-canyon-memory",
+      "updated_at": "2026-10-26T22:36:49.248468+00:00",
+      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-CANYON-MEMORY-STAGES-20261026.json",
+      "next_action": "Run bounded print-only historical source overlay trace, retain all map details and source/overlay hashes; preserve regional/core/mobile owners. No production fix or delivery claimed."
     }
   ],
   "blockers": [
@@ -11210,5 +11223,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T22:33:12.340530+00:00"
+  "updated_at": "2026-10-26T22:36:49.248468+00:00"
 }
