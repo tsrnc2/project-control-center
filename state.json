@@ -9869,6 +9869,19 @@
       "updated_at": "2026-10-26T19:48:17.976933+00:00",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/710",
       "next_action": "Review exact source and candidate; independent review and actual-device acceptance remain separate."
+    },
+    {
+      "id": "KWH-LATER-TUNNEL-AMBIENCE-20261026",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Extend gutter and track ambience to four later maps",
+      "priority": "P1",
+      "human_owner": "Jobo",
+      "state": "RUNNING",
+      "claimed_by": "codex-fbw-later-ambience",
+      "owner_agent": "codex-fbw-later-ambience",
+      "updated_at": "2026-10-26T19:53:20.912193+00:00",
+      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-LATER-TUNNEL-AMBIENCE-20261026.json",
+      "next_action": "Prepare and verify frozen owner-requested candidate and delivery receipts; preserve source histories and prior artifacts. Independent/device/production acceptance remains separate."
     }
   ],
   "blockers": [
@@ -11132,5 +11145,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T19:48:17.976933+00:00"
+  "updated_at": "2026-10-26T19:53:20.912193+00:00"
 }
