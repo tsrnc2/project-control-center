@@ -9960,6 +9960,19 @@
       "updated_at": "2026-10-26T22:48:10.799787+00:00",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/726",
       "next_action": "Review frozen source-equivalent terrain candidate; full ten-map test overlay completed194checks50captures. Next integrate narrowly into production with independent original SurfaceTool oracle, all14access and actual surface renders. Browser/device acceptance remains separate."
+    },
+    {
+      "id": "KWH-CANYON-TERRAIN-MEMORY-FIX-20261026",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Preserve Grand Canyon terrain while reducing construction memory",
+      "priority": "P1",
+      "human_owner": "Jobo",
+      "state": "RUNNING",
+      "claimed_by": "codex-fbw-canyon-terrain-fix",
+      "owner_agent": "codex-fbw-canyon-terrain-fix",
+      "updated_at": "2026-10-26T22:53:02.750282+00:00",
+      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-CANYON-TERRAIN-MEMORY-FIX-20261026.json",
+      "next_action": "Verify committed production helper and independent original SurfaceTool oracle, ten-map renders/all14access/GrandCanyon surfaceHighLow; preserve all geometry and regional/core/mobile ownership. No new delivery or independent acceptance claimed."
     }
   ],
   "blockers": [
@@ -11223,5 +11236,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T22:48:10.799787+00:00"
+  "updated_at": "2026-10-26T22:53:02.750282+00:00"
 }
