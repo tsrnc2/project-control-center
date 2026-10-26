@@ -9681,12 +9681,12 @@
       "title": "Readable mobile alcove boards",
       "priority": "P1",
       "human_owner": "Jobo",
-      "state": "RUNNING",
-      "claimed_by": "codex-fbw-alcove-mobile-titles",
+      "state": "DONE",
+      "claimed_by": null,
       "owner_agent": "codex-fbw-alcove-mobile-titles",
-      "updated_at": "2026-10-26T12:16:35.905449+00:00",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/685",
-      "next_action": "Refine alcove board placement clear of phone HUD; preserve40discoveries/notes/cells/floors/exits, verify actual framing across10regions. Independent/device/production acceptance remains separate."
+      "updated_at": "2026-10-26T12:55:39.278258+00:00",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/686",
+      "next_action": "Mobile alcove-title finding resolved in tested390views; review exact private source/candidate, then package Android under a new task. Independent and device acceptance remain separate."
     }
   ],
   "blockers": [
@@ -10950,5 +10950,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T12:16:35.905449+00:00"
+  "updated_at": "2026-10-26T12:55:39.278258+00:00"
 }
