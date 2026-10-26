@@ -9825,11 +9825,11 @@
       "state": "RUNNING",
       "priority": "P1",
       "claimed_by": "codex-waypoint-education",
-      "claim_expires_at": "2026-10-27T20:49:10.797Z",
-      "updated_at": "2026-10-26T20:49:10.794Z",
+      "claim_expires_at": "2026-10-27T20:57:06.965Z",
+      "updated_at": "2026-10-26T20:57:05.305Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-EDUCATIONAL-CONTENT-20261026.json",
-      "summary": "Ledger701:150 units,1224 records,320 original author findings,52 cached sources.465 records need work;147 corrections await review. Frozen drafts713/715 add13 cited integer cards,81 frequency removals and real refreshed artifacts;81/81 current host example checks pass. No independent acceptance.",
-      "next_action": "Audit all original strings/I/O explanation and guidance clauses, retrieve exact missing primary clauses, prepare scoped corrections and adjacent sources. Preserve frozen review heads; continue remaining curriculum facts. No independent acceptance."
+      "summary": "Ledger701:150 units,1224 records,376 original author findings,57 cached sources.436 records need work;147 corrections await review. All56 strings/I/O prose records assessed (27 require edits); defined probes pass. Integer drafts713/715 and81/81 current checks remain independently unaccepted.",
+      "next_action": "Implement and cite the27 strings/I/O prose corrections; inspect all12 code/hidden-driver cases, especially fgets EOF/error and scanf numeric range. Work from frozen integer-comment source260b2fab in a new branch. Recompile only after source changes, regenerate real teaching artifacts, publish exact review target and continue other lessons."
     },
     {
       "id": "KWH-MOTION-ANDROID-20261026",
@@ -11171,5 +11171,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T20:49:10.794Z"
+  "updated_at": "2026-10-26T20:57:05.305Z"
 }
