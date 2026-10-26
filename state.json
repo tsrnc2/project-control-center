@@ -9635,6 +9635,19 @@
       "updated_at": "2026-10-26T10:09:37.668434+00:00",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/682",
       "next_action": "Review exact source and candidate; independent review and actual-device acceptance remain separate."
+    },
+    {
+      "id": "KWH-BODIE-WEB-UNDERGROUND-VIEW-20261026",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Repair black Bodie underground browser view",
+      "priority": "P1",
+      "human_owner": "Jobo",
+      "state": "RUNNING",
+      "claimed_by": "codex-fbw-bodie-web-view",
+      "owner_agent": "codex-fbw-bodie-web-view",
+      "updated_at": "2026-10-26T10:12:20.390608+00:00",
+      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-BODIE-WEB-UNDERGROUND-VIEW-20261026.json",
+      "next_action": "Diagnose actual full-physics/browser camera and scene state; repair black Bodie landing view and prove visible playable passages with native/WebGL/reference-C regressions. Independent/device/production acceptance remains separate."
     }
   ],
   "blockers": [
@@ -10898,5 +10911,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T10:09:37.668434+00:00"
+  "updated_at": "2026-10-26T10:12:20.390608+00:00"
 }
