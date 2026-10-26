@@ -9348,15 +9348,16 @@
       "id": "KWH-PRACTICE-LOCATION-ACCEPTANCE-20261026",
       "project_id": "kludge-wagon-haywire",
       "title": "External ten-destination practice checks and restart reconciliation",
-      "state": "RUNNING",
+      "state": "DONE",
       "priority": "P2",
-      "claimed_by": "codex-waypoint",
-      "claim_expires_at": "2026-10-27T00:50:02Z",
-      "updated_at": "2026-10-26T01:17:40.058538+00:00",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/653",
-      "candidate_revision": "d45ecc07a8be45ec21da330e7ed9999815b989eb",
-      "summary": "Additional author-side frozen-candidate checks; source owner preserved. Restart reconciled, own previous run unknown/not accepted; ten PC destination drive/walk/reset checks pass so far, preference roundtrip and mobile pending.",
-      "next_action": "Finish bounded frozen-source verification, publish runner/evidence, release only own canonical lease; no qualified independent acceptance or deployment inferred."
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-26T01:26:23.983027Z",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/666",
+      "candidate_revision": "39edae4893f099c6eabc99bb08fe358d634d1463",
+      "summary": "Additional author-side ten-location practice verification and durable runner/evidence published in PR666.20destination/platform passes plus remembered-selection/reload/Bodie restoration. Physical-device/full-story/qualified independent acceptance remain separate. Original KWH-PRACTICE-LOCATIONS-20261026 source owner remains authoritative and unchanged.",
+      "next_action": "Existing practice-world owner consumes PR666 evidence, publishes its exact source/build and obtains qualified independent review/adoption. Support source phase complete; no new implementation owner or reviewer admitted.",
+      "tested_candidate_revision": "d45ecc07a8be45ec21da330e7ed9999815b989eb"
     }
   ],
   "blockers": [
@@ -10620,5 +10621,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T01:17:40.058538+00:00"
+  "updated_at": "2026-10-26T01:26:27.702543+00:00"
 }
