@@ -9830,6 +9830,19 @@
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-EDUCATIONAL-CONTENT-20261026.json",
       "summary": "Owner-directed educational claim audit; bounded Episode 1 correction candidate. No acceptance or deployment claim.",
       "next_action": "Publish and review cited Episode 1 manual/quiz correction, then resolve remaining lesson claims."
+    },
+    {
+      "id": "KWH-MOTION-ANDROID-20261026",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Build all named locations and practice selection",
+      "priority": "P1",
+      "human_owner": "Jobo",
+      "state": "RUNNING",
+      "claimed_by": "codex-fbw-motion-android",
+      "owner_agent": "codex-fbw-motion-android",
+      "updated_at": "2026-10-26T18:20:17.084618+00:00",
+      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-MOTION-ANDROID-20261026.json",
+      "next_action": "Prepare and verify frozen owner-requested candidate and delivery receipts; preserve source histories and prior artifacts. Independent/device/production acceptance remains separate."
     }
   ],
   "blockers": [
@@ -11093,5 +11106,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T17:42:55.564492+00:00"
+  "updated_at": "2026-10-26T18:20:17.084618+00:00"
 }
