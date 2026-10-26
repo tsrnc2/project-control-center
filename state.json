@@ -9554,9 +9554,9 @@
       "state": "RUNNING",
       "claimed_by": "codex-fbw-polished-map-builds",
       "owner_agent": "codex-fbw-polished-map-builds",
-      "updated_at": "2026-10-26T03:33:05.171940+00:00",
-      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-POLISHED-MAPS-BUILDS-20261026.json",
-      "next_action": "Build and verify all ten 3D practice destinations, real driving, location switching and save isolation."
+      "updated_at": "2026-10-26T04:34:59.985748+00:00",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/675",
+      "next_action": "Bounded browser job awaits measured headroom; finish remaining profiles and Android packaging. Full map refinement remains active."
     }
   ],
   "blockers": [
@@ -10820,5 +10820,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T03:35:55.045716+00:00"
+  "updated_at": "2026-10-26T04:34:59.985748+00:00"
 }
