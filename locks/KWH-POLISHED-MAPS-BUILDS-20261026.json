@@ -1,0 +1,9 @@
+{
+  "task_id": "KWH-POLISHED-MAPS-BUILDS-20261026",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-fbw-polished-map-builds",
+  "lock_token": "aaf3987c-c41c-4e2a-81a1-596086d79bc9",
+  "acquired_at": "2026-10-26T05:07:46.756700+00:00",
+  "heartbeat_at": "2026-10-26T05:07:46.756700+00:00",
+  "expires_at": "2026-10-26T05:12:46.756700+00:00"
+}
