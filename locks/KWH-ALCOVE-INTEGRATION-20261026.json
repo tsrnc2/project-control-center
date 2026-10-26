@@ -1,9 +1,0 @@
-{
-  "task_id": "KWH-ALCOVE-INTEGRATION-20261026",
-  "project_id": "kludge-wagon-haywire",
-  "agent_id": "codex-fbw-alcove-integration",
-  "lock_token": "f77af2ff-5c35-46f3-8214-06adc53dae71",
-  "acquired_at": "2026-10-26T21:16:58.770603+00:00",
-  "heartbeat_at": "2026-10-26T21:16:58.770603+00:00",
-  "expires_at": "2026-10-26T21:21:58.770603+00:00"
-}
