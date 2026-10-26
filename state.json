@@ -9583,6 +9583,19 @@
       "updated_at": "2026-10-26T07:02:28.945530+00:00",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/678",
       "next_action": "Review exact source and candidate; independent review and actual-device acceptance remain separate."
+    },
+    {
+      "id": "KWH-REFINED-MAPS-BUILDS-20261026",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Package refined maps for Android and browser",
+      "priority": "P1",
+      "human_owner": "Jobo",
+      "state": "RUNNING",
+      "claimed_by": "codex-fbw-refined-map-builds",
+      "owner_agent": "codex-fbw-refined-map-builds",
+      "updated_at": "2026-10-26T07:05:54.689990+00:00",
+      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-REFINED-MAPS-BUILDS-20261026.json",
+      "next_action": "Package exact tested map assets with existing Full debug identity and higher version, verify package/asset/signature hashes and publish receipts. Independent/device/production acceptance remains separate."
     }
   ],
   "blockers": [
@@ -10846,5 +10859,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T07:02:28.945530+00:00"
+  "updated_at": "2026-10-26T07:05:54.689990+00:00"
 }
