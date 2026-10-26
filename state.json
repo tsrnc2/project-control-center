@@ -9632,8 +9632,8 @@
       "state": "RUNNING",
       "claimed_by": "codex-fbw-regional-entrances",
       "owner_agent": "codex-fbw-regional-entrances",
-      "updated_at": "2026-10-26T09:13:42.801512+00:00",
-      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-REGIONAL-ENTRANCES-20261026.json",
+      "updated_at": "2026-10-26T09:52:22.418517+00:00",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/682",
       "next_action": "Build20regional portals with terrain-fitting supports, compact truthful A/B boards, preserved exits and clearance; verify native/render/capsule/export and actual browser integration. Independent/device/production acceptance remains separate."
     }
   ],
@@ -10898,5 +10898,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T09:13:42.801512+00:00"
+  "updated_at": "2026-10-26T09:52:22.418517+00:00"
 }
