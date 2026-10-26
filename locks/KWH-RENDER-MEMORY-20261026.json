@@ -1,9 +1,0 @@
-{
-  "task_id": "KWH-RENDER-MEMORY-20261026",
-  "project_id": "kludge-wagon-haywire",
-  "agent_id": "codex-fbw-render-memory",
-  "lock_token": "9fe905da-7cc9-4a19-8864-7926cddf9c54",
-  "acquired_at": "2026-10-26T21:54:00.648660+00:00",
-  "heartbeat_at": "2026-10-26T21:54:00.648660+00:00",
-  "expires_at": "2026-10-26T21:59:00.648660+00:00"
-}
