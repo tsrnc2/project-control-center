@@ -9358,6 +9358,20 @@
       "summary": "Additional author-side ten-location practice verification and durable runner/evidence published in PR666.20destination/platform passes plus remembered-selection/reload/Bodie restoration. Physical-device/full-story/qualified independent acceptance remain separate. Original KWH-PRACTICE-LOCATIONS-20261026 source owner remains authoritative and unchanged.",
       "next_action": "Existing practice-world owner consumes PR666 evidence, publishes its exact source/build and obtains qualified independent review/adoption. Support source phase complete; no new implementation owner or reviewer admitted.",
       "tested_candidate_revision": "d45ecc07a8be45ec21da330e7ed9999815b989eb"
+    },
+    {
+      "id": "KITT-20261026-LRP-CATALOG-ID-CLOSURE",
+      "project_id": "kitt",
+      "title": "Diagnose indexed skill ID rejection and prepare bounded consumer-binding candidate",
+      "state": "DONE",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-26T01:50:55.800919Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/pull/495",
+      "candidate_revision": "2cb03de6eb224df6e5e9f95883118640fc9171a7",
+      "summary": "Source-only two-skill consumer compatibility candidate published in PR495. Exact indexed IDs bypass lexical exclusion; existing error/path/hash/redaction guards preserved. Neutral resource bytes stay unchanged. Source-home/package review299 and known65-ID redaction-policy issue306 remain; no live remediation, security verdict or independent acceptance claimed.",
+      "next_action": "Accountable issue299 maintainer chooses source home/package; eligible independent non-author reviewer inspects exact PR495 delta with pending inventory PR298 and unchanged issue306 policy; authorized updater/rollback and actual live readback only after acceptance."
     }
   ],
   "blockers": [
@@ -10621,5 +10635,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T01:26:27.702543+00:00"
+  "updated_at": "2026-10-26T01:52:29.424435+00:00"
 }
