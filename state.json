@@ -9726,6 +9726,19 @@
       "updated_at": "2026-10-26T14:57:39.385245+00:00",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/689",
       "next_action": "Review exact source and candidate; independent review and actual-device acceptance remain separate."
+    },
+    {
+      "id": "KWH-UTILITY-ANDROID-20261026",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Package regional utility bays and room placards for Android",
+      "priority": "P1",
+      "human_owner": "Jobo",
+      "state": "RUNNING",
+      "claimed_by": "codex-fbw-utility-android",
+      "owner_agent": "codex-fbw-utility-android",
+      "updated_at": "2026-10-26T15:02:26.891820+00:00",
+      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-UTILITY-ANDROID-20261026.json",
+      "next_action": "Package exact5385tested utility/placard assets as Full debug version20261102; verify Gradle/assets/signature/identity and preserve inputs/keys/oldpackages. Independent/device/production acceptance remains separate."
     }
   ],
   "blockers": [
@@ -10989,5 +11002,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T14:57:39.385245+00:00"
+  "updated_at": "2026-10-26T15:02:26.891820+00:00"
 }
