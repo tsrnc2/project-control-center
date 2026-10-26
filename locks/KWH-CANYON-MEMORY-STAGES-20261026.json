@@ -1,0 +1,9 @@
+{
+  "task_id": "KWH-CANYON-MEMORY-STAGES-20261026",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-fbw-canyon-memory",
+  "lock_token": "242c25e9-4fe7-43da-989b-cee379e4a357",
+  "acquired_at": "2026-10-26T22:48:10.799787+00:00",
+  "heartbeat_at": "2026-10-26T22:48:10.799787+00:00",
+  "expires_at": "2026-10-26T22:53:10.799787+00:00"
+}
