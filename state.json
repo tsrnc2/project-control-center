@@ -9765,6 +9765,19 @@
       "updated_at": "2026-10-26T16:11:35.862863+00:00",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/692",
       "next_action": "Review exact source and candidate; independent review and actual-device acceptance remain separate."
+    },
+    {
+      "id": "KWH-UNDERGROUND-MOTION-20261026",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Add restrained underground motion",
+      "priority": "P1",
+      "human_owner": "Jobo",
+      "state": "RUNNING",
+      "claimed_by": "codex-fbw-underground-motion",
+      "owner_agent": "codex-fbw-underground-motion",
+      "updated_at": "2026-10-26T16:17:56.476962+00:00",
+      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-UNDERGROUND-MOTION-20261026.json",
+      "next_action": "Build thirty bounded gutter/track animation pockets; preserve fifty discoveries and collision; verify actual rendered motion and surface/frustum freeze. Independent/device acceptance remains separate."
     }
   ],
   "blockers": [
@@ -11028,5 +11041,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T16:11:35.862863+00:00"
+  "updated_at": "2026-10-26T16:17:56.476962+00:00"
 }
