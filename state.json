@@ -9825,11 +9825,11 @@
       "state": "RUNNING",
       "priority": "P1",
       "claimed_by": "codex-waypoint-education",
-      "claim_expires_at": "2026-10-27T18:49:17.410Z",
-      "updated_at": "2026-10-26T18:57:03.462Z",
+      "claim_expires_at": "2026-10-27T19:25:13.822Z",
+      "updated_at": "2026-10-26T19:25:13.822Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-EDUCATIONAL-CONTENT-20261026.json",
-      "summary": "Episode1 draft699/review700; Episode2 draft702/review703;150-unit ledger701.121 original records assessed;673 pending resolution/edits,18 prepared corrections. No independent acceptance.",
-      "next_action": "Prepare cited source corrections for the9 identified Episode2 narration wording issues and related runtime mission assertions; preserve exact PR699/702 review targets, then continue remaining story/cheatsheet clauses."
+      "summary": "Cited source drafts699/702/705 await exact-source reviews700/703/706; ledger701 has150 units,1224 records,174 original author findings.611 need resolution/edits;38 prepared corrections await review. No independent acceptance.",
+      "next_action": "Continue Episode1 mission/dialogue and integer cheat-sheet clauses with exact primary-source entailment; preserve frozen source-review targets699/702/705 and do not infer acceptance from author checks."
     },
     {
       "id": "KWH-MOTION-ANDROID-20261026",
@@ -11106,5 +11106,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T18:57:03.462Z"
+  "updated_at": "2026-10-26T19:25:13.822Z"
 }
