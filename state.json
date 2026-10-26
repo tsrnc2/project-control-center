@@ -9570,6 +9570,19 @@
       "updated_at": "2026-10-26T05:54:32.095134+00:00",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/677",
       "next_action": "Review exact source and candidate; independent review and actual-device acceptance remain separate."
+    },
+    {
+      "id": "KWH-SURFACE-CACHE-VIGNETTES-20261026",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Distinct scenery for ten hidden surface caches",
+      "priority": "P1",
+      "human_owner": "Jobo",
+      "state": "RUNNING",
+      "claimed_by": "codex-fbw-surface-cache-scenes",
+      "owner_agent": "codex-fbw-surface-cache-scenes",
+      "updated_at": "2026-10-26T05:58:27.469057+00:00",
+      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-SURFACE-CACHE-VIGNETTES-20261026.json",
+      "next_action": "Build original themed cache vignettes, verify walking/discovery and batching invariants, inspect all ten native low-tier captures and publish source/evidence. Full map goal remains active; no release/independent acceptance."
     }
   ],
   "blockers": [
@@ -10833,5 +10846,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-26T05:54:32.095134+00:00"
+  "updated_at": "2026-10-26T05:58:27.469057+00:00"
 }
