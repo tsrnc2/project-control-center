@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "event_type": "KWH_MCU_SHARED_MODEL_CURRENT_MAIN_REPUBLICATION",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-MCU-SHARED-MODEL-MAINLINE-R3",
+  "at": "2026-10-27T20:42:00Z",
+  "canonical_source": "tsrnc2/kitt/control-plane",
+  "summary": "The independently reviewed shared-model output-protection value from closed stale-stack PR438 was republished cleanly as current-main draft PR759 with exactly three files and byte-identical reviewed tool/test blobs. Fresh exact-head current-main review is required before merge.",
+  "candidate": {
+    "pull_request": 759,
+    "base": "e8aec3a4d99c9927cd2851725e1da3a130cf02ad",
+    "head": "899855dcd01e51062f62d46610900d3e04ea01bf",
+    "ahead_by": 1,
+    "behind_by": 0,
+    "changed_files": 3,
+    "draft": true,
+    "independent_acceptance": false
+  },
+  "task_states": [
+    {"task_id":"KWH-MCU-SHARED-MODEL-MAINLINE-R3","state":"DONE"},
+    {"task_id":"KWH-MCU-SHARED-MODEL-MAINLINE-REVIEW-R3","state":"READY","issue":760},
+    {"task_id":"KWH-MCU-DESIGN-INTEGRATION-R1","state":"READY","dispatch_allowed":false},
+    {"task_id":"KWH-MCU-DESIGN-FREEZE","state":"BLOCKED","design_frozen":false}
+  ],
+  "preserved": [
+    "The abandoned PR438 stack remains closed and unmerged.",
+    "No contract/domain/game/runtime/Android/deployment/release file changed.",
+    "All downstream MCU runtime tasks remain held."
+  ],
+  "canonical_event": "https://github.com/tsrnc2/kitt/blob/main/control-plane/events/20261027T2042Z-KWH-MCU-shared-model-mainline-r3.json",
+  "refresh_note": "Canonical KITT records are authoritative; the generated live snapshot should absorb this event on normal refresh."
+}
