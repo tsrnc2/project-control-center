@@ -1,0 +1,9 @@
+{
+  "task_id": "KWH-FOUR-PORTALS-20261027",
+  "project_id": "kludge-wagon-haywire",
+  "agent_id": "codex-fbw-four-portals",
+  "lock_token": "f5e45ef4-cc5c-4185-b43d-c5b7779a5523",
+  "acquired_at": "2026-10-27T00:18:55.670531+00:00",
+  "heartbeat_at": "2026-10-27T00:18:55.670531+00:00",
+  "expires_at": "2026-10-27T00:23:55.670531+00:00"
+}
