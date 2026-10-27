@@ -9993,12 +9993,12 @@
       "title": "Deliver all-location practice Android r6 for owner testing",
       "priority": "P1",
       "human_owner": "Jobo",
-      "state": "RUNNING",
-      "claimed_by": "codex-fbw-map-refinements-build",
+      "state": "DONE",
+      "claimed_by": null,
       "owner_agent": "codex-fbw-map-refinements-build",
-      "updated_at": "2026-10-27T00:03:11.274945+00:00",
-      "source_ref": "https://github.com/tsrnc2/kitt/tree/main/control-plane/tasks/kludge-wagon-haywire/KWH-MAP-REFINEMENTS-BUILD-20261026.json",
-      "next_action": "Prepare and verify frozen owner-requested candidate and delivery receipts; preserve source histories and prior artifacts. Independent/device/production acceptance remains separate."
+      "updated_at": "2026-10-27T00:12:07.256721+00:00",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/737",
+      "next_action": "Review exact source and candidate; independent review and actual-device acceptance remain separate."
     }
   ],
   "blockers": [
@@ -11262,5 +11262,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-27T00:03:11.274945+00:00"
+  "updated_at": "2026-10-27T00:12:07.256721+00:00"
 }
