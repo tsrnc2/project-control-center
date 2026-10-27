@@ -9825,11 +9825,11 @@
       "state": "RUNNING",
       "priority": "P1",
       "claimed_by": "codex-waypoint-education",
-      "claim_expires_at": "2026-10-28T01:43:04.551Z",
-      "updated_at": "2026-10-27T01:43:04.551Z",
+      "claim_expires_at": "2026-10-28T01:58:08.465Z",
+      "updated_at": "2026-10-27T01:58:08.465Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-EDUCATIONAL-CONTENT-20261026.json",
-      "summary": "Ledger701/51fb3293:180 overlapping surfaces/1662 records;843 author findings.512 records need author work/classification;448 corrections await review;960 unaccepted. Source745/3efa597b and review746 publish sourced mystery wording, Jacob-only trait teaching, validated loading/retry gates and portable generators. All345 newer source-change records still need individual findings;75 primary hashes pass. No independent acceptance.",
-      "next_action": "Complete individual author findings and atomic-claim lineage for all345 newer trait/story/Jacob source-change records across20 surfaces; code fixes and UI passes do not complete the original-record audit. Preserve843 findings, all438 current original IDs and frozen source heads. Continue167 baseline author-work records and independent/public-learner/media/device/target gates. No lesson independently accepted."
+      "summary": "Ledger701/4528cd7c, unassigned review750:1102 original author findings;199 overlapping surfaces/1929 records.259 story JSON originals newly assessed with primary/fiction/metadata distinctions and346 clause references.520 records need author work;489 corrections and218 current classifications await review;1227 unaccepted. New113 bonus and154 course records separately retained;75 primary hashes and nine gate rejection checks pass. Source745/review746 frozen. No independent acceptance.",
+      "next_action": "Complete86 original earlier trait/story document/code findings; extend clause/capture verifier carefully for full code/doc records. Audit113 new location-clue/bonus records and154 new course records retained from mainf2a1dbf5/32a2b476, plus167 baseline author-work records. Check actual gate-code behavior, static-fix checker limitations, save/practice isolation and no-soft-lock claims with exact source/runtime evidence. Preserve1102 findings, all705 current originals and346 v2 clause IDs, ledger review750 exact4528cd7c and every frozen source head. Independent/public-learner/media/device/target gates remain open; no lesson independently accepted."
     },
     {
       "id": "KWH-MOTION-ANDROID-20261026",
@@ -11288,5 +11288,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-27T01:43:04.551Z"
+  "updated_at": "2026-10-27T01:58:08.465Z"
 }
