@@ -9826,9 +9826,9 @@
       "priority": "P1",
       "claimed_by": "codex-waypoint-education",
       "claim_expires_at": "2026-10-28T02:22:36.617Z",
-      "updated_at": "2026-10-27T02:23:05.359Z",
+      "updated_at": "2026-10-27T02:24:13.545Z",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-EDUCATIONAL-CONTENT-20261026.json",
-      "summary": "Successor ledger756/10e73dba review755:1188 original findings;210 overlapping surfaces2102 records through e8c7aa03;607 author-work,537 corrections,256 current classifications,1400 unaccepted. All345 earlier story originals assessed,498 v2 clause refs;75 hashes and7+9 rejection checks pass. Externally merged701 historical; source752 merged changed49976855 drops frozen4e828c49 safeguards. Latest-main drift/restoration prioritized; no independent acceptance.",
+      "summary": "Ledger756/10e73dba externally merged (1a381c97), review755 pending:1188 original findings;210 overlapping surfaces2102 records through e8c7aa03;607 author-work,537 corrections,256 current classifications,1400 unaccepted. All345 earlier story originals assessed,498 v2 clause refs;75 hashes and7+9 rejection checks pass. Externally merged701 historical; source752 merged changed49976855 drops frozen4e828c49 safeguards. Latest-main drift/restoration prioritized; no independent acceptance.",
       "next_action": "FIRST revalidate latest main against frozen4e828c49/3efa597b: external PR752 head49976855 removes saved-ID validation/readiness guards/sourced model wording; merged ledger701 at4528cd7c is historical, successor756 holds10e73dba. Capture exact current source/commit, assess external bulk main merges aftere8c7aa03 (including new C/x86 reference/workbench) without materializing unrelated large assets; prepare source restoration preserving owner changes under new branch/review if regression persists. Then complete440 newer original bonus/course/travel findings (113/154/173),167 baseline author-work records and independent/public-learner/media/device/target gates. Preserve1188 findings, all878 current originals and498 v2 clause IDs; no lesson independently accepted."
     },
     {
@@ -11288,5 +11288,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-27T02:23:05.359Z"
+  "updated_at": "2026-10-27T02:24:13.545Z"
 }
