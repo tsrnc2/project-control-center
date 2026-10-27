@@ -10019,12 +10019,12 @@
       "title": "Refine eight later-area hidden chamber exhibits",
       "priority": "P1",
       "human_owner": "Jobo",
-      "state": "RUNNING",
+      "state": "BLOCKED",
       "claimed_by": "codex-fbw-four-chambers",
       "owner_agent": "codex-fbw-four-chambers",
-      "updated_at": "2026-10-27T02:12:15.632507+00:00",
+      "updated_at": "2026-10-27T02:19:32.658267+00:00",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/754",
-      "next_action": "Draft PR754 source and102privateproof hashes verified.92game+169component checks/16views complete; Huntsville, Seattle,225all14 and16views pending1100MiBhost launch headroom. No live native job, no lowered gates. Independent/device/production acceptance remain separate."
+      "next_action": "HostMemAvailable must recover to1100MiB before unchanged Huntsville/Seattle/all14225 checks and16remainingviews. See KITT blocker511 and draftPR754. No live nativejob; executionlease released, durable assignment retained. Full author/device/independent acceptance pending."
     }
   ],
   "blockers": [
@@ -11288,5 +11288,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-27T02:12:15.632507+00:00"
+  "updated_at": "2026-10-27T02:19:32.658267+00:00"
 }
