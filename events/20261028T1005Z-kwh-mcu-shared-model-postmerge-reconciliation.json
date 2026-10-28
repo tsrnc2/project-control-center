@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "event_type": "KWH_MCU_SHARED_MODEL_POSTMERGE_RECONCILIATION",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-MCU-DESIGN-FREEZE",
+  "at": "2026-10-28T10:05:00Z",
+  "canonical_source": "tsrnc2/kitt/control-plane",
+  "summary": "The narrow PR759 lane is cancelled as superseded. Broader PR762 was merged before independent review; candidate and merge share exact tree b949f013b6b063834e7e6854330a12c085f88f20, which remains under one P0 post-merge review gate.",
+  "task_states": [
+    {
+      "task_id": "KWH-MCU-SHARED-MODEL-MAINLINE-R3",
+      "state": "DONE",
+      "publication_state": "CLOSED_UNMERGED_SUPERSEDED"
+    },
+    {
+      "task_id": "KWH-MCU-SHARED-MODEL-MAINLINE-REVIEW-R3",
+      "state": "CANCELLED"
+    },
+    {
+      "task_id": "KWH-MCU-SHARED-MODEL-MAIN-RECOVERY-R4",
+      "state": "DONE",
+      "publication_state": "MERGED_BEFORE_INDEPENDENT_REVIEW"
+    },
+    {
+      "task_id": "KWH-MCU-SHARED-MODEL-MAIN-REVIEW-R4",
+      "state": "READY",
+      "published_merge": "c9ab584eb186748e22b24bc49be26e4b2e7c4016",
+      "published_tree": "b949f013b6b063834e7e6854330a12c085f88f20"
+    },
+    {
+      "task_id": "KWH-MCU-DESIGN-INTEGRATION-R1",
+      "state": "READY",
+      "dispatch_allowed": false
+    },
+    {
+      "task_id": "KWH-MCU-DESIGN-FREEZE",
+      "state": "BLOCKED",
+      "design_frozen": false
+    }
+  ],
+  "preserved": [
+    "No source reversion or additional main-tree mutation occurred.",
+    "Merge does not equal acceptance.",
+    "Independent post-merge review remains mandatory.",
+    "All downstream MCU runtime tasks remain held."
+  ],
+  "canonical_event": "https://github.com/tsrnc2/kitt/blob/main/control-plane/events/20261028T1005Z-KWH-MCU-shared-model-postmerge-reconciliation.json",
+  "refresh_note": "Canonical KITT records are authoritative; the generated live snapshot should incorporate this event on normal refresh."
+}
