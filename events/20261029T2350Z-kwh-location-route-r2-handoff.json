@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "event_type": "KWH_LOCATION_ROUTE_R2_HANDOFF",
+  "project_id": "kludge-wagon-haywire",
+  "task_id": "KWH-LOCATIONS-ROUTE-20261024",
+  "at": "2026-10-29T23:50:00Z",
+  "canonical_source": "tsrnc2/kitt/control-plane",
+  "candidate": {
+    "pull_request": 772,
+    "base": "c9ab584eb186748e22b24bc49be26e4b2e7c4016",
+    "head": "31c1a5ff30191e33e6d723dc93753953cb306841",
+    "state": "DRAFT_REVIEW_REQUIRED"
+  },
+  "task_state": "BLOCKED",
+  "blocker": "GODOT_BROWSER_INDEPENDENT_REVIEW_REQUIRED",
+  "review_task": "KWH-LOCATIONS-ROUTE-REVIEW-R2",
+  "review_issue": 773,
+  "author_lease_released": true,
+  "dependency_effect": "Episode 3-10 location builders remain held until positive exact-head review.",
+  "summary": "Fresh current-main shared location route/save candidate published; author-side source/JS checks pass, but Godot4.3/browser/traversal/mobile/performance review remains mandatory."
+}
