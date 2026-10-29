@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-14T13:40:00-07:00",
+  "updated_at": "2026-10-28T19:45:00-07:00",
   "projects": [
     {
       "id": "kitt",
@@ -13,6 +13,27 @@
       "name": "LLM Reasoning Project",
       "lifecycle": "ACTIVE",
       "class": "PRIMARY"
+    },
+    {
+      "id": "llm-reasoning-formal-neural-reasoner",
+      "name": "Formal Neural Reasoner",
+      "lifecycle": "ACTIVE-CHILD",
+      "class": "PRIMARY",
+      "parent_project_id": "llm-reasoning-project",
+      "summary": "Experimental trainable mathematical neural proof model with deterministic checker authority; language models remain specialist interfaces, not proof authority.",
+      "repo": "https://github.com/tsrnc2/formal-neural-reasoner",
+      "repo_visibility": "private",
+      "reports_path": "Formal Neural Reasoner/reports/<agent name>/",
+      "drive": null,
+      "aliases": [
+        "FNR",
+        "formal-neural-reasoner",
+        "Neural Reasoning Model",
+        "Mathematical Reasoning Model"
+      ],
+      "status": "PLANNING_ADMISSION_BLOCKED; experimental prototype work remains TEMP/NOT_ACCEPTED until its explicit qualification gates close",
+      "portfolio_priority": "P0",
+      "portfolio_priority_rank": 1
     },
     {
       "id": "llm-reasoning-parental-skills",
