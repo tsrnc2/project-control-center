@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "event_id": "20261030T012730Z-lrp-skill-selection-index-live",
+  "at": "2026-10-30T01:27:30Z",
+  "project_id": "llm-reasoning-project",
+  "task_id": "LRP-SKDB-20261029-LIVE-SELECTION-INDEX",
+  "agent_id": "chatgpt-live-skill-index-20261029",
+  "kind": "publication_completed",
+  "summary": "Sanitized non-authorizing skill-selection index v1 merged to Project Control Center main and GitHub Pages deployment succeeded.",
+  "public_artifacts": [
+    "api/skill-selection/v1/index.json",
+    "api/skill-selection/v1/manifest.json",
+    "api/skill-selection/v1/training-schema.json"
+  ],
+  "source_snapshot": "tsrnc2/llm_reasoning_project@a53db9b2b37db34bb073b076624a73f1b1621e81",
+  "public_merge_commit": "05d0dcbec7eb4cf141daac4862240ef8385957e2",
+  "pages_run_id": 40985707586,
+  "authority": "none; discoverability only"
+}
