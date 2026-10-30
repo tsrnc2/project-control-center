@@ -1,0 +1,78 @@
+{
+  "schema_version": "lrp.skill-selection-training-schema.v1",
+  "status": "AUTHOR_CANDIDATE_NON_AUTHORIZING",
+  "source_index_schema": "lrp.skill-selection-index.v1",
+  "purpose": "Train candidate encoders, retrievers, dependency-aware rankers and role/skill relationship models without teaching unreviewed catalog presence as authority.",
+  "record_types": {
+    "entity_candidate": {
+      "required": [
+        "record_type",
+        "entity_key",
+        "entity_kind",
+        "features",
+        "labels",
+        "training_policy"
+      ],
+      "selection_target": "null in this snapshot"
+    },
+    "dependency_relation": {
+      "required": [
+        "record_type",
+        "from_entity_key",
+        "to_logical_id",
+        "relation",
+        "semantics"
+      ],
+      "authority": "none"
+    },
+    "role_skill_requirement": {
+      "required": [
+        "record_type",
+        "role",
+        "requested_skill",
+        "resolution",
+        "accepted",
+        "runtime_qualified"
+      ],
+      "authority": "none"
+    },
+    "reuse_candidate_relation": {
+      "required": [
+        "record_type",
+        "candidate_role",
+        "reuse_candidate",
+        "relation_status"
+      ],
+      "authority": "none"
+    }
+  },
+  "current_label_policy": {
+    "authoritative_task_to_skill_selection_labels": 0,
+    "use_entity_rows_for": "representation/retrieval pretraining",
+    "use_relations_for": "structure-aware training with provenance-aware uncertainty",
+    "forbidden_inference": "Never convert accepted=false/unknown into negative competency truth; never convert manifest requirement into authorized execution."
+  },
+  "future_supervised_example_required_fields": [
+    "task_context",
+    "candidate_set",
+    "selected_skill",
+    "selection_outcome",
+    "reason_codes",
+    "catalog_snapshot",
+    "policy_snapshot",
+    "runtime_snapshot",
+    "review_outcome",
+    "label_provenance"
+  ],
+  "recommended_split_keys": [
+    "catalog_snapshot",
+    "task_family",
+    "time_bucket"
+  ],
+  "leakage_controls": [
+    "Split by snapshot/time so later acceptance state cannot leak backward.",
+    "Keep source-derived titles/IDs separate from acceptance/review labels.",
+    "Do not train authority decisions from generated cache fields.",
+    "Preserve rejected/unknown/unresolved examples as distinct outcomes rather than binary negatives."
+  ]
+}
