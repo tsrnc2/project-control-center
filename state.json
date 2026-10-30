@@ -216,7 +216,7 @@
     }
   ],
   "tasks": [
-    {"id":"LRP-20261030-DEVELOPMENT-AUTHORITY","project_id":"llm-reasoning-project","title":"Separate bounded development execution from acceptance/runtime admission","state":"CLAIMED","priority":"P0","claimed_by":"chatgpt-senior-delegator","claim_expires_at":"2026-10-30T20:30:12Z","updated_at":"2026-10-30T19:45:12Z","owner_agent":"chatgpt-senior-delegator","source_ref":"https://github.com/tsrnc2/project-control-center/issues/256","implementation_ref":"https://github.com/tsrnc2/llm_reasoning_project/issues/459","next_action":"Author provider-neutral development-scope gate and negative tests on machine branch; preserve independent acceptance, protected merge, production and KITT native enforcement gates."},
+    {"id":"LRP-20261030-DEVELOPMENT-AUTHORITY","project_id":"llm-reasoning-project","title":"Separate bounded development execution from acceptance/runtime admission","state":"REVIEW_PENDING","priority":"P0","claimed_by":null,"claim_expires_at":null,"updated_at":"2026-10-30T20:02:31Z","owner_agent":"chatgpt-senior-delegator","source_ref":"https://github.com/tsrnc2/project-control-center/issues/256","implementation_ref":"https://github.com/tsrnc2/llm_reasoning_project/issues/459","next_action":"Author source draft PR tsrnc2/llm_reasoning_project#468 and LRP reviewer issue #469 published. Native KITT integration task #570 is READY separately. Run canonical RAA tests and KITT full-path twice; preserve independent qualification and production gates.","claim_history":[{"actor_id":"chatgpt-senior-delegator","claimed_at":"2026-10-30T19:45:12Z","released_at":"2026-10-30T20:02:31Z","outcome":"AUTHOR_CANDIDATE_PUBLISHED_REVIEW_PENDING","implementation_pr":"https://github.com/tsrnc2/llm_reasoning_project/pull/468"}]},
     {
       "id": "KWH-UI-CORE-API",
       "project_id": "kludge-wagon-haywire",
@@ -11289,5 +11289,5 @@
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
     }
   ],
-  "updated_at": "2026-10-30T19:45:12Z"
+  "updated_at": "2026-10-30T20:02:31Z"
 }
