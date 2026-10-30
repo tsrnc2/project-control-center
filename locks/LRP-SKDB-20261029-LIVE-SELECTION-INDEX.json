@@ -1,0 +1,10 @@
+{
+  "task_id": "LRP-SKDB-20261029-LIVE-SELECTION-INDEX",
+  "project_id": "llm-reasoning-project",
+  "agent_id": "chatgpt-live-skill-index-20261029",
+  "lock_token": "pcc-live-skill-index-20261029-0121z",
+  "acquired_at": "2026-10-30T01:21:00Z",
+  "heartbeat_at": "2026-10-30T01:21:00Z",
+  "expires_at": "2026-10-30T03:21:00Z",
+  "run_ref": "kitt:LRP-SKDB-20261029-LIVE-SELECTION-INDEX"
+}
