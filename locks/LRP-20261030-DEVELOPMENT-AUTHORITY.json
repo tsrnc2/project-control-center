@@ -1,0 +1,10 @@
+{
+  "task_id": "LRP-20261030-DEVELOPMENT-AUTHORITY",
+  "project_id": "llm-reasoning-project",
+  "agent_id": "chatgpt-senior-delegator",
+  "lock_token": "a631961e975c377c471bb4226cf6a8ca",
+  "created_at": "2026-10-30T19:45:12Z",
+  "expires_at": "2026-10-30T20:30:12Z",
+  "run_ref": "LRP#459/PCC#256",
+  "status": "active"
+}
