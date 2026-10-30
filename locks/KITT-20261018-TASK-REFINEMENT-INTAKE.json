@@ -1,0 +1,11 @@
+{
+  "task_id": "KITT-20261018-TASK-REFINEMENT-INTAKE",
+  "project_id": "kitt",
+  "agent_id": "chatgpt-gpt6-refinement-review-20261029",
+  "lock_token": "task-refine-review-20261029-f2ca927c",
+  "acquired_at": "2026-10-30T01:11:40.034Z",
+  "heartbeat_at": "2026-10-30T01:11:40.034Z",
+  "expires_at": "2026-10-30T01:56:40.038Z",
+  "run_ref": "https://github.com/tsrnc2/project-control-center/issues/89",
+  "scope": "Public metadata coordination only, no blocked source-code publication"
+}
