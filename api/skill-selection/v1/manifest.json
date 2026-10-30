@@ -1,0 +1,33 @@
+{
+  "schema_version": "pcc.skill-selection-live-manifest.v1",
+  "status": "LIVE_SANITIZED_NON_AUTHORIZING",
+  "generated_at": "2026-10-30T01:22:00Z",
+  "source_snapshot": {
+    "repository": "tsrnc2/llm_reasoning_project",
+    "commit": "a53db9b2b37db34bb073b076624a73f1b1621e81",
+    "inventory_git_blob": "f434744eb7e928776690328c286d4adaa0433f0a",
+    "inventory_sha256": "ac7babe2801419b7a89acd9606e8e9e067cf24cdf408546b324db109933fc604",
+    "inventory_status": "AUTHOR_INVENTORY_REVIEW_PENDING"
+  },
+  "counts": {
+    "entities": 1593,
+    "skill_parents": 1285,
+    "atomic_skills": 221,
+    "roles": 3,
+    "role_candidates": 84,
+    "dependency_edges": 393,
+    "role_requirement_edges": 11,
+    "terms": 6178,
+    "accepted_entities": 0,
+    "automatically_selectable_entities": 0
+  },
+  "index_sha256": "97d0c7415ce0ad4b562c7219f71bd2725ad9b7e438d6ab21b0a6322c8e0ae861",
+  "training_schema_sha256": "cde6e7f73261ebfa19d725a0eca96d2edfa08a6ac5cc6a53799373ec0327f8f5",
+  "live_urls": {
+    "index": "https://tsrnc2.github.io/project-control-center/api/skill-selection/v1/index.json",
+    "manifest": "https://tsrnc2.github.io/project-control-center/api/skill-selection/v1/manifest.json",
+    "training_schema": "https://tsrnc2.github.io/project-control-center/api/skill-selection/v1/training-schema.json"
+  },
+  "privacy": "Sanitized public metadata only. Full training JSONL and source locators remain in LRP.",
+  "authority": "None. Index presence never grants skill acceptance, runtime qualification, task eligibility, action authorization or proof validity."
+}
