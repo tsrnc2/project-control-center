@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-24T13:40:17.876940+00:00",
+    "generated_at": "2026-10-31T23:41:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-10-17T01:57:01Z"
@@ -216,7 +216,29 @@
     }
   ],
   "tasks": [
-    {"id":"LRP-20261030-DEVELOPMENT-AUTHORITY","project_id":"llm-reasoning-project","title":"Separate bounded development execution from acceptance/runtime admission","state":"REVIEW_PENDING","priority":"P0","claimed_by":null,"claim_expires_at":null,"updated_at":"2026-10-30T20:02:31Z","owner_agent":"chatgpt-senior-delegator","source_ref":"https://github.com/tsrnc2/project-control-center/issues/256","implementation_ref":"https://github.com/tsrnc2/llm_reasoning_project/issues/459","next_action":"Author source draft PR tsrnc2/llm_reasoning_project#468 and LRP reviewer issue #469 published. Native KITT integration task #570 is READY separately. Run canonical RAA tests and KITT full-path twice; preserve independent qualification and production gates.","claim_history":[{"actor_id":"chatgpt-senior-delegator","claimed_at":"2026-10-30T19:45:12Z","released_at":"2026-10-30T20:02:31Z","outcome":"AUTHOR_CANDIDATE_PUBLISHED_REVIEW_PENDING","implementation_pr":"https://github.com/tsrnc2/llm_reasoning_project/pull/468"}]},
+    {
+      "id": "LRP-20261030-DEVELOPMENT-AUTHORITY",
+      "project_id": "llm-reasoning-project",
+      "title": "Separate bounded development execution from acceptance/runtime admission",
+      "state": "REVIEW_PENDING",
+      "priority": "P0",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-30T20:02:31Z",
+      "owner_agent": "chatgpt-senior-delegator",
+      "source_ref": "https://github.com/tsrnc2/project-control-center/issues/256",
+      "implementation_ref": "https://github.com/tsrnc2/llm_reasoning_project/issues/459",
+      "next_action": "Author source draft PR tsrnc2/llm_reasoning_project#468 and LRP reviewer issue #469 published. Native KITT integration task #570 is READY separately. Run canonical RAA tests and KITT full-path twice; preserve independent qualification and production gates.",
+      "claim_history": [
+        {
+          "actor_id": "chatgpt-senior-delegator",
+          "claimed_at": "2026-10-30T19:45:12Z",
+          "released_at": "2026-10-30T20:02:31Z",
+          "outcome": "AUTHOR_CANDIDATE_PUBLISHED_REVIEW_PENDING",
+          "implementation_pr": "https://github.com/tsrnc2/llm_reasoning_project/pull/468"
+        }
+      ]
+    },
     {
       "id": "KWH-UI-CORE-API",
       "project_id": "kludge-wagon-haywire",
@@ -10026,6 +10048,40 @@
       "updated_at": "2026-10-27T02:19:32.658267+00:00",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/754",
       "next_action": "HostMemAvailable must recover to1100MiB before unchanged Huntsville/Seattle/all14225 checks and16remainingviews. See KITT blocker511 and draftPR754. No live nativejob; executionlease released, durable assignment retained. Full author/device/independent acceptance pending."
+    },
+    {
+      "id": "KWH-BYWAY-REVIEW-PR764",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Byway Island — exact-head validation recovery review",
+      "state": "BLOCKED",
+      "priority": "P2",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-31T23:41:00Z",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "epic_id": "KWH-E5-BYWAY-ISLAND",
+      "next_action": "Provide a distinct qualified reviewer a full exact-head executor for PR764, or repair GitHub Actions admission and rerun support workflow 41253336678.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/769",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/590",
+      "mirror_kind": "CANONICAL_TASK"
+    },
+    {
+      "id": "KWH-BYWAY-PR764-CI-EVIDENCE-R1",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Byway Island — provision exact-head CI evidence for PR764 review",
+      "state": "BLOCKED",
+      "priority": "P2",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-10-31T23:41:00Z",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "epic_id": "KWH-E5-BYWAY-ISLAND",
+      "next_action": "Repair GitHub Actions runner/admission; support PR783 is preserved for rerun. Current run failed pre-runner with zero steps.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/783",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/590",
+      "mirror_kind": "CANONICAL_TASK"
     }
   ],
   "blockers": [
@@ -11287,6 +11343,13 @@
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-BYWAY-01-TOPOLOGY",
       "summary": "Byway Island: 44-node, 58-link draft topology candidate PR #417 published and author-side graph checks passed. No gameplay code, Godot test, approval, merge or release. Independent reviewer #418 READY."
+    },
+    {
+      "at": "2026-10-31T23:41:00Z",
+      "type": "BLOCKER_UPDATE",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-BYWAY-REVIEW-PR764",
+      "summary": "Exact-head review remains blocked on executable environment. Support PR783 was admitted to Actions, but run 41253336678 failed before runner allocation (runner_id=0, steps=[]). No construction gate advanced."
     }
   ],
   "updated_at": "2026-10-30T20:02:31Z"
