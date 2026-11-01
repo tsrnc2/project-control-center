@@ -5,10 +5,10 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-11-01T17:34:00Z",
+    "generated_at": "2026-11-01T17:38:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
-    "updated_at": "2026-11-01T17:34:00Z"
+    "updated_at": "2026-11-01T17:38:00Z"
   },
   "projects": [
     {
@@ -2831,8 +2831,8 @@
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-20T16:31:12.313067Z",
-      "next_action": "One draft capsule and editable source are ready for human branding/source review and owner approval. No store upload, release or legal-clearance claim.",
+      "updated_at": "2026-11-01T17:38:00Z",
+      "next_action": "Branding/provenance review completed with REVISE: redesign vehicle front/body to remove vertical-slot grille / recognizable Jeep-family styling cues, then re-render and re-review. Human approval and legal clearance remain absent.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-MKT-CAPSULE-HEADER.json",
@@ -10098,6 +10098,25 @@
       "state": "READY",
       "next_action": "Distinct reviewer tests final PR486 head and landed merge; technical verdict does not supply owner creative approval.",
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/786"
+    },
+    {
+      "id": "KWH-MKT-CAPSULE-HEADER-REVIEW",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Review merged 920x430 Steam header capsule branding and provenance",
+      "state": "DONE",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "updated_at": "2026-11-01T17:38:00Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-MKT-CAPSULE-HEADER-REVIEW.json",
+      "canonical_task_blob": "0be71f5f4be6ddb3710fffded35ff3470c5e3424",
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/124#issuecomment-6561474723",
+      "technical_verdict": "REVISE",
+      "legal_clearance": false,
+      "owner_approval": false,
+      "next_action": "Separate art repair: preserve layout/title/background, redesign vehicle front/body to remove vertical-slot grille/recognizable Jeep-family styling cues, re-render exact successor and route for fresh branding review. No Steamworks publication."
     }
   ],
   "blockers": [
@@ -10421,6 +10440,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-11-01T17:38:00Z",
+      "type": "REVIEW_COMPLETED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-MKT-CAPSULE-HEADER-REVIEW",
+      "summary": "Exact merged header capsule reviewed: dimensions/provenance pass; branding verdict REVISE due recognizable slotted-grille SUV styling resemblance. Separate repair required; no store authority granted."
+    },
     {
       "at": "2026-11-01T17:34:00Z",
       "type": "BLOCKER_UPDATE",
