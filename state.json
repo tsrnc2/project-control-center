@@ -5,10 +5,10 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-11-01T17:38:00Z",
+    "generated_at": "2026-11-01T17:40:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
-    "updated_at": "2026-11-01T17:38:00Z"
+    "updated_at": "2026-11-01T17:40:00Z"
   },
   "projects": [
     {
@@ -5814,9 +5814,9 @@
       "owner_agent": "Portfolio Delegation Manager",
       "delegated_to": "Portfolio Delegation Manager",
       "human_owner": "Jobo",
-      "updated_at": "2026-11-01T17:34:00Z",
+      "updated_at": "2026-11-01T17:40:00Z",
       "source_ref": "https://github.com/tsrnc2/project-control-center/issues/85",
-      "next_action": "November 1 reset check reproduced zero-step failure (CI 41332031374/job124923964573; native 41332031346/job124923964388). Account admin must verify current Actions minutes/storage/$0 budget and runner eligibility or escalate to GitHub Support. In parallel, recover/supersede closed-unmerged PR #140 on current main so a fresh exact candidate is ready when execution returns. No paid capacity.",
+      "next_action": "PR #602 at exact head 9af84e9501c556e6609da7be3256cb171f6cef16 supersedes closed PR #140 and is mergeable. Its CI/native jobs 41332425549/41332425635 still fail before runner allocation. Account admin must verify post-reset Actions minutes/storage/$0 budget/runner eligibility or escalate current run IDs to GitHub Support. When executable capacity returns, rerun PR #602 exact head and hand real logs to independent acceptance. No paid capacity.",
       "resume_not_before": null,
       "spending_authorized": false,
       "downstream_refs": [
@@ -5825,7 +5825,10 @@
         "https://github.com/tsrnc2/kitt/issues/83",
         "https://github.com/tsrnc2/llm_reasoning_project/issues/238",
         "https://github.com/tsrnc2/kitt/actions/runs/41332031374",
-        "https://github.com/tsrnc2/kitt/actions/runs/41332031346"
+        "https://github.com/tsrnc2/kitt/actions/runs/41332031346",
+        "https://github.com/tsrnc2/kitt/pull/602",
+        "https://github.com/tsrnc2/kitt/actions/runs/41332425549",
+        "https://github.com/tsrnc2/kitt/actions/runs/41332425635"
       ]
     },
     {
@@ -10360,10 +10363,10 @@
       "task_id": "PCC-KITT-20261014-ACTIONS-CAPACITY-RECOVERY",
       "state": "OPEN",
       "severity": "HIGH",
-      "summary": "November 1 included-usage reset date has passed, but fresh KITT CI/native jobs still fail before runner allocation with steps=null/logs_url=null. Account/billing/storage/runner admission remains unresolved; zero-step runs are not code-test failures.",
-      "required_next_action": "Account administrator verifies current Actions minutes, storage, $0 budget and hosted-runner eligibility. If capacity is available yet zero-step failure persists, escalate current run IDs 41332031374/41332031346 to GitHub Support. In parallel recover the closed-unmerged Opus 5.5 draft on current KITT main. No paid capacity without explicit approval.",
+      "summary": "November 1 post-reset and PR #602 exact-head checks still fail before runner allocation. The successor Opus 5.5 candidate exists and is mergeable, but hosted validation cannot execute.",
+      "required_next_action": "Admin verifies current Actions minutes/storage/$0 budget and runner eligibility or escalates PR #602 run IDs 41332425549/41332425635 to GitHub Support. Once runner execution returns, validate PR #602 exact head and route passing evidence to independent acceptance. No paid capacity without explicit approval.",
       "source_ref": "https://github.com/tsrnc2/project-control-center/issues/85",
-      "updated_at": "2026-11-01T17:34:00Z"
+      "updated_at": "2026-11-01T17:40:00Z"
     },
     {
       "id": "kwh-detail-authored-transform-review-20261020",
@@ -10440,6 +10443,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-11-01T17:40:00Z",
+      "type": "CANDIDATE_RECOVERED_BLOCKED_VALIDATION",
+      "project_id": "kitt",
+      "task_id": "PCC-KITT-20261014-ACTIONS-CAPACITY-RECOVERY",
+      "summary": "Closed PR #140 recovered as mergeable draft PR #602 at 9af84e9501c556e6609da7be3256cb171f6cef16; exact-head CI/native still fail zero-step, so Actions capacity/admin blocker remains."
+    },
     {
       "at": "2026-11-01T17:38:00Z",
       "type": "REVIEW_COMPLETED",
