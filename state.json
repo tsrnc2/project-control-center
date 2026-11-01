@@ -5,10 +5,10 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-10-31T23:43:40Z",
+    "generated_at": "2026-11-01T17:34:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
-    "updated_at": "2026-10-17T01:57:01Z"
+    "updated_at": "2026-11-01T17:34:00Z"
   },
   "projects": [
     {
@@ -5814,16 +5814,18 @@
       "owner_agent": "Portfolio Delegation Manager",
       "delegated_to": "Portfolio Delegation Manager",
       "human_owner": "Jobo",
-      "updated_at": "2026-10-15T05:21:30Z",
+      "updated_at": "2026-11-01T17:34:00Z",
       "source_ref": "https://github.com/tsrnc2/project-control-center/issues/85",
-      "next_action": "Wait for included GitHub Actions capacity reset on 2026-11-01 unless no-cost capacity is restored earlier. Then re-read PR #140, rerun exact CI/native workflows, require real steps/logs, and hand passing evidence to independent acceptance. No paid capacity without explicit approval.",
-      "resume_not_before": "2026-11-01",
+      "next_action": "November 1 reset check reproduced zero-step failure (CI 41332031374/job124923964573; native 41332031346/job124923964388). Account admin must verify current Actions minutes/storage/$0 budget and runner eligibility or escalate to GitHub Support. In parallel, recover/supersede closed-unmerged PR #140 on current main so a fresh exact candidate is ready when execution returns. No paid capacity.",
+      "resume_not_before": null,
       "spending_authorized": false,
       "downstream_refs": [
         "https://github.com/tsrnc2/kitt/pull/140",
         "https://github.com/tsrnc2/kitt/issues/148",
         "https://github.com/tsrnc2/kitt/issues/83",
-        "https://github.com/tsrnc2/llm_reasoning_project/issues/238"
+        "https://github.com/tsrnc2/llm_reasoning_project/issues/238",
+        "https://github.com/tsrnc2/kitt/actions/runs/41332031374",
+        "https://github.com/tsrnc2/kitt/actions/runs/41332031346"
       ]
     },
     {
@@ -10339,10 +10341,10 @@
       "task_id": "PCC-KITT-20261014-ACTIONS-CAPACITY-RECOVERY",
       "state": "OPEN",
       "severity": "HIGH",
-      "summary": "Shared GitHub-hosted Actions included minutes are exhausted and the $0 budget prevents further hosted execution. Current no-cost reset date is 2026-11-01; zero-step jobs are infrastructure evidence, not code-test failures.",
-      "required_next_action": "On or after 2026-11-01, or earlier if an account administrator confirms restored no-cost capacity, rerun the exact PR #140 CI/native jobs and preserve executed-step evidence. No paid capacity or alternative paid compute without explicit approval.",
+      "summary": "November 1 included-usage reset date has passed, but fresh KITT CI/native jobs still fail before runner allocation with steps=null/logs_url=null. Account/billing/storage/runner admission remains unresolved; zero-step runs are not code-test failures.",
+      "required_next_action": "Account administrator verifies current Actions minutes, storage, $0 budget and hosted-runner eligibility. If capacity is available yet zero-step failure persists, escalate current run IDs 41332031374/41332031346 to GitHub Support. In parallel recover the closed-unmerged Opus 5.5 draft on current KITT main. No paid capacity without explicit approval.",
       "source_ref": "https://github.com/tsrnc2/project-control-center/issues/85",
-      "updated_at": "2026-10-15T05:21:30Z"
+      "updated_at": "2026-11-01T17:34:00Z"
     },
     {
       "id": "kwh-detail-authored-transform-review-20261020",
@@ -10419,6 +10421,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-11-01T17:34:00Z",
+      "type": "BLOCKER_UPDATE",
+      "project_id": "kitt",
+      "task_id": "PCC-KITT-20261014-ACTIONS-CAPACITY-RECOVERY",
+      "summary": "November 1 no-cost reset check still produced zero-step KITT CI/native jobs. PR #140 is closed unmerged; recover its Opus 5.5 candidate on current main while account/admin runner-capacity diagnosis continues."
+    },
     {
       "at": "2026-10-21T19:52:03.345027+00:00",
       "type": "TASK_BLOCKED",
