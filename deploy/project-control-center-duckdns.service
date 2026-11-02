@@ -1,0 +1,21 @@
+[Unit]
+Description=Refresh projectcontrolcenter.duckdns.org
+After=network-online.target
+Wants=network-online.target
+ConditionPathExists=/etc/project-control-center/duckdns-token
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/libexec/project-control-center/duckdns-update projectcontrolcenter
+DynamicUser=yes
+LoadCredential=duckdns_token:/etc/project-control-center/duckdns-token
+NoNewPrivileges=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectHome=yes
+ProtectSystem=strict
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+LockPersonality=yes
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6

@@ -1,0 +1,12 @@
+[Unit]
+Description=Refresh Project Control Center DuckDNS record
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=5min
+RandomizedDelaySec=30s
+Persistent=true
+Unit=project-control-center-duckdns.service
+
+[Install]
+WantedBy=timers.target
