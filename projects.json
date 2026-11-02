@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-14T13:40:00-07:00",
+  "updated_at": "2026-11-01T22:12:00-08:00",
   "projects": [
     {
       "id": "kitt",
@@ -206,6 +206,13 @@
         "safe-native-tooling-course"
       ],
       "status": "v2.3.0 merged to PersonalLessons main; internal formal review rounds 1-2 passed; independent acceptance and hosted CI finalization remain tracked gates"
+    },
+    {
+      "id": "kitt-llm-model",
+      "name": "KITT LLM Model",
+      "lifecycle": "ACTIVE-CHILD",
+      "class": "SHARED-COMPONENT",
+      "parent_project_id": "kitt"
     }
   ]
 }
