@@ -6,6 +6,8 @@ on:
     paths:
       - 'index.html'
       - 'assets/**'
+      - 'prompts.json'
+      - 'downloads/prompts/**'
       - 'state.json'
       - 'projects.json'
       - 'schema/**'

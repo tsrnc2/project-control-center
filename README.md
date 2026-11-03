@@ -49,7 +49,9 @@ The dashboard recognizes `[REVIEW]` issues without depending on GitHub Actions o
 
 ## Prompt downloads
 
-The dashboard includes a **Prompts** tab backed by `prompts.json`. The catalog does not duplicate prompt bodies in this public tracker; it points at an immutable revision of the canonical KITT `control-plane/prompts/` bundle and exposes direct download plus source links. When the canonical prompt bundle changes, update the pinned revision and entries in `prompts.json` by reviewed PR.
+The dashboard includes a **Prompts** tab backed by `prompts.json`. Canonical editable ownership remains in the private KITT `control-plane/prompts/` bundle at the immutable source revision recorded by the catalog. The public site serves only the reviewed, read-only distribution copies under `downloads/prompts/`.
+
+`downloads/prompts/manifest.json` binds each public file to its canonical KITT source path, source Git blob SHA, SHA-256 digest, and byte size. The public copies must never be edited independently; update them only through a reviewed synchronization from a newly accepted KITT revision.
 
 ## Public data boundary
 
