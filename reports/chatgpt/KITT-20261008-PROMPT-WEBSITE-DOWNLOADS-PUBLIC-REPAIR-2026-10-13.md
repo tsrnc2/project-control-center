@@ -41,7 +41,7 @@ Created:
 
 Updated:
 
-- `prompts.json` with six same-origin public download URLs, public source-view URLs, source revision/path, Git blob identities, SHA-256 digests, and byte sizes;
+- `prompts.json` with six same-origin public download URLs, public source-view URLs, source revision/path, Git blob identities, and SHA-256 digests; byte sizes are recorded in `downloads/prompts/manifest.json`;
 - `README.md` with the private-canonical/public-distribution contract.
 
 The exact pre-trigger-repair candidate was PR #75 head `ba4ba1c0022a9dc977c756cdf90efc5f27fdcd75`.
@@ -131,3 +131,13 @@ Before the child task can close:
 6. release only the child task's KITT lease and public live lock.
 
 The parent task remains **BLOCKED** after the child repair until an independent review passes, the PR is merged normally, Pages publishes the merged revision, and all six downloads are verified anonymously.
+
+## Bounded D1/D2 remediation — 2026-11-03
+
+- D1: all six catalog `source_url` links now pin public artifact commit `b65f8ab4eae07135eb6bdc6bdbcc052a6c509c1c` instead of mutable `main`. These public source views retain the six recorded source Git blob identities.
+- D1 notice correction: the prompt-library notice now explains that same-origin download URLs can change in future reviewed deployments. Immutable canonical provenance and manifest hashes identify the current bytes; the site route itself is not immutable.
+- D2: the original implementation summary now correctly attributes byte sizes to `downloads/prompts/manifest.json`, not `prompts.json`.
+- Scope is limited to the catalog, one existing notice in `index.html`, and this report. No prompt artifact bytes, workflow, script, style, authentication, permissions, or deployment settings changed.
+- Earlier hosted checks and external advisory comments are bound to the preceding `b65f8ab4eae07135eb6bdc6bdbcc052a6c509c1c` candidate and do not accept this changed candidate. Fresh exact-head CI and review evidence are required. Reviewer eligibility, formal non-author approval, normal integration, and post-merge anonymous download checks remain separate.
+- External Drive-link access-control disposition is unresolved by this repair. No permission change or access claim is made. No merge or deployment is claimed.
+- Author validation executed on a complete, hash-verified 60-file snapshot plus this three-path delta: six prompt Git blob/SHA-256/byte checks, six immutable public source-view links, unchanged same-origin routes, exact one-notice UI change, corrected report claim, full `scripts/validate_tracker.py` (24 projects, 1 snapshot task), and `node --check assets/app.js` all passed. These are author checks, not independent acceptance.
