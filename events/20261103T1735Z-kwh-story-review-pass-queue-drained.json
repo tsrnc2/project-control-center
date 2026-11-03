@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "event_type": "KWH_STORY_REVIEW_PASS_AND_PR_QUEUE_DRAIN",
+  "project_id": "kludge-wagon-haywire",
+  "at": "2026-11-03T17:35:00Z",
+  "canonical_source": "tsrnc2/kitt/control-plane",
+  "summary": "PR486 story-location SLR-01 successor passed exact technical design review, support-only PR829 closed unmerged, and fly-by-wire-c now has zero open pull requests. Story canon remains held solely for owner creative approval.",
+  "task_states": [
+    {
+      "task_id": "KWH-STORY-LOCATIONS-REVIEW-PR486-R1",
+      "state": "DONE",
+      "verdict": "PASS_TECHNICAL_DESIGN_ONLY"
+    },
+    {
+      "task_id": "KWH-STORY-LOCATIONS-DESIGN",
+      "state": "BLOCKED",
+      "technical_independent_acceptance": true,
+      "owner_creative_approval": false,
+      "owner_issue": 250
+    },
+    {
+      "task_id": "KWH-20261030-OPEN-PR-INTEGRATION-QUEUE",
+      "state": "DONE",
+      "open_pull_requests": 0,
+      "main": "a92914ce6ed3a8840b7ea91b334859581b299978"
+    }
+  ],
+  "evidence": [
+    "https://github.com/tsrnc2/fly-by-wire-c/issues/786",
+    "https://github.com/tsrnc2/fly-by-wire-c/pull/829",
+    "https://github.com/tsrnc2/kitt/issues/250",
+    "reports/chatgpt/story-locations-review-pr486-r1-20261103/REPORT.md",
+    "reports/chatgpt/story-locations-review-pr486-r1-20261103/tests.txt"
+  ],
+  "preserved": [
+    "No owner creative decision was inferred.",
+    "No physical placement, runtime/MCU/physics, deployment, release or store action was authorized.",
+    "Downstream Byway/location promotion remains held."
+  ],
+  "canonical_event": "https://github.com/tsrnc2/kitt/blob/main/control-plane/events/20261103T1735Z-KWH-story-review-pass-queue-drained.json",
+  "refresh_note": "Canonical KITT records are authoritative; the generated live snapshot should incorporate this event on normal refresh."
+}
