@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-11-03T04:21:00Z",
+    "generated_at": "2026-11-03T04:24:45Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-11-03T04:21:00Z"
@@ -6121,8 +6121,8 @@
       "priority": "P2",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-17T18:00:26.707Z",
-      "next_action": "Dependency-waiting planning assignment: verify accepted upstream design/technical gates, then promote to canonical KITT task and claim/lease before implementing.",
+      "updated_at": "2026-11-03T04:24:45Z",
+      "next_action": "Wait for PR486 technical review PASS and owner creative approval before promotion/claim.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "epic_id": "KWH-E5-BYWAY-ISLAND",
@@ -10094,15 +10094,19 @@
     },
     {
       "project_id": "kludge-wagon-haywire",
-      "title": "KWH STORY LOCATIONS REVIEW PR486 R1",
-      "priority": "P2",
+      "title": "Story locations — exact PR486 successor review",
+      "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-31T23:43:40Z",
+      "updated_at": "2026-11-03T04:24:45Z",
       "id": "KWH-STORY-LOCATIONS-REVIEW-PR486-R1",
-      "state": "READY",
-      "next_action": "Distinct reviewer tests final PR486 head and landed merge; technical verdict does not supply owner creative approval.",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/786"
+      "state": "BLOCKED",
+      "next_action": "Restore Actions runner/admission or provide another exact-landed executor; rerun technical review. Then obtain separate owner creative approval.",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/786",
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "blocker_ref": "https://github.com/tsrnc2/kitt/issues/623",
+      "mirror_kind": "CANONICAL_TASK"
     },
     {
       "id": "KWH-MKT-CAPSULE-HEADER-REVIEW",
@@ -11460,6 +11464,13 @@
       "project_id": "kludge-wagon-haywire",
       "task_id": "KWH-BYWAY-02-LOCATION-SCHEMA",
       "summary": "Byway construction remains WAITING. PR417 and PR486 are merged design artifacts but not fully accepted. PR764 review is blocked by exact-head execution infrastructure; Actions support run 41253336678 failed pre-runner. Fresh PR486 review #786 is READY; owner creative approval remains open."
+    },
+    {
+      "at": "2026-11-03T04:24:45Z",
+      "type": "REVIEW_BLOCKED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-STORY-LOCATIONS-REVIEW-PR486-R1",
+      "summary": "PR486 source review found only intended SLR-01 repair, but GitHub Actions run 41577354647 failed pre-runner on attempts 1-3. No technical PASS issued; owner creative approval remains separate. Byway #403 stays WAITING."
     }
   ],
   "updated_at": "2026-11-03T04:21:00Z"
