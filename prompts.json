@@ -9,7 +9,7 @@
     "task_id": "KITT-20261008-PROMPT-CANONICALIZATION",
     "pull_request": "https://github.com/tsrnc2/kitt/pull/109",
     "visibility": "private",
-    "note": "Canonical editable source. Public downloads are vetted immutable distribution copies with matching source blob SHAs."
+    "note": "Canonical editable source. The current public copies match the pinned source blob SHAs. Commit-pinned source views are immutable; same-origin download routes may serve different bytes after reviewed updates."
   },
   "distribution": {
     "repository": "tsrnc2/project-control-center",

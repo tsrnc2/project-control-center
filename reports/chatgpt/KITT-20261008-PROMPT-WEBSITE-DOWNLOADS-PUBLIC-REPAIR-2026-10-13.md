@@ -21,7 +21,7 @@ During the release-gate pass, a second defect was found: `.github/workflows/page
 
 - Canonical editable source: private `tsrnc2/kitt@03bcbae32e4ea28c8fa0a87c072b6cbfefb1bc5b`, path `control-plane/prompts/`.
 - Public read-only distribution: `tsrnc2/project-control-center`, path `downloads/prompts/`.
-- Public catalog: `prompts.json` with same-origin download and source-view paths.
+- Public catalog: `prompts.json` with same-origin download paths and commit-pinned GitHub source-view links.
 - KITT visibility remains private.
 - Project Control Center visibility remains public.
 - No credentials, authentication policy, private logs, or unrelated KITT files are included.
