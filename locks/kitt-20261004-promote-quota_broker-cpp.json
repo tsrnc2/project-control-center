@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "project_id": "kitt",
+  "task_id": "kitt-20261004-promote-quota_broker-cpp",
+  "agent_id": "kitt-jr-sol-quota-reserve-prereq-20261103",
+  "lock_token": "kitt-jr-sol-quota-reserve-prereq-20261103-mw11gkjz",
+  "acquired_at": "2026-11-03T18:46:03.791Z",
+  "heartbeat_at": "2026-11-03T18:46:03.791Z",
+  "expires_at": "2026-11-03T20:45:19.935Z",
+  "run_reference": "quota-reserve-prereq-20261103"
+}
