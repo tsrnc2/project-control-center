@@ -5,10 +5,10 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-11-01T17:40:00Z",
+    "generated_at": "2026-11-03T04:21:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
-    "updated_at": "2026-11-01T17:40:00Z"
+    "updated_at": "2026-11-03T04:21:00Z"
   },
   "projects": [
     {
@@ -2831,18 +2831,20 @@
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-11-01T17:38:00Z",
-      "next_action": "Branding/provenance review completed with REVISE: redesign vehicle front/body to remove vertical-slot grille / recognizable Jeep-family styling cues, then re-render and re-review. Human approval and legal clearance remain absent.",
+      "updated_at": "2026-11-03T04:21:00Z",
+      "next_action": "Repository asset repaired and deployed to fly-by-wire-c main via PR #828 / merge a92914ce6ed3a8840b7ea91b334859581b299978. Steamworks/store publication and legal clearance remain separate.",
       "owner_agent": null,
       "human_owner": "Jobo",
       "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-MKT-CAPSULE-HEADER.json",
       "claimed_at": null,
       "claim_heartbeat_at": null,
       "canonical_task_blob": "9b6a007291e36373d8be3a7fc3de3e7f19c1bc8a",
-      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/481",
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/828",
       "completed_execution_owner": "codex-waypoint-capsule-draft-20261020",
       "human_approval_required": true,
-      "store_publication": false
+      "store_publication": false,
+      "deployed_revision": "a92914ce6ed3a8840b7ea91b334859581b299978",
+      "legal_clearance": false
     },
     {
       "id": "KWH-MKT-CAPSULE-SMALL",
@@ -10120,6 +10122,41 @@
       "legal_clearance": false,
       "owner_approval": false,
       "next_action": "Separate art repair: preserve layout/title/background, redesign vehicle front/body to remove vertical-slot grille/recognizable Jeep-family styling cues, re-render exact successor and route for fresh branding review. No Steamworks publication."
+    },
+    {
+      "id": "KWH-MKT-CAPSULE-HEADER-REVIEW-R2",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Review repaired 920x430 Steam header capsule",
+      "state": "DONE",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "updated_at": "2026-11-03T04:21:00Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-MKT-CAPSULE-HEADER-REVIEW-R2.json",
+      "technical_verdict": "PASS",
+      "independence": "CORRELATED",
+      "legal_clearance": false,
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/124#issuecomment-6595298546",
+      "next_action": "Review gate complete for repository deployment; no Steamworks/store authority granted."
+    },
+    {
+      "id": "KWH-MKT-CAPSULE-HEADER-REPAIR",
+      "project_id": "kludge-wagon-haywire",
+      "title": "Repair Steam header capsule vehicle branding",
+      "state": "DONE",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "owner_agent": null,
+      "human_owner": "Jobo",
+      "updated_at": "2026-11-03T04:21:00Z",
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-MKT-CAPSULE-HEADER-REPAIR.json",
+      "canonical_task_blob": "8ff672a3befff2de4d1d52fca36a98ed58acaba0",
+      "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/828",
+      "deployed_revision": "a92914ce6ed3a8840b7ea91b334859581b299978",
+      "next_action": "DONE in repository. External store publication remains separate."
     }
   ],
   "blockers": [
@@ -10443,6 +10480,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-11-03T04:21:00Z",
+      "type": "REPOSITORY_DEPLOYED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-MKT-CAPSULE-HEADER-REPAIR",
+      "summary": "Repaired 920x430 header capsule passed successor branding review and merged to fly-by-wire-c main at a92914ce6ed3a8840b7ea91b334859581b299978. Steamworks publication not performed."
+    },
     {
       "at": "2026-11-01T17:40:00Z",
       "type": "CANDIDATE_RECOVERED_BLOCKED_VALIDATION",
@@ -11418,5 +11462,5 @@
       "summary": "Byway construction remains WAITING. PR417 and PR486 are merged design artifacts but not fully accepted. PR764 review is blocked by exact-head execution infrastructure; Actions support run 41253336678 failed pre-runner. Fresh PR486 review #786 is READY; owner creative approval remains open."
     }
   ],
-  "updated_at": "2026-10-30T20:02:31Z"
+  "updated_at": "2026-11-03T04:21:00Z"
 }
