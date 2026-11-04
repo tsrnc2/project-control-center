@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-11-04T01:07:00Z",
+    "generated_at": "2026-11-04T14:41:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-11-03T04:21:00Z"
@@ -10189,6 +10189,34 @@
       "owner_agent": null,
       "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/837",
       "next_action": "Distinct repository-capable Godot reviewer claims/leases and executes exact PR836 head 8ab0f6f816c519b97f183c2512b7a3252e234a98; publish source-bound PASS/PASS-WITH-FIXES/REVISE/FAIL with renderer evidence."
+    },
+    {
+      "id": "KWH-EP01-DEPOT-CROSSING-EPISODE-R1",
+      "project_id": "kludge-wagon-haywire",
+      "human_owner": "Jobo",
+      "title": "Expand Bodie depot crossing into a full Episode 1 set-piece",
+      "state": "BLOCKED",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-11-04T14:40:00Z",
+      "owner_agent": "chatgpt-kwh-ep1-crossing-20261104",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/839",
+      "next_action": "Full Episode 1 source candidate is complete: PR #839 exact head 485411eb0fd99a1237f52bc5bf8b43107da0c58e, playable freeze b0e93d8fbcb1d3c20836fb3ac5e957097c301a20. Await exact-head episode review #840 plus focused crossing review #837 before integration. Final crossing audio/render remain separate release gates."
+    },
+    {
+      "id": "KWH-EP01-DEPOT-CROSSING-EPISODE-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "human_owner": "Jobo",
+      "title": "Independently execute/review full Episode 1 depot-crossing PR839",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-11-04T14:39:00Z",
+      "owner_agent": null,
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/840",
+      "next_action": "Distinct repository-capable reviewer executes fast contract, generator, full 15-mission browser story with real C, Godot crossing regressions/render views and resume/fail-safe checks on exact PR839 head."
     }
   ],
   "blockers": [
@@ -10512,6 +10540,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-11-04T14:40:00Z",
+      "type": "AUTHOR_CANDIDATE_BLOCKED_REVIEW_READY",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-EP01-DEPOT-CROSSING-EPISODE-R1",
+      "summary": "Full Episode 1 Bodie depot-crossing candidate published as stacked draft PR #839 (485411eb), playable code/data freeze b0e93d8f. 15 missions/134 lines, real C field diagnostic, live train cycle, safe crossing, resume and production episode package authored. Episode review R1 READY via issue #840; parent crossing review #837 remains separate; author lease released."
+    },
     {
       "at": "2026-11-04T01:06:00Z",
       "type": "AUTHOR_CANDIDATE_BLOCKED_REVIEW_READY",
