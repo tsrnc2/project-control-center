@@ -5,7 +5,7 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-11-03T04:24:45Z",
+    "generated_at": "2026-11-04T01:07:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
     "updated_at": "2026-11-03T04:21:00Z"
@@ -10161,6 +10161,34 @@
       "evidence_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/828",
       "deployed_revision": "a92914ce6ed3a8840b7ea91b334859581b299978",
       "next_action": "DONE in repository. External store publication remains separate."
+    },
+    {
+      "id": "KWH-RAIL-CROSSING-20261024",
+      "project_id": "kludge-wagon-haywire",
+      "human_owner": "Jobo",
+      "title": "Add operating depot road railway crossing",
+      "state": "BLOCKED",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-11-04T01:06:00Z",
+      "owner_agent": "chatgpt-kwh-rail-crossing-20261103",
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/pull/836",
+      "next_action": "Author source candidate is complete in draft PR #836 at 8ab0f6f816c519b97f183c2512b7a3252e234a98. Await KWH-RAIL-CROSSING-REVIEW-R1 / issue #837 for Godot 4.3 parser, regression, actual renderer open/closed crossing views and runtime verdict before merge/deployment."
+    },
+    {
+      "id": "KWH-RAIL-CROSSING-REVIEW-R1",
+      "project_id": "kludge-wagon-haywire",
+      "human_owner": "Jobo",
+      "title": "Independently execute and inspect exact PR836 depot railway crossing",
+      "state": "READY",
+      "priority": "P1",
+      "claimed_by": null,
+      "claim_expires_at": null,
+      "updated_at": "2026-11-04T01:05:00Z",
+      "owner_agent": null,
+      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/837",
+      "next_action": "Distinct repository-capable Godot reviewer claims/leases and executes exact PR836 head 8ab0f6f816c519b97f183c2512b7a3252e234a98; publish source-bound PASS/PASS-WITH-FIXES/REVISE/FAIL with renderer evidence."
     }
   ],
   "blockers": [
@@ -10484,6 +10512,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-11-04T01:06:00Z",
+      "type": "AUTHOR_CANDIDATE_BLOCKED_REVIEW_READY",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-RAIL-CROSSING-20261024",
+      "summary": "Operating Bodie depot railway crossing source candidate published as draft PR #836 (8ab0f6f8). Author task blocked only on repository-capable Godot/runtime review; KWH-RAIL-CROSSING-REVIEW-R1 READY via issue #837; execution lease released."
+    },
     {
       "at": "2026-11-03T04:21:00Z",
       "type": "REPOSITORY_DEPLOYED",
