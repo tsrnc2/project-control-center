@@ -1,0 +1,9 @@
+{
+  "project_id": "kitt",
+  "task_id": "KITT-20261107-ARTIFACT-SERVICES-REPAIR-R1",
+  "agent_id": "codex-guardian-artifact-repair-20261107",
+  "lock_token": "guardian-repair-swvuam1iyv",
+  "acquired_at": "2026-11-07T14:01:57Z",
+  "heartbeat_at": "2026-11-07T14:01:57Z",
+  "expires_at": "2026-11-07T16:01:57Z"
+}
