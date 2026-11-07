@@ -1,0 +1,10 @@
+{
+  "project_id": "kitt",
+  "task_id": "KITT-20261106-REVIEW-ARTIFACT-SERVICES-R2",
+  "agent_id": "codex-guardian-artifact-assessment-20261107",
+  "lock_token": "guardian-artifact-20261107-u9b4vvvbzqd",
+  "acquired_at": "2026-11-07T04:33:30Z",
+  "heartbeat_at": "2026-11-07T04:33:30Z",
+  "expires_at": "2026-11-07T06:33:10Z",
+  "run_reference": "guardian-artifact-assessment-20261107"
+}
