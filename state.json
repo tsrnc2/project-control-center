@@ -5,10 +5,10 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-11-04T14:41:00Z",
+    "generated_at": "2026-11-10T19:43:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
-    "updated_at": "2026-11-10T10:54:47.258Z"
+    "updated_at": "2026-11-10T19:43:00Z"
   },
   "projects": [
     {
@@ -2945,15 +2945,18 @@
       "id": "KWH-MKT-TRAILER-EDIT",
       "project_id": "kludge-wagon-haywire",
       "title": "Steam trailer edit 60-90s (1080p)",
-      "state": "READY",
+      "state": "BLOCKED",
       "priority": "P1",
       "claimed_by": null,
       "claim_expires_at": null,
-      "updated_at": "2026-10-14T01:15:54Z",
-      "next_action": "Marketing. Acceptance: MP4 1080p 60-90s, only licensed audio. Unclaimed.",
+      "updated_at": "2026-11-10T19:43:00Z",
+      "next_action": "Supply a source-bound real gameplay capture bundle for the approved 14-shot storyboard from a corrected accepted runtime/package. Each clip must record exact build/candidate, shot ID, resolution/framerate and audio source/rights. Then resume the same trailer-edit task; do not substitute generated gameplay.",
       "owner_agent": null,
       "human_owner": "Jobo",
-      "source_ref": "https://github.com/tsrnc2/fly-by-wire-c/issues/131"
+      "source_ref": "https://github.com/tsrnc2/kitt/blob/main/control-plane/tasks/kludge-wagon-haywire/KWH-MKT-TRAILER-EDIT.json",
+      "claim_heartbeat_at": null,
+      "canonical_task_blob": "a1a6acda1d621bfd66d3db47a22960afa995cab5",
+      "blocker_issue": "https://github.com/tsrnc2/kitt/issues/753"
     },
     {
       "id": "KWH-MKT-GIFS",
@@ -10565,6 +10568,13 @@
   ],
   "activity": [
     {
+      "at": "2026-11-10T19:43:00Z",
+      "type": "TASK_BLOCKED",
+      "project_id": "kludge-wagon-haywire",
+      "task_id": "KWH-MKT-TRAILER-EDIT",
+      "summary": "Trailer edit preflight found no sufficient source-bound gameplay footage in the complete current main tree. Blocker #753 records exact capture requirements; generated gameplay substitution is prohibited."
+    },
+    {
       "at": "2026-11-04T14:40:00Z",
       "type": "AUTHOR_CANDIDATE_BLOCKED_REVIEW_READY",
       "project_id": "kludge-wagon-haywire",
@@ -11567,5 +11577,5 @@
       "summary": "PR486 source review found only intended SLR-01 repair, but GitHub Actions run 41577354647 failed pre-runner on attempts 1-3. No technical PASS issued; owner creative approval remains separate. Byway #403 stays WAITING."
     }
   ],
-  "updated_at": "2026-11-05T03:43:59.043102+00:00"
+  "updated_at": "2026-11-10T19:43:00Z"
 }
