@@ -1,9 +1,0 @@
-{
-  "task_id": "LRP-20261110-REVIEW-STORAGE-ACCOUNTING-SKILL-R1",
-  "project_id": "llm-reasoning-project",
-  "agent_id": "guardian-codex-independent-reviewer-569",
-  "lock_token": "review569-2026-11-10T10:49:38.078Z",
-  "acquired_at": "2026-11-10T10:49:38.078Z",
-  "heartbeat_at": "2026-11-10T10:49:38.078Z",
-  "expires_at": "2026-11-10T11:49:38.079Z"
-}
