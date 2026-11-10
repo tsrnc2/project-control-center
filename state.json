@@ -5,10 +5,10 @@
     "repo": "tsrnc2/project-control-center",
     "visibility": "public",
     "data_branch": "live",
-    "generated_at": "2026-11-10T19:43:00Z",
+    "generated_at": "2026-11-10T19:50:00Z",
     "refresh_hint_seconds": 120,
     "source_note": "Sanitized coordination state. Fly By Wire C / Kludge Wagon Haywire is owner-designated P0 rank-1 execution priority; Pity Please packaging continues in parallel. Task claims are durable assignment; execution locks are acquired only when work starts.",
-    "updated_at": "2026-11-10T19:43:00Z"
+    "updated_at": "2026-11-10T19:50:00Z"
   },
   "projects": [
     {
@@ -5819,10 +5819,10 @@
       "owner_agent": "Portfolio Delegation Manager",
       "delegated_to": "Portfolio Delegation Manager",
       "human_owner": "Jobo",
-      "updated_at": "2026-11-01T17:40:00Z",
+      "updated_at": "2026-11-10T19:50:00Z",
       "source_ref": "https://github.com/tsrnc2/project-control-center/issues/85",
-      "next_action": "PR #602 at exact head 9af84e9501c556e6609da7be3256cb171f6cef16 supersedes closed PR #140 and is mergeable. Its CI/native jobs 41332425549/41332425635 still fail before runner allocation. Account admin must verify post-reset Actions minutes/storage/$0 budget/runner eligibility or escalate current run IDs to GitHub Support. When executable capacity returns, rerun PR #602 exact head and hand real logs to independent acceptance. No paid capacity.",
-      "resume_not_before": null,
+      "next_action": "November included Actions capacity is exhausted again (2,000/2,000 on 2026-11-01); do not burn hosted retries. Advance source reviews PCC #263 (PR #606 head 95acea3ec3e942a70eb34715cfcbf2c9a8b9509f) and PCC #264 (PR #602 head 76fbac791d742b58765e7a75b140cf993785ec40). On or after 2026-12-01, or earlier only if no-cost capacity is confirmed restored, rerun exact accepted heads with real runner steps/logs. No paid capacity.",
+      "resume_not_before": "2026-12-01",
       "spending_authorized": false,
       "downstream_refs": [
         "https://github.com/tsrnc2/kitt/pull/140",
@@ -5833,7 +5833,10 @@
         "https://github.com/tsrnc2/kitt/actions/runs/41332031346",
         "https://github.com/tsrnc2/kitt/pull/602",
         "https://github.com/tsrnc2/kitt/actions/runs/41332425549",
-        "https://github.com/tsrnc2/kitt/actions/runs/41332425635"
+        "https://github.com/tsrnc2/kitt/actions/runs/41332425635",
+        "https://github.com/tsrnc2/kitt/pull/606",
+        "https://github.com/tsrnc2/project-control-center/issues/263",
+        "https://github.com/tsrnc2/project-control-center/issues/264"
       ]
     },
     {
@@ -10487,10 +10490,10 @@
       "task_id": "PCC-KITT-20261014-ACTIONS-CAPACITY-RECOVERY",
       "state": "OPEN",
       "severity": "HIGH",
-      "summary": "November 1 post-reset and PR #602 exact-head checks still fail before runner allocation. The successor Opus 5.5 candidate exists and is mergeable, but hosted validation cannot execute.",
-      "required_next_action": "Admin verifies current Actions minutes/storage/$0 budget and runner eligibility or escalates PR #602 run IDs 41332425549/41332425635 to GitHub Support. Once runner execution returns, validate PR #602 exact head and route passing evidence to independent acceptance. No paid capacity without explicit approval.",
+      "summary": "Shared GitHub Actions free-tier capacity reset on November 1 but all 2,000 included minutes were exhausted again the same day. Hosted KITT runners remain unavailable; source review can proceed independently on PR #606/PCC #263 and PR #602/PCC #264.",
+      "required_next_action": "Complete PCC #263/#264 source reviews now. Preserve $0 spending boundary. On or after 2026-12-01, or earlier confirmed no-cost restoration, run exact accepted candidate heads through real hosted CI/native steps. If runner allocation still fails with available capacity, escalate fresh run IDs to GitHub Support.",
       "source_ref": "https://github.com/tsrnc2/project-control-center/issues/85",
-      "updated_at": "2026-11-01T17:40:00Z"
+      "updated_at": "2026-11-10T19:50:00Z"
     },
     {
       "id": "kwh-detail-authored-transform-review-20261020",
@@ -10567,6 +10570,13 @@
     }
   ],
   "activity": [
+    {
+      "at": "2026-11-10T19:50:00Z",
+      "type": "BLOCKER_RECONCILIATION",
+      "project_id": "kitt",
+      "task_id": "PCC-KITT-20261014-ACTIONS-CAPACITY-RECOVERY",
+      "summary": "Reconciled shared Actions capacity to December 1 reset after November quota was exhausted on reset day. Current source-review gates: PR #606/PCC #263 and PR #602/PCC #264; no paid retries authorized."
+    },
     {
       "at": "2026-11-10T19:43:00Z",
       "type": "TASK_BLOCKED",
