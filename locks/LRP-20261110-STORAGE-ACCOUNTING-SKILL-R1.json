@@ -1,9 +1,0 @@
-{
-  "project_id": "llm-reasoning-project",
-  "task_id": "LRP-20261110-STORAGE-ACCOUNTING-SKILL-R1",
-  "agent_id": "codex-guardian-storage-maintainer",
-  "lock_token": "guardian-skill-xi9j39th8al",
-  "acquired_at": "2026-11-10T08:47:33Z",
-  "heartbeat_at": "2026-11-10T08:47:33Z",
-  "expires_at": "2026-11-10T10:47:33Z"
-}
