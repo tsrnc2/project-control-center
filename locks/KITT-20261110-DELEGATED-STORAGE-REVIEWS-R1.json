@@ -1,9 +1,0 @@
-{
-  "project_id": "kitt",
-  "task_id": "KITT-20261110-DELEGATED-STORAGE-REVIEWS-R1",
-  "agent_id": "codex-guardian-storage-maintainer",
-  "lock_token": "guardian-integration-t96emp7an2",
-  "acquired_at": "2026-11-10T10:52:27Z",
-  "heartbeat_at": "2026-11-10T10:52:27Z",
-  "expires_at": "2026-11-10T12:51:00Z"
-}
